@@ -1,0 +1,3586 @@
+TaskId	RecycleVersion	AccessCode	ClientModify	_belong_system	_remark
+
+0	0	0	0	old system	NhiÖm vô biÕn l­îng thu håi
+1	0	0	0	old system	KD_TASK_CURRENT_VERSION + 1
+2	0	0	0	old system	ThiÕt lËp RecycleVersion t­¬ng øng víi nhiÖm vô biÕn l­îng muèn thu håi
+3	0	0	0	old system	
+4	0	0	0	old system	
+5	0	0	0	old system	
+6	0	0	0	old system	
+7	0	0	0	old system	
+8	0	0	0	old system	
+9	0	0	0	old system	
+10	0	0	0	old system	
+11	0	0	0	old system	
+12	0	0	0	old system	
+13	0	0	0	old system	
+14	0	0	0	old system	
+15	0	0	0	old system	
+16	0	0	0	old system	
+17	0	0	0	old system	
+18	0	0	0	old system	
+19	0	0	0	old system	
+20	0	0	0	old system	
+21	0	0	0	old system	
+22	0	0	0	old system	
+23	0	0	0	old system	
+24	0	0	0	old system	
+25	0	0	0	old system	
+26	0	0	0	old system	
+27	0	0	0	old system	
+28	0	0	0	old system	
+29	0	0	0	old system	
+30	0	0	0	old system	
+31	0	0	0	old system	
+32	0	0	0	old system	
+33	0	0	0	old system	
+34	0	0	0	old system	
+35	0	0	0	old system	
+36	0	0	0	old system	
+37	0	0	0	old system	
+38	0	0	0	old system	
+39	0	0	0	old system	
+40	0	0	0	old system	
+41	0	0	0	old system	
+42	0	0	0	old system	
+43	0	0	0	old system	
+44	0	0	0	old system	
+45	0	0	0	old system	
+46	0	0	0	old system	
+47	0	0	0	old system	
+48	0	0	0	old system	
+49	0	0	0	old system	
+50	0	0	0	old system	
+51	0	0	0	old system	
+52	0	0	0	old system	
+53	0	0	0	old system	
+54	0	0	0	old system	
+55	0	0	0	old system	
+56	0	0	0	old system	
+57	0	0	0	old system	
+58	0	0	0	old system	
+59	0	0	0	old system	
+60	0	0	0	old system	
+61	0	0	0	old system	
+62	0	0	0	old system	
+63	0	0	0	old system	
+64	0	0	0	old system	
+65	0	0	0	old system	
+66	0	0	0	old system	
+67	0	0	0	old system	
+68	0	0	0	old system	
+69	0	0	0	old system	
+70	0	0	0	old system	
+71	0	0	0	old system	
+72	0	0	0	old system	
+73	0	0	0	old system	
+74	0	0	0	old system	
+75	0	0	0	old system	
+76	0	0	0	old system	
+77	0	0	0	old system	
+78	0	0	0	old system	
+79	0	0	0	old system	
+80	0	0	0	old system	
+81	0	0	0	old system	
+82	0	0	0	old system	
+83	0	0	0	old system	
+84	0	0	0	old system	
+85	0	0	0	old system	
+86	0	0	0	old system	
+87	0	0	0	old system	
+88	0	0	0	old system	
+89	0	0	0	old system	
+90	0	0	0	old system	
+91	0	0	0	old system	
+92	0	0	0	old system	
+93	0	0	0	old system	
+94	0	0	0	old system	
+95	0	0	0	old system	
+96	0	0	0	old system	
+97	0	0	0	old system	
+98	0	0	0	old system	
+99	0	0	0	old system	
+100	0	0	0	old system	
+101	0	0	0	old system	
+102	0	0	0	old system	
+103	0	0	0	old system	
+104	0	0	0	old system	
+105	0	0	0	old system	
+106	0	0	0	old system	
+107	0	0	0	old system	
+108	0	0	0	old system	
+109	0	0	0	old system	
+110	0	0	0	old system	
+111	0	0	0	old system	
+112	0	0	0	old system	
+113	0	0	0	old system	
+114	0	0	0	old system	
+115	0	0	0	old system	
+116	0	0	0	old system	
+117	0	0	0	old system	
+118	0	0	0	old system	
+119	0	0	0	old system	
+120	0	0	0	old system	
+121	0	0	0	old system	
+122	0	0	0	old system	
+123	0	0	0	old system	
+124	0	0	0	old system	
+125	0	0	0	old system	
+126	0	0	0	old system	
+127	0	0	0	old system	
+128	0	0	0	old system	
+129	0	0	0	old system	
+130	0	0	0	old system	
+131	0	0	0	old system	
+132	0	0	0	old system	
+133	0	0	0	old system	
+134	0	0	0	old system	
+135	0	0	0	old system	
+136	0	0	0	old system	
+137	0	0	0	old system	
+138	0	0	0	old system	
+139	0	0	0	old system	
+140	0	0	0	old system	
+141	0	0	0	old system	
+142	0	0	0	old system	
+143	0	0	0	old system	
+144	0	0	0	old system	
+145	0	0	0	old system	
+146	0	0	0	old system	
+147	0	0	0	old system	
+148	0	0	0	old system	
+149	0	0	0	old system	
+150	0	0	0	old system	
+151	0	0	0	old system	
+152	0	0	0	old system	
+153	0	0	0	old system	
+154	0	0	0	old system	
+155	0	0	0	old system	
+156	0	0	0	old system	
+157	0	0	0	old system	
+158	0	0	0	old system	
+159	0	0	0	old system	
+160	0	0	0	old system	
+161	0	0	0	old system	
+162	0	0	0	old system	
+163	0	0	0	old system	
+164	0	0	0	old system	
+165	0	0	0	old system	
+166	0	0	0	old system	
+167	0	0	0	old system	
+168	0	0	0	old system	
+169	0	0	0	old system	
+170	0	0	0	old system	
+171	0	0	0	old system	
+172	0	0	0	old system	
+173	0	0	0	old system	
+174	0	0	0	old system	
+175	0	0	0	old system	
+176	0	0	0	old system	
+177	0	0	0	old system	
+178	0	0	0	old system	
+179	0	0	0	old system	
+180	0	0	0	old system	
+181	0	0	0	old system	
+182	0	0	0	old system	
+183	0	0	0	old system	
+184	0	0	0	old system	
+185	0	0	0	old system	
+186	0	0	0	old system	
+187	0	0	0	old system	
+188	0	0	0	old system	
+189	0	0	0	old system	
+190	0	0	0	old system	
+191	0	0	0	old system	
+192	0	0	0	old system	
+193	0	0	0	old system	
+194	0	0	0	old system	
+195	0	0	0	old system	
+196	0	0	0	old system	
+197	0	0	0	old system	
+198	0	0	0	old system	
+199	0	0	0	old system	
+200	0	0	0	old system	
+201	0	0	0	old system	
+202	0	0	0	old system	
+203	0	0	0	old system	
+204	0	0	0	old system	
+205	0	0	0	old system	
+206	0	0	0	old system	
+207	0	0	0	old system	
+208	0	0	0	old system	
+209	0	0	0	old system	
+210	0	0	0	old system	
+211	0	0	0	old system	
+212	0	0	0	old system	
+213	0	0	0	old system	
+214	0	0	0	old system	
+215	0	0	0	old system	
+216	0	0	0	old system	
+217	0	0	0	old system	
+218	0	0	0	old system	
+219	0	0	0	old system	
+220	0	0	0	old system	
+221	0	0	0	old system	
+222	0	0	0	old system	
+223	0	0	0	old system	
+224	0	0	0	old system	
+225	0	0	0	old system	
+226	0	0	0	old system	
+227	0	0	0	old system	
+228	0	0	0	old system	
+229	0	0	0	old system	
+230	0	0	0	old system	
+231	0	0	0	old system	
+232	0	0	0	old system	
+233	0	0	0	old system	
+234	0	0	0	old system	
+235	0	0	0	old system	
+236	0	0	0	old system	
+237	0	0	0	old system	
+238	0	0	0	old system	
+239	0	0	0	old system	
+240	0	0	0	old system	
+241	0	0	0	old system	
+242	0	0	0	old system	
+243	0	0	0	old system	
+244	0	0	0	old system	
+245	0	0	0	old system	
+246	0	0	0	old system	
+247	0	0	0	old system	
+248	0	0	0	old system	
+249	0	0	0	old system	
+250	0	0	0	old system	
+251	0	0	0	old system	
+252	0	0	0	old system	
+253	0	0	0	old system	
+254	0	0	0	old system	
+255	0	0	0	old system	
+256	0	0	0	old system	
+257	0	0	0	old system	
+258	0	0	0	old system	
+259	0	0	0	old system	
+260	0	0	0	old system	
+261	0	0	0	old system	
+262	0	0	0	old system	
+263	0	0	0	old system	
+264	0	0	0	old system	
+265	0	0	0	old system	
+266	0	0	0	old system	
+267	0	0	0	old system	
+268	0	0	0	old system	
+269	0	0	0	old system	
+270	0	0	0	old system	
+271	0	0	0	old system	
+272	0	0	0	old system	
+273	0	0	0	old system	
+274	0	0	0	old system	
+275	0	0	0	old system	
+276	0	0	0	old system	
+277	0	0	0	old system	
+278	0	0	0	old system	
+279	0	0	0	old system	
+280	0	0	0	old system	
+281	0	0	0	old system	
+282	0	0	0	old system	
+283	0	0	0	old system	
+284	0	0	0	old system	
+285	0	0	0	old system	
+286	0	0	0	old system	
+287	0	0	0	old system	
+288	0	0	0	old system	
+289	0	0	0	old system	
+290	0	0	0	old system	
+291	0	0	0	old system	
+292	0	0	0	old system	
+293	0	0	0	old system	
+294	0	0	0	old system	
+295	0	0	0	old system	
+296	0	0	0	old system	
+297	0	0	0	old system	
+298	0	0	0	old system	
+299	0	0	0	old system	
+300	0	0	0	old system	
+301	0	0	0	old system	
+302	0	0	0	old system	
+303	0	0	0	old system	
+304	0	0	0	old system	
+305	0	0	0	old system	
+306	0	0	0	old system	
+307	0	0	0	old system	
+308	0	0	0	old system	
+309	0	0	0	old system	
+310	0	0	0	old system	
+311	0	0	0	old system	
+312	0	0	0	old system	
+313	0	0	0	old system	
+314	0	0	0	old system	
+315	0	0	0	old system	
+316	0	0	0	old system	
+317	0	0	0	old system	
+318	0	0	0	old system	
+319	0	0	0	old system	
+320	0	0	0	old system	
+321	0	0	0	old system	
+322	0	0	0	old system	
+323	0	0	0	old system	
+324	0	0	0	old system	
+325	0	0	0	old system	
+326	0	0	0	old system	
+327	0	0	0	old system	
+328	0	0	0	old system	
+329	0	0	0	old system	
+330	0	0	0	old system	
+331	0	0	0	old system	
+332	0	0	0	old system	
+333	0	0	0	old system	
+334	0	0	0	old system	
+335	0	0	0	old system	
+336	0	0	0	old system	
+337	0	0	0	old system	
+338	0	0	0	old system	
+339	0	0	0	old system	
+340	0	0	0	old system	
+341	0	0	0	old system	
+342	0	0	0	old system	
+343	0	0	0	old system	
+344	0	0	0	old system	
+345	0	0	0	old system	
+346	0	0	0	old system	
+347	0	0	0	old system	
+348	0	0	0	old system	
+349	0	0	0	old system	
+350	0	0	0	old system	
+351	0	0	0	old system	
+352	0	0	0	old system	
+353	0	0	0	old system	
+354	0	0	0	old system	
+355	0	0	0	old system	
+356	0	0	0	old system	
+357	0	0	0	old system	
+358	0	0	0	old system	
+359	0	0	0	old system	
+360	0	0	0	old system	
+361	0	0	0	old system	
+362	0	0	0	old system	
+363	0	0	0	old system	
+364	0	0	0	old system	
+365	0	0	0	old system	
+366	0	0	0	old system	
+367	0	0	0	old system	
+368	0	0	0	old system	
+369	0	0	0	old system	
+370	0	0	0	old system	
+371	0	0	0	old system	
+372	0	0	0	old system	
+373	0	0	0	old system	
+374	0	0	0	old system	
+375	0	0	0	old system	
+376	0	0	0	old system	
+377	0	0	0	old system	
+378	0	0	0	old system	
+379	0	0	0	old system	
+380	0	0	0	old system	
+381	0	0	0	old system	
+382	0	0	0	old system	
+383	0	0	0	old system	
+384	0	0	0	old system	
+385	0	0	0	old system	
+386	0	0	0	old system	
+387	0	0	0	old system	
+388	0	0	0	old system	
+389	0	0	0	old system	
+390	0	0	0	old system	
+391	0	0	0	old system	
+392	0	0	0	old system	
+393	0	0	0	old system	
+394	0	0	0	old system	
+395	0	0	0	old system	
+396	0	0	0	old system	
+397	0	0	0	old system	
+398	0	0	0	old system	
+399	0	0	0	old system	
+400	0	0	0	old system	
+401	0	0	0	old system	
+402	0	0	0	old system	
+403	0	0	0	old system	
+404	0	0	0	old system	
+405	0	0	0	old system	
+406	0	0	0	old system	
+407	0	0	0	old system	
+408	0	0	0	old system	
+409	0	0	0	old system	
+410	0	0	0	old system	
+411	0	0	0	old system	
+412	0	0	0	old system	
+413	0	0	0	old system	
+414	0	0	0	old system	
+415	0	0	0	old system	
+416	0	0	0	old system	
+417	0	0	0	old system	
+418	0	0	0	old system	
+419	0	0	0	old system	
+420	0	0	0	old system	
+421	0	0	0	old system	
+422	0	0	0	old system	
+423	0	0	0	old system	
+424	0	0	0	old system	
+425	0	0	0	old system	
+426	0	0	0	old system	
+427	0	0	0	old system	
+428	0	0	0	old system	
+429	0	0	0	old system	
+430	0	0	0	old system	
+431	0	0	0	old system	
+432	0	0	0	old system	
+433	0	0	0	old system	
+434	0	0	0	old system	
+435	0	0	0	old system	
+436	0	0	0	old system	
+437	0	0	0	old system	
+438	0	0	0	old system	
+439	0	0	0	old system	
+440	0	0	0	old system	
+441	0	0	0	old system	
+442	0	0	0	old system	
+443	0	0	0	old system	
+444	0	0	0	old system	
+445	0	0	0	old system	
+446	0	0	0	old system	
+447	0	0	0	old system	
+448	0	0	0	old system	
+449	0	0	0	old system	
+450	0	0	0	old system	
+451	0	0	0	old system	
+452	0	0	0	old system	
+453	0	0	0	old system	
+454	0	0	0	old system	
+455	0	0	0	old system	
+456	0	0	0	old system	
+457	0	0	0	old system	
+458	0	0	0	old system	
+459	0	0	0	old system	
+460	0	0	0	old system	
+461	0	0	0	old system	
+462	0	0	0	old system	
+463	0	0	0	old system	
+464	0	0	0	old system	
+465	0	0	0	old system	
+466	0	0	0	old system	
+467	0	0	0	old system	
+468	0	0	0	old system	
+469	0	0	0	old system	
+470	0	0	0	old system	
+471	0	0	0	old system	
+472	0	0	0	old system	
+473	0	0	0	old system	
+474	0	0	0	old system	
+475	0	0	0	old system	
+476	0	0	0	old system	
+477	0	0	0	old system	
+478	0	0	0	old system	
+479	0	0	0	old system	
+480	0	0	0	old system	
+481	0	0	0	old system	
+482	0	0	0	old system	
+483	0	0	0	old system	
+484	0	0	0	old system	
+485	0	0	0	old system	
+486	0	0	0	old system	
+487	0	0	0	old system	
+488	0	0	0	old system	
+489	0	0	0	old system	
+490	0	0	0	old system	
+491	0	0	0	old system	
+492	0	0	0	old system	
+493	0	0	0	old system	
+494	0	0	0	old system	
+495	0	0	0	old system	
+496	0	0	0	old system	
+497	0	0	0	old system	
+498	0	0	0	old system	
+499	0	0	0	old system	
+500	0	0	0	old system	
+501	0	0	0	old system	
+502	0	0	0	old system	
+503	0	0	0	old system	
+504	0	0	0	old system	
+505	0	0	0	old system	
+506	0	0	0	old system	
+507	0	0	0	old system	
+508	0	0	0	old system	
+509	0	0	0	old system	
+510	0	0	0	old system	
+511	0	0	0	old system	
+512	0	0	0	old system	
+513	0	0	0	old system	
+514	0	0	0	old system	
+515	0	0	0	old system	
+516	0	0	0	old system	
+517	0	0	0	old system	
+518	0	0	0	old system	
+519	0	0	0	old system	
+520	0	0	0	old system	
+521	0	0	0	old system	
+522	0	0	0	old system	
+523	0	0	0	old system	
+524	0	0	0	old system	
+525	0	0	0	old system	
+526	0	0	0	old system	
+527	0	0	0	old system	
+528	0	0	0	old system	
+529	0	0	0	old system	
+530	0	0	0	old system	
+531	0	0	0	old system	
+532	0	0	0	old system	
+533	0	0	0	old system	
+534	0	0	0	old system	
+535	0	0	0	old system	
+536	0	0	0	old system	
+537	0	0	0	old system	
+538	0	0	0	old system	
+539	0	0	0	old system	
+540	0	0	0	old system	
+541	0	0	0	old system	
+542	0	0	0	old system	
+543	0	0	0	old system	
+544	0	0	0	old system	
+545	0	0	0	old system	
+546	0	0	0	old system	
+547	0	0	0	old system	
+548	0	0	0	old system	
+549	0	0	0	old system	
+550	0	0	0	old system	
+551	0	0	0	old system	
+552	0	0	0	old system	
+553	0	0	0	old system	
+554	0	0	0	old system	
+555	0	0	0	old system	
+556	0	0	0	old system	
+557	0	0	0	old system	
+558	0	0	0	old system	
+559	0	0	0	old system	
+560	0	0	0	old system	
+561	0	0	0	old system	
+562	0	0	0	old system	
+563	0	0	0	old system	
+564	0	0	0	old system	
+565	0	0	0	old system	
+566	0	0	0	old system	
+567	0	0	0	old system	
+568	0	0	0	old system	
+569	0	0	0	old system	
+570	0	0	0	old system	
+571	0	0	0	old system	
+572	0	0	0	old system	
+573	0	0	0	old system	
+574	0	0	0	old system	
+575	0	0	0	old system	
+576	0	0	0	old system	
+577	0	0	0	old system	
+578	0	0	0	old system	
+579	0	0	0	old system	
+580	0	0	0	old system	
+581	0	0	0	old system	
+582	0	0	0	old system	
+583	0	0	0	old system	
+584	0	0	0	old system	
+585	0	0	0	old system	
+586	0	0	0	old system	
+587	0	0	0	old system	
+588	0	0	0	old system	
+589	0	0	0	old system	
+590	0	0	0	old system	
+591	0	0	0	old system	
+592	0	0	0	old system	
+593	0	0	0	old system	
+594	0	0	0	old system	
+595	0	0	0	old system	
+596	0	0	0	old system	
+597	0	0	0	old system	
+598	0	0	0	old system	
+599	0	0	0	old system	
+600	0	0	0	old system	
+601	0	0	0	old system	
+602	0	0	0	old system	
+603	0	0	0	old system	
+604	0	0	0	old system	
+605	0	0	0	old system	
+606	0	0	0	old system	
+607	0	0	0	old system	
+608	0	0	0	old system	
+609	0	0	0	old system	
+610	0	0	0	old system	
+611	0	0	0	old system	
+612	0	0	0	old system	
+613	0	0	0	old system	
+614	0	0	0	old system	
+615	0	0	0	old system	
+616	0	0	0	old system	
+617	0	0	0	old system	
+618	0	0	0	old system	
+619	0	0	0	old system	
+620	0	0	0	old system	
+621	0	0	0	old system	
+622	0	0	0	old system	
+623	0	0	0	old system	
+624	0	0	0	old system	
+625	0	0	0	old system	
+626	0	0	0	old system	
+627	0	0	0	old system	
+628	0	0	0	old system	
+629	0	0	0	old system	
+630	0	0	0	old system	
+631	0	0	0	old system	
+632	0	0	0	old system	
+633	0	0	0	old system	
+634	0	0	0	old system	
+635	0	0	0	old system	
+636	0	0	0	old system	
+637	0	0	0	old system	
+638	0	0	0	old system	
+639	0	0	0	old system	
+640	0	21	0	biwudahui	
+641	0	21	0	biwudahui	
+642	0	21	0	biwudahui	
+643	0	21	0	biwudahui	
+644	0	21	0	biwudahui	
+645	0	21	0	biwudahui	
+646	0	21	0	biwudahui	
+647	0	21	0	biwudahui	
+648	0	21	0	biwudahui	
+649	0	21	0	biwudahui	
+650	0	0	0	old system	
+651	0	0	0	old system	
+652	0	0	0	old system	
+653	0	0	0	old system	
+654	0	0	0	old system	
+655	0	0	0	old system	
+656	0	0	0	old system	
+657	0	0	0	old system	
+658	0	0	0	old system	
+659	0	0	0	old system	
+660	0	0	0	old system	
+661	0	21	0	biwudahui	
+662	0	21	0	biwudahui	
+663	0	21	0	biwudahui	
+664	0	21	0	biwudahui	
+665	0	21	0	biwudahui	
+666	0	21	0	biwudahui	
+667	0	21	0	biwudahui	
+668	0	21	0	biwudahui	
+669	0	21	0	biwudahui	
+670	0	21	0	biwudahui	
+671	0	21	0	biwudahui	
+672	0	21	0	biwudahui	
+673	0	21	0	biwudahui	
+674	0	21	0	biwudahui	
+675	0	21	0	biwudahui	
+676	0	21	0	biwudahui	
+677	0	21	0	biwudahui	
+678	0	21	0	biwudahui	
+679	0	21	0	biwudahui	
+680	0	21	0	biwudahui	
+681	0	21	0	biwudahui	
+682	0	21	0	biwudahui	
+683	0	21	0	biwudahui	
+684	0	21	0	biwudahui	
+685	0	21	0	biwudahui	
+686	0	21	0	biwudahui	
+687	0	21	0	biwudahui	
+688	0	21	0	biwudahui	
+689	0	21	0	biwudahui	
+690	0	0	0	old system	
+691	0	0	0	old system	
+692	0	0	0	old system	
+693	0	0	0	old system	
+694	0	0	0	old system	
+695	0	0	0	old system	
+696	0	0	0	old system	
+697	0	0	0	old system	
+698	0	0	0	old system	
+699	0	0	0	old system	
+700	0	0	0	old system	
+701	0	0	0	old system	
+702	0	0	0	old system	
+703	0	0	0	old system	
+704	0	0	0	old system	
+705	0	0	0	old system	
+706	0	0	0	old system	
+707	0	0	0	old system	
+708	0	0	0	old system	
+709	0	0	0	old system	
+710	0	0	0	old system	
+711	0	0	0	old system	
+712	0	0	0	old system	
+713	0	0	0	old system	
+714	0	0	0	old system	
+715	0	0	0	old system	
+716	0	0	0	old system	
+717	0	0	0	old system	
+718	0	0	0	old system	
+719	0	0	0	old system	
+720	0	0	0	old system	
+721	0	0	0	old system	
+722	0	0	0	old system	
+723	0	0	0	old system	
+724	0	0	0	old system	
+725	0	0	0	old system	
+726	0	0	0	old system	
+727	0	0	0	old system	
+728	0	0	0	old system	
+729	0	0	0	old system	
+730	0	0	0	old system	
+731	0	0	0	old system	
+732	0	0	0	old system	
+733	0	0	0	old system	
+734	0	0	0	old system	
+735	0	0	0	old system	
+736	0	0	0	old system	
+737	0	0	0	old system	
+738	0	0	0	old system	
+739	0	0	0	old system	
+740	0	0	0	old system	
+741	0	0	0	old system	
+742	0	0	0	old system	
+743	0	0	0	old system	
+744	0	0	0	old system	
+745	0	0	0	old system	
+746	0	0	0	old system	
+747	0	0	0	old system	
+748	0	0	0	old system	
+749	0	0	0	old system	
+750	0	0	0	old system	
+751	0	0	0	old system	
+752	0	0	0	old system	
+753	0	0	0	old system	
+754	0	0	0	old system	
+755	0	0	0	old system	
+756	0	0	0	old system	
+757	0	0	0	old system	
+758	0	0	0	old system	
+759	0	0	0	old system	
+760	0	0	0	old system	
+761	0	0	0	old system	
+762	0	0	0	old system	
+763	0	0	0	old system	
+764	0	0	0	old system	
+765	0	0	0	old system	
+766	0	0	0	old system	
+767	0	0	0	old system	
+768	0	0	0	old system	
+769	0	0	0	old system	
+770	0	0	0	old system	
+771	0	0	0	old system	
+772	0	0	0	old system	
+773	0	0	0	old system	
+774	0	0	0	old system	
+775	0	0	0	old system	
+776	0	0	0	old system	
+777	0	0	0	old system	
+778	0	0	0	old system	
+779	0	0	0	old system	
+780	0	0	0	old system	
+781	0	0	0	old system	
+782	0	0	0	old system	
+783	0	0	0	old system	
+784	0	0	0	old system	
+785	0	0	0	old system	
+786	0	0	0	old system	
+787	0	0	0	old system	
+788	0	0	0	old system	
+789	0	0	0	old system	
+790	0	0	0	old system	
+791	0	0	0	old system	
+792	0	0	0	old system	
+793	0	0	0	old system	
+794	0	0	0	old system	
+795	0	0	0	old system	
+796	0	0	0	old system	
+797	0	0	0	old system	
+798	0	0	0	old system	
+799	0	0	0	old system	
+800	0	0	0	old system	
+801	0	0	0	old system	
+802	0	0	0	old system	
+803	0	0	0	old system	
+804	0	0	0	old system	
+805	0	0	0	old system	
+806	0	0	0	old system	
+807	0	0	0	old system	
+808	0	0	0	old system	
+809	0	0	0	old system	
+810	0	0	0	old system	
+811	0	0	0	old system	
+812	0	0	0	old system	
+813	0	0	0	old system	
+814	0	0	0	old system	
+815	0	0	0	old system	
+816	0	0	0	old system	
+817	0	0	0	old system	
+818	0	0	0	old system	
+819	0	0	0	old system	
+820	0	0	0	old system	
+821	0	0	0	old system	
+822	0	0	0	old system	
+823	0	0	0	old system	
+824	0	0	0	old system	
+825	0	0	0	old system	
+826	0	0	0	old system	
+827	0	0	0	old system	
+828	0	0	0	old system	
+829	0	0	0	old system	
+830	0	0	0	old system	
+831	0	0	0	old system	
+832	0	0	0	old system	
+833	0	0	0	old system	
+834	0	0	0	old system	
+835	0	0	0	old system	
+836	0	0	0	old system	
+837	0	0	0	old system	
+838	0	0	0	old system	
+839	0	0	0	old system	
+840	0	0	0	old system	
+841	0	0	0	old system	
+842	0	0	0	old system	
+843	0	0	0	old system	
+844	0	0	0	old system	
+845	0	0	0	old system	
+846	0	0	0	old system	
+847	0	0	0	old system	
+848	0	0	0	old system	
+849	0	0	0	old system	
+850	0	0	0	old system	
+851	0	0	0	old system	
+852	0	0	0	old system	
+853	0	0	0	old system	
+854	0	0	0	old system	
+855	0	0	0	old system	
+856	0	0	0	old system	
+857	0	0	0	old system	
+858	0	0	0	old system	
+859	0	0	0	old system	
+860	0	0	0	old system	
+861	0	0	0	old system	
+862	0	0	0	old system	
+863	0	0	0	old system	
+864	0	0	0	old system	
+865	0	0	0	old system	
+866	0	0	0	old system	
+867	0	0	0	old system	
+868	0	0	0	old system	
+869	0	0	0	old system	
+870	0	0	0	old system	
+871	0	0	0	old system	
+872	0	0	0	old system	
+873	0	0	0	old system	
+874	0	0	0	old system	
+875	0	0	0	old system	
+876	0	0	0	old system	
+877	0	0	0	old system	
+878	0	0	0	old system	
+879	0	0	0	old system	
+880	0	0	0	old system	
+881	0	0	0	old system	
+882	0	0	0	old system	
+883	0	0	0	old system	
+884	0	0	0	old system	
+885	0	0	0	old system	
+886	0	0	0	old system	
+887	0	0	0	old system	
+888	0	0	0	old system	
+889	0	0	0	old system	
+890	0	0	0	old system	
+891	0	0	0	old system	
+892	0	0	0	old system	
+893	0	0	0	old system	
+894	0	0	0	old system	
+895	0	0	0	old system	
+896	0	0	0	old system	
+897	0	0	0	old system	
+898	0	0	0	old system	
+899	0	0	0	old system	
+900	0	0	0	old system	
+901	0	0	0	old system	
+902	0	0	0	old system	
+903	0	0	0	old system	
+904	0	0	0	old system	
+905	0	0	0	old system	
+906	0	0	0	old system	
+907	0	0	0	old system	
+908	0	0	0	old system	
+909	0	0	0	old system	
+910	0	0	0	old system	
+911	0	0	0	old system	
+912	0	0	0	old system	
+913	0	0	0	old system	
+914	0	0	0	old system	
+915	0	0	0	old system	
+916	0	0	0	old system	
+917	0	0	0	old system	
+918	0	0	0	old system	
+919	0	0	0	old system	
+920	0	0	0	old system	
+921	0	0	0	old system	
+922	0	0	0	old system	
+923	0	0	0	old system	
+924	0	0	0	old system	
+925	0	0	0	old system	
+926	0	0	0	old system	
+927	0	0	0	old system	
+928	0	0	0	old system	
+929	0	0	0	old system	
+930	0	0	0	old system	
+931	0	0	0	old system	
+932	0	0	0	old system	
+933	0	0	0	old system	
+934	0	0	0	old system	
+935	0	0	0	old system	
+936	0	0	0	old system	
+937	0	0	0	old system	
+938	0	0	0	old system	
+939	0	0	0	old system	
+940	0	0	0	old system	
+941	0	0	0	old system	
+942	0	0	0	old system	
+943	0	0	0	old system	
+944	0	0	0	old system	
+945	0	0	0	old system	
+946	0	0	0	old system	
+947	0	0	0	old system	
+948	0	0	0	old system	
+949	0	0	0	old system	
+950	0	0	0	old system	
+951	0	0	0	old system	
+952	0	0	0	old system	
+953	0	0	0	old system	
+954	0	0	0	old system	
+955	0	0	0	old system	
+956	0	0	0	old system	
+957	0	0	0	old system	
+958	0	0	0	old system	
+959	0	0	0	old system	
+960	0	0	0	old system	
+961	0	0	0	old system	
+962	0	0	0	old system	
+963	0	0	0	old system	
+964	0	0	0	old system	
+965	0	0	0	old system	
+966	0	0	0	old system	
+967	0	0	0	old system	
+968	0	0	0	old system	
+969	0	0	0	old system	
+970	0	0	0	old system	
+971	0	0	0	old system	
+972	0	0	0	old system	
+973	0	0	0	old system	
+974	0	0	0	old system	
+975	0	0	0	old system	
+976	0	0	0	old system	
+977	0	0	0	old system	
+978	0	0	0	old system	
+979	0	0	0	old system	
+980	0	0	0	old system	
+981	0	0	0	old system	
+982	0	0	0	old system	
+983	0	0	0	old system	
+984	0	0	0	old system	
+985	0	0	0	old system	
+986	0	0	0	old system	
+987	0	0	0	old system	
+988	0	0	0	old system	
+989	0	0	0	old system	
+990	0	0	0	old system	
+991	0	0	0	old system	
+992	0	0	0	old system	
+993	0	0	0	old system	
+994	0	0	0	old system	
+995	0	0	0	old system	
+996	0	0	0	old system	
+997	0	0	0	old system	
+998	0	0	0	old system	
+999	0	0	0	old system	
+1000	0	0	0	old system	
+1001	0	0	0	old system	
+1002	0	0	0	old system	
+1003	0	0	0	old system	
+1004	0	0	0	old system	
+1005	0	0	0	old system	
+1006	0	0	0	old system	
+1007	0	0	0	old system	
+1008	0	0	0	old system	
+1009	0	0	0	old system	
+1010	0	0	0	old system	
+1011	0	0	0	old system	
+1012	0	0	0	old system	
+1013	0	0	0	old system	
+1014	0	0	0	old system	
+1015	0	0	0	old system	
+1016	0	0	0	old system	
+1017	0	0	0	old system	
+1018	0	0	0	old system	
+1019	0	0	0	old system	
+1020	0	0	0	old system	
+1021	0	0	0	old system	
+1022	0	0	0	old system	
+1023	0	0	0	old system	
+1024	0	0	0	old system	
+1025	0	0	0	old system	
+1026	0	0	0	old system	
+1027	0	0	0	old system	
+1028	0	0	0	old system	
+1029	0	0	0	old system	
+1030	0	0	0	old system	
+1031	0	0	0	old system	
+1032	0	0	0	old system	
+1033	0	0	0	old system	
+1034	0	0	0	old system	
+1035	0	0	0	old system	
+1036	0	0	0	old system	
+1037	0	0	0	old system	
+1038	0	0	0	old system	
+1039	0	0	0	old system	
+1040	0	0	0	old system	
+1041	0	0	0	old system	
+1042	0	0	0	old system	
+1043	0	0	0	old system	
+1044	0	0	0	old system	
+1045	0	0	0	old system	
+1046	0	0	0	old system	
+1047	0	0	0	old system	
+1048	0	0	0	old system	
+1049	0	0	0	old system	
+1050	0	0	0	old system	
+1051	0	0	0	old system	
+1052	0	0	0	old system	
+1053	0	0	0	old system	
+1054	0	0	0	old system	
+1055	0	0	0	old system	
+1056	0	0	0	old system	
+1057	0	0	0	old system	
+1058	0	0	0	old system	
+1059	0	0	0	old system	
+1060	0	0	0	old system	
+1061	0	0	0	old system	
+1062	0	0	0	old system	
+1063	0	0	0	old system	
+1064	0	0	0	old system	
+1065	0	0	0	old system	
+1066	0	0	0	old system	
+1067	0	0	0	old system	
+1068	0	0	0	old system	
+1069	0	0	0	old system	
+1070	0	0	0	old system	
+1071	0	0	0	old system	
+1072	0	0	0	old system	
+1073	0	0	0	old system	
+1074	0	0	0	old system	
+1075	0	0	0	old system	
+1076	0	0	0	old system	
+1077	0	0	0	old system	
+1078	0	0	0	old system	
+1079	0	0	0	old system	
+1080	0	0	0	old system	
+1081	0	0	0	old system	
+1082	0	0	0	old system	
+1083	0	0	0	old system	
+1084	0	0	0	old system	
+1085	0	0	0	old system	
+1086	0	0	0	old system	
+1087	0	0	0	old system	
+1088	0	0	0	old system	
+1089	0	0	0	old system	
+1090	0	0	0	old system	
+1091	0	0	0	old system	
+1092	0	0	0	old system	
+1093	0	0	0	old system	
+1094	0	0	0	old system	
+1095	0	0	0	old system	
+1096	0	0	0	old system	
+1097	0	0	0	old system	
+1098	0	0	0	old system	
+1099	0	0	0	old system	
+1100	0	0	0	old system	
+1101	0	0	0	old system	
+1102	0	0	0	old system	
+1103	0	0	0	old system	
+1104	0	0	0	old system	
+1105	0	0	0	old system	
+1106	0	0	0	old system	
+1107	0	0	0	old system	
+1108	0	0	0	old system	
+1109	0	0	0	old system	
+1110	0	0	0	old system	
+1111	0	0	0	old system	
+1112	0	0	0	old system	
+1113	0	0	0	old system	
+1114	0	0	0	old system	
+1115	0	0	0	old system	
+1116	0	0	0	old system	
+1117	0	0	0	old system	
+1118	0	0	0	old system	
+1119	0	0	0	old system	
+1120	0	0	0	old system	
+1121	0	0	0	old system	
+1122	0	0	0	old system	
+1123	0	0	0	old system	
+1124	0	0	0	old system	
+1125	0	0	0	old system	
+1126	0	0	0	old system	
+1127	0	0	0	old system	
+1128	0	0	0	old system	
+1129	0	0	0	old system	
+1130	0	0	0	old system	
+1131	0	0	0	old system	
+1132	0	0	0	old system	
+1133	0	0	0	old system	
+1134	0	0	0	old system	
+1135	0	0	0	old system	
+1136	0	0	0	old system	
+1137	0	0	0	old system	
+1138	0	0	0	old system	
+1139	0	0	0	old system	
+1140	0	0	0	old system	
+1141	0	0	0	old system	
+1142	0	0	0	old system	
+1143	0	0	0	old system	
+1144	0	0	0	old system	
+1145	0	0	0	old system	
+1146	0	0	0	old system	
+1147	0	0	0	old system	
+1148	0	0	0	old system	
+1149	0	0	0	old system	
+1150	0	0	0	old system	
+1151	0	0	0	old system	
+1152	0	0	0	old system	
+1153	0	0	0	old system	
+1154	0	0	0	old system	
+1155	0	0	0	old system	
+1156	0	0	0	old system	
+1157	0	0	0	old system	
+1158	0	0	0	old system	
+1159	0	0	0	old system	
+1160	0	0	0	old system	
+1161	0	0	0	old system	
+1162	0	0	0	old system	
+1163	0	0	0	old system	
+1164	0	0	0	old system	
+1165	0	0	0	old system	
+1166	0	0	0	old system	
+1167	0	0	0	old system	
+1168	0	0	0	old system	
+1169	0	0	0	old system	
+1170	0	0	0	old system	
+1171	0	0	0	old system	
+1172	0	0	0	old system	
+1173	0	0	0	old system	
+1174	0	0	0	old system	
+1175	0	0	0	old system	
+1176	0	0	0	old system	
+1177	0	0	0	old system	
+1178	0	0	0	old system	
+1179	0	0	0	old system	
+1180	0	0	0	old system	
+1181	0	0	0	old system	
+1182	0	0	0	old system	
+1183	0	0	0	old system	
+1184	0	0	0	old system	
+1185	0	0	0	old system	
+1186	0	0	0	old system	
+1187	0	0	0	old system	
+1188	0	0	0	old system	
+1189	0	0	0	old system	
+1190	0	0	0	old system	
+1191	0	0	0	old system	
+1192	0	0	0	old system	
+1193	0	0	0	old system	
+1194	0	0	0	old system	
+1195	0	0	0	old system	
+1196	0	0	0	old system	
+1197	0	0	0	old system	
+1198	0	0	0	old system	
+1199	0	0	0	old system	
+1200	0	0	0	old system	
+1201	0	0	0	old system	
+1202	0	0	0	old system	
+1203	0	0	0	old system	
+1204	0	0	0	old system	
+1205	0	0	0	old system	
+1206	0	0	0	old system	
+1207	0	0	0	old system	
+1208	0	0	0	old system	
+1209	0	0	0	old system	
+1210	0	0	0	old system	
+1211	0	0	0	old system	
+1212	0	0	0	old system	
+1213	0	0	0	old system	
+1214	0	0	0	old system	
+1215	0	0	0	old system	
+1216	0	0	0	old system	
+1217	0	0	0	old system	
+1218	0	0	0	old system	
+1219	0	0	0	old system	
+1220	0	0	0	old system	
+1221	0	0	0	old system	
+1222	0	0	0	old system	
+1223	0	0	0	old system	
+1224	0	0	0	old system	
+1225	0	0	0	old system	
+1226	0	0	0	old system	
+1227	0	0	0	old system	
+1228	0	0	0	old system	
+1229	0	0	0	old system	
+1230	0	0	0	old system	
+1231	0	0	0	old system	
+1232	0	0	0	old system	
+1233	0	0	0	old system	
+1234	0	0	0	old system	
+1235	0	0	0	old system	
+1236	0	0	0	old system	
+1237	0	0	0	old system	
+1238	0	0	0	old system	
+1239	0	0	0	old system	
+1240	0	0	0	old system	
+1241	0	0	0	old system	
+1242	0	0	0	old system	
+1243	0	0	0	old system	
+1244	0	0	0	old system	
+1245	0	0	0	old system	
+1246	0	0	0	old system	
+1247	0	0	0	old system	
+1248	0	0	0	old system	
+1249	0	0	0	old system	
+1250	0	0	0	old system	
+1251	0	0	0	old system	
+1252	0	0	0	old system	
+1253	0	0	0	old system	
+1254	0	0	0	old system	
+1255	0	0	0	old system	
+1256	0	0	0	old system	
+1257	0	0	0	old system	
+1258	0	0	0	old system	
+1259	0	0	0	old system	
+1260	0	0	0	old system	
+1261	0	0	0	old system	
+1262	0	0	0	old system	
+1263	0	0	0	old system	
+1264	0	0	0	old system	
+1265	0	0	0	old system	
+1266	0	0	0	old system	
+1267	0	0	0	old system	
+1268	0	0	0	old system	
+1269	0	0	0	old system	
+1270	0	0	0	old system	
+1271	0	0	0	old system	
+1272	0	0	0	old system	
+1273	0	0	0	old system	
+1274	0	0	0	old system	
+1275	0	0	0	old system	
+1276	0	0	0	old system	
+1277	0	0	0	old system	
+1278	0	0	0	old system	
+1279	0	0	0	old system	
+1280	0	0	0	old system	
+1281	0	0	0	old system	
+1282	0	0	0	old system	
+1283	0	0	0	old system	
+1284	0	0	0	old system	
+1285	0	0	0	old system	
+1286	0	0	0	old system	
+1287	0	0	0	old system	
+1288	0	0	0	old system	
+1289	0	0	0	old system	
+1290	0	0	0	old system	
+1291	0	0	0	old system	
+1292	0	0	0	old system	
+1293	0	0	0	old system	
+1294	0	0	0	old system	
+1295	0	0	0	old system	
+1296	0	0	0	old system	
+1297	0	0	0	old system	
+1298	0	0	0	old system	
+1299	0	0	0	old system	
+1300	0	0	0	old system	
+1301	0	0	0	old system	
+1302	0	0	0	old system	
+1303	0	0	0	old system	
+1304	0	0	0	old system	
+1305	0	0	0	old system	
+1306	0	0	0	old system	
+1307	0	0	0	old system	
+1308	0	0	0	old system	
+1309	0	0	0	old system	
+1310	0	0	0	old system	
+1311	0	0	0	old system	
+1312	0	0	0	old system	
+1313	0	0	0	old system	
+1314	0	0	0	old system	
+1315	0	0	0	old system	
+1316	0	0	0	old system	
+1317	0	0	0	old system	
+1318	0	0	0	old system	
+1319	0	0	0	old system	
+1320	0	0	0	old system	
+1321	0	0	0	old system	
+1322	0	0	0	old system	
+1323	0	0	0	old system	
+1324	0	0	0	old system	
+1325	0	0	0	old system	
+1326	0	0	0	old system	
+1327	0	0	0	old system	
+1328	0	0	0	old system	
+1329	0	0	0	old system	
+1330	0	0	0	old system	
+1331	0	0	0	old system	
+1332	0	0	0	old system	
+1333	0	0	0	old system	
+1334	0	0	0	old system	
+1335	0	0	0	old system	
+1336	0	0	0	old system	
+1337	0	0	0	old system	
+1338	0	0	0	old system	
+1339	0	0	0	old system	
+1340	0	0	0	old system	
+1341	0	0	0	old system	
+1342	0	0	0	old system	
+1343	0	0	0	old system	
+1344	0	0	0	old system	
+1345	0	0	0	old system	
+1346	0	0	0	old system	
+1347	0	0	0	old system	
+1348	0	0	0	old system	
+1349	0	0	0	old system	
+1350	0	0	0	old system	
+1351	0	0	0	old system	
+1352	0	0	0	old system	
+1353	0	0	0	old system	
+1354	0	0	0	old system	
+1355	0	0	0	old system	
+1356	0	0	0	old system	
+1357	0	0	0	old system	
+1358	0	0	0	old system	
+1359	0	0	0	old system	
+1360	0	0	0	old system	
+1361	0	0	0	old system	
+1362	0	0	0	old system	
+1363	0	0	0	old system	
+1364	0	0	0	old system	
+1365	0	0	0	old system	
+1366	0	0	0	old system	
+1367	0	0	0	old system	
+1368	0	0	0	old system	
+1369	0	0	0	old system	
+1370	0	0	0	old system	
+1371	0	0	0	old system	
+1372	0	0	0	old system	
+1373	0	0	0	old system	
+1374	0	0	0	old system	
+1375	0	0	0	old system	
+1376	0	0	0	old system	
+1377	0	0	0	old system	
+1378	0	0	0	old system	
+1379	0	0	0	old system	
+1380	0	0	0	old system	
+1381	0	0	0	old system	
+1382	0	0	0	old system	
+1383	0	0	0	old system	
+1384	0	0	0	old system	
+1385	0	0	0	old system	
+1386	0	0	0	old system	
+1387	0	0	0	old system	
+1388	0	0	0	old system	
+1389	0	0	0	old system	
+1390	0	0	0	old system	
+1391	0	0	0	old system	
+1392	0	0	0	old system	
+1393	0	0	0	old system	
+1394	0	0	0	old system	
+1395	0	0	0	old system	
+1396	0	0	0	old system	
+1397	0	0	0	old system	
+1398	0	0	0	old system	
+1399	0	0	0	old system	
+1400	0	0	0	old system	
+1401	0	0	0	old system	
+1402	0	0	0	old system	
+1403	0	0	0	old system	
+1404	0	0	0	old system	
+1405	0	0	0	old system	
+1406	0	0	0	old system	
+1407	0	0	0	old system	
+1408	0	0	0	old system	
+1409	0	0	0	old system	
+1410	0	0	0	old system	
+1411	0	0	0	old system	
+1412	0	0	0	old system	
+1413	0	0	0	old system	
+1414	0	0	0	old system	
+1415	0	0	0	old system	
+1416	0	0	0	old system	
+1417	0	0	0	old system	
+1418	0	0	0	old system	
+1419	0	0	0	old system	
+1420	0	0	0	old system	
+1421	0	0	0	old system	
+1422	0	0	0	old system	
+1423	0	0	0	old system	
+1424	0	0	0	old system	
+1425	0	0	0	old system	
+1426	0	0	0	old system	
+1427	0	0	0	old system	
+1428	0	0	0	old system	
+1429	0	0	0	old system	
+1430	0	0	0	old system	
+1431	0	0	0	old system	
+1432	0	0	0	old system	
+1433	0	0	0	old system	
+1434	0	0	0	old system	
+1435	0	0	0	old system	
+1436	0	0	0	old system	
+1437	0	0	0	old system	
+1438	0	0	0	old system	
+1439	0	0	0	old system	
+1440	0	0	0	old system	
+1441	0	0	0	old system	
+1442	0	0	0	old system	
+1443	0	0	0	old system	
+1444	0	0	0	old system	
+1445	0	0	0	old system	
+1446	0	0	0	old system	
+1447	0	0	0	old system	
+1448	0	0	0	old system	
+1449	0	0	0	old system	
+1450	0	0	0	old system	
+1451	0	0	0	old system	
+1452	0	0	0	old system	
+1453	0	0	0	old system	
+1454	0	0	0	old system	
+1455	0	0	0	old system	
+1456	0	0	0	old system	
+1457	0	0	0	old system	
+1458	0	0	0	old system	
+1459	0	0	0	old system	
+1460	0	0	0	old system	
+1461	0	0	0	old system	
+1462	0	0	0	old system	
+1463	0	0	0	old system	
+1464	0	0	0	old system	
+1465	0	0	0	old system	
+1466	0	0	0	old system	
+1467	0	0	0	old system	
+1468	0	0	0	old system	
+1469	0	0	0	old system	
+1470	0	0	0	old system	
+1471	0	0	0	old system	
+1472	0	0	0	old system	
+1473	0	0	0	old system	
+1474	0	0	0	old system	
+1475	0	0	0	old system	
+1476	0	0	0	old system	
+1477	0	0	0	old system	
+1478	0	0	0	old system	
+1479	0	0	0	old system	
+1480	0	0	0	old system	
+1481	0	0	0	old system	
+1482	0	0	0	old system	
+1483	0	0	0	old system	
+1484	0	0	0	old system	
+1485	0	0	0	old system	
+1486	0	0	0	old system	
+1487	0	0	0	old system	
+1488	0	0	0	old system	
+1489	0	0	0	old system	
+1490	0	0	0	old system	
+1491	0	0	0	old system	
+1492	0	0	0	old system	
+1493	0	0	0	old system	
+1494	0	0	0	old system	
+1495	0	0	0	old system	
+1496	0	0	0	old system	
+1497	0	0	0	old system	
+1498	0	0	0	old system	
+1499	0	0	0	old system	
+1500	0	0	0	old system	
+1501	0	0	0	old system	
+1502	0	0	0	old system	
+1503	0	0	0	old system	
+1504	0	0	0	old system	
+1505	0	0	0	old system	
+1506	0	0	0	old system	
+1507	0	0	0	old system	
+1508	0	0	0	old system	
+1509	0	0	0	old system	
+1510	0	0	0	old system	
+1511	0	0	0	old system	
+1512	0	0	0	old system	
+1513	0	0	0	old system	
+1514	0	0	0	old system	
+1515	0	0	0	old system	
+1516	0	0	0	old system	
+1517	0	0	0	old system	
+1518	0	0	0	old system	
+1519	0	0	0	old system	
+1520	0	0	0	old system	
+1521	0	0	0	old system	
+1522	0	0	0	old system	
+1523	0	0	0	old system	
+1524	0	0	0	old system	
+1525	0	0	0	old system	
+1526	0	0	0	old system	
+1527	0	0	0	old system	
+1528	0	0	0	old system	
+1529	0	0	0	old system	
+1530	0	0	0	old system	
+1531	0	0	0	old system	
+1532	0	0	0	old system	
+1533	0	0	0	old system	
+1534	0	0	0	old system	
+1535	0	0	0	old system	
+1536	0	0	0	old system	
+1537	0	0	0	old system	
+1538	0	0	0	old system	
+1539	0	0	0	old system	
+1540	0	0	0	old system	
+1541	0	0	0	old system	
+1542	0	0	0	old system	
+1543	0	0	0	old system	
+1544	0	0	0	old system	
+1545	0	0	0	old system	
+1546	0	0	0	old system	
+1547	0	0	0	old system	
+1548	0	0	0	old system	
+1549	0	0	0	old system	
+1550	0	0	0	old system	
+1551	0	0	0	old system	
+1552	0	0	0	old system	
+1553	0	0	0	old system	
+1554	0	0	0	old system	
+1555	0	0	0	old system	
+1556	0	0	0	old system	
+1557	0	0	0	old system	
+1558	0	0	0	old system	
+1559	0	0	0	old system	
+1560	0	0	0	old system	
+1561	0	0	0	old system	
+1562	0	0	0	old system	
+1563	0	0	0	old system	
+1564	0	0	0	old system	
+1565	0	0	0	old system	
+1566	0	0	0	old system	
+1567	0	0	0	old system	
+1568	0	0	0	old system	
+1569	0	0	0	old system	
+1570	0	0	0	old system	
+1571	0	0	0	old system	
+1572	0	0	0	old system	
+1573	0	0	0	old system	
+1574	0	0	0	old system	
+1575	0	0	0	old system	
+1576	0	0	0	old system	
+1577	0	0	0	old system	
+1578	0	0	0	old system	
+1579	0	0	0	old system	
+1580	0	0	0	old system	
+1581	0	0	0	old system	
+1582	0	0	0	old system	
+1583	0	0	0	old system	
+1584	0	0	0	old system	
+1585	0	0	0	old system	
+1586	0	0	0	old system	
+1587	0	0	0	old system	
+1588	0	0	0	old system	
+1589	0	0	0	old system	
+1590	0	0	0	old system	
+1591	0	0	0	old system	
+1592	0	0	0	old system	
+1593	0	0	0	old system	
+1594	0	0	0	old system	
+1595	0	0	0	old system	
+1596	0	0	0	old system	
+1597	0	0	0	old system	
+1598	0	0	0	old system	
+1599	0	0	0	old system	
+1600	0	0	0	old system	
+1601	0	0	0	old system	
+1602	0	0	0	old system	
+1603	0	0	0	old system	
+1604	0	0	0	old system	
+1605	0	0	0	old system	
+1606	0	0	0	old system	
+1607	0	0	0	old system	
+1608	0	0	0	old system	
+1609	0	0	0	old system	
+1610	0	0	0	old system	
+1611	0	0	0	old system	
+1612	0	0	0	old system	
+1613	0	0	0	old system	
+1614	0	0	0	old system	
+1615	0	0	0	old system	
+1616	0	0	0	old system	
+1617	0	0	0	old system	
+1618	0	0	0	old system	
+1619	0	0	0	old system	
+1620	0	0	0	old system	
+1621	0	0	0	old system	
+1622	0	0	0	old system	
+1623	0	0	0	old system	
+1624	0	0	0	old system	
+1625	0	0	0	old system	
+1626	0	0	0	old system	
+1627	0	0	0	old system	
+1628	0	0	0	old system	
+1629	0	0	0	old system	
+1630	0	0	0	old system	
+1631	0	0	0	old system	
+1632	0	0	0	old system	
+1633	0	0	0	old system	
+1634	0	0	0	old system	
+1635	0	0	0	old system	
+1636	0	0	0	old system	
+1637	0	0	0	old system	
+1638	0	0	0	old system	
+1639	0	0	0	old system	
+1640	0	0	0	old system	
+1641	0	0	0	old system	
+1642	0	0	0	old system	
+1643	0	0	0	old system	
+1644	0	0	0	old system	
+1645	0	0	0	old system	
+1646	0	0	0	old system	
+1647	0	0	0	old system	
+1648	0	0	0	old system	
+1649	0	0	0	old system	
+1650	0	0	0	old system	
+1651	0	0	0	old system	
+1652	0	0	0	old system	
+1653	0	0	0	old system	
+1654	0	0	0	old system	
+1655	0	0	0	old system	
+1656	0	0	0	old system	
+1657	0	0	0	old system	
+1658	0	0	0	old system	
+1659	0	0	0	old system	
+1660	0	0	0	old system	
+1661	0	0	0	old system	
+1662	0	0	0	old system	
+1663	0	0	0	old system	
+1664	0	0	0	old system	
+1665	0	0	0	old system	
+1666	0	0	0	old system	
+1667	0	0	0	old system	
+1668	0	0	0	old system	
+1669	0	0	0	old system	
+1670	0	0	0	old system	
+1671	0	0	0	old system	
+1672	0	0	0	old system	
+1673	0	0	0	old system	
+1674	0	0	0	old system	
+1675	0	0	0	old system	
+1676	0	0	0	old system	
+1677	0	0	0	old system	
+1678	0	0	0	old system	
+1679	0	0	0	old system	
+1680	0	0	0	old system	
+1681	0	0	0	old system	
+1682	0	0	0	old system	
+1683	0	0	0	old system	
+1684	0	0	0	old system	
+1685	0	0	0	old system	
+1686	0	0	0	old system	
+1687	0	0	0	old system	
+1688	0	0	0	old system	
+1689	0	0	0	old system	
+1690	0	0	0	old system	
+1691	0	0	0	old system	
+1692	0	0	0	old system	
+1693	0	0	0	old system	
+1694	0	0	0	old system	
+1695	0	0	0	old system	
+1696	0	0	0	old system	
+1697	0	0	0	old system	
+1698	0	0	0	old system	
+1699	0	0	0	old system	
+1700	0	0	0	old system	
+1701	0	0	0	old system	
+1702	0	0	0	old system	
+1703	0	0	0	old system	
+1704	0	0	0	old system	
+1705	0	0	0	old system	
+1706	0	0	0	old system	
+1707	0	0	0	old system	
+1708	0	0	0	old system	
+1709	0	0	0	old system	
+1710	0	0	0	old system	
+1711	0	0	0	old system	
+1712	0	0	0	old system	
+1713	0	0	0	old system	
+1714	0	0	0	old system	
+1715	0	0	0	old system	
+1716	0	0	0	old system	
+1717	0	0	0	old system	
+1718	0	0	0	old system	
+1719	0	0	0	old system	
+1720	0	0	0	old system	
+1721	0	0	0	old system	
+1722	0	0	0	old system	
+1723	0	0	0	old system	
+1724	0	0	0	old system	
+1725	0	0	0	old system	
+1726	0	0	0	old system	
+1727	0	0	0	old system	
+1728	0	0	0	old system	
+1729	0	0	0	old system	
+1730	0	0	0	old system	
+1731	0	0	0	old system	
+1732	0	0	0	old system	
+1733	0	0	0	old system	
+1734	0	0	0	old system	
+1735	0	0	0	old system	
+1736	0	0	0	old system	
+1737	0	0	0	old system	
+1738	0	0	0	old system	
+1739	0	0	0	old system	
+1740	0	0	0	old system	
+1741	0	0	0	old system	
+1742	0	0	0	old system	
+1743	0	0	0	old system	
+1744	0	0	0	old system	
+1745	0	0	0	old system	
+1746	0	0	0	old system	
+1747	0	0	0	old system	
+1748	0	0	0	old system	
+1749	0	0	0	old system	
+1750	0	0	0	old system	
+1751	0	0	0	old system	
+1752	0	0	0	old system	
+1753	0	0	0	old system	
+1754	0	0	0	old system	
+1755	0	0	0	old system	
+1756	0	0	0	old system	
+1757	0	0	0	old system	
+1758	0	0	0	old system	
+1759	0	0	0	old system	
+1760	0	0	0	old system	
+1761	0	0	0	old system	
+1762	0	0	0	old system	
+1763	0	0	0	old system	
+1764	0	0	0	old system	
+1765	0	0	0	old system	
+1766	0	0	0	old system	
+1767	0	0	0	old system	
+1768	0	0	0	old system	
+1769	0	0	0	old system	
+1770	0	0	0	old system	
+1771	0	0	0	old system	
+1772	0	0	0	old system	
+1773	0	0	0	old system	
+1774	0	0	0	old system	
+1775	0	0	0	old system	
+1776	0	0	0	old system	
+1777	0	0	0	old system	
+1778	0	0	0	old system	
+1779	0	0	0	old system	
+1780	0	0	0	old system	
+1781	0	0	0	old system	
+1782	0	0	0	old system	
+1783	0	0	0	old system	
+1784	0	0	0	old system	
+1785	0	0	0	old system	
+1786	0	0	0	old system	
+1787	0	0	0	old system	
+1788	0	0	0	old system	
+1789	0	0	0	old system	
+1790	0	0	0	old system	
+1791	0	0	0	old system	
+1792	0	0	0	old system	
+1793	0	0	0	old system	
+1794	0	0	0	old system	
+1795	0	0	0	old system	
+1796	0	0	0	old system	
+1797	0	0	0	old system	
+1798	0	0	0	old system	
+1799	0	0	0	old system	
+1800	0	0	0	old system	
+1801	0	0	0	old system	
+1802	0	0	0	old system	
+1803	0	0	0	old system	
+1804	0	0	0	old system	
+1805	0	0	0	old system	
+1806	0	0	0	old system	
+1807	0	0	0	old system	
+1808	0	0	0	old system	
+1809	0	0	0	old system	
+1810	0	0	0	old system	
+1811	0	0	0	old system	
+1812	0	0	0	old system	
+1813	0	0	0	old system	
+1814	0	0	0	old system	
+1815	0	0	0	old system	
+1816	0	0	0	old system	
+1817	0	0	0	old system	
+1818	0	0	0	old system	
+1819	0	0	0	old system	
+1820	0	0	0	old system	
+1821	0	0	0	old system	
+1822	0	0	0	old system	
+1823	0	0	0	old system	
+1824	0	0	0	old system	
+1825	0	0	0	old system	
+1826	0	0	0	old system	
+1827	0	0	0	old system	
+1828	0	0	0	old system	
+1829	0	0	0	old system	
+1830	0	0	0	old system	
+1831	0	0	0	old system	
+1832	0	0	0	old system	
+1833	0	0	0	old system	
+1834	0	0	0	old system	
+1835	0	0	0	old system	
+1836	0	0	0	old system	
+1837	0	0	0	old system	
+1838	0	0	0	old system	
+1839	0	0	0	old system	
+1840	0	0	0	old system	
+1841	0	0	0	old system	
+1842	0	0	0	old system	
+1843	0	0	0	old system	
+1844	0	0	0	old system	
+1845	0	0	0	old system	
+1846	0	0	0	old system	
+1847	0	0	0	old system	
+1848	0	0	0	old system	
+1849	0	0	0	old system	
+1850	0	0	0	old system	
+1851	0	0	0	old system	
+1852	0	0	0	old system	
+1853	0	0	0	old system	
+1854	0	0	0	old system	
+1855	0	0	0	old system	
+1856	0	0	0	old system	
+1857	0	0	0	old system	
+1858	0	0	0	old system	
+1859	0	0	0	old system	
+1860	0	0	0	old system	
+1861	0	0	0	old system	
+1862	0	0	0	old system	
+1863	0	0	0	old system	
+1864	0	0	0	old system	
+1865	0	0	0	old system	
+1866	0	0	0	old system	
+1867	0	0	0	old system	
+1868	0	0	0	old system	
+1869	0	0	0	old system	
+1870	0	0	0	old system	
+1871	0	0	0	old system	
+1872	0	0	0	old system	
+1873	0	0	0	old system	
+1874	0	0	0	old system	
+1875	0	0	0	old system	
+1876	0	0	0	old system	
+1877	0	0	0	old system	
+1878	0	0	0	old system	
+1879	0	0	0	old system	
+1880	0	0	0	old system	
+1881	0	0	0	old system	
+1882	0	0	0	old system	
+1883	0	0	0	old system	
+1884	0	0	0	old system	
+1885	0	0	0	old system	
+1886	0	0	0	old system	
+1887	0	0	0	old system	
+1888	0	0	0	old system	
+1889	0	0	0	old system	
+1890	0	0	0	old system	
+1891	0	0	0	old system	
+1892	0	0	0	old system	
+1893	0	0	0	old system	
+1894	0	0	0	old system	
+1895	0	0	0	old system	
+1896	0	0	0	old system	
+1897	0	0	0	old system	
+1898	0	0	0	old system	
+1899	0	0	0	old system	
+1900	0	0	0	old system	
+1901	0	0	0	old system	
+1902	0	0	0	old system	
+1903	0	0	0	old system	
+1904	0	0	0	old system	
+1905	0	0	0	old system	
+1906	0	0	0	old system	
+1907	0	0	0	old system	
+1908	0	0	0	old system	
+1909	0	0	0	old system	
+1910	0	0	0	old system	
+1911	0	0	0	old system	
+1912	0	0	0	old system	
+1913	0	0	0	old system	
+1914	0	0	0	old system	
+1915	0	0	0	old system	
+1916	0	0	0	old system	
+1917	0	0	0	old system	
+1918	0	0	0	old system	
+1919	0	0	0	old system	
+1920	0	0	0	old system	
+1921	0	0	0	old system	
+1922	0	0	0	old system	
+1923	0	0	0	old system	
+1924	0	0	0	old system	
+1925	0	0	0	old system	
+1926	0	0	0	old system	
+1927	0	0	0	old system	
+1928	0	0	0	old system	
+1929	0	0	0	old system	
+1930	0	0	0	old system	
+1931	0	0	0	old system	
+1932	0	0	0	old system	
+1933	0	0	0	old system	
+1934	0	0	0	old system	
+1935	0	0	0	old system	
+1936	0	0	0	old system	
+1937	0	0	0	old system	
+1938	0	0	0	old system	
+1939	0	0	0	old system	
+1940	0	0	0	old system	
+1941	0	0	0	old system	
+1942	0	0	0	old system	
+1943	0	0	0	old system	
+1944	0	0	0	old system	
+1945	0	0	0	old system	
+1946	0	0	0	old system	
+1947	0	0	0	old system	
+1948	0	0	0	old system	
+1949	0	0	0	old system	
+1950	0	0	0	old system	
+1951	0	0	0	old system	
+1952	0	0	0	old system	
+1953	0	0	0	old system	
+1954	0	0	0	old system	
+1955	0	0	0	old system	
+1956	0	0	0	old system	
+1957	0	0	0	old system	
+1958	0	0	0	old system	
+1959	0	0	0	old system	
+1960	0	0	0	old system	
+1961	0	0	0	old system	
+1962	0	0	0	old system	
+1963	0	0	0	old system	
+1964	0	0	0	old system	
+1965	0	0	0	old system	
+1966	0	0	0	old system	
+1967	0	0	0	old system	
+1968	0	0	0	old system	
+1969	0	0	0	old system	
+1970	0	0	0	old system	
+1971	0	0	0	old system	
+1972	0	0	0	old system	
+1973	0	0	0	old system	
+1974	0	0	0	old system	
+1975	0	0	0	old system	
+1976	0	0	0	old system	
+1977	0	0	0	old system	
+1978	0	0	0	old system	
+1979	0	0	0	old system	
+1980	0	0	0	old system	
+1981	0	0	0	old system	
+1982	0	0	0	old system	
+1983	0	0	0	old system	
+1984	0	0	0	old system	
+1985	0	0	0	old system	
+1986	0	0	0	old system	
+1987	0	0	0	old system	
+1988	0	0	0	old system	
+1989	0	0	0	old system	
+1990	0	0	0	old system	
+1991	0	0	0	old system	
+1992	0	0	0	old system	
+1993	0	0	0	old system	
+1994	0	0	0	old system	
+1995	0	0	0	old system	
+1996	0	0	0	old system	
+1997	0	0	0	old system	
+1998	0	0	0	old system	
+1999	0	0	0	old system	
+2000	0	0	0	old system	
+2001	0	0	0	old system	
+2002	0	0	0	old system	
+2003	0	0	0	old system	
+2004	0	0	0	old system	
+2005	0	0	0	old system	
+2006	0	0	0	old system	
+2007	0	0	0	old system	
+2008	0	0	0	old system	
+2009	0	0	0	old system	
+2010	0	0	0	old system	
+2011	0	0	0	old system	
+2012	0	0	0	old system	
+2013	0	0	0	old system	
+2014	0	0	0	old system	
+2015	0	0	0	old system	
+2016	0	0	0	old system	
+2017	0	0	0	old system	
+2018	0	0	0	old system	
+2019	0	0	0	old system	
+2020	0	0	0	old system	
+2021	0	0	0	old system	
+2022	0	0	0	old system	
+2023	0	0	0	old system	
+2024	0	0	0	old system	
+2025	0	0	0	old system	
+2026	0	0	0	old system	
+2027	0	0	0	old system	
+2028	0	0	0	old system	
+2029	0	0	0	old system	
+2030	0	0	0	old system	
+2031	0	0	0	old system	
+2032	0	0	0	old system	
+2033	0	0	0	old system	
+2034	0	0	0	old system	
+2035	0	0	0	old system	
+2036	0	0	0	old system	
+2037	0	0	0	old system	
+2038	0	0	0	old system	
+2039	0	0	0	old system	
+2040	0	0	0	old system	
+2041	0	0	0	old system	
+2042	0	0	0	old system	
+2043	0	0	0	old system	
+2044	0	0	0	old system	
+2045	0	0	0	old system	
+2046	0	0	0	old system	
+2047	0	0	0	old system	
+2048	0	0	0	old system	
+2049	0	0	0	old system	
+2050	0	0	0	old system	
+2051	0	0	0	old system	
+2052	0	0	0	old system	
+2053	0	0	0	old system	
+2054	0	0	0	old system	
+2055	0	0	0	old system	
+2056	0	0	0	old system	
+2057	0	0	0	old system	
+2058	0	0	0	old system	
+2059	0	0	0	old system	
+2060	0	0	0	old system	
+2061	0	0	0	old system	
+2062	0	0	0	old system	
+2063	0	0	0	old system	
+2064	0	0	0	old system	
+2065	0	0	0	old system	
+2066	0	0	0	old system	
+2067	0	0	0	old system	
+2068	0	0	0	old system	
+2069	0	0	0	old system	
+2070	0	0	0	old system	
+2071	0	0	0	old system	
+2072	0	0	0	old system	
+2073	0	0	0	old system	
+2074	0	0	0	old system	
+2075	0	0	0	old system	
+2076	0	0	0	old system	
+2077	0	0	0	old system	
+2078	0	0	0	old system	
+2079	0	0	0	old system	
+2080	0	0	0	old system	
+2081	0	0	0	old system	
+2082	0	0	0	old system	
+2083	0	0	0	old system	
+2084	0	0	0	old system	
+2085	0	0	0	old system	
+2086	0	0	0	old system	
+2087	0	0	0	old system	
+2088	0	0	0	old system	
+2089	0	0	0	old system	
+2090	0	0	0	old system	
+2091	0	0	0	old system	
+2092	0	0	0	old system	
+2093	0	0	0	old system	
+2094	0	0	0	old system	
+2095	0	0	0	old system	
+2096	0	0	0	old system	
+2097	0	0	0	old system	
+2098	0	0	0	old system	
+2099	0	0	0	old system	
+2100	0	0	0	old system	
+2101	0	0	0	old system	
+2102	0	0	0	old system	
+2103	0	0	0	old system	
+2104	0	0	0	old system	
+2105	0	0	0	old system	
+2106	0	0	0	old system	
+2107	0	0	0	old system	
+2108	0	0	0	old system	
+2109	0	0	0	old system	
+2110	0	0	0	old system	
+2111	0	0	0	old system	
+2112	0	0	0	old system	
+2113	0	0	0	old system	
+2114	0	0	0	old system	
+2115	0	0	0	old system	
+2116	0	0	0	old system	
+2117	0	0	0	old system	
+2118	0	0	0	old system	
+2119	0	0	0	old system	
+2120	0	0	0	old system	
+2121	0	0	0	old system	
+2122	0	0	0	old system	
+2123	0	0	0	old system	
+2124	0	0	0	old system	
+2125	0	0	0	old system	
+2126	0	0	0	old system	
+2127	0	0	0	old system	
+2128	0	0	0	old system	
+2129	0	0	0	old system	
+2130	0	0	0	old system	
+2131	0	0	0	old system	
+2132	0	0	0	old system	
+2133	0	0	0	old system	
+2134	0	0	0	old system	
+2135	0	0	0	old system	
+2136	0	0	0	old system	
+2137	0	0	0	old system	
+2138	0	0	0	old system	
+2139	0	0	0	old system	
+2140	0	0	0	old system	
+2141	0	0	0	old system	
+2142	0	0	0	old system	
+2143	0	0	0	old system	
+2144	0	0	0	old system	
+2145	0	0	0	old system	
+2146	0	0	0	old system	
+2147	0	0	0	old system	
+2148	0	0	0	old system	
+2149	0	0	0	old system	
+2150	0	0	0	old system	
+2151	0	0	0	old system	
+2152	0	0	0	old system	
+2153	0	0	0	old system	
+2154	0	0	0	old system	
+2155	0	0	0	old system	
+2156	0	0	0	old system	
+2157	0	0	0	old system	
+2158	0	0	0	old system	
+2159	0	0	0	old system	
+2160	0	0	0	old system	
+2161	0	0	0	old system	
+2162	0	0	0	old system	
+2163	0	0	0	old system	
+2164	0	0	0	old system	
+2165	0	0	0	old system	
+2166	0	0	0	old system	
+2167	0	0	0	old system	
+2168	0	0	0	old system	
+2169	0	0	0	old system	
+2170	0	0	0	old system	
+2171	0	0	0	old system	
+2172	0	0	0	old system	
+2173	0	0	0	old system	
+2174	0	0	0	old system	
+2175	0	0	0	old system	
+2176	0	0	0	old system	
+2177	0	0	0	old system	
+2178	0	0	0	old system	
+2179	0	0	0	old system	
+2180	0	0	0	old system	
+2181	0	0	0	old system	
+2182	0	0	0	old system	
+2183	0	0	0	old system	
+2184	0	0	0	old system	
+2185	0	0	0	old system	
+2186	0	0	0	old system	
+2187	0	0	0	old system	
+2188	0	0	0	old system	
+2189	0	0	0	old system	
+2190	0	0	0	old system	
+2191	0	0	0	old system	
+2192	0	0	0	old system	
+2193	0	0	0	old system	
+2194	0	0	0	old system	
+2195	0	0	0	old system	
+2196	0	0	0	old system	
+2197	0	0	0	old system	
+2198	0	0	0	old system	
+2199	0	0	0	old system	
+2200	0	0	0	old system	
+2201	0	0	0	old system	
+2202	0	0	0	old system	
+2203	0	0	0	old system	
+2204	0	0	0	old system	
+2205	0	0	0	old system	
+2206	0	0	0	old system	
+2207	0	0	0	old system	
+2208	0	0	0	old system	
+2209	0	0	0	old system	
+2210	0	0	0	old system	
+2211	0	0	0	old system	
+2212	0	0	0	old system	
+2213	0	0	0	old system	
+2214	0	0	0	old system	
+2215	0	0	0	old system	
+2216	0	0	0	old system	
+2217	0	0	0	old system	
+2218	0	0	0	old system	
+2219	0	0	0	old system	
+2220	0	0	0	old system	
+2221	0	0	0	old system	
+2222	0	0	0	old system	
+2223	0	0	0	old system	
+2224	0	0	0	old system	
+2225	0	0	0	old system	
+2226	0	0	0	old system	
+2227	0	0	0	old system	
+2228	0	0	0	old system	
+2229	0	0	0	old system	
+2230	0	0	0	old system	
+2231	0	0	0	old system	
+2232	0	0	0	old system	
+2233	0	0	0	old system	
+2234	0	0	0	old system	
+2235	0	0	0	old system	
+2236	0	0	0	old system	
+2237	0	0	0	old system	
+2238	0	0	0	old system	
+2239	0	0	0	old system	
+2240	0	0	0	old system	
+2241	0	0	0	old system	
+2242	0	0	0	old system	
+2243	0	0	0	old system	
+2244	0	0	0	old system	
+2245	0	0	0	old system	
+2246	0	0	0	old system	
+2247	0	0	0	old system	
+2248	0	0	0	old system	
+2249	0	0	0	old system	
+2250	0	0	0	old system	
+2251	0	0	0	old system	
+2252	0	0	0	old system	
+2253	0	0	0	old system	
+2254	0	0	0	old system	
+2255	0	0	0	old system	
+2256	0	0	0	old system	
+2257	0	0	0	old system	
+2258	0	0	0	old system	
+2259	0	0	0	old system	
+2260	0	0	0	old system	
+2261	0	0	0	old system	
+2262	0	0	0	old system	
+2263	0	0	0	old system	
+2264	0	0	0	old system	
+2265	0	0	0	old system	
+2266	0	0	0	old system	
+2267	0	0	0	old system	
+2268	0	0	0	old system	
+2269	0	0	0	old system	
+2270	0	0	0	old system	
+2271	0	0	0	old system	
+2272	0	0	0	old system	
+2273	0	0	0	old system	
+2274	0	0	0	old system	
+2275	0	0	0	old system	
+2276	0	0	0	old system	
+2277	0	0	0	old system	
+2278	0	0	0	old system	
+2279	0	0	0	old system	
+2280	0	0	0	old system	
+2281	0	0	0	old system	
+2282	0	0	0	old system	
+2283	0	0	0	old system	
+2284	0	0	0	old system	
+2285	0	0	0	old system	
+2286	0	0	0	old system	
+2287	0	0	0	old system	
+2288	0	0	0	old system	
+2289	0	0	0	old system	
+2290	0	0	0	old system	
+2291	0	0	0	old system	
+2292	0	0	0	old system	
+2293	0	0	0	old system	
+2294	0	0	0	old system	
+2295	0	0	0	old system	
+2296	0	0	0	old system	
+2297	0	0	0	old system	
+2298	0	0	0	old system	
+2299	0	0	0	old system	
+2300	0	0	0	old system	
+2301	0	0	0	old system	
+2302	0	0	0	old system	
+2303	0	0	0	old system	
+2304	0	0	0	old system	
+2305	0	0	0	old system	
+2306	0	0	0	old system	
+2307	0	0	0	old system	
+2308	0	0	0	old system	
+2309	0	0	0	old system	
+2310	0	0	0	old system	
+2311	0	0	0	old system	
+2312	0	0	0	old system	
+2313	0	0	0	old system	
+2314	0	0	0	old system	
+2315	0	0	0	old system	
+2316	0	0	0	old system	
+2317	0	0	0	old system	
+2318	0	0	0	old system	
+2319	0	0	0	old system	
+2320	0	0	0	old system	
+2321	0	0	0	old system	
+2322	0	0	0	old system	
+2323	0	0	0	old system	
+2324	0	0	0	old system	
+2325	0	0	0	old system	
+2326	0	0	0	old system	
+2327	0	0	0	old system	
+2328	0	0	0	old system	
+2329	0	0	0	old system	
+2330	0	0	0	old system	
+2331	0	0	0	old system	
+2332	0	0	0	old system	
+2333	0	0	0	old system	
+2334	0	0	0	old system	
+2335	0	0	0	old system	
+2336	0	0	0	old system	
+2337	0	0	0	old system	
+2338	0	0	0	old system	
+2339	0	0	0	old system	
+2340	0	0	0	old system	
+2341	0	0	0	old system	
+2342	0	0	0	old system	
+2343	0	0	0	old system	
+2344	0	0	0	old system	
+2345	0	0	0	old system	
+2346	0	0	0	old system	
+2347	0	0	0	old system	
+2348	0	0	0	old system	
+2349	0	0	0	old system	
+2350	0	0	0	old system	
+2351	0	0	0	old system	
+2352	0	0	0	old system	
+2353	0	0	0	old system	
+2354	0	0	0	old system	
+2355	0	0	0	old system	
+2356	0	0	0	old system	
+2357	0	0	0	old system	
+2358	0	0	0	old system	
+2359	0	0	0	old system	
+2360	0	0	0	old system	
+2361	0	0	0	old system	
+2362	0	0	0	old system	
+2363	0	0	0	old system	
+2364	0	0	0	old system	
+2365	0	0	0	old system	
+2366	0	0	0	old system	
+2367	0	0	0	old system	
+2368	0	0	0	old system	
+2369	0	0	0	old system	
+2370	0	0	0	old system	
+2371	0	0	0	old system	
+2372	0	0	0	old system	
+2373	0	0	0	old system	
+2374	0	0	0	old system	
+2375	0	0	0	old system	
+2376	0	0	0	old system	
+2377	0	0	0	old system	
+2378	0	0	0	old system	
+2379	0	0	0	old system	
+2380	0	0	0	old system	
+2381	0	0	0	old system	
+2382	0	0	0	old system	
+2383	0	0	0	old system	
+2384	0	0	0	old system	
+2385	0	0	0	old system	
+2386	0	0	0	old system	
+2387	0	0	0	old system	
+2388	0	0	0	old system	
+2389	0	0	0	old system	
+2390	0	0	0	old system	
+2391	0	0	0	old system	
+2392	0	0	0	old system	
+2393	0	0	0	old system	
+2394	0	0	0	old system	
+2395	0	0	0	old system	
+2396	0	0	0	old system	
+2397	0	0	0	old system	
+2398	0	0	0	old system	
+2399	0	0	0	old system	
+2400	0	0	0	old system	
+2401	0	0	0	old system	
+2402	0	0	0	old system	
+2403	0	0	0	old system	
+2404	0	0	0	old system	
+2405	0	0	0	old system	
+2406	0	0	0	old system	
+2407	0	0	0	old system	
+2408	0	0	0	old system	
+2409	0	0	0	old system	
+2410	0	0	0	old system	
+2411	0	0	0	old system	
+2412	0	0	0	old system	
+2413	0	0	0	old system	
+2414	0	0	0	old system	
+2415	0	0	0	old system	
+2416	0	0	0	old system	
+2417	0	0	0	old system	
+2418	0	0	0	old system	
+2419	0	0	0	old system	
+2420	0	0	0	old system	
+2421	0	0	0	old system	
+2422	0	0	0	old system	
+2423	0	0	0	old system	
+2424	0	0	0	old system	
+2425	0	0	0	old system	
+2426	0	0	0	old system	
+2427	0	0	0	old system	
+2428	0	0	0	old system	
+2429	0	0	0	old system	
+2430	0	0	0	old system	
+2431	0	0	0	old system	
+2432	0	0	0	old system	
+2433	0	0	0	old system	
+2434	0	0	0	old system	
+2435	0	0	0	old system	
+2436	0	0	0	old system	
+2437	0	0	0	old system	
+2438	0	0	0	old system	
+2439	0	0	0	old system	
+2440	0	0	0	old system	
+2441	0	0	0	old system	
+2442	0	0	0	old system	
+2443	0	0	0	old system	
+2444	0	0	0	old system	
+2445	0	0	0	old system	
+2446	0	0	0	old system	
+2447	0	0	0	old system	
+2448	0	0	0	old system	
+2449	0	0	0	old system	
+2450	0	0	0	old system	
+2451	0	0	0	old system	
+2452	0	0	0	old system	
+2453	0	0	0	old system	
+2454	0	0	0	old system	
+2455	0	0	0	old system	
+2456	0	0	0	old system	
+2457	0	0	0	old system	
+2458	0	0	0	old system	
+2459	0	0	0	old system	
+2460	0	0	0	old system	
+2461	0	0	0	old system	
+2462	0	0	0	old system	
+2463	0	0	0	old system	
+2464	0	0	0	old system	
+2465	0	0	0	old system	
+2466	0	0	0	old system	
+2467	0	0	0	old system	
+2468	0	0	0	old system	
+2469	0	0	0	old system	
+2470	0	0	0	old system	
+2471	0	0	0	old system	
+2472	0	0	0	old system	
+2473	0	0	0	old system	
+2474	0	0	0	old system	
+2475	0	0	0	old system	
+2476	0	0	0	old system	
+2477	0	0	0	old system	
+2478	0	0	0	old system	
+2479	0	0	0	old system	
+2480	0	0	0	old system	
+2481	0	0	0	old system	
+2482	0	0	0	old system	
+2483	0	0	0	old system	
+2484	0	0	0	old system	
+2485	0	0	0	old system	
+2486	0	0	0	old system	
+2487	0	0	0	old system	
+2488	0	0	0	old system	
+2489	0	0	0	old system	
+2490	0	0	0	old system	
+2491	0	0	0	old system	
+2492	0	0	0	old system	
+2493	0	0	0	old system	
+2494	0	0	0	old system	
+2495	0	0	0	old system	
+2496	0	0	0	old system	
+2497	0	0	0	old system	
+2498	0	0	0	old system	
+2499	0	0	0	old system	
+2500	0	0	0	old system	
+2501	0	0	0	old system	
+2502	0	0	0	old system	
+2503	0	0	0	old system	
+2504	0	0	0	old system	
+2505	0	0	0	old system	
+2506	0	0	0	old system	
+2507	0	0	0	old system	
+2508	0	0	0	old system	
+2509	0	0	0	old system	
+2510	0	0	0	old system	
+2511	0	0	0	old system	
+2512	0	0	0	old system	
+2513	0	0	0	old system	
+2514	0	0	0	old system	
+2515	0	0	0	old system	
+2516	0	0	0	old system	
+2517	0	0	0	old system	
+2518	0	0	0	old system	
+2519	0	0	0	old system	
+2520	0	0	0	old system	
+2521	0	0	0	old system	
+2522	0	0	0	old system	
+2523	0	0	0	old system	
+2524	0	0	0	old system	
+2525	0	0	0	old system	
+2526	0	0	0	old system	
+2527	0	0	0	old system	
+2528	0	0	0	old system	
+2529	0	0	0	old system	
+2530	0	0	0	old system	
+2531	0	0	0	old system	
+2532	0	0	0	old system	
+2533	0	0	0	old system	
+2534	0	0	0	old system	
+2535	0	0	0	old system	
+2536	0	0	0	old system	
+2537	0	0	0	old system	
+2538	0	0	0	old system	
+2539	0	0	0	old system	
+2540	0	0	0	old system	
+2541	0	0	0	old system	
+2542	0	0	0	old system	
+2543	0	0	0	old system	
+2544	0	0	0	old system	
+2545	0	0	0	old system	
+2546	0	0	0	old system	
+2547	0	0	0	old system	
+2548	0	0	0	old system	
+2549	0	0	0	old system	
+2550	0	0	0	old system	
+2551	0	0	0	old system	
+2552	0	0	0	old system	
+2553	0	0	0	old system	
+2554	0	0	0	old system	
+2555	0	0	0	old system	
+2556	0	0	0	old system	
+2557	0	0	0	old system	
+2558	0	0	0	old system	
+2559	0	0	0	old system	
+2560	0	0	0	old system	
+2561	0	0	0	old system	
+2562	0	0	0	old system	
+2563	0	0	0	old system	
+2564	0	0	0	old system	
+2565	0	0	0	old system	
+2566	0	0	0	old system	
+2567	0	0	0	old system	
+2568	0	0	0	old system	
+2569	0	0	0	old system	
+2570	0	0	0	old system	
+2571	0	0	0	old system	
+2572	0	0	0	old system	
+2573	0	0	0	old system	
+2574	0	0	0	old system	
+2575	0	0	0	old system	
+2576	0	0	0	old system	
+2577	0	0	0	old system	
+2578	0	0	0	old system	
+2579	0	0	0	old system	
+2580	0	0	0	old system	
+2581	0	0	0	old system	
+2582	0	0	0	old system	
+2583	0	0	0	old system	
+2584	0	0	0	old system	
+2585	0	0	0	old system	
+2586	0	0	0	old system	
+2587	0	0	0	old system	
+2588	0	0	0	old system	
+2589	0	0	0	old system	
+2590	0	0	0	old system	
+2591	0	0	0	old system	
+2592	0	0	0	old system	
+2593	0	0	0	old system	
+2594	0	0	0	old system	
+2595	0	0	0	old system	
+2596	0	0	0	old system	
+2597	0	0	0	old system	
+2598	0	0	0	old system	
+2599	0	0	0	old system	
+2600	0	0	0	old system	
+2601	0	0	0	old system	
+2602	0	0	0	old system	
+2603	0	0	0	old system	
+2604	0	0	0	old system	
+2605	0	0	0	old system	
+2606	0	0	0	old system	
+2607	0	0	0	old system	
+2608	0	0	0	old system	
+2609	0	0	0	old system	
+2610	0	0	0	old system	
+2611	0	0	0	old system	
+2612	0	0	0	old system	
+2613	0	0	0	old system	
+2614	0	0	0	old system	
+2615	0	0	0	old system	
+2616	0	0	0	old system	
+2617	0	0	0	old system	
+2618	0	0	0	old system	
+2619	0	0	0	old system	
+2620	0	0	0	old system	
+2621	0	0	0	old system	
+2622	0	0	0	old system	
+2623	0	0	0	old system	
+2624	0	0	0	old system	
+2625	0	0	0	old system	
+2626	0	0	0	old system	
+2627	0	0	0	old system	
+2628	0	0	0	old system	
+2629	0	0	0	old system	
+2630	0	0	0	old system	
+2631	0	0	0	old system	
+2632	0	0	0	old system	
+2633	0	0	0	old system	
+2634	0	0	0	old system	
+2635	0	0	0	old system	
+2636	0	0	0	old system	
+2637	0	0	0	old system	
+2638	0	0	0	old system	
+2639	0	0	0	old system	
+2640	0	0	0	old system	
+2641	0	0	0	old system	
+2642	0	0	0	old system	
+2643	0	0	0	old system	
+2644	0	0	0	old system	
+2645	0	0	0	old system	
+2646	0	0	0	old system	
+2647	0	0	0	old system	
+2648	0	0	0	old system	
+2649	0	0	0	old system	
+2650	0	0	0	old system	
+2651	0	0	0	old system	
+2652	0	0	0	old system	
+2653	0	0	0	old system	
+2654	0	0	0	old system	
+2655	0	0	0	old system	
+2656	0	0	0	old system	
+2657	0	0	0	old system	
+2658	0	0	0	old system	
+2659	0	0	0	old system	
+2660	0	0	0	old system	
+2661	0	0	0	old system	
+2662	0	0	0	old system	
+2663	0	0	0	old system	
+2664	0	0	0	old system	
+2665	0	0	0	old system	
+2666	0	0	0	old system	
+2667	0	0	0	old system	
+2668	0	0	0	old system	
+2669	0	0	0	old system	
+2670	0	0	0	old system	
+2671	0	0	0	old system	
+2672	0	0	0	old system	
+2673	0	0	0	old system	
+2674	0	0	0	old system	
+2675	0	0	0	old system	
+2676	0	0	0	old system	
+2677	0	0	0	old system	
+2678	0	0	0	old system	
+2679	0	0	0	old system	
+2680	0	0	0	old system	
+2681	0	0	0	old system	
+2682	0	0	0	old system	
+2683	0	0	0	old system	
+2684	0	0	0	old system	
+2685	0	0	0	old system	
+2686	0	0	0	old system	
+2687	0	0	0	old system	
+2688	0	0	0	old system	
+2689	0	0	0	old system	
+2690	0	0	0	old system	
+2691	0	0	0	old system	
+2692	0	0	0	old system	
+2693	0	0	0	old system	
+2694	0	0	0	old system	
+2695	0	0	0	old system	
+2696	0	0	0	old system	
+2697	0	0	0	old system	
+2698	0	0	0	old system	
+2699	0	0	0	old system	
+2700	0	0	0	old system	
+2701	0	0	0	old system	
+2702	0	0	0	old system	
+2703	0	0	0	old system	
+2704	0	0	0	old system	
+2705	0	0	0	old system	
+2706	0	0	0	old system	
+2707	0	0	0	old system	
+2708	0	0	0	old system	
+2709	0	0	0	old system	
+2710	0	0	0	old system	
+2711	0	0	0	old system	
+2712	0	0	0	old system	
+2713	0	0	0	old system	
+2714	0	0	0	old system	
+2715	0	0	0	old system	
+2716	0	0	0	old system	
+2717	0	0	0	old system	
+2718	0	0	0	old system	
+2719	0	0	0	old system	
+2720	0	0	0	old system	
+2721	0	0	0	old system	
+2722	0	0	0	old system	
+2723	0	0	0	old system	
+2724	0	0	0	old system	
+2725	0	0	0	old system	
+2726	0	0	0	old system	
+2727	0	0	0	old system	
+2728	0	0	0	old system	
+2729	0	0	0	old system	
+2730	0	0	0	old system	
+2731	0	0	0	old system	
+2732	0	0	0	old system	
+2733	0	0	0	old system	
+2734	0	0	0	old system	
+2735	0	0	0	old system	
+2736	0	0	0	old system	
+2737	0	0	0	old system	
+2738	0	0	0	old system	
+2739	0	0	0	old system	
+2740	0	0	0	old system	
+2741	0	0	0	old system	
+2742	0	0	0	old system	
+2743	0	0	0	old system	
+2744	0	0	0	old system	
+2745	0	0	0	old system	
+2746	0	0	0	old system	
+2747	0	0	0	old system	
+2748	0	0	0	old system	
+2749	0	0	0	old system	
+2750	0	0	0	old system	
+2751	0	0	0	old system	
+2752	0	0	0	old system	
+2753	0	0	0	old system	
+2754	0	0	0	old system	
+2755	0	0	0	old system	
+2756	0	0	0	old system	
+2757	0	0	0	old system	
+2758	0	0	0	old system	
+2759	0	0	0	old system	
+2760	0	0	0	old system	
+2761	0	0	0	old system	
+2762	0	0	0	old system	
+2763	0	0	0	old system	
+2764	0	0	0	old system	
+2765	0	0	0	old system	
+2766	0	0	0	old system	
+2767	0	0	0	old system	
+2768	0	0	0	old system	
+2769	0	0	0	old system	
+2770	0	0	0	old system	
+2771	0	0	0	old system	
+2772	0	0	0	old system	
+2773	0	0	0	old system	
+2774	0	0	0	old system	
+2775	0	0	0	old system	
+2776	0	0	0	old system	
+2777	0	0	0	old system	
+2778	0	0	0	old system	
+2779	0	0	0	old system	
+2780	0	0	0	old system	
+2781	0	0	0	old system	
+2782	0	0	0	old system	
+2783	0	0	0	old system	
+2784	0	0	0	old system	
+2785	0	0	0	old system	
+2786	0	0	0	old system	
+2787	0	0	0	old system	
+2788	0	0	0	old system	
+2789	0	0	0	old system	
+2790	0	0	0	old system	
+2791	0	0	0	old system	
+2792	0	0	0	old system	
+2793	0	0	0	old system	
+2794	0	0	0	old system	
+2795	0	0	0	old system	
+2796	0	0	0	old system	
+2797	0	0	0	old system	
+2798	0	0	0	old system	
+2799	0	0	0	old system	
+2800	0	0	0	old system	
+2801	0	0	0	old system	
+2802	0	0	0	old system	
+2803	0	0	0	old system	
+2804	0	0	0	old system	
+2805	0	0	0	old system	
+2806	0	0	0	old system	
+2807	0	0	0	old system	
+2808	0	0	0	old system	
+2809	0	0	0	old system	
+2810	0	0	0	old system	
+2811	0	0	0	old system	
+2812	0	0	0	old system	
+2813	0	0	0	old system	
+2814	0	0	0	old system	
+2815	0	0	0	old system	
+2816	0	0	0	old system	
+2817	0	0	0	old system	
+2818	0	0	0	old system	
+2819	0	0	0	old system	
+2820	0	0	0	old system	
+2821	0	0	0	old system	
+2822	0	0	0	old system	
+2823	0	0	0	old system	
+2824	0	0	0	old system	
+2825	0	0	0	old system	
+2826	0	0	0	old system	
+2827	0	0	0	old system	
+2828	0	0	0	old system	
+2829	0	0	0	old system	
+2830	0	0	0	old system	
+2831	0	0	0	old system	
+2832	0	0	0	old system	
+2833	0	0	0	old system	
+2834	0	0	0	old system	
+2835	0	0	0	old system	
+2836	0	0	0	old system	
+2837	0	0	0	old system	
+2838	0	0	0	old system	
+2839	0	0	0	old system	
+2840	0	0	0	old system	
+2841	0	0	0	old system	
+2842	0	0	0	old system	
+2843	0	0	0	old system	
+2844	0	0	0	old system	
+2845	0	0	0	old system	
+2846	0	0	0	old system	
+2847	0	0	0	old system	
+2848	0	0	0	old system	
+2849	0	0	0	old system	
+2850	0	0	0	old system	
+2851	0	0	0	old system	
+2852	0	0	0	old system	
+2853	0	0	0	old system	
+2854	0	0	0	old system	
+2855	0	0	0	old system	
+2856	0	0	0	old system	
+2857	0	0	0	old system	
+2858	0	0	0	old system	
+2859	0	0	0	old system	
+2860	0	1	0	Pet	
+2861	0	1	0	Pet	
+2862	0	1	0	Pet	
+2863	0	1	0	Pet	
+2864	0	1	0	Pet	
+2865	0	1	0	Pet	
+2866	0	1	0	Pet	
+2867	0	1	0	Pet	
+2868	0	1	0	Pet	
+2869	0	1	0	Pet	
+2870	0	1	0	Pet	
+2871	0	1	0	Pet	
+2872	0	1	0	Pet	
+2873	0	1	0	Pet	
+2874	0	1	0	Pet	
+2875	0	1	0	Pet	
+2876	0	1	0	Pet	
+2877	0	1	0	Pet	
+2878	0	1	0	Pet	
+2879	0	1	0	Pet	
+2880	0	1	0	Pet	
+2881	0	0	0	old system	
+2882	0	1	0	Pet	
+2883	0	1	0	Pet	
+2884	0	1	0	Pet	
+2885	0	1	0	Pet	
+2886	0	1	0	Pet	
+2887	0	1	0	Pet	
+2888	0	1	0	Pet	
+2889	0	1	0	Pet	
+2890	0	1	0	Pet	
+2891	0	1	0	Pet	
+2892	0	1	0	Pet	
+2893	0	1	0	Pet	
+2894	0	1	0	Pet	
+2895	0	1	0	Pet	
+2896	0	1	0	Pet	
+2897	0	1	0	Pet	
+2898	0	1	0	Pet	
+2899	0	1	0	Pet	
+2900	0	1	0	Pet	
+2901	0	1	0	Pet	
+2902	0	1	0	Pet	
+2903	0	1	0	Pet	
+2904	0	1	0	Pet	
+2905	0	1	0	Pet	
+2906	0	1	0	Pet	
+2907	0	1	0	Pet	
+2908	0	1	0	Pet	
+2909	0	1	0	Pet	
+2910	0	1	0	Pet	
+2911	0	1	0	Pet	
+2912	0	1	0	Pet	
+2913	5	3	0	SetDailyTask()	
+2914	0	3	0	SetDailyTask()	
+2915	0	3	0	SetDailyTask()	
+2916	0	3	0	SetDailyTask()	
+2917	0	3	0	SetDailyTask()	
+2918	0	3	0	SetDailyTask()	
+2919	0	3	0	SetDailyTask()	
+2920	0	0	0	old system	
+2921	0	0	0	old system	
+2922	0	0	0	old system	
+2923	0	0	0	old system	
+2924	0	0	0	old system	
+2925	0	0	0	old system	
+2926	0	0	0	old system	
+2927	0	0	0	old system	
+2928	0	0	0	old system	
+2929	0	0	0	old system	
+2930	0	0	0	old system	
+2931	0	0	0	old system	
+2932	0	0	0	old system	
+2933	0	2	0	Meridian	
+2934	0	2	0	Meridian	
+2935	0	2	0	Meridian	
+2936	0	2	0	Meridian	
+2937	0	2	0	Meridian	
+2938	0	2	0	Meridian	
+2939	0	2	0	Meridian	
+2940	0	2	0	Meridian	
+2941	0	2	0	Meridian	
+2942	0	2	0	Meridian	
+2943	0	2	0	Meridian	
+2944	0	2	0	Meridian	
+2945	0	2	0	Meridian	
+2946	0	2	0	Meridian	
+2947	0	2	0	Meridian	
+2948	0	2	0	Meridian	
+2949	0	2	0	Meridian	
+2950	0	2	0	Meridian	
+2951	0	33557788	0	System	Task system save version
+2952	0	0	0	old system	
+2953	0	0	0	old system	
+2954	0	0	0	old system	
+2955	0	0	0	old system	
+2956	0	0	0	old system	
+2957	0	0	0	old system	
+2958	0	0	0	old system	
+2959	0	0	0	old system	
+2960	0	0	0	old system	
+2961	0	0	0	old system	
+2962	0	0	0	old system	
+2963	0	0	0	old system	
+2964	0	0	0	old system	
+2965	0	0	0	old system	
+2966	0	0	0	old system	
+2967	0	0	0	old system	
+2968	0	0	0	old system	
+2969	0	0	0	old system	
+2970	0	0	0	old system	
+2971	0	0	0	old system	
+2972	0	0	0	old system	
+2973	0	0	0	old system	
+2974	0	0	0	old system	
+2975	0	0	0	old system	
+2976	0	0	0	old system	
+2977	0	0	0	old system	
+2978	0	0	0	old system	
+2979	0	0	0	old system	
+2980	0	0	0	old system	
+2981	0	0	0	old system	
+2982	0	0	0	old system	
+2983	0	0	0	old system	
+2984	0	0	0	old system	
+2985	0	0	0	old system	
+2986	0	0	0	old system	
+2987	0	0	0	old system	
+2988	0	0	0	old system	
+2989	0	0	0	old system	
+2990	0	0	0	old system	
+2991	0	0	0	old system	
+2992	0	0	0	old system	
+2993	0	0	0	old system	
+2994	0	0	0	old system	
+2995	0	0	0	old system	
+2996	0	0	0	old system	
+2997	0	0	0	old system	
+2998	0	0	0	old system	
+2999	0	0	0	old system	
+3000	0	0	0	old system	
+3001	0	0	0	old system	
+3002	0	0	0	old system	
+3003	0	0	0	old system	
+3004	0	0	0	old system	
+3005	0	0	0	old system	
+3006	0	0	0	old system	
+3007	0	0	0	old system	
+3008	0	0	0	old system	
+3009	0	0	0	old system	
+3010	0	0	0	old system	
+3011	0	0	0	old system	
+3012	0	0	0	old system	
+3013	0	0	0	old system	
+3014	0	0	0	old system	
+3015	0	0	0	old system	
+3016	0	0	0	old system	
+3017	0	0	0	old system	
+3018	0	0	0	old system	
+3019	0	0	0	old system	
+3020	0	0	0	old system	
+3021	0	0	0	old system	
+3022	0	0	0	old system	
+3023	0	0	0	old system	
+3024	0	0	0	old system	
+3025	0	0	0	old system	
+3026	0	0	0	old system	
+3027	0	0	0	old system	
+3028	0	0	0	old system	
+3029	0	0	0	old system	
+3030	0	0	0	old system	
+3031	0	0	0	old system	
+3032	0	0	0	old system	
+3033	0	0	0	old system	
+3034	0	0	0	old system	
+3035	0	0	0	old system	
+3036	0	0	0	old system	
+3037	0	0	0	old system	
+3038	0	0	0	old system	
+3039	0	0	0	old system	
+3040	0	0	0	old system	
+3041	0	0	0	old system	
+3042	0	0	0	old system	
+3043	0	0	0	old system	
+3044	0	0	0	old system	
+3045	0	0	0	old system	
+3046	0	0	0	old system	
+3047	0	0	0	old system	
+3048	0	0	0	old system	
+3049	0	0	0	old system	
+3050	0	0	0	old system	
+3051	0	0	0	old system	
+3052	0	0	0	old system	
+3053	0	0	0	old system	
+3054	0	0	0	old system	
+3055	0	0	0	old system	
+3056	0	0	0	old system	
+3057	0	0	0	old system	
+3058	0	0	0	old system	
+3059	0	0	0	old system	
+3060	0	0	0	old system	
+3061	0	0	0	old system	
+3062	0	0	0	old system	
+3063	0	0	0	old system	
+3064	0	0	0	old system	
+3065	0	0	0	old system	
+3066	0	0	0	old system	
+3067	0	0	0	old system	
+3068	0	0	0	old system	
+3069	2	0	0	unuse	
+3070	0	0	0	NewTask	
+3071	0	0	0	NewTask	
+3072	0	0	0	NewTask	
+3073	0	0	0	NewTask	
+3074	0	0	0	NewTask	
+3075	0	0	0	NewTask	
+3076	0	4	0	guanka_task	
+3077	0	0	0	LSB_Activity	
+3078	0	0	0	LSB_Activity	
+3079	0	0	0	LSB_TASK	
+3080	0	5	0	gutianmenbaoxiang	
+3081	0	3	0	rc_SetWeeklyTask()	
+3082	0	3	0	rc_SetWeeklyTask()	
+3083	0	3	0	rc_SetWeeklyTask()	
+3084	0	3	0	rc_SetWeeklyTask()	
+3085	0	3	0	rc_SetWeeklyTask()	
+3086	0	3	0	rc_SetWeeklyTask()	
+3087	0	0	0	LSB_TASK	
+3088	0	0	0	LSB_TASK	
+3089	0	0	0	LSB_Activity	
+3090	0	0	0	LSB_Activity	
+3091	0	6	0	oly_activity	
+3092	0	6	0	oly_activity	
+3093	0	6	0	oly_activity	
+3094	0	6	0	oly_activity	
+3095	0	0	0	dongfangbubai	
+3096	0	0	0	miefazhenpan	
+3097	0	7	1	player_model_config	unrecoverable
+3098	6	0	0	qht_activity	recoverable
+3099	6	0	0	qht_activity	recoverable
+3100	6	0	0	qht_activity	recoverable
+3101	6	0	0	qht_activity	recoverable
+3102	6	0	0	qht_activity	recoverable
+3103	6	0	0	qht_activity	recoverable
+3104	6	0	0	qht_activity	recoverable
+3105	0	8	0	offlinelive_action	
+3106	0	8	0	offlinelive_action	
+3107	0	8	0	offlinelive_action	
+3108	0	0	0	task_105	unrecoverable
+3109	0	0	0	task_106	unrecoverable
+3110	0	9	0	christmassnowdown	unrecoverable
+3111	0	8	0	offlinelive_action	
+3112	0	8	0	offlinelive_action	
+3113	0	0	0	zq_battle_task	unrecoverable
+3114	0	0	0	zq_battle_task	unrecoverable
+3115	0	0	0	zq_battle_task	unrecoverable
+3116	0	0	0	zq_battle_task	unrecoverable
+3117	0	10	0	zq_battle	unrecoverable
+3118	0	10	0	zq_battle	unrecoverable
+3119	0	10	0	zq_battle	unrecoverable
+3120	0	10	0	zq_battle	unrecoverable
+3121	0	10	0	zq_battle	unrecoverable
+3122	0	10	0	zq_battle	unrecoverable
+3123	0	11	0	bit_task_support	
+3124	0	10	0	zq_battle	unrecoverable
+3125	0	10	0	zq_battle	unrecoverable
+3126	0	10	0	zq_battle	unrecoverable
+3127	0	10	0	zq_battle	unrecoverable
+3128	0	10	0	zq_battle	unrecoverable
+3129	0	0	0	zq_battle_task	unrecoverable
+3130	0	0	0	zq_battle_task	unrecoverable
+3131	0	0	0	zq_battle_task	unrecoverable
+3132	0	12	0	kf_battle	unrecoverable
+3133	0	0	0	task_135	unrecoverable
+3134	0	13	0	kuafu_drag	unrecoverable
+3135	4	14	0	vip_level	unrecoverable
+3136	4	14	0	vip_exp	unrecoverable
+3137	0	14	0	vip_cost_xu	unrecoverable
+3138	4	0	0	JinJuan	unrecoverable
+3139	0	0	0	YinJuan	unrecoverable
+3140	0	15	0	EnergySys	unrecoverable
+3141	0	15	0	EnergySys	unrecoverable
+3142	0	16	0	DXG	unrecoverable
+3143	0	16	0	DXG	unrecoverable
+3144	0	16	0	DXG	unrecoverable
+3145	0	16	0	DXG	unrecoverable
+3146	0	0	0	3v3	unrecoverable
+3147	0	0	0	3v3	unrecoverable
+3148	0	0	0	3v3	unrecoverable
+3149	0	0	0	3v3	unrecoverable
+3150	0	0	0	3v3	unrecoverable
+3151	0	0	0	3v3	unrecoverable
+3152	0	0	0	3v3	unrecoverable
+3153	0	0	0	3v3	unrecoverable
+3154	0	0	0	3v3	unrecoverable
+3155	0	0	0	3v3	unrecoverable
+3156	0	0	0	3v3	unrecoverable
+3157	0	0	0	3v3	unrecoverable
+3158	0	0	0	3v3	unrecoverable
+3159	0	0	0	3v3	unrecoverable
+3160	0	0	0	3v3	unrecoverable
+3161	0	0	0	3v3	unrecoverable
+3162	0	0	0	3v3	unrecoverable
+3163	0	0	0	3v3	unrecoverable
+3164	0	0	0	3v3	unrecoverable
+3165	0	0	0	3v3	unrecoverable
+3166	0	0	0	3v3	unrecoverable
+3167	0	0	0	3v3	unrecoverable
+3168	0	0	0	3v3	unrecoverable
+3169	0	0	0	3v3	unrecoverable
+3170	0	0	0	3v3	unrecoverable
+3171	0	0	0	3v3	unrecoverable
+3172	0	0	0	3v3	unrecoverable
+3173	0	0	0	3v3	unrecoverable
+3174	0	0	0	3v3	unrecoverable
+3175	0	0	0	3v3	unrecoverable
+3176	0	0	0	3v3	unrecoverable
+3177	0	0	0	3v3	unrecoverable
+3178	0	0	0	3v3	unrecoverable
+3179	0	0	0	3v3	unrecoverable
+3180	0	0	0	3v3	unrecoverable
+3181	0	0	0	3v3	unrecoverable
+3182	0	0	0	3v3	unrecoverable
+3183	0	0	0	3v3	unrecoverable
+3184	0	0	0	3v3	unrecoverable
+3185	0	0	0	3v3	unrecoverable
+3186	0	0	0	3v3	unrecoverable
+3187	0	0	0	3v3	unrecoverable
+3188	0	0	0	3v3	unrecoverable
+3189	0	17	0	tong_feast	unrecoverable
+3190	0	17	0	tong_feast	unrecoverable
+3191	0	17	0	tong_feast	unrecoverable
+3192	0	17	0	tong_feast	unrecoverable
+3193	0	17	0	tong_feast	unrecoverable
+3194	0	17	0	tong_feast	unrecoverable
+3195	0	17	0	tong_feast	unrecoverable
+3196	0	18	0	monthly consume	cur month
+3197	0	18	0	monthly consume	last month
+3198	0	0	0	equip_shop	weekly limit
+3199	0	0	0	equip_shop	weekly limit
+3200	0	19	0	tonginfo_task	unrecoverable
+3201	0	19	0	tonginfo_task	unrecoverable
+3202	0	20	0	tongmelee	unrecoverable
+3203	0	20	0	tongmelee	unrecoverable
+3204	0	3	0	dailytask	dixuangong_daily_task
+3205	0	0	0	tyt	unrecoverable
+3206	0	0	0	tyt	unrecoverable
+3207	0	0	0	tyt	unrecoverable
+3208	0	0	0	tyt	unrecoverable
+3209	0	0	0	tyt	unrecoverable
+3210	0	0	0	tyt	unrecoverable
+3211	0	0	0	tyt	unrecoverable
+3212	0	0	0	tyt	unrecoverable
+3213	0	0	0	tyt	unrecoverable
+3214	0	0	0	tyt	unrecoverable
+3215	0	0	0	tyt	unrecoverable
+3216	0	0	0	tyt	unrecoverable
+3217	0	0	0	tyt	unrecoverable
+3218	0	0	0	tyt	unrecoverable
+3219	0	21	0	biwudahui	unrecoverable
+3220	0	21	0	biwudahui	unrecoverable
+3221	0	21	0	biwudahui	unrecoverable
+3222	0	21	0	biwudahui	unrecoverable
+3223	0	21	0	biwudahui	unrecoverable
+3224	0	21	0	biwudahui	unrecoverable
+3225	0	21	0	biwudahui	unrecoverable
+3226	0	21	0	biwudahui	unrecoverable
+3227	0	21	0	biwudahui	unrecoverable
+3228	0	21	0	biwudahui	unrecoverable
+3229	0	22	0	ActivityKillTask	unrecoverable
+3230	0	23	1	DailyRegistration	unrecoverable
+3231	0	24	0	WorldBoss	unrecoverable
+3232	0	25	0	StateChess	unrecoverable
+3233	0	25	0	StateChess	unrecoverable
+3234	0	25	0	StateChess	unrecoverable
+3235	0	25	0	StateChess	unrecoverable
+3236	0	26	0	VipCard	unrecoverable
+3237	0	26	0	VipCard	unrecoverable
+3238	0	26	0	VipCard	unrecoverable
+3239	0	26	0	VipCard	unrecoverable
+3240	0	26	0	VipCard	unrecoverable
+3241	0	26	0	VipCard	unrecoverable
+3242	0	26	0	VipCard	unrecoverable
+3243	0	26	0	VipCard	unrecoverable
+3244	0	27	0	LuckyBoxunrecoverable	
+3245	0	28	0	Gem	unrecoverable
+3246	0	28	0	Gem	unrecoverable
+3247	0	28	0	Gem	unrecoverable
+3248	0	28	0	Gem	unrecoverable
+3249	0	28	0	Gem	unrecoverable
+3250	0	28	0	Gem	unrecoverable
+3251	0	29	0	ExchgSvrTime	unrecoverable
+3252	0	29	0	ExchgSvrTime	unrecoverable
+3253	0	26	0	VipCard	unrecoverable
+3254	0	30	0	PlayerIB	unrecoverable
+3255	0	30	0	PlayerIB	unrecoverable
+3256	0	30	0	PlayerIB	unrecoverable
+3257	0	30	0	PlayerIB	unrecoverable
+3258	0	30	0	PlayerIB	unrecoverable
+3259	0	0	0	IBShop	unrecoverable
+3260	0	0	0	IBShop	unrecoverable
+3261	0	0	0	IBShop	unrecoverable
+3262	0	0	0	IBShop	unrecoverable
+3263	0	0	0	IBShop	unrecoverable
+3264	0	0	0	IBShop	unrecoverable
+3265	0	31	0	SLT	unrecoverable
+3266	0	31	0	SLT	unrecoverable
+3267	0	31	0	SLT	unrecoverable
+3268	0	0	0	TaskUse	unrecoverable
+3269	0	32	0	vet_jihuo_wuzun.lua	unrecoverable
+3270	0	32	0	vet_jihuo_wuzun.lua	unrecoverable
+3271	0	33	0	eyt_battle	unrecoverable
+3272	0	33	0	eyt_battle	unrecoverable
+3273	0	34	0	kuafu_tianjiaoling	unrecoverable
+3274	0	33	0	eyt_battle	unrecoverable
+3275	0	0	0	kf_newbattle	unrecoverable
+3276	0	0	0	kf_newbattle	unrecoverable
+3277	0	0	0	kf_newbattle	unrecoverable
+3278	0	0	0	unuse	
+3279	0	0	0	unuse	
+3280	0	0	0	unuse	
+3281	0	0	0	unuse	
+3282	0	0	0	unuse	
+3283	0	0	0	unuse	
+3284	0	0	0	unuse	
+3285	0	0	0	unuse	
+3286	0	0	0	unuse	
+3287	0	0	0	unuse	
+3288	0	0	0	unuse	
+3289	0	0	0	unuse	
+3290	0	0	0	unuse	
+3291	0	0	0	unuse	
+3292	0	0	0	unuse	
+3293	0	0	0	unuse	
+3294	0	0	0	unuse	
+3295	0	0	0	unuse	
+3296	0	0	0	unuse	
+3297	0	0	0	unuse	
+3298	0	0	0	unuse	
+3299	0	0	0	unuse	
+3300	0	0	0	unuse	
+3301	0	0	0	unuse	
+3302	0	0	0	unuse	
+3303	0	0	0	unuse	
+3304	0	0	0	unuse	
+3305	0	0	0	unuse	
+3306	0	0	0	unuse	
+3307	0	0	0	unuse	
+3308	0	0	0	unuse	
+3309	0	0	0	unuse	
+3310	0	0	0	unuse	
+3311	0	0	0	unuse	
+3312	0	0	0	unuse	
+3313	0	0	0	unuse	
+3314	0	0	0	unuse	
+3315	0	0	0	unuse	
+3316	0	0	0	unuse	
+3317	0	0	0	unuse	
+3318	0	0	0	unuse	
+3319	0	0	0	unuse	
+3320	0	0	0	unuse	
+3321	0	0	0	unuse	
+3322	0	0	0	unuse	
+3323	0	0	0	unuse	
+3324	0	0	0	unuse	
+3325	0	0	0	unuse	
+3326	0	0	0	unuse	
+3327	0	0	0	unuse	
+3328	0	0	0	unuse	
+3329	0	0	0	unuse	
+3330	0	0	0	unuse	
+3331	0	0	0	unuse	
+3332	0	0	0	unuse	
+3333	0	0	0	unuse	
+3334	0	0	0	unuse	
+3335	0	0	0	unuse	
+3336	0	0	0	unuse	
+3337	0	0	0	unuse	
+3338	0	0	0	unuse	
+3339	0	0	0	unuse	
+3340	0	0	0	unuse	
+3341	0	0	0	unuse	
+3342	0	0	0	unuse	
+3343	0	0	0	unuse	
+3344	0	0	0	unuse	
+3345	0	0	0	unuse	
+3346	0	0	0	unuse	
+3347	0	0	0	unuse	
+3348	0	0	0	unuse	
+3349	0	0	0	unuse	
+3350	0	0	0	unuse	
+3351	0	0	0	unuse	
+3352	0	0	0	unuse	
+3353	0	0	0	unuse	
+3354	0	0	0	unuse	
+3355	0	0	0	unuse	
+3356	0	0	0	unuse	
+3357	0	0	0	unuse	
+3358	0	0	0	unuse	
+3359	0	0	0	unuse	
+3360	0	0	0	unuse	
+3361	0	0	0	unuse	
+3362	0	0	0	unuse	
+3363	0	0	0	unuse	
+3364	0	0	0	unuse	
+3365	0	0	0	unuse	
+3366	0	0	0	unuse	
+3367	0	0	0	unuse	
+3368	0	0	0	unuse	
+3369	0	0	0	unuse	
+3370	0	0	0	unuse	
+3371	0	0	0	unuse	
+3372	0	0	0	unuse	
+3373	0	0	0	unuse	
+3374	0	0	0	unuse	
+3375	0	0	0	unuse	
+3376	0	0	0	unuse	
+3377	0	0	0	unuse	
+3378	0	0	0	unuse	
+3379	0	0	0	unuse	
+3380	0	0	0	unuse	
+3381	0	0	0	unuse	
+3382	0	0	0	unuse	
+3383	0	0	0	unuse	
+3384	0	0	0	unuse	
+3385	0	0	0	unuse	
+3386	0	0	0	unuse	
+3387	0	0	0	unuse	
+3388	0	0	0	unuse	
+3389	0	0	0	unuse	
+3390	0	0	0	unuse	
+3391	0	0	0	unuse	
+3392	0	0	0	unuse	
+3393	0	0	0	unuse	
+3394	0	0	0	unuse	
+3395	0	0	0	unuse	
+3396	0	0	0	unuse	
+3397	0	0	0	unuse	
+3398	0	0	0	unuse	
+3399	0	0	0	unuse	
+3400	0	0	0	unuse	
+3401	0	0	0	unuse	
+3402	0	0	0	unuse	
+3403	0	0	0	unuse	
+3404	0	0	0	unuse	
+3405	0	0	0	unuse	
+3406	0	0	0	unuse	
+3407	0	0	0	unuse	
+3408	0	0	0	unuse	
+3409	0	0	0	unuse	
+3410	0	0	0	unuse	
+3411	0	0	0	unuse	
+3412	0	0	0	unuse	
+3413	0	0	0	unuse	
+3414	0	0	0	unuse	
+3415	0	0	0	unuse	
+3416	0	0	0	unuse	
+3417	0	0	0	unuse	
+3418	0	0	0	unuse	
+3419	0	0	0	unuse	
+3420	0	0	0	unuse	
+3421	0	0	0	unuse	
+3422	0	0	0	unuse	
+3423	0	0	0	unuse	
+3424	0	0	0	unuse	
+3425	0	0	0	unuse	
+3426	0	0	0	unuse	
+3427	0	0	0	unuse	
+3428	0	0	0	unuse	
+3429	0	0	0	unuse	
+3430	0	0	0	unuse	
+3431	0	0	0	unuse	
+3432	0	0	0	unuse	
+3433	0	0	0	unuse	
+3434	0	0	0	unuse	
+3435	0	0	0	unuse	
+3436	0	0	0	unuse	
+3437	0	0	0	unuse	
+3438	0	0	0	unuse	
+3439	0	0	0	unuse	
+3440	0	0	0	unuse	
+3441	0	0	0	unuse	
+3442	0	0	0	unuse	
+3443	0	0	0	unuse	
+3444	0	0	0	unuse	
+3445	0	0	0	unuse	
+3446	0	0	0	unuse	
+3447	0	0	0	unuse	
+3448	0	0	0	unuse	
+3449	0	0	0	unuse	
+3450	0	0	0	unuse	
+3451	0	0	0	unuse	
+3452	0	0	0	unuse	
+3453	0	0	0	unuse	
+3454	0	0	0	unuse	
+3455	0	0	0	unuse	
+3456	0	0	0	unuse	
+3457	0	0	0	unuse	
+3458	0	0	0	unuse	
+3459	0	0	0	unuse	
+3460	0	0	0	unuse	
+3461	0	0	0	unuse	
+3462	0	0	0	unuse	
+3463	0	0	0	unuse	
+3464	0	0	0	unuse	
+3465	0	0	0	unuse	
+3466	0	0	0	unuse	
+3467	0	0	0	unuse	
+3468	0	0	0	unuse	
+3469	0	0	0	unuse	
+3470	0	0	0	unuse	
+3471	0	0	0	unuse	
+3472	0	0	0	unuse	
+3473	0	0	0	unuse	
+3474	0	0	0	unuse	
+3475	0	0	0	unuse	
+3476	0	0	0	unuse	
+3477	0	0	0	unuse	
+3478	0	0	0	unuse	
+3479	0	0	0	unuse	
+3480	0	0	0	unuse	
+3481	0	0	0	unuse	
+3482	0	0	0	unuse	
+3483	0	0	0	unuse	
+3484	0	0	0	unuse	
+3485	0	0	0	unuse	
+3486	0	0	0	unuse	
+3487	0	0	0	unuse	
+3488	0	0	0	unuse	
+3489	0	0	0	unuse	
+3490	0	0	0	unuse	
+3491	0	0	0	unuse	
+3492	0	0	0	unuse	
+3493	0	0	0	unuse	
+3494	0	0	0	unuse	
+3495	0	0	0	unuse	
+3496	0	0	0	unuse	
+3497	0	0	0	unuse	
+3498	0	0	0	unuse	
+3499	0	0	0	unuse	
+3500	0	0	0	unuse	
+3501	0	0	0	unuse	
+3502	0	0	0	unuse	
+3503	0	0	0	unuse	
+3504	0	0	0	unuse	
+3505	0	0	0	unuse	
+3506	0	0	0	unuse	
+3507	0	0	0	unuse	
+3508	0	0	0	unuse	
+3509	0	0	0	unuse	
+3510	0	0	0	unuse	
+3511	0	0	0	unuse	
+3512	0	0	0	unuse	
+3513	0	0	0	unuse	
+3514	0	0	0	unuse	
+3515	0	0	0	unuse	
+3516	0	0	0	unuse	
+3517	0	0	0	unuse	
+3518	0	0	0	unuse	
+3519	0	0	0	unuse	
+3520	0	0	0	unuse	
+3521	0	0	0	unuse	
+3522	0	0	0	unuse	
+3523	0	0	0	unuse	
+3524	0	0	0	unuse	
+3525	0	0	0	unuse	
+3526	0	0	0	unuse	
+3527	0	0	0	unuse	
+3528	0	0	0	unuse	
+3529	0	0	0	unuse	
+3530	0	0	0	unuse	
+3531	0	0	0	unuse	
+3532	0	0	0	unuse	
+3533	0	0	0	unuse	
+3534	0	0	0	unuse	
+3535	0	0	0	unuse	
+3536	0	0	0	unuse	
+3537	0	0	0	unuse	
+3538	0	0	0	unuse	
+3539	0	0	0	unuse	
+3540	0	0	0	unuse	
+3541	0	0	0	unuse	
+3542	0	0	0	unuse	
+3543	0	0	0	unuse	
+3544	0	0	0	unuse	
+3545	0	0	0	unuse	
+3546	0	0	0	unuse	
+3547	0	0	0	unuse	
+3548	0	0	0	unuse	
+3549	0	0	0	unuse	
+3550	0	0	0	unuse	
+3551	0	0	0	unuse	
+3552	0	0	0	unuse	
+3553	0	0	0	unuse	
+3554	0	0	0	unuse	
+3555	0	0	0	unuse	
+3556	0	0	0	unuse	
+3557	0	0	0	unuse	
+3558	0	0	0	unuse	
+3559	0	0	0	unuse	
+3560	0	0	0	unuse	
+3561	0	0	0	unuse	
+3562	0	0	0	unuse	
+3563	0	0	0	unuse	
+3564	0	0	0	unuse	
+3565	0	0	0	unuse	
+3566	0	0	0	unuse	
+3567	0	0	0	unuse	
+3568	0	0	0	unuse	
+3569	0	0	0	unuse	
+3570	0	0	0	unuse	
+3571	0	0	0	unuse	
+3572	0	0	0	unuse	
+3573	0	0	0	unuse	
+3574	0	0	0	unuse	
+3575	0	0	0	unuse	
+3576	0	0	0	unuse	
+3577	0	0	0	unuse	
+3578	0	0	0	unuse	
+3579	0	0	0	unuse	
+3580	0	0	0	unuse	
+3581	0	0	0	unuse	
+3582	0	0	0	unuse	
+3583	0	0	0	unuse	

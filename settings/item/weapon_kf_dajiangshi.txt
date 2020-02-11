@@ -1,0 +1,37 @@
+Index	AttributeID	AttributeRate	LevelRate1	LevelRate2	LevelRate3	LevelRate4	LevelRate5	LevelRate6	LevelRate7	AttributeType	AttributeText
+H­íng dÉn	Sè hiÖu thuéc tÝnh: 	Tû lÖ xuÊt hiÖn	CÊp 1 tû lÖ 	CÊp 2 tû lÖ 	CÊp 3 tû lÖ 	CÊp 4 tû lÖ 	CÊp 5 tû lÖ 	CÊp 6 tû lÖ 	CÊp 7 tû lÖ 	HÖ néi, ngo¹i c«ng	Tªn thuéc tÝnh
+1	60	500	0	0	25	25	30	15	5	0	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 
+2	77	500	0	0	25	25	30	15	5	0	Tèc ®é ®¸nh t¨ng: /1% 
+3	111	500	0	0	25	25	30	15	5	0	§é tËp trung t¨ng:/1% 
+4	61	500	0	0	25	25	30	15	5	0	Phßng thñ ngo¹i c«ng ®èi ph­¬ng gi¶m/1
+5	62	500	0	0	25	25	30	15	5	0	Phßng thñ néi c«ng ®èi ph­¬ng gi¶m/1
+6	55	500	0	0	25	25	30	15	5	0	Søc m¹nh ®èi ph­¬ng gi¶m /1 
+7	56	500	0	0	25	25	30	15	5	0	G©n cèt ®èi ph­¬ng gi¶m /1 
+8	57	500	0	0	25	25	30	15	5	0	Néi c«ng ®èi ph­¬ng gi¶m 1
+9	58	500	0	0	25	25	30	15	5	0	KhiÕn ®èi ph­¬ng gi¶m Linh ho¹t /1 
+10	59	500	0	0	25	25	30	15	5	0	Th©n ph¸p ®èi ph­¬ng gi¶m/1
+11	65	450	0	0	25	25	30	15	5	1	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1
+12	66	450	0	0	25	25	30	15	5	1	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1
+13	67	450	0	0	25	25	30	15	5	2	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1
+14	68	450	0	0	25	25	30	15	5	2	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1
+15	23	350	0	0	25	25	30	15	5	0	§é chÝnh x¸c t¨ng/1 
+16	28	300	0	0	25	25	30	15	5	0	Néi lùc tiªu hao: /1% 
+17	41	300	0	0	25	25	30	15	5	0	Thêi gian hç trî tÊn c«ng t¨ng: /1% 
+18	42	300	0	0	25	25	30	15	5	0	Thêi gian hç trî phßng thñ t¨ng: /1% 
+19	63	250	0	0	25	25	30	15	5	0	Phßng thñ ngo¹i c«ng ®èi ph­¬ng gi¶m /1% 
+20	64	250	0	0	25	25	30	15	5	0	Phßng thñ néi c«ng ®èi ph­¬ng gi¶m /1%
+21	7	250	0	0	0	0	60	35	5	0	KhiÕn ®èi ph­¬ng bá ch¹y /1% 
+22	94	250	0	0	25	25	30	15	5	0	G©n cèt t¨ng: /1 
+23	95	250	0	0	25	25	30	15	5	0	Søc m¹nh t¨ng /1 
+24	96	250	0	0	25	25	30	15	5	0	Th©n ph¸p t¨ng: /1 
+25	97	250	0	0	25	25	30	15	5	0	Linh ho¹t t¨ng /1 
+26	98	250	0	0	25	25	30	15	5	0	Néi c«ng t¨ng /1 
+27	69	200	0	0	25	25	30	15	5	0	KÌm theo ®éc s¸t: /1 
+28	115	150	0	0	60	35	5	0	0	0	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 
+29	30	100	0	0	25	25	30	15	5	0	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 
+30	50	100	0	0	0	0	60	35	5	0	Bá qua phßng ngù ®èi ph­¬ng/1% 
+31	49	80	0	0	0	0	60	35	5	0	Néi lùc ®èi ph­¬ng tiªu hao: /1% 
+32	102	80	0	0	25	25	30	15	5	0	Kh¸ng tÊt c¶ t¨ng: /1 
+33	27	80	0	0	95	5	0	0	0	0	X¸c suÊt xuÊt chiªu t¨ng: /1% 
+34	85	60	0	0	60	35	5	0	0	1	Ngo¹i c«ng t¨ng: /1% 
+35	86	60	0	0	60	35	5	0	0	2	Néi c«ng t¨ng /1% 

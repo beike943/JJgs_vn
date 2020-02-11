@@ -1,0 +1,1365 @@
+-- IP Bonus Created by TuanNA5
+
+Include("\\script\\online\\viet_event\\ip_bonus\\ip_head.lua") -- IP bonus
+Include("\\script\\online\\viet_event\\golden_card\\npc_golden.lua") -- event Hoµng Kim LÖnh Bµi
+Include("\\script\\online\\viet_event\\bet_game\\bet_npc.lua") -- Dù ®o¸n kÕt qu¶ thi ®Êu
+Include("\\script\\online_activites\\ipbonus\\ipbonus.lua") -- IP Bonus 2011 (CSM)
+Include("\\script\\vng\\lib\\vnglib_award.lua");
+Include("\\script\\vng\\config\\vng_feature.lua")
+Include("\\script\\vng\\lib\\vnglib_function.lua");
+
+szNpcName = "<color=green>Chñ Phßng M¸y: <color>"
+
+szLogTitle = "NHAN THUONG MOI BAN"
+
+tbVBonusItemShop = {
+		[1] = {"B¹ch CÇu Tiªn §¬n", {2,1,1008,1,4}, 8, 2,5},
+		[2] = {"Tam Thanh Tiªn §¬n", {2,1,1099,1,4}, 8, 2,6},
+		[3] = {"Lôc ThÇn Tiªn §¬n", {2,1,1066,1,4}, 6, 2,7},
+		[4] = {"Ng«i Sao May M¾n", {2,1,30191,1,4}, 8, 2,8},
+		[5] = {"Tô Linh Tiªn §¬n", {2,1,30460,1,4}, 50, 2, 9},
+	}
+	-- table define: {ItemName, {G,D,P}, Prize, Quanlity, Position in Task}
+	
+	
+function main()
+	if IsIPBonus() == 1 then
+		IpBonusClose()
+		IpBonusStart()	
+		npc_talk()
+	else
+		Say(szNpcName.."Ho¹t ®éng ®· kÕt thóc!",0)
+	end
+end
+
+
+function npc_talk()
+	local nDate = tonumber(date("%Y%m%d"))
+	local nDate1 =  tonumber(date("%y%m%d%H"))
+	local tSay = {
+			"NhËn th­ëng tÝch lòy online/IpBonus",
+			"NhËn th­ëng Vinh Danh T­íng SÜ/get_solider_glory",
+			"Nguyªn So¸i tuyªn bè chiÕm ®ãng thµnh thÞ nµy, ta muèn lµm nhiÖm vô qu©n ®éi/do_military_job",
+			"Thu håi CÈm Nang §¹i Sù KiÖn/get_camnang",
+			"Ta chØ ghÐ qua/nothing",
+	}
+	if CheckVbonus() == 1 then
+		tinsert(tSay,1,"NhËn th­ëng VBonus/VBonusMenu")
+		tinsert(tSay,1,"Mua vËt phÈm Siªu ­u ®·i h»ng ngµy cña VBonus/VBonusShop")
+	end
+	if nDate >= 20130401 and nDate < 20130405 then
+		tinsert(tSay,1,"NhËn th­ëng N¹p ZingXu trùc tuyÕn/VBonus_123Pay")
+	end
+	----------------------------------------------------------------------------------------------
+--	if nDate >= 20091202 then
+--		tinsert(tSay,1,"NhËn th­ëng Hoµng Kim LÖnh Bµi/golden_award")
+--	end
+
+	-- ****************** Quay sè Ingame th¸ng 02-2012******************
+	if nDate1 >= 12092410 and nDate1 < 12102100 then
+		tinsert(tSay,1,"NhËn th­ëng may m¾n/lucky_award")
+	end
+	if nDate >= 20120314 and nDate <= 20120504 then
+		tinsert(tSay, "NhËn th­ëng Huynh §Ö Th©m Giao /get_Invite")
+	end
+--	if nDate >= 20120611 and nDate <= 20120715 then
+--		tinsert(tSay, "Më R­¬ng ThÇn Tµi ®ãn Phiªn B¶n Míi/get_Invite")
+	--end	
+	
+	local nDay = tonumber(date("%d"))
+	local nYear = tonumber(date("%Y"))
+	local nWeek = tonumber(date("%w"))
+	if nDate >= 20120907 and nDate <= 20121230 then
+		if  nWeek == 0 then
+			tinsert(tSay,1,"Ta muèn nhËn Vinh Danh VIP JX2/vip_award")
+		end
+	end
+	Say(szNpcName.."Ta chuyªn phô tr¸ch c¸c ho¹t ®éng nhËn th­ëng. C¸c h¹ cÇn ta gióp ®ì viÖc g×?",getn(tSay),tSay)
+end
+
+
+function do_military_job()
+	Talk(1,"",szNpcName.."HiÖn t¹i thµnh nµy ch­a cã Nguyªn So¸i nµo chiÕm ®ãng!")
+end
+
+
+function vip_award()
+	local nValVipP = GetBit(GetExtPoint(0),1)
+	local nValVipE = GetBit(GetExtPoint(0),2)
+	if nValVipE ~= 1 and nValVipP ~= 1 then
+		Talk(1,"",szNpcName.."Tµi kho¶n cña c¸c h¹ kh«ng cã trong danh s¸ch nhËn th­ëng hoÆc ®· nhËn th­ëng råi!")
+		return 
+	end	
+	if nValVipP == 1 then
+		if abs(GetTask(704)) ~= 6 then
+			Talk(1,"",szNpcName.."Tµi kho¶n cña c¸c h¹ kh«ng ph¶i Nguyªn So¸i nªn kh«ng thÓ nhËn th­ëng ®­îc!")
+			return 
+		end
+		if abs(GetTask(701)) < 880000 then
+			Talk(1,"",szNpcName.."Tµi kho¶n cña c¸c h¹ ph¶i cã qu©n c«ng lín h¬n 880000 míi cã thÓ nhËn th­ëng ®­îc!")
+			return 
+		end
+	end
+	if gf_Judge_Room_Weight(10, 100," ") ~= 1 then
+        	return
+    end	
+	if PayExtPoint(0, GetExtPoint(0)) == 1 then
+		gf_AddItemEx2({2,1,30369,10,4},"Cæ Linh Th¹ch","Tai khoan VIP 092012","nhËn")
+		gf_AddItemEx2({2,1,30368,10,4},"Cæ Linh Th¹ch","Tai khoan VIP 092012","nhËn")
+		gf_AddItemEx2({2,95,204 ,1,1},"Thiªn Cang LÖnh","Tai khoan VIP 092012","nhËn")
+		gf_AddItemEx2({2,1,30071,6,1},"Nh©n S©m V¹n N¨m","Tai khoan VIP 092012","nhËn")	
+		gf_AddItemEx2({2,1,1125,6,4},"B¸nh Ýt b¸t b¶o","Tai khoan VIP 092012","nhËn")		
+		gf_AddItemEx2({2,1,30346,1,1},"M¶nh B¹ch Kim","Tai khoan VIP 092012","nhËn")				
+		gf_WriteLogEx("Tai khoan VIP 2012", "NhËn thµnh c«ng", 1, "NhËn th­ëng account VIP")		
+		--gf_EventGiveCustomAward(2,10000000,0,"Tai khoan VIP","nhËn vµng")
+		--gf_EventGiveCustomAward(5,240*60,1,"Tai khoan VIP","nhËn BCH")
+	end	
+end
+
+
+function get_solider_glory()
+	if GetLevel() < 73 then
+		Talk(1,"",szNpcName.."§¼ng cÊp 73 trë lªn míi cã thÓ lÜnh th­ëng!")
+		return
+	end
+	if GetPlayerRoute() == 0 then
+		Talk(1,"",szNpcName.."C¸c h¹ ch­a gia nhËp hÖ ph¸i kh«ng thÓ lÜnh th­ëng!")
+		return
+	end
+	if gf_JudgeRoomWeight(2,100,szNpcName) == 0 then
+		return
+	end
+	 local tGloryAwardExp = {	
+		{240000,300000,1000000,0},
+		{300001,350000,1300000,0},
+		{350001,400000,1600000,1},
+		{400001,450000,1900000,1},
+		{450001,500000,2200000,2},
+		{500001,550000,2500000,2},
+		{550001,800000,3000000,3},
+		{800000,9000000,3500000,3}	
+	}
+	local nBattlePoint = abs(GetTask(701))
+	local nRank = 0
+	for i=1,getn(tGloryAwardExp) do
+		if tGloryAwardExp[i][1] <= nBattlePoint and nBattlePoint <= tGloryAwardExp[i][2] then
+			nRank = i
+			break
+		end
+	end
+	if nRank <= 0 then
+		Talk(1,"",szNpcName.."§iÓm c«ng tr¹ng cña c¸c h¹ ch­a ®ñ ®Ó lÜnh th­ëng!")
+		return
+	end
+	local nDay = tonumber(date("%d"))
+	if gf_GetTaskByte(TSK_GLORY,BYTE_GLORY_DATE) ~= nDay then
+		gf_SetTaskByte(TSK_GLORY,BYTE_GLORY_DATE,nDay)
+		gf_SetTaskByte(TSK_GLORY,BYTE_GLORY_COUNT,0)	
+	end
+	local nCount = gf_GetTaskByte(TSK_GLORY,BYTE_GLORY_COUNT)
+	if nCount >= 3 then
+		Talk(1,"",szNpcName.."H«m nay c¸c h¹ ®· lÜnh th­ëng 3 lÇn råi!")
+		return
+	end
+	gf_SetTaskByte(TSK_GLORY,BYTE_GLORY_COUNT,nCount + 1)
+	gf_EventGiveCustomAward(1, tGloryAwardExp[nRank][3], 1, "Vinh Danh Tuong Si","nhËn")
+	if tGloryAwardExp[nRank][4] > 0 and gf_GetTaskByte(TSK_GLORY,BYTE_GLORY_COUNT) == 3 then
+		gf_AddItemEx2({2,0,1082,tGloryAwardExp[nRank][4]},"Th¸i DÞch Hçn Nguyªn C«ng §å","Vinh Danh Tuong Si","nhËn")
+	end
+end
+
+
+function get_award_for_hklb()
+	local nExtVal = GetExtPoint(4)
+	if nExtVal == 1 or nExtVal == 2 or nExtVal == 3 then
+		local strItem = "1 §Þnh Hån Thiªn Th¹ch ThÇn Th¹ch"
+		if nExtVal == 2 then
+			strItem = "1 Thiªn Th¹ch Linh Th¹ch"
+		elseif nExtVal == 3 then
+			strItem = "2 Thiªn Th¹ch Linh Th¹ch"
+		end
+		Say(szNpcName.."Chóc mõng c¸c h¹ ®· tróng th­ëng <color=yellow>"..strItem.."<color>, cã muèn nhËn kh«ng?",2,"Ta muèn nhËn!/get_award_for_hklb_confirm","Ch­a cÇn/gf_DoNothing")	
+	else
+		Talk(1,"",szNpcName.."C¸c h¹ kh«ng cã tªn trong danh s¸ch nhËn th­ëng hoÆc ®· nhËn th­ëng!")		
+	end
+end
+
+
+function get_award_for_hklb_confirm()
+	local nExtVal = GetExtPoint(4)
+	if nExtVal == 1 or nExtVal == 2 or nExtVal == 3 then
+		if gf_Judge_Room_Weight(3,100,szNpcName) == 0 then
+			return
+		end
+		PayExtPoint(4,nExtVal)
+	else
+		return
+	end
+end
+
+
+function get_camnang()
+	local nCount = GetItemCount(2, 1, 30045)
+	if nCount > 0 then
+		DelItem(2, 1, 30045,nCount)
+		Talk(1,"",szNpcName.."Thu håi CÈm Nang §¹i Sù KiÖn thµnh c«ng!")
+	else
+		Talk(1,"",szNpcName.."H×nh nh­ ng­¬i kh«ng cã CÈm Nang §¹i Sù KiÖn trong ng­êi?")
+	end
+end
+
+
+function lucky_award()
+	local nExtVal = GetExtPoint(5)
+	local tSay = {
+		"Ta muèn thö vËn may cña m×nh/confirm_lucky_award",
+		"Ta biÕt råi/nothing",
+	}
+	Say(szNpcName.."Trong thêi gian tõ <color=red>24/09/2012 - 20/10/2012<color>, khi quý ®ång ®¹o thùc hiÖn n¹p ZingXu vµ quy ®æi sang Xu Vâ L©m TruyÒn Kú II th× sÏ nhËn ®­îc c¸c lÇn Quay Sè NhËn Th­ëng trong game ®Ó cã c¬ héi nhËn ®­îc c¸c phÇn th­ëng may m¾n ë chç ta. HiÖn t¹i c¸c h¹ cßn <color=yellow>"..nExtVal.."<color> lÇn nhËn th­ëng.",getn(tSay),tSay)
+end
+
+
+function confirm_lucky_award()
+	local nExtVal = GetExtPoint(5)
+	if nExtVal <= 0 then
+		Talk(1, "", szNpcName.."Sè lÇn nhËn th­ëng may m¾n cña c¸c h¹ kh«ng cßn.");
+		return
+	end
+	if gf_JudgeRoomWeight(1,100,szNpcName) == 0 then
+		return
+	end
+	Msg2Player("§ang tiÕn hµnh quay sè...")
+--	CastState("state_fetter", 4 * 18)
+	DoWait(13,14,3)	
+end
+
+
+function IpBonus()
+	local tSay = {}
+	tinsert(tSay, "NhËn hiÖu qu¶ hç trî h»ng ngµy/buff_award")
+	tinsert(tSay, "NhËn th­ëng mçi 1 giê trªn m¹ng/online_award")
+	tinsert(tSay, "Xem thêi gian tÝch lòy/show_time")
+	tinsert(tSay, "T×m hiÓu ho¹t ®éng/get_help")
+	tinsert(tSay, "Ta chØ ghÐ qua/nothing")	
+	Say(szNpcName.."Thêi gian trªn m¹ng cña c¸c h¹ sÏ ®­îc tÝch lòy ®Ó ®æi nh÷ng phÇn th­ëng hÊp dÉn. C¸c h¹ cÇn ta gióp ®ì viÖc g×?",getn(tSay),tSay)
+end
+
+
+function buff_award()
+	if GetPlayerRoute() == 0 then
+		Talk(1, "", szNpcName.."Ch­a gia nhËp m«n ph¸i kh«ng thÓ nhËn ®­îc chøc n¨ng hç trî");
+		return
+	end
+	if GetTask(TASK_GET_FUZHU_DATE) >= tonumber(date("%y%m%d")) then
+		Talk(1, "", szNpcName.."H«m nay c¸c h¹ ®· nhËn ®­îc chøc n¨ng hç trî råi, kh«ng thÓ tiÕp tôc nhËn thªm.");
+		return
+	end
+	local nHour = tonumber(date("%H"));
+	local nMin = tonumber(date("%M"));
+	local nSec = tonumber(date("%S"));
+	local nLeftTime = ((23 - nHour) * 60 * 60 + (59 - nMin) * 60 + (60 - nSec)) * 18;
+	local nRandAttr = 0;
+	local nAttrId = 2600022;
+	nRandAttr = gf_GetRandItemByTable(tBuff, 1000, 1);
+	for i = 1, getn(tBuff[nRandAttr][3]) do
+		CastState(tBuff[nRandAttr][3][i][1], tBuff[nRandAttr][3][i][2], nLeftTime, 1, nAttrId, 1);
+		nAttrId = nAttrId + 1;
+	end
+	Say("Trong h«m nay c¸c h¹ nhËn ®­îc hiÖu qu¶ "..tBuff[nRandAttr][1],0)
+	Msg2Player("B¹n nhËn ®­îc hiÖu qu¶ "..tBuff[nRandAttr][1]);
+	
+	SetTask(TASK_GET_FUZHU_TYPE,nRandAttr);
+	SetTask(TASK_GET_FUZHU_DATE, tonumber(date("%y%m%d")));
+end
+
+
+function online_award()
+	local tSay = {
+		"\nNhËn phÇn th­ëng s¬ cÊp/get_low_award",
+		--"\nNhËn phÇn th­ëng trung cÊp/get_med_award",
+		"\nNhËn phÇn th­ëng cao cÊp/get_high_award",
+		"\nNhËn phÇn th­ëng Hoµng Kim/#get_online_award(4,0)",
+		"\nNhËn phÇn th­ëng B¹ch Kim/#get_online_award(5,0)",	--new
+		"Ta chØ ghÐ qua/nothing",
+	}
+	Say(szNpcName.."C¸c h¹ chän phÇn th­ëng nµo?",getn(tSay),tSay);
+end
+
+
+function get_low_award()
+	local tSay = {
+		format("\nNhËn th­ëng kinh nghiÖm (1 giê trªn m¹ng + 1 giê B¹ch C©u Hoµn)/#get_online_award(%d,%d)",1,0),
+		--format("NhËn th­ëng kinh nghiÖm vµ danh väng (1 giê trªn m¹ng + 1 giê B¹ch C©u Hoµn + 1 giê Lôc ThÇn Hoµn)/#get_online_award(%d,%d)",1,1),
+		--format("NhËn th­ëng kinh nghiÖm vµ s­ m«n (1 giê trªn m¹ng + 1 giê B¹ch C©u Hoµn + 1 giê Tam Thanh Hoµn)/#get_online_award(%d,%d)",1,2),
+		format("NhËn th­ëng tÊt c¶ (1 giê trªn m¹ng + 1 giê B¹ch C©u Hoµn + 1 giê Lôc ThÇn Hoµn + 1 giê Tam Thanh Hoµn)/#get_online_award(%d,%d)",1,3),
+		format("NhËn th­ëng tÊt c¶ kÌm ch©n khÝ (1 giê trªn m¹ng + 1 giê B¹ch C©u Hoµn + 1 giê Lôc ThÇn Hoµn + 1 giê Tam Thanh Hoµn + 1 giê Tô Linh Hoµn)/#get_online_award(%d,%d)",1,4),
+		"Ta chØ ghÐ qua/nothing",
+	}	
+	Say(szNpcName.."C¸c h¹ chän phÇn th­ëng nµo?",getn(tSay),tSay);
+end
+
+
+function get_med_award()
+	local tSay = {		
+		format("\nNhËn th­ëng kinh nghiÖm (1 giê trªn m¹ng + 1 giê §¹i B¹ch C©u Hoµn)/#get_online_award(%d,%d)",2,0),
+		format("NhËn th­ëng kinh nghiÖm vµ danh väng (1 giê trªn m¹ng + 1 giê §¹i B¹ch C©u Hoµn + 1 giê C­êng Lôc ThÇn Hoµn)/#get_online_award(%d,%d)",2,1),
+		format("NhËn th­ëng kinh nghiÖm vµ s­ m«n (1 giê trªn m¹ng + 1 giê §¹i B¹ch C©u Hoµn + 1 giê C­êng HiÖu Tam Thanh Hoµn)/#get_online_award(%d,%d)",2,2),
+		format("NhËn th­ëng tÊt c¶ (1 giê trªn m¹ng + 1 giê §¹i B¹ch C©u Hoµn + 1 giê C­êng Lôc ThÇn Hoµn + 1 giê C­êng HiÖu Tam Thanh Hoµn)/#get_online_award(%d,%d)",2,3),
+		"Ta chØ ghÐ qua/nothing",
+	}	
+	Say(szNpcName.."C¸c h¹ chän phÇn th­ëng nµo?",getn(tSay),tSay);
+end
+
+
+function get_high_award()
+	local tSay = {		
+		format("\nNhËn th­ëng kinh nghiÖm (1 giê trªn m¹ng + 1 giê B¹ch C©u Tiªn §¬n)/#get_online_award(%d,%d)",3,0),
+	--	format("NhËn th­ëng kinh nghiÖm vµ danh väng (1 giê trªn m¹ng + 1 giê B¹ch C©u Tiªn §¬n + 1 giê Lôc ThÇn Tiªn §¬n)/#get_online_award(%d,%d)",3,1),
+	--	format("NhËn th­ëng kinh nghiÖm vµ s­ m«n (1 giê trªn m¹ng + 1 giê B¹ch C©u Tiªn §¬n + 1 giê Tam Thanh Tiªn §¬n)/#get_online_award(%d,%d)",3,2),
+		format("NhËn th­ëng tÊt c¶ (1 giê trªn m¹ng + 1 giê B¹ch C©u Tiªn §¬n + 1 giê Lôc ThÇn Tiªn §¬n + 1 giê Tam Thanh Tiªn §¬n)/#get_online_award(%d,%d)",3,3),
+		format("NhËn th­ëng tÊt c¶ kÌm ch©n khÝ (1 giê trªn m¹ng + 1 giê B¹ch C©u Tiªn §¬n + 1 giê Lôc ThÇn Tiªn §¬n + 1 giê Tam Thanh Tiªn §¬n + 1 giê Tô Linh Tiªn §¬n)/#get_online_award(%d,%d)",3,4),
+		"Ta chØ ghÐ qua/nothing",
+	}	
+	Say(szNpcName.."C¸c h¹ chän phÇn th­ëng nµo?",getn(tSay),tSay);
+end
+
+
+function get_online_award(nType, nChosen)
+	if GetLevel() < 73 then
+		Talk(1,"IpBonus",szNpcName.."§¼ng cÊp 73 trë lªn míi cã thÓ tham gia ho¹t ®éng!")
+		return
+	end
+	IpBonusClose()	
+	IpBonusStart()
+	local nLevel = floor(GetLevel()/10) - 6 -- trõ 6  t­¬ng øng víi phÇn tö 1,2,3 trong b¶ng th­ëng
+	local nSmallBCH = GetTask(2501)
+	local nSmallLTH = EatLiushen(1,0)
+	local nSmallTTH = EatSanqin(1,0)
+	local nSmallTLH = GetTask(3105)
+	
+	local nBigBCH = GetTask(2507)
+	local nBigLTH = EatLiushen(2,0)
+	local nBigTTH = EatSanqin(2,0)
+	local nBigTLH = GetTask(3106)
+	
+	local nExBigBCH = GetTask(2508)
+	local nExBigLTH = EatLiushen(3,0)
+	local nExBigTTH = EatSanqin(3,0)
+	local nExBigTLH = GetTask(3107)
+	
+	if nType == 5 then
+		if GetOnlineTime() < 1 * 3600 * 6 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian trªn m¹ng cña c¸c h¹ ch­a ®ñ 6 giê!")
+			return
+		end
+	else
+		if GetOnlineTime() < 1 * 3600 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian trªn m¹ng cña c¸c h¹ ch­a ®ñ 1 giê!")
+			return
+		end
+	end
+	
+	if nType == 1 then
+		if nSmallBCH < 60 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c B¹ch C©u Hoµn cña c¸c h¹ kh«ng ®ñ 1 giê!")
+			return
+		end	
+		if nChosen == 3 or  nChosen == 4 then
+			if nSmallLTH < 60 then
+				Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Lôc ThÇn Hoµn cña c¸c h¹ kh«ng ®ñ 1 giê!!!")
+				return
+			end
+			if nSmallTTH < 60 then
+				Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Tam Thanh Hoµn cña c¸c h¹ kh«ng ®ñ 1 giê!")
+				return
+			end
+		end		
+		if nChosen == 4 then
+			if nSmallTLH < 60 then
+				Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Tô Linh Hoµn cña c¸c h¹ kh«ng ®ñ 1 giê!!")
+				return
+			end
+		end			
+	elseif nType == 2 then
+			Talk(1,"IpBonus",szNpcName.."TÝnh n¨ng t¹m ®ãng!")
+			return
+	elseif nType == 3 then
+		if nExBigBCH < 60 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c B¹ch C©u Tiªn §¬n cña c¸c h¹ kh«ng ®ñ 1 giê!")
+			return
+		end	
+		if nChosen == 3 or  nChosen == 4 then
+			if nExBigLTH < 60 then
+				Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Lôc ThÇn Tiªn §¬n cña c¸c h¹ kh«ng ®ñ 1 giê!")
+				return
+			end
+			if nExBigTTH < 60 then
+				Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Tam Thanh Tiªn §¬n cña c¸c h¹ kh«ng ®ñ 1 giê!")
+				return
+			end
+		end		
+		if nChosen == 4 then
+			if nExBigTLH < 60 then
+				Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Tô Linh Tiªn §¬n cña c¸c h¹ kh«ng ®ñ 1 giê!")
+				return
+			end
+		end	
+	elseif nType == 4 then
+		if nSmallBCH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c B¹ch C©u Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end	
+		if nSmallLTH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Lôc ThÇn Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end
+		if nSmallTTH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Tam Thanh Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end	
+		if nBigBCH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c §¹i B¹ch C©u Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end	
+		if nBigLTH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c C­êng HiÖu Lôc ThÇn Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end	
+		if nBigTTH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c C­êng HiÖu Tam Thanh Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end
+		if nExBigBCH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c B¹ch C©u Tiªn §¬n cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end	
+		if nExBigLTH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Lôc ThÇn Tiªn §¬n cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end
+		if nExBigTTH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Tam Thanh Tiªn §¬n cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end
+	elseif nType == 5 then
+		if nSmallBCH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c B¹ch C©u Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end	
+		if nSmallLTH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Lôc ThÇn Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end
+		if nSmallTTH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Tam Thanh Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end	
+		if nSmallTLH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Tô Linh Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end			
+		if nBigBCH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c §¹i B¹ch C©u Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end	
+		if nBigLTH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c C­êng HiÖu Lôc ThÇn Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end	
+		if nBigTTH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c C­êng HiÖu Tam Thanh Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end
+		if nBigTLH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c §¹i Tô Linh Hoµn cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end		
+		if nExBigBCH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c B¹ch C©u Tiªn §¬n cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end	
+		if nExBigLTH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Lôc ThÇn Tiªn §¬n cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end
+		if nExBigTTH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Tam Thanh Tiªn §¬n cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end		
+		if nExBigTLH < 480 then
+			Talk(1,"IpBonus",szNpcName.."Thêi gian ñy th¸c Tô Linh Tiªn §¬n cña c¸c h¹ kh«ng ®ñ 8 giê!")
+			return
+		end				
+	else
+		Talk(1,"IpBonus",szNpcName.."Ho¹t ®éng ch­a hç trî phÇn th­ëng lo¹i nµy!")
+		return
+	end
+	if nType == 5 then
+		if SetOnlineTime(3600 * 6,2) >= 0 then	
+			SetTask(2501,nSmallBCH - 480)
+			EatLiushen(1,-480)
+			EatSanqin(1,-480)
+			SetTask(2507,nBigBCH - 480)
+			EatLiushen(2,-480)
+			EatSanqin(2,-480)
+			SetTask(2508,nExBigBCH - 480)
+			EatLiushen(3,-480)
+			EatSanqin(3,-480)
+			SetTask(3105, nSmallTLH - 480,8)
+			SetTask(3106, nBigTLH - 480,8)
+			SetTask(3107, nExBigTLH - 480,8)
+		
+			ModifyExp(7900000)
+			Msg2Player("B¹n nhËn ®­îc 7.900.000 ®iÓm kinh nghiÖm.")
+			SetTask(336,GetTask(336) + 120)
+			Msg2Player("B¹n nhËn ®­îc 120 ®iÓm s­ m«n.")
+			ModifyReputation(120,0)				
+			Earn(790000)
+			if GetTask(701) >= 0 then
+				SetTask(701, GetTask(701) + 68)
+				Msg2Player("B¹n nhËn ®­îc 68 ®iÓm c«ng tr¹ng.")	
+			else	
+				SetTask(701, GetTask(701) - 68)
+				Msg2Player("B¹n nhËn ®­îc 68 ®iÓm c«ng tr¹ng.")	
+			end
+			if MeridianGetLevel() >= 1 then
+				AwardGenuineQi(2900)
+			end
+			 gf_WriteLogEx("TICH LUY ONLINE NEW", "kick ho¹t thµnh c«ng", 1, "TÝch lòy online B¹ch Kim ")
+			online_award()
+		end
+		return
+	end
+	if SetOnlineTime(3600,2) >= 0 then	
+		if nType == 1 then
+			if nChosen == 0 then
+				SetTask(2501,nSmallBCH - 60)
+				gf_WriteLogEx("TICH LUY ONLINE NEW", "kick ho¹t thµnh c«ng", 1, "TÝch lòy online SCÊp exp ")							
+			elseif nChosen == 3 then
+				SetTask(2501,nSmallBCH - 60)
+				EatLiushen(1,-60)
+				EatSanqin(1,-60)
+				gf_WriteLogEx("TICH LUY ONLINE NEW", "kick ho¹t thµnh c«ng", 1, "TÝch lòy online SCÊp all ")		
+			elseif nChosen == 4 then
+				SetTask(2501,nSmallBCH - 60)
+				EatLiushen(1,-60)
+				EatSanqin(1,-60)
+				SetTask(3105,nSmallTLH - 60, 8)
+				if MeridianGetLevel() >= 1 then
+					AwardGenuineQi(66)
+				end
+				gf_WriteLogEx("TICH LUY ONLINE NEW", "kick ho¹t thµnh c«ng", 1, "TÝch lòy online SCÊp all & ch©n khÝ ")		
+			else
+				Talk(1,"IpBonus",szNpcName.."Ho¹t ®éng ch­a hç trî phÇn th­ëng lo¹i nµy!")
+				return	
+			end
+			ModifyExp(tOnlineAward[nType][nChosen][1])	--kinh nghiÖm
+			Msg2Player("B¹n nhËn ®­îc "..tOnlineAward[nType][nChosen][1].." ®iÓm kinh nghiÖm.")						
+			ModifyReputation(tOnlineAward[nType][nChosen][2],0)		--danh väng
+			SetTask(336,GetTask(336) + tOnlineAward[nType][nChosen][3])		--s­ m«n
+			if nChosen ~= 0 then
+				Msg2Player("B¹n nhËn ®­îc "..tOnlineAward[nType][nChosen][3].." ®iÓm s­ m«n.")					
+			end
+			Earn(tOnlineAward[nType][nChosen][6] * 10000)	--vµng
+		
+			online_award()	
+		elseif nType == 2 then
+			online_award()
+		elseif nType == 3 then
+			if nChosen == 0 then
+				SetTask(2508,nExBigBCH - 60)
+				gf_WriteLogEx("TICH LUY ONLINE NEW", "kick ho¹t thµnh c«ng", 1, "TÝch lòy online Cao CÊp exp ")							
+			elseif nChosen == 3 then
+				SetTask(2508,nExBigBCH - 60)
+				EatLiushen(3,-60)
+				EatSanqin(3,-60)
+				gf_WriteLogEx("TICH LUY ONLINE NEW", "kick ho¹t thµnh c«ng", 1, "TÝch lòy online Cao CÊp all ")	
+				if GetTask(701) >= 0 then
+					SetTask(701, GetTask(701) + tOnlineAward[nType][nChosen][4])
+					Msg2Player("B¹n nhËn ®­îc "..tOnlineAward[nType][nChosen][4].." ®iÓm c«ng tr¹ng.")				
+				else
+					SetTask(701, GetTask(701) -  tOnlineAward[nType][nChosen][4])
+					Msg2Player("B¹n nhËn ®­îc "..tOnlineAward[nType][nChosen][4].." ®iÓm c«ng tr¹ng.")					
+				end	
+			elseif nChosen == 4 then
+				SetTask(2508,nExBigBCH - 60)
+				EatLiushen(3,-60)
+				EatSanqin(3,-60)
+				SetTask(3107, nExBigTLH - 60, 8)
+				gf_WriteLogEx("TICH LUY ONLINE NEW", "kick ho¹t thµnh c«ng", 1, "TÝch lòy online Cao CÊp all & ch©n khÝ ")
+				if GetTask(701) >= 0 then
+					SetTask(701, GetTask(701) + tOnlineAward[nType][nChosen][4])
+					Msg2Player("B¹n nhËn ®­îc "..tOnlineAward[nType][nChosen][4].." ®iÓm c«ng tr¹ng.")				
+				else
+					SetTask(701, GetTask(701) -  tOnlineAward[nType][nChosen][4])
+					Msg2Player("B¹n nhËn ®­îc "..tOnlineAward[nType][nChosen][4].." ®iÓm c«ng tr¹ng.")					
+				end	
+				if MeridianGetLevel() >= 1 then
+					AwardGenuineQi(199)
+				end						
+			else
+				Talk(1,"IpBonus",szNpcName.."Ho¹t ®éng ch­a hç trî phÇn th­ëng lo¹i nµy!")
+				return	
+			end
+			ModifyExp(tOnlineAward[nType][nChosen][1])	--kinh nghiÖm
+			Msg2Player("B¹n nhËn ®­îc "..tOnlineAward[nType][nChosen][1].." ®iÓm kinh nghiÖm.")						
+			ModifyReputation(tOnlineAward[nType][nChosen][2],0)		--danh väng
+			SetTask(336,GetTask(336) + tOnlineAward[nType][nChosen][3])		--s­ m«n
+			if nChosen ~= 0 then
+				Msg2Player("B¹n nhËn ®­îc "..tOnlineAward[nType][nChosen][3].." ®iÓm s­ m«n.")	
+			end
+			Earn(tOnlineAward[nType][nChosen][6] * 10000)	--vµng
+		
+			online_award()
+		elseif nType == 4 then
+			SetTask(2501,nSmallBCH - 480)
+			EatLiushen(1,-480)
+			EatSanqin(1,-480)
+			SetTask(2507,nBigBCH - 480)
+			EatLiushen(2,-480)
+			EatSanqin(2,-480)
+			SetTask(2508,nExBigBCH - 480)
+			EatLiushen(3,-480)
+			EatSanqin(3,-480)
+		
+			ModifyExp(7200000)
+			Msg2Player("B¹n nhËn ®­îc 7.200.000 ®iÓm kinh nghiÖm.")
+			SetTask(336,GetTask(336) + 120)
+			Msg2Player("B¹n nhËn ®­îc 120 ®iÓm s­ m«n.")
+			ModifyReputation(120,0)				
+			Earn(720000)
+			if GetTask(701) >= 0 then
+				SetTask(701, GetTask(701) + 60)
+				Msg2Player("B¹n nhËn ®­îc 60 ®iÓm c«ng tr¹ng.")	
+			else	
+				SetTask(701, GetTask(701) - 60)
+				Msg2Player("B¹n nhËn ®­îc 60 ®iÓm c«ng tr¹ng.")	
+			end
+			 gf_WriteLogEx("TICH LUY ONLINE NEW", "kick ho¹t thµnh c«ng", 1, "TÝch lòy online Hoµng Kim")
+			online_award()
+		else
+			Talk(1,"IpBonus",szNpcName.."Ho¹t ®éng ch­a hç trî phÇn th­ëng lo¹i nµy!")
+			return
+		end		
+	end	
+end
+
+function day_award()
+	local tSay = {
+		format("NhËn phÇn th­ëng vËt phÈm thu thËp/#get_day_award(%d)",1),
+		format("NhËn phÇn th­ëng vËt phÈm qu©n dông/#get_day_award(%d)",2),
+		format("NhËn phÇn th­ëng Tµng KiÕm Anh Hïng ThiÕp/#get_day_award(%d)",3),
+		"Ta chØ ghÐ qua/nothing",
+	}	
+	Say(szNpcName.."C¸c h¹ chän phÇn th­ëng nµo?",getn(tSay),tSay);
+end
+
+function get_day_award(nType)
+	if GetLevel() < 73 then
+		Talk(1,"IpBonus",szNpcName.."§¼ng cÊp 73 trë lªn míi cã thÓ tham gia ho¹t ®éng!")
+		return
+	end
+	
+	local nDate = tonumber(date("%Y%m%d"))	
+	if GetTask(TASK_GET_DAY_AWARD) == nDate then
+		Talk(1,"IpBonus",szNpcName.."H«m nay c¸c h¹ ®æi phÇn th­ëng nµy råi. Mçi ngµy chØ ®­îc ®æi 1 lÇn.")
+		return
+	end
+	
+	
+	if GetTask(TASK_FULL_8_HOUR) ~= 1 then
+		Talk(1,"IpBonus",szNpcName.."Thêi gian trªn m¹ng cña c¸c h¹ ch­a ®ñ 8 giê!")
+		return
+	end		
+
+	if GetFreeItemRoom() < 2 then
+		Talk(1,"IpBonus",szNpcName.."Hµnh trang c¸c h¹ kh«ng ®ñ 2 « trèng.")
+		return
+	end	
+	
+	local nLevel = floor(GetLevel()/10) - 6 -- trõ 6  t­¬ng øng víi phÇn tö 1,2,3 trong b¶ng th­ëng		
+	SetTask(TASK_GET_DAY_AWARD,nDate)
+	SetTask(TASK_FULL_8_HOUR,2)
+	local nRet, nItemIdx = gf_AddItemEx(tDayAward[nType][nLevel][2], tDayAward[nType][nLevel][1] )
+	WriteLogEx("IP Bonus","nhËn","",tDayAward[nType][nLevel][1])			
+	if nType == 3 and nRet == 1 then
+		SetItemExpireTime(nItemIdx,2 * 24 * 3600)
+	end
+end
+
+function show_time()
+	IpBonusClose()	
+	local nHour, nMin, nSec = ShowTime()
+	local strMsg = format("%sThêi gian trªn m¹ng cña c¸c h¹ lµ: <color=yellow>%d giê %d phót %d gi©y<color>.",szNpcName,nHour, nMin, nSec)
+	IpBonusStart()
+	Talk(1,"IpBonus",strMsg)
+end
+
+function get_help()
+	local tSay = {
+		format("%sThêi gian nh©n vËt trªn m¹ng sÏ ®­îc tÝch lòy liªn tôc. Nh©n vËt cã thÓ sö dông 2 giê  trªn m¹ng ®Ó ®æi c¸c lo¹i phÇn th­ëng. PhÇn th­ëng bao gåm kinh nghiÖm, danh väng, ®iÓm s­ m«n vµ vµng. <color=red>Chó ý: nÕu chän nhËn th­ëng tÊt c¶, sè l­îng phÇn th­ëng sÏ nhiÒu h¬n. Mçi nh©n vËt chØ cã thÓ tÝch lòy ®­îc 8 giê trªn m¹ng, sau khi ®æi th­ëng th× thêi gian tiÕp tôc ®­îc tÝch lòy<color>.",szNpcName),
+		format("%sNÕu tÝch lòy ®ñ 8 giê trªn m¹ng, nh©n vËt cã thÓ ®æi ®­îc c¸c lo¹i vËt phÈm thu thËp, vËt phÈm qu©n dông hoÆc Anh Hïng ThiÕp (kh«ng thÓ giao dÞch, h¹n tån t¹i 2 ngµy). <color=red>Chó ý: mçi ngµy nh©n vËt chØ cã thÓ ®æi 1 lÇn<color>.",szNpcName),
+		format("%sNgoµi ra, nh©n vËt cßn cã thÓ nhËn ®­îc hiÖu qu¶ hç trî ngÉu nhiªn h»ng ngµy. <color=red>Chó ý: sau 24 giê h»ng ngµy, hiÖu qu¶ sÏ biÕn mÊt. Mçi ngµy nh©n vËt chØ cã thÓ nhËn hiÖu qu¶ hç trî 1 lÇn<color>.",szNpcName),
+	}
+	TalkEx("IpBonus",tSay)
+end
+
+function nothing()
+end
+
+tbMoiBanCungChoi = {
+	[1] = {{0, 100, 8055}, {0, 101, 8055},{0, 103, 8055}, "Set Thiªn Chi Viªm §Õ"},
+	[2] = {
+				{"Ph¸ Yªn ®ao", {0, 3, 6001,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"Ph¸ Yªn c«n", {0, 5, 6002,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"Phï Yªn tr­îng", {0, 8, 6003,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"Hµm Yªn thñ", {0, 0, 6004,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"Tµng Yªn ch©m", {0, 1, 6005,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"Phi Yªn kiÕm", {0, 2, 6006,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"VËn Yªn cÇm", {0, 10, 6007,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"V©n Yªn thñ", {0, 0, 6008,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"L­u Yªn c«n", {0, 5, 6009,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"HuyÒn Yªn kiÕm", {0, 2, 6010,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"Vò Yªn bót", {0, 9, 6011,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"Hµ Tiªm Th­¬ng", {0, 6, 6012,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"Hµnh Yªn Cung", {0, 4, 6013,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"Träc Yªn nhÉn", {0, 7, 6014,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+				{"Yªu Yªn tr¶o", {0, 11, 6015,1,1, -1,-1, -1, -1, -1, -1, -1,10}},
+			},
+	[3] = {{2,1,9977,8}, "Qu©n c«ng Huy Hoµng", 7*24*60*60},
+	[4] = {{2,1,9998,8}, "Qu©n c«ng §¹i", 7*24*60*60},
+	[5] = {{2,1,30087,5}, "Tói h¹t gièng", 7*24*60*60},
+	[6] = {{2,1,1008,1}, "B¹ch C©u Tiªn ®¬n", 7*24*60*60},
+}
+tbMoRuongThanTai = {
+		[4] = {"Tói Thiªn Th¹ch Tinh Th¹ch",{2,1,3356,1}, 7*24*60*60 },
+		[5] = {"Qu©n C«ng Huy Hoµng",{2,1,9977,1}, 7*24*60*60 },
+		[6] = {"Thiªn Th¹ch Tinh Th¹ch",{2,1,1009,1}},
+		[7] = {"Chiªm Y Phæ",{0,107,66,1}},
+	}
+
+function get_Invite()
+	local tbSayDialog = {};
+	local nSaySize = 0;
+	local szSayHead = "H·y chän phÇn th­ëng."
+	
+	tinsert(tbSayDialog, "- NhËn 1 bé trang bÞ Thiªn Chi Viªm §Õ [+10]/#get_TCVD_new(10)")
+	tinsert(tbSayDialog, "- NhËn 1 bé trang bÞ Viªm §Õ [+13]/#get_VD(13)")
+	tinsert(tbSayDialog, "- NhËn 1 mËt tÞch cao cÊp theo hÖ ph¸i/#get_Award(3)")	
+	tinsert(tbSayDialog, "- NhËn 1 tói Thiªn Th¹ch Tinh Th¹ch/#get_Award(4)")	
+	tinsert(tbSayDialog, "- NhËn 1 qu©n c«ng Huy Hoµng/#get_Award(5)")	
+	tinsert(tbSayDialog, "- NhËn 1 Thiªn Th¹ch Tinh Th¹ch/#get_Award(6)")	
+	tinsert(tbSayDialog, "- NhËn 1 Chiªm Y Phæ/#get_Award(7)")	
+	
+	
+	--tinsert(tbSayDialog, "- NhËn 1 vò khÝ ViÖt Yªn [+10]/get_vukhi")
+	--tinsert(tbSayDialog, "- NhËn 8 qu©n c«ng Huy Hoµng/#get_prize(3)")
+	--tinsert(tbSayDialog, "- NhËn 8 qu©n c«ng §¹i/#get_prize(4)")
+	--tinsert(tbSayDialog, "- NhËn 5 Tói h¹t gièng/#get_prize(5)")
+	--tinsert(tbSayDialog, "- NhËn 1 B¹ch CÇu Tiªn §¬n/#get_prize(6)")
+	tinsert(tbSayDialog, "Ta chØ ghÐ qua/nothing")
+	
+	nSaySize = getn(tbSayDialog);
+	Say(szSayHead, nSaySize, tbSayDialog);
+end
+
+function get_TCVD()
+	local tbSayDialog = {};
+	local nSaySize = 0;
+	local szSayHead = "H·y chän phÇn th­ëng."
+	
+	tinsert(tbSayDialog, "- Nam Tiªu ChuÈn/#get_prize(1,1)")
+	tinsert(tbSayDialog, "- Nam Kh«i Ng«/#get_prize(1,2)")
+	tinsert(tbSayDialog, "- N÷ Gîi C¶m/#get_prize(1,3)")
+	tinsert(tbSayDialog, "- KiÒu N÷/#get_prize(1,4)")
+	tinsert(tbSayDialog, "Trë l¹i/get_Invite")
+	
+	nSaySize = getn(tbSayDialog);
+	Say(szSayHead, nSaySize, tbSayDialog);
+end
+
+
+function get_vukhi()
+	local tbSayDialog = {};
+	local nSaySize = 0;
+	local szSayHead = "H·y chän vò khÝ cÇn nhËn."
+	
+	tinsert(tbSayDialog, "- Ph¸ Yªn ®ao/#get_prize(2,1)")
+	tinsert(tbSayDialog, "- Ph¸ Yªn c«n/#get_prize(2,2)")
+	tinsert(tbSayDialog, "- Phï Yªn tr­îng/#get_prize(2,3)")
+	tinsert(tbSayDialog, "- Hµm Yªn thñ/#get_prize(2,4)")
+	tinsert(tbSayDialog, "- Tµng Yªn ch©m/#get_prize(2,5)")
+	tinsert(tbSayDialog, "- Phi Yªn kiÕm/#get_prize(2,6)")
+	tinsert(tbSayDialog, "- VËn Yªn cÇm/#get_prize(2,7)")
+	tinsert(tbSayDialog, "- V©n Yªn thñ/#get_prize(2,8)")
+	tinsert(tbSayDialog, "- L­u Yªn c«n/#get_prize(2,9)")
+	tinsert(tbSayDialog, "- HuyÒn Yªn kiÕm/#get_prize(2,10)")
+	tinsert(tbSayDialog, "- Vò Yªn bót/#get_prize(2,11)")
+	tinsert(tbSayDialog, "- Hµ Tiªm Th­¬ng/#get_prize(2,12)")
+	tinsert(tbSayDialog, "- Hµnh Yªn Cung/#get_prize(2,13)")
+	tinsert(tbSayDialog, "- Träc Yªn nhÉn/#get_prize(2,14)")
+	tinsert(tbSayDialog, "- Yªu Yªn tr¶o/#get_prize(2,15)")
+	tinsert(tbSayDialog, "Trë l¹i/get_Invite")
+	
+	nSaySize = getn(tbSayDialog);
+	Say(szSayHead, nSaySize, tbSayDialog);
+end
+
+function get_prize(nGetType, nSelected)
+	if IsPlayerDeath() ~= 0 then 
+		Talk(1, "", "HiÖn t¹i kh«ng thÓ nhËn th­ëng!!!")
+		return
+	end
+	if nGetType == 0 then
+		return 0;
+	end	
+	if gf_Judge_Room_Weight(10, 500, "") == 0 then
+        return 0;
+    	end	
+	if gf_GetExtPointByte(1,2) <= 0 then
+		Talk(1, "", "§¹i hiÖp ch­a kÝch ho¹t code hoÆc ®· nhËn th­ëng råi nªn kh«ng thÓ nhËn th­ëng ®­îc n÷a!!!")
+		return
+	end
+	if nGetType == 1 then
+		if  gf_GetExtPointByte(1,2) == 1 then
+			if gf_SetExtPointByte(1, 2, 0) == 1 then
+					nP = 8055 + nSelected - 1		
+					gf_AddItemEx2({0, 100, nP,1,1, -1,-1, -1, -1, -1, -1, -1,10}, tbMoiBanCungChoi[nGetType][4], szLogTitle, "nhËn thµnh c«ng")	
+					gf_AddItemEx2({0, 101, nP,1,1, -1,-1, -1, -1, -1, -1, -1,10}, tbMoiBanCungChoi[nGetType][4], szLogTitle, "nhËn thµnh c«ng")			
+					gf_AddItemEx2({0, 103, nP,1,1, -1,-1, -1, -1, -1, -1, -1,10}, tbMoiBanCungChoi[nGetType][4], szLogTitle, "nhËn thµnh c«ng")													
+			end
+		else
+			Talk(1, "", "§¹i hiÖp ®· chän kh«ng ®óng víi phÇn th­ëng ®· tróng khi quay sè, xin mêi chän l¹i!!!")
+		end
+	end
+	
+	if nGetType == 2 then
+		if  gf_GetExtPointByte(1,2) == 2 then
+			if gf_SetExtPointByte(1, 2, 0) == 1 then
+					local nChoose = tbMoiBanCungChoi[nGetType][nSelected][2]
+					gf_AddItemEx2(nChoose, tbMoiBanCungChoi[nGetType][nSelected][1], szLogTitle, "nhËn thµnh c«ng")											
+			end
+		else
+			Talk(1, "", "§¹i hiÖp ®· chän kh«ng ®óng víi phÇn th­ëng ®· tróng khi quay sè, xin mêi chän l¹i!!!")
+		end
+	end
+	
+	if nGetType == 3 then
+		if  gf_GetExtPointByte(1,2) == 3 then
+			if gf_SetExtPointByte(1, 2, 0) == 1 then
+				gf_AddItemEx2(tbMoiBanCungChoi[nGetType][1], tbMoiBanCungChoi[nGetType][2], szLogTitle, "nhËn thµnh c«ng", tbMoiBanCungChoi[nGetType][3])			
+			end
+		else
+			Talk(1, "", "§¹i hiÖp ®· chän kh«ng ®óng víi phÇn th­ëng ®· tróng khi quay sè, xin mêi chän l¹i!!!")
+		end
+	end
+	if nGetType == 4 then
+		if  gf_GetExtPointByte(1,2) == 4 then
+			if gf_SetExtPointByte(1, 2, 0) == 1 then
+				gf_AddItemEx2(tbMoiBanCungChoi[nGetType][1], tbMoiBanCungChoi[nGetType][2], szLogTitle, "nhËn thµnh c«ng", tbMoiBanCungChoi[nGetType][3])			
+			end
+		else
+			Talk(1, "", "§¹i hiÖp ®· chän kh«ng ®óng víi phÇn th­ëng ®· tróng khi quay sè, xin mêi chän l¹i!!!")
+		end
+	end
+	if nGetType == 5 then
+		if  gf_GetExtPointByte(1,2) == 5 then
+			if gf_SetExtPointByte(1, 2, 0) == 1 then
+				gf_AddItemEx2(tbMoiBanCungChoi[nGetType][1], tbMoiBanCungChoi[nGetType][2], szLogTitle, "nhËn thµnh c«ng", tbMoiBanCungChoi[nGetType][3])			
+			end
+		else
+			Talk(1, "", "§¹i hiÖp ®· chän kh«ng ®óng víi phÇn th­ëng ®· tróng khi quay sè, xin mêi chän l¹i!!!")
+		end
+	end
+	if nGetType == 6 then
+		if  gf_GetExtPointByte(1,2) == 6 then
+			if gf_SetExtPointByte(1, 2, 0) == 1 then
+				gf_AddItemEx2(tbMoiBanCungChoi[nGetType][1], tbMoiBanCungChoi[nGetType][2], szLogTitle, "nhËn thµnh c«ng", tbMoiBanCungChoi[nGetType][3])			
+			end
+		else
+			Talk(1, "", "§¹i hiÖp ®· chän sai phÇn th­ëng, xin mêi chän l¹i!!!")
+		end
+	end
+end
+function Check_Award()
+	local nValue = 0
+	nValue = GetExtPoint(6)
+	if nValue > 0 then
+		return nValue
+	end
+	return 0
+end
+function get_VD(nLv)
+	local VD =
+	{
+		{0,103,8000,"Viªm §Õ Kh«i"},
+		{0,100,8000,"Viªm §Õ Gi¸p"},
+		{0,101,8000,"Viªm §Õ Trang"},
+	}
+	local nBody = GetBody()
+	local nCheck  = Check_Award()
+	if nCheck ~= 2 then
+		Talk(1, "", "§¹i hiÖp ®· chän sai phÇn th­ëng, xin mêi chän l¹i!!!")
+		return 0
+	end
+	if gf_Judge_Room_Weight(5, 100," ") ~= 1 then
+        	return
+    end	
+	PayExtPoint(6, GetExtPoint(6))
+	
+	for i = 1 , getn(VD) do
+		gf_AddItemEx2({VD[i][1],VD[i][2],VD[i][3]+nBody,1,1,-1,-1,-1,-1,-1,-1,-1,nLv},VD[i][4],"Mo Ruong Than Tai","nhËn th­ëng VD thµnh c«ng")
+	end
+end
+function get_TCVD_new(nLv)
+	local TCVD =
+	{
+		{0,103,8054,"Thiªn Chi Viªm §Õ Kh«i"},
+		{0,100,8054,"Thiªn Chi Viªm §Õ Gi¸p"},
+		{0,101,8054,"Thiªn Chi Viªm §Õ Trang"},
+	}
+	local nBody = GetBody()
+	local nCheck  = Check_Award()
+	if nCheck ~= 1 then
+		Talk(1, "", "§¹i hiÖp ®· chän sai phÇn th­ëng, xin mêi chän l¹i!!!")
+		return 0
+	end
+	if gf_Judge_Room_Weight(5, 100," ") ~= 1 then
+        	return
+    end		
+	PayExtPoint(6, GetExtPoint(6))
+	for i = 1 , getn(TCVD) do
+		gf_AddItemEx2({TCVD[i][1],TCVD[i][2],TCVD[i][3]+nBody,1,1,-1,-1,-1,-1,-1,-1,-1,nLv},TCVD[i][4],"Mo Ruong Than Tai","nhËn th­ëng TCVD thµnh c«ng")
+	end
+end
+function get_Award(nType)
+	local nCheck  = Check_Award()
+	local nRoute = GetPlayerRoute()
+	if nType == 3 then	
+		if nRoute <= 0 then
+			Talk(1, "", "§¹i hiÖp ch­a gia nhËp hÖ ph¸i nªn kh«ng thÓ nhËn th­ëng !!!")
+			return 0
+		end
+	end
+	if nCheck ~= nType then
+		Talk(1, "", "§¹i hiÖp ®· chän sai phÇn th­ëng, xin mêi chän l¹i!!!")
+		return 0
+	end
+	if gf_Judge_Room_Weight(5, 100," ") ~= 1 then
+        	return
+    end		
+	PayExtPoint(6, GetExtPoint(6))
+
+	if nType == 3 then
+		gf_AddItemEx2(VET_70_GAOJIMIJI_NEW[nRoute][2], VET_70_GAOJIMIJI_NEW[nRoute][1], "Mo Ruong Than Tai", "nhËn th­ëng thµnh c«ng")
+	elseif nType == 4 or nType == 5 then
+		gf_AddItemEx2(tbMoRuongThanTai[nType][2], tbMoRuongThanTai[nType][1], "Mo Ruong Than Tai", "nhËn th­ëng thµnh c«ng", tbMoRuongThanTai[nType][3])
+	elseif nType == 6 or nType == 7 then
+			gf_AddItemEx2(tbMoRuongThanTai[nType][2], tbMoRuongThanTai[nType][1], "Mo Ruong Than Tai", "nhËn th­ëng thµnh c«ng")
+	
+	end
+--tbMoRuongThanTai
+end
+
+
+function VBonusMenu()
+	local nDate = tonumber(date("%Y%m%d"))
+	local tbSay = {}
+	tinsert(tbSay,"KÝch ho¹t cÊp ®é 83/ChonPheVBonus")
+--	tinsert(tbSay,"NhËn th­ëng ®¼ng cÊp 83/#NhanThuongVBonus(83)")
+	tinsert(tbSay,"NhËn th­ëng ®¼ng cÊp 86/#NhanThuongVBonus(86)")
+	tinsert(tbSay,"NhËn th­ëng ®¼ng cÊp 90/#NhanThuongVBonus(90)")
+	tinsert(tbSay,"NhËn th­ëng ®¼ng cÊp 93/#NhanThuongVBonus(93)")
+	tinsert(tbSay,"NhËn th­ëng ®¼ng cÊp 97/#NhanThuongVBonus(97)")
+	tinsert(tbSay,"NhËn th­ëng ®¼ng cÊp 99/#NhanThuongVBonus(99)")
+	tinsert(tbSay,"Ta chØ ghÐ xem th«i/gf_DoNothing")
+	Say(szNpcName .."Ta lµ ng­êi chÞu tr¸ch nhiÖm trao phÇn th­ëng ch­¬ng tr×nh V-Bonus cho c¸c h¹", getn(tbSay), tbSay)
+end
+
+
+function ChonPheVBonus()
+	tbSay = {}
+	tinsert(tbSay, "Ta muèn chän phe Tèng/#KichHoatVBonus(1)")
+	tinsert(tbSay, "Ta muèn chän phe Liªu/#KichHoatVBonus(2)")
+	tinsert(tbSay, "Ta cÇn suy nghÜ thªm/gf_DoNothing")
+	Say("C¸c h¹ h·y chän cho m×nh phe ph¸i thÝch hîp.", getn(tbSay), tbSay)
+end
+
+
+function KichHoatVBonus(nPhe)
+	local nVB = GetExtPoint(EXT_VBONUS)
+	if GetBit(nVB,1) == 0 then
+		Talk(1,"",szNpcName .."Tµi kho¶n c¸c h¹ ch­a ®­îc chñ phßng m¸y kÝch ho¹t.")
+		return 0
+	end
+	if GetBit(nVB,2) == 1 then
+		Talk(1,"",szNpcName .."Tµi kho¶n c¸c h¹ ®· hÕt h¹n nhËn th­ëng.")
+		return 0
+	end
+	if GetBit(nVB,3) == 1 then
+		Talk(1,"",szNpcName .."Tµi kho¶n c¸c h¹ ®· kÝch ho¹t cÊp ®é 83 råi.")
+		return 0
+	end
+	if GetLevel() >= 83 then
+		Talk(1,"",szNpcName.."§¼ng cÊp c¸c h¹ ®· qu¸ cao, ta kh«ng thÓ gióp g× ®­îc...")
+		return 0
+	end
+--	if gf_Judge_Room_Weight(7,100) ~= 1 then
+--		Talk(1,"",szNpcName.."Hµnh trang hoÆc søc lùc kh«ng ®ñ, vui lßng s¾p xÕp l¹i.")
+--		return 0
+--	end
+	
+--	nVB = SetBit(nVB,3,1)
+--	PayExtPoint(EXT_VBONUS,GetExtPoint(EXT_VBONUS))
+--	AddExtPoint(EXT_VBONUS, nVB)
+	if VNG_SetExtBit(EXT_VBONUS,3,1) ~= 1 then
+		return 0
+	end
+	gf_WriteLogEx("NHAN THUONG VBONUS","nhËn",1,"PhÇn th­ëng kÝch ho¹t")
+	SetLevel(83,0)
+	SetTask(336,GetTask(336) + 2000)
+	Msg2Player("Cèng hiÕn s­ m«n t¨ng 2000 ®iÓm.")
+	ModifyReputation(2000,0)
+	if nPhe == 1 then
+		SetTask(701,GetTask(701)+5000)
+	else
+		SetTask(701,GetTask(701)-5000)
+	end
+	Msg2Player("C«ng tr¹ng t¨ng 5000 ®iÓm.")
+--	local tbItem = {item={{gdp={2,1,30340,6789}, name = "Méc R­¬ng"}}}
+--	LIB_Award.szLogTitle = "NHAN THUONG VBONUS"
+--	LIB_Award.szLogAction = "nhËn"
+--	LIB_Award:Award(tbItem)
+	Talk(1,"","§¼ng cÊp cña c¸c h¹ ®· t¨ng ®Õn 83, vui lßng ®¨ng nhËp l¹i ®Ó cã hiÖu lùc.")
+end
+
+
+function TopCheckSkill(nSkillLevel)
+	tb_Skill_ID = {
+		[0] = 0,
+		[1] = 0,	
+		[2] = 32,	
+		[3] = 57,	
+		[4] = 44,	
+		[5] = 0,	
+		[6] = 74,	
+		[7] = 0,	
+		[8] = 89,	
+		[9] = 102,
+		[10] = 0,			
+		[11] = 113,
+		[12] = 124,
+		[13] = 0,		
+		[14] = 146,
+		[15] = 159,
+		[16] = 0,		
+		[17] = 732,
+		[18] = 745,
+		[19] = 0,		
+		[20] = 775,
+		[21] = 774,
+		[23] = 1032,
+		[29] = 1196,
+		[30] = 1230,
+	}
+	local nRoute = GetPlayerRoute();
+	local nSkillID = tb_Skill_ID[nRoute];
+	if nSkillID == 0 then
+		return 0;
+	else
+		if GetSkillLevel(nSkillID) >= nSkillLevel then
+			return 1
+		else
+			return 0
+		end;
+	end;
+end;
+
+
+function VBonusShop()
+	local nDate = tonumber(date("%m%d"))
+	if mod(tonumber(GetTask(TSK_VBONUS_SaleOff)),10000) ~= nDate then
+		SetTask(TSK_VBONUS_SaleOff, nDate)
+	end
+	local tbSay = {}
+	for i=1,getn(tbVBonusItemShop) do
+		tinsert(tbSay, "Mua "..tbVBonusItemShop[i][1].." ("..tbVBonusItemShop[i][3].." xu vËt phÈm)/#VBonusShop_Buy("..i..")")
+	end
+	tinsert(tbSay,"Ta chØ muèn ghÐ xem/gf_DoNothing")
+	Say(szNpcName.."Ta cã l« hµng gi¸ ®Æc biÖt, chØ dµnh riªng cho b»ng h÷u ®· kÝch ho¹t VBonus, c¸c h¹ h·y xem thö...", getn(tbSay), tbSay)
+end
+
+
+function VBonusShop_Buy(nOption)
+	local nVB = GetExtPoint(EXT_VBONUS)
+	if GetBit(nVB,1) == 0 then
+		Talk(1,"",szNpcName.."ChØ cã b»ng h÷u tham gia ch­¬ng tr×nh VBonus míi ®­îc mua l« hµng nµy.");
+		return 0
+	end
+	if gf_Judge_Room_Weight(1, 100," ") ~= 1 then
+		Talk(1,"",szNpcName.."Hµnh trang hoÆc søc lùc kh«ng ®ñ, vui lßng s¾p xÕp l¹i.");
+		return 0
+	end
+	local szName = tbVBonusItemShop[nOption][1]
+	local tbItem = tbVBonusItemShop[nOption][2]
+	local nPrize = tbVBonusItemShop[nOption][3]
+	local nMax = tbVBonusItemShop[nOption][4]
+	local nPos = tbVBonusItemShop[nOption][5]
+	local nQty = GetTaskPosition(TSK_VBONUS_SaleOff, nPos)
+	if nQty >= nMax then
+		Talk(1,"",szNpcName.."B»ng h÷u ®· mua ®ñ <color=red>"..nMax.."<color> <color=yellow>"..szName.."<color> trong ngµy, mai h·y quay l¹i nhÐ.");
+		return 0
+	end
+	if GetItemCount(2,1,30230) < nPrize then
+		Talk(1,"",szNpcName.."B»ng h÷u kh«ng ®em ®ñ <color=yellow>"..nPrize.." xu vËt phÈm<color>, h·y chuÈn bÞ thªm.");
+		return 0
+	end
+	
+	if DelItem(2,1,30230, nPrize) == 1 then
+		gf_AddItemEx2(tbItem, szName,"MUA VAT PHAM VBONUS","nhËn", 7*24*60*60)
+		SetTaskPosition(TSK_VBONUS_SaleOff, nPos, nQty+1)
+	end
+end
+
+
+function GetTaskPosition(nTask, nPosition)
+	if nPosition <= 0 then
+		return
+	end
+	local nTaskValue = GetTask(nTask)
+	local nResult = floor(nTaskValue/(10^(nPosition-1)))
+	return mod(nResult,10)
+end
+
+
+function SetTaskPosition(nTask, nPosition, nValue)
+	if nPosition <= 0 then
+		return
+	end
+	if nValue > 9 or nValue < 0 then
+		return
+	end
+	local nTaskValue = GetTask(nTask)
+	local nResult = floor(nTaskValue/(10^nPosition))*(10^nPosition) + nValue*(10^(nPosition-1)) + mod(nTaskValue,(10^(nPosition-1)))
+	SetTask(nTask, nResult)
+	return 1
+end
+
+
+function NhanThuongVBonus(nOption)
+	local tbAwardList = {
+		[83] = {nSumon = 2000, nDanhvong = 2000, nQuancong = 5000},
+		[86] = {fn = "VBonus_NhanThuong86()"},
+		[90] = {item={{gdp={0,105,30021,1,1,-1,-1,-1,-1,-1,-1,-1}, name = "Cæ D­¬ng Thó B¶o B¶o", nExpired = 66*24*60*60}}, nPetExp = 1200, nPetLinhluc = 400},
+		[93] = {item= {
+					{gdp={2,1,30430,30,4}, name = "Ma §ao Th¹ch CÊp 3"}, 
+					{gdp = {2,1,30368,200}, name = "Cæ Linh Th¹ch"}, 
+					{gdp={2,1,30369,200}, name = "Cæ Linh Ngäc"},
+				},
+				fn="VBonus_NhanThuong93()"},
+		[97] = {item={{gdp={2,1,30344,8}, name = "ThÇn Tµi B¶o R­¬ng"}}, nChankhi = 50000, nGold = 80000000},
+		[99] = {item={
+					{gdp={2,1,30345,1,1}, name = "ChuyÓn Sinh §¬n", nExpired = 60*24*3600},
+					{gdp={2,95,204,4,1}, name = "Thiªn Cang LÖnh"},
+					{gdp={2,1,30370,4,1}, name = "Thiªn M«n Kim LÖnh"},
+					{gdp={2,1,30497,600,1}, name = "Ma Tinh"},
+				},
+				nChankhi = 50000}
+	}
+	if tbAwardList[nOption] == nil then
+		return 0
+	end
+	
+	local tbCondition = {
+--		[83] = {nPos = 3, nSlot = 1, nWeight = 0,},
+		[86] = {nPos = 4, nSlot = 9, nWeight = 500,},
+		[90] = {nPos = 5, nSlot = 1, nWeight = 500,},
+		[93] = {nPos = 6, nSlot = 12, nWeight = 500,},
+		[97] = {nPos = 7, nSlot = 1, nWeight = 500,},
+		[99] = {nPos = 8, nSlot = 4, nWeight = 500,},
+	}
+	local nVB = GetExtPoint(EXT_VBONUS)
+	if GetBit(nVB,1) == 0 then
+		Talk(1,"",szNpcName .."Tµi kho¶n c¸c h¹ ch­a ®­îc chñ phßng m¸y kÝch ho¹t.")
+		return 0
+	end
+	if GetBit(nVB,2) == 1 then
+		Talk(1,"",szNpcName .."Tµi kho¶n c¸c h¹ ®· hÕt h¹n nhËn th­ëng.")
+		return 0
+	end
+	if GetBit(nVB,tbCondition[nOption]["nPos"]) == 1 then
+		Talk(1,"",szNpcName .."C¸c h¹ ®· nhËn th­ëng cÊp ®é ".. nOption .." råi.")
+		return 0
+	end
+	if GetLevel() < nOption then
+		Talk(1,"",szNpcName.."B»ng h÷u kh«ng ®ñ ®¼ng cÊp nhËn th­ëng, h·y cè g¾ng thªm.");
+		return 0
+	end
+	if nOption >= 97  then
+		if TopCheckSkill(20) == 0 then
+			Talk(1, "", szNpcName.."C¸c h¹ ch­a luyÖn thµnh vâ c«ng trÊn ph¸i 20 cÊp.");
+			return 0
+		end
+		if abs(GetTask(701)) < 200000 then
+			Talk(1, "", szNpcName.."§iÓm c«ng tr¹ng ch­a ®ñ 200000, ch­a thÓ nhËn th­ëng..");
+			return 0
+		end
+	elseif nOption >= 86 then
+		if abs(GetTask(701)) < 150000 then
+			Talk(1, "", szNpcName.."§iÓm c«ng tr¹ng ch­a ®ñ 150000, ch­a thÓ nhËn th­ëng..");
+			return 0
+		end
+	end
+	if gf_Judge_Room_Weight(tbCondition[nOption]["nSlot"], tbCondition[nOption]["nWeight"]) ~= 1 then
+		Talk(1,"",szNpcName.."B»ng h÷u kh«ng ®ñ ".. tbCondition[nOption]["nSlot"] .." « hµnh trang, "..tbCondition[nOption]["nWeight"].." søc lùc, h·y s¾p xÕp l¹i nhÐ.")
+		return 0
+	end
+	LIB_Award.szLogTitle = "NHAN THUONG VBONUS"
+	LIB_Award.szLogAction = "nhËn"
+	LIB_Award:Award(tbAwardList[nOption])
+	if nOption ~= 86 then
+--		nVB = SetBit(nVB,tbCondition[nOption]["nPos"],1)
+--		PayExtPoint(EXT_VBONUS,GetExtPoint(EXT_VBONUS))
+--		AddExtPoint(EXT_VBONUS, nVB)
+		VNG_SetExtBit(EXT_VBONUS,tbCondition[nOption]["nPos"],1)
+	end
+	if nOption ~= 86 and nOption ~= 93 then
+		gf_WriteLogEx("NHAN THUONG VBONUS","nhËn",1,"PhÇn th­ëng cÊp "..nOption)
+	end
+end
+
+
+function VBonus_NhanThuong86()
+	local tbSay = {}
+	tinsert(tbSay,"Thiªn NghÜa Cöu D­¬ng/#NhanThuongThienNghia(1)")
+	tinsert(tbSay,"Thiªn NghÜa Cöu ¢m/#NhanThuongThienNghia(2)")
+	tinsert(tbSay,"§Ó ta suy nghÜ thªm/gf_DoNothing")
+	Say(szNpcName .."Ng­¬i h·y chän cho m×nh bé trang bÞ thÝch hîp.", getn(tbSay), tbSay)
+end
+
+
+function NhanThuongThienNghia(nOption)
+	local tbNuOaTinhThach = {item={{gdp={2,1,504,6,4}, name = "N÷ Oa Tinh Th¹ch	", nExpired = 30*24*60*60}}}
+	local tbThienNghia1_B1 = {item = {
+			{gdp={0,100,3034,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu D­¬ng Háa Y"},
+			{gdp={0,103,3034,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu D­¬ng NhËt Qu¸n"},
+			{gdp={0,101,3034,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu D­¬ng Long Trang"},}
+	}
+	local tbThienNghia1_B2 = {item = {
+			{gdp={0,100,3040,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu D­¬ng Háa Y"},
+			{gdp={0,103,3040,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu D­¬ng NhËt Qu¸n"},
+			{gdp={0,101,3040,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu D­¬ng Long Trang"},}
+	}
+	local tbThienNghia1_B3 = {item = {
+			{gdp={0,100,3046,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu D­¬ng Háa Y"},
+			{gdp={0,103,3046,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu D­¬ng NhËt Qu¸n"},
+			{gdp={0,101,3046,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu D­¬ng Long Trang"},}
+	}
+	local tbThienNghia1_B4 = {item = {
+			{gdp={0,100,3052,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu D­¬ng Háa Y"},
+			{gdp={0,103,3052,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu D­¬ng NhËt Qu¸n"},
+			{gdp={0,101,3052,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu D­¬ng Long Trang"},}
+	}
+	local tbThienNghiaSet1 = {
+		[1] = tbThienNghia1_B1,
+		[2] = tbThienNghia1_B2,
+		[3] = tbThienNghia1_B3,
+		[4] = tbThienNghia1_B4,
+	}
+	
+	local tbThienNghia2_B1 = {item = {
+			{gdp={0,100,3037,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu ¢m Thñy Y"},
+			{gdp={0,103,3037,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu ¢m NguyÖt Qu¸n"},
+			{gdp={0,101,3037,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu ¢m Phông Trang"},}
+	}
+	local tbThienNghia2_B2 = {item = {
+			{gdp={0,100,3043,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu ¢m Thñy Y"},
+			{gdp={0,103,3043,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu ¢m NguyÖt Qu¸n"},
+			{gdp={0,101,3043,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu ¢m Phông Trang"},}
+	}
+	local tbThienNghia2_B3 = {item = {
+			{gdp={0,100,3049,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu ¢m Thñy Y"},
+			{gdp={0,103,3049,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu ¢m NguyÖt Qu¸n"},
+			{gdp={0,101,3049,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu ¢m Phông Trang"},}
+	}
+	local tbThienNghia2_B4 = {item = {
+			{gdp={0,100,3055,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu ¢m Thñy Y"},
+			{gdp={0,103,3055,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu ¢m NguyÖt Qu¸n"},
+			{gdp={0,101,3055,1,1,-1,-1,-1,-1,-1,-1,-1,14}, name = "Thiªn NghÜa-Cöu ¢m Phông Trang"},}
+	}
+	local tbThienNghiaSet2 = {
+		[1] = tbThienNghia2_B1,
+		[2] = tbThienNghia2_B2,
+		[3] = tbThienNghia2_B3,
+		[4] = tbThienNghia2_B4,
+	}
+	local nVB = GetExtPoint(EXT_VBONUS)
+--	nVB = SetBit(nVB,4,1)
+--	PayExtPoint(EXT_VBONUS,GetExtPoint(EXT_VBONUS))
+--	AddExtPoint(EXT_VBONUS, nVB)
+	VNG_SetExtBit(EXT_VBONUS, 4, 1)
+	LIB_Award.szLogTitle = "NHAN THUONG VBONUS"
+	LIB_Award.szLogAction = "nhËn"
+	if nOption == 1 then
+		LIB_Award:AwardByBody(tbThienNghiaSet1)
+	else
+		LIB_Award:AwardByBody(tbThienNghiaSet2)
+	end
+	LIB_Award:Award(tbNuOaTinhThach)
+	gf_WriteLogEx("NHAN THUONG VBONUS","nhËn",1,"PhÇn th­ëng cÊp 86")
+	Talk(1,"",szNpcName.."C¸c h¹ ®· nhËn ®­îc phÇn th­ëng VBonus ®¼ng cÊp 86.")
+end
+
+
+function VBonus_NhanThuong93()
+	local tbNgocBoi = {item={
+			{gdp={0,102,3122,1,1,-1,-1,-1,-1,-1,-1,-1,0}, name = "Thiªn NghÜa- HuyÒn Th¹ch Kim Ngäc"},
+			{gdp={0,102,3125,1,1,-1,-1,-1,-1,-1,-1,-1,0}, name = "Thiªn NghÜa- PhØ Thóy Ngäc §íi"},
+			{gdp={0,102,3128,1,1,-1,-1,-1,-1,-1,-1,-1,0}, name = "Thiªn NghÜa- NguyÖt Hoa Thñy Bèi"},
+			{gdp={0,102,3131,1,1,-1,-1,-1,-1,-1,-1,-1,0}, name = "Thiªn NghÜa- Cöu ¦u Háa Giíi"},
+			{gdp={0,102,3134,1,1,-1,-1,-1,-1,-1,-1,-1,0}, name = "Thiªn NghÜa- Ng­ng Ngäc Thæ Hoµn"},
+		},
+	}
+	local tbThieuLamDao = {item={{gdp={0,3,8894,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-L­u Ly Giíi §ao"}}}
+	local tbThieuLamQuyen = {item={{gdp={0,0,8876,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-L«i ¢m Nang Thñ"}}}
+	local tbThieuLamTruong = {item={{gdp={0,8,8910,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-Kinh L«i ThiÒn Tr­îng"}}}
+	local tbDuongMon = {item={{gdp={0,1,8880,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-¢m D­¬ng Xuyªn ¶nh"}}}
+	local tbNgaMyKiem = {item={{gdp={0,2,8887,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-Tõ Hµn ¢m KiÕm"}}}
+	local tbNgaMyDan = {item={{gdp={0,10,8919,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-Cöu Hoµn Bèi CÇm"}}}
+	local tbCaiBangQuyen = {item={{gdp={0,0,8877,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-Quy L©n Hé Thñ"}}}
+	local tbCaiBangBong = {item={{gdp={0,5,8901,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-TrÊn Ng¹o C«n"}}}
+	local tbVoDangKiem = {item={{gdp={0,2,8888,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-ThuÇn Phong KiÕm"}}}
+	local tbVoDangBut = {item={{gdp={0,9,8915,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-Tinh §Èu ChuyÓn Bót"}}}
+	local tbDuongGiaThuong = {item={{gdp={0,6,8904,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-Ph¸ Qu©n TrËn Th­¬ng"}}}
+	local tbDuongGiaCung = {item={{gdp={0,4,8898,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-Truy MÖnh Cung"}}}
+	local tbNguDocCoSu = {item={{gdp={0,11,8924,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-LuyÖn Hån HuyÕt Tr¶o"}}}
+	local tbNguDocTaHiep = {item={{gdp={0,7,8907,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-ThiÖp Cèt HuyÕt §ao"}}}	
+	local tbConLonThienSu = {item={{gdp={0,2,8889,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-Ngù Thiªn Phong KiÕm"}}}	
+	local tbThuyYenVuTien = {item={{gdp={0,13,8931,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-Linh Lung Chi"}}}
+	local tbThuyYenLinhNu = {item={{gdp={0,12,8928,1,1,-1,-1,-1,-1,-1,-1,-1,15}, name = "Thiªn NghÜa-Cöu Tiªu S¸o"}}}
+	local tbVuKhiThienNghia = {
+		[2] = tbThieuLamDao,
+		[3] = tbThieuLamTruong,
+		[4] = tbThieuLamQuyen,
+		[6] = tbDuongMon,
+		[8] = tbNgaMyKiem,
+		[9] = tbNgaMyDan,
+		[11] = tbCaiBangQuyen,
+		[12] = tbCaiBangBong,
+		[14] = tbVoDangKiem,
+		[15] = tbVoDangBut,
+		[17] = tbDuongGiaThuong,
+		[18] = tbDuongGiaCung,
+		[20] = tbNguDocTaHiep,
+		[21] =tbNguDocCoSu,
+		[23] = tbConLonThienSu,
+		[29] = tbThuyYenVuTien,
+		[30] = tbThuyYenLinhNu,
+	}
+	LIB_Award.szLogTitle = "NHAN THUONG VBONUS"
+	LIB_Award.szLogAction = "nhËn"
+	LIB_Award:Award(tbNgocBoi);
+	LIB_Award:AwardByRoute(tbVuKhiThienNghia)
+	gf_WriteLogEx("NHAN THUONG VBONUS","nhËn",1,"PhÇn th­ëng cÊp 93")
+	Talk(1,"",szNpcName.."C¸c h¹ ®· nhËn ®­îc phÇn th­ëng VBonus ®¼ng cÊp 93.")
+end

@@ -1,0 +1,4 @@
+situation	desc
+1	VËt phÈm nµy kh«ng thÓ sö dông trong ®¹i héi tû vâ
+2	Kh«ng thÓ sö dông vËt phÈm nµy
+3	Kh«ng thÓ sö dông vËt phÈm nµy

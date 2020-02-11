@@ -1,0 +1,11 @@
+Level	KillerParID	KillerParMode
+§¼ng cÊp s¸t thñ ®ång hµnh	Tra cøu s¸t thñ ®ång hµnh	KiÓu S¸t thñ ®ång hµnh cÊp
+10	1000	S¸t thñ ®ång hµnh10
+20	1001	S¸t thñ ®ång hµnh20
+30	1002	S¸t thñ ®ång hµnh30
+40	1003	S¸t thñ ®ång hµnh40
+50	1004	S¸t thñ ®ång hµnh50
+60	1005	S¸t thñ ®ång hµnh60
+70	1006	S¸t thñ ®ång hµnh70
+80	1007	S¸t thñ ®ång hµnh80
+90	1008	S¸t thñ ®ång hµnh90

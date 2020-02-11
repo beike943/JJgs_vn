@@ -1,0 +1,2 @@
+ItemIndex	GroupName	GDP	SellPrice	PopPrice	GiftPrice	Not4Sale	Sort	Scale	Follower	Position	Action	Charm
+1	Tr©n thó	2;93;63	999999	99999	999999	1	3	1	MÆc §Ò 6	0;5	®øng yªn b×nh th­êng	250

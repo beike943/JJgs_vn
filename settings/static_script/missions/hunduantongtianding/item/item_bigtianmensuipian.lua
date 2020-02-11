@@ -1,0 +1,17 @@
+--¥Û∞¸Õ®ÃÏ¡Ó≈∆ π”√Ω≈±æ
+Include("\\script\\lib\\globalfunctions.lua")
+
+function BigTMSP_OnUse(nItem)
+	--≈–∂œ±≥∞¸ø’º‰
+	if gf_Judge_Room_Weight(1,1," ") ~= 1 then
+     return 0;
+	end
+	if GetItemCount(2,1,30412) < 1 then
+		Talk(1,"","Trong hµnh trang kh´ng c„ Bao Th´ng Thi™n L÷nh lÌn");
+		return 0;
+	end
+	if DelItem(2,1,30412,1) == 1 then
+		AddItem(2,1,30409,50);
+	end
+	return 1;
+end

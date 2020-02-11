@@ -1,0 +1,2 @@
+ItemIndex	GroupName	GDP	SellPrice	PopPrice	GiftPrice	Not4Sale	Sort	Scale	Position	Action	Charm
+1	UyÓn C©u Ký TuÊn	0;105;1	999999	99999	999999	1	1	0.3	0;40	®øng yªn b×nh th­êng	40

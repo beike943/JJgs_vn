@@ -1,0 +1,55 @@
+Goods	Genre	Detail	Particular	GoodsType	Rate1	Rate2	Rate3	Rate4	Rate5	Rate6	Rate7	Rate8	Rate9	Rate10
+H¾c CÈm	2	2	21	KÐo t¬	20	40	60	80	100	120	140	160	180	200
+Chøc cÈm	2	2	22	KÐo t¬	16	32	48	64	80	96	112	128	144	160
+Háa Ho¸n CÈm	2	2	23	KÐo t¬	14	28	42	56	70	84	98	112	126	140
+Méc Miªn CÈm	2	2	24	KÐo t¬	13	26	39	52	65	78	91	104	117	130
+V©n CÈm	2	2	25	KÐo t¬	13	26	39	52	65	78	91	104	117	130
+Thiªn T«n CÈm	2	2	26	KÐo t¬	5	10	15	20	25	30	35	40	45	50
+Da sãi	2	2	15	Thuéc da	29	58	87	116	145	174	203	232	261	290
+Da hæ	2	2	16	Thuéc da	18	36	54	72	90	108	126	144	162	180
+Da c¸o	2	2	17	Thuéc da	18	36	54	72	90	108	126	144	162	180
+Da r¾n	2	2	18	Thuéc da	18	36	54	72	90	108	126	144	162	180
+Da hæ tr¾ng	2	2	19	Thuéc da	13	26	39	52	65	78	91	104	117	130
+Da gÊu	2	2	20	Thuéc da	5	10	15	20	25	30	35	40	45	50
+Trïng Méc	2	2	9	§èn c©y	19	38	57	76	95	114	133	152	171	190
+ThiÕt Ch­¬ng Méc	2	2	10	§èn c©y	18	36	54	72	90	108	126	144	162	180
+ThiÕt TuyÕn Méc	2	2	11	§èn c©y	18	36	54	72	90	108	126	144	162	180
+Ba La Méc	2	2	12	§èn c©y	14	28	42	56	70	84	98	112	126	140
+§µn Méc	2	2	13	§èn c©y	14	28	42	56	70	84	98	112	126	140
+Bå §Ò Méc	2	2	14	§èn c©y	12	24	36	48	60	72	84	96	108	120
+Tinh ThiÕt	2	8	1	§µo kho¸ng	29	58	87	116	145	174	203	232	261	290
+B¸ch LuyÖn C­¬ng	2	8	2	§µo kho¸ng	16	32	48	64	80	96	112	128	144	160
+Tö Kim	2	8	3	§µo kho¸ng	14	28	42	56	70	84	98	112	126	140
+Hµn thiÕt	2	8	4	§µo kho¸ng	11	22	33	44	55	66	77	88	99	110
+Th¸i b¹ch tinh kim	2	8	5	§µo kho¸ng	10	20	30	40	50	60	70	80	90	100
+HuyÒn thiÕt	2	8	6	§µo kho¸ng	18	36	54	72	90	108	126	144	162	180
+Quang Th«ng Ma	1	3	9	Canh t¸c	11	22	33	44	55	66	77	88	99	110
+Khuynh ly ®Ëu	1	3	10	Canh t¸c	7	14	21	28	35	42	49	56	63	70
+NhiÔu minh ®Ëu	1	3	11	Canh t¸c	7	14	21	28	35	42	49	56	63	70
+Méc nhÜ	1	3	19	Canh t¸c	5	10	15	20	25	30	35	40	45	50
+ThÞt Thá	1	3	1	Canh t¸c	3	6	9	12	15	18	21	24	27	30
+Dung tr¹ch cèc	1	3	12	Canh t¸c	7	14	21	28	35	42	49	56	63	70
+MÝa	1	3	13	Canh t¸c	9	18	27	36	45	54	63	72	81	90
+Diªn Tinh m¹ch	1	3	14	Canh t¸c	6	12	18	24	30	36	42	48	54	60
+Th¹ch khuÈn	1	3	20	Canh t¸c	4	8	12	16	20	24	28	32	36	40
+ThÞt Gµ	1	3	2	Canh t¸c	3	6	9	12	15	18	21	24	27	30
+ThuÇn hßa m¹ch	1	3	15	Canh t¸c	5	10	15	20	25	30	35	40	45	50
+Du long tóc	1	3	16	Canh t¸c	4	8	12	16	20	24	28	32	36	40
+Phông Qu¸n Tóc	1	3	17	Canh t¸c	6	12	18	24	30	36	42	48	54	60
+M¨ng	1	3	21	Canh t¸c	3	6	9	12	15	18	21	24	27	30
+L« ng­	1	3	3	Canh t¸c	3	6	9	12	15	18	21	24	27	30
+Dao Chi Tóc	1	3	18	Canh t¸c	6	12	18	24	30	36	42	48	54	60
+Hå tiªu	1	3	22	Canh t¸c	3	6	9	12	15	18	21	24	27	30
+Tay GÊu	1	3	4	Canh t¸c	2	4	6	8	10	12	14	16	18	20
+Tµng Hång Hoa	1	2	1	H¸i thuèc	12	24	36	48	60	72	84	96	108	120
+C¸t C¸nh	1	2	2	H¸i thuèc	11	22	33	44	55	66	77	88	99	110
+Hoµng liªn	1	2	3	H¸i thuèc	10	20	30	40	50	60	70	80	90	100
+Ba ®Ëu	1	2	8	H¸i thuèc	11	22	33	44	55	66	77	88	99	110
+§iÒn thÊt	1	2	10	H¸i thuèc	8	16	24	32	40	48	56	64	72	80
+X¹ h­¬ng	1	2	4	H¸i thuèc	9	18	27	36	45	54	63	72	81	90
+Nh©n s©m	1	2	5	H¸i thuèc	6	12	18	24	30	36	42	48	54	60
+X¸c ve	1	2	9	H¸i thuèc	8	16	24	32	40	48	56	64	72	80
+MËt gÊu	1	2	6	H¸i thuèc	10	20	30	40	50	60	70	80	90	100
+Xuyªn s¬n gi¸p	1	2	11	H¸i thuèc	6	12	18	24	30	36	42	48	54	60
+Ngäc Linh chi	1	2	7	H¸i thuèc	5	10	15	20	25	30	35	40	45	50
+TuyÕt liªn tö	1	2	12	H¸i thuèc	3	6	9	12	15	18	21	24	27	30

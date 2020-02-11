@@ -1,0 +1,146 @@
+NpcID	NpcMode	NpcName
+H­íng dÉn	H×nh ném Npc	Tªn gäi Npc
+1000	Ong vµng	Ong vµng
+1001	Ong ®éc	Ong ®éc
+1002	Hå Ly	Hå Ly
+1003	Ng©n Hå	Ng©n Hå
+1004	Sãi ®iªn	Sãi ®iªn
+1005	NhÖn	NhÖn
+1006	Bß c¹p	Bß c¹p
+1007	ThiÕt Gi¸p	ThiÕt Gi¸p Trïng
+1008	Kim Gi¸p	ThiÕt Gi¸p trïng
+1009	Hæ	Hæ
+1010	GÊu x¸m	GÊu x¸m
+1011	Cãc1	Cãc ®éc
+1012	D¬i hót m¸u	D¬i hót m¸u
+1013	C¸ sÊu1	C¸ sÊu
+1014	Nh·n kÝnh xµ	Nh·n KÝnh Xµ
+1015	Qu¹ §en	Qu¹ §en
+1016	L­u Manh	L­u Manh
+1017	C«n ®å	C«n ®å
+1018	S¬n tÆc	S¬n tÆc
+1019	Th¶o KhÊu	Th¶o KhÊu
+1020	M·ng KhÊu	M·ng KhÊu
+1021	L­u KhÊu	TiÓu ®Çu môc
+1022	Minh Th©u	Trém vÆt
+1023	¸m TÆc	Phi tÆc
+1024	§ao Kh¸ch	§ao Kh¸ch
+1025	§·ng §ao Kh¸ch	§·ng §ao Kh¸ch
+1026	Th­¬ng Kh¸ch	KiÕm Kh¸ch
+1027	Th­¬ng kh¸ch trung cÊp	Danh Th­¬ng HiÖp
+1028	ThÝch Kh¸ch1	Thiªn S¸t
+1029	ThÝch Kh¸ch2	§Þa S¸t
+1030	B¸ch NhËt TiÔn	B¸ch NhËt TiÔn
+1031	Thiªn Lý Tiªu	Thiªn Lý Tiªu
+1032	Tµ T¨ng	Tµ T¨ng
+1033	Oa KhÊu1	Oa Quèc §ao kh¸ch
+1034	Oa KhÊu3	H¶i TÆc
+1035	Oa KhÊu4	Oa Quèc L·ng Nh©n
+1036	Phiªn Di §ao Kh¸ch	¤ M«ng Dòng SÜ
+1037	Phiªn Di Tiªu Thñ	¤ M«ng Téc Nh©n
+1038	Vâ sÜ dÞ téc	Vâ sÜ dÞ téc
+1039	TiÔn thñ dÞ téc	TiÔn thñ dÞ téc
+1040	Cung thñ ngo¹i téc	Cung thñ ngo¹i téc
+1041	Tèng th­¬ng qu©n	Tèng qu©n tö sÜ
+1042	Tèng ®ao binh	Tèng ®ao binh
+1043	Tèng nâ binh	Tèng nâ binh
+1044	Kim th­¬ng qu©n	Liªu th­¬ng qu©n
+1045	Kim ®ao binh	Liªu ®ao binh
+1046	Kim tiÔn binh	Liªu tiÔn binh
+1047	KiÕm Tµ	KiÕm Tµ
+1048	Th­¬ng Tµ	H¾c Phong KiÕm Kh¸ch
+1049	KiÕm Cuång	KiÕm Cuång
+1050	Th­¬ng Cuång	Th­¬ng ThÇn
+1051	§ao TuyÖt	§ao TuyÖt
+1052	KiÕm TuyÖt	§ao V­¬ng
+1053	§ao S¸t	§ao HiÖp
+1054	KiÕm S¸t	KiÕm S¸t
+1055	C« L©u ®ao thñ	C« L©u ®ao thñ
+1056	C« L©u th­¬ng thñ	C« L©u th­¬ng thñ
+1057	Hñ thi1	Hñ thi
+1058	Hñ thi2	Hµnh Thi
+1059	Yªu Hå 2	Linh Hå
+1060	TuyÕt Qu¸i1	TuyÕt Qu¸i
+1061	TuyÕt Qu¸i3	B¨ng Qu¸i
+1062	Trïng Qu¸i1	Trïng Qu¸i
+1063	Trïng Qu¸i2	Trïng Qu¸i V­¬ng
+1064	Th¹ch Nh©n1	Th¹ch Nh©n
+1065	Háa kú l©n1	Háa Kú L©n
+1066	Ng­ Qu¸i1	§«ng H¶i Thñy Téc
+1067	Ng­ Qu¸i2	§«ng H¶i Thñy Téc Binh sÜ
+1068	O¸n Quû	O¸n Quû
+1069	¸c Quû	¸c Quû
+1070	¢m Hån1	¢m Hån
+1071	¢m Hån2	U Hån
+1072	Thô Qu¸i1	Thô Qu¸i
+1073	C¬ quan nh©n1	C¬ quan Méc nh©n
+1074	C¬ quan nh©n2	C¬ quan §ång nh©n
+1075	Tiªn N÷1	B¨ng T©m N÷
+1076	Thá tr¾ng	Thá rõng
+1077	Thá x¸m	Thá x¸m
+1078	Sãi x¸m	Sãi x¸m
+1079	Sãi xanh	Sãi xanh
+1080	TiÓu D· tr­	Heo rõng
+1081	N÷ kiÕm kh¸ch	N÷ kiÕm kh¸ch
+1082	N÷ HiÖp Kh¸ch	N÷ HiÖp Kh¸ch
+1083	N÷ KiÕm hµo	N÷ KiÕm hµo
+1084	N÷ KiÕm tiªn	KiÕm tiªn Tö
+1085	N÷ §Þch tiªn	§Þch tiªn Tö
+1086	N÷ Tiªu tiªn	Tiªu Tiªn Tö
+1087	N÷ Tú Bµ tiªn	Tú Bµ Tiªn Tö
+1088	N÷ cÇm tiªn	CÇm Tiªn Tö
+1089	N÷ t¶n tiªn	T¶n Tiªn Tö
+1090	M· HÇu	M· HÇu
+1091	Th­¬ng Viªn	Th­¬ng Viªn
+1092	TiÓu Hång ®ao quû	TiÓu Hång ®ao quû
+1093	TiÓu Hång xoa quû	TiÓu Hång xoa quû
+1094	Lam Phi tr¶o quû	Lam Phi tr¶o quû
+1095	Du Hån	Du Hån
+1096	Oan Hån	Oan Hån
+1097	HuyÒn Vâ §ao	HuyÒn Vâ §ao
+1098	HuyÒn Vâ KiÕm	HuyÒn Vâ KiÕm
+1099	Cung LiÖp	Cung LiÖp
+1100	Hæ Y Nh©n	Hæ Y Nh©n
+1101	Vâ §¹i Lang-b×nh th­êng	Ng­êi lïn
+1102	B¸t Phô Hµ §«ng S­	B¸t Phô Hµ §«ng S­
+1103	Méc nh©n	Méc nh©n
+1104	§ång nh©n	§ång nh©n
+1105	Quan sø	Quan sø
+1106	Bé kho¸i	Bé kho¸i
+1107	MËt th¸m	MËt th¸m
+1108	KiÕm Hån	KiÕm Hån
+1109	Miªu téc thiÕu n÷1	ThiÕu n÷ ¤ M«ng Bé
+1110	Hoang m¹c ®ao kh¸ch	Hoang m¹c ®ao kh¸ch
+1111	§éc Gi¸p Trïng	§éc Gi¸p Trïng
+1112	RÕt ®éc	RÕt ®éc
+1113	Ong ®éc nhá	Ong ®éc
+1114	Muçi ®éc	Muçi ®éc
+1115	Thùc Nh©n Th¶o	Thùc Nh©n Th¶o
+1116	§éc TÝch	Cù §éc TÝch
+1117	Xi Háa H¾c gi¸o ®å	Xi Háa H¾c gi¸o ®å
+1118	Xi Háa B¹ch gi¸o ®å	Xi Háa B¹ch gi¸o ®å
+1119	Xi Háa XÝch gi¸o ®å	Xi Háa XÝch gi¸o ®å
+1120	Xi Háa sø gi¶	Xi Háa sø gi¶
+1121	D¬i ®éc	D¬i ®éc
+1122	Xi Háa hé ph¸p	Xi Háa hé ph¸p
+1123	¸c lµ	¸c Lµ
+1124	Miªu LÜnh TuÇn Tr¹i	Miªu LÜnh TuÇn Tr¹i
+1125	Mao Ng­u	Mao Ng­u
+1126	Miªu LÜnh Hé Ên	Miªu LÜnh Hé Ên
+1127	Miªu LÜnh Phu nh©n	Miªu LÜnh Phu nh©n
+1128	Miªu LÜnh Thæ ty	Miªu LÜnh Thæ ty
+1129	B¹ch §Çu §iªu	B¹ch §Çu §iªu
+1130	Tö D¹ Hæ	Tö D¹ Hæ
+1131	H×nh nh©n	H×nh nh©n
+1132	Xi Háa tr­ëng l·o	Xi Háa tr­ëng l·o
+1133	Xi Háa ®µn chñ	Xi Háa ®µn chñ
+1134	H¾c Tinh Tinh	H¾c Tinh Tinh
+1135	D· Mao T­îng	D· Mao T­îng
+1136	Ph¶n Qu©n tuÇn la	Ph¶n Qu©n tuÇn la
+1137	Ph¶n qu©n vÖ binh	VÖ sÜ ph¶n qu©n
+1138	Thiªn TÇm Vâ T¨ng	Thiªn TÇm Vâ T¨ng
+1139	Thiªn TÇm Ph¸p T¨ng	Thiªn TÇm Ph¸p T¨ng
+1140	Ma Ni T¨ng	Ma Ni T¨ng
+1141	§µ La Ni T¨ng	§µ La Ni T¨ng
+1142	Tr× §ao Hé VÖ	Tr× §ao Hé VÖ
+1143	Tr× M©u Hé VÖ	Tr× M©u Hé VÖ

@@ -1,0 +1,10 @@
+\settings\camp\gongcheng.ini
+\settings\camp\shoucheng.ini
+\settings\camp\dasong.ini
+\settings\camp\daliao.ini
+\settings\camp\noaligned.ini
+\settings\camp\camp_enemy.ini
+\settings\camp\camp_player.ini
+\settings\camp\camp_evil.ini
+\settings\camp\nw_player.ini
+\settings\camp\nw_monster.ini

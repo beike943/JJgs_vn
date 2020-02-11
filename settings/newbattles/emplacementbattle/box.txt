@@ -1,0 +1,12 @@
+result	rate_10	rate_20	rate_30	rate_40	rate_50	rate_60	rate_70	rate_80	rate_90	prompt
+KÕt qu¶	Tû lÖ									
+CastState("state_dodge_rate_percent_add",/1,18*/2,836)	50;60	50;60	50;60	50;60	50;60	50;60	50;60	50;60	50;60	H.qu¶ b¶o r­¬ng: T¨ng kh¶ n¨ng nÐ tr¸nh /1%, duy tr× /2 gi©y
+CastState("state_life_max_percent_add",/1,18*/2,837)	25;60	25;60	25;60	25;60	25;60	25;60	25;60	25;60	25;60	H.qu¶ b¶o r­¬ng: Sinh lùc t¨ng tèi ®a /1%, duy tr× /2 gi©y
+CastState("state_neili_max_percent_add",/1,18*/2,838)	50;60	50;60	50;60	50;60	50;60	50;60	50;60	50;60	50;60	H.qu¶ b¶o r­¬ng: Néi lùc t¨ng tèi ®a /1%, duy tr× /2 gi©y
+CastState("state_attack_rate_percent_add",/1,18*/2,839)	50;60	50;60	50;60	50;60	50;60	50;60	50;60	50;60	50;60	H.qu¶ b¶o r­¬ng: ChÝnh x¸c t¨ng /1%,  duy tr× /2 gi©y 
+CastState("state_critical_hit_rate",/1,18*/2,840)	25;60	25;60	25;60	25;60	25;60	25;60	25;60	25;60	25;60	H.qu¶ b¶o r­¬ng: TËp trung t¨ng /1%,  duy tr× /2 gi©y 
+CastState("state_attack_speed_add",/1,18*/2,841)	30;60	30;60	30;60	30;60	30;60	30;60	30;60	30;60	30;60	H.qu¶ b¶o r­¬ng: Tèc ®é c«ng kÝch t¨ng /1%,  duy tr× /2 gi©y 
+CastState("state_move_speed_percent_add",/1,18*/2,842)	50;60	50;60	50;60	50;60	50;60	50;60	50;60	50;60	50;60	H.qu¶ b¶o r­¬ng: Tèc ®é di chuyÓn t¨ng /1%,  duy tr× /2 gi©y 
+CastState("state_burst_enhance_rate",/1,18*/2,843)	50;60	50;60	50;60	50;60	50;60	50;60	50;60	50;60	50;60	H.qu¶ b¶o r­¬ng: T¨ng tèc ®é xuÊt chiªu /1%,  duy tr× /2 gi©y 
+CastState("state_p_attack_percent_add",/1,18*/2,844)	25;60	25;60	25;60	25;60	25;60	25;60	25;60	25;60	25;60	H.qu¶ b¶o r­¬ng: Tû lÖ tÊn c«ng ngo¹i c«ng t¨ng /1%,  duy tr× /2 gi©y 
+CastState("state_m_attack_percent_add",/1,18*/2,846)	25;60	25;60	25;60	25;60	25;60	25;60	25;60	25;60	25;60	H.qu¶ b¶o r­¬ng: Tû lÖ tÊn c«ng néi c«ng t¨ng /1%,  duy tr× /2 gi©y 

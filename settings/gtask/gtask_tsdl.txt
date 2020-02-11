@@ -1,0 +1,38 @@
+TaskID	Khu vùc	Tªn qu¸i vËt	Tªn vËt phÈm	ID item	Tû lÖ r¬i	Tæng sè l­îng	Liªn quan
+2		Thæ Lang V­¬ng	Thæ Lang V­¬ng Nha	2,0,30007,1	100	1	1
+2		Thanh Lang V­¬ng	Thanh Lang V­¬ng Nha	2,0,30008,1	100	1	1
+5		¸c Lµ	¸c Lµ HuyÕt	2,0,30009,1	80	10	
+10		Cãc ®éc	MËt Cãc §éc	2,0,30011,1	80	10	
+28		Oa Quèc L·ng Nh©n	Ngäc Béi	2,0,30012,1	80	10	1
+28		B¹ch §Çu §iªu	L«ng vò B¹ch §Çu §iªu	2,0,30023,1	80	10	1
+32		Quan sø	Ng©n l­îng	2,0,30034,1	80	15	
+48		HuyÕt L©n §éc M·ng	MËt §éc M·ng	2,0,30016,1	100	1	
+55		D· Mao T­îng	D· Mao T­îng Nha	2,0,30018,1	80	10	1
+55		§«ng H¶i Thñy Téc Binh sÜ	§«ng H¶i Tr©n Ch©u	2,0,30019,1	80	10	1
+36		LiÖt Nhan Li Long	Long Tu	2,0,30013,1	80	5	1
+36		§Þch tiªn Tö	T­¬ng Phi Tróc	2,0,30014,1	80	5	1
+53		Háa hå	Háa Hå Linh HuyÕt	2,0,30017,1	80	3	
+8		Bao tr­ëng l·o	DÉn Hån Linh	2,0,30010,1	100	1	
+78		LiÖt Nhan Li Long	Thanh Long HuyÕt	2,0,30044,1	80	9	
+79		B¹ch §Çu §iªu	L«ng vò B¹ch §Çu §iªu	2,0,30023,1	80	9	
+95		Bé kho¸i	Mü töu	2,0,30054,1	80	15	
+101		V©n Bang Chñ	B¶n ®å cña V©n Bang Chñ	2,0,30055,1	100	1	
+102		Lôc bang chñ	B¶n ®å cña Lôc Bang Chñ	2,0,30056,1	100	1	
+105		Cù XÝ Hæ	Ch×a khãa vµng	2,0,30058,1	100	1	
+106		Thñ vÖ	Ch×a khãa b¹c	2,0,30059,1	100	1	
+121	6026	Ma Hãa Tèng Binh	Tèng Qu©n Yªu Bµi	2,1,30482,1	30	10	
+122	6026	Thô Qu¸i	Ng­ng ThÇn Hoa	2,1,30483,1	30	10	
+123	6026	Th¹ch Nh©n	Háa S¸t Th¹ch	2,1,30484,1	30	10	
+125	6026	Ma Hãa Liªu Binh	Liªu Qu©n NiÖm Ch©u	2,1,30485,1	30	10	
+126	6026	Th¹ch Nh©n	Háa S¸t Th¹ch	2,1,30484,1	30	10	
+127	6026	Thô Qu¸i	Ng­ng ThÇn Hoa	2,1,30483,1	30	10	
+134		Thá rõng	L«ng Thá Rõng	2,0,30063,1	80	5	1
+134		Thá x¸m	L«ng Thá X¸m	2,0,30064,1	80	5	1
+140		Ngäc phong	MËt Ong	2,0,30068,1	80	5	
+144		Thô Qu¸i	Linh DiÖp v¹n n¨m	2,0,30069,1	80	5	1
+144		Háa Kú L©n	Háa Kú L©n HuyÕt	2,0,30070,1	80	5	1
+176		Ngäc phong	Th­ T×nh	2,1,30650,1	20	1	
+179		Thá rõng	Qu¶ T¸o §á	2,1,30651,1	20	1	
+241		Kh«i Lçi §éc nh©n	LÖnh bµi Xi Háa gi¸o	2,1,30714,1	60	1	
+245		Xi Háa Gi¸o Chñ	Thuèc Gi¶i	2,1,30715,1	100	1	
+254		Trïng Qu¸i V­¬ng	Thiªn Hoa T¸n	2,1,30722,1	5	1	

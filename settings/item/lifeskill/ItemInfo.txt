@@ -1,0 +1,1 @@
+ItemLevel	ExpPower	ComposeOdds	DetailType	Gua1Odds	Gua2Odds	Gua3Odds	Gua4Odds	Gua5Odds	Gua6Odds	Gua7Odds	WuXingOdds	Stuff1Num	Stuff2Num	Stuff3Num	Stuff1Detail	Stuff2Detail	Stuff3Detail

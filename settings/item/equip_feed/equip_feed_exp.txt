@@ -1,0 +1,22 @@
+ID	Name	LvUpExp1	LvUpExp2	LvUpExp3	LvUpExp4	LvUpExp5	LvUpExp6	LvUpExp7	LvUpExp8	LvUpExp9	LvUpExp10	LvUpExp11	LvUpExp12	LvUpExp13	LvUpExp14	LvUpExp15	FeedExpLv1	FeedExpLv2	FeedExpLv3	FeedExpLv4	FeedExpLv5	FeedExpLv6	FeedExpLv7	FeedExpLv8	FeedExpLv9	FeedExpLv10	FeedExpLv11	FeedExpLv12	FeedExpLv13	FeedExpLv14	FeedExpLv15	FeedExpEnhance1	FeedExpEnhance2	FeedExpEnhance3	FeedExpEnhance4	FeedExpEnhance5	FeedExpEnhance6	FeedExpEnhance7	FeedExpEnhance8	FeedExpEnhance9	FeedExpEnhance10	FeedExpEnhance11	FeedExpEnhance12	FeedExpEnhance13	FeedExpEnhance14	FeedExpEnhance15
+	unuse line(2~10)																															C­êng 1	C­êng 2	C­êng 3	C­êng 4	C­êng 5	C­êng 6	C­êng 7	C­êng 8	C­êng 9	C­êng 10	C­êng 11	C­êng 12	C­êng 13	C­êng 14	C­êng 15
+	unuse line(2~10)																															unuse line														
+	unuse line(2~10)																															unuse line														
+	unuse line(2~10)																															unuse line														
+	unuse line(2~10)																															unuse line														
+	unuse line(2~10)																															unuse line														
+	unuse line(2~10)																															unuse line														
+	unuse line(2~10)																															unuse line														
+	unuse line(2~10)																															unuse line														
+1	Trang bÞ xanh b×nh th­êng_1W_5Q	0	200	600	1000	1200	1800	2400	2800								300	500	900	1500	2000	3100	4500	6200								100	300	600	1000	1500	2100	2800	3600	4500	5500	6600	8000	10000	14000	20000
+2	Trang bÞ lam b×nh th­êng_4W_2W	0	600	1200	2200	3500	4500	6000	9000	13000							500	1000	1800	3200	4800	7500	11100	16500	24300							100	300	600	1000	1500	2100	2800	3600	4500	5500	6600	8000	10000	14000	20000
+3	Trang bÞ tÝm b×nh th­êng_8W_4W	0	800	1600	3200	6400	8000	10000	14000	16000	20000						800	1500	2600	4500	7700	12500	18500	26900	36500	48500						100	300	600	1000	1500	2100	2800	3600	4500	5500	6600	8000	10000	14000	20000
+4	Trang bÞ tÝm ngò hµnh_12W_6W	0	1000	2000	4000	8000	12000	16000	20000	25000	32000						1200	2000	3400	5800	9800	17000	26500	38500	53500	72800						100	300	600	1000	1500	2100	2800	3600	4500	5500	6600	8000	10000	14000	20000
+5	Thùc phÈm 1 sao	0	0														200																													
+6	Thùc phÈm 2 sao	0	0														400																													
+7	Thùc phÈm 3 sao	0	0														1000																													
+8	T­íng Qu©n Trang	0	1200	2400	4800	9600	18000	24000	30000	37500	48000						1400	2400	4000	6900	11700	22500	36900	55900	77400	106200						100	300	600	1000	1500	2100	2800	3600	4500	5500	6600	8000	10000	14000	20000
+9	Nguyªn So¸i Trang	0	1800	3000	6000	12000	21600	32000	40000	50000	64000						2000	3500	5500	9000	15000	27900	47100	71000	101000	140000						100	300	600	1000	1500	2100	2800	3600	4500	5500	6600	8000	10000	14000	20000
+10	Trang bÞ 4 sao	0	2000	4000	7000	10000	30000	12000	18000	24000	30000	90000					2000	3000	5000	8000	14000	32000	40000	50000	64000	82000	136000					100	300	600	1000	1500	2100	2800	3600	4500	5500	6600	8000	10000	14000	20000
+11	Nguyªn liÖu 4 sao	0	0														2000																													
+12	Kh«ng kinh nghiÖm	0	0	0	0	0	0	0	0	0	0						0	0	0	0	0	0	0	0	0	0						0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

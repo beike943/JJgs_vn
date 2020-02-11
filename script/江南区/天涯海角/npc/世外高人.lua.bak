@@ -1,0 +1,49 @@
+---ÊÀÍâ¸ßÈË.lua---
+Include("\\script\\online\\chuyen_sinh\\translife_npc.lua");
+
+szNpcName = "<color=green>ThÕ Ngo¹i cao nh©n<color>: "
+
+function main()
+	local tSay = {
+							"H·y gióp ta vÒ Trung Nguyªn/bianjing_gaoren",
+							"Khã kh¨n l¾m míi ®Õn ®­îc ®¶o nµy, ta ph¶i ®i tham quan xem thÕ nµo!/no",
+						 }
+	if GetTaskTrans() >= 16 then		
+		tinsert(tSay ,1,"T×m hiÓu c¸c h­íng tu luyÖn/view_info")	
+		tinsert(tSay ,1,"NhiÖm vô ChuyÓn Sinh - C¶i L·o Hoµn §ång/translife_task_3")
+	end	
+	
+	if (GetLevel() > 2) then
+		Say("<color=red> The Ngoai cao nhan <color> ®¼ng cÊp nµy kh«ng ®ñ - kh«ng thÓ")
+	end
+		
+	Say("<color=green>ThÕ Ngo¹i cao nh©n<color>: B»ng h÷u sao l­u l¹c ®Õn ®¶o nµy? Ch¾c ®· chŞu nhiÒu vÊt v¶! Cã muèn trë vÒ Trung Nguyªn kh«ng?",getn(tSay),tSay)
+end;
+
+function translife_task_3()
+	if GetTaskTrans() == 16 then
+		trans_talk_16()
+	elseif GetTaskTrans() == 17 then
+		trans_talk_17()
+	elseif GetTaskTrans() == 18 then
+		trans_talk_18()
+	elseif GetTaskTrans() == 19 then
+		trans_talk_19()
+	elseif GetTaskTrans() == 20 then
+		trans_talk_20()
+	elseif GetTaskTrans() == 21 then
+		trans_talk_21()
+	elseif GetTaskTrans() == 22 then		
+		trans_talk_22()
+	elseif GetTaskTrans() >= 23 then
+		Talk(1,"",szNpcName.."Hçn Nguyªn C«ng tung hoµnh thiªn h¹, mÊy ai lÜnh héi ®­îc?")
+		return
+	end
+end
+
+function bianjing_gaoren()
+	DelMSPlayer(44,0);
+end;
+
+function no()
+end;

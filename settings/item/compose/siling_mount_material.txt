@@ -1,0 +1,4 @@
+MaterialG	MaterialD	MaterialP	Cost	MaxCost	FailureLostChance	AddChancePerUnit	AddChanceLimit	Need
+2	1	539	1	9	50	4	50	1
+2	1	1009	1	9	50	4	50	1
+-1	0	0	2000000	0	100	0	0	1

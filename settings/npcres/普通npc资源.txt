@@ -1,0 +1,2172 @@
+Npc显示类型	模型	贴图	动画	偏色	插槽1	武器名称1	插槽2	武器名称2	头像序号
+木人桩	001.mesh	001a.Mtl	001a.Ani						
+木人桩2	001b.mesh	001b.Mtl	001b.Ani						
+大黄蜂	002.mesh	002a.Mtl	002a.Ani						
+毒蜂	002.mesh	002b.Mtl	002a.Ani						
+狐狸	003.mesh	003a.Mtl	003a.Ani						
+银狐	003.mesh	003b.Mtl	003a.Ani						
+饿狼	004.mesh	004a.Mtl	004a.Ani						
+恶狼	004.mesh	004b.Mtl	004b.Ani						
+蜘蛛	005.mesh	005a.Mtl	005a.Ani						
+红毛蜘蛛	005.mesh	005b.Mtl	005b.Ani						
+白毛蜘蛛	005.mesh	005c.Mtl	005c.Ani						
+天蝎	006.mesh	006a.Mtl	006a.Ani						
+海蝎	006.mesh	006b.Mtl	006a.Ani						
+铁甲	007.mesh	007a.Mtl	007a.Ani						
+金甲	007.mesh	007b.Mtl	007a.Ani						
+老虎	008.mesh	008a.Mtl	008a.Ani						
+白虎	008.mesh	008b.Mtl	008a.Ani						
+灰熊	009.mesh	009a.Mtl	009a.Ani						
+疯熊	009.mesh	009b.Mtl	009b.Ani						
+蟾蜍1	010.mesh	010a.Mtl	010a.Ani						
+蟾蜍2	010.mesh	010b.Mtl	010b.Ani						
+蝙蝠	011.mesh	011a.Mtl	011a.Ani						
+吸血蝙蝠	011.mesh	011b.Mtl	011b.Ani						
+巨猿	012.mesh	012a.Mtl	012a.Ani						
+巨猿2	012.mesh	012b.Mtl	012a.Ani						
+食人鳄1	013.mesh	013a.Mtl	013a.Ani						
+食人鳄2	013.mesh	013b.Mtl	013a.Ani						
+突鹰	014.mesh	014a.Mtl	014a.Ani						
+白雕	014.mesh	014b.Mtl	014a.Ani						
+眼睛蛇	015.mesh	015a.Mtl	015a.Ani						
+修蛇	015.mesh	015b.Mtl	015b.Ani						
+黑鸦	016.mesh	016a.Mtl	016a.Ani						
+白鸦	016.mesh	016b.Mtl	016b.Ani						
+流氓	017.mesh	017a.Mtl	017a.Ani		017a	短木棒01			
+地痞	017.mesh	017b.Mtl	017b.Ani						
+无赖	017.mesh	017c.Mtl	017c.Ani						
+混混	017.mesh	017d.Mtl	017d.Ani						
+山贼	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+浪人	017.mesh	017f.Mtl	017f.Ani						
+刀匪	018.mesh	018a.Mtl	018a.Ani		018a_1	WQ018a弓	018a_2	WQ018a箭筒	
+棍匪	018.mesh	018b.Mtl	018b.Ani						
+枪匪	018.mesh	018c.Mtl	018c.Ani						
+箭匪	018.mesh	018d.Mtl	018d.Ani						
+草寇	019.mesh	019a.Mtl	019a.Ani		019a	WQ019a			
+莽寇	019.mesh	019b.Mtl	019b.Ani		019b	WQ019b			
+穷寇	019.mesh	019c.Mtl	019c.Ani						
+流寇	019.mesh	019d.Mtl	019d.Ani		019d	WQ019a			
+鬼窃	020.mesh	020a.Mtl	020a.Ani						
+冥偷	020.mesh	020b.Mtl	020b.Ani						
+诡盗	020.mesh	020c.Mtl	020c.Ani						
+暗贼	020.mesh	020d.Mtl	020d.Ani		020d	WQ020d			
+剑客	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+中级剑客	021.mesh	021b.Mtl	021b.Ani		021b	宝剑05			
+浪剑客	021.mesh	021c.Mtl	021c.Ani		021c	宝剑06			
+刀客	022.mesh	022a.Mtl	022a.Ani		022a	WQ022a			
+中级刀客	022.mesh	022b.Mtl	022b.Ani						
+荡刀客	022.mesh	022c.Mtl	022c.Ani		022c	WQ022c			
+枪客	023.mesh	023a.Mtl	023a.Ani		023a	普通剑01			
+中级枪客	023.mesh	023b.Mtl	023b.Ani		023b	WQ083g			
+金枪客	023.mesh	023c.Mtl	023c.Ani						
+刺客1	024.mesh	024a.Mtl	024a.Ani						
+刺客2	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+飞爪	025.mesh	025a.Mtl	025a.Ani						
+暗弓	025.mesh	025b.Mtl	025b.Ani						
+铁钩	025.mesh	025c.Mtl	025c.Ani						
+百日箭	026.mesh	026a.Mtl	026a.Ani		026a_1	WQ084a弓	026a_2	WQ084a箭筒	
+千里镖	026.mesh	026b.Mtl	026b.Ani		026b	WQ026b			
+武松	027.mesh	027a.Mtl	027a.Ani		027a	WQ027a			
+头陀2	027.mesh	027b.Mtl	027b.Ani		027b	WQ027b			
+头陀3	027.mesh	027c.Mtl	027c.Ani						
+鲁智深	028.mesh	028a.Mtl	028a.Ani		S_HR	mon_028aw			
+恶僧	028.mesh	028b.Mtl	028b.Ani		S_HR	mon_028bw			
+邪僧	028.mesh	028c.Mtl	028c.Ani						
+明教左护法	029.mesh	029a.Mtl	029a.Ani		029a	WQ030a			
+红袍使者1	029.mesh	029b.Mtl	029b.Ani						
+红袍使者2	029.mesh	029c.Mtl	029c.Ani						
+红袍使者3	029.mesh	029d.Mtl	029d.Ani		029d_1	WQ084a弓			
+明教右护法	030.mesh	030a.Mtl	030a.Ani		030a	WQ030a			
+黑袍使者1	030.mesh	030b.Mtl	030b.Ani		030b	圣火令01			
+黑袍使者2	030.mesh	030c.Mtl	030c.Ani						
+黑袍使者3	030.mesh	030d.Mtl	030d.Ani						
+明教男弟子1	031.mesh	031a.Mtl	031a.Ani						
+明教男弟子2	031.mesh	031b.Mtl	031b.Ani		031a	短刀01			
+明教男弟子3	031.mesh	031c.Mtl	031c.Ani						
+明教女弟子1	032.mesh	032a.Mtl	032a.Ani		032a	WQ032a			
+明教女弟子2	032.mesh	032b.Mtl	032b.Ani		032b	WQ032b			
+明教女弟子3	032.mesh	032c.Mtl	032c.Ani						
+倭寇1	033a.mesh	033a.Mtl	033a.Ani		033a	WQ033a			
+倭寇2	033.mesh	033b.Mtl	033b.Ani						
+倭寇3	033b.mesh	033c.Mtl	033c.Ani		033c_1	WQ033c弓	033c_2	WQ033c箭鞘	
+倭寇4	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+番夷刀客	034.mesh	034a.Mtl	034a.Ani		034a	WQ034a			
+番夷蛊师	034.mesh	034b.Mtl	034b.Ani						
+番夷镖手	034.mesh	034c.Mtl	034c.Ani		034c	WQ034c			
+恶霸	035.mesh	035a.Mtl	035a.Ani						
+异族武士	035b.mesh	035b.Mtl	035b.Ani						
+异族巫师	035.mesh	035c.Mtl	035c.Ani						
+异族箭手	035.mesh	035d.Mtl	035d.Ani		035d_1	WQ035d弓	035d_2	WQ035d箭鞘	
+外族杀手	036.mesh	036a.Mtl	036a.Ani		036a	WQ036a			
+外族术士	036.mesh	036b.Mtl	036b.Ani						
+外族强盗	036.mesh	036c.Mtl	036c.Ani						
+外族弓手	036.mesh	036d.Mtl	036d.Ani		036d_1	WQ036d弓			
+宋枪兵	037a.mesh	037a.Mtl	037a.Ani		S_HR	037aw			
+宋刀兵	037b.mesh	037b.Mtl	037b.Ani						
+宋箭兵	037.mesh	037c.Mtl	037c.Ani						
+宋弩兵	037.mesh	037d.Mtl	037d.Ani						
+宋盾兵	037.mesh	037e.Mtl	037e.Ani						
+金枪兵	038.mesh	038a.Mtl	038a.Ani		S_HR	037aw			
+金刀兵	038b.mesh	038b.Mtl	038b.Ani						
+金箭兵	038.mesh	038c.Mtl	038c.Ani		038c1	WQ084a弓	038c2	WQ084a箭筒	
+金弩兵	038.mesh	038d.Mtl	038d.Ani						
+金盾兵	038.mesh	038e.Mtl	038e.Ani						
+刀邪	039.mesh	039a.Mtl	039a.Ani		039a	WQ039a			
+剑邪	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+枪邪	039.mesh	039c.Mtl	039c.Ani		039c	WQ039c			
+刀狂	040.mesh	040a.Mtl	040a.Ani		040a	WQ040a			
+剑狂	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+枪狂	040.mesh	040c.Mtl	040c.Ani		040c	WQ040c			
+刀绝	041.mesh	041a.Mtl	041a.Ani		041a	鬼头刀01			
+剑绝	041.mesh	041b.Mtl	041b.Ani		041b	鬼头刀01			
+枪绝	041.mesh	041c.Mtl	041c.Ani						
+刀煞	042.mesh	042a.Mtl	042a.Ani		042a_1	日本刀01	042a_2	日本刀01	
+剑煞	042.mesh	042b.Mtl	042b.Ani		042b	宝剑01			
+枪煞	042.mesh	042c.Mtl	042c.Ani		042c	042c枪			
+夜叉1	043.mesh	043a.Mtl	043a.Ani		043a	三股叉01			
+夜叉2	043.mesh	043b.Mtl	043b.Ani		043b_1	双锤01	043b_2	双锤01	
+夜叉3	043.mesh	043c.Mtl	043c.Ani						
+骷髅刀手	044.mesh	044a.Mtl	044a.Ani		044a	刀01			
+骷髅枪手	044.mesh	044b.Mtl	044b.Ani		044b	WQ044b			
+骷髅箭手	044.mesh	044c.Mtl	044c.Ani						
+僵尸1	045.mesh	045a.Mtl	045a.Ani						
+僵尸2	045.mesh	045b.Mtl	045b.Ani						
+僵尸3	045.mesh	045c.Mtl	045c.Ani						
+腐尸1	046.mesh	046a.Mtl	046a.Ani						
+腐尸2	046.mesh	046b.Mtl	046b.Ani		046b	WQ046a			
+腐尸3	046.mesh	046c.Mtl	046c.Ani						
+九凤1	047.mesh	047a.Mtl	047a.Ani						
+九凤2	047.mesh	047b.Mtl	047b.Ani						
+九凤3	047.mesh	047c.Mtl	047c.Ani						
+飞天1	048.mesh	048a.Mtl	048a.Ani						
+飞天2	048.mesh	048b.Mtl	048a.Ani						
+飞天3	048.mesh	048c.Mtl	048a.Ani						
+妖狐1	049.mesh	049a.Mtl	049a.Ani						
+妖狐2	049.mesh	049b.Mtl	049a.Ani						
+妖狐3	049.mesh	049c.Mtl	049a.Ani						
+雪怪1	050.mesh	050a.Mtl	050a.Ani						
+雪怪2	050.mesh	050b.Mtl	050b.Ani						
+雪怪3	050.mesh	050c.Mtl	050c.Ani						
+虫怪1	051.mesh	051a.Mtl	051a.Ani						
+虫怪2	051.mesh	051b.Mtl	051b.Ani						
+虫怪3	051.mesh	051c.Mtl	051c.Ani						
+石人1	052.mesh	052a.Mtl	052a.Ani						
+石人2	052.mesh	052b.Mtl	052b.Ani						
+石人3	052.mesh	052c.Mtl	052c.Ani						
+蛇妖1	053.mesh	053a.Mtl	053a.Ani						
+蛇妖2	053.mesh	053b.Mtl	053b.Ani						
+蛇妖3	053.mesh	053c.Mtl	053c.Ani						
+火麒麟1	054.mesh	054a.Mtl	054a.Ani						
+玉麒麟2	054.mesh	054b.Mtl	054a.Ani						
+紫麒麟3	054.mesh	054c.Mtl	054c.Ani						
+鱼怪1	055.mesh	055a.Mtl	055a.Ani		055a	WQ055a			
+鱼怪2	055.mesh	055b.Mtl	055b.Ani		055b	WQ083g			
+鱼怪3	055.mesh	055c.Mtl	055c.Ani						
+厉鬼	068.mesh	068a.Mtl	068a.Ani						
+怨鬼	056.mesh	056b.Mtl	056b.Ani						
+恶鬼	056.mesh	056c.Mtl	056c.Ani						
+阴魂1	057.mesh	057a.Mtl	057a.Ani						
+阴魂2	057.mesh	057b.Mtl	057b.Ani						
+阴魂3	057.mesh	057c.Mtl	057c.Ani						
+树怪1	058.mesh	058a.Mtl	058a.Ani						
+树怪2	058.mesh	058b.Mtl	058a.Ani						
+树怪3	058.mesh	058c.Mtl	058c.Ani						
+机关人1	059.mesh	059a.Mtl	059a.Ani						
+机关人2	059.mesh	059b.Mtl	059b.Ani						
+天兵1	060.mesh	060a.Mtl	060a.Ani		060a	WQ060a			
+天兵2	060.mesh	060b.Mtl	060b.Ani		060b	金锏01			
+天兵3	060.mesh	060c.Mtl	060c.Ani						
+天兵4	060.mesh	060d.Mtl	060d.Ani						
+仙女1	061.mesh	061a.Mtl	061a.Ani						
+仙女2	061.mesh	061b.Mtl	061b.Ani						
+仙女3	061.mesh	061c.Mtl	061c.Ani						
+天将1	062.mesh	062a.Mtl	062a.Ani						
+天将2	062.mesh	062b.Mtl	062b.Ani						
+天将3	062.mesh	062c.Mtl	062c.Ani						
+天将4	062.mesh	062d.Mtl	062d.Ani						
+宋骑兵	063.mesh	063a.Mtl	063a.Ani		S_HR	mon_063w			
+金骑兵	064b.mesh	064b.Mtl	064b.Ani						
+一刀	065.mesh	065.Mtl	065.Ani						
+一闪	066.mesh	066.Mtl	066.Ani						
+一挑	067.mesh	067.Mtl	067.Ani						
+血骷髅	068.mesh	068.Mtl	068.Ani						
+宋江	069.mesh	069a.Mtl	069a.Ani						
+封稀	070.mesh	070.Mtl	070.Ani						
+刑天	071.mesh	071.Mtl	071.Ani						
+完颜红烈	072.mesh	072.Mtl	072.Ani						
+预留	all.mesh	all.Mtl	all.Ani						
+预留	all.mesh	all.Mtl	all.Ani						
+中原药店掌柜	001.mesh	001a.Mtl	001a.Ani						
+西南药店掌柜	001.mesh	001b.Mtl	001b.Ani						
+吐蕃药店掌柜	001.mesh	001c.Mtl	001c.Ani						
+中原酒店小二	002.mesh	002a.Mtl	002a.Ani		002a	碟子			
+西南酒店小二	002.mesh	002b.Mtl	002b.Ani		002a	碟子			
+吐蕃酒店小二	002.mesh	002c.Mtl	002c.Ani		002a	碟子			
+中原武器店老板	003.mesh	003a.Mtl	003a.Ani						
+西南武器店老板	003.mesh	003b.Mtl	003b.Ani						
+吐蕃武器店老板	003.mesh	003c.Mtl	003c.Ani						
+中原玉器老板	004.mesh	004a.Mtl	004a.Ani						
+西南玉器老板	004.mesh	004b.Mtl	004b.Ani						
+吐蕃玉器老板	004.mesh	004c.Mtl	004c.Ani						
+中原绸缎庄老板	005.mesh	005a.Mtl	005a.Ani						
+西南绸缎庄老板	005.mesh	005b.Mtl	005b.Ani						
+绸缎庄老板	005.mesh	005c.Mtl	005c.Ani						
+中原马车船夫	006.mesh	006a.Mtl	006a.Ani						
+西南马车船夫	006.mesh	006b.Mtl	006b.Ani						
+吐蕃马车船夫	006.mesh	006c.Mtl	006c.Ani						
+中原铁匠师傅	007.mesh	007a.Mtl	007a.Ani						
+西南铁匠师傅	007.mesh	007b.Mtl	007b.Ani						
+吐蕃铁匠师傅	007.mesh	007c.Mtl	007c.Ani						
+中原当铺老板	008.mesh	008a.Mtl	008a.Ani						
+西南当铺老板	008.mesh	008b.Mtl	008b.Ani						
+吐蕃当铺老板	008.mesh	008c.Mtl	008c.Ani						
+中原储物柜	009.mesh	009a.Mtl	009a.Ani						
+西南储物柜	009.mesh	009a.Mtl	009a.Ani						
+吐蕃储物柜	009.mesh	009a.Mtl	009a.Ani						
+张择端	010.mesh	010a.Mtl	010a.Ani						
+邵雍	010.mesh	010b.Mtl	010b.Ani						
+程颐	010.mesh	010c.Mtl	010c.Ani						
+柳永	010.mesh	010d.Mtl	010d.Ani						
+苏轼	010.mesh	010e.Mtl	010e.Ani						
+王安石	010.mesh	010f.Mtl	010f.Ani						
+中年男	010.mesh	010g.Mtl	010g.Ani						
+谪臣	011.mesh	011a.Mtl	011a.Ani		011a	拐杖a			
+紫清上人	011.mesh	011b.Mtl	011a.Ani		011a	拐杖a			
+月老	011.mesh	011c.Mtl	011c.Ani		011a	拐杖a			
+司马光	011.mesh	011d.Mtl	011d.Ani		011a	拐杖a			
+老年男	011.mesh	011e.Mtl	011e.Ani		011a	拐杖a			
+官员	012.mesh	012a.Mtl	012a.Ani						
+沈括	012.mesh	012b.Mtl	012b.Ani						
+阎罗	012.mesh	012c.Mtl	012c.Ani						
+黑无常	013.mesh	013a.Mtl	013a.Ani						
+白无常	013.mesh	013b.Mtl	013b.Ani						
+鬼差	013.mesh	013c.Mtl	013c.Ani						
+赵佶	014.mesh	014a.Mtl	014a.Ani						
+赌徒	014.mesh	014b.Mtl	014b.Ani						
+青年男子	014.mesh	014c.Mtl	014c.Ani						
+李师师	015.mesh	015a.Mtl	015a.Ani						
+素还真	015.mesh	015b.Mtl	015b.Ani						
+少年女1	015.mesh	015c.Mtl	015c.Ani						
+少年女2	015.mesh	015d.Mtl	015d.Ani						
+少年女3	015.mesh	015d.Mtl	015d.Ani						
+孟婆	016.mesh	016a.Mtl	016a.Ani		016a	拐杖a			
+老年女1	016.mesh	016b.Mtl	016b.Ani		016a	拐杖a			
+老年女2	016.mesh	016c.Mtl	016c.Ani		016a	拐杖a			
+老年女3	016.mesh	016d.Mtl	016d.Ani		016a	拐杖a			
+妇女1	017.mesh	017a.Mtl	017a.Ani						
+妇女2	017.mesh	017b.Mtl	017b.Ani						
+老鸨	017.mesh	017c.Mtl	017c.Ani						
+童子1	018.mesh	018a.Mtl	018a.Ani						
+童子2	018.mesh	018b.Mtl	018b.Ani						
+童子3	018.mesh	018c.Mtl	018c.Ani						
+童女1	019.mesh	019a.Mtl	019a.Ani						
+童女2	019.mesh	019b.Mtl	019b.Ani						
+童女3	019.mesh	019c.Mtl	019c.Ani						
+童贯	020.mesh	020.Mtl	020.Ani						
+杨顶天	021.mesh	021.Mtl	021.Ani						
+西洋鬼子	022.mesh	022.Mtl	022.Ani						
+天王帮主	023a.mesh	023a.Mtl	023a.Ani						
+天王副帮主	023a.mesh	023b.Mtl	023b.Ani						
+天王护法	023c.mesh	023c.Mtl	023c.Ani						
+天王帮徒	023c.mesh	023d.Mtl	023d.Ani						
+少林主持	024a.mesh	024a.Mtl	024a.Ani		024a	024a法杖			
+少林方丈	024b.mesh	024b.Mtl	024b.Ani						
+少林首座	024c.mesh	024c.Mtl	024c.Ani						
+少林僧人	024d.mesh	024d.Mtl	024d.Ani						
+唐门门主	025a.mesh	025a.Mtl	025a.Ani						
+唐门副门主	025a.mesh	025b.Mtl	025b.Ani						
+唐门大徒弟	025c.mesh	025c.Mtl	025c.Ani						
+唐门门人	025c.mesh	025d.Mtl	025d.Ani						
+五毒教主	026a.mesh	026a.Mtl	026a.Ani						
+五毒副教主	026a.mesh	026b.Mtl	026b.Ani						
+五毒护法	026c.mesh	026c.Mtl	026c.Ani						
+五毒教徒	026c.mesh	026d.Mtl	026d.Ani						
+峨嵋掌门	027a.mesh	027a.Mtl	027a.Ani						
+峨嵋副掌门	027b.mesh	027b.Mtl	027b.Ani						
+峨嵋护法	027c.mesh	027c.Mtl	027c.Ani						
+峨嵋门人	027d.mesh	027d.Mtl	027d.Ani						
+翠烟掌门	028a.mesh	028a.Mtl	028a.Ani						
+翠烟副掌门	028b.mesh	028b.Mtl	028b.Ani						
+翠烟护法	028c.mesh	028c.Mtl	028c.Ani						
+翠烟门人	028d.mesh	028d.Mtl	028d.Ani						
+丐帮掌门	029.mesh	029a.Mtl	029a.Ani						
+丐帮副掌门	029.mesh	029b.Mtl	029b.Ani						
+丐帮长老	029c.mesh	029c.Mtl	029c.Ani						
+丐帮门人	029c.mesh	029d.Mtl	029d.Ani						
+昆仑掌门	030.mesh	030a.Mtl	030a.Ani						
+昆仑副掌门	030.mesh	030b.Mtl	030b.Ani						
+昆仑护法	030.mesh	030c.Mtl	030c.Ani						
+昆仑门人	030.mesh	030d.Mtl	030d.Ani						
+武当掌门	031a.mesh	031a.Mtl	031a.Ani						
+武当副掌门	031b.mesh	031b.Mtl	031b.Ani						
+武当护法	031c.mesh	031c.Mtl	031c.Ani						
+武当门人	031d.mesh	031d.Mtl	031d.Ani						
+驴	001.mesh	001.Mtl	001.Ani						
+老鼠	002.mesh	002.Mtl	002.Ani						
+猪	003.mesh	003.Mtl	003.Ani						
+狗	004.mesh	004.Mtl	004.Ani						
+兔子	005.mesh	005.Mtl	005.Ani						
+牛	006.mesh	006.Mtl	006.Ani						
+鱼	007.mesh	007.Mtl	007.Ani						
+山羊	008.mesh	008.Mtl	008.Ani						
+鸡	009.mesh	009.Mtl	009.Ani						
+鸭	010.mesh	010.Mtl	010.Ani						
+小白兔	073.mesh	073a.Mtl	073a.Ani						
+小灰兔	073.mesh	073b.Mtl	073b.Ani						
+小黑兔	073.mesh	073c.Mtl	073c.Ani						
+小土狼	074.mesh	074a.Mtl	074a.Ani						
+小青狼	074.mesh	074b.Mtl	074b.Ani						
+小苍狼	074.mesh	074c.Mtl	074c.Ani						
+小野猪	075.mesh	075a.Mtl	075a.Ani						
+小黑野猪	075.mesh	075b.Mtl	075b.Ani						
+女剑客	076.mesh	076a.Mtl	076a.Ani		S_HR	076_剑			
+女剑侠	076.mesh	076b.Mtl	076b.Ani		S_HR	076_剑			
+女剑豪	076.mesh	076c.Mtl	076c.Ani		S_HR	076_剑			
+女剑仙	077.mesh	077a.Mtl	077a.Ani		S_HR	剑			
+女笛仙	077.mesh	077b.Mtl	077b.Ani		S_HR	笛			
+女萧仙	077.mesh	077c.Mtl	077c.Ani		S_HR	箫			
+女琵琶仙	077.mesh	077d.Mtl	077d.Ani		S_HL	琵琶			
+女琴仙	077.mesh	077e.Mtl	077e.Ani		S_HL	琴			
+女伞仙	077.mesh	077f.Mtl	077f.Ani		S_HR	伞			
+马猴	078.mesh	078a.Mtl	078a.Ani						
+苍猿	078.mesh	078b.Mtl	078a.Ani						
+小红刀鬼	079.mesh	079a.Mtl	079a.Ani		079a	079a刀			
+小红叉鬼	079.mesh	079b.Mtl	079b.Ani		079b	079a叉			
+红飞爪鬼	079.mesh	079c.Mtl	079f.Ani		079c	079a爪			
+蓝小刀鬼	079.mesh	079f.Mtl	079a.Ani		079a	079a刀			
+蓝小叉鬼	079.mesh	079f.Mtl	079b.Ani		079b	079a叉			
+蓝飞爪鬼	079.mesh	079f.Mtl	079f.Ani		079c	079a爪			
+游魂	080a.mesh	080a.Mtl	080a.Ani						
+冤魂	080b.mesh	080b.Mtl	080b.Ani						
+孽魂	080c.mesh	080c.Mtl	080c.Ani						
+牛头	081.mesh	081a.Mtl	081a.Ani		081a	WQ081a			
+马面	082.mesh	082a.Mtl	082a.Ani		082a	WQ082a			
+持戈兵马俑	083.mesh	083a.Mtl	083g.Ani		083g	戈			
+持剑兵马俑	083.mesh	083b.Mtl	083e.Ani		083g	剑			
+持弓兵马俑	083.mesh	083c.Mtl	083h.Ani		083h_1	WQ083h弓	083h_2	WQ083h箭筒	
+空手兵马俑	083.mesh	083d.Mtl	083e.Ani						
+幻武刀者	083.mesh	083e.Mtl	083e.Ani		083e	WQ083e			
+幻武剑者	083f.mesh	083f.Mtl	083f.Ani						
+幻武枪者	083.mesh	083g.Mtl	083g.Ani		083g	WQ083g			
+幻武弓者	083.mesh	083h.Mtl	083h.Ani		083h_1	WQ083h弓	083h_2	WQ083h箭筒	
+持弓猎户	084.mesh	084a.Mtl	084a.Ani		084a_1	WQ084a弓	084a_2	WQ084a箭筒	
+持叉猎户	084.mesh	084b.Mtl	084b.Ani		084b	双叉01			
+李逵	086.mesh	086a.Mtl	086a.Ani		086a_1	WQ086a	086a_2	WQ086a	
+预留	084.mesh	084d.Mtl	084d.Ani						
+预留	085.mesh	085b.Mtl	085b.Ani						
+神秘黑衣人	085.mesh	085c.Mtl	085c.Ani						
+莽夫	086.mesh	086a.Mtl	086a.Ani						
+山贼头目	086.mesh	086b.Mtl	086b.Ani		086a_1	WQ086b	086a_2	WQ086b	
+备用药王	086.mesh	086c.Mtl	086c.Ani						
+大内高手	087.mesh	087a.Mtl	087a.Ani						
+武林盟主	087.mesh	087b.Mtl	087b.Ani		087b	宝剑01			
+预留	087.mesh	087c.Mtl	087c.Ani						
+黄虎王	088.mesh	088a.Mtl	088a.Ani						
+白虎王	088.mesh	088b.Mtl	088a.Ani						
+矮胖武大郎	089.mesh	089a.Mtl	089a.Ani		089a	WQ089a			
+普通武大郎	089.mesh	089b.Mtl	089b.Ani		089a	WQ089a			
+预留	089.mesh	089c.Mtl	089c.Ani						
+冰女	090.mesh	090.Mtl	090a.Ani						
+泼妇母夜叉	091.mesh	091a.Mtl	091a.Ani		091a	WQ091a			
+泼妇河东狮	091.mesh	091b.Mtl	091b.Ani		091b	WQ091b			
+普通泼妇	091.mesh	091c.Mtl	091c.Ani						
+预留	091.mesh	091d.Mtl	091d.Ani						
+憎恶	092.mesh	092a.Mtl	092a.Ani		092a	钉棒02			
+预留	092.mesh	092b.Mtl	092b.Ani						
+预留	092.mesh	092c.Mtl	092c.Ani						
+邪仙人	093.mesh	093a.Mtl	093a.Ani						
+夜叉鸦	094.mesh	094a.Mtl	094a.Ani						
+鬼将军	095.mesh	095a.Mtl	095a.Ani						
+木人	096.mesh	096a.Mtl	096a.Ani						
+铜人	097.mesh	097a.Mtl	097a.Ani						
+恶吏	098a.mesh	098a.Mtl	098a.Ani						
+捕快	098b.mesh	098b.Mtl	098b.Ani						
+密探	098c.mesh	098c.Mtl	098c.Ani						
+剑魂	099.mesh	099a.Mtl	099a.Ani						
+娃娃杀手	100.mesh	100a.Mtl	100a.Ani		S_HR	糖葫芦	S_HL	拨浪鼓	
+xxx	101.mesh	101a.Mtl	101a.Ani						
+车轮霸王	102.mesh	102a.Mtl	102a.Ani						
+血爪	103.mesh	103a.Mtl	103a.Ani						
+苗族小姑娘1	104.mesh	104a.Mtl	104a.Ani						
+苗族小姑娘2	104.mesh	104b.Mtl	104b.Ani						
+荒漠刀客	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+药王	106.mesh	106a.Mtl	106a.Ani						
+城门卫兵	032.mesh	032a.Mtl	032a.Ani		032a	032枪			
+城市流氓	033.mesh	033a.Mtl	033a.Ani						
+官府衙役	034.mesh	034a.Mtl	034a.Ani						
+超级泼妇	035.mesh	035a.Mtl	035a.Ani						
+江湖俊杰	036.mesh	036a.Mtl	036a.Ani		036a	WQ036			
+江湖豪杰	037.mesh	037a.Mtl	037a.Ani						
+西南苗人	038.mesh	038a.Mtl	038a.Ani						
+苗族少女	039.mesh	039a.Mtl	039a.Ani						
+六扇门高手1	040a.mesh	040a.Mtl	040a.Ani						
+六扇门高手2	040b.mesh	040b.Mtl	040b.Ani						
+六扇门高手3	040c.mesh	040c.Mtl	040c.Ani						
+蓝刀鬼	079.mesh	079f.Mtl	079a.Ani		079a	079a刀			
+辽国武将对话	064b.mesh	064b.Mtl	064b.Ani		S_HR	064_武器长锤			
+辽国武将	064b.mesh	064b.Mtl	064b.Ani		S_HR	064_武器长锤			
+坐地乞丐	040.mesh	040a.Mtl	040a.Ani						
+游方相士	041.mesh	041a.Mtl	041a.Ani						
+普通少年男1	014d.mesh	014d.Mtl	014d.Ani						
+普通少年男2	014d.mesh	014e.Mtl	014e.Ani						
+普通少年男3	014d.mesh	014f.Mtl	014f.Ani						
+村妇1	017d.mesh	017d.Mtl	017d.Ani						
+村妇2	017d.mesh	017e.Mtl	017e.Ani						
+村妇3	017d.mesh	017f.Mtl	017f.Ani						
+管家	010h.mesh	010h.Mtl	010h.Ani						
+明教教主	042.mesh	042a.Mtl	042a.Ani						
+明教圣女	043.mesh	043a.Mtl	043a.Ani						
+明教护法	044.mesh	044a.Mtl	044a.Ani						
+明教弟子	045.mesh	045a.Mtl	045a.Ani						
+收集商人	050.mesh	050a.Mtl	050a.Ani						
+游方医生	051.mesh	051a.Mtl	051a.Ani						
+御厨	052.mesh	052a.Mtl	052a.Ani						
+云游道人	053.mesh	053a.Mtl	053a.Ani						
+驯兽师	054.mesh	054a.Mtl	054a.Ani		S_HR	铁叉			
+礼仪老师	055.mesh	055a.Mtl	055a.Ani						
+剃头师父	056.mesh	056a.Mtl	056a.Ani						
+武林盟传人	057.mesh	057a.Mtl	057a.Ani						
+公告栏	058.mesh	058a.Mtl	058a.Ani						
+瘦富家老头	059.mesh	059a.Mtl	059a.Ani						
+中年瘦官吏1	060.mesh	060a.Mtl	060a.Ani						
+中年瘦官吏2	061.mesh	061a.Mtl	061a.Ani						
+中年瘦官吏3	062.mesh	062a.Mtl	062a.Ani						
+职能武林盟主1	063.mesh	063a.Mtl	063a.Ani						
+职能武林盟主2	064.mesh	064a.Mtl	064a.Ani						
+书生	065.mesh	065a.Mtl	065a.Ani		S_HR	065aw			
+健康的余太君	066.mesh	066a.Mtl	066a.Ani		S_HL	066aw			
+超级贵妇	067.mesh	067a.Mtl	067a.Ani						
+普通贵妇	068.mesh	068a.Mtl	068a.Ani						
+习武大小姐	069.mesh	069a.Mtl	069a.Ani						
+侠女	015.mesh	015a.Mtl	015a.Ani						
+农家老头	071.mesh	071a.Mtl	071a.Ani		S_HR	拐杖1			
+村中少年	072.mesh	072a.Mtl	072a.Ani						
+农家老太	073.mesh	073a.Mtl	073a.Ani		S_HR	拐杖2			
+民家少女	074.mesh	074a.Mtl	074a.Ani						
+教书的	075.mesh	075a.Mtl	075a.Ani		S_HR	书卷			
+挑担的	076.mesh	076a.Mtl	076a.Ani		S_HR	076aw			
+卖货的	077.mesh	077a.Mtl	077a.Ani		S_HR	077aw			
+糖葫芦	078.mesh	078a.Mtl	078a.Ani		S_HR	078aw			
+老板娘	079.mesh	079a.Mtl	079a.Ani						
+渔民	080.mesh	080a.Mtl	080a.Ani						
+宋将军	081.mesh	081a.Mtl	081a.Ani		S_HR	mon_063w			
+宋江	082.mesh	082a.Mtl	082a.Ani		S_HR	082aw			
+唐门掌门新	083.mesh	083a.Mtl	083a.Ani		S_HL	083aw			
+暗器房主管	084.mesh	084a.Mtl	084a.Ani						
+火器房主管	085.mesh	085a.Mtl	085a.Ani						
+唐门门人新	086.mesh	086a.Mtl	086a.Ani						
+昆仑掌门新	087.mesh	087a.Mtl	087a.Ani		S_back	087aw			
+昆仑副掌门新	088.mesh	088a.Mtl	088a.Ani						
+昆仑长老新	089.mesh	089a.Mtl	089a.Ani						
+昆仑门人新	090.mesh	090a.Mtl	090a.Ani						
+五毒掌门新	091.mesh	091a.Mtl	091a.Ani						
+北方将军	092.mesh	092a.Mtl	092a.Ani		S_HR	064_武器长锤			
+北方男性1	093.mesh	093a.Mtl	093a.Ani						
+北方男性2	094.mesh	094a.Mtl	094a.Ani						
+北方男性3	095.mesh	095a.Mtl	095a.Ani						
+北方老头1	096.mesh	096a.Mtl	096a.Ani						
+北方老头2	096.mesh	097a.Mtl	097a.Ani						
+北方妇女1	098.mesh	098a.Mtl	098a.Ani						
+北方妇女2	098.mesh	099a.Mtl	099a.Ani						
+北方少女1	100.mesh	100a.Mtl	100a.Ani						
+北方少女2	100.mesh	101a.Mtl	101a.Ani						
+西南男性	102.mesh	102a.Mtl	102a.Ani						
+西南女性	103.mesh	103a.Mtl	103a.Ani		103a	WQ103			
+西北男性	104.mesh	104a.Mtl	104a.Ani						
+西北女性	105.mesh	105a.Mtl	105a.Ani						
+传教士	106.mesh	106a.Mtl	106a.Ani						
+西洋贵妇	107.mesh	107a.Mtl	107a.Ani						
+波斯商人	108.mesh	108a.Mtl	108a.Ani						
+波斯舞伎	109.mesh	109a.Mtl	109a.Ani						
+切换	切换.3e								
+瀑布									
+林间鸟叫									
+河水									
+箱子	009b.mesh	009b.mtl	009b.Ani						
+maptrap1									
+maptrap2									
+maptrap3									
+maptrap4									
+maptrap5									
+maptrap6									
+maptrap7									
+maptrap8									
+山羊	107.mesh	107a.Mtl	107a.Ani						
+小老虎	108.mesh	108a.Mtl	108a.Ani						
+小熊	109.mesh	109a.Mtl	109a.Ani						
+猎户	084.mesh	084b.Mtl	084b.Ani						
+暮雪剑客	023.mesh	023a.Mtl	023a.Ani		023a	普通剑01			
+暮雪枪客	023.mesh	023b.Mtl	023b.Ani		023b	WQ083g			
+拦路贼	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+时迁	110.mesh	110.Mtl	110.Ani						
+藏红花	110.mesh	110a.Mtl	110a.Ani						
+桔梗	111.mesh	111a.Mtl	111a.Ani						
+田七	112.mesh	112a.Mtl	112a.Ani						
+能打开的箱子	113.mesh	113a.Mtl	113a.Ani						
+破袋子	114.mesh	114a.Mtl	114a.Ani						
+躺在地上的腐尸	046.mesh	046a.Mtl	046a.Ani						
+官差	037a.mesh	037a.Mtl	037a.Ani						
+官兵	037b.mesh	037b.Mtl	037b.Ani						
+王伦	039.mesh	039b.Mtl	039b.Ani						
+二混	033.mesh	033a.Mtl	033a.Ani						
+梁中书	087.mesh	087a.Mtl	087a.Ani						
+高逑	087.mesh	087b.Mtl	087b.Ani		087b	宝剑01			
+宋河	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+李鬼	019.mesh	019b.Mtl	019b.Ani		019b	WQ019b			
+夏无离	039.mesh	039c.Mtl	039c.Ani		039c	WQ039c			
+陆风	087.mesh	087a.Mtl	087a.Ani						
+信使	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+流寇头目	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+竹叶青	015.mesh	015b.Mtl	015b.Ani						
+大野猪	075.mesh	075a.Mtl	075a.Ani						
+流浪汉	018.mesh	018b.Mtl	018b.Ani						
+官府爪牙	017.mesh	017f.Mtl	017f.Ani						
+看门狗30	004.mesh	004a.Mtl	004a.Ani						
+看门狗40	004.mesh	004a.Mtl	004a.Ani						
+看门狗50	004.mesh	004a.Mtl	004a.Ani						
+看门狗60	004.mesh	004a.Mtl	004a.Ani						
+看门狗70	004.mesh	004a.Mtl	004a.Ani						
+看门狗80	004.mesh	004a.Mtl	004a.Ani						
+看门狗90	004.mesh	004a.Mtl	004a.Ani						
+护院家丁30	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+护院家丁40	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+护院家丁50	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+护院家丁60	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+护院家丁70	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+护院家丁80	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+护院家丁90	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+藏剑山庄外院总管30	066.mesh	066b.Mtl	066a.Ani		S_HR	066剑			
+藏剑山庄外院总管40	066.mesh	066b.Mtl	066a.Ani		S_HR	066剑			
+藏剑山庄外院总管50	066.mesh	066b.Mtl	066a.Ani		S_HR	066剑			
+藏剑山庄外院总管60	066.mesh	066b.Mtl	066a.Ani		S_HR	066剑			
+藏剑山庄外院总管70	066.mesh	066b.Mtl	066a.Ani		S_HR	066剑			
+藏剑山庄外院总管80	066.mesh	066b.Mtl	066a.Ani		S_HR	066剑			
+藏剑山庄外院总管90	066.mesh	066b.Mtl	066a.Ani		S_HR	066剑			
+山庄教头30	042.mesh	042c.Mtl	042c.Ani		042c	042c枪			
+山庄教头40	042.mesh	042c.Mtl	042c.Ani		042c	042c枪			
+山庄教头50	042.mesh	042c.Mtl	042c.Ani		042c	042c枪			
+山庄教头60	042.mesh	042c.Mtl	042c.Ani		042c	042c枪			
+山庄教头70	042.mesh	042c.Mtl	042c.Ani		042c	042c枪			
+山庄教头80	042.mesh	042c.Mtl	042c.Ani		042c	042c枪			
+山庄教头90	042.mesh	042c.Mtl	042c.Ani		042c	042c枪			
+山庄内院总管30	141.mesh	141a.Mtl	141a.Ani		S_HR	066剑			
+山庄内院总管40	141.mesh	141a.Mtl	141a.Ani		S_HR	066剑			
+山庄内院总管50	141.mesh	141a.Mtl	141a.Ani		S_HR	066剑			
+山庄内院总管60	141.mesh	141a.Mtl	141a.Ani		S_HR	066剑			
+山庄内院总管70	141.mesh	141a.Mtl	141a.Ani		S_HR	066剑			
+山庄内院总管80	141.mesh	141a.Mtl	141a.Ani		S_HR	066剑			
+山庄内院总管90	141.mesh	141a.Mtl	141a.Ani		S_HR	066剑			
+老女仆30	091.mesh	091a.Mtl	091a.Ani		091a	WQ091a			
+老女仆40	091.mesh	091a.Mtl	091a.Ani		091a	WQ091a			
+老女仆50	091.mesh	091a.Mtl	091a.Ani		091a	WQ091a			
+老女仆60	091.mesh	091a.Mtl	091a.Ani		091a	WQ091a			
+老女仆70	091.mesh	091a.Mtl	091a.Ani		091a	WQ091a			
+老女仆80	091.mesh	091a.Mtl	091a.Ani		091a	WQ091a			
+老女仆90	091.mesh	091a.Mtl	091a.Ani		091a	WQ091a			
+大小姐30	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+大小姐40	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+大小姐50	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+大小姐60	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+大小姐70	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+大小姐80	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+大小姐90	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+连环邬守卫30	026.mesh	026b.Mtl	026b.Ani		026b	WQ026b			
+连环邬守卫40	026.mesh	026b.Mtl	026b.Ani		026b	WQ026b			
+连环邬守卫50	026.mesh	026b.Mtl	026b.Ani		026b	WQ026b			
+连环邬守卫60	026.mesh	026b.Mtl	026b.Ani		026b	WQ026b			
+连环邬守卫70	026.mesh	026b.Mtl	026b.Ani		026b	WQ026b			
+连环邬守卫80	026.mesh	026b.Mtl	026b.Ani		026b	WQ026b			
+连环邬守卫90	026.mesh	026b.Mtl	026b.Ani		026b	WQ026b			
+高级山庄弟子30	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+高级山庄弟子40	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+高级山庄弟子50	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+高级山庄弟子60	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+高级山庄弟子70	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+高级山庄弟子80	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+高级山庄弟子90	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+大庄主30	087.mesh	087b.Mtl	087b.Ani		087b	宝剑01			
+大庄主40	087.mesh	087b.Mtl	087b.Ani		087b	宝剑01			
+大庄主50	087.mesh	087b.Mtl	087b.Ani		087b	宝剑01			
+大庄主60	087.mesh	087b.Mtl	087b.Ani		087b	宝剑01			
+大庄主70	087.mesh	087b.Mtl	087b.Ani		087b	宝剑01			
+大庄主80	087.mesh	087b.Mtl	087b.Ani		087b	宝剑01			
+大庄主90	087.mesh	087b.Mtl	087b.Ani		087b	宝剑01			
+金剑30	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+金剑40	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+金剑50	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+金剑60	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+金剑70	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+金剑80	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+金剑90	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+木剑30	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+木剑40	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+木剑50	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+木剑60	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+木剑70	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+木剑80	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+木剑90	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+水剑30	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+水剑40	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+水剑50	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+水剑60	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+水剑70	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+水剑80	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+水剑90	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+火剑30	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+火剑40	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+火剑50	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+火剑60	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+火剑70	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+火剑80	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+火剑90	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+土剑30	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+土剑40	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+土剑50	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+土剑60	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+土剑70	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+土剑80	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+土剑90	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+藏剑阁总管30	140.mesh	140b.Mtl	140a.Ani		S_HR	066剑			
+藏剑阁总管40	140.mesh	140b.Mtl	140a.Ani		S_HR	066剑			
+藏剑阁总管50	140.mesh	140b.Mtl	140a.Ani		S_HR	066剑			
+藏剑阁总管60	140.mesh	140b.Mtl	140a.Ani		S_HR	066剑			
+藏剑阁总管70	140.mesh	140b.Mtl	140a.Ani		S_HR	066剑			
+藏剑阁总管80	140.mesh	140b.Mtl	140a.Ani		S_HR	066剑			
+藏剑阁总管90	140.mesh	140b.Mtl	140a.Ani		S_HR	066剑			
+落魄书生30									
+落魄书生40									
+落魄书生50									
+落魄书生60									
+落魄书生70									
+落魄书生80									
+落魄书生90									
+琅琊玉府总管30									
+琅琊玉府总管40									
+琅琊玉府总管50									
+琅琊玉府总管60									
+琅琊玉府总管70									
+琅琊玉府总管80									
+琅琊玉府总管90									
+铸工30									
+铸工40									
+铸工50									
+铸工60									
+铸工70									
+铸工80									
+铸工90									
+断天锤30									
+断天锤40									
+断天锤50									
+断天锤60									
+断天锤70									
+断天锤80									
+断天锤90									
+天问									
+神秘客30	085.mesh	085c.Mtl	085c.Ani		S_HR	长剑6b			
+神秘客40	085.mesh	085c.Mtl	085c.Ani		S_HR	长剑6b			
+神秘客50	085.mesh	085c.Mtl	085c.Ani		S_HR	长剑6b			
+神秘客60	085.mesh	085c.Mtl	085c.Ani		S_HR	长剑6b			
+神秘客70	085.mesh	085c.Mtl	085c.Ani		S_HR	长剑6b			
+神秘客80	085.mesh	085c.Mtl	085c.Ani		S_HR	长剑6b			
+神秘客90	085.mesh	085c.Mtl	085c.Ani		S_HR	长剑6b			
+机关30									
+机关40									
+机关50									
+机关60									
+机关70									
+机关80									
+机关90									
+剑魂30	142.mesh	142a.Mtl	142a.Ani		S_HR	142aw			
+剑魂40	142.mesh	142a.Mtl	142a.Ani		S_HR	142aw			
+剑魂50	142.mesh	142a.Mtl	142a.Ani		S_HR	142aw			
+剑魂60	142.mesh	142a.Mtl	142a.Ani		S_HR	142aw			
+剑魂70	142.mesh	142a.Mtl	142a.Ani		S_HR	142aw			
+剑魂80	142.mesh	142a.Mtl	142a.Ani		S_HR	142aw			
+剑魂90	142.mesh	142a.Mtl	142a.Ani		S_HR	142aw			
+透明人	128.mesh	128a.Mtl	128a.Ani						
+插剑的石台									
+书画obj									
+蚩火刀客	034.mesh	034a.Mtl	034a.Ani		034a	WQ034a			
+天阴武士	035b.mesh	035b.Mtl	035b.Ani						
+天阴箭手	035.mesh	035d.Mtl	035d.Ani		035d_1	WQ035d弓	035d_2	WQ035d箭鞘	
+天阴杀手	036.mesh	036a.Mtl	036a.Ani		036a	WQ036a			
+蚩火蛊师	034.mesh	034c.Mtl	034c.Ani		034c	WQ034c			
+蚩火教徒	034.mesh	034a.Mtl	034a.Ani		034a	WQ034a			
+蚩火教高手	034.mesh	034a.Mtl	034a.Ani		034a	WQ034a			
+章伟刚	019.mesh	019a.Mtl	019a.Ani		019a	WQ019a			
+姚立诚	019.mesh	019a.Mtl	019a.Ani		019a	WQ019a			
+雷胜尸体	119.mesh	119a.Mtl	119a.Ani						
+雷胜护卫尸体	120.mesh	120a.Mtl	120a.Ani						
+倒地书童	121.mesh	121a.Mtl	121a.Ani						
+九头金凤	076.mesh	076a.Mtl	076a.Ani		S_HR	076_剑			
+萧寒	023.mesh	023a.Mtl	023a.Ani		023a	普通剑01			
+九尾银狐	076.mesh	076c.Mtl	076c.Ani		S_HR	076_剑			
+西夏将领1	038.mesh	038a.Mtl	038a.Ani		S_HR	037aw			
+西夏将领2	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+西夏将领3	027.mesh	027b.Mtl	027b.Ani		027b	WQ027b			
+野利霸岩	041.mesh	041b.Mtl	041b.Ani		041b	鬼头刀01			
+毒药箱	113.mesh	113a.Mtl	113a.Ani						
+岗哨	126.mesh	126a.Mtl	126a.Ani						
+粮草辎重									
+西夏咒师	028.mesh	028c.Mtl	028c.Ani						
+采矿	113.mesh	113a.Mtl	113a.Ani		113a	矿镐			
+伐木	114.mesh	114a.Mtl	114a.Ani		114a	斧头			
+抽丝	115.mesh	115a.Mtl	115a.Ani						
+采药	116.mesh	116a.Mtl	116a.Ani		116a	药锄			
+制皮	117.mesh	117a.Mtl	117a.Ani		S_HR	制皮刀	117a	兽皮	
+收种	118.mesh	118a.Mtl	118a.Ani		S_HR	锄头			
+宋万	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+李立	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顾大嫂	091.mesh	091b.Mtl	091b.Ani		091b	WQ091b			
+透明人火30	128.mesh	128a.Mtl	128a.Ani						
+透明人火40	128.mesh	128a.Mtl	128a.Ani						
+透明人火50	128.mesh	128a.Mtl	128a.Ani						
+透明人火60	128.mesh	128a.Mtl	128a.Ani						
+透明人火70	128.mesh	128a.Mtl	128a.Ani						
+透明人火80	128.mesh	128a.Mtl	128a.Ani						
+透明人火90	128.mesh	128a.Mtl	128a.Ani						
+透明人冰30	128.mesh	128a.Mtl	128a.Ani						
+透明人冰40	128.mesh	128a.Mtl	128a.Ani						
+透明人冰50	128.mesh	128a.Mtl	128a.Ani						
+透明人冰60	128.mesh	128a.Mtl	128a.Ani						
+透明人冰70	128.mesh	128a.Mtl	128a.Ani						
+透明人冰80	128.mesh	128a.Mtl	128a.Ani						
+透明人冰90	128.mesh	128a.Mtl	128a.Ani						
+透明人睡眠30	128.mesh	128a.Mtl	128a.Ani						
+透明人睡眠40	128.mesh	128a.Mtl	128a.Ani						
+透明人睡眠50	128.mesh	128a.Mtl	128a.Ani						
+透明人睡眠60	128.mesh	128a.Mtl	128a.Ani						
+透明人睡眠70	128.mesh	128a.Mtl	128a.Ani						
+透明人睡眠80	128.mesh	128a.Mtl	128a.Ani						
+透明人睡眠90	128.mesh	128a.Mtl	128a.Ani						
+透明人混乱30	128.mesh	128a.Mtl	128a.Ani						
+透明人混乱40	128.mesh	128a.Mtl	128a.Ani						
+透明人混乱50	128.mesh	128a.Mtl	128a.Ani						
+透明人混乱60	128.mesh	128a.Mtl	128a.Ani						
+透明人混乱70	128.mesh	128a.Mtl	128a.Ani						
+透明人混乱80	128.mesh	128a.Mtl	128a.Ani						
+透明人混乱90	128.mesh	128a.Mtl	128a.Ani						
+透明人眩晕30	128.mesh	128a.Mtl	128a.Ani						
+透明人眩晕40	128.mesh	128a.Mtl	128a.Ani						
+透明人眩晕50	128.mesh	128a.Mtl	128a.Ani						
+透明人眩晕60	128.mesh	128a.Mtl	128a.Ani						
+透明人眩晕70	128.mesh	128a.Mtl	128a.Ani						
+透明人眩晕80	128.mesh	128a.Mtl	128a.Ani						
+透明人眩晕90	128.mesh	128a.Mtl	128a.Ani						
+箱子钱	113.mesh	113a.Mtl	113a.Ani						
+箱子经验	113.mesh	113a.Mtl	113a.Ani						
+箱子物品中	113.mesh	113a.Mtl	113a.Ani						
+箱子物品高	113.mesh	113a.Mtl	113a.Ani						
+普通箱子30	113.mesh	113a.Mtl	113a.Ani						
+普通箱子40	113.mesh	113a.Mtl	113a.Ani						
+普通箱子50	113.mesh	113a.Mtl	113a.Ani						
+普通箱子60	113.mesh	113a.Mtl	113a.Ani						
+普通箱子70	113.mesh	113a.Mtl	113a.Ani						
+普通箱子80	113.mesh	113a.Mtl	113a.Ani						
+普通箱子90	113.mesh	113a.Mtl	113a.Ani						
+客户端树桩	122.mesh	122a.Mtl	122a.Ani						
+血咒祭坛									
+坟墓									
+泥人									
+甑子丹	126.mesh	126a.Mtl	126a.Ani		126a	126w			
+赵有德									
+田不光									
+唐峰	026.mesh	026b.Mtl	026b.Ani		026b	WQ026b			
+唐礼	076.mesh	076b.Mtl	076b.Ani						
+蒙面人	020.mesh	020b.Mtl	020b.Ani						
+田不光									
+窃贼头目									
+天阴杀手头领	036.mesh	036a.Mtl	036a.Ani		036a	WQ036a			
+明智和尚	028.mesh	028b.Mtl	028b.Ani		S_HR	mon_028bw			
+法正	028.mesh	028c.Mtl	028c.Ani						
+乌盟部祭祀									
+流氓大牛	017.mesh	017f.Mtl	017a.Ani						
+无赖李三	017.mesh	017g.Mtl	017c.Ani						
+葡国女巫									
+九尾妖狐									
+武二	089.mesh	089b.Mtl	089b.Ani		089a	WQ089a			
+张杨	098a.mesh	098a.Mtl	098a.Ani						
+剑狂	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+紫虚道长									
+唐肥	026.mesh	026b.Mtl	026b.Ani		026b	WQ026b			
+百年尸妖	046.mesh	046a.Mtl	046a.Ani						
+萧霸	038b.mesh	038b.Mtl	038b.Ani						
+歹徒	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+歹徒头目	086.mesh	086b.Mtl	086b.Ani		086a_1	WQ086b	086a_2	WQ086b	
+上古火麒麟	054.mesh	054a.Mtl	054a.Ani						
+鱼怪头目	055.mesh	055a.Mtl	055a.Ani		055a	WQ055a			
+伏牛山大王	086.mesh	086b.Mtl	086b.Ani		086a_1	WQ086b	086a_2	WQ086b	
+泰宏绝的尸体									
+蚩火教徒的尸体									
+杀手10	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手11	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手12	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手13	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手14	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手15	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手20	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手21	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手22	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手23	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手24	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手25	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手30	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手31	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手32	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手33	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手34	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手35	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手40	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手41	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手42	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手43	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手44	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手45	024.mesh	024b.Mtl	024b.Ani		024b_1	短刀01	024b_2	短刀01	
+杀手50	024.mesh	024a.Mtl	024a.Ani						
+杀手51	024.mesh	024a.Mtl	024a.Ani						
+杀手52	024.mesh	024a.Mtl	024a.Ani						
+杀手53	024.mesh	024a.Mtl	024a.Ani						
+杀手54	024.mesh	024a.Mtl	024a.Ani						
+杀手55	024.mesh	024a.Mtl	024a.Ani						
+杀手60	024.mesh	024a.Mtl	024a.Ani						
+杀手61	024.mesh	024a.Mtl	024a.Ani						
+杀手62	024.mesh	024a.Mtl	024a.Ani						
+杀手63	024.mesh	024a.Mtl	024a.Ani						
+杀手64	024.mesh	024a.Mtl	024a.Ani						
+杀手65	024.mesh	024a.Mtl	024a.Ani						
+杀手70	024.mesh	024a.Mtl	024a.Ani						
+杀手71	024.mesh	024a.Mtl	024a.Ani						
+杀手72	024.mesh	024a.Mtl	024a.Ani						
+杀手73	024.mesh	024a.Mtl	024a.Ani						
+杀手74	024.mesh	024a.Mtl	024a.Ani						
+杀手75	024.mesh	024a.Mtl	024a.Ani						
+杀手80	024.mesh	024a.Mtl	024a.Ani						
+杀手81	024.mesh	024a.Mtl	024a.Ani						
+杀手82	024.mesh	024a.Mtl	024a.Ani						
+杀手83	024.mesh	024a.Mtl	024a.Ani						
+杀手84	024.mesh	024a.Mtl	024a.Ani						
+杀手85	024.mesh	024a.Mtl	024a.Ani						
+杀手90	024.mesh	024a.Mtl	024a.Ani						
+杀手91	024.mesh	024a.Mtl	024a.Ani						
+杀手92	024.mesh	024a.Mtl	024a.Ani						
+杀手93	024.mesh	024a.Mtl	024a.Ani						
+杀手94	024.mesh	024a.Mtl	024a.Ani						
+杀手95	024.mesh	024a.Mtl	024a.Ani						
+杀手同伴10	020.mesh	020b.Mtl	020b.Ani						
+杀手同伴20	020.mesh	020b.Mtl	020b.Ani						
+杀手同伴30	020.mesh	020b.Mtl	020b.Ani						
+杀手同伴40	020.mesh	020b.Mtl	020b.Ani						
+杀手同伴50	020.mesh	020d.Mtl	020d.Ani		020d	WQ020d			
+杀手同伴60	020.mesh	020d.Mtl	020d.Ani		020d	WQ020d			
+杀手同伴70	020.mesh	020d.Mtl	020d.Ani		020d	WQ020d			
+杀手同伴80	020.mesh	020d.Mtl	020d.Ani		020d	WQ020d			
+杀手同伴90	020.mesh	020d.Mtl	020d.Ani		020d	WQ020d			
+顶级杀手10	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手11	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手12	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手13	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手14	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手15	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手20	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手21	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手22	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手23	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手24	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手25	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手30	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手31	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手32	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手33	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手34	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手35	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手40	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手41	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手42	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手43	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手44	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手45	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+顶级杀手50	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手51	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手52	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手53	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手54	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手55	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手60	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手61	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手62	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手63	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手64	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手65	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手70	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手71	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手72	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手73	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手74	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手75	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手80	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手81	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手82	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手83	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手84	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手85	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手90	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手91	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手92	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手93	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手94	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+顶级杀手95	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+宝藏妖怪10	011.mesh	011a.Mtl	011a.Ani						
+宝藏妖怪20	046.mesh	046a.Mtl	046a.Ani						
+宝藏妖怪30	057.mesh	057a.Mtl	057a.Ani						
+宝藏妖怪40	080b.mesh	080b.Mtl	080b.Ani						
+宝藏妖怪50	058.mesh	058a.Mtl	058a.Ani						
+宝藏妖怪60	079.mesh	079b.Mtl	079b.Ani		079b	079a叉			
+宝藏妖怪70	051.mesh	051a.Mtl	051a.Ani						
+宝藏妖怪80	079.mesh	079f.Mtl	079f.Ani		079c	079a爪			
+宝藏妖怪90	056.mesh	056c.Mtl	056c.Ani						
+金刚门僧人10	028.mesh	028c.Mtl	028c.Ani						
+金刚门僧人20	028.mesh	028c.Mtl	028c.Ani						
+金刚门僧人30	028.mesh	028c.Mtl	028c.Ani						
+金刚门僧人40	028.mesh	028c.Mtl	028c.Ani						
+金刚门僧人50	028.mesh	028c.Mtl	028c.Ani						
+金刚门僧人60	028.mesh	028c.Mtl	028c.Ani						
+金刚门僧人70	028.mesh	028c.Mtl	028c.Ani						
+金刚门僧人80	028.mesh	028c.Mtl	028c.Ani						
+金刚门僧人90	028.mesh	028c.Mtl	028c.Ani						
+武当弃徒10	076.mesh	076c.Mtl	076c.Ani		S_HR	076_剑			
+武当弃徒20	076.mesh	076c.Mtl	076c.Ani		S_HR	076_剑			
+武当弃徒30	076.mesh	076c.Mtl	076c.Ani		S_HR	076_剑			
+武当弃徒40	076.mesh	076c.Mtl	076c.Ani		S_HR	076_剑			
+武当弃徒50	076.mesh	076c.Mtl	076c.Ani		S_HR	076_剑			
+武当弃徒60	076.mesh	076c.Mtl	076c.Ani		S_HR	076_剑			
+武当弃徒70	076.mesh	076c.Mtl	076c.Ani		S_HR	076_剑			
+武当弃徒80	076.mesh	076c.Mtl	076c.Ani		S_HR	076_剑			
+武当弃徒90	076.mesh	076c.Mtl	076c.Ani		S_HR	076_剑			
+采花贼10	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+采花贼20	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+采花贼30	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+采花贼40	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+采花贼50	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+采花贼60	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+采花贼70	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+采花贼80	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+采花贼90	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+扶桑武士10	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+扶桑武士20	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+扶桑武士30	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+扶桑武士40	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+扶桑武士50	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+扶桑武士60	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+扶桑武士70	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+扶桑武士80	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+扶桑武士90	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+六扇门密探10	098c.mesh	098c.Mtl	098c.Ani						
+六扇门密探20	098c.mesh	098c.Mtl	098c.Ani						
+六扇门密探30	098c.mesh	098c.Mtl	098c.Ani						
+六扇门密探40	098c.mesh	098c.Mtl	098c.Ani						
+六扇门密探50	098c.mesh	098c.Mtl	098c.Ani						
+六扇门密探60	098c.mesh	098c.Mtl	098c.Ani						
+六扇门密探70	098c.mesh	098c.Mtl	098c.Ani						
+六扇门密探80	098c.mesh	098c.Mtl	098c.Ani						
+六扇门密探90	098c.mesh	098c.Mtl	098c.Ani						
+木柱	128.mesh	128.Mtl	030.Ani						
+剑台30	129.mesh	129.Mtl	030.Ani						
+剑台40	129.mesh	129.Mtl	030.Ani						
+剑台50	129.mesh	129.Mtl	030.Ani						
+剑台60	129.mesh	129.Mtl	030.Ani						
+剑台70	129.mesh	129.Mtl	030.Ani						
+剑台80	129.mesh	129.Mtl	030.Ani						
+剑台90	129.mesh	129.Mtl	030.Ani						
+剑台对话	129.mesh	129.Mtl	030.Ani						
+盘龙柱	130.mesh	130.Mtl	030.Ani						
+低级藏剑护院	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+中级藏剑护院	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+高级藏剑护院	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+低级老女仆	091.mesh	091b.Mtl	091b.Ani		091b	WQ091b			
+中级老女仆	091.mesh	091b.Mtl	091b.Ani		091b	WQ091b			
+高级老女仆	091.mesh	091b.Mtl	091b.Ani		091b	WQ091b			
+低级铜剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+中级铜剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+高级铜剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+低级银剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+中级银剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+高级银剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+低级金剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+中级金剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+高级金剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+低级圣剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+中级圣剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+高级圣剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+低级天剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+中级天剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+高级天剑护卫	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+低级魔剑之魂	099.mesh	099a.Mtl	099a.Ani						
+中级魔剑之魂	099.mesh	099a.Mtl	099a.Ani						
+高级魔剑之魂	099.mesh	099a.Mtl	099a.Ani						
+低级万剑之魂	099.mesh	099a.Mtl	099a.Ani						
+中级万剑之魂	099.mesh	099a.Mtl	099a.Ani						
+高级万剑之魂	099.mesh	099a.Mtl	099a.Ani						
+低级剑魔之徒	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+中级剑魔之徒	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+高级剑魔之徒	021.mesh	021a.Mtl	021a.Ani		021a	鬼头刀01			
+低级燃命剑魂	099.mesh	099a.Mtl	099a.Ani						
+中级燃命剑魂	099.mesh	099a.Mtl	099a.Ani						
+高级燃命剑魂	099.mesh	099a.Mtl	099a.Ani						
+北绿林山贼	017.mesh	017e.Mtl	017e.Ani		017e	WQ017e			
+北绿林山大王	019.mesh	019b.Mtl	019b.Ani		019b	WQ019b			
+心腹密探	020.mesh	020b.Mtl	020b.Ani						
+绿林高手	027.mesh	027b.Mtl	027b.Ani		027b	WQ027b			
+幻影武士	083.mesh	083e.Mtl	083e.Ani		083e	WQ083e			
+枪神赢天	083.mesh	083g.Mtl	083g.Ani		083g	WQ083g			
+枪神赢天？	083.mesh	083g.Mtl	083g.Ani		083g	WQ083g			
+冷香菱	080c.mesh	080c.Mtl	080c.Ani						
+修罗恶鬼	080b.mesh	080b.Mtl	080b.Ani						
+鹰戈部落武师	035b.mesh	035b.Mtl	035b.Ani						
+德夷部落武师	036.mesh	036a.Mtl	036a.Ani						
+伊达部落武师	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+敖狄部落武师	034.mesh	034a.Mtl	034a.Ani		034a	WQ034a			
+鄂罗部落武师	035b.mesh	035b.Mtl	035b.Ani						
+法岚部落武师	036.mesh	036a.Mtl	036a.Ani						
+梅利部落武师	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+伊本部落武师	033a.mesh	033a.Mtl	033a.Ani		033a	WQ033a			
+西摩	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+倭寇	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+倭寇士兵	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+倭寇水兵	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+倭寇陆兵	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+倭寇武士	033b.mesh	033d.Mtl	033d.Ani		033d	日本刀01			
+剑灵50	057.mesh	057b.Mtl	057b.Ani						
+剑灵60	057.mesh	057b.Mtl	057b.Ani						
+剑灵70	057.mesh	057b.Mtl	057b.Ani						
+剑灵80	057.mesh	057b.Mtl	057b.Ani						
+剑灵90	057.mesh	057b.Mtl	057b.Ani						
+内院总管对话	141.mesh	141a.Mtl	141a.Ani		S_HR	066剑			
+剑魂对话	142.mesh	142a.Mtl	142a.Ani		S_HR	142aw			
+透明人打不动	128.mesh	128a.Mtl	128a.Ani						
+马王	036.mesh	036a.Mtl	036a.Ani		036a	WQ036a			
+杨业	150.mesh	150b.Mtl	150b.Ani						
+杨延昭	151.mesh	151b.Mtl	151b.Ani						
+杨排风	154.mesh	154b.Mtl	154b.Ani						
+杨宗保	152.mesh	152b.Mtl	152b.Ani						
+穆桂英	153.mesh	153b.Mtl	153b.Ani						
+大表姐	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+二表姐	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+三表姐	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+四表姐	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+五表姐	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+大圣诞树	143.mesh	143a.Mtl	143a.Ani						
+中圣诞树	143.mesh	143a.Mtl	143a.Ani						
+小圣诞树	143.mesh	143a.Mtl	143a.Ani						
+花灯1	144.mesh	144a.Mtl	144a.Ani						
+花灯2	145.mesh	145a.Mtl	145a.Ani						
+花灯3	146.mesh	146a.Mtl	146a.Ani						
+大礼品盒1	147.mesh	147a.Mtl	147a.Ani						
+中礼品盒1	147.mesh	147a.Mtl	147a.Ani						
+小礼品盒1	147.mesh	147a.Mtl	147a.Ani						
+大礼品盒2	147.mesh	147b.Mtl	147a.Ani						
+中礼品盒2	147.mesh	147b.Mtl	147a.Ani						
+小礼品盒2	147.mesh	147b.Mtl	147a.Ani						
+大礼品盒3	147.mesh	147c.Mtl	147a.Ani						
+中礼品盒3	147.mesh	147c.Mtl	147a.Ani						
+小礼品盒3	147.mesh	147c.Mtl	147a.Ani						
+大礼品盒4	147.mesh	147d.Mtl	147a.Ani						
+中礼品盒4	147.mesh	147d.Mtl	147a.Ani						
+小礼品盒4	147.mesh	147d.Mtl	147a.Ani						
+礼品圣诞树	143.mesh	143a.Mtl	143a.Ani						
+特大圣诞树	143.mesh	143a.Mtl	143a.Ani						
+镖旗对话	150.mesh	150a.Mtl	150a.Ani						
+镖旗战斗	150.mesh	150a.Mtl	150a.Ani						
+大年兽	148.mesh	148a.Mtl	148a.Ani						
+小年兽	148.mesh	148a.Mtl	148a.Ani						
+毒甲虫	007.mesh	007c.Mtl	007a.Ani						
+毒蜈蚣	160.mesh	160a.Mtl	160a.Ani						
+小毒蜂	002.mesh	002b.Mtl	002a.Ani						
+毒蚊	161.mesh	161a.Mtl	161a.Ani						
+剧毒食人草	162.mesh	162a.Mtl	162a.Ani						
+毒蜥	163.mesh	163a.Mtl	163a.Ani						
+蚩火黑教徒	171.mesh	171a.Mtl	171a.Ani						
+蚩火白教徒	171.mesh	171b.Mtl	171b.Ani						
+蚩火赤教徒	171.mesh	171c.Mtl	171c.Ani						
+蚩火使者	172.mesh	172a.Mtl	172a.Ani		S_HR	172abw			
+毒蝠	011.mesh	011c.Mtl	011b.Ani						
+蚩火护法	172.mesh	172b.Mtl	172b.Ani		S_HR	172abw			
+啼血鸦	016.mesh	016b.Mtl	016a.Ani						
+苗岭巡寨	164.mesh	164a.Mtl	164a.Ani		S_HR	164三叉股			
+苗岭野牦牛	165.mesh	165a.Mtl	165a.Ani						
+苗岭护印	166b.mesh	166a.Mtl	166a.Ani		S_HR	镜子			
+苗岭夫人	177.mesh	177a.Mtl	177a.Ani						
+苗岭土司	166a.mesh	166b.Mtl	166b.Ani		S_HR	166b刀	S_HL	166b刀削	
+白头雕	014.mesh	014b.Mtl	014a.Ani						
+子夜虎	008.mesh	008c.Mtl	008a.Ani						
+傀儡人	056.mesh	056d.Mtl	056b.Ani						
+蚩火长老	173a.mesh	173a.Mtl	173a.Ani		S_HR	173aw			
+蚩火坛主	174.mesh	174a.Mtl	174a.Ani		S_HR	174ab笛子			
+黑猩猩	012.mesh	012a.Mtl	012a.Ani						
+野毛象	167.mesh	167a.Mtl	167a.Ani						
+叛军巡逻	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+叛军卫兵	039.mesh	039a.Mtl	039a.Ani		039a	WQ039a			
+叛军武士	017.mesh	017a.Mtl	017a.Ani		017a	短木棒01			
+千寻武僧	028.mesh	028a.Mtl	028a.Ani		S_HR	mon_028aw			
+千寻法僧	028.mesh	028b.Mtl	028b.Ani		S_HR	mon_028bw			
+摩尼僧	168.mesh	168a.Mtl	168a.Ani		S_HR	168aw			
+陀罗尼僧	168.mesh	168b.Mtl	168b.Ani		S_HR	174ab笛子			
+持刀护卫	040.mesh	040a.Mtl	040a.Ani		040a	WQ040a			
+持矛护卫	040.mesh	040c.Mtl	040c.Ani		040c	WQ040c			
+蚩火妖妇	131.mesh	131a.Mtl	131a.Ani						
+血鳞毒蟒	178.mesh	178a.Mtl	178a.Ani						
+腐骨毒人	068.mesh	068a.Mtl	068a.Ani		S_HR	068w			
+驭毒阴姬	131.mesh	131b.Mtl	131a.Ani						
+半蝶人	051.mesh	051c.Mtl	051c.Ani						
+狱火人	052.mesh	052d.Mtl	052c.Ani						
+蚩火大护法	172.mesh	172c.Mtl	172c.Ani		S_HR	172cw			
+苗岭勇士	175.mesh	175a.Mtl	175a.Ani		S_HR	175aw			
+苗岭力士	175.mesh	175b.Mtl	175b.Ani		S_HR	175bw			
+苗岭首领	176.mesh	176a.Mtl	176a.Ani		S_HR	176aw			
+狱火狂人	052.mesh	052d.Mtl	052c.Ani						
+迦楼罗	047.mesh	047c.Mtl	047c.Ani						
+蚩火大长老	173b.mesh	173b.Mtl	173b.Ani		S_HR	173bw			
+蚩火教总坛主	174.mesh	174b.Mtl	174b.Ani		S_HR	174ab笛子			
+阿修罗	138.mesh	138a.Mtl	138a.Ani						
+摩呼罗迦	053.mesh	053b.Mtl	053b.Ani						
+段承恩	136.mesh	136a.Mtl	136a.Ani		S_HR	136aw			
+大理二皇子	170.mesh	170a.Mtl	170a.Ani		S_HR	170aw			
+护卫队长	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+乾达婆	061.mesh	061b.Mtl	061b.Ani						
+千寻衲师	169.mesh	169a.Mtl	169a.Ani		S_HR	169aw			
+紧那罗	179.mesh	179a.Mtl	179a.Ani		S_HR	179aw			
+龙象法僧	169.mesh	169b.Mtl	169b.Ani						
+大理三皇子	170.mesh	170b.Mtl	170b.Ani		S_HR	170bw			
+玫瑰花红	155.mesh	155a.Mtl	155a.Ani						
+玫瑰花黄	155.mesh	155b.Mtl	155a.Ani						
+玫瑰花粉	155.mesh	155c.Mtl	155a.Ani						
+玫瑰花小苗	156.mesh	156a.Mtl	156a.Ani						
+玫瑰花苗	157.mesh	157a.Mtl	157a.Ani						
+玫瑰花骨朵	158.mesh	158a.Mtl	158a.Ani						
+鬼蜮姥姥	058.mesh	058b.Mtl	058a.Ani						
+董迦明	137.mesh	137a.Mtl	137a.Ani						
+马贼头目	064a.mesh	064a.Mtl	064a.Ani						
+马贼喽啰	064a.mesh	064a.Mtl	064a.Ani						
+经验兔子	073.mesh	073a.Mtl	073a.Ani						
+宝石兔子	073.mesh	073a.Mtl	073a.Ani						
+经验凤凰	047.mesh	047a.Mtl	047a.Ani						
+宝石凤凰	047.mesh	047a.Mtl	047a.Ani						
+经验火麒麟	054.mesh	054a.Mtl	054a.Ani						
+宝石火麒麟	054.mesh	054a.Mtl	054a.Ani						
+经验食人花	162.mesh	162a.Mtl	162a.Ani						
+宝石食人花	162.mesh	162a.Mtl	162a.Ani						
+经验牦牛	165.mesh	165a.Mtl	165a.Ani						
+宝石牦牛	165.mesh	165a.Mtl	165a.Ani						
+经验琴仙子	077.mesh	077e.Mtl	077e.Ani		S_HL	琴			
+宝石琴仙子	077.mesh	077e.Mtl	077e.Ani		S_HL	琴			
+多蜜花果树小	162.mesh	162a.Mtl	162a.Ani						
+多蜜花果树中	162.mesh	162a.Mtl	162a.Ani						
+多蜜花果树大	162.mesh	162a.Mtl	162a.Ani						
+北绿林令	drop_mod025.Mesh	drop_mod025.Mtl	drop.Ani						
+逐影枪	drop_mod032.Mesh	drop_mod032.Mtl	drop.Ani						
+绝情石	drop_mod019.Mesh	drop_mod019.Mtl	drop.Ani						
+外院总管腰牌	drop_mod025.Mesh	drop_mod025.Mtl	drop.Ani						
+内院总管腰牌	drop_mod025.Mesh	drop_mod025.Mtl	drop.Ani						
+越女剑	drop_mod002.Mesh	drop_mod002.Mtl	drop.Ani						
+庄主金印	drop_mod019.Mesh	drop_mod019.Mtl	drop.Ani						
+长老指环	drop_mod019.Mesh	drop_mod019.Mtl	drop.Ani						
+装备兔子	073.mesh	073a.Mtl	073a.Ani						
+装备凤凰	047.mesh	047a.Mtl	047a.Ani						
+装备火麒麟	054.mesh	054a.Mtl	054a.Ani						
+装备食人花	162.mesh	162a.Mtl	162a.Ani						
+装备牦牛	165.mesh	165a.Mtl	165a.Ani						
+装备琴仙子	077.mesh	077e.Mtl	077e.Ani		S_HL	琴			
+跟随小年兽	148.mesh	148a.Mtl	148a.Ani						
+跟随小白兔	073.mesh	073a.Mtl	073a.Ani						
+跟随马猴	078.mesh	078a.Mtl	078a.Ani						
+跟随小野猪	075.mesh	075a.Mtl	075a.Ani						
+跟随白头雕	014.mesh	014b.Mtl	014a.Ani						
+跟随子夜虎	008.mesh	008c.Mtl	008a.Ani						
+跟随黑猩猩	012.mesh	012a.Mtl	012a.Ani						
+跟随夜叉鸦	094.mesh	094a.Mtl	094a.Ani						
+跟随剑魂	099.mesh	099a.Mtl	099a.Ani						
+牛郎	031c.mesh	031e.Mtl	031e.Ani						
+织女	176.mesh	176a.Mtl	176.Ani						
+喜鹊	175.mesh	175a.Mtl	175a.Ani						
+轿子	167.mesh	167a.Mtl	167a.Ani						
+酒席	168.mesh	168a.Mtl	168a.Ani						
+媒婆	169.mesh	169a.Mtl	169a.Ani						
+喜娘	170.mesh	170a.Mtl	170a.Ani						
+商人	171.mesh	171a.Mtl	171a.Ani						
+鼓手	172.mesh	172a.Mtl	172b.Ani						
+唢呐手	172.mesh	172a.Mtl	172a.Ani						
+喜鹊右	175b.mesh	175a.Mtl	175a.Ani						
+喜鹊左	175c.mesh	175a.Mtl	175b.Ani						
+昆仑奴	103.mesh	103a.Mtl	103a.Ani						
+裴航	067.mesh	067a.Mtl	067a.Ani		S_HR	067枪			
+柳毅	134.mesh	134a.Mtl	134a.Ani		S_HR	134aw			
+红线	135.mesh	135a.Mtl	135a.Ani						
+沙漠狂刀贺景胜	065.mesh	065a.Mtl	065a.Ani		S_HR	065刀			
+伙头军聂大锤	064b.mesh	064b.Mtl	064b.Ani		S_HR	064_武器长锤			
+步非烟	090.mesh	090.Mtl	090a.Ani						
+昆仑奴留下的箱子	113.mesh	113a.Mtl	113a.Ani						
+裴航留下的箱子	113.mesh	113a.Mtl	113a.Ani						
+柳毅留下的箱子	113.mesh	113a.Mtl	113a.Ani						
+红线留下的箱子	113.mesh	113a.Mtl	113a.Ani						
+贺景胜的铁箱子	113.mesh	113a.Mtl	113a.Ani						
+聂大锤的铁箱子	113.mesh	113a.Mtl	113a.Ani						
+步非烟的百宝箱	113.mesh	113a.Mtl	113a.Ani						
+刘铁匠	212.mesh	212a.Mtl	212a.Ani						
+夏天	085.mesh	085c.Mtl	085c.Ani		S_HR	长剑6b			
+阿松	070.mesh	070.Mtl	070.Ani		S_HR	070aw			
+阿为	215.mesh	215a.Mtl	215a.Ani		S_HR	215aw			
+铁羊	216.mesh	216a.Mtl	216a.Ani						
+阴铭	217.mesh	217a.Mtl	217a.Ani		S_RH	217aw			
+猴盾	060.mesh	060a.Mtl	060a.Ani		060a	WQ060a			
+趴趴熊	219.mesh	219a.Mtl	219a.Ani						
+光无极	048.mesh	048a.Mtl	048a.Ani						
+小刘铁匠	212.mesh	212a.Mtl	212a.Ani						
+小夏天	085.mesh	085c.Mtl	085c.Ani		S_HR	长剑6b			
+小阿松	070.mesh	070.Mtl	070.Ani		S_HR	070aw			
+小阿为	215.mesh	215a.Mtl	215a.Ani		S_HR	215aw			
+小铁羊	216.mesh	216a.Mtl	216a.Ani						
+小阴铭	217.mesh	217a.Mtl	217a.Ani		S_RH	217aw			
+小猴盾	060.mesh	060a.Mtl	060a.Ani		060a	WQ060a			
+小趴趴熊	219.mesh	219a.Mtl	219a.Ani						
+小光无极	048.mesh	048a.Mtl	048a.Ani						
+重阳花1	176.mesh	176a.Mtl	176a.Ani						
+重阳花2	176.mesh	176b.Mtl	176a.Ani						
+重阳花3	176.mesh	176c.Mtl	176a.Ani						
+圣诞树1a	143a.mesh	143.Mtl	143a.Ani						
+圣诞树1b	143a.mesh	143.Mtl	143a.Ani						
+圣诞树1c	143a.mesh	143.Mtl	143a.Ani						
+圣诞树1d	143a.mesh	143.Mtl	143a.Ani						
+圣诞树2a	144a.mesh	144.Mtl	143a.Ani						
+圣诞树2b	144a.mesh	144.Mtl	143a.Ani						
+圣诞树2c	144a.mesh	144.Mtl	143a.Ani						
+圣诞树2d	144a.mesh	144.Mtl	143a.Ani						
+圣诞树3a	145a.mesh	145.Mtl	143a.Ani						
+圣诞树3b	145a.mesh	145.Mtl	143a.Ani						
+圣诞树3c	145a.mesh	145.Mtl	143a.Ani						
+圣诞树3d	145a.mesh	145.Mtl	143a.Ani						
+圣诞树4a	146a.mesh	146.Mtl	143a.Ani						
+圣诞树4b	146a.mesh	146.Mtl	143a.Ani						
+圣诞树4c	146a.mesh	146.Mtl	143a.Ani						
+圣诞树4d	146a.mesh	146.Mtl	143a.Ani						
+青书	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+玄真	191.mesh	191a.mtl	191a.ani						
+杨延德	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+慧明	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+唐喜	197.mesh	197a.mtl	197a.ani						
+黄正一	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+古墨	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+高手的包裹	114.mesh	114a.Mtl	114a.Ani						
+兔小丫	177.mesh	177a.Mtl	177a.Ani						
+小白公猪	222.mesh	222a.Mtl	222a.Ani						
+小白母猪	222.mesh	222b.Mtl	222a.Ani						
+小黑公猪	222.mesh	222c.Mtl	222a.Ani						
+小黑母猪	222.mesh	222d.Mtl	222a.Ani						
+小金公猪	222.mesh	222e.Mtl	222a.Ani						
+小金母猪	222.mesh	222f.Mtl	222a.Ani						
+华山箱子	113.mesh	113a.Mtl	113a.Ani						
+宋军元帅	189.mesh	189.Mtl	189a.Ani		S_HR	076_剑			
+宋军将军	063.mesh	063a.Mtl	063b.Ani		S_HR	mon_063w			
+宋军先锋	133.mesh	133a.Mtl	133b.Ani		S_HR	076_剑			
+宋强弩兵	037.mesh	037d.Mtl	037d.Ani						
+宋精兵	037a.mesh	037a.Mtl	037a.Ani		S_HR	037aw			
+辽硬弓兵	038.mesh	038c.Mtl	038c.Ani		038c1	WQ084a弓	038c2	WQ084a箭筒	
+辽勇士	038b.mesh	038b.Mtl	038b.Ani						
+宋军都尉	037a.mesh	037a.Mtl	037a.Ani		S_HR	037aw			
+辽军都尉	038b.mesh	038b.Mtl	038b.Ani						
+辽军将军	072.mesh	072.Mtl	072a.Ani		S_HR	065刀			
+辽军先锋	064a.mesh	064a.Mtl	064a.Ani						
+宋军都统	037.mesh	037d.Mtl	037d.Ani						
+辽军都统	038.mesh	038c.Mtl	038c.Ani		038c1	WQ084a弓	038c2	WQ084a箭筒	
+辽军元帅	064b.mesh	064b.Mtl	064b.Ani		S_HR	064_武器长锤			
+中立武将	018.mesh	018a.Mtl	018a.Ani		018a_1	WQ018a弓	018a_2	WQ018a箭筒	
+宋难民	073.mesh	073a.Mtl	073b.Ani		S_HR	拐杖2			
+辽难民	096.mesh	097a.Mtl	097b.Ani						
+土民首领	018.mesh	018b.Mtl	018a.Ani		018a_1	WQ018a弓	018a_2	WQ018a箭筒	
+土民	084.mesh	084b.Mtl	084b.Ani		084b	双叉01			
+炮台守卫	040.mesh	040c.Mtl	040c.Ani		040c	WQ040c			
+环保土民	084.mesh	084b.Mtl	084b.Ani		084b	双叉01			
+狂暴的土民	084.mesh	084b.Mtl	084b.Ani		084b	双叉01			
+仇恨的土民	084.mesh	084b.Mtl	084b.Ani		084b	双叉01			
+愤怒的土民	084.mesh	084b.Mtl	084b.Ani		084b	双叉01			
+中军火炮	221.mesh	221a.Mtl	221a.Ani						
+宋军火炮	221.mesh	221a.Mtl	221a.Ani						
+辽军火炮	221.mesh	221a.Mtl	221a.Ani						
+土民弓箭手	221.mesh	084a.Mtl	084a.Ani		084a_1	WQ084a弓	084a_2	WQ084a箭筒	
+宋军箭塔	191.mesh	191a.Mtl	191a.Ani						
+辽军箭塔	191.mesh	191a.Mtl	191a.Ani						
+高级粮草垛	190.mesh	190a.Mtl	190a.Ani						
+被解救的宋难民	073.mesh	073a.Mtl	073b.Ani		S_HR	拐杖2			
+被解救的辽难民	096.mesh	097a.Mtl	097b.Ani						
+山贼首领	086.mesh	086b.Mtl	086b.Ani		086a_1	WQ086b	086a_2	WQ086b	
+山贼喽罗	019.mesh	019d.Mtl	019d.Ani		019d	WQ019a			
+难民	040.mesh	040a.Mtl	040a.Ani						
+战场宝箱	113.mesh	113a.Mtl	113a.Ani						
+废弃的火炮	192.mesh	192a.Mtl	192a.Ani						
+活动透明人	128.mesh	128a.Mtl	128a.Ani						
+一捆狼皮	npc_mod185.mesh	npc_mod185.Mtl	a.Ani						
+一捆虎皮	npc_mod186.mesh	npc_mod186.Mtl	a.Ani						
+一捆蛇皮	npc_mod187.mesh	npc_mod187.Mtl	a.Ani						
+一捆狐皮	npc_mod188.mesh	npc_mod188.Mtl	a.Ani						
+一捆白虎之皮	npc_mod189.mesh	npc_mod189.Mtl	a.Ani						
+一捆熊皮	npc_mod190.mesh	npc_mod190.Mtl	a.Ani						
+一捆鸾鸟羽披	npc_mod191.mesh	npc_mod191.Mtl	a.Ani						
+一捆山狮之皮	npc_mod192.mesh	npc_mod192.Mtl	a.Ani						
+一捆朱雀之羽	npc_mod193.mesh	npc_mod193.Mtl	a.Ani						
+一捆灵鳌之皮	npc_mod194.mesh	npc_mod194.Mtl	a.Ani						
+一捆兔毛	npc_mod195.mesh	npc_mod195.Mtl	a.Ani						
+一捆蚕丝	npc_mod196.mesh	npc_mod196.Mtl	a.Ani						
+一捆五色丝	npc_mod197.mesh	npc_mod197.Mtl	a.Ani						
+一捆狼蛛丝	npc_mod198.mesh	npc_mod198.Mtl	a.Ani						
+一捆血蚕丝	npc_mod199.mesh	npc_mod199.Mtl	a.Ani						
+一捆灵蛛丝	npc_mod201.mesh	npc_mod201.Mtl	a.Ani						
+一捆金蚕丝	npc_mod202.mesh	npc_mod202.Mtl	a.Ani						
+一捆冷虫丝	npc_mod203.mesh	npc_mod203.Mtl	a.Ani						
+一捆天蚕丝	npc_mod203.mesh	npc_mod203.Mtl	a.Ani						
+一捆彩云丝	npc_mod205.mesh	npc_mod205.Mtl	a.Ani						
+一堆精铁	npc_mod206.mesh	npc_mod206.Mtl	a.Ani						
+一堆百炼钢	npc_mod206.mesh	npc_mod206.Mtl	a.Ani						
+一堆乌金石	npc_mod206.mesh	npc_mod206.Mtl	a.Ani						
+一堆寒铁	npc_mod207.mesh	npc_mod207.Mtl	a.Ani						
+一堆太白精金	npc_mod207.mesh	npc_mod207.Mtl	a.Ani						
+一堆玄铁	npc_mod208.mesh	npc_mod208.Mtl	a.Ani						
+一堆天青石	npc_mod209.mesh	npc_mod209.Mtl	a.Ani						
+一堆黑钨石	npc_mod207.mesh	npc_mod207.Mtl	a.Ani						
+一堆松木	npc_mod210.mesh	npc_mod210.Mtl	a.Ani						
+一堆杨木	npc_mod210.mesh	npc_mod210.Mtl	a.Ani						
+一堆杉木	npc_mod210.mesh	npc_mod210.Mtl	a.Ani						
+一堆铁木	npc_mod211.mesh	npc_mod211.Mtl	a.Ani						
+一堆梧桐木	npc_mod211.mesh	npc_mod211.Mtl	a.Ani						
+一堆重木	npc_mod211.mesh	npc_mod211.Mtl	a.Ani						
+一堆铁樟木	npc_mod211.mesh	npc_mod211.Mtl	a.Ani						
+一堆铁线木	npc_mod212.mesh	npc_mod212.Mtl	a.Ani						
+一些巴豆	npc_mod213.mesh	npc_mod213.Mtl	a.Ani						
+一些藏红花	npc_mod214.mesh	npc_mod214.Mtl	a.Ani						
+一些桔梗	npc_mod215.mesh	npc_mod215.Mtl	a.Ani						
+一些黄连	npc_mod216.mesh	npc_mod216.Mtl	a.Ani						
+一些蝉蜕	npc_mod217.mesh	npc_mod217.Mtl	a.Ani						
+一些田七	npc_mod218.mesh	npc_mod218.Mtl	a.Ani						
+一些穿山甲	npc_mod219.mesh	npc_mod219.Mtl	a.Ani						
+一些麝香	npc_mod220.mesh	npc_mod220.Mtl	a.Ani						
+一袋光通麻	npc_mod221.mesh	npc_mod221.Mtl	a.Ani						
+一袋倾篱豆	npc_mod221.mesh	npc_mod221.Mtl	a.Ani						
+一袋绕明豆	npc_mod221.mesh	npc_mod221.Mtl	a.Ani						
+一袋融泽谷	npc_mod222.mesh	npc_mod222.Mtl	a.Ani						
+一袋甘蔗	npc_mod222.mesh	npc_mod222.Mtl	a.Ani						
+一袋延精麦	npc_mod223.mesh	npc_mod223.Mtl	a.Ani						
+一袋淳和麦	npc_mod224.mesh	npc_mod224.Mtl	a.Ani						
+一袋游龙粟	npc_mod224.mesh	npc_mod224.Mtl	a.Ani						
+灵符材料	114.mesh	114a.Mtl	114a.Ani						
+仙符材料	114.mesh	114a.Mtl	114a.Ani						
+神符材料	114.mesh	114a.Mtl	114a.Ani						
+烂箱子	113.mesh	113a.Mtl	113a.Ani						
+木箱子	113.mesh	113a.Mtl	113a.Ani						
+集灵	053.mesh	053a.Mtl	053a.Ani						
+挖矿	113.mesh	113a.Mtl	113a.Ani		113a	矿镐			
+杀手堂香主	105.mesh	105a.Mtl	105a.Ani		S_HR	mon_105wa	S_HL	mon_105wa2	
+杀手堂副堂主	085.mesh	085c.Mtl	085c.Ani		S_HR	长剑6b			
+人屠斧鬼虐	217.mesh	217a.Mtl	217a.Ani		S_RH	217aw			
+金牌杀手	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+少林影子护卫	191.mesh	191a.mtl	191a.ani						
+唐门影子护卫	197.mesh	197a.mtl	197a.ani						
+峨嵋影子护卫	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+丐帮影子护卫	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+武当影子护卫	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+杨门影子护卫	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+五毒影子护卫	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+关卡boss1	175.mesh	175b.Mtl	175b.Ani		S_HR	076_剑			
+关卡boss2	061.mesh	061b.Mtl	061b.Ani						
+关卡boss3	069.mesh	069a.Mtl	069a.Ani		S_HR	076_剑			
+关卡boss41	170.mesh	170a.Mtl	170a.Ani		S_HR	076_剑			
+关卡boss42	170.mesh	170b.Mtl	170b.Ani		S_HR	076_剑			
+关卡boss5	097.mesh	097a.Mtl	097a.Ani						
+关卡boss61	054.mesh	054a.Mtl	054a.ani						
+关卡boss62	054.mesh	054b.Mtl	054b.ani						
+关卡2小怪	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+关卡3小怪	039.mesh	039a.Mtl	039a.Ani		039a	WQ039a			
+关卡4小怪	040.mesh	040b.Mtl	040b.Ani		040b	WQ040b			
+关卡5小怪	004.mesh	004a.Mtl	004a.Ani						
+关卡5机关1	001b.mesh	001b.Mtl	001b.Ani						
+关卡5机关2	001b.mesh	001b.Mtl	001b.Ani						
+紫光阁宝箱	113.mesh	113a.Mtl	113a.Ani						
+替补区小怪	039.mesh	039b.Mtl	039b.Ani		039b	WQ039b			
+攻占旗帜红	攻占旗帜红.mesh	攻占旗帜红.Mtl	攻占旗帜红.Ani						
+攻占旗帜蓝	攻占旗帜蓝.mesh	攻占旗帜蓝.Mtl	攻占旗帜蓝.Ani						
+城门大旗	城门大旗.mesh	城门大旗.Mtl	城门大旗.Ani						
+城门机关	城门机关.Mesh	城门机关.Mtl	城门机关.Ani						
+资源宝箱	113.mesh	113a.Mtl	113a.Ani						
+西北壮汉	301.mesh	301.Mtl	301.Ani		 				
+西北烟汉	300.mesh	300.Mtl	300.Ani		S_RH	300w			
+一品堂密使	303.mesh	303b.Mtl	303b.Ani						
+关外高手	302.mesh	302.Mtl	302.Ani		S_RH	302w			
+一品堂暗杀使	303.mesh	303.Mtl	303.Ani		S_RH	303w	S_LH	303w	
+盗墓人	304.mesh	304.Mtl	304.Ani		S_RH	304w			
+西夏武士	305.mesh	305b.Mtl	305.Ani						
+西夏勇士	305.mesh	305.Mtl	305.Ani						
+药人	306.mesh	306.Mtl	306.Ani		 	 			
+树人	058.mesh	058d.Mtl	058a.Ani						
+沙漠行者	307.mesh	307.Mtl	307.Ani		S_RH	307w			
+夺宝人	308.mesh	308.Mtl	308.Ani		S_RH	308wr	S_LH	308wl	
+春十三娘	309.mesh	309.Mtl	309.Ani				S_LH	309w	
+非常道人	310.mesh	310.Mtl	310.Ani		S_RH	310wr	S_LH	310wl	
+古阳兽	312.mesh	312.Mtl	312.Ani						
+虬须客	322.mesh	322.Mtl	322.Ani						
+独臂	313.mesh	313.Mtl	313.Ani						
+残腿	314.mesh	314.Mtl	314.Ani						
+兵马俑领军	315.mesh	315.Mtl	315.Ani		S_RH	315w			
+镇墓兽	317.mesh	317.Mtl	317.Ani						
+镇墓领军	316.mesh	316.Mtl	316.Ani		S_RH	316w			
+西夏法王	318.mesh	318.Mtl	318.Ani		S_RH	318w			
+药人首领	323.mesh	323.Mtl	323.Ani		S_RH	323aw	 	 	
+独行老驼	319.mesh	319.Mtl	319.Ani		S_RH	319wr			
+五行使金	320.mesh	320.Mtl	320.Ani		S_RH	320aw			
+五行使木	320.mesh	320b.Mtl	320.Ani		S_RH	320wb			
+五行使水	320.mesh	320c.Mtl	320.Ani		S_RH	320wc			
+五行使火	320.mesh	320d.Mtl	320.Ani		S_RH	320wd			
+五行使土	320.mesh	320e.Mtl	320.Ani		S_RH	320we			
+沙漠幻象(血魔人)	311.mesh	311b.Mtl	311.Ani						
+沙漠幻象(鬼将军)	095.mesh	095b.Mtl	095a.Ani						
+沙漠幻象(镇墓将军)	316.mesh	316b.Mtl	316.Ani		S_RH	316wb			
+沙漠幻象(兵马俑将军)	315.mesh	315b.Mtl	315.Ani		S_RH	315wb			
+沙漠幻象(古阳兽)	317.mesh	317b.Mtl	317.Ani						
+幻象原形	321.mesh	321.Mtl	321.Ani						
+血魔人	311.mesh	311.Mtl	311.Ani						
+爪王	103.mesh	103a.Mtl	103a.Ani						
+药人草	324.mesh	324.Mtl	324.Ani						
+秦不智	176.mesh	176.Mtl	176.Ani						
+陈不为	177.mesh	177.Mtl	177.Ani						
+马不前	178.mesh	178.Mtl	178.Ani						
+王不凡	179.mesh	179.Mtl	179.Ani						
+昆仑男弟子	180.mesh	180.Mtl	180.Ani						
+烈阳根灰	325.mesh	325.Mtl	325.Ani						
+烈阳根黄	325.mesh	325b.Mtl	325.Ani						
+烈阳根红	325.mesh	325c.Mtl	325.Ani						
+袁飞云	326.mesh	326.Mtl	326.Ani						
+骷髅王	068.mesh	068a.Mtl	068a.Ani						
+怨魂之王	080a.mesh	080a.Mtl	080a.Ani						
+药室看守人	306.mesh	306.Mtl	306b.Ani						
+五行阵使	110.mesh	110.Mtl	110.Ani						
+守墓人	083.mesh	083d.Mtl	083d.Ani						
+守墓将军	316.mesh	316.Mtl	316c.Ani		S_RH	316w			
+周不惑	087b.mesh	087b.Mtl	087b.Ani						
+西北鬼将军	095.mesh	095a.Mtl	095a.Ani						
+玫瑰花蓝	155.mesh	155d.Mtl	155a.Ani						
+玫瑰花紫	155.mesh	155e.Mtl	155a.Ani						
+回风寨杂兵	039.mesh	039a.Mtl	039a.Ani		039a	WQ039a			
+回风寨精英	019.mesh	019a.Mtl	019a.Ani		019a	WQ019a			
+回风寨队长	175.mesh	175a.Mtl	175a.Ani		S_HR	175aw			
+马厩守卫	175.mesh	175a.Mtl	175a.Ani		S_HR	175aw			
+矿山守卫	175.mesh	175a.Mtl	175a.Ani		S_HR	175aw			
+粮仓守卫	175.mesh	175a.Mtl	175a.Ani		S_HR	175aw			
+伐木场守卫	175.mesh	175a.Mtl	175a.Ani		S_HR	175aw			
+回风寨统领	065.mesh	065a.Mtl	065a.Ani		S_HR	065刀			
+古阳兽关卡1	312.mesh	312.Mtl	312.Ani						
+裂岩螭龙关卡	048.mesh	048c.Mtl	048a.Ani						
+赤炼火狐关卡	049.mesh	049c.Mtl	049a.Ani						
+暗日使关卡	030.mesh	030a.Mtl	030a.Ani		030a	WQ030a			
+明月使关卡	030.mesh	030b.Mtl	030b.Ani		030b	圣火令01			
+血魔人关卡	311.mesh	311.Mtl	311.Ani						
+镇墓兽关卡	317.mesh	317.Mtl	317.Ani						
+守柱统领	315.mesh	315.Mtl	315.Ani		S_RH	315w			
+镇墓柱	182.mesh	182.Mtl	182.Ani						
+鬼将军关卡	095.mesh	095a.Mtl	095a.Ani						
+烛台大	181a.mesh	181a.Mtl	181a.Ani 						
+烛台中	181a.mesh	181a.Mtl	181a.Ani 						
+烛台小	181a.mesh	181a.Mtl	181a.Ani 						
+烛台	181b.mesh	181b.Mtl	181a.Ani 						
+东北镇墓将军	316.mesh	316.Mtl	316.Ani		S_RH	316w			
+东南镇墓将军	316.mesh	316.Mtl	316.Ani		S_RH	316w			
+西北镇墓将军	316.mesh	316.Mtl	316.Ani		S_RH	316w			
+西南镇墓将军	316.mesh	316.Mtl	316.Ani		S_RH	316w			
+鬼随从	095.mesh	095a.Mtl	095a.Ani						
+鬼傀儡	095.mesh	095a.Mtl	095a.Ani						
+鬼侍从	095.mesh	095a.Mtl	095a.Ani						
+鬼仆人	095.mesh	095a.Mtl	095a.Ani						
+药王关卡	106.mesh	106a.Mtl	106a.Ani						
+药人王关卡	306.mesh	306.Mtl	306.Ani						
+五行金使关卡	320.mesh	320.Mtl	320.Ani		S_RH	320aw			
+五行木使关卡	320.mesh	320b.Mtl	320.Ani		S_RH	320wb			
+五行水使关卡	320.mesh	320c.Mtl	320.Ani		S_RH	320wc			
+五行火使关卡	320.mesh	320d.Mtl	320.Ani		S_RH	320wd			
+五行土使关卡	320.mesh	320e.Mtl	320.Ani		S_RH	320we			
+金旗使	320.mesh	320.Mtl	320.Ani		S_RH	320aw			
+木旗使	320.mesh	320b.Mtl	320.Ani		S_RH	320wb			
+水旗使	320.mesh	320c.Mtl	320.Ani		S_RH	320wc			
+火旗使	320.mesh	320d.Mtl	320.Ani		S_RH	320wd			
+土旗使	320.mesh	320e.Mtl	320.Ani		S_RH	320we			
+沙漠幻象关卡1	321.mesh	321.Mtl	321.Ani						
+沙漠幻象关卡2	321.mesh	321.Mtl	321.Ani						
+沙漠宝箱	113.mesh	113a.Mtl	113a.Ani						
+寻宝人关卡	308.mesh	308.Mtl	308.Ani		S_RH	308wr	S_LH	308wl	
+血魔人幻象	311.mesh	311b.Mtl	311.Ani						
+鬼将军幻象	095.mesh	095b.Mtl	095a.Ani						
+镇墓将军幻象	316.mesh	316b.Mtl	316.Ani		S_RH	316wb			
+兵马俑统领幻象	315.mesh	315b.Mtl	315.Ani		S_RH	315wb			
+镇墓兽幻象	317.mesh	317b.Mtl	317.Ani						
+李元庆	327.mesh	327.Mtl	327.Ani		S_RH	327w			
+男狐妖	328.mesh	328.Mtl	328.Ani		S_HR	328w			
+女狐仙	329.mesh	329.Mtl	329.Ani		S_HR	329w			
+大考官兔总管	181.mesh	181.Mtl	181.Ani				S_HL	181w	
+豪华甄子丹	126b.mesh	126b.Mtl	126b.Ani				S_LH	126aw	
+师门秘室少林俗家守卫1	190.mesh	190.Mtl	190c.Ani		S_HR	单刀7a			
+师门秘室少林俗家守卫2	190.mesh	190.Mtl	190c.Ani		S_HR	单刀7a			
+师门秘室少林俗家守卫3	190.mesh	190.Mtl	190c.Ani		S_HR	单刀7a			
+师门秘室少林俗家守卫4	190.mesh	190.Mtl	190c.Ani		S_HR	单刀7a			
+师门秘室少林俗家守卫5	190.mesh	190.Mtl	190c.Ani		S_HR	单刀7a			
+师门秘室少林俗家守卫6	190.mesh	190.Mtl	190c.Ani		S_HR	单刀7a			
+师门秘室少林俗家守卫7	190.mesh	190.Mtl	190c.Ani		S_HR	单刀7a			
+师门秘室少林俗家守卫8	190.mesh	190.Mtl	190c.Ani		S_HR	单刀7a			
+师门秘室少林俗家守卫9	190.mesh	190.Mtl	190c.Ani		S_HR	单刀7a			
+师门秘室少林俗家高手1	191.mesh	191a.mtl	191a.ani						
+师门秘室少林俗家高手2	191.mesh	191a.mtl	191a.ani						
+师门秘室少林俗家高手3	191.mesh	191a.mtl	191a.ani						
+师门秘室少林俗家高手4	191.mesh	191a.mtl	191a.ani						
+师门秘室少林俗家高手5	191.mesh	191a.mtl	191a.ani						
+师门秘室少林俗家高手6	191.mesh	191a.mtl	191a.ani						
+师门秘室少林俗家高手7	191.mesh	191a.mtl	191a.ani						
+师门秘室少林俗家高手8	191.mesh	191a.mtl	191a.ani						
+师门秘室少林俗家高手9	191.mesh	191a.mtl	191a.ani						
+师门秘室少林禅宗守卫1	190.mesh	190.Mtl	190b.Ani		S_HR	锡杖7a			
+师门秘室少林禅宗守卫2	190.mesh	190.Mtl	190b.Ani		S_HR	锡杖7a			
+师门秘室少林禅宗守卫3	190.mesh	190.Mtl	190b.Ani		S_HR	锡杖7a			
+师门秘室少林禅宗守卫4	190.mesh	190.Mtl	190b.Ani		S_HR	锡杖7a			
+师门秘室少林禅宗守卫5	190.mesh	190.Mtl	190b.Ani		S_HR	锡杖7a			
+师门秘室少林禅宗守卫6	190.mesh	190.Mtl	190b.Ani		S_HR	锡杖7a			
+师门秘室少林禅宗守卫7	190.mesh	190.Mtl	190b.Ani		S_HR	锡杖7a			
+师门秘室少林禅宗守卫8	190.mesh	190.Mtl	190b.Ani		S_HR	锡杖7a			
+师门秘室少林禅宗守卫9	190.mesh	190.Mtl	190b.Ani		S_HR	锡杖7a			
+师门秘室少林禅宗高手1	191.mesh	191a.mtl	191a.ani						
+师门秘室少林禅宗高手2	191.mesh	191a.mtl	191a.ani						
+师门秘室少林禅宗高手3	191.mesh	191a.mtl	191a.ani						
+师门秘室少林禅宗高手4	191.mesh	191a.mtl	191a.ani						
+师门秘室少林禅宗高手5	191.mesh	191a.mtl	191a.ani						
+师门秘室少林禅宗高手6	191.mesh	191a.mtl	191a.ani						
+师门秘室少林禅宗高手7	191.mesh	191a.mtl	191a.ani						
+师门秘室少林禅宗高手8	191.mesh	191a.mtl	191a.ani						
+师门秘室少林禅宗高手9	191.mesh	191a.mtl	191a.ani						
+师门秘室少林武僧守卫1	190.mesh	190.Mtl	190a.Ani						
+师门秘室少林武僧守卫2	190.mesh	190.Mtl	190a.Ani						
+师门秘室少林武僧守卫3	190.mesh	190.Mtl	190a.Ani						
+师门秘室少林武僧守卫4	190.mesh	190.Mtl	190a.Ani						
+师门秘室少林武僧守卫5	190.mesh	190.Mtl	190a.Ani						
+师门秘室少林武僧守卫6	190.mesh	190.Mtl	190a.Ani						
+师门秘室少林武僧守卫7	190.mesh	190.Mtl	190a.Ani						
+师门秘室少林武僧守卫8	190.mesh	190.Mtl	190a.Ani						
+师门秘室少林武僧守卫9	190.mesh	190.Mtl	190a.Ani						
+师门秘室少林武僧高手1	191.mesh	191a.mtl	191a.ani						
+师门秘室少林武僧高手2	191.mesh	191a.mtl	191a.ani						
+师门秘室少林武僧高手3	191.mesh	191a.mtl	191a.ani						
+师门秘室少林武僧高手4	191.mesh	191a.mtl	191a.ani						
+师门秘室少林武僧高手5	191.mesh	191a.mtl	191a.ani						
+师门秘室少林武僧高手6	191.mesh	191a.mtl	191a.ani						
+师门秘室少林武僧高手7	191.mesh	191a.mtl	191a.ani						
+师门秘室少林武僧高手8	191.mesh	191a.mtl	191a.ani						
+师门秘室少林武僧高手9	191.mesh	191a.mtl	191a.ani						
+师门秘室唐门守卫1	196.mesh	196.Mtl	196.Ani						
+师门秘室唐门守卫2	196.mesh	196.Mtl	196.Ani						
+师门秘室唐门守卫3	196.mesh	196.Mtl	196.Ani						
+师门秘室唐门守卫4	196.mesh	196.Mtl	196.Ani						
+师门秘室唐门守卫5	196.mesh	196.Mtl	196.Ani						
+师门秘室唐门守卫6	196.mesh	196.Mtl	196.Ani						
+师门秘室唐门守卫7	196.mesh	196.Mtl	196.Ani						
+师门秘室唐门守卫8	196.mesh	196.Mtl	196.Ani						
+师门秘室唐门守卫9	196.mesh	196.Mtl	196.Ani						
+师门秘室唐门高手1	197.mesh	197a.mtl	197a.ani						
+师门秘室唐门高手2	197.mesh	197a.mtl	197a.ani						
+师门秘室唐门高手3	197.mesh	197a.mtl	197a.ani						
+师门秘室唐门高手4	197.mesh	197a.mtl	197a.ani						
+师门秘室唐门高手5	197.mesh	197a.mtl	197a.ani						
+师门秘室唐门高手6	197.mesh	197a.mtl	197a.ani						
+师门秘室唐门高手7	197.mesh	197a.mtl	197a.ani						
+师门秘室唐门高手8	197.mesh	197a.mtl	197a.ani						
+师门秘室唐门高手9	197.mesh	197a.mtl	197a.ani						
+师门秘室峨嵋佛家守卫1	202.mesh	202.mtl	202a.ani		S_HR	长剑7a			
+师门秘室峨嵋佛家守卫2	202.mesh	202.mtl	202a.ani		S_HR	长剑7a			
+师门秘室峨嵋佛家守卫3	202.mesh	202.mtl	202a.ani		S_HR	长剑7a			
+师门秘室峨嵋佛家守卫4	202.mesh	202.mtl	202a.ani		S_HR	长剑7a			
+师门秘室峨嵋佛家守卫5	202.mesh	202.mtl	202a.ani		S_HR	长剑7a			
+师门秘室峨嵋佛家守卫6	202.mesh	202.mtl	202a.ani		S_HR	长剑7a			
+师门秘室峨嵋佛家守卫7	202.mesh	202.mtl	202a.ani		S_HR	长剑7a			
+师门秘室峨嵋佛家守卫8	202.mesh	202.mtl	202a.ani		S_HR	长剑7a			
+师门秘室峨嵋佛家守卫9	202.mesh	202.mtl	202a.ani		S_HR	长剑7a			
+师门秘室峨嵋佛家高手1	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋佛家高手2	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋佛家高手3	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋佛家高手4	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋佛家高手5	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋佛家高手6	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋佛家高手7	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋佛家高手8	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋佛家高手9	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋俗家守卫1	202.mesh	202.mtl	202b.ani		S_HR	琴7a			
+师门秘室峨嵋俗家守卫2	202.mesh	202.mtl	202b.ani		S_HR	琴7a			
+师门秘室峨嵋俗家守卫3	202.mesh	202.mtl	202b.ani		S_HR	琴7a			
+师门秘室峨嵋俗家守卫4	202.mesh	202.mtl	202b.ani		S_HR	琴7a			
+师门秘室峨嵋俗家守卫5	202.mesh	202.mtl	202b.ani		S_HR	琴7a			
+师门秘室峨嵋俗家守卫6	202.mesh	202.mtl	202b.ani		S_HR	琴7a			
+师门秘室峨嵋俗家守卫7	202.mesh	202.mtl	202b.ani		S_HR	琴7a			
+师门秘室峨嵋俗家守卫8	202.mesh	202.mtl	202b.ani		S_HR	琴7a			
+师门秘室峨嵋俗家守卫9	202.mesh	202.mtl	202b.ani		S_HR	琴7a			
+师门秘室峨嵋俗家高手1	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋俗家高手2	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋俗家高手3	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋俗家高手4	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋俗家高手5	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋俗家高手6	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋俗家高手7	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋俗家高手8	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室峨嵋俗家高手9	204.mesh	204a.mtl	204a.ani		S_HR	长剑8a			
+师门秘室丐帮净衣守卫1	199.mesh	199.Mtl	199a.Ani						
+师门秘室丐帮净衣守卫2	199.mesh	199.Mtl	199a.Ani						
+师门秘室丐帮净衣守卫3	199.mesh	199.Mtl	199a.Ani						
+师门秘室丐帮净衣守卫4	199.mesh	199.Mtl	199a.Ani						
+师门秘室丐帮净衣守卫5	199.mesh	199.Mtl	199a.Ani						
+师门秘室丐帮净衣守卫6	199.mesh	199.Mtl	199a.Ani						
+师门秘室丐帮净衣守卫7	199.mesh	199.Mtl	199a.Ani						
+师门秘室丐帮净衣守卫8	199.mesh	199.Mtl	199a.Ani						
+师门秘室丐帮净衣守卫9	199.mesh	199.Mtl	199a.Ani						
+师门秘室丐帮净衣高手1	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮净衣高手2	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮净衣高手3	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮净衣高手4	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮净衣高手5	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮净衣高手6	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮净衣高手7	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮净衣高手8	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮净衣高手9	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮污衣守卫1	199.mesh	199.Mtl	199.Ani		S_HR	棍5a			
+师门秘室丐帮污衣守卫2	199.mesh	199.Mtl	199.Ani		S_HR	棍5a			
+师门秘室丐帮污衣守卫3	199.mesh	199.Mtl	199.Ani		S_HR	棍5a			
+师门秘室丐帮污衣守卫4	199.mesh	199.Mtl	199.Ani		S_HR	棍5a			
+师门秘室丐帮污衣守卫5	199.mesh	199.Mtl	199.Ani		S_HR	棍5a			
+师门秘室丐帮污衣守卫6	199.mesh	199.Mtl	199.Ani		S_HR	棍5a			
+师门秘室丐帮污衣守卫7	199.mesh	199.Mtl	199.Ani		S_HR	棍5a			
+师门秘室丐帮污衣守卫8	199.mesh	199.Mtl	199.Ani		S_HR	棍5a			
+师门秘室丐帮污衣守卫9	199.mesh	199.Mtl	199.Ani		S_HR	棍5a			
+师门秘室丐帮污衣高手1	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮污衣高手2	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮污衣高手3	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮污衣高手4	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮污衣高手5	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮污衣高手6	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮污衣高手7	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮污衣高手8	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室丐帮污衣高手9	200.mesh	200a.mtl	200a.ani		S_HR	棍8a			
+师门秘室武当道家守卫1	193.mesh	193.Mtl	193.Ani		S_HR	长剑7a			
+师门秘室武当道家守卫2	193.mesh	193.Mtl	193.Ani		S_HR	长剑7a			
+师门秘室武当道家守卫3	193.mesh	193.Mtl	193.Ani		S_HR	长剑7a			
+师门秘室武当道家守卫4	193.mesh	193.Mtl	193.Ani		S_HR	长剑7a			
+师门秘室武当道家守卫5	193.mesh	193.Mtl	193.Ani		S_HR	长剑7a			
+师门秘室武当道家守卫6	193.mesh	193.Mtl	193.Ani		S_HR	长剑7a			
+师门秘室武当道家守卫7	193.mesh	193.Mtl	193.Ani		S_HR	长剑7a			
+师门秘室武当道家守卫8	193.mesh	193.Mtl	193.Ani		S_HR	长剑7a			
+师门秘室武当道家守卫9	193.mesh	193.Mtl	193.Ani		S_HR	长剑7a			
+师门秘室武当道家高手1	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当道家高手2	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当道家高手3	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当道家高手4	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当道家高手5	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当道家高手6	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当道家高手7	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当道家高手8	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当道家高手9	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当俗家守卫1	193.mesh	193.Mtl	193b.Ani		S_HR	笔6b			
+师门秘室武当俗家守卫2	193.mesh	193.Mtl	193b.Ani		S_HR	笔6b			
+师门秘室武当俗家守卫3	193.mesh	193.Mtl	193b.Ani		S_HR	笔6b			
+师门秘室武当俗家守卫4	193.mesh	193.Mtl	193b.Ani		S_HR	笔6b			
+师门秘室武当俗家守卫5	193.mesh	193.Mtl	193b.Ani		S_HR	笔6b			
+师门秘室武当俗家守卫6	193.mesh	193.Mtl	193b.Ani		S_HR	笔6b			
+师门秘室武当俗家守卫7	193.mesh	193.Mtl	193b.Ani		S_HR	笔6b			
+师门秘室武当俗家守卫8	193.mesh	193.Mtl	193b.Ani		S_HR	笔6b			
+师门秘室武当俗家守卫9	193.mesh	193.Mtl	193b.Ani		S_HR	笔6b			
+师门秘室武当俗家高手1	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当俗家高手2	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当俗家高手3	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当俗家高手4	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当俗家高手5	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当俗家高手6	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当俗家高手7	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当俗家高手8	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室武当俗家高手9	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+师门秘室杨门枪骑守卫1	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑守卫2	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑守卫3	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑守卫4	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑守卫5	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑守卫6	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑守卫7	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑守卫8	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑守卫9	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑高手1	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑高手2	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑高手3	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑高手4	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑高手5	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑高手6	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑高手7	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑高手8	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门枪骑高手9	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门弓骑守卫1	206.mesh	206.Mtl	206.Ani				S_HL	弓7a	
+师门秘室杨门弓骑守卫2	206.mesh	206.Mtl	206.Ani				S_HL	弓7a	
+师门秘室杨门弓骑守卫3	206.mesh	206.Mtl	206.Ani				S_HL	弓7a	
+师门秘室杨门弓骑守卫4	206.mesh	206.Mtl	206.Ani				S_HL	弓7a	
+师门秘室杨门弓骑守卫5	206.mesh	206.Mtl	206.Ani				S_HL	弓7a	
+师门秘室杨门弓骑守卫6	206.mesh	206.Mtl	206.Ani				S_HL	弓7a	
+师门秘室杨门弓骑守卫7	206.mesh	206.Mtl	206.Ani				S_HL	弓7a	
+师门秘室杨门弓骑守卫8	206.mesh	206.Mtl	206.Ani				S_HL	弓7a	
+师门秘室杨门弓骑守卫9	206.mesh	206.Mtl	206.Ani				S_HL	弓7a	
+师门秘室杨门弓骑高手1	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门弓骑高手2	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门弓骑高手3	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门弓骑高手4	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门弓骑高手5	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门弓骑高手6	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门弓骑高手7	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门弓骑高手8	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室杨门弓骑高手9	205a.mesh	205aa.mtl	205aa.ani		S_HR	枪8a			
+师门秘室五毒邪侠守卫1	208.mesh	208.Mtl	208b.Ani		S_HR	双刀7b	S_HL	双刀7b	
+师门秘室五毒邪侠守卫2	208.mesh	208.Mtl	208b.Ani		S_HR	双刀7b	S_HL	双刀7b	
+师门秘室五毒邪侠守卫3	208.mesh	208.Mtl	208b.Ani		S_HR	双刀7b	S_HL	双刀7b	
+师门秘室五毒邪侠守卫4	208.mesh	208.Mtl	208b.Ani		S_HR	双刀7b	S_HL	双刀7b	
+师门秘室五毒邪侠守卫5	208.mesh	208.Mtl	208b.Ani		S_HR	双刀7b	S_HL	双刀7b	
+师门秘室五毒邪侠守卫6	208.mesh	208.Mtl	208b.Ani		S_HR	双刀7b	S_HL	双刀7b	
+师门秘室五毒邪侠守卫7	208.mesh	208.Mtl	208b.Ani		S_HR	双刀7b	S_HL	双刀7b	
+师门秘室五毒邪侠守卫8	208.mesh	208.Mtl	208b.Ani		S_HR	双刀7b	S_HL	双刀7b	
+师门秘室五毒邪侠守卫9	208.mesh	208.Mtl	208b.Ani		S_HR	双刀7b	S_HL	双刀7b	
+师门秘室五毒邪侠高手1	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒邪侠高手2	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒邪侠高手3	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒邪侠高手4	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒邪侠高手5	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒邪侠高手6	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒邪侠高手7	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒邪侠高手8	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒邪侠高手9	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师守卫1	208.mesh	208.Mtl	208b.Ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师守卫2	208.mesh	208.Mtl	208b.Ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师守卫3	208.mesh	208.Mtl	208b.Ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师守卫4	208.mesh	208.Mtl	208b.Ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师守卫5	208.mesh	208.Mtl	208b.Ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师守卫6	208.mesh	208.Mtl	208b.Ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师守卫7	208.mesh	208.Mtl	208b.Ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师守卫8	208.mesh	208.Mtl	208b.Ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师守卫9	208.mesh	208.Mtl	208b.Ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师高手1	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师高手2	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师高手3	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师高手4	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师高手5	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师高手6	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师高手7	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师高手8	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+师门秘室五毒蛊师高手9	209.mesh	209a.mtl	209a.ani		S_HR	双刀8a	S_HL	双刀8a	
+龙门酒席大	168.mesh	168a.Mtl	168a.Ani						
+龙门酒席小	168.mesh	168a.Mtl	168a.Ani						
+圣火台	201.mesh	201.Mtl	200.Ani						
+火炬台	200.mesh	200.Mtl	200.Ani						
+盛世火炬台	202.mesh	202.Mtl	200.Ani						
+中心灯笼	zhongqiudeng.mesh	zhongqiudeng.Mtl	zhongqiudeng.Ani						
+幸运灯笼	zhongqiudeng.mesh	zhongqiudeng.Mtl	zhongqiudeng.Ani						
+飞燕仙子	077.mesh	077f.Mtl	077f.Ani		S_HR	伞			
+带蜡烛烛台小	181a.mesh	181a.Mtl	181a.Ani 						
+无蜡烛烛台	181b.mesh	181b.Mtl	181a.Ani 						
+新玫瑰花小	182a.mesh	182a.Mtl	182.Ani						
+新玫瑰花大	182b.mesh	182b.Mtl	182.Ani						
+貂4	mon_mod220.Mesh	220b.Mtl	233.Ani						
+紫貂	mon_mod220.Mesh	220a.Mtl	235.Ani						
+灰貂	mon_mod220.Mesh	220b.Mtl	235.Ani						
+金貂	mon_mod220.Mesh	220c.Mtl	235.Ani						
+红貂	mon_mod220.Mesh	220d.Mtl	235.Ani						
+白貂	mon_mod220.Mesh	220e.Mtl	235.Ani						
+七彩貂	mon_mod220.Mesh	220f.Mtl	235.Ani						
+紫短尾貂	mon_mod221.Mesh	221a.Mtl	235.Ani						
+灰短尾貂	mon_mod221.Mesh	221b.Mtl	235.Ani						
+金短尾貂	mon_mod221.Mesh	221c.Mtl	235.Ani						
+红短尾貂	mon_mod221.Mesh	221d.Mtl	235.Ani						
+白短尾貂	mon_mod221.Mesh	221e.Mtl	235.Ani						
+七彩短尾貂	mon_mod221.Mesh	221f.Mtl	235.Ani						
+紫闪电貂	mon_mod222.Mesh	222a.Mtl	235.Ani						
+灰闪电貂	mon_mod222.Mesh	222b.Mtl	235.Ani						
+金闪电貂	mon_mod222.Mesh	222c.Mtl	235.Ani						
+红闪电貂	mon_mod222.Mesh	222d.Mtl	235.Ani						
+白闪电貂	mon_mod222.Mesh	222e.Mtl	235.Ani						
+七彩闪电貂	mon_mod222.Mesh	222f.Mtl	235.Ani						
+紫仙貂	mon_mod223.Mesh	223a.Mtl	235.Ani						
+灰仙貂	mon_mod223.Mesh	223b.Mtl	235.Ani						
+金仙貂	mon_mod223.Mesh	223c.Mtl	235.Ani						
+红仙貂	mon_mod223.Mesh	223d.Mtl	235.Ani						
+白仙貂	mon_mod223.Mesh	223e.Mtl	235.Ani						
+七彩仙貂	mon_mod223.Mesh	223f.Mtl	235.Ani						
+桃花树	236.Mesh	236.Mtl	236.Ani						
+柴凰儿	237.Mesh	237.Mtl	237.Ani						
+周子雯	238.Mesh	238.Mtl	238.Ani						
+胡曼成	239.Mesh	239.Mtl	239.Ani						
+刘青眉	240.Mesh	240.Mtl	240.Ani						
+何谐	241.Mesh	241.Mtl	241.Ani						
+巧巧	242.Mesh	242.Mtl	242.Ani						
+柴风儿	243.Mesh	243.Mtl	243.Ani						
+天元法阵石柱	244.Mesh	244.Mtl	244.Ani						
+司行方	245.Mesh	245.Mtl	245.Ani						
+邓元觉	246.Mesh	246.Mtl	246.Ani						
+师门秘室昆仑守卫	334.Mesh	334.Mtl	334.Ani		S_HR	长剑7a			
+师门秘室昆仑高手	331.Mesh	331.Mtl	331.Ani		S_HR	长剑7a			
+师门秘室明教圣战守卫	339.Mesh	339.Mtl	339.Ani		S_HR	单刀7a			
+师门秘室明教圣战高手	340.Mesh	340.Mtl	340.Ani						
+师门秘室明教阵兵守卫	335.Mesh	335.Mtl	335.Ani		S_HR	笔8a			
+师门秘室明教阵兵高手	336.Mesh	336.Mtl	336.Ani		S_HR	笔8a			
+师门秘室明教血人守卫	337.Mesh	337.Mtl	337.Ani		S_HL	爪8a	S_HR	爪8a	
+师门秘室明教血人高手	338.Mesh	338.Mtl	338.Ani		S_HL	爪8a	S_HR	爪8a	
+翠烟师门杂兵1	332.Mesh	332.Mtl	332.Ani		S_HR	笛10b			
+金阵旗	330.Mesh	330.Mtl	330.Ani						
+木阵旗	330.Mesh	330b.Mtl	330.Ani						
+水阵旗	330.Mesh	330c.Mtl	330.Ani						
+火阵旗	330.Mesh	330d.Mtl	330.Ani						
+土阵旗	330.Mesh	330e.Mtl	330.Ani						
+南宫晚晚	341.Mesh	341.Mtl	341.Ani		S_HR	长剑8a	S_HL	长剑8a	
+南宫紫娟	342.Mesh	342.Mtl	342.Ani		S_HR	长剑8a			
+七色童子	076.mesh	076c.Mtl	076c.Ani		S_HR	076_剑			
+山熊	009.mesh	009a.Mtl	009a.Ani						
+雪猿	441.mesh	441.Mtl	441.Ani						
+九霞散人	442.mesh	442.Mtl	442.Ani		S_HR	076_剑			
+义侠耿云飞	444.mesh	444.Mtl	444.Ani		021a	鬼头刀01			
+礼侠辛清冉	067.mesh	067a.Mtl	067a.Ani		S_HR	067枪			
+智侠百晓生	087.mesh	087a.Mtl	087a.Ani						
+信侠梁尚玉	032.mesh	032b.Mtl	032b.Ani		032b	WQ032b			
+黄龙客	175.mesh	175a.Mtl	175a.Ani		S_HR	175aw			
+威天虫王	051.mesh	051c.Mtl	051c.Ani						
+圣天蛇王	053.mesh	053b.Mtl	053b.Ani						
+煞天猪王	070.mesh	070.Mtl	070.Ani		S_HR	064_武器长锤			
+昆仑剑客	085.mesh	085c.Mtl	085c.Ani		S_HR	长剑7a			
+水神祭祀	061.mesh	061a.Mtl	061a.Ani						
+火神祭祀	061.mesh	061b.Mtl	061b.Ani						
+无常侍从	134.mesh	134a.Mtl	134a.Ani		S_HR	134aw			
+通天妖道吴越老祖	093.mesh	093a.Mtl	093a.Ani						
+无常书匣	drop_mod019.Mesh	drop_mod019.Mtl	drop.Ani						
+武器架	343.Mesh	343.Mtl	343.Ani						
+盾牌架	344.Mesh	344.Mtl	344.Ani						
+绿树叶	345.Mesh	345.Mtl	345.Ani						
+飞鞋	346.Mesh	346.Mtl	346.Ani						
+旗杆1	347.Mesh	347.Mtl	347.Ani						
+旗杆2	347.Mesh	347.Mtl	347.Ani						
+旗杆3	347.Mesh	347.Mtl	347.Ani						
+旗杆4	347.Mesh	347.Mtl	357.Ani						
+紫色生门	348a.mesh	348a1.Mtl	348.Ani						
+蓝色生门	348a.mesh	348a2.Mtl	348.Ani						
+紫色死门	348b.mesh	348b1.Mtl	348.Ani						
+蓝色死门	348b.mesh	348b2.Mtl	348.Ani						
+紫色景门	348c.mesh	348c1.Mtl	348.Ani						
+蓝色景门	348c.mesh	348c2.Mtl	348.Ani						
+紫色灭门	348d.mesh	348d1.Mtl	348.Ani						
+蓝色灭门	348d.mesh	348d2.Mtl	348.Ani						
+紫色阵旗	349a.Mesh	349a.Mtl	349.Ani						
+蓝色阵旗	349b.Mesh	349b.Mtl	349.Ani						
+紫色败旗	349a.Mesh	349a1.Mtl	349.Ani						
+蓝色败旗	349b.Mesh	349b1.Mtl	349.Ani						
+大木人	096.mesh	096a.Mtl	096a.Ani						
+楚风	350.mesh	350.Mtl	350.Ani		S_HR	长剑8a			
+耶律保图	064b.mesh	064b.Mtl	064b.Ani		S_HR	064_武器长锤			
+峨嵋小师姐	351.mesh	351.mtl	351a.ani		S_HR	长剑7a			
+杨文超	352.mesh	352.Mtl	352.Ani		S_HR	长剑8a			
+莫惊风	445.mesh	445.Mtl	445.Ani		S_HR	076_剑			
+华南幼崽	008.mesh	008a.Mtl	008a.Ani						
+巨型雪猿	441.mesh	441.Mtl	441.Ani						
+彩霞羽	npc_mod191.mesh	npc_mod191.Mtl	a.Ani						
+灵鳌石	npc_mod194.mesh	npc_mod194.Mtl	a.Ani						
+仙人菜	npc_mod213.mesh	npc_mod213.Mtl	a.Ani						
+妖灵水晶	npc_mod209.mesh	npc_mod209.Mtl	a.Ani						
+昆仑石	npc_mod206.mesh	npc_mod206.Mtl	a.Ani						
+昆仑玉	npc_mod207.mesh	npc_mod207.Mtl	a.Ani						
+及时雨宋江	069.mesh	069a.Mtl	069a.Ani		S_HR	076_剑			
+智多星吴用	087.mesh	087a.Mtl	087a.Ani						
+九纹龙史进	175.mesh	175b.Mtl	175b.Ani		S_HR	175bw			
+小旋风柴进	087.mesh	087b.Mtl	087b.Ani		087b	宝剑01			
+醉半仙风一帆	448.mesh	448.Mtl	448.Ani		S_HR	076_剑			
+大刀关胜	063.mesh	063a.Mtl	063a.Ani		S_HR	mon_063w			
+双鞭呼延灼	072.mesh	072.Mtl	072.Ani						
+豹子头林冲	063.mesh	063a.Mtl	063a.Ani		S_HR	mon_063w			
+花和尚鲁智深	028.mesh	028a.Mtl	028a.Ani		S_HR	mon_028aw			
+病关索杨雄	136.mesh	136a.Mtl	136a.Ani		S_HR	136aw			
+拚命三郎石秀	023.mesh	023b.Mtl	023b.Ani		023b	WQ083g			
+一丈青扈三娘	076.mesh	076a.Mtl	076a.Ani		S_HR	076_剑			
+双枪将董平	067.mesh	067a.Mtl	067a.Ani		S_HR	067枪			
+青面兽杨志	065.mesh	065a.Mtl	065a.Ani		S_HR	065刀			
+霹雳火秦明	064b.mesh	064b.Mtl	064b.Ani						
+神行太保戴宗	134.mesh	134a.Mtl	134a.Ani		S_HR	134aw			
+母夜叉孙二娘	309.mesh	309.Mtl	309.Ani				S_LH	309w	
+张青	303.mesh	303b.Mtl	303b.Ani						
+尸王	321.mesh	321.Mtl	321.Ani						
+小鸡	009.mesh	009a.Mtl	009a.Ani						
+小鸭	011.mesh	011c.Mtl	011a.Ani						
+小鹅	017.mesh	cri_017.Mtl	017.Ani						
+小羊	008.mesh	008a.Mtl	008.Ani						
+水浒道具	129.mesh	129.Mtl	030.Ani						
+水浒开关	001.mesh	001a.Mtl	001a.Ani						
+吴仁迪	138.mesh	138a.Mtl	138a.Ani						
+小龙	long.Mesh	long.Mtl	long.Ani						
+小凤	fenghuang.Mesh	fenghuang.Mtl	feng.Ani						
+小虎	baihu.Mesh	baihu.Mtl	hu.Ani						
+小鹰	ying.Mesh	ying.Mtl	ying.Ani						
+中龙	long.Mesh	long.Mtl	long.Ani						
+中凤	fenghuang.Mesh	fenghuang.Mtl	feng.Ani						
+中虎	baihu.Mesh	baihu.Mtl	hu.Ani						
+中鹰	ying.Mesh	ying.Mtl	ying.Ani						
+大龙	long.Mesh	long.Mtl	long.Ani						
+大凤	fenghuang.Mesh	fenghuang.Mtl	feng.Ani						
+大虎	baihu.Mesh	baihu.Mtl	hu.Ani						
+大鹰	ying.Mesh	ying.Mtl	ying.Ani						
+BOSS龙	long.Mesh	long.Mtl	long.Ani						
+BOSS凤	fenghuang.Mesh	fenghuang.Mtl	feng.Ani						
+BOSS虎	baihu.Mesh	baihu.Mtl	hu.Ani						
+BOSS鹰	ying.Mesh	ying.Mtl	ying.Ani						
+德意宝贝	f1_wz_bd_mod006.Mesh	f1_wz_bd_mod006.mtl	414a.Ani						
+桑巴宝贝	f1_wz_bd_mod006.Mesh	f1_wz_bd_mod006b.mtl	414a.Ani						
+阿根宝贝	f1_wz_bd_mod006.Mesh	f1_wz_bd_mod006c.mtl	414a.Ani						
+不列颠宝贝	f1_wz_bd_mod006.Mesh	f1_wz_bd_mod006d.mtl	414a.Ani						
+比萨宝贝	f1_wz_bd_mod006.Mesh	f1_wz_bd_mod006e.mtl	414a.Ani						
+爱菲尔宝贝	f2_wz_bd_mod006.mesh	f2_wz_bd_mod006f.mtl	414b.Ani						
+风车宝贝	f2_wz_bd_mod006.mesh	f2_wz_bd_mod006g.mtl	414b.Ani						
+斗牛宝贝	f2_wz_bd_mod006.mesh	f2_wz_bd_mod006h.mtl	414b.Ani						
+葡国宝贝	f2_wz_bd_mod006.mesh	f2_wz_bd_mod006i.mtl	414b.Ani						
+世界杯宠物1	man_jxw.Mesh	man_jxw.Mtl	415.Ani						
+世界杯宠物2	man_jxw.Mesh	man_jxw.Mtl	415.Ani						
+风筝蓝	huangfengzheng.Mesh	lanfengzheng.Mtl	416.Ani						
+风筝红	huangfengzheng.Mesh	hongfengzheng.Mtl	416.Ani						
+风筝黄	huangfengzheng.Mesh	huangfengzheng.Mtl	416.Ani						
+风筝绿	huangfengzheng.Mesh	lvfengzheng.Mtl	416.Ani						
+风筝七彩	huangfengzheng.Mesh	qicaifengzheng.Mtl	416.Ani						
+水果树	shenqiguoshu.Mesh	shenqiguoshu.Mtl	shenqiguoshu.st.Ani						
+四灵树1	SilingshuLv1.Mesh	SilingshuLv1.Mtl	SilingshuLv1.st.Ani						
+四灵树2_1	SilingshuLv2.Mesh	SilingshuLv2.Mtl	SilingshuLv2.st.Ani						
+四灵树2_2	SilingshuLv2.Mesh	SilingshuLv2.Mtl	SilingshuLv2.st.Ani						
+四灵树3_1	SilingshuLv3.Mesh	SilingshuLv3.Mtl	SilingshuLv3.st.Ani						
+四灵树3_2	SilingshuLv3.Mesh	SilingshuLv3.Mtl	SilingshuLv3.st.Ani						
+四灵树4	SilingshuLv4.Mesh	SilingshuLv4.Mtl	SilingshuLv4.st.Ani						
+齐天大圣	meihouwang1.Mesh	meihouwang1.Mtl	meihouwang1.Ani						
+齐天大圣2	meihouwang2.Mesh	meihouwang2.Mtl	meihouwang2.Ani						
+白金树	baijinshu.Mesh	baijinshu.Mtl	baijinshu.Ani						
+火堆	huodui.Mesh	huodui.Mtl	huodui.Ani						
+田地1	tian1.Mesh	tian1.Mtl	tian.Ani						
+田地2	tian2.Mesh	tian2.Mtl	tian.Ani						
+田地3	tian3.Mesh	tian3.Mtl	tian.Ani						
+田地4	tian4.Mesh	tian4.Mtl	tian.Ani						
+运粮车	yunliangche.Mesh	yunliangche.Mtl	yunliangche.Ani						
+火船	doujian.Mesh	doujian.Mtl	doujian.Ani						
+指挥船	zhihuichuan.Mesh	zhihuichuan.Mtl	zhihuichuan.Ani						
+土狼王	074.mesh	074a.Mtl	074a.Ani						
+青狼王	074.mesh	074b.Mtl	074b.Ani						
+武当首席标准男	381.mesh	381.Mtl	381.Ani						
+峨嵋首席性感女	374.mesh	374.Mtl	374.Ani						
+五毒首席标准男	389.mesh	389.Mtl	389.Ani						
+唐门首席标准男地	371.mesh	371.Mtl	371.Ani						
+丐帮首席标准男	377.mesh	377.Mtl	377.Ani						
+杨门首席娇小女	387.mesh	387.Mtl	387.Ani						
+城门机关	城门机关.Mesh	城门机关.Mtl	城门机关.Ani						
+红印教主	429.Mesh	429.Mtl	429.Ani						
+东方不败	dongfangbubai.Mesh	dongfangbubai.Mtl	dongfangbubai.Ani						
+蓝旗刺客	412.mesh	412蓝.Mtl	412蓝.Ani		S_HR	076_剑			
+黄旗刺客	412.mesh	412黄.Mtl	412黄.Ani						
+红旗刺客	412.mesh	412红.Mtl	412红.Ani		S_HR	双刀7b	S_HL	双刀7b	
+白旗刺客	413.mesh	413白.Mtl	413白.Ani						
+黑旗刺客	412.mesh	412黑.Mtl	412黑.Ani		S_HL	爪8a	S_HR	爪8a	
+蓝旗旗主	322.mesh	322.Mtl	322.Ani						
+黄旗旗主	170.mesh	170b.Mtl	170b.Ani		S_HR	170bw			
+红旗旗主	170.mesh	170a.Mtl	170a.Ani		S_HR	170aw			
+白旗旗主	077.mesh	077a.Mtl	077a.Ani		S_HR	剑			
+黑旗旗主	319.mesh	319.Mtl	319.Ani		S_RH	319wr			
+银剑	452.mesh	452.Mtl	452.Ani		S_HR	长剑8a			
+小燕子信使	453.mesh	453.Mtl	453.Ani		S_HR	长剑7a			
+隐形人	452.mesh	452.Mtl	452.Ani		S_HR	长剑8a			
+李元旭	327.mesh	327.Mtl	327.Ani		S_RH	327w			
+任盈盈	renyinyin.mesh	renyinyin.Mtl	renyinyin.Ani		S_HL	琴5a			
+婉柔云	406.mesh	406.Mtl	406.Ani						
+圣诞树	360.mesh	360.Mtl	a.Ani						
+09大圣诞树	360.mesh	360.Mtl	a.Ani						
+雪人	361.mesh	361.Mtl	a.Ani						
+大红灯笼	362.mesh	362.Mtl	a.Ani						
+红灯笼	362.mesh	362.Mtl	a.Ani						
+小驯鹿	363.mesh	363.Mtl	363.Ani						
+小金牛	364.mesh	364.Mtl	364.Ani						
+圣诞大礼包	365.mesh	365.Mtl	a.Ani						
+圣诞小礼包	365.mesh	365.Mtl	a.Ani						
+红印教众1	449.mesh	449.Mtl	449.Ani		S_HR	076_剑			
+红印教众2	450.mesh	450.Mtl	450.Ani		S_HR	076_剑			
+红印教众3	451.mesh	451.Mtl	451.Ani		S_HR	076_剑			
+少阳弟子1	366.mesh	366.Mtl	366.Ani		S_HR	长剑7a			
+文史弟子1	367.mesh	367.Mtl	367.Ani		S_HR	长剑7a			
+隐形人阿亮	452.mesh	452.Mtl	452.Ani		S_HR	长剑8a	S_HL	长剑8a	
+真纳娜	454.mesh	454.Mtl	454.Ani		S_HR	076_剑			
+少林首席标准男	368.mesh	368.Mtl	368.Ani						
+少林首席魁梧男	369.mesh	369.Mtl	369.Ani						
+唐门首席魁梧男	370.mesh	370.Mtl	370.Ani						
+唐门首席标准男	371.mesh	371.Mtl	371.Ani						
+唐门首席性感女	372.mesh	372.Mtl	372.Ani						
+唐门首席娇小女	373.mesh	373.Mtl	373.Ani						
+峨嵋首席娇小女	375.mesh	375.Mtl	375.Ani						
+丐帮首席魁梧男	376.mesh	376.Mtl	376.Ani						
+丐帮首席性感女	378.mesh	378.Mtl	378.Ani						
+丐帮首席娇小女	379.mesh	379.Mtl	379.Ani						
+武当首席魁梧男	380.mesh	380.Mtl	380.Ani						
+武当首席性感女	382.mesh	382.Mtl	382.Ani						
+武当首席娇小女	383.mesh	383.Mtl	383.Ani						
+杨门首席魁梧男	384.mesh	384.Mtl	384.Ani						
+杨门首席标准男	385.mesh	385.Mtl	385.Ani						
+杨门首席性感女	386.mesh	386.Mtl	386.Ani						
+五毒首席魁梧男	388.mesh	388.Mtl	388.Ani						
+五毒首席性感女	390.mesh	390.Mtl	390.Ani						
+五毒首席娇小女	391.mesh	391.Mtl	391.Ani						
+昆仑首席标准男	392.mesh	392.Mtl	392.Ani						
+昆仑首席魁梧男	393.mesh	393.Mtl	393.Ani						
+明教首席魁梧男	394.mesh	394.Mtl	394.Ani						
+明教首席标准男	395.mesh	395.Mtl	395.Ani						
+明教首席性感女	396.mesh	396.Mtl	396.Ani						
+明教首席娇小女	397.mesh	397.Mtl	397.Ani						
+翠烟首席性感女	398.mesh	398.Mtl	398.Ani						
+翠烟首席娇小女	399.mesh	399.Mtl	399.Ani						
+叶子丘	400.mesh	400.Mtl	400.Ani						
+韩丹心	401.mesh	401.Mtl	401.Ani						
+铁面	402.mesh	402.Mtl	402.Ani						
+绝情	403.mesh	403.Mtl	403.Ani						
+冰心	404.mesh	404.Mtl	404.Ani						
+地煞	405.mesh	405.Mtl	405.Ani						
+天阴机关匠人	407.mesh	407.Mtl	407.Ani						
+星字机关人	408.mesh	408.Mtl	408.Ani						
+天阴教机关1	409.mesh	409.Mtl	409.Ani						
+天阴教机关2	410.mesh	410.Mtl	410.Ani						
+武林盟护卫	411.mesh	411.Mtl	411.Ani		S_HR	065刀			
+少阳弟子11	366.mesh	366.Mtl	366.Ani		S_HR	长剑7a			
+文史弟子11	367.mesh	367.Mtl	367.Ani		S_HR	长剑7a			
+隐形人阿亮2	452.mesh	452.Mtl	452.Ani						
+天阴教机关11	409.mesh	409.Mtl	409.Ani						
+隐形人阿亮3	452.mesh	452.Mtl	452.Ani		S_HR	双刀7b	S_HL	双刀7b	
+清溪1	194.mesh	194a.mtl	194a.ani		S_HR	笔8a			
+蓝旗圣旗	城门大旗.mesh	城门大旗蓝.Mtl	城门大旗.Ani						
+黄旗圣旗	城门大旗.mesh	城门大旗黄.Mtl	城门大旗.Ani						
+红旗圣旗	城门大旗.mesh	城门大旗.Mtl	城门大旗.Ani						
+白旗圣旗	城门大旗.mesh	城门大旗白.Mtl	城门大旗.Ani						
+黑旗圣旗	城门大旗.mesh	城门大旗黑.Mtl	城门大旗.Ani						
+噬魂	080a.mesh	080a.Mtl	080a.Ani						
+小小金虎	418.Mesh	418.Mtl	418.Ani						
+玫瑰花红	155.mesh	155f.Mtl	155a.Ani						
+玫瑰花黄	155.mesh	155g.Mtl	155a.Ani						
+武当首席魁梧男地	380.mesh	380.Mtl	380.Ani		S_HR	076_剑			
+峨嵋首席娇小女地	375.mesh	375.Mtl	375.Ani		S_HR	076_剑			
+少林首席标准男地	368.mesh	368.Mtl	368.Ani		S_HR	065刀			
+唐门首席娇小女地	373.mesh	373.Mtl	373.Ani						
+明教首席娇小女地	397.mesh	397.Mtl	397.Ani		S_HL	爪8a	S_HR	爪8a	
+昆仑首席魁梧男地	393.mesh	393.Mtl	393.Ani		S_HR	076_剑			
+明教首席标准男地	395.mesh	395.Mtl	395.Ani		S_HR	065刀			
+五毒首席魁梧男地	388.mesh	388.Mtl	388.Ani		S_HR	双刀7b	S_HL	双刀7b	
+明教首席性感女地	396.mesh	396.Mtl	396.Ani		S_HR	065刀			
+丐帮首席娇小女地	379.mesh	379.Mtl	379.Ani						
+婉清儿	419.Mesh	419.Mtl	419.Ani		S_HR	076_剑	S_HL	双刀8a	
+逍遥标准男	423.Mesh	423.Mtl	423.Ani						
+逍遥魁梧男	422.Mesh	422.Mtl	422.Ani						
+逍遥性感女	420.Mesh	420.Mtl	420.Ani						
+逍遥娇小女	421.Mesh	421.Mtl	421.Ani						
+邮箱	417.Mesh	417.Mtl	417.Ani						
+摘星手迟东	424.Mesh	424.Mtl	424.Ani		S_HR	武当剑10			
+铸月锤李壕	425.Mesh	425.Mtl	425.Ani		S_HR	杨门枪10			
+融日火谭娜	426.Mesh	426.Mtl	426.Ani		S_HR	明教刀10			
+小浣熊	427.Mesh	427.Mtl	427.Ani						
+五行使金大	320.mesh	320.Mtl	320.Ani		S_RH	320aw			
+五行使木大	320.mesh	320b.Mtl	320.Ani		S_RH	320wb			
+五行使水大	320.mesh	320c.Mtl	320.Ani		S_RH	320wc			
+五行使火大	320.mesh	320d.Mtl	320.Ani		S_RH	320wd			
+五行使土大	320.mesh	320e.Mtl	320.Ani		S_RH	320we			
+镖车1	428.Mesh	428.Mtl	428.Ani						
+镖车2	428a.Mesh	428a.Mtl	428.Ani						
+镖车3	428b.Mesh	428b.Mtl	428.Ani						
+镖车4	428c.Mesh	428c.Mtl	428.Ani						
+镖车5	428d.Mesh	428d.Mtl	428.Ani						
+洛飞	430.Mesh	430.Mtl	430.Ani		S_HR	昆仑剑10			
+秋若水	431.Mesh	431.Mtl	431.Ani		S_HR	峨眉剑10			
+杂兵标准	433.Mesh	433.Mtl	433.Ani		S_HR	076_剑			
+杂兵魁梧	434.Mesh	434.Mtl	434.Ani		S_HR	076_剑			
+杂兵性感	435.Mesh	435.Mtl	435.Ani		S_HR	076_剑			
+杂兵娇小	436.Mesh	436.Mtl	436.Ani		S_HR	076_剑			
+隐形人1	452.mesh	452.Mtl	452.Ani		S_HR	长剑4a			
+隐形人2	452.mesh	452.Mtl	452.Ani		S_HR	长剑4b			
+隐形人3	452.mesh	452.Mtl	452.Ani		S_HR	长剑5a			
+隐形人4	452.mesh	452.Mtl	452.Ani		S_HR	长剑5b			
+隐形人5	452.mesh	452.Mtl	452.Ani		S_HR	长剑6a			
+隐形人6	452.mesh	452.Mtl	452.Ani		S_HR	长剑6b			
+隐形人7	452.mesh	452.Mtl	452.Ani		S_HR	长剑7a			
+隐形人8	452.mesh	452.Mtl	452.Ani		S_HR	长剑7b			
+隐形人9	452.mesh	452.Mtl	452.Ani		S_HR	长剑8a			
+隐形人10	452.mesh	452.Mtl	452.Ani		S_HR	长剑1b			
+剑无	392.mesh	392.Mtl	452.Ani		S_HR	武当剑10			
+柴火点	437.mesh	437.Mtl	437.Ani						
+太虚古树1	438a.Mesh	438a.Mtl	438.Ani						
+太虚古树2	438b.Mesh	438b.Mtl	438.Ani						
+太虚古树3	438c.Mesh	438c.Mtl	438.Ani						
+太虚树成长阶段	439d.Mesh	439d.Mtl	438.Ani						
+太虚树最终阶段	439e.Mesh	439e.Mtl	438.Ani						
+跟随玉麒麟2	054.mesh	054b.Mtl	054a.Ani						
+跟随小素仙	431.Mesh	431.Mtl	431.Ani		S_HR	峨眉剑10			
+跟随小花圣	430.Mesh	430.Mtl	430.Ani		S_HR	昆仑剑10			
+跟随吉祥小白虎	008.mesh	008b.Mtl	008a.Ani						
+杂兵性感大	435.Mesh	435.Mtl	435.Ani		S_HR	076_剑			
+跟随小牦牛	165.mesh	165a.Mtl	165a.Ani						
+柴火点大	437.mesh	437.Mtl	437.Ani						
+飞信白虎	439.mesh	439.Mtl	439.Ani						
+飞信凤	440.mesh	440.Mtl	440.Ani						
+飞信龙	441.mesh	441.Mtl	441.Ani						
+飞信鹰	442.mesh	442.Mtl	442.Ani						
+小雪人	361.mesh	361.Mtl	a.Ani						
+血侯萧炀	092.mesh	092a.Mtl	092a.Ani		092a	鬼头刀01			
+伏梦	432.Mesh	432.Mtl	432.Ani		S_HR	翠烟扇10			
+毕堰	173b.mesh	173b.Mtl	173b.Ani		S_HR	173bw			
+黑长老萧冉月	131.mesh	131a.Mtl	131a.Ani						
+白长老毕天	328.mesh	328.Mtl	328.Ani		S_HR	328w			
+通天老祖	429.Mesh	429.Mtl	429.Ani						
+万剑兵马俑统领	315.mesh	315.Mtl	315.Ani		S_RH	315w			
+机关盘龙柱	182.mesh	182.Mtl	182.Ani						
+天剑叶风	141.mesh	141a.Mtl	141a.Ani		S_HR	066剑			
+人剑叶梦	076.mesh	076e.Mtl	076c.Ani		S_HR	076_剑			
+万剑魔剑奴	070.mesh	070.Mtl	070.Ani		S_HR	064_武器长锤			
+阵眼封印	129.mesh	129.Mtl	030.Ani						
+黄金宝贝	BX1_M1.Mesh	BX1_M1_1.Mtl	BX1_M1.Ani						
+嗜血魔人	068.mesh	068a.Mtl	068a.Ani		S_HR	068w			
+巨石火人	052.mesh	052d.Mtl	052c.Ani						
+旋转棍人	179.mesh	179a.Mtl	179a.Ani		S_HR	179aw			
+千年火麒麟	054.mesh	054a.Mtl	054a.Ani						
+大鱼怪	055.mesh	055a.Mtl	055a.Ani		055a	WQ055a			
+玉修罗箫奕	464.mesh	464.Mtl	464.Ani		S_HR	颂殇			
+修罗碎影	465.mesh	465.Mtl	465.Ani		S_HR	颂殇			
+惊雷九龙吞云兽	466.mesh	466.Mtl	466.Ani						
+业火九龙吞云兽	467.mesh	467.Mtl	467.Ani						
+吞云小兽	468.mesh	468.Mtl	468.Ani						
+避雷针	469.mesh	469.Mtl	469.Ani						
+太一杨宗保	470.mesh	470.Mtl	470.Ani		S_HR	杨门枪11			
+太一穆桂英	471.mesh	471.Mtl	471.Ani		S_HR	杨门枪11			
+神兽辟邪	472.mesh	472.Mtl	472.Ani						
+黑蘑菇	473.mesh	473.Mtl	473.Ani						
+绿蘑菇	474.mesh	474.Mtl	474.Ani						
+红蘑菇	475.mesh	475.Mtl	475.Ani						
+蓝蘑菇	476.mesh	476.Mtl	476.Ani						
+荒火鎏金	477.mesh	477.Mtl	477.Ani						
+耶律飞鸿	478.mesh	478.Mtl	478.Ani		S_HR	孤狼			
+太一伴随杨宗保	479.mesh	479.Mtl	479.Ani		S_HR	杨门枪11			
+太一伴随穆桂英	480.mesh	480.Mtl	480.Ani		S_HR	杨门枪11			
+菁菁姑娘	481.mesh	481.Mtl	481.Ani		S_HR	荒火鎏金			
+魅魔	090.mesh	090.Mtl	090a.Ani						
+荒火鎏金刀	482.mesh	482.Mtl	482.Ani						
+隐形的女王	452.mesh	452.Mtl	452.Ani						
+木质宝箱	muzhi_box.mesh	muzhi_box.Mtl	baoxiang.Ani						
+黑铁宝箱	heitei_box.mesh	heitei_box.Mtl	baoxiang.Ani						
+青铜宝箱	qingtong_box.mesh	qingtong_box.Mtl	baoxiang.Ani						
+白银宝箱	baiyin_box.mesh	baiyin_box.Mtl	baoxiang.Ani						
+黄金宝箱	huangjin_box.mesh	huangjin_box.Mtl	baoxiang.Ani						
+钻石宝箱	zuanshi_box.mesh	zuanshi_box.Mtl	baoxiang.Ani						
+世界BOSS宝箱	huangjin_box.mesh	huangjin_box.Mtl	baoxiang.Ani						
+桃花岛主黄龙	514.mesh	514.mtl	514.ani						
+西域苍狼霸王	492.mesh	492.Mtl	492.Ani						
+玉山之灵天玖	533.Mesh	533.Mtl	533.Ani						
+幽泽之影冥武	491.Mesh	491.Mtl	491.Ani						
+完颜希尹	489.mesh	489.Mtl	489.Ani						
+吴刚坐骑	148.mesh	148a.Mtl	148a.Ani						
+坐骑分身	148.mesh	148a.Mtl	148a.Ani						
+小坐骑	148.mesh	148a.Mtl	148a.Ani						
+宠物小浣熊	huanxiong.mesh	huanxiong.Mtl	huanxiong.Ani						
+宠物霸王鳄	bawange.Mesh	bawange.Mtl	bawange.Ani						
+宠物胖傻鸟	shaniao.mesh	shaniao_01.Mtl	shaniao.Ani						
+恩怨台战旗	349b.Mesh	349b.Mtl	349.Ani						
+五行阵印									

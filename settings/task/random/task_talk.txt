@@ -1,0 +1,5 @@
+TaskID	TalkNpc	TalkMap	Rate10	Rate20	Rate30	Rate40	Rate50	Rate60	Rate70	Rate80	Rate90	Rate100	TaskText
+ID NhiÖm vô													V¨n tù thuyÕt minh nhiÖm vô
+1			100	100	100	100	100	100	100	100	100	100	
+2			100	100	100	100	100	100	100	100	100	100	
+3			100	100	100	100	100	100	100	100	100	100	

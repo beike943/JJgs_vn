@@ -1,0 +1,18 @@
+Enhance	gG1	gD1	gP1	gNum1	gBind1	gG2	gD2	gP2	gNum2	gBind2	gG3	gD3	gP3	gNum3	gBind3
+§é t¨ng 	Ph¶n håi ®¹o cô lo¹i lín 1	Ph¶n håi ®¹o cô lo¹i phô 1	Ph¶n håi chi tiÕt ®¹o cô 1	Sè l­îng ph¶n håi: 1	Khãa kh«ng	Ph¶n håi ®¹o cô lo¹i lín 2	Ph¶n håi ®¹o cô lo¹i phô 2	Ph¶n håi chi tiÕt ®¹o cô 2	Sè l­îng ph¶n håi: 2	Khãa kh«ng	Ph¶n håi ®¹o cô lo¹i lín 3	Ph¶n håi ®¹o cô lo¹i phô 3	Ph¶n håi chi tiÕt ®¹o cô 3	Sè l­îng ph¶n håi: 3	Khãa kh«ng
+0	2	2	7	0	1	2	2	8	0	1	2	1	1009	0	1
+1	2	2	7	1	1	2	2	8	0	1	2	1	1009	0	1
+2	2	2	7	2	1	2	2	8	0	1	2	1	1009	0	1
+3	2	2	7	4	1	2	2	8	0	1	2	1	1009	0	1
+4	2	2	7	8	1	2	2	8	0	1	2	1	1009	0	1
+5	2	2	7	16	1	2	2	8	0	1	2	1	1009	0	1
+6	2	2	7	16	1	2	2	8	10	1	2	1	1009	0	1
+7	2	2	7	16	1	2	2	8	20	1	2	1	1009	0	1
+8	2	2	7	16	1	2	2	8	40	1	2	1	1009	0	1
+9	2	2	7	16	1	2	2	8	80	1	2	1	1009	0	1
+10	2	2	7	16	1	2	2	8	160	1	2	1	1009	0	1
+11	2	2	7	16	1	2	2	8	160	1	2	1	1009	4	1
+12	2	2	7	16	1	2	2	8	160	1	2	1	1009	8	1
+13	2	2	7	16	1	2	2	8	160	1	2	1	1009	16	1
+14	2	2	7	16	1	2	2	8	160	1	2	1	1009	32	1
+15	2	2	7	16	1	2	2	8	160	1	2	1	1009	64	1

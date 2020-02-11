@@ -1,0 +1,72 @@
+ID	AniPath	HideNpc	HideWeapon	Height	DoubleRide
+马00					1
+马01					1
+马02					1
+马03					1
+马04					1
+马05					1
+马06					1
+马07					1
+马08					1
+马09					1
+马10					1
+马11					1
+马12					1
+马13					1
+马14					1
+马15					1
+马16					1
+马17					1
+马18					1
+马19					1
+龙舟	\DRAGON_BOAT				0
+水炮龙舟	\DRAGON_BOAT				0
+水雷龙舟	\DRAGON_BOAT				0
+水浪龙舟	\DRAGON_BOAT				0
+短兵龙舟	\DRAGON_BOAT				0
+土炮龙舟	\DRAGON_BOAT				0
+潜行龙舟	\DRAGON_BOAT				0
+花轿	\sedan				0
+年兽	\NianShou				0
+圣诞鹿	\Shengdanlu				0
+火炬装1	\huoju1	1			0
+火炬装2	\huoju2	1			0
+火炬装3	\huoju3	1			0
+火炬装4	\huoju4	1			0
+马20					1
+马21					1
+马22					1
+少阳七星剑	\yujian		1		0
+文史七君剑	\yujian		1		0
+昆虚玉瑶剑	\yujian		1		0
+仙游剑	\yujian		1		0
+太清无尘剑	\yujian		1		0
+紫玉长锋	\yujian		1		0
+玉麒麟	\qilin		1	50	0
+火麒麟	\qilin		1	50	0
+豹子	\hu1		1		0
+象	\xiang		1	100	0
+虎1	\hu1		1		0
+虎2	\hu1		1		0
+古阳兽	\guyangshou		1	50	0
+牦牛	\maoniu		1	50	0
+牦牛2	\maoniu		1	50	0
+牦牛3	\maoniu		1	50	0
+虎3	\hu1		1		0
+豹子2	\hu1		1		0
+豹子3	\hu1		1		0
+金麒麟	\qilin		1	50	0
+水麒麟	\qilin		1	50	0
+白兔子	\tuzi		1	50	0
+黑兔子	\tuzi		1	50	0
+花兔子	\tuzi		1	50	0
+飞天御鹿（红）	\shengdanmache		1	50	1
+飞天御鹿（绿）	\shengdanmache		1	50	1
+飞天御鹿（绿金）	\shengdanmache		1	50	1
+白骆驼	\luotuo		1	50	
+灰骆驼	\luotuo		1	50	
+破晓					0
+梅花鹿（黄）	\lu		1		0
+神兽辟邪	\bixie		1		0
+三尾狐	\jiuweihu03		1	50	
+火狐	\jiuweihu01		1	50	

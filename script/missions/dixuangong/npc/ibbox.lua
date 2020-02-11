@@ -1,0 +1,214 @@
+--Include("\\script\\class\\clause3.lua")
+--Include("\\script\\lib\\globalfunctions.lua")
+--Include("\\script\\lib\\define.lua")
+--Include("\\script\\missions\\dixuangong\\mission_head.lua")
+--Include("\\script\\online\\zgc_public_fun.lua")
+----Include("\\script\\misc\\data_state\\state.lua")
+--Include("\\script\\online_activites\\award.lua")
+--
+--msg = "恭喜$n开启地玄宫宝箱获得$i";
+--
+--tAward = {
+--	randMulti = 1,
+--	subclauses = {
+--        {{"小般若树种"            , {2,0,504,1,4},nil,{3*24*3600}},400},
+--        {{"般若树种"            , {2,0,398,1,4},nil,{3*24*3600}},400},
+--        {{"四灵树"            , {2,1,30269,1,4},nil,{3*24*3600}},400},
+--        {{"白驹丸"            , {2,1,270,1},nil,{3*24*3600}},500},
+--        {{"大白驹丸"            , {2,1,1007,1},nil,{3*24*3600}},800},
+--        {{"白驹仙丹"            , {2,1,1008,1},nil,{3*24*3600}},500},
+--        {{"大人参果"            , {2,0,553,1,4},nil,{3*24*3600}},500},
+--        {{"英雄勋章"            , {2,1,30499,1,4},},1500},
+--        {{"英雄勋章"            , {2,1,30499,2,4},},500},
+--        {{"英雄勋章"            , {2,1,30499,4,4},},100},
+--        {{"英雄勋章"            , {2,1,30499,10,4},},50},
+--        {{"天门碎片"            , {2,1,30410,5},},1000},
+--        {{"天门碎片"            , {2,1,30410,10},},300},
+--        {{"天门碎片"            , {2,1,30410,20},},38},
+--        {{"天门金令"            , {2,1,30370,1},msg},10},
+--        {{"皂布挂衣"            , {0,152,1,1,4},},2100},
+--        {{"锦缎挂衣"            , {0,152,2,1,4},},750},
+--        {{"火云挂衣"            , {0,152,3,1,4},},114},
+--        {{"五行金质挂衣"            , {0,152,4,1,4},},6},
+--        {{"五行木质挂衣"            , {0,152,5,1,4},},6},
+--        {{"五行水质挂衣"            , {0,152,6,1,4},},6},
+--        {{"五行火质挂衣"            , {0,152,7,1,4},},6},
+--        {{"五行土质挂衣"            , {0,152,8,1,4},},6},
+--        {{"五行阴质挂衣"            , {0,152,9,1,4},},6},
+--        {{"游侠挂衣"            , {0,152,26,1,4},msg},0.7},
+--        {{"铁血挂衣"            , {0,152,27,1,4},msg},0.7},
+--        {{"云游挂衣"            , {0,152,28,1,4},msg},0.6},
+--	},
+--	giveClause = ClauseRandom.giveClause,
+--	give = ClauseRandom.giveClause,
+--}
+--
+--needItem = {T_TIANJIAOLING[4], {T_TIANJIAOLING[1],T_TIANJIAOLING[2],T_TIANJIAOLING[3],N_CALL_BOSS_TIANJIAOLING_NEED}};
+--
+--tTemp = {};
+--
+--function main()
+--	local npcIdx = GetTargetNpc();
+--	if GetMissionV(MV_DAYE_2) == 0 then
+--		Say("开启[银宝箱]需要1个[天骄令]（商城有售）。",
+--			2,
+--			"\n确认开启/#IamDaye("..npcIdx..")",
+--			"\n取消开启/nothing");
+--		return
+--	else
+--		speLoot(npcIdx);
+--	end
+--end
+--
+--function IamDaye(npcIdx)
+--	local daye = GetMissionV(MV_DAYE_2);
+--
+--	if 0 ~= daye then
+--		Talk(1, "", "已经有人开此箱子了");
+--		return 0;
+--	end
+--
+--	if DelItem(T_TIANJIAOLING[1],T_TIANJIAOLING[2],T_TIANJIAOLING[3],N_CALL_BOSS_TIANJIAOLING_NEED) == 1 then
+--		SetMissionV(MV_DAYE_2, PlayerIndex);
+--		SetMissionV(MV_LAO_ER_2, PlayerIndex);
+--		gf_ModifyTask(TASKID_DXG_SCORE, N_CALL_BOSS_TIANJIAOLING_NEED, TASK_ACCESS_CODE_DXG_MISSION);
+--		speLoot(npcIdx);
+--		--天阴圣物箱开启次数统计
+--		AddRuntimeStat(1,11,0,1);
+--		--地玄宫消耗通天令牌数量统计
+--		AddRuntimeStat(1,13,0,N_CALL_BOSS_TIANJIAOLING_NEED);
+--		--2Xu活动
+--		open_dxg_tyswx_award();
+--	else
+--		Talk(1, "", "你身上没有[天骄令]，不能开启<color=green>银宝箱<color>。[天骄令]可以从<color=yellow>商城<color>购买");
+--	end
+--end
+--
+--function getLootSeting()
+--	return tAward.subclauses;
+--end
+--
+--function getLootItem()
+--	local tClause = getLootSeting();
+--
+--	local nMax = 0;
+--	for i = 1, getn(tClause) do
+--		nMax = nMax + tClause[i][2];
+--	end
+--	local rnd = random(1, nMax);
+--	for i = 1, getn(tClause) do
+--		rnd = rnd - tClause[i][2];
+--		if rnd <= 0 then
+--			return i, tClause[i][1];
+--		end
+--	end
+--	print("[getLootItem] [error random] [nMax=%d, rnd=%d]", nMax, rnd);
+--	assert();
+--end
+--
+--function speLoot(npcIdx)
+--	local daye = GetMissionV(MV_DAYE_2);
+--	if daye == 0 then
+--		return 0;
+--	end
+--	local tSel = {
+--			"结束对话/nothing",
+--		}
+--	local OldPlayerIndex = PlayerIndex;
+--	if daye == PlayerIndex then
+--		local player_name = ""
+--		for i = 1,GetTeamSize() do
+--			PlayerIndex = GetTeamMember(i);
+--			if PlayerIndex ~= OldPlayerIndex then
+--				player_name = GetName();
+--				player_name = zgc_pub_name_replace(player_name,"/","-");
+--				player_name = zgc_pub_name_replace(player_name,"|","-");
+--				player_name = zgc_pub_name_replace(player_name,":","-");
+--				tinsert(tSel, 1, "我要把奖励分配给"..player_name.."/#lootAwardOther("..PlayerIndex..","..npcIdx..")");
+--			end
+--		end
+--		PlayerIndex = OldPlayerIndex;
+--		tinsert(tSel, 1, "我要拾取奖励/#lootAward("..PlayerIndex..","..npcIdx..")");
+--	end
+--
+--
+--	local nLootItemId = GetMissionV(MV_LOOT_ID_2);
+--	if nLootItemId == 0 then
+--		nLootItemId = getLootItem();
+--		SetMissionV(MV_LOOT_ID_2, nLootItemId);
+--	end
+--
+--	local tClause = getLootSeting();
+--	local tLootItem = tClause[nLootItemId][1];
+--	local nCount = 1;
+--	if tLootItem[2] and type(tLootItem[2]) == "table" then
+--		nCount = tLootItem[2][4];
+--	end
+--	local msg = format("<color=yellow>[%s]x%d<color>",tLootItem[1], nCount);
+--	Say("<color=green>宝箱<color>: 这里有"..msg, getn(tSel), tSel);
+--end
+--
+--function lootAwardOther(player_index, box_index)
+--	local player_index_save = PlayerIndex
+--	--判断该索引是否还是在该队伍中
+--	local index_chg_chk_flag = 0
+--	local team_size = GetTeamSize()
+--	if team_size ~= 0 then
+--		index_chg_chk_flag = zgc_pub_same_team_chk(player_index)
+--	else
+--		index_chg_chk_flag = 1
+--	end
+--	if index_chg_chk_flag ~= 1 then
+--		Talk(1,"","<color=green>提示<color>：请重新检查您要分配的对象是否在您的<color=yellow>队伍<color>中！")
+--		return
+--	end
+--	--分配对象的空间负重检测
+--	PlayerIndex = player_index
+--	local s_palyer_name = GetName()
+--	if GetFreeItemRoom()  < 3 then
+--		Talk(1,"","<color=green>提示<color>：您的<color=yellow>包裹<color>空间不足！")
+--		PlayerIndex = player_index_save
+--		Talk(1,"","<color=green>提示<color>：<color=green>"..s_palyer_name.."<color>的<color=yellow>包裹<color>空间不足，无法进行分配！")
+--		return
+--	end
+--
+--	PlayerIndex = player_index_save
+--	lootAward(player_index, box_index)
+--end
+--
+--function lootAward(player_index, box_index)
+--	local player_index_save = PlayerIndex
+--
+--	PlayerIndex = player_index;
+--	if gf_JudgeRoomWeight(3, 100, "") ~= 1 then return end
+--	PlayerIndex = player_index_save;
+--
+--	local nLootItemId = GetMissionV(MV_LOOT_ID_2);
+--	if nLootItemId == 0 then
+--		nLootItemId = getLootItem();
+--	end
+--	local tLoot = getLootSeting()[nLootItemId][1];
+--	SetMissionV(MV_LOOT_ID_2, 0);
+--	SetMissionV(MV_DAYE_2, 0);
+--	SetMissionV(MV_LAO_ER_2, 0);
+--
+--	SetNpcLifeTime(box_index, 0);
+--	PlayerIndex = player_index;
+--	gf_SetLogCaption("dixuangong:ib_box2");
+--	Clause3.giveClause(tLoot);
+--	gf_SetLogCaption("");
+--	--统计道具
+--	if tLoot[1] == "天门金令" then
+--		AddRuntimeStat(1,14,0,tLoot[2][4]);
+--	elseif tLoot[1] == "3级炼炉铁" then
+--		AddRuntimeStat(1,16,0,tLoot[2][4]);
+--	elseif tLoot[1] == "3级洗心石" then
+--		AddRuntimeStat(1,17,0,tLoot[2][4]);
+--	elseif tLoot[1] == "秘银钻" then
+--		AddRuntimeStat(1,18,0,tLoot[2][4]);
+--	elseif tLoot[1] == "秘银锤" then
+--		AddRuntimeStat(1,19,0,tLoot[2][4]);
+--	end
+--	
+--	PlayerIndex = player_index_save;
+--end

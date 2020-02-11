@@ -1,0 +1,54 @@
+Npc	Tªn hiÓn thŞ	Script
+Da sãi	Da sãi	\script\caiji\Ò»À¦ÀÇÆ¤.lua
+Da hæ	Da hæ	\script\caiji\Ò»À¦»¢Æ¤.lua
+Da r¾n	Da r¾n	\script\caiji\Ò»À¦ÉßÆ¤.lua
+Da c¸o	Da c¸o	\script\caiji\Ò»À¦ºüÆ¤.lua
+Da b¹ch hæ	Da b¹ch hæ	\script\caiji\Ò»À¦°×»¢Ö®Æ¤.lua
+Da gÊu	Da gÊu	\script\caiji\Ò»À¦ĞÜÆ¤.lua
+Loan ®iÓu vò	Loan ®iÓu vò	\script\caiji\Ò»À¦ğ½ÄñÓğÅû.lua
+S¬n S­ b×	S¬n S­ b×	\script\caiji\Ò»À¦É½Ê¨Ö®Æ¤.lua
+L«ng thá	L«ng thá	\script\caiji\Ò»À¦ÍÃÃ«.lua
+T¬ t»m	T¬ t»m	\script\caiji\Ò»À¦²ÏË¿.lua
+Ngò s¾c t¬	Ngò s¾c t¬	\script\caiji\Ò»À¦ÎåÉ«Ë¿.lua
+Lang Thï t¬	Lang Thï t¬	\script\caiji\Ò»À¦ÀÇÖëË¿.lua
+HuyÕt tµm t¬	HuyÕt tµm t¬	\script\caiji\Ò»À¦Ñª²ÏË¿.lua
+Linh Thï t¬	Linh Thï t¬	\script\caiji\Ò»À¦ÁéÖëË¿.lua
+Kim tµm t¬	Kim tµm t¬	\script\caiji\Ò»À¦½ğ²ÏË¿.lua
+L·nh trïng t¬	L·nh trïng t¬	\script\caiji\Ò»À¦Àä³æË¿.lua
+Tinh ThiÕt	Tinh ThiÕt	\script\caiji\Ò»¶Ñ¾«Ìú.lua
+B¸ch luyÖn cang	B¸ch luyÖn cang	\script\caiji\Ò»¶Ñ°ÙÁ¶¸Ö.lua
+¤ kim th¹ch	¤ kim th¹ch	\script\caiji\Ò»¶ÑÎÚ½ğÊ¯.lua
+Hµn thiÕt	Hµn thiÕt	\script\caiji\Ò»¶Ñº®Ìú.lua
+Th¸i b¹ch tinh kim	Th¸i b¹ch tinh kim	\script\caiji\Ò»¶ÑÌ«°×¾«½ğ.lua
+HuyÒn thiÕt	HuyÒn thiÕt	\script\caiji\Ò»¶ÑĞşÌú.lua
+Thiªn thanh th¹ch	Thiªn thanh th¹ch	\script\caiji\Ò»¶ÑÌìÇàÊ¯.lua
+H¾c « th¹ch	H¾c « th¹ch	\script\caiji\Ò»¶ÑºÚÎÙÊ¯.lua
+Tïng Méc	Tïng Méc	\script\caiji\Ò»¶ÑËÉÄ¾.lua
+D­¬ng Méc	D­¬ng Méc	\script\caiji\Ò»¶ÑÑîÄ¾.lua
+Sam méc	Sam méc	\script\caiji\Ò»¶ÑÉ¼Ä¾.lua
+ThiÕt Méc	ThiÕt Méc	\script\caiji\Ò»¶ÑÌúÄ¾.lua
+C©y ng« ®ång	C©y ng« ®ång	\script\caiji\Ò»¶ÑÎàÍ©Ä¾.lua
+Träng méc	Träng méc	\script\caiji\Ò»¶ÑÖØÄ¾.lua
+ThiÕt Ch­¬ng méc	ThiÕt Ch­¬ng méc	\script\caiji\Ò»¶ÑÌúÕÁÄ¾.lua
+ThiÕt TuyÕn méc	ThiÕt TuyÕn méc	\script\caiji\Ò»¶ÑÌúÏßÄ¾.lua
+Ba ®Ëu	Ba ®Ëu	\script\caiji\Ò»Ğ©°Í¶¹.lua
+Tµng Hång Hoa	Tµng Hång Hoa	\script\caiji\Ò»Ğ©²Øºì»¨.lua
+C¸t C¸nh	C¸t C¸nh	\script\caiji\Ò»Ğ©½Û¹£.lua
+Hoµng liªn	Hoµng liªn	\script\caiji\Ò»Ğ©»ÆÁ¬.lua
+X¸c ve	X¸c ve	\script\caiji\Ò»Ğ©²õÍÉ.lua
+§iÒn thÊt	§iÒn thÊt	\script\caiji\Ò»Ğ©ÌïÆß.lua
+Xuyªn s¬n gi¸p	Xuyªn s¬n gi¸p	\script\caiji\Ò»Ğ©´©É½¼×.lua
+X¹ h­¬ng	X¹ h­¬ng	\script\caiji\Ò»Ğ©÷êÏã.lua
+Quang Th«ng Ma	Quang Th«ng Ma	\script\caiji\Ò»´ü¹âÍ¨Âé.lua
+Khuynh ly ®Ëu	Khuynh ly ®Ëu	\script\caiji\Ò»´üÇãÀé¶¹.lua
+NhiÔu minh ®Ëu	NhiÔu minh ®Ëu	\script\caiji\Ò»´üÈÆÃ÷¶¹.lua
+Dung tr¹ch cèc	Dung tr¹ch cèc	\script\caiji\Ò»´üÈÚÔó¹È.lua
+Mİa	Mİa	\script\caiji\Ò»´ü¸ÊÕá.lua
+Diªn Tinh M¹ch	Diªn Tinh M¹ch	\script\caiji\Ò»´üÑÓ¾«Âó.lua
+ThuÇn hßa m¹ch	ThuÇn hßa m¹ch	\script\caiji\Ò»´ü´¾ºÍÂó.lua
+Du long tóc	Du long tóc	\script\caiji\Ò»´üÓÎÁúËÚ.lua
+Linh phï	Linh phï	\script\caiji\Áé·û²ÄÁÏ.lua
+Tiªn phï	Tiªn phï	\script\caiji\ÏÉ·û²ÄÁÏ.lua
+ThÇn phï	ThÇn phï	\script\caiji\Éñ·û²ÄÁÏ.lua
+R­¬ng n¸t	R­¬ng n¸t	\script\caiji\ÀÃÏä×Ó.lua
+R­¬ng méc	R­¬ng méc	\script\caiji\Ä¾Ïä×Ó.lua

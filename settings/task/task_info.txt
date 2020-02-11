@@ -1,0 +1,333 @@
+Index	Level	TaskID	TaskValue	TaskInfo
+H­íng dÉn	§¼ng cÊp	Sè hiÖu thay ®æi nhiÖm vô	Gi¸ trÞ thay ®æi nhiÖm vô	ThuyÕt minh nhiÖm vô
+1	1	1	100	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u h·y ®Õn gÆp <color=yellow>D· TÈu<color> häc 1 sè kinh nghiÖm giang hå, sÏ rÊt h÷u Ých ®ã.
+2	10	1	100	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u vÉn ch­a gÆp D· TÈu µ? <color=yellow>KhÊu ®¹i nh©n<color> ë BiÖn Kinh, <color=yellow>Ph¹m §¹i Nh©n<color> ë Thµnh §«, vµ <color=yellow>¤ng chñ V­¬ng<color> ë TuyÒn Ch©u lµ chç quen biÕt víi «ng Êy, muèn hiÓu râ giang hå h·y mau ®i hái D· TÈu.
+3	1	1	1	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ch­a gÆp Thî rÌn µ? Cã thÓ xem trªn <color=yellow>B¶n ®å nhá<color>!
+4	1	1	2	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ch­a gÆp Chñ tiÖm phôc trang µ? Cã thÓ xem trªn <color=yellow>B¶n ®å nhá<color>!
+5	1	1	3	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ch­a gÆp Chñ Kim hoµn µ? Cã thÓ xem trªn <color=yellow>b¶n ®ånhá<color>.
+6	1	1	4	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ch­a gÆp Chñ D­îc ®iÕm µ? Cã thÓ xem trªn <color=yellow>B¶n ®å nhá<color>!
+7	1	1	5	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ch­a gÆp Chñ tiÖm t¹p hãa µ? Cã thÓ xem trªn <color=yellow>B¶n ®å nhá<color>!
+8	1	1	6	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ®· ®èi tho¹i víi hä xong, H·y vÒ gÆp <color=yellow>D· TÈu<color>!
+9	4	1	7	<color=green>Nh.vô S¬ nhËp<color>: §¹t ®Õn cÊp 4, h·y ®i gÆp <color=yellow>D· TÈu<color>.
+10	4	1	8	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ch­a gÆp VÖ Binh µ? Cã thÓ xem trªn <color=yellow>B¶n ®å nhá<color>!
+11	4	1	9	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ch­a gÆp Vâ S­ µ? Cã thÓ xem trªn <color=yellow>B¶n ®å nhá<color>!
+12	4	1	10	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ®· häc xong kü n¨ng chiÕn ®Êu, h·y vÒ gÆp <color=yellow>D· TÈu<color>.
+13	6	1	11	<color=green>Nh.vô S¬ nhËp<color>: §¹t ®Õn cÊp 6, h·y ®i gÆp <color=yellow>D· TÈu<color>.
+14	6	1	12	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ch­a gÆp Chñ töu lÇu µ? Cã thÓ xem trªn <color=yellow>B¶n ®å nhá<color>!
+15	6	1	13	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ch­a gÆp Tiªu s­ µ? Cã thÓ xem trªn <color=yellow>B¶n ®å nhá<color>!
+16	6	1	14	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ®· biÕt giao thiÖp b»ng h÷u, h·y vÒ gÆp <color=yellow>D· TÈu<color>?
+17	6	1	15	<color=green>Nh.vô S¬ nhËp<color>: H·y mêi mét ng­êi tæ ®éi víi m×nh vµ dÉn ®Õn gÆp <color=yellow>D· TÈu<color>.
+18	8	1	16	<color=green>Nh.vô S¬ nhËp<color>: §¹t ®Õn cÊp 8, h·y ®i gÆp <color=yellow>D· TÈu<color>.
+19	8	1	17	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ®· hiÓu ®Æc s¾c cña mçi m«n ph¸i, h·y vÒ gÆp <color=yellow>D· TÈu<color>.
+20	8	1	18	<color=green>Nh.vô S¬ nhËp<color>: Sau khi ®· t×m hiÓu ®Æc thï cña mçi m«n ph¸i, h·y ®i nãi chuyÖn víi <color=yellow>B¸ch HiÓu Sinh<color>
+21	8	1	19	<color=green>Nh.vô S¬ nhËp<color>: Sau khi nãi chuyÖn víi B¸ch HiÓu Sinh biÕt ®­îc 1 sè ®iÒu cña c¸c m«n ph¸i, h·y vÒ gÆp <color=yellow>D· TÈu<color>?
+22	9	1	20	<color=green>Nh.vô S¬ nhËp<color>: §¹t ®Õn cÊp 9, h·y ®i gÆp <color=yellow>D· TÈu<color>.
+23	9	1	21	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u ch­a gÆp <color=yellow>TriÖu Diªn Niªn (161.197)<color> ë BiÖn Kinh µ? Cã thÓ xem trªn <color=yellow>B¶n ®å nhá<color>!
+24	9	1	22	<color=green>Nh.vô S¬ nhËp<color>: <color=yellow>TriÖu Diªn Niªn<color> nhê b»ng h÷u lµm <color=yellow>1 c¸i b¸nh ng«<color>
+25	10	1	23	<color=green>Nh.vô S¬ nhËp<color>: §¹t ®Õn cÊp 10, h·y gÆp <color=yellow>TriÖu Diªn Niªn (161.197)<color> ë BiÖn Kinh.
+26	10	1	24	<color=green>Nh.vô S¬ nhËp<color>: <color=yellow>TriÖu Diªn Niªn (161.197)<color> ë BiÖn Kinh nhê b»ng h÷u ®­a 3 bøc th­ cho D· TÈu.
+27	10	104	0	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: Nghe nãi «ng chñ <color=yellow>V­¬ng NghiÖp VÜ (196.185)<color> ë TuyÒn Ch©u gÇn ®©y buån phiÒn, kh«ng biÕt b»ng h÷u cã thÓ ®i gióp kh«ng?
+28	10	104	1	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: B»ng h÷u dÔ quªn thÕ, ®· høa gióp <color=yellow>V­¬ng NghiÖp VÜ (196.185)<color> ë TuyÒn Ch©u lÊy l¹i <color=yellow>hµng ngäc th¹ch<color> sao?
+29	10	104	2	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: B»ng h÷u dÔ quªn thÕ, ®· høa gióp <color=yellow>V­¬ng NghiÖp VÜ (196.185)<color> t×m l¹i <color=yellow>Sæ s¸ch ®· bÞ Diªu LËp Thµnh (B¾c TuyÒn Ch©u 198.187) lÊy mÊt<color> sao?
+30	10	104	3	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>:<color=yellow>V­¬ng NghiÖp VÜ (196.185)<color> kh«ng ph¶i b¶o b¹n ®Õn gÆp <color=yellow>H¹ KiÖt (166.182)<color> hái t¹i sao c­íp mÊt hµng hãa vµ Sæ s¸ch ­??
+31	10	105	1	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: §Ó lµm cho <color=yellow>H¹ KiÖt (166.182)<color> tin t­ëng, b»ng h÷u h·y mau ®Õn B¾c TuyÒn Ch©u, Nam TuyÒn Ch©u, ®¸nh b¹i <color=yellow>10 tªn L­u manh vµ 10 tªn C«n ®å<color>.
+32	10	105	4	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: Ng­êi vî <color=yellow>H¹ KiÖt (166.182)<color> bÖnh nÆng, nhê b¹n ®Õn T©y TuyÒn Ch©u thu thËp <color=yellow>RÔ s¾n, Ng¶i bôi, Béi Lan, Liªn KiÒu, Kim Ng©n Hoa mçi lo¹i 3 c¸i<color> vµ ®Õn B¾c TuyÒn Ch©u t×m <color=yellow>10 l«ng Sãi xanh<color>.
+33	10	105	5	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: H¹ KiÖt nãi nh÷ng ng­êi cã tªn trong sæ s¸ch ®ã sÏ gÆp nguy hiÓm, b»ng h÷u h·y ®i hái <color=yellow>V­¬ng NghiÖp VÜ (196.185)<color>
+34	10	105	6	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: GÆp <color=yellow>§¹i ChÝ C­êng (175.177)<color> ®èi tho¹i, nghe nãi «ng ta bÞ mÊt trém.
+35	10	106	1	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: B»ng h÷u ch­a gÆp th­ sinh <color=yellow>Chu B©n Cö (162.185)<color> ®Ó hái vÒ m¶nh giÊy kh«ng râ ch÷ sao?
+36	10	106	2	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: Th­ sinh <color=yellow>Chu B©n Cö (162.185)<color> kh«ng ph¶i nhê b»ng h÷u t×m <color=yellow>ChiÕt Xung Bót (TiÖm vò khÝ), Chu Sa (Kü n¨ng TËp linh) vµ D· Tr­ Mao (Heo rõng ë T©y TuyÒn Ch©u)<color> sao?
+37	10	106	3	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: L­u qu¶n gia ®ang ë <color=yellow>T©y TuyÒn Ch©u (176.192)<color>, b»ng h÷u h·y mau ®Õn ®ã.
+38	10	106	4	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: Th× ra lµ do Thî rÌn <color=yellow>Chung Phãng (171.188)<color> sai L­u qu¶n gia lÊy trém, b»ng h÷u ®i hái t¹i sao lµm vËy!
+39	10	107	1	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: Th× ra tÊt c¶ lµ do Xi Háa Gi¸o TiÓu §Çu Môc <color=yellow>Ch­¬ng VÜ Cang (180.180)<color> Ðp Chung Phãng lµm vËy, b»ng h÷u h·y ®i cøu vî h¾n vÒ.
+40	10	117	1	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: B»ng h÷u vÉn ch­a th«ng b¸o cho <color=yellow>H¹ HÇu CÇm (223.196)<color> ë D­¬ng Ch©u biÕt sao?
+41	10	118	2	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: §Ó v­ît qua kh¶o nghiÖm cña <color=yellow>H¹ HÇu CÇm (223.196)<color>, b»ng h÷u h·y ®Õn Long TuyÒn th«n thu phôc <color=yellow>20 con Hå ly<color>.
+42	10	118	3	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: B»ng h÷u ®· v­ît qua cuéc kh¶o nghiÖm, sao vÉn ch­a vÒ gÆp <color=yellow>H¹ HÇu CÇm (223.196)<color>?
+43	10	119	2	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: Mau ®i th«ng b¸o cho <color=yellow>C«ng T«n Th­ (T­¬ng D­¬ng 192.182), TriÖu Diªn Niªn (BiÖn Kinh 161.197), Gia C¸t Kú (Nam Thµnh §« 197.197)<color> vÒ viÖc cã liªn quan Xi Háa Gi¸o.
+44	10	119	5	<color=green>Nh.vô V­¬ng NghiÖp VÜ<color>: B»ng h÷u ®· th«ng b¸o cho ng­êi cña Tr­êng Ca M«n, h·y trë vÒ gÆp <color=yellow>H¹ HÇu CÇm (223.196)<color> ë D­¬ng Ch©u.
+45	15	1402	0	<color=green>Nh.vô Phong §« Quû Thµnh<color>: Nghe nãi Giang T©n th«n x¶y ra chuyÖn, phiÒn b»ng h÷u ®i hái <color=yellow>N¹n d©n Thµnh §« (233.244)<color> mét chuyÕn.
+46	15	1402	5	<color=green>Nh.vô Phong §« Quû Thµnh<color>: NÕu muèn biÕt t×nh h×nh Giang T©n th«n, b»ng h÷u h·y lµm <color=yellow>2 c¸i b¸nh ng« (kü n¨ng giang hå)<color> cho <color=yellow>N¹n d©n Thµnh §« (233.244)<color> ¨n ®ì ®ãi.
+47	15	1402	10	<color=green>Nh.vô Phong §« Quû Thµnh<color>: N¹n d©n nãi Giang T©n th«n cã <color=yellow>Tr­¬ng §×nh (191.167)<color> ®¹i hiÖp ®ang trõ yªu ma, lµm phiÒn b»ng h÷u ®i hái xem cã chuyÖn g×
+48	15	1402	15	<color=green>Nh.vô Phong §« Quû Thµnh<color>: B»ng h÷u kh«ng ph¶i muèn t×m <color=yellow>10 Ph¸ Ma Chó<color> ®Ó gi¶i ®éc cho Tr­¬ng §×nh sao? (Tæ V¨n §¹t ThiÕu L©m cã b¸n)
+49	15	1402	20	<color=green>Nh.vô Phong §« Quû Thµnh<color>: Tr­¬ng §×nh còng kh«ng râ lai lÞch cña yªu ma, nhê b¹n ®Õn Nga My gÆp <color=yellow>D­¬ng NguyÖt S­ Th¸i (205.192)<color>
+50	15	1402	25	<color=green>Nh.vô Phong §« Quû Thµnh<color>: D­¬ng NguyÖt S­ Th¸i thi ph¸p gióp b»ng h÷u vµo Phong Ma ®éng, kh«ng ph¶i b»ng h÷u muèn t×m <color=yellow>1 viªn X¸ Lîi Kim §¬n<color> sao? (DiÖp Tö Hinh ë Nga My cã b¸n)
+51	15	1402	30	<color=green>Nh.vô Phong §« Quû Thµnh<color>: B»ng h÷u kh«ng ph¶i ®· høa víi D­¬ng ¢m S­ Th¸i, t×m vÒ <color=yellow>10 U Hån<color> ®ã sao?<color=yellow>[§Õn tÇng 2 Phong Ma ®éng-(Giang t©n th«n)-®¸nh Du Hån lÊy U Hån]<color>
+52	15	1402	35	<color=green>Nh.vô Phong §« Quû Thµnh<color>: D­¬ng ¢m S­ Th¸i b¶o b¹n t×m <color=yellow>Lam D· Quû (Phong Ma §éng 202.180)<color>, hái ai më cöa ®éng Phong Ma.
+53	15	1402	40	<color=green>Nh.vô Phong §« Quû Thµnh<color>: Kh«ng ngê Phong §« Quû Thµnh ®· bÞ më, mau ®i th«ng b¸o cho <color=yellow>D­¬ng NguyÖt S­ Th¸i (205.192)<color> biÕt.
+54	15	1402	45	<color=green>Nh.vô Phong §« Quû Thµnh<color>: §Ó vµo Quû Thµnh, b»ng h÷u ph¶i t×m <color=yellow>hai b×nh X¸ Lîi Kim §an<color> vÒ cho D­¬ng NguyÖt S­ Th¸i (205.192) (DiÖp Tö Hinh ë Nga My cã b¸n).
+55	15	1402	50	<color=green>Nh.vô Phong §« Quû Thµnh<color>: S­ Th¸i nãi cã X¸ Lîi Kim §¬nvÉn ch­a ®ñ, nhê b»ng h÷u lªn ThiÕu L©m gÆp <color=yellow>HuyÒn DiÖt T«n Gi¶ (216.291)<color>.
+56	15	1402	55	<color=green>Nh.vô Phong §« Quû Thµnh<color>: HuyÒn DiÖt T«n Gi¶ nhê b»ng h÷u t×m <color=yellow>2 chuçi Thiªn PhËt Ch©u<color> (Tæ V¨n §¹t cã b¸n)
+57	15	1402	60	<color=green>Nh.vô Phong §« Quû Thµnh<color>: HiÖn giê chØ cßn §én Èn Linh Phï vµo ®­îc Phong §« Quû Thµnh, b»ng h÷u h·y ®Õn Vâ §ang gÆp <color=yellow>TËp Nguyªn Ch©n Nh©n (230.203)<color>
+58	15	1402	65	<color=green>Nh.vô Phong §« Quû Thµnh<color>: Lµm §én Èn Linh Phï, cÇn <color=yellow>1 ChiÕt Xung Bót (TiÖm vò khÝ) vµ 1 Chu Sa (Kü n¨ng TËp linh)<color>.
+59	15	1402	70	<color=green>Nh.vô Phong §« Quû Thµnh<color>: §· ®ñ råi, b»ng h÷u h·y ®Õn <color=yellow>Phong §« Quû Thµnh<color> th¸m thÝnh. (Phong §« Quû Thµnh ë §«ng Giang T©n th«n).
+60	15	1402	75	<color=green>Nh.vô Phong §« Quû Thµnh<color>: ViÖc Phong §« Quû Thµnh ®· dß la xong, b»ng h÷u h·y vÒ gÆp <color=yellow>D­¬ng NguyÖt S­ Th¸i (205.192)<color>.
+61	15	1402	80	<color=green>Nh.vô Phong §« Quû Thµnh<color>: D­¬ng NguyÖt S­ Th¸i kh«ng ph¶i b¶o b¹n ®Õn Thµnh §« gÆp <color=yellow>V­¬ng CÈn (223.226)<color> ­? Sao vÉn ch­a ®i?
+62	15	1401	0	<color=green>Nh.vô Thiªn M«n trËn<color>: GÇn ®©y, BiÖn Kinh cã l­u truyÒn 1 sè tin tøc vÒ b¶n S¬n Hµ X· T¾c, <color=yellow>TiÓu NhÞ (184.179)<color> trong thµnh lµ ng­êi biÕt râ nhÊt, phiÒn b»ng h÷u ®Õn hái th¨m tin tøc.
+63	15	1401	5	<color=green>Nh.vô Thiªn M«n trËn<color>: TiÓu NhÞ kh«ng ph¶i nhê b»ng h÷u hái th¨m <color=yellow>Nh©n sÜ giang hå<color> bªn c¹nh sao?
+64	15	1401	10	<color=green>Nh.vô Thiªn M«n trËn<color>: Nh©n sÜ giang hå muèn uèng hæ vÜ töu, b»ng h÷u h·y ®Õn <color=yellow>ThiÕu L©m<color> thu phôc <color=yellow>Hæ d÷<color>.
+65	15	1401	15	<color=green>Nh.vô Thiªn M«n trËn<color>: B»ng h÷u muèn n¾m râ néi t×nh, h·y gÆp bang chñ bang Kim Ng­u <color=yellow>Tµo §¹i Lùc (186.180)<color>.
+66	15	1401	20	<color=green>Nh.vô Thiªn M«n trËn<color>: Tµo §¹i Lùc nhê t×m <color=yellow>5 bé quan phôc<color>, b»ng h÷u h·y ®Õn <color=yellow>H¹nh Hoa th«n<color> ®¸nh b¹i Quan sø mang quan phôc vÒ ®©y!
+67	15	1401	25	<color=green>Nh.vô Thiªn M«n trËn<color>: Muèn n¾m râ h¬n tin tøc vÒ b¶n SHXT, h·y ®Õn Nh¹n M«n Quan Qu©n Doanh gÆp <color=yellow>Hé VÖ Thñ LÜnh (164.184)<color>.
+68	15	1401	30	<color=green>Nh.vô Thiªn M«n trËn<color>: Muèn vµo Nh¹n M«n Quan Qu©n Doanh dß th¸m tin tøc, b»ng h÷u ph¶i ®Õn BiÖn Kinh gÆp <color=yellow>Binh Bé ThÞ Lang (195.176)<color> HiÖp kh¸ch héi!
+69	15	1401	35	<color=green>Nh.vô Thiªn M«n trËn<color>: §Ó chøng tá thùc lùc, b»ng h÷u h·y t×m gióp <color=yellow>Binh Bé ThÞ Lang (195.176)<color> 1 hæ vÜ (®¸nh b¹i Hæ d÷ ë ThiÕu L©m).
+70	15	1401	40	<color=green>Nh.vô Thiªn M«n trËn<color>: B»ng h÷u kh«ng ph¶i ®Õn Thiªn Ba D­¬ng Phñ gÆp <color=yellow>Xa Th¸i Qu©n (191.196)<color> xin phÐp ®Õn Nh¹n M«n Quan chèng Liªu binh sao?
+71	15	1401	45	<color=green>Nh.vô Thiªn M«n trËn<color>: B»ng h÷u h·y ®Õn Nh¹n M«n Quan gÆp <color=yellow>D­¬ng NghiÖp (167.179)<color> D­¬ng L·o T­íng Qu©n xin gia nhËp qu©n sÜ.
+72	15	1401	50	<color=green>Nh.vô Thiªn M«n trËn<color>: B»ng h÷u kh«ng ph¶i ®· høa víi <color=yellow>D­¬ng NghiÖp L·o T­íng Qu©n (167.179)<color> trõng trÞ kiªu binh, vµ mang vÒ <color=yellow>10 M©u méc bµi (®¸nh Tèng qu©n Tö SÜ)<color> sao?
+73	15	1401	55	<color=green>Nh.vô Thiªn M«n trËn<color>: B»ng h÷u ®· høa víi D­¬ng l·o t­íng qu©n ®Õn gÆp Hµn TrÝ Nh­îng cã kÕt qu¶ ch­a, nghe nãi <color=yellow>Hµng xãm Hµn TrÝ Nh­¬ng còng ë BiÖn Kinh (153.181)<color>, lµm phiÒn b»ng h÷u hái th¨m tin tøc.
+74	15	1401	60	<color=green>Nh.vô Thiªn M«n trËn<color>: Nghe nãi Hµn TrÝ Nh­îng dän ®Õn H¹nh Hoa th«n, nÕu t×m kh«ng thÊy, phiÒn b»ng h÷u ®i hái §¹i hiÖp <color=yellow>Tr­¬ng V©n (177.187)<color>.
+75	15	1401	65	<color=green>Nh.vô Thiªn M«n trËn<color>: B»ng h÷u kh«ng ph¶i ®· høa gióp ®¹i hiÖp <color=yellow>Tr­¬ng V©n (177.187)<color> trõng trÞ Quan sø, vµ mang vÒ <color=yellow>10 bé quan phôc<color> sao?
+76	15	1401	70	<color=green>Nh.vô Thiªn M«n trËn<color>: §· biÕt ®­îc Hµn TrÝ Nh­îng ë <color=yellow>T©y BiÖn Kinh (189.174)<color>, b»ng h÷u cßn kh«ng mau ®Õn ®ã?
+77	15	1401	75	<color=green>Nh.vô Thiªn M«n trËn<color>: Cã ph¶i b»ng h÷u ch­a t×m ®­îc Tiªu YÕn YÕn vµ Hµn §øc Nh­îng kh«ng, <color=yellow>Nhiªu L©n (196.189)<color> ë §¹i Th¶o Nguyªn 2 rÊt râ sù viÖc, h·y mau ®i hái.
+78	15	1401	80	<color=green>Nh.vô Thiªn M«n trËn<color>: B»ng h÷u kh«ng ph¶i ®Õn <color=yellow>V­¬ng Kú bé l¹c<color> dß th¸m tin tøc? Sao cßn ë ®©y.
+79	15	1401	85	<color=green>Nh.vô Thiªn M«n trËn<color>: B»ng h÷u kh«ng ph¶i ®Õn §¹i Th¶o Nguyªn gÆp <color=yellow>Nhiªu L©n (196.189)<color> nghÜ c¸ch vµo V­¬ng Kú bé l¹c sao?
+80	15	1401	90	<color=green>Nh.vô Thiªn M«n trËn<color>: Nhiªu L©n ch¼ng ph¶i nhê b»ng h÷u t×m <color=yellow>10 Môc L«i V¨n §ao, 10 GÊm vµng (HuyÒn Vâ §ao trong Kim Quang ®éng); 5 ChØ Nam Ng­ (L­u KhÊu ë Long Hæ ®éng)<color> ®Õn V­¬ng Kú giao cho <color=yellow>Phß M· Môc NghÜa (193.185)<color> ®ã sao??
+81	15	1401	95	<color=green>Nh.vô Thiªn M«n trËn<color>: B»ng h÷u ®· giao vËt liÖu cho <color=yellow>Phß M· Môc NghÜa (193.185)<color>, nh©n tiÖn hái th¨m tin tøc vÒ Tiªu YÕn YÕn vµ Hµn §øc Nh­îng.
+82	15	1401	100	<color=green>Nh.vô Thiªn M«n trËn<color>: Kh«ng thÓ ®Ó uæng phÝ c¬ héi nµy, h·y mau ®Õn V­¬ng Kú bé l¹c t×m <color=yellow>Phß M· Môc NghÜa (193.185)<color> hái th¨m tin tøc Tiªu YÕn YÕn vµ Hµn §øc Nh­îng.
+83	15	1401	105	<color=green>Nh.vô Thiªn M«n trËn<color>: B»ng h÷u kh«ng ph¶i ®Õn Nh¹n M«n Quan b¸o cho <color=yellow>D­¬ng NghiÖp l·o t­íng qu©n (167.179)<color> tin tøc phß m· Môc NghÜa kÐo 10 v¹n qu©n Liªu nam h¹ sao?
+84	15	1401	110	<color=green>Nh.vô Thiªn M«n trËn<color>: B»ng h÷u kh«ng ph¶i gióp D­¬ng NghiÖp chuyÓn lêi víi <color=yellow>Phß M· Môc NghÜa (193.185)<color> b¶o cã c¬ héi h·y vÒ th¨m mÑ.
+85	15	1401	115	<color=green>Nh.vô Thiªn M«n trËn<color>: B»ng h÷u kh«ng ph¶i ®· høa gióp <color=yellow>Phß M· Môc NghÜa (193.185)<color> t×m <color=yellow>Liªu Th«ng lÖnh (®¸nh S¸t thñ ngo¹i téc) vµ Tèng qu©n qu©n phôc (Tèng qu©n tö sÜ Nh¹n M«n Quan)<color> ®Ó ®­a phß m· vÒ b¶n quèc ®ã sao?
+86	15	1401	120	<color=green>Nh.vô Thiªn M«n trËn<color>: B»ng h÷u kh«ng ph¶i ®Õn V­¬ng Kú bé l¹c t×m <color=yellow>Tiªu Thiªn H÷u (194.179)<color> ®Ó n¾m râ tin tøc hay sao?
+87	10	1	25	<color=green>Nh.vô S¬ nhËp<color>: B»ng h÷u kh«ng ph¶i ®· høa víi D· TÈu ®­a th­ cho <color=yellow>KhÊu ChuÈn (177.174)<color> ë BiÖn Kinh, <color=yellow>V­¬ng NghiÖp VÜ (196. 185)<color> ë TuyÒn Ch©u, vµ <color=yellow>Ph¹m Träng Yªm (195.182)<color> ë Nam Thµnh §« ®ã sao?
+88	10	110	1	<color=green>Nh.vô KhÊu ChuÈn<color>: B»ng h÷u kh«ng ph¶i ®Õn Thiªn Ba D­¬ng Phñ gÆp <color=yellow>Xa Th¸i Qu©n (191.196)<color>, t×m hiÓu t¹i sao gÇn ®©y BiÖn Kinh kh«ng yªn b×nh ®ã sao?
+89	10	110	2	<color=green>Nh.vô KhÊu ChuÈn<color>: B»ng h÷u kh«ng ph¶i gióp <color=yellow>Xa Th¸i Qu©n (191.196)<color> trõng trÞ 20 tªn L­u manh ë ngoµi thµnh, vµ mang 10 b×nh Thiªu töu ñy l¹o qu©n sÜ ®ã sao?
+90	10	110	3	<color=green>Nh.vô KhÊu ChuÈn<color>: B»ng h÷u ®· gióp <color=yellow>Xa Th¸i Qu©n (191.196)<color> trõng trÞ xong L­u manh ngoµi thµnh, cßn 10 b×nh Thiªu Töu n÷a? NÕu ®ñ råi, h·y vÒ gÆp Th¸i qu©n.
+91	10	110	4	<color=green>Nh.vô KhÊu ChuÈn<color>: B»ng h÷u kh«ng ph¶i gióp <color=yellow>Xa Th¸i Qu©n (191.196)<color> th¸m thÝnh tin tøc sao? H·y ®i gi¸o huÊn <color=yellow>10 tªn C«n ®å<color>.
+92	10	110	5	<color=green>Nh.vô KhÊu ChuÈn<color>: B»ng h÷u ®· gióp <color=yellow>Xa Th¸i Qu©n (191.196)<color> th¸m thÝnh tin tøc cña C«n ®å ngoµi thµnh, h·y mau vÒ gÆp th¸i qu©n.
+93	10	110	6	<color=green>Nh.vô KhÊu ChuÈn<color>: B»ng h÷u kh«ng ph¶i gióp <color=yellow>Xa Th¸i Qu©n (191.196)<color> gÆng hái C«n ®å ngoµi thµnh råi ®ã sao? H·y mang vÒ <color=yellow>5 lêi khai cña C«n ®å<color>.
+94	10	110	7	<color=green>Nh.vô KhÊu ChuÈn<color>:B»ng h÷u kh«ng ph¶i ®Õn H¹nh Hoa Th«n t×m gÆp danh y BiÖn Kinh B¸ch Th¶o ¤ng sao? NÕu kh«ng thÊy, h·y t×m con g¸i cña tiªn sinh lµ <color=yellow>B¸ch Thóy B×nh (175.189)<color> hái th¨m.
+95	10	110	8	<color=green>Nh.vô KhÊu ChuÈn<color>: B»ng h÷u kh«ng ph¶i gióp <color=yellow>B¸ch Thóy B×nh (175.189)<color> t×m <color=yellow>5 tæ ong (Ong vµng H¹nh Hoa Th«n), 5 C¸t c¸nh (tõ thá rõng ngoµi thµnh hoÆc kü n¨ng sèng h¸i thuèc)<color> ®ã sao?
+96	10	110	9	<color=green>Nh.vô KhÊu ChuÈn<color>: B»ng h÷u kh«ng ph¶i gióp <color=yellow>B¸ch Thóy B×nh (175.189)<color> t×m <color=yellow>10 No·n trïng (tõ ThiÕt gi¸p trïng ë H¹nh Hoa th«n)<color> ®ã sao?
+97	10	110	10	<color=green>Nh.vô KhÊu ChuÈn<color>: B»ng h÷u kh«ng ph¶i gióp <color=yellow>B¸ch Thóy B×nh<color> dïng MÞch T«ng Cæ t×m tung tÝch B¸ch Th¶o ¤ng ®ã sao? <color=yellow>(®Õn H¹nh Hoa Th«n, nhÊn chuét ph¶i vµo MÞch T«ng Cæ sÏ xuÊt hiÖn täa ®é B¸ch Th¶o ¤ng)<color>
+98	10	110	11	<color=green>Nh.vô KhÊu ChuÈn<color>: B»ng h÷u ®· biÕt n¬i giam gi÷, h·y mau ®i ®¸nh b¹i Tiªu Hµn (183.170), cøu B¸ch Th¶o ¤ng!
+99	10	110	12	<color=green>Nh.vô KhÊu ChuÈn<color>: B»ng h÷u ®· gi¶i tho¸t xong, h·y xem B¸ch Th¶o ¤ng nãi chuyÖn g×
+100	10	110	13	<color=green>Nh.vô KhÊu ChuÈn<color>: VÒ gÆp <color=yellow>KhÊu ChuÈn (177.174)<color> xem xem mËt th­ cña Tiªu Hµn nãi g×
+101	10	111	101	<color=green>Nh.vô KhÊu ChuÈn<color>: §i hái th¨m <color=yellow>TriÖu Diªn Niªn (161.179)<color> chuyÖn cña Tr­êng Ca M«n, nh©n tiÖn nãi vÒ mËt th­ cña Thiªn ¢m Gi¸o.
+102	10	110	102	<color=green>Nh.vô KhÊu ChuÈn<color>: B»ng h÷u cßn kh«ng mau b¸o tin cho ng­êi cña Tr­êng Ca M«n biÕt viÖc liªn quan ®Õn Thiªn ¢m Gi¸o, <color=yellow>H¹ HÇu CÇm (223.196) ë D­¬ng Ch©u<color>, <color=yellow>C«ng T«n Th­ ë T­¬ng D­¬ng (191.182)<color>, <color=yellow>Gia C¸t Kú ë Nam Thµnh §« (197.197)<color>.
+103	10	140	1	<color=green>Nh.vô C«ng T«n Th­<color>:B»ng h÷u kh«ng ph¶i ®i T­¬ng D­¬ng b¸o cho<color=yellow>C«ng T«n Th­ (191.182)<color> biÕt viÖc liªn quan ®Õn mËt th­ cña Thiªn ¢m Gi¸o ®ã sao?
+104	10	140	2	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i ®· høa gióp <color=yellow>C«ng T«n Th­ (191.182)<color> göi th­ cho <color=yellow>Ch­ëng m«n Vâ §ang Tö H¹c Ch©n Nh©n (228.207)<color> ®ã sao?
+105	10	140	3	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i ®· høa gióp <color=yellow>Ch­ëng m«n Vâ §ang Tö H¹c Ch©n Nh©n (228.207) t×m th­ kiÕm nhÞ ®ång ®ã sao? Linh B¶o s¬n lµ con ®­êng thiÕt yÕu ®i lªn ThiÕu L©m, h·y ®Õn ®ã xem thÕ nµo
+106	10	140	4	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i ®· høa gióp <color=yellow>Th­ kiÕm nhÞ ®ång (227.217)<color> trªn Linh B¶o s¬n nãi t×nh h×nh hiÖn t¹i cho s­ phô lµ <color=yellow>Tö H¹c Ch©n Nh©n (228.207)<color> nghe ®ã sao?
+107	10	140	5	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i ®· høa víi <color=yellow>Tö H¹c Ch©n Nh©n (228.207)<color> ®¸nh b¹i hæ d÷ trªn Linh B¶o s¬n, mang vÒ 10 Hæ cèt ®ã sao?
+108	10	140	6	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· thu thËp ®ñ 10 khóc x­¬ng hæ, sao vÉn ch­a vÒ gÆp <color=yellow>Tö H¹c Ch©n Nh©n (228.207)<color> vËy?
+109	10	140	7	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· cã ®­îc thuèc trÞ néi th­¬ng, h·y mau ®i Linh B¶o s¬n,  trÞ th­¬ng cho <color=yellow>Th­ kiÕm nhÞ ®ång (227.217)<color>.
+110	10	140	8	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i vÒ Vâ §ang, nãi cho <color=yellow>Tö H¹c Ch©n Nh©n (228.207)<color> biÕt nguyªn nh©n xung ®ét gi÷a NhÞ §ång vµ LiÖp Hé ®ã sao?
+111	10	140	9	<color=green>Nh.vô C«ng T«n Th­<color>:B»ng h÷u kh«ng ph¶i b¸o cho <color=yellow>C«ng T«n Th­ (191.182)<color> biÕt tin Th­ KiÕm NhÞ §ång ®· nghe ®­îc ®ã sao?
+112	10	140	10	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i ®· høa víi <color=yellow>C«ng T«n Th­ (191.182)<color> dß xem thùc h­ cña thî s¨n ®ã sao? §¸nh b¹i thî s¨n, cã thÓ t×m thÊy manh mèi vÒ vô c­íp tiªu.
+113	10	140	11	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u lÊy ®­îc tiªu kú trªn ng­êi thî s¨n, h·y mau ®­a cho <color=yellow>C«ng T«n Th­<color> xem.
+114	10	140	12	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i nhËn lêi gióp <color=yellow>C«ng T«n Th­ (191.182) ë T­¬ng D­¬ng<color> ®i gi¸o huÊn thî s¨n, mang vÒ <color=yellow>10 mãn hµng ®· mÊt<color> ®ã sao?
+115	10	140	13	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· thu thËp ®ñ hµng, h·y mau vÒ gÆp <color=yellow>C«ng T«n Th­ (191.182)<color>.
+116	10	140	14	<color=green>Nh.vô C«ng T«n Th­<color>: Sè hµng ®ã ®· bÞ Mé TuyÕt S¬n Trang c­íp mÊt, B»ng h÷u kh«ng ph¶i ®­a nã cho <color=yellow>Tö H¹c Ch©n Nh©n (228.207)<color> x¸c nhËn sao?
+117	10	140	15	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u muèn trµ trén vµo Mé TuyÕt s¬n trang, cÇn ph¶i biÕt ¸m hiÖu, h·y ®i gi¸o huÊn <color=yellow>Mé TuyÕt KiÕm Kh¸ch vµ Mé TuyÕt Th­¬ng Kh¸ch<color> xem xem cã thÓ t×m ra ¸m hiÖu kh«ng (phÝa T©y B¾c Vâ §ang ph¸i)
+118	10	140	16	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· hái ra ¸m hiÖu cña tæ chøc Mé TuyÕt s¬n trang, h·y mau t×m Gia ®inh (204.192) ®Ó trµ trén vµo s¬n trang.
+119	10	140	17	<color=green>Nh.vô C«ng T«n Th­<color>: ¸m hiÖu vÉn ch­a ®ñ, cßn ph¶i cã lÖnh bµi, h·y ®¸nh b¹i <color=yellow>Mé tuyÕt KiÕm Kh¸ch vµ Mé tuyÕt th­¬ng kh¸ch<color>.(Mé tuyÕt s¬n trang ë phÝa T©y B¾c Vâ §ang ph¸i)
+120	10	140	18	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· lÊy ®­îc lÖnh bµi Mé TuyÕt s¬n trang, h·y mau ®i t×m <color=yellow>Kim Phông (186.183)<color>.
+121	10	140	19	<color=green>Nh.vô C«ng T«n Th­<color>: Qu¶ nhiªn Mé TuyÕt s¬n trang ®· ¨n trém b¶o vËt cña Vâ §ang, b»ng h÷u h·y mau th«ng b¸o cho <color=yellow>Tö H¹c Ch©n Nh©n (228.207)<color> biÕt.
+122	10	140	20	<color=green>Nh.vô C«ng T«n Th­<color>: Chñ m­u lÊy b¶o vËt lµ Ng©n Hå th× ra Èn nÊp ë ThÊt Tinh ®éng (228.188), b»ng h÷u h·y ®i b¾t vÒ.
+123	10	140	21	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· ®¸nh b¹i Ng©n Hå, h·y mau vÒ gÆp <color=yellow>Tö H¹c Ch©n Nh©n (228.207)<color>.
+124	10	140	22	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i ®Õn T­¬ng D­¬ng gÆp <color=yellow>C«ng T«n Th­ (191.182)<color> ®Ó nhËn d¹ng thÎ bµi ®ã sao?
+125	10	140	23	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i míi ®Õn Mé TuyÕt s¬n trang t×m <color=yellow>Kim Phông (186.183)<color> th¸m thÝnh tin t×nh b¸o liªn quan qu©n T©y H¹ ®ã sao?
+126	10	140	24	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· bÞ lé th©n phËn, hiÖn giê chØ cßn c¸ch giao chiÕn víi <color=yellow>Kim Phông (186.183)<color>
+127	10	140	25	<color=green>Nh.vô C«ng T«n Th­<color>: õ, B»ng h÷u ®· cã mËt th­, sao vÉn ch­a ®Õn KiÕm M«n Quan ®­a cho <color=yellow>Th¸c B¹t Kú (164.187)<color>?
+128	10	140	26	<color=green>Nh.vô C«ng T«n Th­<color>: Qu©n tiªn phong cña T©y H¹ ®· ®Õn KiÕm M«n Quan, HiÖn giê ®· gi¶ trang thµnh qu©n Tèng, B»ng h÷u kh«ng ph¶i muèn ®¸nh b¹i chóng sao? H·y mau ®i tiªu diÖt 20 tªn qu©n T©y H¹ gi¶ d¹ng thµnh <color=yellow>Tèng qu©n tö sÜ vµ Tèng ®ao binh<color>.
+129	10	140	28	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· tiªu diÖt qu©n tiªn phong T©y H¹, h·y mau ®Õn T­¬ng D­¬ng gÆp <color=yellow>C«ng T«n Th­ (191.182)<color> th«ng b¸o t×nh h×nh.
+130	10	140	29	<color=green>Nh.vô C«ng T«n Th­<color>: NÕu b»ng h÷u lÊy ®­îc trËn ®å xuÊt qu©n T©y H¹ lÇn nµy th× qu©n Tèng sÏ dÔ dµng giµnh chiÕn th¾ng, h·y mau ®Õn KiÕm M«n Quan, nghÜ c¸ch lÊy trËn ®å qu©n T©y H¹ tõ <color=yellow>Tèng qu©n tö sÜ vµ Tèng ®ao binh<color> gi¶ d¹ng.
+131	10	140	30	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· lÊy ®­îc Bè trËn ®å T©y H¹, h·y mau vÒ gÆp <color=yellow>C«ng T«n Th­ (191.182)<color>
+132	10	140	31	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i nhËn lêi víi <color=yellow>C«ng T«n Th­ (191.182)<color> ®i thÝch s¸t 3 tªn T©y H¹ T­íng LÜnh ®ã sao?
+133	10	140	32	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· tiªu diÖt 3 tªn T©y H¹ t­íng lÜnh, h·y mau vÒ gÆp <color=yellow>C«ng T«n Th­ (191.182)<color>.
+134	10	140	33	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i ®Õn KiÕm C¸c Thôc §¹o ®Ó ph¸ nhuÖ khÝ T©y H¹ nhÊt phÈm ®­êng sao? §ao TuyÖt, KiÕm Cuång lµ mét trong sè ®ã. H·y ®i lÊy 10 NhÊt PhÈm bµi vÒ cho <color=yellow>C«ng T«n Th­<color>.
+135	10	140	34	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· thu thËp ®ñ 10 NhÊt phÈm bµi, h·y mau vÒ gÆp <color=yellow>C«ng T«n Th­<color>.
+136	10	140	35	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u h·y ®Õn KiÕm M«n Quan t×m <color=yellow>Th¸c B¹t Kú (164.187)<color>, lµm theo kÕ cña C«ng T«n Th­.
+137	10	140	36	<color=green>Nh.vô C«ng T«n Th­<color>: Kh«ng ngê mét trong 10 ®¹i Kim Cang cña nhÊt phÈm ®­êng ®· ®Õn Trung Nguyªn, b»ng h÷u h·y mau ®Õn KiÕm C¸c Thôc §¹o, ®¸nh b¹i Gia LuËt B¸ Nham (188.200).
+138	10	140	37	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· ®¸nh b¹i Gia LuËt B¸ Nham råi ­? H·y mau vÒ gÆp <color=yellow>C«ng T«n Th­ (191.182)<color>.
+139	10	140	38	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i ®Õn §­êng M«n gÆp <color=yellow>§éc Si (199.176)<color> ®Ó nhËn diÖn d­îc liÖu trong b×nh sø sao?
+140	10	140	39	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i høa gióp <color=yellow>§éc Si (199.176)<color> t×m 10 Mª hån h­¬ng (tõ N÷ HiÖp Kh¸ch ë Tróc Ty ®éng), 10 Hoµng liªn (tõ kü n¨ng canh t¸c), 5 NhiÔu minh ®Ëu (tõ kü n¨ng canh t¸c) ®ã sao?
+141	10	140	40	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· kiÕm ®ñ Mª hån h­¬ng, cßn 10 Hoµng liªn (tõ kü n¨ng canh t¸c), 5 NhiÔu minh ®Ëu (tõ kü n¨ng canh t¸c) khi nµo ®ñ, h·y ®Õn §­êng M«n gÆp <color=yellow>§éc Si (199.176)<color>.
+142	10	140	41	<color=green>Nh.vô C«ng T«n Th­<color>: <color=yellow>§éc Si (199.176)<color> nãi thuèc gi¶i ch¾c ch¾n ë trªn ng­êi bá ®éc, h·y mau ®Õn KiÕm C¸c Thôc §¹o nghÜ c¸ch ®¸nh b¹i §ao tuyÖt, KiÕm cuång.
+143	10	140	42	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· t×m ®­îc thuèc gi¶i Bi t« thanh phong, h·y mau vÒ gÆp <color=yellow>C«ng T«n Th­ (191.182)<color>.
+144	10	140	43	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i ®Õn KiÕm C¸c Thôc §¹o tiªu hñy 5 r­¬ng ®éc d­îc cña qu©n T©y H¹ ®ã sao? Sao cßn ë ®©y!
+145	10	140	44	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· tiªu hñy r­¬ng ®éc d­îc, cßn kh«ng mau vÒ gÆp <color=yellow>C«ng T«n Th­ (191.182)<color>.
+146	10	140	45	<color=green>Nh.vô C«ng T«n Th­<color>: Kh«ng ngê giÆc Liªu khiªu khÝch ng­êi T©y H¹ tÊn c«ng §¹i Tèng ta. B»ng h÷u h·y ®Õn Phôc Ng­u s¬n t×m  <color=yellow>®¸m S¬n tÆc (169.166)<color> dß la tin tøc.
+147	10	140	46	<color=green>Nh.vô C«ng T«n Th­<color>: Th× ra muèn <color=yellow>L¹c ph¸ch s¬n tÆc (169.166)<color> hîp t¸c, tr­íc ph¶i b¸o thï cho hä tr­íc. B»ng h÷u h·y ®i tiªu diÖt 15 tªn Liªu th­¬ng qu©n, 15 tªn Liªu §ao binh, 15 tªn Liªu tiÔn binh.
+148	10	140	47	<color=green>Nh.vô C«ng T«n Th­<color>: Th× ra muèn <color=yellow>L¹c ph¸ch s¬n tÆc (169.166)<color> hîp t¸c, tr­íc ph¶i b¸o thï cho hä tr­íc. B»ng h÷u h·y ®i tiªu diÖt 15 tªn Liªu th­¬ng qu©n, 15 tªn Liªu §ao binh, 15 tªn Liªu tiÔn binh.
+149	10	140	48	<color=green>Nh.vô C«ng T«n Th­<color>: Th× ra muèn <color=yellow>L¹c ph¸ch s¬n tÆc (169.166)<color> hîp t¸c, tr­íc ph¶i b¸o thï cho hä tr­íc. B»ng h÷u h·y ®i tiªu diÖt 15 tªn Liªu th­¬ng qu©n, 15 tªn Liªu §ao binh, 15 tªn Liªu tiÔn binh.
+150	10	140	49	<color=green>Nh.vô C«ng T«n Th­<color>: Th× ra muèn <color=yellow>L¹c ph¸ch s¬n tÆc (169.166)<color> hîp t¸c, tr­íc ph¶i b¸o thï cho hä tr­íc. B»ng h÷u h·y ®i tiªu diÖt 15 tªn Liªu th­¬ng qu©n, 15 tªn Liªu §ao binh, 15 tªn Liªu tiÔn binh.
+151	10	140	50	<color=green>Nh.vô C«ng T«n Th­<color>: Kh«ng ngê, Phôc Ng­u s¬n cã ®¸m tµ t¨ng T©y h¹, dïng tµ ph¸p h¹i ng­êi, b»ng h÷u h·y ®Õn Vâ §ang gÆp <color=yellow>Tö H¹c Ch©n Nh©n (228.207)<color> xem cã c¸ch g× ph¸ gi¶i kh«ng
+152	10	140	51	<color=green>Nh.vô C«ng T«n Th­<color>: Muèn ph¸ gi¶i tµ ph¸p, ph¶i t×m 10 h¾c s¾c thiªn nh·n ch©u (tõ tµ t¨ng Phôc Ng­u s¬n), 5 chÐn h¾c khuyÓn linh huyÕt (C«n ®å ngoµi thµnh) cho <color=yellow>Tö H¹c Ch©n Nh©n (228.207)<color>, b»ng h÷u cßn kh«ng mau ®Õn ®ã.
+153	10	140	52	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· thu thËp ®ñ H¾c s¾c thiªn nh·n ch©u, kh«ng biÕt H¾c khuyÓn linh huyÕt (tõ C«n ®å ngoµi thµnh) kiÕm ®ñ ch­a, NÕu ®ñ råi, h·y mau lªn Vâ §ang gÆp <color=yellow>Tö H¹c Ch©n Nh©n (228.207)<color>.
+154	10	140	53	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u nhËn ®­îc Thiªn linh ph¸ tµ ch©u, h·y mau t×m <color=yellow>L¹c ph¸ch S¬n tÆc (169.166)<color> ®Ó gi¶i cøu huynh ®Ö h¾n.
+155	10	140	54	<color=green>Nh.vô C«ng T«n Th­<color>: L¹c ph¸ch S¬n tÆc ®· vÏ xong ®Þa ®å Phôc Ng­u S¬n vµ b¶n ®å bè trÝ qu©n Liªu, b»ng h÷u h·y mau ®Õn T­¬ng D­¬ng gÆp <color=yellow>C«ng T«n Th­ (191.182)<color> bµn ®èi s¸ch.
+156	10	144	1	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u muèn ph¸ gi¶i tµ ph¸p cña tµ t¨ng, xem ra ph¶i lªn Vâ §ang gÆp <color=yellow>Tö H¹c Ch©n Nh©n (228.207)<color> bµn c¸ch ®èi phã.
+157	10	144	2	<color=green>Nh.vô C«ng T«n Th­<color>: <color=yellow>Tö H¹c Ch©n Nh©n (228.207)<color> nãi muèn ph¸ gi¶i tµ ph¸p, ph¶i t×m 10 HuyÒn H¹c Linh huyÕt (tõ thî s¨n NhÞ Long S¬n), 10 BÝch HuyÕt Sa (tõ M·ng KhÊu ë H¾c Phong §éng L­¬ng S¬n B¹c), b»ng h÷u sao cßn ch­a ®i.
+158	10	144	3	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u ®· cã Ph¸ chó thñy, h·y mau ®Õn Phôc Ng­u S¬n ®¸nh b¹i 3 tªn Tµ t¨ng thñ lÜnh - <color=yellow>T©y H¹ ph¸p s­ (180.196; 169.193; 181.187)<color>.
+159	10	141	1	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i ®Õn T­¬ng D­¬ng gÆp <color=yellow>QuËn Thó (190.187)<color> ®Ó th­¬ng nghÞ viÖc c«ng ®¸nh dinh tr¹i qu©n Liªu ®ã sao?
+160	10	141	2	<color=green>Nh.vô C«ng T«n Th­<color>: B»ng h÷u kh«ng ph¶i lªn Phôc Ng­u S¬n ®Ó tiªu hñy <color=yellow>2 LÇu canh qu©n Liªu (193.190; 169.178)<color> sao?
+161	10	141	3	<color=green>Nh.vô C«ng T«n Th­<color>:B»ng h÷u ®· ph¸ hñy 2 c¸i th¸p canh, h·y mau ®Õn T­¬ng D­¬ng gÆp <color=yellow>QuËn Thó (190.187)<color>.
+162	10	141	4	<color=green>Nh.vô C«ng T«n Th­<color>: ChØ cÇn ®èt s¹ch l­¬ng th¶o, qu©n Liªu sÏ kh«ng ®¸nh ®· thua, b»ng h÷u mau ®Õn Phôc Ng­u S¬n ®èt s¹ch l­¬ng th¶o (192.167).
+163	10	140	56	<color=green>Nh.vô C«ng T«n Th­<color>: Cuèi cïng ®¸nh lui ®­îc qu©n Liªu vµ T©y H¹, b»ng h÷u cã c«ng rÊt lín, h·y mau vÒ gÆp <color=yellow>C«ng T«n Th­ (191.182)<color>.
+164	10	140	57	<color=green>Nh.vô C«ng T«n Th­<color>: Th× ra tÊt c¶ ®Òu lµ do b¶n S¬n Hµ X· T¾c, h·y lªn Phôc Ng­u S¬n t×m <color=yellow>L¹c ph¸ch S¬n tÆc(169.166)<color> hái râ viÖc nµy.
+165	10	140	58	<color=green>Nh.vô C«ng T«n Th­<color>: §i <color=yellow>Long Hæ §éng ë Phôc Ng­u s¬n<color> t×m <color=yellow>§Çu lÜnh S¬n tÆc (187.207)<color> cã ë ®ã kh«ng!
+166	10	121	101	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u kh«ng ph¶i høa gióp Ph¹m Träng Yªm (195.182) ®Õn §­êng M«n gÆp <color=yellow>§­êng Kþ (202.171)<color> lÊy Lang Cèt töu ®ã sao?
+167	10	121	102	<color=green>Nh.vô Ph¹m Träng Yªm<color>: Kh«ng ngê §­êng Kþ ®· quªn, b»ng h÷u h·y gióp t×m <color=yellow>10 Thanh Lang cèt, 10 Thæ Lang cèt<color> cho §­êng Kþ.
+168	10	121	103	<color=green>Nh.vô Ph¹m Träng Yªm<color>: ChØ cã Thanh Lang cèt ch­a ®ñ, b»ng h÷u h·y nghÜ c¸ch ®¸nh b¹i c­êng tÆc B¸ch NhËt TiÔn lÊy vÒ <color=yellow>8 ®ãa Tö Tinh hoa<color>.
+169	10	122	1	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u ®· lÊy ®­îc Lang cèt töu, h·y mau vÒ Nam Thµnh §« gÆp <color=yellow>Ph¹m Träng Yªm (195.182)<color>.
+170	10	122	2	<color=green>Nh.vô Ph¹m Träng Yªm<color>: <color=yellow>Th¸i Thó Thµnh §« (224.217)<color> cã viÖc ph¶i t×m Ph¹m l·o tiªn sinh nhê b»ng h÷u ®i thay?
+171	10	122	3	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u ®· gÆp Th¸i Thó Thµnh §«, h·y mau vÒ Nam Thµnh §« gÆp<color=yellow>Ph¹m Träng Yªm (195.182)<color>.
+172	10	123	1	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u lªn C¸i Bang th¸m thÝnh tin tøc vÒ b¶n S¬n Hµ X· T¾c, <color=yellow>Hång ThÊt (190.202)<color> lµ ng­êi biÕt rÊt râ, h·y mau ®i hái.
+173	10	123	2	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u kh«ng ph¶i høa gióp Hång ThÊt ®Õn D· Tr­ Th«n hái th¨m <color=yellow>®Ö tö C¸i Bang (212.194)<color> ®ã sao?
+174	10	123	3	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u kh«ng ph¶i høa gióp ®Ö tö C¸i Bang t×m l¹i Hµnh lý bÞ mÊt ®ã sao? GÇn C¸i Bang cã nhiÒu <color=yellow>Trém vÆt vµ Phi tÆc<color> cã lÏ lµ do chóng lÊy.
+175	10	123	4	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u ®· t×m ®­îc gãi ®å, h·y mau vÒ gÆp <color=yellow>®Ö tö C¸i Bang (212.194)<color>.
+176	10	123	5	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u ®· t×m ®­îc ®Ö tö C¸i Bang, h·y vÒ C¸i Bang gÆp <color=yellow>Hång ThÊt (190, 202)<color>.
+177	10	123	6	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u ®­îc Hång ThÊt (190.202) b¸o tin, h·y mau <color=yellow>nhê Hång ThÊt ®­a vÒ Nam Thµnh §«<color> gÆp Ph¹m Träng Yªm (195.182).
+178	10	123	7	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u ®· ®­îc Hång ThÊt ®­a vÒ Thµnh §«, h·y mau ®Õn <color=yellow>Nam Thµnh §« gÆp Ph¹m Träng Yªm (195.182)<color>.
+179	10	150	1	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u kh«ng ph¶i ®Õn Nam Thµnh §« gÇn lèi vµo Giang T©n Th«n t×m <color=yellow>Gia C¸t Kú (197.197)<color> gióp ®ì ®ã sao?
+180	10	150	2	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u kh«ng ph¶i v× muèn gÆp h¶o h¸n cña C¸i Bang lµ TrÇn Phi D­¬ng, ®Þnh ®Õn <color=yellow>Thµnh §«<color> gÆp <color=yellow>N¹n d©n Gi¸p (228.227)<color> ®ã sao? VÉn cßn ë ®©y sao?
+181	10	150	3	<color=green>Nh.vô Ph¹m Träng Yªm<color>: Th× ra muèn N¹n d©n Gi¸p tiÕt lé, b»ng h÷u ph¶i t×m 20 b×nh Thiªu Töu (®¸nh L­u manh ngoµi thµnh).
+182	10	150	4	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u ®­a Thiªu töu cho c¸c N¹n d©n kh¸c ch­a? <color=yellow>N¹n d©n Êt (206.226), N¹n d©n BÝnh (208.218), N¹n d©n §inh (233.214)<color> ®· nhËn ®­îc r­îu ch­a?
+183	10	150	5	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u ®· ®­a r­îu xong, sao vÉn ch­a vÒ Thµnh §« gÆp N¹n d©n Gi¸p (228.227) hái tin tøc vÒ TrÇn Phi D­¬ng.
+184	10	150	6	<color=green>Nh.vô Ph¹m Träng Yªm<color>: Cuèi cïng ®· biÕt ®­îc tung tÝch cña TrÇn Phi D­¬ng, b»ng h÷u mau ®Õn <color=yellow>KiÕm C¸c Thôc §¹o<color> (160.184).
+185	10	150	7	<color=green>Nh.vô Ph¹m Träng Yªm<color>: TrÇn Phi D­¬ng bÞ néi th­¬ng, ®Ó trÞ th­¬ng, xem ra b»ng h÷u ph¶i ®i t×m <color=yellow>10 hæ cèt<color>. (®¸nh Hæ d÷ ë Linh B¶o S¬n, ThiÕu L©m)
+186	10	150	8	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u kh«ng ph¶i ®· nhËn lêi gióp TrÇn Phi D­¬ng ®Õn Kim Quang §éng ®o¹t l¹i ph¸p khÝ ®­a cho <color=yellow>Gia C¸t Kú (197.197)<color> ë Nam Thµnh §« ®ã sao?
+187	10	150	9	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u kh«ng ph¶i høa gióp Gia C¸t Kú thu phôc <color=yellow>25 Oan hån Hñ Thi vµ 15 Oan hån Hµnh thi<color> ®ã sao?
+188	10	150	10	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u kh«ng ph¶i lªn ThiÕu L©m gÆp Cao t¨ng nhê gióp siªu ®é cho nh÷ng ng­êi d©n Giang T©n th«n ®ã sao? Nghe nãi <color=yellow>V« Danh T¨ng (209.109)<color> cña ThiÕu L©m phËt ph¸p tinh th©m, b»ng h÷u h·y ®Õn thØnh gi¸o xem sao!
+189	10	150	11	<color=green>Nh.vô Ph¹m Träng Yªm<color>: §Ó siªu ®é ng­êi d©n Giang T©n th«n, cÇn cã 1 sè di vËt. B»ng h÷u kh«ng ph¶i ®Õn Giang T©n Th«n t×m <color=yellow>5 ®ãa Väng Giang Hång<color> ®ã sao?
+190	10	150	12	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u kh«ng ph¶i ®ang chê §¹i s­ V« Danh T¨ng (209, 109) lÊy Táa Yªu Chung cho m­în ®ã sao? H·y mau xem ®¹i s­ lÊy vÒ ch­a?
+191	10	150	13	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u ®· siªu ®é ng­êi d©n Giang T©n Th«n, h·y mau vÒ Nam Thµnh §« gÆp <color=yellow>Gia C¸t Kú (197.197)<color>.
+192	10	150	14	<color=green>Nh.vô Ph¹m Träng Yªm<color>: §Ó ®äc ®­îc néi dung mËt th­ cña TrÇn Phi D­¬ng, b»ng h÷u mau ®Õn Giang T©n th«n lÊy vÒ <color=yellow>4 sîi l«ng Qu¹ ®en<color> (ë ThÊt Tinh §éng Vâ §ang còng cã)
+193	10	150	15	<color=green>Nh.vô Ph¹m Träng Yªm<color>: Kh«ng ngê vËt quan träng cña TrÇn Phi D­¬ng ®· bÞ bän ng­êi ¤ M«ng Bé ®o¹t lÊy, b»ng h÷u h·y mau ®Õn <color=yellow>¤ M«ng Bé ë phÝa nam §­êng M«n<color> gÆp <color=yellow>ThiÕu n÷ ¤ M«ng Bé, ¤ M«ng Téc Nh©n vµ ¤ M«ng dòng sÜ<color> ®ßi l¹i.
+194	10	150	16	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u kh«ng ph¶i ®· t×m ®­îc bøc th­ ®ã sao? VÉn cßn 4 trang th­ ch­a t×m ®­îc, h·y tiÕp tôc lªn <color=yellow>¤ M«ng Bé ë phÝa nam §­êng M«n<color> gÆp <color=yellow>ThiÕu n÷ ¤ M«ng Bé, ¤ M«ng Téc Nh©n vµ ¤ M«ng dòng sÜ<color> ®ßi l¹i.
+195	10	150	17	<color=green>Nh.vô Ph¹m Träng Yªm<color>: Th× ra lµ th­ ®iÒu tra th©n thÕ TrÇn Phi D­¬ng, b»ng h÷u h·y mau lªn <color=yellow>L­¬ng S¬n B¹c gÆp Tèng Giang (189.172)<color> hái cho cÆn kÎ.
+196	10	150	18	<color=green>Nh.vô Ph¹m Träng Yªm<color>: B»ng h÷u muèn Tèng Giang tiÕt lé, xem ra ph¶i ®¸nh b¹i 3 vÞ h¶o h¸n bªn c¹nh Tèng Giang (189.172) lµ <color=yellow>Tèng V¹n, Lý LËp, Cè §¹i TÈu<color>.
+197	10	150	20	<color=green>Nh.vô Ph¹m Träng Yªm<color>: Tèng Giang nghi ngê TrÇn Phi D­¬ng ®· tiÕt lé bÝ mËt liÖn quan ®Õn b¶n S¬n Hµ X· T¾c, b»ng h÷u h·y lªn ThiÕu L©m gÆp <color=yellow>HuyÒn Tõ Ph­¬ng Tr­îng (199.198)<color> hái vÒ chuyÖn cña TrÇn Phi D­¬ng.
+198	10	150	21	<color=green>Nh.vô Ph¹m Träng Yªm<color>: TrÇn Phi D­¬ng th­êng ®Õn ThiÕu L©m mËt thÊt? B»ng h÷u sao kh«ng ®Õn ®ã xem xem cã thÓ t×m thÊy manh mèi tõ <color=yellow>§ång nh©n<color> kh«ng
+199	10	150	22	<color=green>Nh.vô Ph¹m Träng Yªm<color>: §¸nh b¹i §ång nh©n nhËn ®­îc nh÷ng m¶nh vì cã ghi ch÷, e r»ng chØ cã <color=yellow>Gia C¸t Kú (197.197)<color> míi nhËn ra, b»ng h÷u h·y vÒ gÆp l·o tiÒn bèi!
+200	10	150	23	<color=green>Nh.vô Ph¹m Träng Yªm<color>: Gia C¸t Kú (197.197) ®ang ®ãi, xem ra b»ng h÷u ph¶i t×m <color=yellow>2 dÜa m¨ng xµo vµ 4 c¸i b¸nh Ng«<color>. (Kü n¨ng nÊu n­íng vµ kü n¨ng giang hå)
+201	10	150	24	<color=green>Nh.vô Ph¹m Träng Yªm<color>: Kh«ng ngê <color=yellow>TrÇn Phi D­¬ng (160.184)<color> cÊu kÕt víi T©y H¹, b»ng h÷u h·y thö anh ta xem ph¶n øng nh­ thÕ nµo!
+202	10	150	25	<color=green>Nh.vô Ph¹m Träng Yªm<color>: Kh«ng ngê  TrÇn Phi D­¬ng lµ néi gi¸n cña T©y H¹, tr­íc m¾t b»ng h÷u h·y h¹ <color=yellow>10 tªn §ao tuyÖt vµ 8 tªn KiÕm cuång<color>.
+203	10	150	30	<color=green>Nh.vô Ph¹m Träng Yªm<color>: ¤i, thËt tiÕc cho TrÇn Phi D­¬ng c¶ ®êi hµnh hiÖp, b»ng h÷u h·y gióp TrÇn Phi D­¬ng göi th­ cho <color=yellow>HuyÒn Tõ Ph­¬ng Tr­îng (199.198)<color>.
+204	10	150	31	<color=green>Nh.vô Ph¹m Träng Yªm<color>: ¤i, thËt tiÕc cho TrÇn Phi D­¬ng c¶ ®êi hµnh hiÖp, b»ng h÷u h·y gióp TrÇn Phi D­¬ng göi th­ cho <color=yellow>Bang chñ C¸i Bang Long T¹i Thiªn (193.198)<color>.
+205	10	150	32	<color=green>Nh.vô Ph¹m Träng Yªm<color>: ViÖc ®· xong, b»ng h÷u h·y mau vÒ Nam Thµnh §« gÆp <color=yellow>Gia C¸t Kú (197.197)<color>.
+206	10	119	6	<color=green>Nh.vô H¹ HÇu CÇm<color>: <color=yellow>H¹ HÇu CÇm (223.197) ë D­¬ng Ch©u<color>, d­êng nh­ cã chuyÖn g×, phiÒn b»ng h÷u ®i hái th¨m.
+207	10	119	7	<color=green>Nh.vô H¹ HÇu CÇm<color>: B»ng h÷u kh«ng ph¶i høa víi H¹ HÇu CÇm ®Õn D­¬ng Ch©u hái ®¹i phu TrÇn MÉn 214.201) chøng bÖnh H¹ HÇu Liªn ®ã sao?
+208	10	119	8	<color=green>Nh.vô H¹ HÇu CÇm<color>: §Ó trÞ bÖnh cho H¹ HÇu Liªn, B»ng h÷u kh«ng ph¶i høa víi <color=yellow>§¹i phu TrÇn MÉn 214.201)<color> t×m <color=yellow>mét hoµng hæ linh cèt<color> ®ã sao? (®¸nh hæ d÷ ë ThiÕu L©m, Linh B¶o S¬n)
+209	10	119	9	<color=green>Nh.vô H¹ HÇu CÇm<color>: B»ng h÷u ®· lÊy ®­îc hoµng hæ linh cèt, h·y mau vÒ gÆp <color=yellow>®¹i phu TrÇn MÉn 214.201)<color>.
+210	10	119	10	<color=green>Nh.vô H¹ HÇu CÇm<color>: B»ng h÷u ®· bµo chÕ xong hoµng cèt linh phÊn, h·y mau t×m <color=yellow>H¹ HÇu Liªn (202.195)<color> khuyªn nµng uèng.
+211	10	119	11	<color=green>Nh.vô H¹ HÇu CÇm<color>: B»ng h÷u ®· ®­a thuèc cho H¹ HÇu CÇm uèng, sÏ mau chãng b×nh phôc, h·y vÒ gÆp <color=yellow>H¹ HÇu CÇm (223.197)<color>.
+212	10	119	13	<color=green>Nh.vô H¹ HÇu CÇm<color>: B»ng h÷u kh«ng ph¶i høa víi H¹ HÇu CÇm ®Õn D­¬ng Ch©u gÆp <color=yellow>Thî rÌn M·nh Nham  (196.196)<color> hái xem t¹i sao gi¸ vò khÝ Giang Nam t¨ng cao?
+213	10	119	14	<color=green>Nh.vô H¹ HÇu CÇm<color>: M·nh Nham  bÞ Ðp lµm vò khÝ, hiÖn giê thiÕu vËt liÖu, xem ra muèn biÕt tin tøc, chØ cßn c¸ch gióp t×m vËt liÖu chÕ t¹o. B»ng h÷u h·y ®Õn <color=yellow>Long TuyÒn th«n ®¸nh b¹i Th¶o KhÊu<color> lÊy vÒ <color=yellow>20 Sinh thiÕt<color>.
+214	10	119	15	<color=green>Nh.vô H¹ HÇu CÇm<color>: Th× ra ng­êi Ðp M·nh Nham rÌn vò khÝ lµ <color=yellow>H­íng Ty Thanh ë Long TuyÒn th«n (167.185)<color> b»ng h÷u h·y ®i hái râ.
+215	10	119	16	<color=green>Nh.vô H¹ HÇu CÇm<color>: H­íng Ty Thanh nãi cã c¸ch trÞ bÖnh H¹ HÇu Liªn, b»ng h÷u h·y ®Õn V©n Méng Tr¹ch (phÝa T©y D­¬ng Ch©u) nghÜ c¸ch tiªu diÖt <color=yellow>Cãc d÷<color> lÊy <color=yellow>3 chÐn thiÒm t«<color>.
+216	10	119	17	<color=green>Nh.vô H¹ HÇu CÇm<color>: B»ng h÷u ®· nhËn ®­îc thuèc gi¶i cña H­íng Ty Thanh, mau vÒ D­¬ng Ch©u gÆp <color=yellow>®¹i phu TrÇn MÉn 214.201)<color> kiÓm tra xem cã vÊn ®Ò kh«ng
+217	10	119	18	<color=green>Nh.vô H¹ HÇu CÇm<color>: §¹i phu TrÇn MÉn ®· kiÓm tra thuèc gi¶i kh«ng cã vÊn ®Ò, b»ng h÷u h·y ®i hái <color=yellow>H¹ HÇu CÇm (223.197)<color> nghÜ thÕ nµo?
+218	10	119	19	<color=green>Nh.vô H¹ HÇu CÇm<color>: H¹ HÇu CÇm ®· ®ång ý, b»ng h÷u mau ®­a Thiªn thiÒm hoa ®éc cao cho <color=yellow>H¹ HÇu Liªn (202.195)<color> uèng.
+219	10	119	20	<color=green>Nh.vô H¹ HÇu CÇm<color>: Sau khi H¹ HÇu Liªn uèng thuèc gi¶i cã ph¶n øng g× h·y th«ng b¸o cho <color=yellow>H¹ HÇu CÇm (223.197)<color> biÕt ®Ó yªn t©m phÇn nµo, nh©n tiÖn xem cßn cã viÖc g× n÷a kh«ng
+220	10	119	21	<color=green>Nh.vô H¹ HÇu CÇm<color>: L«i Th¾ng, Xi Háa gi¸o ®Çu môc n­¬ng nhê Tr­êng Ca m«n, bÞ truy s¸t, hiÖn t¹i ®ang Èn nÊp ë Long TuyÒn th«n trong Thanh Khª §éng <color=yellow>täa ®é (231.180)<color>, b»ng h÷u h·y mau ®Õn cøu.
+221	10	119	22	<color=green>Nh.vô H¹ HÇu CÇm<color>: Kh«ng ngê L«i Th¾ng vÉn ch­a tõ bá thñ ®o¹n th©m ®éc, b»ng h÷u mau vÒ D­¬ng Ch©u gÆp <color=yellow>H¹ HÇu CÇm (223.197)<color>. §¸nh b¹i L«i Th¾ng t×m ®­îc <color=yellow>mËt th­ vµ kim ch©m<color> cã thÓ lµ manh mèi 
+222	10	119	23	<color=green>Nh.vô H¹ HÇu CÇm<color>: Trªn ng­êi L«i Th¾ng cßn cã vËt quan träng, b»ng h÷u h·y quay trë l¹i Thanh Khª §éng lôc so¸t <color=yellow>thi thÓ (231.180)<color>.
+223	10	119	24	<color=green>Nh.vô H¹ HÇu CÇm<color>: Nöa tÊm b¶n ®å bªn ph¶i ®· bÞ Thiªn ¢m vâ sÜ ®o¹t mÊt, b»ng h÷u h·y mau ®Õn Thanh Khª §éng ®¸nh b¹i <color=yellow>Thiªn ¢m vâ sÜ<color> lÊy l¹i.
+224	10	119	25	<color=green>Nh.vô H¹ HÇu CÇm<color>: Cuèi cïng ®· t×m ®ñ tÊm b¶n ®å, b»ng h÷u h·y ®Õn T¹p hãa mua Cuèc, sau ®ã ®Õn <color=yellow>miÕu thê trªn Vò Di S¬n (167.195)<color> ®µo thö xem!
+225	10	119	26	<color=green>Nh.vô H¹ HÇu CÇm<color>: B»ng h÷u ®· t×m ®­îc thÇn bÝ b¶o vËt, h·y mau vÒ D­¬ng Ch©u gÆp <color=yellow>H¹ HÇu CÇm (223.197)<color>.
+226	10	119	27	<color=green>Nh.vô H¹ HÇu CÇm<color>: B»ng h÷u kh«ng ph¶i høa gióp H¹ HÇu CÇm (223.197) mang thÇn bÝ b¶o vËt giao cho <color=yellow>§­êng Ninh trªn Vò Di s¬n (177.183)<color> ®ã sao?
+227	10	119	28	<color=green>Nh.vô H¹ HÇu CÇm<color>: B»ng h÷u ®· giao thÇn bÝ b¶o vËt cho §­êng Ninh, h·y mau vÒ D­¬ng Ch©u gÆp <color=yellow>H¹ HÇu CÇm (223.197)<color> b¸o tin.
+228	10	147	1	<color=green>Nh.vô H¹ HÇu CÇm<color>: Phi béc kim ch©m nµy th× ra lµ cña §­êng M«n. H·y ®Õn §­êng M«n thØnh gi¸o <color=yellow>§­êng M«n L·o L·o (199.176)<color>.
+229	10	147	2	<color=green>Nh.vô H¹ HÇu CÇm<color>: §­êng M«n L·o L·o tuy ®· høa gióp ®iÒu tra, nh­ng b»ng h÷u còng ph¶i t×m <color=yellow>20 Bß c¹p vÜ ch©m<color> chø (®¸nh Bß c¹p ë V©n Méng Tr¹ch)
+230	10	147	3	<color=green>Nh.vô H¹ HÇu CÇm<color>: §­êng M«n L·o L·o ®ang ®iÒu tra, nh­ng xem ra ph¶i <color=yellow>chê míi cã tin tøc<color>, b»ng h÷u h·y lµm viÖc kh¸c ®i.
+231	10	148	1	<color=green>Nh.vô H¹ HÇu CÇm<color>: Ta nghe nãi <color=yellow>Tr­¬ng B¸ H¸n ë D­¬ng Ch©u (213.194)<color> ®ang gÆp phiÒn phøc, phiÒn b»ng h÷u ®Õn ®ã 1 chuyÕn.
+232	10	148	2	<color=green>Nh.vô H¹ HÇu CÇm<color>: <color=yellow>Tr­¬ng B¸ H¸n bÞ mÊt gãi ®å (196.183)<color>ë Vò Di S¬n, phiÒn b»ng h÷u t×m vÒ.
+233	10	148	3	<color=green>Nh.vô H¹ HÇu CÇm<color>: B»ng h÷u kh«ng ph¶i ®Õn D­¬ng Ch©u gÆp <color=yellow>Lý TiÕn Dòng (220.194)<color> hái gÇn ®©y rÊt nhiÒu dÞ thó xuÊt hiÖn ®ã sao?
+234	10	148	4	<color=green>Nh.vô H¹ HÇu CÇm<color>: §Ó gióp Lý TiÕn Dòng ®iÒu tra dÞ thó xuÊt hiÖn, h·y lªn Vò Di S¬n ®¸nh <color=yellow>Th­¬ng Viªn<color> lÊy 1 tÊm da vÒ.
+235	10	148	5	<color=green>Nh.vô H¹ HÇu CÇm<color>: ChØ cã da Th­¬ng Viªn, xem ra Lý TiÕn Dòng kh«ng thÓ ®o¸n ®Þnh. H·y lªn Vò Di S¬n lÊy thªm 1 sîi l«ng <color=yellow>Ng©n hå<color>!
+236	10	148	6	<color=green>Nh.vô H¹ HÇu CÇm<color>: Lý TiÕn Dòng còng kh«ng thÓ ®o¸n ®­îc viÖc nµy lµ tèt hay xÊu, nhê b»ng h÷u ®Õn D­¬ng Ch©u gÆp b¹n lµ <color=yellow>L­u HuyÒn Thanh (197.194)<color> hái xem.
+237	10	148	7	<color=green>Nh.vô H¹ HÇu CÇm<color>: Xem ra ph¶i hái L­u HuyÒn Thanh, tr­íc lµm L­u HuyÒn Thanh bít giËn, b»ng h÷u h·y lªn L­ìng Thñy §éng trªn Phôc Ng­u s¬n gi¸o huÊn <color=yellow>30 tªn Th­¬ng ThÇn<color>.
+238	10	148	8	<color=green>Nh.vô H¹ HÇu CÇm<color>:B»ng h÷u ®· gi¸o huÊn xong, vÒ gÆp <color=yellow>L­u HuyÒn Thanh (197.194)<color>.
+239	10	148	9	<color=green>Nh.vô H¹ HÇu CÇm<color>:B»ng h÷u kh«ng ph¶i høa víi L­u HuyÒn Thanh mang ®Êt sÐt ë L­ìng Thñy §éng vÒ sao? <color=yellow>(§Õn tÇng 1 L­ìng Thñy ®éng (211.186), sö dông kh«ng b×nh tö)<color>
+240	10	148	10	<color=green>Nh.vô H¹ HÇu CÇm<color>: Th× ra cã liªn quan ®Õn Xi Háa gi¸o, b»ng h÷u h·y ®Õn D­¬ng Ch©u hái <color=yellow>Thu Dung (209.189)<color>.
+241	10	148	11	<color=green>Nh.vô H¹ HÇu CÇm<color>: Muèn Thu Dung nãi vÒ Xi Háa Gi¸o, ph¶i cã Thiªn H­¬ng YÕt ChØ, b»ng h÷u h·y ®Õn D­¬ng Ch©u gÆp <color=yellow>T­ëng Duy (209.202)<color>.
+242	10	148	12	<color=green>Nh.vô H¹ HÇu CÇm<color>: Muèn lµm Thiªn H­¬ng YÕt ChØ, b»ng h÷u ph¶i ®Õn <color=yellow>Giang T©n Th«n ®¸nh ¢m hån lÊy ¸m yªn, lµm 1 phÇn Chu sa, ®Õn H¹nh Hoa Th«n ®¸nh Ong vµng lÊy tæ ong, cuèi cïng vµo tÇng 2 ThÊt Tinh ®éng ®¸nh N÷ KiÕm hµo lÊy hép trang ®iÓm<color> giao cho T­ëng Duy.
+243	10	148	13	<color=green>Nh.vô H¹ HÇu CÇm<color>: B»ng h÷u ®· lµm xong Thiªn H­¬ng YÕt ChØ, h·y mang ®Õn cho <color=yellow>Thu Dung (209.189)<color> ë D­¬ng Ch©u ®Ó ®æi lÊy tin tøc cña Xi Háa Gi¸o.
+244	10	148	14	<color=green>Nh.vô H¹ HÇu CÇm<color>: Xem ra muèn Thu Dung nãi hµnh ®éng cña Xi Háa Gi¸o, b»ng h÷u h·y lªn tÇng 2 L­ìng Thñy ®éng ®¸nh <color=yellow>Xi Háa gi¸o ®å<color>®o¹t lÊy <color=yellow>Tö phông kim xoa<color>.
+245	10	148	15	<color=green>Nh.vô H¹ HÇu CÇm<color>: Th× ra Xi Háa gi¸o ©m m­u gäi hån Th­îng Cæ Háa Kú L©n, ®Þnh chiÕm ®o¹t §¹i Tèng, b»ng h÷u h·y mau ®Õn tÇng 2 L­ìng Thñy ®éng ®¸nh b¹i <color=yellow>Th­îng cæ Háa Kú L©n<color>.
+246	10	148	16	<color=green>Nh.vô H¹ HÇu CÇm<color>: Chóc mõng, cuèi cïng B»ng h÷u ®· ®¸nh b¹i th­îng cæ Háa Kú L©n, h·y vÒ D­¬ng Ch©u th«ng b¸o cho <color=yellow>Thu Dung (209.189)<color>.
+247	10	147	4	<color=green>Nh.vô H¹ HÇu CÇm<color>: Truy t×m nguån gèc cña ¸m khÝ gÇn cã kÕt qu¶, b»ng h÷u h·y ®Õn §­êng M«n gÆp <color=yellow>§­êng M«n L·o L·o (199.176)<color> hái xem ai sö dông ¸m khÝ ®ã
+248	10	147	5	<color=green>Nh.vô H¹ HÇu CÇm<color>: TÊt c¶ ¸m khÝ cña §­êng M«n ®Òu cã ghi l¹i, chØ cã cña s¸t thñ ph¶n béi §­êng M«n lµ §­êng Ninh lµ kh«ng cã, b»ng h÷u h·y lªn Vò Di S¬n gÆp <color=yellow>§­êng Ninh (177.183)<color> hái râ.
+249	10	147	6	<color=green>Nh.vô H¹ HÇu CÇm<color>: L«i Th¾ng qu¶ nhiªn lµ do §­êng Ninh giÕt, nh­ng t¹i sao H¹ HÇu CÇm giao m¶nh vì b¶n S¬n Hµ X· T¾c cho §­êng Ninh vËy? Xem ra b»ng h÷u ®µnh ®Õn D­¬ng Ch©u hái <color=yellow>H¹ HÇu CÇm (223.197)<color>.
+250	10	147	7	<color=green>Nh.vô H¹ HÇu CÇm<color>: TÊt c¶ bÝ Èn ®· ®­îc hÐ më, b»ng h÷u ®Þnh gi÷ l¹i Háa Kú L©n huyÕt <color=yellow>sö dông<color>, hay giao cho <color=yellow>H¹ HÇu CÇm trÞ bÖnh H¹ HÇu Liªn<color>
+251	10	146	1	<color=green>Nh.vô H¹ HÇu CÇm<color>: Th× ra ®©y lµ bøc th­ cña L«i Th¾ng viÕt cho vî lµ <color=yellow>Phïng §ång Nhi (208.199)<color>, phiÒn b»ng h÷u h·y gióp göi th­.
+252	10	1300	0	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: <color=yellow>Bµ chñ TrÞnh Qu¸n Chi (198.183) ë §¹i Lý<color> d­êng nh­ cã viÖc cÇn gióp, b»ng h÷u h·y ®Õn ®ã 1 chuyÕn.
+253	10	1300	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: D­îc liÖu cña bµ chñ TrÞnh Qu¸n Chi (198.183) ®· bÞ ng­êi Xi Háa gi¸o r¾c lªn ong ngäc, B»ng h÷u kh«ng ph¶i høa gióp h¹ <color=yellow>ong ngäc lÊy l¹u 15 d­îc liÖu<color> ®ã sao?
+254	10	1300	2	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa gióp TrÞnh Qu¸n Chi (198.183) lÊy l¹i hãa ®¬n bÞ <color=yellow>Xi Háa Yªu N÷ (167.196)<color> ë Thóy Yªn c­íp mÊy ®ã sao?
+255	10	1300	3	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· lÊy l¹i ®­îc hãa ®¬n, h·y mau vÒ §¹i Lý gÆp <color=yellow>Bµ chñ TrÞnh Qu¸n Chi (198.183)<color>.
+256	10	1300	4	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i ®Õn §¹i Lý gÆp <color=yellow>Quèc c«ng Cao Th¨ng TuyÒn (192.190)<color> t×m hiÓu vÒ Xi Háa gi¸o ®ã sao?
+257	10	1301	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Cao Quèc C«ng (192.190) ch¼ng ph¶i nhê b»ng h÷u ®iÒu tra Ngò §éc Gi¸o, nh©n tiÖn tiªu diÖt <color=yellow>20 con RÕt ®éc<color> ®ã sao?
+258	10	1301	2	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· ®iÒu tra xong, ®· h¹ 20 con RÕt ®éc, v× sao vÉn ch­a vÒ §¹i Lý gÆp <color=yellow>Quèc c«ng Cao Th¨ng TuyÒn (192.190)<color> vËy?
+259	10	1301	3	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa víi Cao Th¨ng TuyÒn (192.190) lªn <color=yellow>Ngò §éc Gi¸o<color> dïng d­îc huyÕt gäi ra <color=yellow>HuyÕt l©n ®éc m·ng<color> ®Ó diÖt trõ ®ã sao?
+260	10	1301	4	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· tiªu diÖt xong, mau vÒ §¹i Lý gÆp <color=yellow>Quèc c«ng Cao Th¨ng TuyÒn (192.190)<color>
+261	10	1301	5	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: DiÖt trõ xong, nh­ng vÉn kh«ng thÓ x¸c nhËn Ngò §éc Gi¸o vµ Xi Háa gi¸o cã liªn quan. §¹t ®Õn <color=yellow>cÊp 30<color> sÏ tÝnh tiÕp.
+262	10	1302	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Cao quèc c«ng ch¼ng ph¶i nhê b»ng h÷u lªn Ngò §éc Gi¸o gÆp <color=yellow>gi¸o chñ B¹ch Doanh Doanh (201.198)<color> hái chÊt ®éc h¹i ng­êi ®ã sao?
+263	10	1302	2	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Gi¸o chñ B¹ch Doanh Doanh (201.198) ch¼ng ph¶i nhê b»ng h÷u lªn Ngò §éc Gi¸o vµo <color=yellow>mª cung tÇng 2<color> tiªu diÖt <color=yellow>§éc th¶o<color> lÊy <color=yellow>20 ®éc chñng<color>
+264	10	1302	3	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Xem ra muèn Gi¸o chñ B¹ch Doanh Doanh (201.198) x¸c nhËn quan hÖ víi Xi Háa gi¸o, cÇn ph¶i vµo <color=yellow>Mª Cung tÇng 2<color> ®¸nh b¹i <color=yellow>Ngù §éc ¢m C¬ (221.195)<color>.
+265	10	1302	4	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: §· trõ ®­îc Ngù §éc ¢m C¬, h·y vÒ b¸o tin cho <color=yellow>Gi¸o chñ B¹ch Doanh Doanh (201.198)<color>!
+266	10	1302	5	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Th× ra Ngù ®éc ©m c¬ lµ ng­êi cña Xi Háa gi¸o, Ngò §éc gi¸o kh«ng cã liªn quan g×, b»ng h÷u mau vÒ §¹i Lý gÆp <color=yellow>Cao Th¨ng TuyÒn (192.190)<color>.
+267	10	1302	6	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Cao Quèc C«ng ph¸i th¸m tö ®i ®iÒu tra Ngò §éc Gi¸o, sÏ nhanh chãng cã tin tøc, b»ng h÷u h·y ®¹t ®Õn <color=yellow>cÊp 35<color> råi quay l¹i.
+268	10	1303	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa víi Cao Th¨ng TuyÒn (192.190) ®Õn <color=yellow>Ch©n nói Vò L¨ng<color> lÇn l­ît ®¸nh b¹i <color=yellow>10 Xi Háa B¹ch Gi¸o §å vµ H¾c gi¸o ®å<color> ®ã sao?
+269	10	1303	2	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· hoµn thµnh viÖc <color=yellow>Cao Th¨ng TuyÒn (192.190)<color> giao phã, h·y mau vÒ gÆp.
+270	10	1305	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa víi Cao Th¨ng TuyÒn (192.190) lªn Vò L¨ng S¬n ®¸nh b¹i <color=yellow>15 tªn Xi Háa XÝch Gi¸o §å<color> ®ã sao?
+271	10	1303	3	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i ®Õn BiÖn Kinh gÆp <color=yellow>B¸ch HiÓu Sinh (217.228)<color> hái viÖc cã liªn quan ®Õn 6 ®¹i gia téc cña §¹i Lý ®ã sao?
+272	10	1306	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: §Ó t×m hiÓu viÖc thay ®æi hoµng téc §¹i Lý, b»ng h÷u h·y vÒ BiÖn Kinh gÆp <color=yellow>TriÖu Diªn Niªn (161.179)<color>
+273	10	1306	2	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa víi TriÖu Diªn Niªn lªn Miªu LÜnh hái <color=yellow>Téc tr­ëng Miªu LÜnh (162.196)<color> viÖc liªn quan ®Õn Xi Háa Gi¸o ®ã sao?
+274	10	1306	3	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Th× ra muèn Téc tr­ëng Miªu LÜnh tiÕt lé, cÇn lªn tr¹i Miªu LÜnh ®¸nh b¹i <color=yellow>Miªu LÜnh Dòng SÜ (165.187)<color>
+275	10	1306	4	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· ®¸nh b¹i Miªu LÜnh Dòng SÜ, mau vÒ Miªu LÜnh gÆp <color=yellow>Téc tr­ëng Miªu LÜnh (162.196)<color>.
+276	10	1306	5	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Xem ra Téc tr­ëng Miªu LÜnh cã c¸ch nh×n kh¸c vÒ Xi Háa gi¸o, h·y mau vÒ BiÖn Kinh gÆp <color=yellow>TriÖu Diªn Niªn (161.179)<color>
+277	10	1306	6	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Môc ®Ých cña Xi Háa gi¸o qu¶ nhiªn cã liªn quan viÖc vua míi ®¨ng c¬, b»ng h÷u h·y vÒ §¹i Lý hái <color=yellow>Bµ chñ TrÞnh Qu¸n Chi (198.183)<color> nghÜ thÕ nµo, vµ ®îi ®¹t ®Õn <color=yellow>cÊp 45<color> råi tÝnh tiÕp.
+278	10	1307	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: §Ó chÕ t¹o tÝn tiªu Miªu LÜnh, b»ng h÷u h·y gióp Bµ chñ TrÞnh Qu¸n Chi (198.183) lªn Miªu LÜnh vµo <color=yellow>TÇng 1 YÕn Tö ®éng<color> ®¸nh b¹i <color=yellow>Miªu LÜnh hé Ên<color> lÊy <color=yellow>10 miÕng Da h­¬u<color>
+279	10	1307	2	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i ®· nhËn ®­îc tÝn tiªu Miªu LÜnh ®ã sao? H·y vµo <color=yellow>TÇng 1 YÕn Tö ®éng<color> dïng tÝn tiªu gäi vµ ®¸nh b¹i <color=yellow>Miªu LÜnh lùc sÜ<color>!
+280	10	1307	3	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· ®¸nh b¹i Miªu LÜnh lùc sÜ, lÊy ®­îc mËt th­, h·y mau vÒ §¹i Lý gÆp <color=yellow>TrÞnh Qu¸n Chi (198.183)<color>
+281	10	1307	4	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: TrÞnh Qu¸n Chi muèn dÞch mËt th­, b»ng h÷u h·y ®¹t ®Õn <color=yellow>cÊp 50<color> råi quay l¹i.
+282	10	1308	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: <color=yellow>TrÇn LËp Hoµnh ë §¹i Lý (183.177)<color> cã thÓ ®äc ®­îc ch÷ cña Xi Háa Gi¸o, B»ng h÷u kh«ng ph¶i muèn gÆp mÆt ®ã sao?
+283	10	1308	2	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: <color=yellow>Miªu LÜnh thæ ty<color> ë tÇng 2 YÕn Tö ®éng, rÊt lµ tµn ¸c, B»ng h÷u kh«ng ph¶i høa víi TrÇn LËp Hoµnh (183.177) trõng trÞ bän chóng sao? §õng quªn mang vÒ <color=yellow>10 thanh béi ®ao<color>.
+284	10	1308	3	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Th× ra bøc th­ nµy lµ cña Téc tr­ëng Miªu LÜnh göi cho Xi Háa gi¸o, B»ng h÷u kh«ng ph¶i lªn Miªu LÜnh t×m <color=yellow>Téc tr­ëng Miªu LÜnh (162.196)<color> hái cho râ sao?
+285	10	1308	4	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Xem ra ®Ó Téc tr­ëng Miªu LÜnh nãi sù thËt, b»ng h÷u h·y lªn tÇng 2 YÕn Tö ®éng ®¸nh b¹i <color=yellow>Miªu LÜnh Thñ LÜnh (196.216)<color> lÊy Miªu LÜnh lÖnh bµi vÒ.
+286	10	1308	5	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· ®¸nh b¹i Miªu LÜnh Thñ LÜnh, lÊy vÒ Miªu LÜnh lÖnh bµi, h·y vÒ gÆp <color=yellow>Téc tr­ëng Miªu LÜnh (162.196)<color> hái viÖc Xi Háa gi¸o.
+287	10	1308	6	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Téc tr­ëng Miªu LÜnh nãi kh«ng râ, xem ra b»ng h÷u ph¶i vÒ §¹i Lý bµn b¹c víi <color=yellow>TrÞnh Qu¸n Chi (198.183)<color>.
+288	10	1308	7	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: §¹i quan ë §¹i Lý chØ quen th©n víi <color=yellow>Cao quèc c«ng Cao Th¨ng TuyÒn (192.190)<color>, b»ng h÷u h·y ®¹t ®Õn <color=yellow>cÊp 55<color> råi quay l¹i.
+289	10	1309	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa víi Cao Th¨ng TuyÒn (192.190), ®Õn Phông Nh·n §éng t×m <color=yellow>10 nanh Tö D¹ Hæ vµ l«ng B¹ch ®Çu ®iªu<color> ®ã sao? (®¸nh Tö D¹ Hæ vµ B¹ch ®Çu ®iªu)
+290	10	1309	2	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: §Ó lµm gi¶ Phông Hoµng Linh, b»ng h÷u mau ®Õn T­¬ng D­¬ng gÆp <color=yellow>M¹c Tam (167.182)<color>.
+291	10	1309	3	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>:B»ng h÷u ®· nhËn ®­îc Phông Hoµng Linh, h·y mau ®Õn Phông Nh·n §éng gäi Phông Hoµng ra ®Ó diÖt. NÕu kh«ng kÞp thêi gian, h·y vÒ gÆp <color=yellow>M¹c Tam<color>!
+292	10	1309	4	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>:B»ng h÷u ®· ®¸nh b¹i Phông Hoµng, h·y vÒ gÆp <color=yellow>Cao Th¨ng TuyÒn<color>.
+293	10	1309	5	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: <color=yellow>Quèc s­ §¹i Lý §æng Giµ La (190.177)<color> nghe nãi b»ng h÷u lµ ng­êi thÝch hµnh hiÖp, muèn hái th¨m, sao b»ng h÷u cßn ë ®©y
+294	10	1309	6	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa víi Quèc s­ §¹i Lý §æng Giµ La (190.177) ®Õn D­¬ng M«n ®­a con trai §æng Ca Minh vÒ §¹i Lý ®ã sao? B»ng h÷u h·y may ®Õn <color=yellow>Thiªn Ba D­¬ng Phñ gÆp Xa Th¸i Qu©n (191.196)<color>.
+295	10	1309	7	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Kh«ng ngê §æng Ca Minh lµ ng­êi con chÝ hiÕu, B»ng h÷u kh«ng ph¶i ®­a c«ng tö ®Õn Töu ®iÕm ë BiÖn Kinh, D­¬ng Ch©u, TuyÒn Ch©u, T­¬ng D­¬ng vµ Thµnh §« mua c¸c mãn ¨n h¶o h¹ng ®ã sao? NÕu vÉn ch­a dÉn §æng Ca Minh vÒ ®­îc §¹i Lý, h·y vÒ Thiªn Ba D­¬ng Phñ gÆp Xa Th¸i Qu©n (191.196).
+296	10	1309	8	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Cuèi cïng ®· ®­a §æng Ca Minh vÒ ®Õn §¹i Lý, <color=yellow>Quèc s­ §¹i Lý §æng Giµ La (190.177)<color> ch¼ng ph¶i b¶o b»ng h÷u nghØ ng¬i ®ã sao? H·y ®¹t ®Õn ®¼ng cÊp 60 råi quay l¹i.
+297	10	1311	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa Quèc s­ §¹i Lý §æng Giµ La (190.177) ®Õn <color=yellow>TÇng 1 B¹ch Thñy ®éng<color> tiªu diÖt <color=yellow>20 con D¬i ®éc<color> ®ã sao?
+298	10	1311	2	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· tiªu diÖt 20 con D¬i ®éc, h·y mau vÒ §¹i Lý gÆp <color=yellow>Quèc s­ §æng Giµ La (190.177)<color>.
+299	10	1311	3	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa víi Quèc s­ §¹i Lý §æng Giµ La (190.177) ®Õn <color=yellow>TÇng 1 B¹ch Thñy ®éng<color> tiªu diÖt <color=yellow>20 tªn Xi Háa ¸c t¨ng<color> ®ã sao?
+300	10	1311	4	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· ®¸nh b¹i Xi Háa ¸c t¨ng, h·y mau vÒ gÆp <color=yellow>Quèc s­ §æng Giµ La (190.177)<color>.
+301	10	1311	5	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· håi phôc, h·y mau vÒ gÆp <color=yellow>Quèc s­ §æng Giµ La (190.177)<color>.
+302	10	1311	6	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa víi Quèc s­ §æng Giµ La (190.177) ®Õn <color=yellow>TÇng 2 B¹ch Thñy ®éng<color> ®¸nh b¹i <color=yellow>D¹ xoa (227.212)<color> ®ã sao?
+303	10	1311	7	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>:B»ng h÷u ®· ®¸nh b¹i D¹ Xoa, h·y mau vÒ §¹i Lý gÆp <color=yellow>§æng Giµ La<color>.
+304	10	1311	8	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa víi quèc s­ §æng Giµ La ®Õn lÊy 10 l­îng vµng tiÒn hµng cña <color=yellow>bµ chñ TrÞnh Qu¸n Chi (198.183)<color>.
+305	10	1312	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa víi bµ chñ TrÞnh Qu¸n Chi (198.183) ®Õn ®ßi tiÒn nî cña <color=yellow>Vò N­¬ng BiÖn Kinh<color> vµ <color=yellow>Vò N­¬ng Thµnh §«<color> ®ã sao?
+306	10	1315	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa víi bµ chñ TrÞnh Qu¸n Chi (198.183) ®Õn <color=yellow>TÇng 1 Long Nh·n ®éng trªn §iÓm Th­¬ng s¬n<color> th¸m thÝnh ®ã sao?
+307	10	1315	2	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· dß t×m Long Nh·n ®éng, h·y mau vÒ §¹i Lý gÆp <color=yellow>Bµ chñ TrÞnh Qu¸n Chi (198.183)<color>.
+308	10	1315	3	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa víi TrÞnh Qu¸n Chi (198.183) vµo <color=yellow>TÇng 1 Long Nh·n ®éng<color> lÇn l­ît tiªu diÖt <color=yellow>Kh«i Lçi §éc nh©n vµ Xi Háa tr­ëng l·o mçi lo¹i 15 tªn<color> ®Ó b¸o thï cho b¹n hµng cña bµ chñ ®ã sao?
+309	10	1315	4	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· tiªu diÖt xong, h·y mau vÒ §¹i Lý gÆp <color=yellow>Bµ chñ TrÞnh Qu¸n Chi (198.183)<color>.
+310	10	1315	5	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: <color=yellow>Gi¸o chñ Ngò §éc Gi¸o B¹ch Doanh Doanh (201.198)<color> ch¼ng ph¶i nhê b»ng h÷u ®ã sao? B»ng h÷u sao cßn ë ®©y?
+311	10	1316	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i høa víi B¹ch Doanh Doanh (201.198) ®Õn <color=yellow>TÇng 1 Long Nh·n ®éng<color> tiªu diÖt <color=yellow>Xi Háa ®¹i tr­ëng l·o (194.185)<color> ®ã sao?
+312	10	1316	2	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· tiªu diÖt Xi Háa ®¹i tr­ëng l·o, mau vÒ Ngò §éc gi¸o gÆp <color=yellow>Gi¸o chñ B¹ch Doanh Doanh (201.198)<color>.
+313	10	1316	3	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i ®Õn BiÖn Kinh hái <color=yellow>B¸ch HiÓu Sinh (217.228)<color> th©n phËn cña Bµ chñ TrÞnh Qu¸n Chi ®ã sao?
+314	10	1316	4	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Th× ra muèn biÕt th©n phËn cña TrÞnh Qu¸n Chi, b»ng h÷u ph¶i ®Õn §¹i Lý t×m <color=yellow>L­u §iÓn (180, 188)<color> ®ang thu dän cöu chÝ.
+315	10	1316	5	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Th× ra cöu chÝ ®· bÞ <color=yellow>H¾c Tinh tinh ë B¾c T©y Song B¶n N¹p<color> xÐ thµnh nhiÒu m¶nh, B»ng h÷u kh«ng ph¶i høa víi L­u §iÓn ®Õn B¾c T©y Song B¶n N¹p ®¸nh b¹i H¾c Tinh tinh ®o¹t lÊy <color=yellow>10 m¶nh cöu chÝ §¹i Lý<color> ®ã sao?
+316	10	1316	6	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Xem ra <color=yellow>Bµ chñ TrÞnh Qu¸n Chi (198.183)<color> cã kh¶ n¨ng lµ hËu nh©n cña TrÞnh ThÞ, b»ng h÷u mau ®i hái.
+317	10	1316	7	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Th× ra <color=yellow>Qu¸i vËt Ma H« La Ca ë B¾c T©y Song B¶n N¹p<color> chÝnh lµ kÎ tµn s¸t TrÞnh ThÞ, B»ng h÷u kh«ng ph¶i høa víi Bµ chñ TrÞnh Qu¸n Chi (198.183) tiªu diÖt chóng ®Ó tr¶ thï ®ã sao?
+318	10	1316	8	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Cuèi cïng ®· ®¸nh b¹i Ma H« La Ca, b»ng h÷u h·y mau vÒ §¹i Lý gÆp <color=yellow>Bµ chñ TrÞnh Qu¸n Chi (198.183)<color>. ViÖc ®· gi¶i quyÕt xong, ch¼ng ph¶i TrÞnh Qu¸n Chi nãi Cao Quèc C«ng cã viÖc cÇn nhê ®ã sao? B»ng h÷u sao ch­a ®Õn ®ã 1 chuyÕn?
+319	10	1317	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u kh«ng ph¶i chÊp nhËn khiªu chiÕn víi Xi Háa gi¸o ®ã sao? H·y mau ®Õn <color=yellow>TÇng 2 Long Nh·n ®éng<color> ®¸nh b¹i <color=yellow>A Tu La (212.216)<color>.
+320	10	1317	2	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: A Tu La ®· bÞ ®¸nh b¹i r¬i ra 1 mËt th­, b»ng h÷u mau më ra xem 
+321	10	1317	3	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Trong th­ nãi Xi Háa gi¸o vµ NhÞ Hoµng Tö ë §¹i Lý cã mèi quan hÖ mËt thiÕt, sù viÖc nghiªm träng b»ng h÷u mau th«ng b¸o cho <color=yellow>Cao Th¨ng TuyÒn (192.190), Cao Quèc C«ng ë §¹i Lý<color>.
+322	10	1317	4	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Cao Th¨ng TuyÒn kh«ng biÕt gi¶i quyÕt ra sao, chØ cßn c¸ch t×m <color=yellow>§æng Giµ La (190.177)<color>. Khuyªn b»ng h÷u ®¹t <color=yellow>cÊp 80<color> míi ®i thØnh gi¸o «ng ta.
+323	10	1318	1	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u muèn gÆp NhÞ Hoµng Tö, tr­íc tiªn ph¶i ®Õn Nam T©y Song B¶n N¹p ®¸nh b¹i <color=yellow>§oµn Thõa ¢n<color>.
+324	10	1318	2	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· ®¸nh b¹i §oµn Thõa ¢n, mau ®i nam T©y Song B¶n N¹p gÆp <color=yellow>NhÞ Hoµng Tö<color> ®i!
+325	10	1318	3	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: ChuyÖn Xi Háa gi¸o vµ NhÞ Hoµng Tö cÊu kÕt ®Òu do ng­êi kh¸c vu c¸o, b»ng h÷u mau vÒ §¹i Lý bÈm b¸o víi quèc s­ <color=yellow>§æng Giµ La (190.177)<color>.
+326	10	1318	4	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Giê ph¶i ®îi quèc s­ <color=yellow>§æng Giµ La (190.177)<color> cïng c¸c ®¹i thÇn Ðp Tam Hoµng Tö tho¸i vÞ, b»ng h÷u khi kh¸c h·y quay l¹i. <color=yellow>(Kho¶ng 20 phót)<color>
+327	10	1318	5	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u ®· ®¸nh b¹i Cµn §¹t Bµ, lÊy ®­îc ph¸o hiÖu mau ®Õn t×m <color=yellow>§æng Giµ La<color> ®èi tho¹i.
+328	10	1318	6	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: Ph¸o hiÖu kh«ng ch­a ®ñ cÇn cã ngßi næ, b»ng h÷u mau ®Õn <color=yellow>TÇng 2 Thiªn TÇm th¸p<color> gãc ®«ng nam ®¸nh b¹i <color=yellow>KhÈn Na La (213.200)<color> mang ngßi næ vÒ!
+329	10	1318	7	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: §· ®¸nh b¹i KhÈn Na La, b»ng h÷u cã thÓ vÒ gÆp quèc s­ <color=yellow>§æng Giµ La (190.177)<color>!
+330	10	1318	8	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: B»ng h÷u cã thÓ ®Õn tÇng 3 Thiªn TÇm th¸p dïng ph¸o hiÖu gäi <color=yellow>Tam Hoµng Tö<color> ra ®¸nh b¹i h¾n.
+331	10	1318	9	<color=green>Nh.vô TrÞnh Qu¸n Chi<color>: §· ®¸nh b¹i Tam Hoµng Tö, b»ng h÷u cã thÓ vÒ phôc mÖnh víi quèc s­ <color=yellow>§æng Giµ La (190.177)<color>.

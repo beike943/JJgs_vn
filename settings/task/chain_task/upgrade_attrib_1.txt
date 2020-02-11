@@ -1,0 +1,2 @@
+TaskID	UpGradeType	UpGradeValue	TaskValue	TaskRate1	TaskRate2	TaskRate3	TaskRate4	TaskRate5	TaskRate6	TaskRate7	TaskRate8	TaskRate9	TaskRate10	TaskRate11	TaskRate12	TaskRate13	TaskRate14	TaskRate15	TaskRate16	TaskRate17	TaskRate18	TaskRate19	TaskRate20	TaskInfoA	TaskInfoB	TaskInfoC	TaskInfoD
+30010001	0	100	10	10000	10000	10000	10000	10000	10000	10000	10000	10000	10000	10000	10000	10000	10000	10000	10000	10000	10000	10000	10000	Kinh nghiÖm	100 ®iÓm		

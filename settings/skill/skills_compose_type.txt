@@ -1,0 +1,51 @@
+Type	Name
+1	TuyÖt kü c¨n b¶n
+4	KiÕm
+1004	Ngò hµnh kiÕm
+5	§ao
+1005	Ngò hµnh ®ao
+6	Hé thñ
+1006	Ngò hµnh Hé thñ
+10	Th­¬ng
+1010	Ngò hµnh th­¬ng
+11	C«n
+1011	Ngò hµnhC«n
+12	ThiÒn tr­îng
+1012	Ngò hµnh ThiÒn tr­îng
+16	¸m khÝ
+1016	Ngò hµnh ¸m khÝ
+17	CÇm
+1017	Ngò hµnh cÇm
+18	Bót
+1018	Ngò hµnh bót
+19	Cung
+1019	Ngò hµnh cung
+20	Tr¶o
+21	Song ®ao
+22	Nam tiªu chuÈn
+1020	Ngò hµnh
+1022	Nam tiªu chuÈn ngò hµnh
+23	Nam kh«i ng«
+1023	Nam kh«i ng« ngò hµnh
+24	N÷ gîi c¶m
+1024	N÷ gîi c¶m gîi c¶m
+25	KiÒu n÷
+1025	KiÒu n÷ ngò hµnh
+29	Håi phôc sinh lùc
+30	Håi phôc néi lùc
+31	Håi phôc sinh lùc, néi lùc
+32	Thuèc trÞ th­¬ng
+33	Thuèc gi¶i ®éc
+36	Thøc ¨n chÝnh
+37	Mãn rau chÝnh
+38	R­îu
+42	ChuyÓn tiÕp
+43	Gi¸m ®Þnh
+50	NhiÖm vô
+26	ThÇn binh
+60	§Þch Tö
+61	Linh Chi
+62	Vò KhÝ Linh §å
+64	Linh §å M·o
+65	Linh §å Y
+66	Linh §å Trang

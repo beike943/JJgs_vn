@@ -1,0 +1,49 @@
+desc	group_id	eng_name	view_name	award_method	need_room	need_weight
+		Not NULL	name that will be viewed by player	1=GroupAwardSpec	>0	>0
+		eg: lsBox1	Not NULL	2=GroupAwardRand		
+				3=GroupAwardAll		
+	1	silian_tong_1	ThÝ LuyÖn Tø Linh	2	3	500
+	2	silian_tong_2	ThÝ LuyÖn Tø Linh	2	3	500
+	3	silian_tong_3	ThÝ LuyÖn Tø Linh	2	3	500
+	4	silian_yin	ThÝ LuyÖn Tø Linh	2	3	500
+	5	silian_jin_free	ThÝ LuyÖn Tø Linh	2	3	500
+	6	silian_jin_IB	ThÝ LuyÖn Tø Linh	2	3	500
+	7	diji_huoban_book	Nhãm S¸ch Kü N¨ng-S¬	2	3	500
+	8	zhongji_huoban_book	Nhãm S¸ch Kü N¨ng-Trung	2	3	500
+	9	gaoji_huoban_book	Nhãm S¸ch Kü N¨ng-Cao	2	3	500
+	10	dijidan	Trøng Linh Thó-S¬	2		
+	11	zhongjidan	Trøng Linh Thó-Trung	2		
+	12	gaojidan	Trøng Linh Thó-Cao	2		
+	13	jingmailv4	HuyÖt vÞ cÊp 4 tiªu hao	4		
+	14	jingmailv5	HuyÖt vÞ cÊp 5 tiªu hao	4		
+	15	jingmailv6	HuyÖt vÞ cÊp 6 tiªu hao	4		
+	16	YXTY_tong1	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	17	YXTY_tong2	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	18	YXTY_tong3	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	19	YXTY_yin	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	20	YXTY_jin1_free	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	21	YXTY_jin1_IB	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	22	YXTY_jin2_free	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	23	YXTY_jin2_IB	Th¸i NhÊt Th¸p_Anh Hïng	2	3	500
+	24	gem_lv1_normal	§¸ quý th­êng cÊp 1	2		
+	25	gem_lv2_normal	§¸ quý th­êng cÊp 2	2		
+	26	gem_lv3_normal	§¸ quý th­êng cÊp 3	2		
+	27	gem_lv4_normal	§¸ quý th­êng cÊp 4	2		
+	28	yunling_lv4	UÈn Linh CÊp 4	2		
+	29	yunling_lv5	UÈn Linh CÊp 5	2		
+	30	yunling_lv6	UÈn Linh CÊp 6	2		
+	31	3v3_free_WLlibao_1	LÔ Bao Vâ L©m	3	3	500
+	32	3v3_free_WLlibao_2	LÔ Bao Vâ L©m	2	3	500
+	33	3v3_IB_WLlibao_1	LÔ Bao Vâ L©m	3	3	500
+	34	3v3_IB_WLlibao_2	LÔ Bao Vâ L©m	2	3	500
+	35	3v3_free_HXlibao_1	LÔ Bao Vâ L©m Hµo KiÖt	3	3	500
+	36	3v3_free_HXlibao_2	LÔ Bao Vâ L©m Hµo KiÖt	2	3	500
+	37	3v3_IB_HXlibao_1	LÔ Bao Vâ L©m Hµo KiÖt	3	3	500
+	38	3v3_IB_HXlibao_2	LÔ Bao Vâ L©m Hµo KiÖt	2	3	500
+	39	lingtu_ring	Linh §å Giíi ChØ	2		
+	40	csm_1_tianjiaoling	Tiªu hao 1 Thiªn Kiªu LÖnh	4		
+	41	csm_2_tianjiaoling	Tiªu hao 2 Thiªn Kiªu LÖnh	4		
+	42	EY_jinbaoxiang_2_free	¢n O¸n §µi	2	3	500
+	43	EY_jinbaoxiang_2_IB	¢n O¸n §µi	2	3	500
+	44	EY_baoxiang_2	¢n O¸n §µi	2	3	500
+	45	EY_baoxiang_2_IB	¢n O¸n §µi	2	3	500

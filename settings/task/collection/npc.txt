@@ -1,0 +1,7 @@
+NpcID	NpcMap	NpcName	MapID
+M· sè Npc	Tªn b¶n ®å	Tªn	ID khu vùc
+1000	Thµnh §«	Hµnh C­íc Th­¬ng Nh©n	300
+1001	BiÖn Kinh	Hµnh C­íc Th­¬ng Nh©n	200
+1002	TuyÒn Ch©u	Hµnh C­íc Th­¬ng Nh©n	100
+1003	D­¬ng Ch©u	Hµnh C­íc Th­¬ng Nh©n	150
+1004	T­¬ng D­¬ng	Hµnh C­íc Th­¬ng Nh©n	350

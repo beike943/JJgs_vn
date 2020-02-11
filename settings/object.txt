@@ -1,0 +1,92 @@
+§¸nh dÊu tªn ®å vËt	Lo¹i	Trë ng¹i	Duy tr×	TÇng	§é cao	Tû lÖ thu phãng	T­ liÖu mÉu	B¶n ®å	H×nh ¶nh	¢m thanh	File gèc
+Hé thñ	Item	0	2160	2	130	120	\image\item\drop\drop_mod001.Mesh	\image\item\drop\drop_mod001.mtl		\Sound\sound_i005.wav	
+Trang bŞ b¶o vÖ	Item	0	0	2	130	120	\image\item\drop\drop_mod001.Mesh	\image\item\drop\drop_mod001.mtl		\Sound\sound_i005.wav	
+Tr­êng kiÕm	Item	0	2160	2	130	120	\image\item\drop\drop_mod002.Mesh	\image\item\drop\drop_mod002.mtl		\Sound\sound_i005.wav	
+C«n	Item	0	2160	2	130	120	\image\item\drop\drop_mod003.Mesh	\image\item\drop\drop_mod003.mtl		\Sound\sound_i005.wav	
+¸m khİ	Item	0	2160	2	130	250	\image\item\drop\drop_mod004.Mesh	\image\item\drop\drop_mod004.mtl		\Sound\sound_i005.wav	
+§¬n ®ao	Item	0	2160	2	130	120	\image\item\drop\drop_mod005.Mesh	\image\item\drop\drop_mod005.mtl		\Sound\sound_i005.wav	
+CÇm	Item	0	2160	2	130	120	\image\item\drop\drop_mod006.Mesh	\image\item\drop\drop_mod006.mtl		\Sound\sound_i005.wav	
+Bót	Item	0	2160	2	130	120	\image\item\drop\drop_mod007.Mesh	\image\item\drop\drop_mod007.mtl		\Sound\sound_i005.wav	
+Tİch tr­îng	Item	0	2160	2	130	120	\image\item\drop\drop_mod008.Mesh	\image\item\drop\drop_mod008.mtl		\Sound\sound_i005.wav	
+Th­¬ng	Item	0	2160	2	130	120	\image\item\drop\drop_mod032.Mesh	\image\item\drop\drop_mod032.mtl		\Sound\sound_i005.wav	
+Cung	Item	0	2160	2	130	120	\image\item\drop\drop_mod033.Mesh	\image\item\drop\drop_mod033.mtl		\Sound\sound_i005.wav	
+Song ®ao	Item	0	2160	2	130	120	\image\item\drop\drop_mod034.Mesh	\image\item\drop\drop_mod034.mtl		\Sound\sound_i005.wav	
+Tr¶o	Item	0	2160	2	130	120	\image\item\drop\drop_mod035.Mesh	\image\item\drop\drop_mod035.mtl		\Sound\sound_i005.wav	
+Th­îng y	Item	0	2160	2	130	120	\image\item\drop\drop_mod009.Mesh	\image\item\drop\drop_mod009.mtl		\Sound\sound_i004.wav	
+M·o	Item	0	2160	2	130	120	\image\item\drop\drop_mod010.Mesh	\image\item\drop\drop_mod010.mtl		\Sound\sound_i004.wav	
+H¹ y	Item	0	2160	2	130	120	\image\item\drop\drop_mod011.Mesh	\image\item\drop\drop_mod011.mtl		\Sound\sound_i004.wav	
+§· khãa	Item	0	1	2	130	120	\image\item\drop\drop_mod011.Mesh	\image\item\drop\drop_mod011.mtl		\Sound\sound_i004.wav	
+§· khãa	Item	0	1	2	130	120	\image\item\drop\drop_mod011.Mesh	\image\item\drop\drop_mod011.mtl		\Sound\sound_i004.wav	
+§· khãa	Item	0	1	2	130	120	\image\item\drop\drop_mod011.Mesh	\image\item\drop\drop_mod011.mtl		\Sound\sound_i004.wav	
+Trang trİ Gi¸ng sinh	Item	0	1	2	130	120	\image\item\drop\drop_mod011.Mesh	\image\item\drop\drop_mod011.mtl		\Sound\sound_i004.wav	
+Sinh ho¹t	Item	0	540	2	130	200	\image\item\drop\drop_mod012.Mesh	\image\item\drop\drop_mod012.mtl		\Sound\sound_i008.wav	
+Bè phÈm	Item	0	2160	2	130	200	\image\item\drop\drop_mod013.Mesh	\image\item\drop\drop_mod013.mtl		\Sound\sound_i006.wav	
+Hµo Th¹ch	Item	0	2160	2	130	200	\image\item\drop\drop_mod014.Mesh	\image\item\drop\drop_mod014.mtl		\Sound\sound_i006.wav	
+Thùc vËt	Item	0	1080	2	130	200	\image\item\drop\drop_mod015.Mesh	\image\item\drop\drop_mod015.mtl		\Sound\sound_i008.wav	
+D­îc phÈm	Item	0	2160	2	130	200	\image\item\drop\drop_mod016.Mesh	\image\item\drop\drop_mod016.mtl		\Sound\sound_i008.wav	
+Tiªu hao	Item	0	1080	2	130	200	\image\item\drop\drop_mod017.Mesh	\image\item\drop\drop_mod017.mtl		\Sound\sound_i008.wav	
+Thu thËp	Item	0	1080	2	130	150	\image\item\drop\drop_mod018.Mesh	\image\item\drop\drop_mod018.mtl		\Sound\sound_i008.wav	
+ThÇn bİ	Item	0	2160	2	130	150	\image\item\drop\drop_mod019.Mesh	\image\item\drop\drop_mod019.mtl		\Sound\sound_i006.wav	
+MËt tŞch	Item	0	2160	2	130	150	\image\item\drop\drop_mod020.Mesh	\image\item\drop\drop_mod020.mtl		\Sound\sound_i006.wav	
+QuyÕt YÕu	Item	0	2160	2	130	150	\image\item\drop\drop_mod021.Mesh	\image\item\drop\drop_mod021.mtl		\Sound\sound_i006.wav	
+Phï ChØ	Item	0	2160	2	130	150	\image\item\drop\drop_mod022.Mesh	\image\item\drop\drop_mod022.mtl		\Sound\sound_i008.wav	
+C«ng cô	Item	0	2160	2	130	200	\image\item\drop\drop_mod023.Mesh	\image\item\drop\drop_mod023.mtl		\Sound\sound_i008.wav	
+M· Bµi	Item	0	1080	2	130	150	\image\item\drop\drop_mod024.Mesh	\image\item\drop\drop_mod024.mtl		\Sound\sound_i008.wav	
+NhiÖm vô	Item	0	1080	2	130	200	\image\item\drop\drop_mod025.Mesh	\image\item\drop\drop_mod025.mtl		\Sound\sound_i008.wav	
+Phôc håi sinh lùc (®¹i)	Item	0	540	2	130	200	\image\item\drop\drop_mod026.Mesh	\image\item\drop\drop_mod026.mtl		\Sound\sound_i008.wav	
+Phôc håi néi lùc (®¹i)	Item	0	540	2	130	200	\image\item\drop\drop_mod027.Mesh	\image\item\drop\drop_mod027.mtl		\Sound\sound_i008.wav	
+Phôc håi sinh lùc (tiÓu)	Item	0	540	2	130	200	\image\item\drop\drop_mod028.Mesh	\image\item\drop\drop_mod028.mtl		\Sound\sound_i008.wav	
+Phôc håi néi lùc (tiÓu)	Item	0	540	2	130	200	\image\item\drop\drop_mod029.Mesh	\image\item\drop\drop_mod029.mtl		\Sound\sound_i008.wav	
+Phôc håi sinh lùc (trung)	Item	0	540	2	130	200	\image\item\drop\drop_mod031.Mesh	\image\item\drop\drop_mod031.mtl		\Sound\sound_i008.wav	
+Phôc håi néi lùc (trung)	Item	0	540	2	130	200	\image\item\drop\drop_mod030.Mesh	\image\item\drop\drop_mod030.mtl		\Sound\sound_i008.wav	
+Lo¹i PK	Item	0	540	2	130	200	\image\item\drop\drop_mod026.Mesh	\image\item\drop\drop_mod026.mtl		\Sound\sound_i008.wav	
+D­îc phÈm	Item	0	540	2	130	200	\image\item\drop\drop_mod027.Mesh	\image\item\drop\drop_mod027.mtl		\Sound\sound_i008.wav	
+Linh th¹ch	Item	0	2160	2	130	200	\image\item\drop\drop_mod014.Mesh	\image\item\drop\drop_mod014.mtl		\Sound\sound_i006.wav	
+Th­îng y	Item	0	540	2	130	200	\image\item\drop\drop_mod009.Mesh	\image\item\drop\drop_mod009.mtl			
+Ngo¹i trang	Item	0	540	2	130	200	\image\item\drop\drop_mod010.Mesh	\image\item\drop\drop_mod010.mtl			
+Ngo¹i trang	Item	0	540	2	130	200	\image\item\drop\drop_mod011.Mesh	\image\item\drop\drop_mod011.mtl			
+HØ sù	Item	0	1080	2	130	150	\image\item\drop\drop_mod024.Mesh	\image\item\drop\drop_mod024.mtl		\Sound\sound_i008.wav	
+Bá mÊt vËt phÈm	Item	0	1	2	130	120	\image\item\drop\drop_mod011.Mesh	\image\item\drop\drop_mod011.mtl		\Sound\sound_i004.wav	
+Trang bŞ B¸t Qu¸i	Item	0	2160	2	130	120	\image\item\drop\drop_mod009.Mesh	\image\item\drop\drop_mod009.mtl		\Sound\sound_i004.wav	
+ÒôĞ§°ÙÁé	RandSound	0	1								
+ÒôĞ§»Æİº	RandSound	0	1								
+ÒôĞ§»­Ã¼	RandSound	0	1								
+ÒôĞ§É½È¸	RandSound	0	1								
+ÒôĞ§ÎÚÑ»	RandSound	0	1								
+ÒôĞ§Ò¹Ã¨	RandSound	0	1								
+ÒôĞ§ó¬ó°	RandSound	0	1								
+ÒôĞ§Ö¨Ö¨	RandSound	0	1								
+ÒôĞ§òĞòĞ	RandSound	0	1								
+ÒôĞ§À¥³æ	RandSound	0	1								
+ÒôĞ§Ğ¡Ïª	RandSound	0	1							\sound\ÏªÁ÷.wav	
+ÒôĞ§É½Èª	RandSound	0	1								
+ÒôĞ§ÇÃÖÓ	RandSound	0	1							\sound\ìøÖÓ.wav	
+ÒôĞ§ÆÙ²¼	RandSound	0	1							\sound\ÆÙ²¼.wav	
+ÒôĞ§ÀÖÒô	RandSound	0	1								
+ÒôĞ§´ò¸ü	RandSound	0	1							\sound\´ò¸ü.wav	
+ÒôĞ§·¥Ä¾	RandSound	0	1							\sound\·¥Ä¾.wav	
+ÒôĞ§²ÉÒ©	RandSound	0	1								
+ÒôĞ§³éË¿	RandSound	0	1								
+ÒôĞ§ÊÕÖÖ	RandSound	0	1								
+ÒôĞ§ÖÆÆ¤	RandSound	0	1								
+ÒôĞ§²É¿ó	RandSound	0	1								
+ÒôĞ§µñÃù	RandSound	0	1							\sound\µñÃù.wav	
+ÒôĞ§·äÃù	RandSound	0	1							\sound\·äÃù.wav	
+ÒôĞ§¿Õ¶´»ØÉù	RandSound	0	1							\sound\¿Õ¶´.wav	
+ÒôĞ§Á÷Ë®	RandSound	0	1							\sound\Á÷Ë®.wav	
+ÒôĞ§ÄñÃù	RandSound	0	1							\sound\ÄñÃù.wav	
+ÒôĞ§Ë®µÎ	RandSound	0	1							\sound\Ë®µÎ.wav	
+ÒôĞ§ÍÜÃù	RandSound	0	1							\sound\ÍÜÃù.wav	
+ÒôĞ§Ğ¡»ğ	RandSound	0	1							\sound\Ğ¡»ğ.wav	
+ÒôĞ§»ÆÅ£	RandSound	0	1							\sound\»ÆÅ£.wav	
+ÒôĞ§¹·½Ğ	RandSound	0	1							\sound\¹·½Ğ.wav	
+ÒôĞ§´ó»ğ	RandSound	0	1							\sound\´ó»ğ.wav	
+ÒôĞ§Ñò½Ğ	RandSound	0	1							\sound\Ñò½Ğ.wav	
+ÒôĞ§¼¦½Ğ	RandSound	0	1							\sound\¼¦½Ğ.wav	
+ÒôĞ§ÂíË»	RandSound	0	1							\sound\ÂíË».wav	
+ÒôĞ§º£±ß	RandSound	0	1							\sound\º£±ß.wav	
+ÒôĞ§ÏÂÓê	RandSound	0	1							\sound\ÏÂÓê.wav	
+ÒôĞ§É½¹È·çÉù1	RandSound	0	1							\sound\É½¹È·çÉù1.wav	
+ÒôĞ§É½¹È·çÉù2	RandSound	0	1							\sound\É½¹È·çÉù2.wav	
+ÒôĞ§ÀÇº¿	RandSound	0	1							\sound\ÒôĞ§ÀÇº¿.wav	
+ÒôĞ§À×Óê	RandSound	0	1							\sound\ÒôĞ§À×Óê.wav	

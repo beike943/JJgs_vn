@@ -1,0 +1,46 @@
+PosID	TriggerID	CustomID	Text
+ID ®Þa ®iÓm	ID kÝch ho¹t	ID tù ®Þnh nghÜa	Tªn ®Þa ®iÓm
+204	1600	600	ThiÕu L©m
+312	1601	601	Vâ §ang
+303	1602	602	Nga My
+209	1603	603	C¸i Bang
+305	1604	604	§­êng M«n
+218	1605	605	Linh B¶o s¬n
+217	1606	606	D· Tr­ l©m
+106	1607	607	Long TuyÒn Th«n
+309	1608	608	KiÕm C¸c Thôc ®¹o
+604	1609	609	Nh¹n M«n quan
+151	1610	610	V©n Méng Tr¹ch
+302	1611	611	Thanh Thµnh s¬n
+310	1612	612	KiÕm M«n quan
+207	1613	613	NhÞ Long s¬n
+107	1614	614	Vò Di s¬n
+311	1615	615	Phôc Ng­u s¬n
+103	1616	616	§«ng H¶i H¶i T©n 1
+208	1617	617	L­¬ng S¬n B¹c
+104	1618	618	§«ng H¶i H¶i T©n 2
+601	1619	619	§¹i Th¶o Nguyªn 1
+602	1620	620	§¹i Th¶o Nguyªn 2
+600	1621	621	Bé l¹c V­¬ng Kú
+315	1622	622	B¨ng T©m ®éng_1
+316	1623	623	B¨ng T©m ®éng_2
+317	1624	624	Tróc Ty ®éng_1
+318	1625	625	Tróc Ty ®éng-2
+319	1626	626	Phong Ma ®éng-1
+320	1627	627	Phong Ma ®éng-2
+321	1628	628	Kim Quang ®éng
+324	1629	629	ThÊt Tinh ®éng-1
+325	1630	630	ThÊt Tinh ®éng-2
+210	1631	631	D­¬ng Trung ®éng-1
+211	1632	632	D­¬ng Trung ®éng-2
+212	1633	633	D­¬ng Trung ®éng-3
+111	1634	634	Thanh Khª ®éng
+313	1635	635	Thiªn S­ ®éng-1
+314	1636	636	Thiªn S­ ®éng-2
+322	1637	637	Long Hæ ®éng-1
+323	1638	638	Long Hæ ®éng-2
+215	1639	639	H¾c Phong ®éng
+112	1640	640	L­ìng Thñy ®éng_1
+113	1641	641	L­ìng Thñy ®éng_2
+109	1642	642	Thanh ¢m ®éng_1
+110	1643	643	Thanh ¢m ®éng_2

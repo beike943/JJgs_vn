@@ -1,0 +1,30 @@
+TaskName	TaskType	Genre	Detail	Particular	GoodsNum	DelGoods	NpcName	NpcNum	PayMoney	TaskText
+Thµnh §«_B¾t Thá	T×m vËt phÈm	1	1	1	1	1	n	n		n
+BiÖn Kinh_Chu ThiÖn Nh©n	T×m vËt phÈm	0	2	14	1	1	n	n		n
+BiÖn Kinh_Chu ThiÖn Nh©n	T×m vËt phÈm	1	1	1	1	1	n	n		n
+NhiÖm vô 1 Cæ MÆc_T­¬ng D­¬ng	T×m vËt phÈm	1	2	2	1	1	n	n		C¸t C¸nh
+NhiÖm vô 1 Cæ MÆc_T­¬ng D­¬ng	T×m vËt phÈm	1	2	3	1	1	n	n		Hoµng liªn
+NhiÖm vô 1 Cæ MÆc_T­¬ng D­¬ng	T×m vËt phÈm	1	2	4	1	1	n	n		X¹ h­¬ng
+T×m San H« tr©m cho Xa Phu_T­¬ng D­¬ng	T×m vËt phÈm	0	103	42	1	1	n	n		San H« tr©m
+T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_§­a Th¸i Thó ng©n l­îng	l­îng tiÒn tiªu hao								500	
+T­¬ng D­¬ng_§ao cña Tiªu s­_T×m nanh heo rõng	T×m vËt phÈm	2	1	7	10	1				Nanh heo rõng
+BiÖn Kinh §«ng tr­ëng th«n 1	T×m vËt phÈm	2	1	3	5	1	n	n		n
+BiÖn Kinh D­îc DÉn 1										
+BiÖn Kinh D­îc DÉn 2	T×m vËt phÈm	1	2	4	3	1	n	n		n
+BiÖn Kinh D­îc DÉn 3										
+BiÖn Kinh §«ng Th­ sinh 1										
+BiÖn Kinh §«ng Th­ sinh 2										
+BiÖn Kinh §«ng Th­ sinh 3	T×m vËt phÈm	2	1	11	5	1	n	n		n
+BiÖn Kinh §«ng Th­ sinh 4										
+Thêi Thiªn T­¬ng D­¬ng (1 )	T×m vËt phÈm	2	2	16	3	1	n	n		n
+Thêi Thiªn T­¬ng D­¬ng (2 )	T×m vËt phÈm	2	0	19	3	1	n	n		n
+Thêi Thiªn T­¬ng D­¬ng (3 )	T×m vËt phÈm	2	0	21	1	1	n	n		n
+Vâ Tßng_NhŞ Long s¬n	T×m vËt phÈm	2	0	24	1	1	n	n		n
+Tèng Giang_Thñy B¹c (1)	T×m vËt phÈm	2	0	20	1	1	n	n		n
+Tèng Giang_Thñy B¹c (2)	T×m vËt phÈm	2	0	27	1	1	n	n		n
+Tèng Giang_Thñy B¹c (2)	T×m vËt phÈm	2	0	28	1	1	n	n		n
+Tèng Giang_Thñy B¹c (3)										
+S¬n tr¹i Long T¹i Thiªn	T×m vËt phÈm	1	1	13	10	1	n	n		n
+Tèng Giang_Thñy B¹c (4)	T×m vËt phÈm	2	0	25	1	1	n	n		n
+Tèng Giang_Thñy B¹c (5)										
+Lı S­ S­										

@@ -1,0 +1,297 @@
+--ÈÎÎñ
+--µØµã£ºãê¾©¸®  ÈÎÎñ£ºÌìÃÅÕóÈÎÎñ½áµã6
+--²ß»®£º·®ÍòËÉ  2004.03.
+--append by lizhi
+--2005-8-8 11:26
+
+Include("\\script\\task\\world\\task_head.lua");
+Include("\\script\\task\\world\\task_var_id.lua");
+Include("\\script\\task\\world\\lizhi_ãê¾©\\task_main.lua");
+Include("\\script\\task\\faction\\faction_main_ym.lua");
+Include("\\script\\task\\faction\\faction_head.lua");
+Include("\\script\\task\\practice\\practice_main.lua");
+Include("\\script\\task\\tasklink\\factiontasklink_temp.lua"); -- Ê¦ÃÅÈÎÎñÁ´µÄÍ·ÎÄ¼ş
+Include("\\script\\½á»é\\marriage_head.lua");
+Include("\\script\\online\\zgc_public_fun.lua")		--´å³¤µÄ¹«¹²º¯Êı
+Include("\\script\\online\\callbackplayer\\callbackplayer_head.lua");--ÕÙ»ØÀÏÍæ¼Ò»î¶¯
+Include("\\script\\task\\world\\task_award.lua");
+Include("\\script\\online\\chuyen_sinh\\translife_npc.lua");
+szNpcName  = "<color=green>D­¬ng M«n Gi¸o Chñ<color=green> : "
+function main()
+	local nTaskValue = FN_GetTaskState(FN_YM);
+	local nTaskValuem = FN_GetTaskState(FN_YMM);
+	  
+	if (GetSex() == 1) then
+		if ((nTaskValue > 0) and (nTaskValue < 7)) then
+			Say("Ng­¬i ®Õn t×m <color=yellow>D­¬ng T«n B¶o<color> nhĞ!",0);
+			return
+		end;
+		if (nTaskValue == 7) then 
+			task_115();
+			return
+		end;
+		if (nTaskValue>=9) then
+			fix_ym();
+			return
+	    end;
+	end;
+		
+	if (GetSex() == 2) then
+		if ((nTaskValuem > 0) and (nTaskValuem < 7)) then
+			Say("Ng­¬i ®Õn t×m <color=yellow>Méc QuÕ Anh<color> nhĞ!",0);
+			return		
+		end;
+		if (nTaskValuem == 7) then 
+			task_015();
+			return
+		end;
+	    if (nTaskValuem>=9) then
+			fix_ym();
+			return
+		end;
+	end; 
+	main_new();
+end;
+
+-- Ê¦ÃÅÈÎÎñÏà¹Ø
+function about_faction_task()
+	Say("Cã chuyÖn g× vËy?",
+		3,
+		"Ta muèn cèng hiÕn cho s­ m«n (nhiÖm vô s­ m«n)/start_faction_tasklink",
+		"Ta muèn tra xem ®é cèng hiÕn./check_query_faction_contri",
+		"Ta muèn t×m hiÓu ®é cèng hiÕn s­ m«n./shimenshuoming")
+--		"ÎÒÒªĞŞ¸´Ê¦ÃÅÈÎÎñÎŞ·¨Íê³ÉµÄÎÊÌâ/repair_faction_bug")
+end;
+
+-- ĞŞ¸´É±¹ÖÈÎÎñÎŞ·¨Íê³ÉµÄbug
+function repair_faction_bug()
+	Say("GÇn ®©y c«ng viÖc rÊt nhiÒu, ta quªn nhiÖm vô cña ng­¬i råi. Xem nh­ lÇn nµy ta thö ng­¬i! B©y giê ta gióp ng­¬i hñy nhiÖm vô tr­íc, nh­ng ph¶i trõ ng­¬i 5 ®iÓm cèng hiÕn s­ m«n, ng­¬i x¸c ®Şnh ch­a?", 
+		2,
+		"§­îc, ta ®ång ı/confirm_repair_bug",
+		"§Ó ta nghÜ c¸ch kh¸c/no")
+end;
+
+function confirm_repair_bug()
+	RepairAllChainTask()
+	Say("Ta ®· hñy gióp ng­¬i råi!", 0)
+end;
+
+--ÌìÃÅÕóÈÎÎñÓëãê¾©ÈÎÎñ½Ó¿Ú
+function sayhi()
+  local nBjStep = GetTask(TASK_BJ_ID);    --ãê¾©ÈÎÎñ
+  local UWorld1401 = GetTask(1401);
+    
+    if nBjStep >= 1 and nBjStep<=6 and UWorld1401 ~= 0 then
+        local szSay = {
+            "<sex> t×m ta cã viÖc g× kh«ng?",
+            "NhiÖm vô BiÖn Kinh/bj_question",
+            "NhiÖm vô Thiªn M«n trËn/tmz_question"
+        }
+        SelectSay(szSay);
+        return
+    end;
+    
+    if nBjStep >= 1 and nBjStep<=6 then
+        bj_question();
+        return
+    end;
+    
+    if UWorld1401 ~= 0 then
+        tmz_question();
+        return
+    end;
+    --Talk(1,"","<color=green>ÙÜÌ«¾ı<color>£ºÆõµ¤Ò¹ÀÉ×Ô´ó£¬ÆñÈİËûÌ¤ÈëÎÒ´óËÎ½®ÍÁ£¡");     
+end;
+
+
+
+function bj_question()
+    local nBjStep = 0;
+    nBjStep = GetTask(TASK_BJ_ID);  --ãê¾©ÏµÁĞÈÎÎñµÄÈÎÎñ±äÁ¿
+    
+    if (nBjStep == 1) then
+        task_001_00();
+        return
+    elseif (nBjStep == 2) then
+        task_002_00();
+        return
+    elseif (nBjStep == 3) then
+        task_003_00();
+        return
+    elseif (nBjStep == 4) then
+        task_004_01();
+        return
+    elseif (nBjStep == 5) then
+        task_005_00();
+        return
+    elseif (nBjStep == 6) then
+        task_006_00();
+        return
+    else
+    	Talk(1,"","GiÆc KhiÕt §an tù cao tù ®¹i nh­ng kh«ng dÔ x©m ph¹m c­¬ng thæ §¹i Tèng ta!")
+    end;
+end;
+
+function tmz_question() --ÌìÃÅÕóÈÎÎñ
+    local UWorld1401 = GetTask(1401);
+    if ( UWorld1401 == 40 )  then
+    	Talk(6,"","T¹i h¹ vÊn an Xa L·o Th¸i Qu©n!","Khµ! Khµ! §a t¹! Xin hái anh hïng cã g× chØ gi¸o!","Tõ nhá t¹i h¹ vèn sïng kİnh D­¬ng t­íng qu©n, nay muèn b¸o danh gia nhËp D­¬ng Gia qu©n giÕt giÆc KhiÕt §an. Nµo ngê bŞ biÖt ph¸i ®Õn L­¬ng S¬n B¹c, xin L·o Th¸i Qu©n ph¸i t¹i h¹ ®Õn Nh¹n M«n quan tiÒn tuyÕn!","Hõ! ChuyÖn nµy dÔ th«i! ChuyÖn cña D­¬ng Gia qu©n, l·o ®©y cã thÓ tù quyÕt! Cø nãi lµ ta ph¸i ng­¬i ®i sÏ dÔ dµng ®Çu qu©n!","TiÖn thÓ ng­¬i chuyÓn lêi cho phu qu©n <color=red>D­¬ng NghiÖp<color> cña ta ë <color=red>Nh¹n M«n quan<color> r»ng: TiÓu nh©n léng quyÒn, hµ tÊt ph¶i ph« tµi.","§a t¹ L·o Th¸i Qu©n chiÕu cè! TiÓu nh©n nhÊt ®Şnh chuyÓn lêi!")
+        SetTask(1401,45)
+        ----AddItem(0,0,0)
+        Earn(1000)
+        GivePlayerExp(SkeyTianmenzhen,"setaijun")
+        ModifyReputation(12,0)
+        --AddNote("È¥ÑãÃÅ¹ØÕÒÑîÒµ£¬ÎªÙÜÌ«¾ı´ø»°£¬²¢ÇÒ´òÌıÉ½ºÓÉçğ¢Í¼µÄÇé±¨¡£")
+        TaskTip("§Õn Nh¹n M«n quan t×m D­¬ng NghiÖp chuyÓn lêi cña Xa Th¸i Qu©n, ®ång thêi hái th¨m tin tøc vÒ B¶n ®å S¬n Hµ X· T¾c!")
+    	
+    elseif ( UWorld1401  == 45  ) then
+    		Talk(1,"","Gióp ta chuyÓn lêi cho phu qu©n <color=red>D­¬ng NghiÖp<color> ë <color=red>Nh¹n M«n quan<color>!")	
+    elseif ( UWorld1401  > 45  ) then
+    	Talk(1,"","§a t¹ b»ng h÷u!")
+    else
+    	Talk(1,"","GiÆc KhiÕt §an tù cao tù ®¹i nh­ng kh«ng dÔ x©m ph¹m c­¬ng thæ §¹i Tèng ta!")
+    end
+end;	
+	
+	
+	
+	
+	
+--end;
+
+function intertangmen()		--¼ÓÈëÃÅÅÉ
+	if (GetTask(1001)>0) or (GetTask(1002)>0) or (GetTask(1003)>0) or (GetTask(1004)>0) or (GetTask(1005)>0)  or (GetTask(1033)>0) then
+		Say("Ng­¬i sÆc mïi giang hå! D­¬ng m«n ta kh«ng tiÖn thu nhËn!",0)
+	elseif GetLevel() < 10 then	  --µÈ¼¶¼ì²â
+		Say("Muèn gia nhËp qu©n D­¬ng gia ph¶i cã thùc lùc nhÊt ®Şnh. Ch­a ®Õn <color=yellow>cÊp 10<color> sao cã thÓ gãp søc cho Quèc gia! CÊp 10 h·y ®Õn t×m ta!",0)
+	elseif GetPlayerFaction() == 6 then	--ÃÅÅÉ¼ì²â
+		Say("Ng­¬i ®­êng ®­êng lµ ®Ö tö D­¬ng m«n, cßn muèn gia nhËp g× n÷a?",0)
+	elseif GetPlayerFaction() > 0 then	--ÃÅÅÉ¼ì²â
+		Say("Ng­¬i ®· gia nhËp c¸c ®¹i m«n ph¸i, D­¬ng m«n kh«ng thÓ thu nhËn Nh©n sÜ giang hå!",0)
+	else
+	  if GetSex()==2 then
+		task_001();
+		end;
+		if GetSex()==1 then
+		task_101();
+		return
+	  end
+   end
+end
+
+function skilllearn()
+	if GetPlayerFaction() ~= 6 then		--²»ÊÇÑîÃÅµÜ×Ó
+		Say("Kh«ng ph¶i ®Ö tö D­¬ng M«n, chuyÖn cña D­¬ng gia xin chí xen vµo!",0)
+	elseif  GetPlayerRoute() == 16 then 	--ÊÇÑîÃÅµÜ×Óµ«ÊÇ»¹Ã»ÓĞÈ¥°İÊ¦
+		Say("D­¬ng gia qu©n ta cung m· tinh th«ng. D­¬ng gia Th­¬ng thiªn h¹ biÕt danh. Häc <color=yellow>Th­¬ng ph¸p<color>, cã thÓ t×m <color=yellow>D­¬ng T«n B¶o<color>; Häc <color=yellow>Cung thuËt<color>, cã thÓ t×m <color=yellow>Méc QuÕ Anh<color>.",0)
+	elseif  GetPlayerRoute() == 17 then
+		Say("Ng­¬i theo <color=yellow>D­¬ng M«n th­¬ng kş<color>, häc vâ c«ng ph¶i t×m Th­¬ng ph¸p gi¸o ®Çu <color=yellow>D­¬ng T«n B¶o<color>.",0)
+	elseif  GetPlayerRoute() == 18 then
+		Say("Ng­¬i theo<color=yellow>D­¬ng M«n cung kş<color>, häc vâ c«ng ph¶i t×m Cung thuËt gi¸o ®Çu <color=yellow>Méc QuÕ Anh<color>.",0)	
+	end
+end;
+		
+
+function gettask()
+	if GetPlayerFaction() ~= 6 then
+		Say("Kh«ng ph¶i ®Ö tö D­¬ng M«n, chuyÖn cña D­¬ng gia xin chí xen vµo!",0)
+	else
+		taskmain("Xa Th¸i Qu©n", 5)
+	end
+end;				
+
+
+function no()
+--	Say("<color=green>ÙÜÌ«¾ı<color>£ºfuck u£¡")
+end;
+
+function practice()
+    if GetPlayerFaction() ~= 6 then
+       Talk(1,"","Kh«ng ph¶i ®Ö tö D­¬ng M«n, chuyÖn cña D­¬ng gia xin chí xen vµo!");
+    else
+        if GetItemCount(2, 0, 350) >= 1 then  --Ê¦ÃÅÁîÅÆ
+            Say("Cã muèn vµo huÊn luyÖn kh«ng?",2,"§óng/practice_start","Sai/no");
+        else
+            Talk(1,"","Ng­¬i kh«ng cã <color=yellow>lÖnh bµi cña D­¬ng M«n<color>, kh«ng thÓ vµo huÊn luyÖn.");
+        end;
+    end;
+end;
+
+-- ÑîÃÅÊ¦ÃÅÖØ¸´ÈÎÎñµÄÈë¿Ú
+function start_faction_tasklink()
+	if (GetPlayerFaction() ~= 6) then						--²»ÊÇÑîÃÅµÜ×Ó
+		Say("Kh«ng ph¶i ®Ö tö D­¬ng M«n, chuyÖn cña D­¬ng gia kh«ng d¸m phiÒn b»ng h÷u!", 0)
+	elseif (GetPlayerRoute() == 16) then 					--ÊÇÑîÃÅµÜ×Óµ«ÊÇ»¹Ã»ÓĞÈ¥°İÊ¦
+		Say("H·y ®Õn b¸i s­ T«n B¶o hoÆc QuÕ Anh, råi h·y ®Õn gÆp ta nhËn nhiÖm vô!", 0)
+	elseif (GetPlayerRoute() == 17) then
+		task_main_entrance(TASK_ID_YANGMEN_QIANGQI);		-- Ç¹Æï
+	elseif (GetPlayerRoute() == 18) then
+		task_main_entrance(TASK_ID_YANGMEN_GONGQI);			-- ¹­Æï
+	end
+end;
+
+function shimenshuoming()
+		Say("<color=green>ThuyÕt minh ®é cèng hiÕn s­ m«n<color>: \n <color=yellow>§é cèng hiÕn s­ m«n<color>: Th«ng qua viÖc hoµn thµnh nhiÖm vô S­ M«n ®¹t ®Õn mét ®¼ng cÊp nhÊt ®Şnh, b¹n cã thÓ nhËn ®­îc trang phôc hoÆc vò khİ cña S­ M«n. \n <color=yellow>Giíi h¹n ®é cèng hiÕn s­ m«n<color>: HiÖn nay ®é cèng hiÕn S­ M«n kh«ng bŞ h¹n chÕ, chØ cÇn hoµn thµnh nhiÖm vô th× cã thÓ n©ng cao ®é cèng hiÕn. \n <color=yellow>Sù kiÖn Vâ L©m<color>: Lµm xong nhiÖm vô cè ®Şnh sÏ nhËn thªm mét nhiÖm vô ngÉu nhiªn, hoµn thµnh sÏ nhËn ®­îc 50 ®iÓm cèng hiÕn S­ m«n vµ cã kh¶ n¨ng nhËn ®­îc mËt tŞch s­ m«n.", 
+			1,
+			"Trang kÕ/shuoming2")		
+end;
+
+function shuoming2()
+		Say("<color=green>ThuyÕt minh ®é cèng hiÕn s­ m«n<color>: \n <color=yellow>Giíi h¹n ®¼ng cÊp ®é cèng hiÕn S­ M«n<color>: §¼ng cÊp kh¸c nhau th× ®iÓm tİch lòy ®é cèng hiÕn còng kh«ng gièng nhau. §é cèng hiÕn S­ M«n cµng cao cµng n©ng cao ®¼ng cÊp cña m×nh, tõ sau cÊp 75 th× kh«ng cßn giíi h¹n ®é cèng hiÕn n÷a. \n <color=yellow>§iÓm kinh nghiÖm ngÉu nhiªn<color>. Lµm nhiÒu nhiÖm vô s­ m«n ®é cèng hiÕn cµng cao ®iÓm kinh nghiÖm cµng nhiÒu. §iÓm cèng hiÕn <3000 <color=yellow>§iÓm kinh nghiÖm t­¬ng ®èi<color>, >3000 <color=yellow>®iÓm kinh nghiÖm cµng nhiÒu<color>.", 0);
+end
+
+function check_query_faction_contri()
+
+	if (GetPlayerFaction() == 0) then	-- Ã»ÓĞ¼ÓÈëÃÅÅÉ
+		Say("Muèn lµm nhiÖm vô s­ m«n tr­íc tiªn ph¶i gia nhËp bæn gi¸o. Sau ®ã h·y gia nhËp tr­êng ph¸i, råi quay l¹i chç ta nhËn nhiÖm vô. Sau khi hoµn thµnh nhiÖm vô s­ m«n sÏ nhËn ®­îc ®é cèng hiÕn s­ m«n, tİch lòy ®é cèng hiÕn nhÊt ®Şnh cã thÓ mua vËt phÈm bİ truyÒn bæn m«n.", 0)
+		return
+	end
+	
+	if (GetPlayerFaction() ~= 6) then	-- ²»ÊÇ±¾ÃÅµÜ×Ó
+		Say("Ng­¬i kh«ng ph¶i lµ ®Ö tö cña bæn gi¸o, h·y vÒ m«n ph¸i cña ng­¬i mµ tra xem ®é cèng hiÕn s­ m«n nhĞ. Giao diÖn F3 còng cã thÓ tra xem ®é cèng hiÕn s­ m«n.", 0)
+		return
+	end
+	
+	query_faction_contribute()
+	
+end;
+--========================================================================================
+g_szInfoHead = "<color=green>Xa Th¸i Qu©n<color>:";
+g_tbColorInfo = 
+{
+	{"{","}","yellow"},
+};
+--ĞÂµÄÈë¿Ú
+function main_new()
+	local selTab = {
+				"Thiªn Ba D­¬ng phñ/know_qiyuan",
+				"Vâ c«ng Thiªn Ba D­¬ng phñ/know_wugong",
+				"§iÒu kiÖn nhËp m«n/know_rumentiaojian",
+				"Ta muèn gia nhËp Thiªn Ba D­¬ng phñ/intertangmen",
+				"Ta muèn lµm nhiÖm vô S­ M«n/about_faction_task",
+				"Liªn quan tu luyÖn./practice",
+				"Ta s¾p thµnh th©n nªn ph¶i xuÊt s­/#faction_graduate(6)",
+				"Th¨m hái Th¸i Qu©n/sayhi",
+				}
+	if (GetPlayerRoute() == 16) then
+		tinsert(selTab, 1, "NhiÖm vô ChuyÓn Sinh - C¶i L·o Hoµn §ång/trans_talk_32");
+	end
+--	tinsert(selTab,8,"ÎäÁÖÕù°ÔÕ½Ïà¹Ø/wulin_zhengba");			
+	local nDate = tonumber(date("%y%m%d"));
+	if nDate >= 091113 and nDate < 091130 then
+		tinsert(selTab, 1, "§Ö tö xin kİnh d©ng s­ phô trµ hoa cóc vµ b¸nh b¸ch hoa!/#GiveItemToMaster(\""..g_szInfoHead.."\", 6)");
+	end
+	Say(g_szInfoHead.."Thiªn Ba D­¬ng phñ, trung nghÜa kiªn c­êng, hÕt lßng v× §¹i Tèng.",getn(selTab),selTab);
+end;
+
+function know_qiyuan()
+	Talk(1,"main_new",g_szInfoHead.."Tèng Th¸i T«ng th¸i b×nh h­ng thŞnh 4 n¨m, Tèng diÖt B¾c H¸n, lÖnh c«ng qui Tèng, ®­îc phong lµm ®¹i t­íng qu©n, trÊn gi÷ ¶i Ung M«n. §­îc 5 n¨m h­ng thŞnh, th× nhµ Liªu ph¸i 10 v¹n ®¹i qu©n ®¸nh Ung M«n, lóc ®ã binh m· d­íi tay lÖnh c«ng chØ cã mÊy ngh×n, sö dông kÕ s¸ch tËp kİch, ®¸nh tan 10 v¹n qu©n Liªu, Ung M«n ®¹i th¾ng, lÖnh c«ng uy danh lÉy lõng, nhµ Liªu ®Õn lóc nµy míi khiÕp sî tr­íc D­¬ng Gia TrËn Kú. Thiªn Ba D­¬ng phñ vang danh thiªn h¹ tõ ®ã.");
+end;
+
+function know_wugong()
+	Talk(2,"main_new",g_szInfoHead..sf_ConvertColorString("Thao tr­êng luyÖn vâ cña D­¬ng gia ph©n thµnh Th­¬ng Kş vµ Cung Kş, tÊn c«ng trªn ngùa (ngùa cã thÓ mua ë chç D­¬ng Bµi Phong). Th­¬ng Kş chó träng vµo søc m¹nh tµn ph¸, D­¬ng Gia Ph¸p cã thÓ tÊn c«ng gÇn vµ xa, chiªu thøc dòng m·nh lùc s¸t th­¬ng m¹nh, chuyªn vÒ tÊn c«ng kÎ thï ë diÖn tİch lín, nhanh nhÑn nh­ giã, cã thÓ häc vâ c«ng trÊn ph¸i {Liªn Hoµn Toµn Long Th­¬ng}. Cung kş chó träng tèc ®é th©n ph¸p, tÊn c«ng liªn tôc vµo kÎ thï, cßn cã thÓ toµn lùc ®¸nh ra ®ßn chİ m¹ng, së tr­êng tÊn c«ng xa, cã thÓ häc vâ c«ng trÊn ph¸i {B¸ V­¬ng T­êng Phông TiÔn}."),g_szInfoHead..sf_ConvertColorString("S­ phô Th­¬ng Kş lµ Th­¬ng Kş gi¸o ®Çu {D­¬ng T«n B¶o}, s­ phô Cung Kş lµ Cung Kş gi¸o ®Çu {Méc QuÕ Anh}."));
+end;
+
+function know_rumentiaojian()
+	Talk(1,"main_new",g_szInfoHead.."Kh«ng ph©n biÖt nam n÷, phÈm h¹nh ®oan chİnh, ch­a gia nhËp bang m«n kh¸c, kh«ng ph¶i lµ ph¶n ®å cña phe ta ®Òu cã thÓ gia nhËp. Qu©n ta v× lîi İch quèc gia, triÒu ®×nh, ng­êi gia nhËp ph¶i ghi nhí ®iÒu nµy.");
+end;

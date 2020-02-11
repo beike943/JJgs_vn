@@ -1,0 +1,8 @@
+ID	Name	Action	ItemExp	HeightChange	Time	Belong	LeftStuff	Icon	GatherListFile	DropRateFile	ExpSettingFile	Desc
+1	§èn c©y	·¥Ä¾	16	-10	40	2	Ä¾×®	\UImage\lifeskillicon\²É¼¯¼¼ÄÜ\·¥Ä¾.spr	\settings\skill\gather\skill_famu_gather_list.ini	\settings\skill\gather\skill_famu_drop_rate.txt	\settings\skill\skills_gather_exp.txt	Kü n¨ng ®èn c©y
+2	Lµm da	ÖÆÆ¤	16	-45	40	2	ÊŞÆ¤	\UImage\lifeskillicon\²É¼¯¼¼ÄÜ\ÖÆÆ¤.spr	\settings\skill\gather\skill_zhipi_gather_list.ini	\settings\skill\gather\skill_zhipi_drop_rate.txt	\settings\skill\skills_gather_exp.txt	Kü n¨ng thuéc da
+3	Canh t¸c	ÊÕ¸û	12	-10	30	2		\UImage\lifeskillicon\²É¼¯¼¼ÄÜ\ÊÕ¸û.spr	\settings\skill\gather\skill_shougeng_gather_list.ini	\settings\skill\gather\skill_shougeng_drop_rate.txt	\settings\skill\skills_gather_exp.txt	Kü n¨ng canh t¸c
+4	H¸i thuèc	²ÉÒ©	8	-10	20	2		\UImage\lifeskillicon\²É¼¯¼¼ÄÜ\²ÉÒ©.spr	\settings\skill\gather\skill_caiyao_gather_list.ini	\settings\skill\gather\skill_caiyao_drop_rate.txt	\settings\skill\skills_gather_exp.txt	Kü n¨ng h¸i thuèc
+5	§µo kho¸ng	²É¿ó	16	-10	40	2		\UImage\lifeskillicon\²É¼¯¼¼ÄÜ\²É¿ó.spr	\settings\skill\gather\skill_wakuang_gather_list.ini	\settings\skill\gather\skill_wakuang_drop_rate.txt	\settings\skill\skills_gather_exp.txt	Kü n¨ng khai kho¸ng
+6	KĞo t¬	³éË¿	16	-45	40	2	Ë¿	\UImage\lifeskillicon\²É¼¯¼¼ÄÜ\³éË¿.spr	\settings\skill\gather\skill_chousi_gather_list.ini	\settings\skill\gather\skill_chousi_drop_rate.txt	\settings\skill\skills_gather_exp.txt	Kü n¨ng kĞo t¬
+7	TËp linh	ÖÆÆ¤	16	-45	40	2		\UImage\lifeskillicon\²É¼¯¼¼ÄÜ\¼¯Áé.spr	\settings\skill\gather\skill_jiling_gather_list.ini	\settings\skill\gather\skill_jiling_drop_rate.txt	\settings\skill\skills_gather_exp.txt	TËp linh

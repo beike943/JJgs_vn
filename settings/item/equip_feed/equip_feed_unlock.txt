@@ -1,0 +1,40 @@
+ID	Name	EquipWorth	UnlockLv1	AttrGroup1	AttrLv1	UnlockLv2	AttrGroup2	AttrLv2	UnlockLv3	AttrGroup3	AttrLv3
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+1	Më khãa 1 sao	800	4	9		8	9				
+2	Më khãa 2 sao	1200	4	9		9	10				
+3	Më khãa 3 sao	1600	2	10		6	10		10	10	
+4	3+ më khãa huy ch­¬ng	1800	2	10		6	11		10	11	
+5	3+më khãa ¸o choµng	1800	2	10		6	12		10	12	
+6	3+ më khãa giµy	1800	2	10		6	13		10	13	
+7	3++ më khãa huy ch­¬ng	2000	2	10		6	11		10	11	
+8	3++më khãa ¸o choµng	2000	2	10		6	12		10	12	
+9	3++ më khãa giµy	2000	2	10		6	13		10	13	
+10	Huy Ch­¬ng T­íng Qu©n më khãa	2000	5	16		10	17				
+11	Huy Ch­¬ng Nguyªn So¸i më khãa	2000	5	20		10	21				
+12	¸o Choµng T­íng Qu©n më khãa	2000	5	18		10	17				
+13	¸o Choµng Nguyªn So¸i më khãa	2000	5	22		10	21				
+14	ChiÕn Hµi T­íng Qu©n më khãa	2000	5	19		10	17				
+15	ChiÕn Hµi Nguyªn So¸i më khãa	2000	5	23		10	21				
+16	Thiªn H¹ V« Song më khãa	2000	10	29							
+17	Më khãa ¸o Choµng Du HiÖp	3000	6	32		11	33				
+18	Më khãa ¸o Choµng ThiÕt HuyÕt 	3000	6	38		11	39				
+19	Më khãa ¸o Choµng V©n Du 	3000	6	44		11	45				
+20	Më khãa Huy Ch­¬ng Du HiÖp 	3000	6	32		11	34				
+21	Më khãa Huy Ch­¬ng ThiÕt HuyÕt 	3000	6	38		11	40				
+22	Më khãa Huy Ch­¬ng V©n Du 	3000	6	44		11	46				
+23	Më khãa Tr­êng Hµi Du HiÖp	3000	6	32		11	35				
+24	Më khãa Tr­êng Hµi ThiÕt HuyÕt	3000	6	38		11	41				
+25	Më khãa §¹o Hµi V©n Du	3000	6	44		11	47				
+26	Linh §å §Çu	6000	1	63		6	67		10	71	
+27	Linh §å Y	6000	1	63		6	68		10	71	
+28	Linh §å Khè	6000	1	63		6	69		10	71	
+29	Vò KhÝ Linh §å	6000	1	64		6	65				
+30	Linh §å Giíi ChØ	6000	1	66		6	70		10	72	

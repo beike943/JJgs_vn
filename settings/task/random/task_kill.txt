@@ -1,0 +1,25 @@
+TaskID	KillNpc	KillNum	Value	EventID	MapID	Rate10	Rate20	Rate30	Rate40	Rate50	Rate60	Rate70	Rate80	Rate90	Rate100	TaskText
+ID NhiÖm vô	Tªn NPC	Sè l­îng NPC	Gi¸ trÞ nhiÖm vô	ID kÝch ho¹t	ID b¶n ®å hiÖn t¹i 											V¨n tù thuyÕt minh nhiÖm vô
+1	10 Thá rõng	10	500	201	304	1000	300	0	0	0	0	0	0	0	0	HiÖn giê Thá rõng ®ang tµn ph¸ kh¾p n¬i, ng­¬i gióp ta diÖt <color=yellow>10 con<color> xem nh­ gióp b¸ t¸nh.
+2	10 Thá x¸m	10	600	202	304	0	500	0	0	0	0	0	0	0	0	HiÖn giê Thá x¸m ®ang tµn ph¸ kh¾p n¬i, ng­¬i gióp ta ®¸nh <color=yellow>10<color> con <color=yellow>Thá x¸m<color>, xem nh­ gióp b¸ t¸nh.
+3	10 Heo rõng	10	700	203	312	0	500	300	0	0	0	0	0	0	0	HiÖn t¹i xung quanh cã rÊt nhiÒu <color=yellow>Heo rõng<color> tÊn c«ng l÷ kh¸ch, ng­¬i mau gióp ta ®¸nh <color=yellow>10 con<color> Heo rõng.
+4	10 ThiÕt gi¸p trïng	10	800	204	202	0	300	500	0	0	0	0	0	0	0	Mïa nµy <color=yellow>Gi¸p trïng<color> ®Î trøng, h·y ®i tiªu diÖt <color=yellow>10<color> con.
+5	10 Sãi xanh	10	880	205	304	0	0	500	0	0	0	0	0	0	0	<color=yellow>Sãi xanh<color> ngoµi thµnh ®· tÊn c«ng nhiÒu l÷ kh¸ch, h·y ®i diÖt <color=yellow>10 con<color>!
+6	10 KiÕm Kh¸ch	10	2500	206	312	0	0	0	500	0	0	0	0	0	0	GÇn ®©y ch©n nói Vâ §ang cã nhiÒu <color=yellow>KiÕm Kh¸ch<color> th­êng quÊy rèi du kh¸ch, h·y ®i trõng trÞ <color=yellow>10<color>  tªn.
+7	10 §ao HiÖp	10	3200	207	312	0	0	0	500	300	0	0	0	0	0	GÇn ch©n nói Vâ §ang xuÊt hiÖn nhiÒu <color=yellow>§ao HiÖp<color> th­êng tù ý lµm bËy, lµm nhiÒu du kh¸ch bÞ th­¬ng, h·y ®i trõng trÞ <color=yellow>10 tªn<color>!
+8	10 M· HÇu	10	3200	208	303	0	0	0	500	500	0	0	0	0	0	Nga My ph¸i th­êng bÞ <color=yellow>M· HÇu<color> quÊy ph¸, lÊy trém thøc ¨n, c¾n ng­êi ®i ®­êng, h·y ®i b¾t <color=yellow>10<color> con vÒ ®©y!
+9	10 Sãi ®iªn	10	3200	209	216	0	0	0	2000	500	0	0	0	0	0	<color=yellow>C¸i Bang T­êng V©n ®éng<color> cã rÊt nhiÒu <color=yellow>Sãi ®iªn<color> hay c¾n ph¸ ng­êi d©n. H·y ®i b¾t <color=yellow>10<color> con.
+10	10 NhÒn nhÖn	10	3200	210	216	0	0	0	2000	500	0	0	0	0	0	<color=yellow>C¸i Bang T­êng V©n ®éng<color> cã nhiÒu <color=yellow>NhÖn ®éc<color>, h·y ®i b¾t <color=yellow>10<color> con.
+11	10 Nh·n KÝnh Xµ	10	4300	211	305	0	0	0	300	350	0	0	0	0	0	§­êng M«n cã nhiÒu <color=yellow>Nh·n KÝnh Xµ<color>, lµm nhiÒu b¸ t¸nh bÊt h¹nh bÞ th­¬ng, h·y tiªu diÖt <color=yellow>10 con<color>.
+12	10 §ao TuyÖt	10	4300	212	309	0	0	0	300	500	500	0	0	0	0	<color=yellow>§ao tuyÖt<color> luyÖn ®ao ë Thôc §¹o kh«ng cho ai qua, h·y ®i trõng trÞ <color=yellow>10<color> tªn.
+13	10 §ao V­¬ng	10	4300	213	212	0	0	0	0	1000	800	0	0	0	0	<color=yellow>TÇng 3 D­¬ng Trung ®éng<color> cã bän <color=yellow>§ao V­¬ng<color>, g©y rèi d©n chóng, h·y ®i trõng trÞ <color=yellow>10<color> tªn.
+14	10 Bé kho¸i	10	5200	214	210	0	0	0	0	1000	1000	0	0	0	0	<color=yellow>Bé kho¸i<color> ë D­¬ng Trung ®éng ®¶ th­¬ng nhiÒu b¸ t¸nh, ng­¬i h·y trõng trÞ <color=yellow>10 tªn<color>!
+15	10 Tèng ®ao binh	10	5200	215	604	0	0	0	0	200	1000	500	0	0	0	Nh¹n m«n quan cã nhiÒu <color=yellow>Tèng ®ao binh<color> ®µo ngò quÊy rèi b¸ t¸nh, h·y ®i trõng trÞ <color=yellow>10<color> tªn.
+16	10 Tèng qu©n tö sÜ	10	5200	216	604	0	0	0	0	0	500	800	0	0	0	Nh¹n M«n Quan cã nhiÒu <color=yellow>Tèng qu©n tö sÜ<color> ®µo ngò quÊy rèi b¸ t¸nh, ng­¬i mau trõng trÞ <color=yellow>10 tªn<color> trong bän chóng.
+17	10 Hæ Y Nh©n	10	6800	217	207	0	0	0	0	0	300	1000	500	0	0	NhÞ Long s¬n cã 1 sè <color=yellow>Hæ Y Nh©n<color> phong táa ngän nói. H·y mau ®i trõng trÞ <color=yellow>10<color> tªn.
+18	10 Hoang m¹c §ao Kh¸ch	10	6800	218	310	0	0	0	0	0	0	1200	800	0	0	KiÕm M«n quan xuÊt hiÖn rÊt nhiÒu <color=yellow>§ao kh¸ch<color> g©y rèi, h·y ®i trõng trÞ <color=yellow>10<color> tªn.
+19	10 L­u KhÊu	10	8800	219	322	0	0	0	0	0	0	2000	1000	0	0	Long Hæ ®éng cã nhiÒu <color=yellow>L­u KhÊu<color> lµ bän nu«i d­ìng gÊu x¸m h¹i ng­êi, h·y ®i trõng trÞ <color=yellow>10<color> tªn.
+20	10 Tµ T¨ng	10	9000	220	311	0	0	0	0	0	0	1200	1200	1000	0	Trªn phôc ng­u s¬n cã bän <color=yellow>Tµ t¨ng<color>, giÕt h¹i ng­êi v« téi, h·y ®i trõng trÞ <color=yellow>10<color> tªn.
+21	10 Trïng Qu¸i V­¬ng	10	15000	221	314	0	0	0	0	0	0	0	2000	1000	0	TÇng 2 Thiªn S­ ®éng cã <color=yellow>TuyÕt Qu¸i V­¬ng<color> lµ tay ch©n cña Ng« ViÖt L·o Tæ, h·y ®i diÖt <color=yellow>10 tªn<color> ®Ó lµm gi¶m thÕ lùc cña chóng.
+22	10 Vâ sÜ dÞ téc	10	15000	222	600	0	0	0	0	0	0	0	1200	1000	2000	<color=yellow>B¾c Nh¹n M«n Quan<color> trªn <color=yellow>§¹i Th¶o Nguyªn<color> cã <color=yellow>Vâ sÜ dÞ téc<color> lµ tay ch©n cña ng­êi KhiÕt §an, h·y ®i thu phôc <color=yellow>10<color> tªn.
+23	10 Cung thñ ngo¹i téc	10	16000	223	600	0	0	0	0	0	0	0	0	1000	2000	<color=yellow>B¾c Nh¹n M«n Quan<color> trªn <color=yellow>§¹i Th¶o Nguyªn<color> cã <color=yellow>Cung thñ dÞ téc<color> lµ tay ch©n cña ng­êi KhiÕt §an, h·y ®i thu phôc <color=yellow>10<color> tªn.

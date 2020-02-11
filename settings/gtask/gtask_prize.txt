@@ -1,0 +1,419 @@
+Prize_ID	Type	Value_1	Value_2	Value_3	Value_4	Value_5	Value_6	Remark
+PhÇn th­ëng &Action ID	Lo¹i							Type: Trigger (®iÓm khëi ®éng, tham sè ®iÒn CreateTrigger t­¬ng øng tham sè, ®iÒn sè nµy kh«ng cÇn ®iÒn b¶ng trigger. Th«ng th­êng dïng cho Action.)
+30001	Tv	2957	1					Exp (cÊp kinh nghiÖm, dïng Lv thÓ hiÖn cho cÊp ®é ng­êi ch¬i, cã thÓ ®iÒn c«ng thøc)
+30002	Item	2,0,30020,1	Thanh Linh T¸n					Item (cÊp vËt phÈm, trÞ 1 ®iÒn vµo AddItem tham sè t­¬ng øng, trÞ 2 ®iÒn vµo tªn vËt phÈm, trÞ 3 ®iÒn thêi gian tån t¹i cña item)
+30003	Item	2,0,30021,1	Thanh Phong B×nh					Tv (biÕn sè nhiÖm vô, trÞ 1lµ ID biÕn sè, trÞ 2 lµ trÞ sè biÕn sè, trÞ 3 nÕu kh«ng ®iÒn tøc lµ trÞ 2 lµ trÞ sè biÕn sè t¨ng, ®iÒn vµo 1 tøc trÞ 2 lµ trÞ tuyÖt ®èi.)
+30004	Item	2,0,30010,1	DÉn Hån Linh					Money (cÊp tiÒn, ®¬n vÞ: ®ång)
+30005	Item	2,0,30028,1	T¸n Hãa Tiªu Linh T¸n					TaskNext (ID nhiÖm vô nhËn tiÕp theo, dïng khi kh«ng cã from_npc)
+30006	Item	2,0,30029,1	Hoa S¬n LÖnh Kú					CrNpc (t¹o npc: mÉu h×nh, tªn npc, sè l­îng, script npc (2 trÞ cuèi cã thÓ kh«ng cÇn ®iÒn))
+30007	Item	2,0,30022,1	Linh TuyÒn Ngäc Lé Töu					ChangeNpc (thay ®æi npc ®èi tho¹i thµnh npc chiÕn ®Êu, kh«ng cÇn ®iÒn trÞ sè)
+30008	Item	2,0,30031,1	Chñy thñ					Rand (nhiÖm vô ngÉu nhiªn. ID nhiÖm vô, tû lÖ)
+30009	Item	2,0,30032,1	Tranh vÏ <§¹i M¹c C« Yªn Trùc>					Script(ch¹y 1 script nµo ®ã)
+30010	Item	2,0,30033,1	Tranh vÏ					ZhenQi (§iÓm ch©n khÝ)
+30012	Item	2,0,30035,1	MËt Ong Chóa Ngh×n N¨m					Function (ChÊp hµnh hµm sè script)
+30013	Item	2,0,30036,1	Th­ tÝn					
+30014	Item	2,0,30037,1	Long Hµo Bót					
+30015	Item	2,0,30038,1	Bót L«ng					
+30016	Item	2,0,30039,1	Kú Phæ					
+30017	Item	2,0,30041,1	Kú Tö					
+30018	Item	2,0,30030,1	Lóa					
+30019	Exp	3000000						
+30020	Exp	6000000						
+30021	Exp	3000000						
+30022	Exp	3000000						
+30023	Exp	3000000						
+30024	Exp	6000000						
+30025	Exp	3000000						
+30026	Exp	3000000						
+30027	Exp	7500000						
+30028	Exp	3000000						
+30029	Exp	6000000						
+30030	Exp	3000000						
+30031	Exp	3000000						
+30032	Exp	3000000						
+30033	Exp	3000000						
+30034	Exp	3000000						
+30035	Exp	3000000						
+30036	Exp	3000000						
+30037	Exp	9000000						
+30038	Exp	3000000						
+30039	Exp	3000000						
+30040	Exp	3000000						
+30041	Exp	3000000						
+30042	Exp	9000000						
+30043	Exp	3000000						
+30044	Exp	3000000						
+30045	Exp	3000000						
+30046	Exp	3000000						
+30047	Exp	6000000						
+30048	Exp	3000000						
+30049	Exp	3000000						
+30050	Exp	3000000						
+30051	Exp	6000000						
+30052	Exp	3000000						
+30053	Exp	3000000						
+30054	Exp	3000000						
+30055	Exp	4500000						
+30056	Exp	6000000						
+30057	Exp	3000000						
+30058	Exp	3000000						
+30059	Exp	3000000						
+30060	Exp	3000000						
+30061	Exp	15000000						
+30062	Exp	3000000						
+30063	Exp	3000000						
+30064	Exp	3000000						
+30065	Exp	3000000						
+30066	Exp	9000000						
+30067	Exp	3000000						
+30068	Exp	3000000						
+30069	Exp	12000000						
+30070	Exp	3000000						
+30071	Exp	6000000						
+30072	Exp	3000000						
+30073	Exp	3000000						
+30074	Exp	6000000						
+30075	Exp	3000000						
+30076	Exp	6000000						
+30077	Exp	3000000						
+30078	Exp	3000000						
+30079	Exp	3000000						
+30080	Exp	3000000						
+30081	Exp	3000000						
+30082	Exp	6000000						
+30083	Exp	3000000						
+30084	Exp	3000000						
+30085	Exp	3000000						
+30086	Exp	3000000						
+30087	Exp	9000000						
+30088	Exp	12000000						
+30089	Exp	15000000						
+30090	Exp	15000000						
+30091	Exp	30000000						
+30092	Exp	3000000						
+30093	Exp	30000000						
+30094	Exp	30000000						
+30100	Item	2,0,30024,1	Háa LuyÖn ThiÕt Trïy					
+30101	Item	2,0,30025,1	B¹ch D­¬ng Hoµn					
+30102	Item	2,0,30040,1	ChiÕn Kú					
+30103	Trigger	0	1246					
+30104	Trigger	0	1247					
+30108	Trigger	0	1248					
+30110	Trigger	0	1249					
+30111	Trigger	0	1250					
+30112	Trigger	0	1251					
+30113	Trigger	0	1252					
+30114	Trigger	0	1253					
+30115	Trigger	0	1254					
+30116	CrNpc	Ng©n KiÕm	Ng©n KiÕm	7				
+30117	Trigger	0	1255					
+30118	ChangeNpc							
+30119	Trigger	0	1256					
+30120	Trigger	0	1257					
+30121	Trigger	0	1258					
+30122	Trigger	0	1259					
+30123	Trigger	0	1260					
+30124	Trigger	0	1261					
+30125	Trigger	0	1262					
+30126	Trigger	0	1263					
+30127	Trigger	0	1264					
+30128	Trigger	0	1265					
+30130	Item	2,0,30042,1	Th­ kiÖn cña H­íng VÊn Thiªn					
+30132	Trigger	0	1273					
+30133	Item	2,0,30053,1	UÈn Linh r¸ch n¸t					
+30134	Item	2,0,30043,1	Hãa Long §Ønh					
+30135	Item	2,0,30046,1	Chiªu ¦ng Phiªn					
+30136	Item	2,0,30049,1	DiÖt Ph¸p TrËn Bµn					
+30137	Item	2,0,30051,1	Th­ tÝn					
+30138	Trigger	0	1274					
+30139	Exp	4000000						
+30140	Exp	8000000						
+30141	Exp	12000000						
+30142	Exp	50000000						
+30143	Item	2,1,30368,4	Cæ Linh Th¹ch					
+30144	Item	2,1,30369,1	Cæ Linh Ngäc					
+30145	Item	2,1,30369,2	Cæ Linh Ngäc					
+30146	Item	2,1,30369,7	Cæ Linh Ngäc					
+30147	Money	300000						
+30148	Exp	5000000						
+30149	Exp	9000000						
+30150	Item	2,1,30499,2	Hu©n ch­¬ng anh hïng					
+30151	Item	2,1,30499,4	Hu©n ch­¬ng anh hïng					
+30157	Exp	2000000						
+30158	Exp	4000000						
+30159	Exp	2000000						
+30160	Exp	2000000						
+30161	Exp	5000000						
+30162	Exp	5000000						
+30163	Exp	3500000						
+30164	Exp	2000000						
+30165	Exp	2000000						
+30166	Item	0,148,52,1	H-UÈn Linh ®· chØnh söa xong					
+30167	Item	0,149,52,1	C-UÈn Linh r¸ch n¸t					
+30168	Item	0,150,52,1	T-UÈn Linh r¸ch n¸t					
+30169	Exp	300000						
+30170	Exp	400000						
+30171	Exp	500000						
+30172	Trigger	0	1280					
+30173	Item	2,0,30060,1	Th­ tÝn					
+30174	Item	2,0,30057,1	N÷a m¶nh b¶n ®å					
+30175	CrNpc	chunyizhang1	ThuÇn NhÊt Ch­ëng	1				
+30176	Trigger	0	1281					
+30177	Trigger	0	1282					
+30178	Trigger	0	1283					
+30179	Trigger	0	1284					
+30180	Trigger	0	1285					
+30181	Trigger	0	1286					
+30182	Exp	1000000						
+30183	Exp	1500000						
+30184	Exp	2000000						
+30185	Exp	2500000						
+30186	Exp	3000000						
+30187	Exp	3500000						
+30188	Exp	4000000						
+30189	Exp	4500000						
+30190	Exp	5000000						
+30191	Exp	5500000						
+30192	Exp	6000000						
+30193	Exp	6500000						
+30194	Exp	7000000						
+30195	Exp	7500000						
+30196	Exp	8000000						
+30197	Exp	8500000						
+30198	Exp	9000000						
+30199	Exp	9500000						
+30200	Exp	10000000						
+30201	ZhenQi	70						
+30202	ZhenQi	75						
+30203	ZhenQi	80						
+30204	ZhenQi	85						
+30205	ZhenQi	90						
+30206	ZhenQi	95						
+30207	ZhenQi	100						
+30208	ZhenQi	105						
+30209	ZhenQi	110						
+30210	ZhenQi	115						
+30211	ZhenQi	120						
+30212	ZhenQi	125						
+30213	ZhenQi	130						
+30214	ZhenQi	135						
+30215	ZhenQi	140						
+30216	ZhenQi	145						
+30217	ZhenQi	150						
+30218	ZhenQi	155						
+30219	ZhenQi	160						
+30220	Script	script/task/npc/liruofei.lua						
+30221	Script	script/task/npc/open_meridian_two.lua						
+30222	Item	2,1,30480,1	R­¬ng tiÕp øng Thiªn M«n TrËn					
+30223	Exp	250000						
+30224	ZhenQi	30						
+30225	Exp	400000						
+30226	ZhenQi	60						
+30227	Exp	300000						
+30228	ZhenQi	40						
+30229	Exp	250000						
+30230	ZhenQi	30						
+30231	Exp	300000						
+30232	ZhenQi	40						
+30233	Exp	250000						
+30234	ZhenQi	30						
+30235	Exp	400000						
+30236	ZhenQi	60						
+30237	Exp	300000						
+30238	ZhenQi	40						
+30239	Exp	250000						
+30240	ZhenQi	30						
+30241	Exp	300000						
+30242	ZhenQi	40						
+30243	Exp	300000						
+30244	ZhenQi	40						
+30245	Exp	300000						
+30246	ZhenQi	40						
+30247	Exp	300000						
+30248	ZhenQi	40						
+30249	Exp	200000						
+30250	ZhenQi	40						
+30251	Exp	300000						
+30252	ZhenQi	40						
+30253	Exp	300000						
+30254	ZhenQi	40						
+30255	Exp	300000						
+30256	ZhenQi	40						
+30257	Exp	200000						
+30258	ZhenQi	40						
+30259	Exp	400000						
+30260	ZhenQi	80						
+30261	Exp	400000						
+30262	ZhenQi	80						
+30263	Exp	400000						
+30264	ZhenQi	80						
+30265	Trigger	0	1287					
+30266	Trigger	0	1288					
+30267	Trigger	0	1289					
+30268	Trigger	0	1290					
+30271	Item	2,0,30061,1	Thanh T©m t¸n					
+30272	Item	2,0,30062,1	S¸t khÝ ®¬n					
+30273	Item	2,0,30065,1	Thiªn S­ Phï					
+30274	Item	2,0,30066,1	Vò §¹o T©m Ph¸p					
+30275	Item	2,0,30067,1	Nh¹c Phæ					
+30276	Exp	110						
+30277	Exp	260						
+30278	Exp	410						
+30279	Exp	560						
+30280	Exp	100						
+30281	Exp	150						
+30282	Exp	200						
+30283	Exp	250						
+30284	Exp	300						
+30285	Exp	350						
+30286	Script	script/task/function/kunlun_join_faction.lua						
+30287	Script	script/task/function/cuiyan_join_faction.lua						
+30288	Item	2,0,30071,1	Chu«ng					
+30289	Exp	1000000						
+30290	ZhenQi	100						
+30291	Exp	2500000						
+30292	ZhenQi	200						
+30293	Exp	4000000						
+30294	ZhenQi	300						
+30295	Exp	5500000						
+30296	ZhenQi	400						
+30297	Exp	7000000						
+30298	ZhenQi	500						
+30299	Exp	8500000						
+30300	ZhenQi	600						
+30301	Exp	10000000						
+30302	ZhenQi	700						
+30303	Exp	11500000						
+30304	ZhenQi	800						
+30305	Exp	13000000						
+30306	ZhenQi	900						
+30307	Exp	14500000						
+30308	ZhenQi	1000						
+30309	Exp	16000000						
+30310	ZhenQi	1100						
+30311	Exp	17500000						
+30312	ZhenQi	1400						
+30313	Trigger	0	1294					
+30314	Trigger	0	1295					
+30315	Trigger	0	1296					
+30316	Script	script/task/function/kill_yaohu.lua						
+30317	Script	script/task/function/meridian_wuwan.lua						
+30318	Item	2,1,30498,1	Hu©n ch­¬ng dòng sÜ					
+30319	Item	2,1,30499,3	Hu©n ch­¬ng anh hïng					
+30320	Item	2,1,30499,3	Hu©n ch­¬ng dòng sÜ					
+30321	Item	2,1,30499,8	Hu©n ch­¬ng anh hïng					
+30325	Money	10000						
+30326	Exp	2000000						
+30327	Exp	3000000						
+30328	Exp	1500000						
+30329	Trigger	0	1298					
+30330	Trigger	0	1299					
+30331	Trigger	0	1300					
+30332	Trigger	0	1301					
+30333	Trigger	0	1302					
+30334	Trigger	0	1303					
+30335	Trigger	0	1304					
+30336	Trigger	0	1305					
+30337	Trigger	0	1306					
+30338	Trigger	0	1307					
+30339	Trigger	0	1308					
+30340	Trigger	0	1309					
+30341	Trigger	0	1310					
+30342	Trigger	0	1311					
+30343	Trigger	0	1312					
+30344	Trigger	0	1313					
+30345	Trigger	0	1314					
+30346	Trigger	0	1315					
+30347	Trigger	0	1316					
+30348	Trigger	0	1317					
+30349	Trigger	0	1318					
+30350	Trigger	0	1319					
+30351	Trigger	0	1320					
+30352	Trigger	0	1321					
+30353	Trigger	0	1322					
+30354	Trigger	0	1323					
+30355	Trigger	0	1324					
+30356	Trigger	0	1325					
+30357	Trigger	0	1326					
+30358	Trigger	0	1327					
+30359	Trigger	0	1328					
+30360	Trigger	0	1329					
+30361	Trigger	0	1330					
+30362	Trigger	0	1331					
+30363	Trigger	0	1332					
+30364	Trigger	0	1333					
+30365	Trigger	0	1334					
+30366	Trigger	0	1335					
+30367	Item	2,1,30670,1	HuyÒn Viªm ThiÕt					
+30368	Item	2,1,30670,2	HuyÒn Viªm ThiÕt					
+30369	Exp	50000						
+30370	Exp	180000						
+30371	Exp	610000						
+30372	Exp	2800000						
+30373	Exp	13000000						
+30374	Exp	56000000						
+30375	Exp	630000000						
+30376	Function	\script\function\cdkey\ck_head.lua	ck_TaskForward_Award()					
+30377	Trigger	0	1336					
+30378	Trigger	0	1337					
+30379	Trigger	0	1338					
+30380	Trigger	0	1339					
+30381	Trigger	0	1340					
+30382	Trigger	0	1341					
+30383	Trigger	0	1342					
+30384	Trigger	0	1343					
+30385	Trigger	0	1344					
+30386	Trigger	0	1345					
+30387	Trigger	0	1346					
+30388	Trigger	0	1347					
+30389	Trigger	0	1348					
+30390	Trigger	0	1349					
+30391	Trigger	0	1350					
+30392	Trigger	0	1351					
+30393	Trigger	0	1352					
+30394	Trigger	0	1353					
+30395	Trigger	0	1354					
+30396	Trigger	0	1355					
+30397	Trigger	0	1356					
+30398	Trigger	0	1357					
+30399	Function	\script\function\cdkey\ck_head.lua	ck_BZBD_Kill_Award()					
+30400	Item	2,1,30716,1	Chu«ng BiÕn Th©n					
+30401	Exp	500000						
+30402	Exp	1000000						
+30403	Exp	1500000						
+30404	Exp	2000000						
+30405	Exp	2500000						
+30406	Exp	3000000						
+30407	Exp	3500000						
+30408	Exp	4000000						
+30409	Exp	4500000						
+30410	Item	2,1,30601,1	Linh Thó §¶n cÊp 1					
+30411	Item	2,1,30669,200	M¶nh MËt TÞch					
+30412	Item	2,0,1083,2	Th¸i DÞch Hçn Nguyªn C«ng phæ					
+30413	Item	2,1,30345,2	ChuyÓn Sinh §¬n 					
+30414	Item	2,1,30723,1	L«i KiÕp Phï					
+30415	Exp	1000000						
+30416	Exp	2000000						
+30417	Exp	3000000						
+30418	Exp	4000000						
+30419	Exp	5000000						
+30420	Exp	6000000						
+30421	Exp	7000000						
+30422	Exp	8000000						
+30423	Exp	9000000						
+30424	Trigger	0	1358					
+30425	Function	\script\task\npc\chihuojiaozhu.lua	CreateNpcCHZJ()					
+30426	Trigger	0	1359					
+30427	Trigger	0	1360					
+30428	Trigger	0	1361					
+30429	Trigger	0	1362					
+30430	Trigger	0	1363					
+30431	Function	\script\task\function\jihuowuzhun.lua	ActivteWZ()					
+30432	Function	\script\task\npc\wuyuelaozu.lua	Call_wuyuelaozu()					
+30433	Trigger	0	1364					
+30434	Trigger	0	1365					
+30435	Trigger	0	1366					
+30436	Trigger	0	1367					
+30437	Function	\script\task\function\learnJLX.lua	activePet()					
+30438	Function	\script\task\npc\cangying.lua	cangyingCreate()					
+30439	Function	\script\task\npc\cangying.lua	cangyingDelete()					

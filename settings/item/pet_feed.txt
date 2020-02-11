@@ -1,0 +1,3 @@
+Gene	Detail	Particular	Name	Vitality	Interactive_1	Probability_1	Interactive_2	Probability_2
+2	97	10	HÂng S¨n Qu∂	1000	0	90	1	10
+2	97	9	Qu’ Hoa Ng≠	10000	2	80	3	20

@@ -1,0 +1,147 @@
+TaskID	TaskRate	TaskValue	KeyNum	KeyPos	QuestionTitle	Key1	Key2	Key3	Key4	Key5
+10001	10000	100	4	1	Ai lµ ng­êi h­íng dÉn t©n thñ?	H­íng dÉn t©n thñ	DŞ nh©n	gm	§­êng T¨ng	
+10002	10000	100	4	1	Ai lµ ng­êi n¾m ®­îc bİ quyÕt ®óc B¶o kiÕm H·n T­íng, M¹c Tµ?	M¹c NhŞ	M¹c §¹i	M¹c Tam	M¹c Tø	
+10003	10000	100	4	1	Thiªn V­¬ng l·o gia cã viÖc muèn ®Õn D­¬ng Ch©u, nh­ng xa phu kh«ng ®­a «ng ta ®i. Nguyªn nh©n lµ:	V­¬ng l·o gia kh«ng ®ñ lé phİ	Xa phu h«m ®ã t©m tr¹ng kh«ng vui.	Tõ Thµnh §« ®Õn D­¬ng Ch©u kh«ng cã ®­êng ®i.	Tõ Thµnh §« ®Õn D­¬ng Ch©u kh«ng thÓ ®i xa phu.	
+10004	10000	100	4	1	V¨n tiÓu th­ trong mét lÇn t¶n bé ®· nhËn ®­îc bøc th­. Trong th­ viÕt nh­ sau: §· 3 n¨m råi kh«ng gÆp, lßng ta lu«n nhí ®Õn nµng. VŞ thiÕu hiÖp ®­îc nh¾c ®Õn trong th­ lµ ng­êi cña m«n ph¸i nµo?	Vâ §ang	ThiÕu L©m	§­êng M«n	Nga My	
+10005	10000	100	4	1	Ng­êi h­íng dÉn cho T©n thñ nhiÒu nhÊt lµ ai?	Quan viªn tho¸i nhiÖm	Thõa T­íng	Vò N­¬ng	D· TÈu	
+10006	10000	100	4	1	Quèc gia nµo sau ®©y lµ liªn bang cña ®¹i Tèng?	§¹i Lı	Thæ Phån	T©y H¹	T©y H¹	
+10007	10000	100	4	1	CÈm s¾c v« ®oan ngò thËp huyÒn, nhÊt huyÒn nhÊt tô t­ hoa niªn c©u th¬ trªn do n÷ ®Ö tö cña ph¸i nµo viÕt?	Nga My	C¸i Bang	Vâ §ang	§­êng M«n	
+10008	10000	100	4	1	Thµnh thŞ nµo sau ®©y kh«ng ph¶i lµ n¬i xuÊt th©n cña t©n thñ?	T­¬ng D­¬ng	TuyÒn Ch©u	BiÖn Kinh	Thµnh §«	
+10009	10000	100	4	1	Trêi cã ¸nh d­¬ng, n­íc cã ¸nh tr¨ng, t©m cã méng t­ëng, lßng ta cã c« n­¬ng. §o¹n th¬ trªn miªu t¶ néi dung nµo d­íi ®©y?	BiÓu lé t×nh c¶m	Dïng kü n¨ng sèng	Sö dông kü n¨ng chiÕn ®Êu	Sö dông ®¹o cô	
+10010	10000	100	4	1	LÖ nh·n vÊn hoa, hoa bÊt ng÷. Lo¹n hång phi qua thu thiªn khø. C©u th¬ trªn miªu t¶ vâ c«ng cña m«n ph¸i nµo d­íi ®©y?	§­êng M«n	Vâ §ang	ThiÕu L©m	C¸i Bang	
+10011	10000	100	4	1	Ng­êi cã quyÒn lùc cao nhÊt trong §­êng M«n gäi lµ g×?	L·o l·o	M«n chñ	Tæng qu¶n	Ch­ëng m«n	
+10012	10000	100	4	1	§¹o ®ång tinh nghŞch ë Vâ §ang ph¸i tªn gäi lµ g×?	Minh NguyÖt	Thanh Phong	MÆc Th­	T©m NghiÔn	
+10013	10000	100	4	1	Phiªn t¨ng ®Õn ThiÕu L©m Tù häc 72 tuyÖt kü tªn lµ g× ?	C­u Ma La	C­u Ma Trİ	A Gi¸c La	Lç Trİ Th©m	
+10014	10000	100	4	1	Sø gi¶ C¸i Bang lµ:	Hång ThÊt	T« X¸n	V­u Tri VŞ	Lç BÊt TuÇn	
+10015	10000	100	4	1	Tæ s­ ph¸i Nga My lµ ai?	T«n ThËp Tam N­¬ng	Qu¸ch T­êng	DiÖt TuyÖt S­ Th¸i	ViÖt N÷	
+10016	10000	100	4	1	*Träc töu nhÊt b«i gia v¹n lı, YÕn nhiªn vŞ liÔu vi v« kÕ, Kh­¬ng qu¶n du du s­¬ng m·n ®Şa…*. Bµi th¬ trªn ®­îc lµm ë ®©u?	Nh¹n M«n quan	Long M«n trÊn	KiÕm M«n quan	C« ®¶o
+10017	10000	100	4	1	ThiÕu L©m sø gi¶ lµ:	TŞnh Viªn	TŞnh Th«ng	Háa C«ng §Çu	Tæ V¨n §¹t
+10018	10000	100	4	1	Sø gi¶ Nga My ph¸i lµ:	Nghi Hßa	Nghi Thanh	HuÖ ¢m	TuÖ T©m
+10019	10000	100	4	1	Sø gi¶ §­êng M«n lµ: 	§­êng UyÓn Nhi	§­êng Thiªn H¶i	§­êng V©n	§­êng Ng¹o
+10020	10000	100	4	1	Sø gi¶ Vâ §ang lµ:	M¹c Thu Phong	Thanh Phong	Minh NguyÖt	Yªn Nh­
+10021	10000	100	4	1	Muèn t×m hiÓu nguån gèc ThiÕu L©m ph¸i nªn gÆp ai?	HuyÒn Minh	HuyÒn Hèi	HuyÒn Bi	HuyÒn Khæ
+10022	10000	100	4	1	Muèn t×m hiÓu nguån gèc Vâ §ang ph¸i nªn gÆp ai?	Tr­¬ng Ngä D­¬ng	Du ChÊn Sinh	§¹i KiÕm Ch©u	M¹c Thu Phong
+10023	10000	100	4	1	Muèn t×m hiÓu nguån gèc Nga My ph¸i nªn gÆp ai?	Nghi Thanh	Nghi Hßa	HuÖ ¢m	TuÖ T©m
+10024	10000	100	4	1	Muèn t×m hiÓu nguån gèc C¸i Bang nªn gÆp ai?	TrÇn Chung H¹c	Bµng L· Väng	Tèng Nguyªn An	M· TŞnh Sinh
+10025	10000	100	4	1	Muèn t×m hiÓu §­êng M«n nªn gÆp ai?	§­êng Ng¹o	§­êng Kş	§­êng Xu©n	§­êng V©n
+10026	10000	100	4	1	M«n ph¸i nµo cã 3 tuyÕn cïng cã thÓ rÌn luyÖn chung?	ThiÕu L©m	Vâ §ang	C¸i Bang	§­êng M«n
+10027	10000	100	4	1	VŞ ¦¬ng kiÕm ph¸p thuéc hÖ:	Méc	 Kim 	Thñy	Thæ
+10028	10000	100	4	1	Hai chiªu thøc nµo kÕt hîp l¹i sÏ t¨ng thªm hiÖu qu¶ tÊn c«ng?	Chİnh L­ìng Nghi kiÕm ph¸p, L­ìng Nghi kiÕm ph¸p	Tr¶m Ma §ao Ph¸p, Phong Ma c«n ph¸p	Ph¸ Ma Chó, §µ L«i Ph¸	TÜnh D¹ T­, ¤ D¹ §Ò
+10029	10000	100	4	1	M«n ph¸i nµo cã nhiÒu chiªu thøc vâ c«ng nhÊt?	Vâ §ang ®¹o gia	ThiÕu L©m thiÒn t¨ng	§­êng M«n hiÖp kh¸ch	Nga My phËt gia
+10030	10000	100	4	1	Vâ c«ng nµo d­íi ®©y cã søc c«ng kİch m¹nh nhÊt?	Ch©n Vò ThÊt TiÖt KiÕm	§¹t Ma Vò Kinh	§¶ CÈu Bæng Ph¸p	§¹i Lùc Kim Cang ChØ
+10031	10000	100	4	1	ThiÕu L©m ngoµi vâ c«ng trÊn ph¸i cßn cã lo¹i nµo ®Æc s¾c?	Kim Chung Tr¸o, X¶ Th©n QuyÕt, Nh­ Lai T©m Ph¸p	Tr¶m Ma §ao Ph¸p, V« Th­êng C«n Ph¸p, §¹t Ma Vò Kinh.	ThiÕu L©m ®ao ph¸p, ThiÕu L©m c«n ph¸p, §¹t Ma Vò Kinh	Kim Chung Tr¸o, Nhiªn Méc ®ao ph¸p, §¹t Ma Vò Kinh
+10032	10000	100	4	1	§­êng M«n næi tiÕng thiªn h¹ nhê vµo g×?	¸m khİ, ®éc, bÉy	¸m khİ, háa khİ, bÉy	¸m khİ, ®éc, háa khİ	¸m khİ, Trinh s¸t, BÉy
+10033	10000	100	4	1	Vâ c«ng nµo d­íi ®©y cã thÓ tÊn c«ng nhiÒu qu¸i cïng lóc?	Phôc Ma ThÇn Th«ng, C©u Hån TÜnh, Lôc Hîp QuyÒn Ph¸p, L­u Quang KiÕm Ph¸p.	§¹i Lùc Kim Cang ChØ, Khu Xµ C«n Ph¸p, §¶ CÈu Bæng Ph¸p, §éc Thİch Cèt.	V« Th­êng C«n Ph¸p, V« T­íng ThÇn C«ng, PhËt Quang ChiÕn Khİ, M·n Thiªn Hoa Vò.	§¹t Ma Vò Kinh, TÜnh D¹ T­, H¹c CÇm QuyÕt, ThiÕu ¢m QuyÕt.
+10034	10000	100	4	1	Vâ c«ng cña m«n ph¸i nµo d­íi ®©y cã thÓ kÕt hîp néi_ngo¹i c«ng cïng lóc?	Nga My tôc gia	ThiÕu L©m thiÒn t¨ng	§­êng M«n hiÖp kh¸ch	Vâ §ang tôc gia
+10035	10000	100	4	1	Vâ c«ng nµo d­íi ®©y thiªn vÒ tÊn c«ng?	ThÇn m«n thËp tam kiÕm	V« ¶nh C­íc	ThÊt Tinh QuyÕt	ThuÇn D­¬ng KiÕm.
+10036	10000	100	4	1	ThiÕu L©m tôc gia phßng ngù cao, v×:	Vâ c«ng cã tİnh phßng ngù cao	Cã c«ng cô hç trî	Sinh lùc cao	Cã søc bÒn bØ
+10037	10000	100	4	1	Chiªu thøc nµo cña ThiÕu L©m ThiÒn t¨ng cã thÓ ®Èy lïi ®èi ph­¬ng?	Phôc Ma ThÇn Th«ng, S­ Tö Hèng	Phôc Hæ Khİ C«ng, §µ L«i Ph¸	V« T­íng ThÇn C«ng, §¹i Lùc Kim Cang ChØ	Ph¸ Ma Chó, BÊt §éng Minh V­¬ng.
+10038	10000	100	4	1	Chiªu thøc nµo sau ®©y cña §­êng M«n cã liªn quan ®Õn ®éc?	Hµm Sa X¹ ¶nh, M·n Thiªn Hoa Vò, Táa MÖnh Ch©m	Gi¶i §éc ThuËt, C©u Hån TÜnh, Xuyªn T©m Thİch	Truy T©m TiÔn, §éc Thİch Cèt, Thèi §éc ThuËt	B¹o Vò Lª Hoa, §o¹t Ph¸ch Phiªn, T©m Nh·n
+10039	10000	100	4	1	Chiªu thøc nµo cña Nga My cã thÓ phôc håi sinh lùc?	Phæ TÕ Chóng sinh, BÊt DiÖt T©m Ph¸p, §¹i Bi Chó	Quan ¢m QuyÕt, §é Nguyªn QuyÕt, PhËt Quang ChiÕn Khİ	Quan ¢m QuyÕt, Thanh ¢m Ph¹n X­íng, Phæ TÕ Chóng Sinh	Quan ¢m QuyÕt, Phæ TÕ Chóng Sinh, PhËt Quang Phæ ChiÕu
+10040	10000	100	4	1	Khóc ®µn nµo cña Nga My cã thÓ lµm gi¶m sinh lùc ®èi ph­¬ng?	Tïy ı khóc, NguyÖt Thùc khóc, Phiªu H­¬ng khóc	Tïy ı khóc, TÜnh D¹ T­, D­¬ng Quan Tam §iÖp	Tïy ı khóc, H¹c CÇm QuyÕt, Phiªu H­¬ng khóc	D­¬ng Quan Tam §iÖp, ¤ D¹ §Ò, H¹c CÇm QuyÕt
+10041	10000	100	4	1	Chiªu thøc nµo cña C¸i Bang TÜnh y cã thÓ n©ng tû lÖ chİnh x¸c nh­ng tù gi¶m sinh lùc?	Tiªu Dao Du, Tóy §iÖp	Th«ng Tı QuyÒn, B¸ V­¬ng QuyÒn	Lôc Hîp QuyÒn Ph¸p, Tóy quyÒn	Hçn Thiªn Khİ C«ng, Thiªn C©n H¹p
+10042	10000	100	4	1	Vâ c«ng cña C¸i Bang ¤ y cã nh÷ng ®Æc ®iÓm g× mµ ph¸i kh¸c kh«ng cã?	5	4	3	2
+10043	10000	100	4	1	Vâ §ang ®¹o gia kiÕm ph¸p lîi dông nh÷ng ph­¬ng thøc nµo d­íi ®©y ®Ó lÊy nhu th¾ng c­¬ng?	TÊn c«ng liªn tôc, kh«ng cho ®èi ph­¬ng nghØ ng¬i	Ph¹m vi tÊn c«ng réng	Cã thÓ kÕt hîp víi c¸c vâ c«ng kh¸c	Ra ®ßn nhanh, tiªu hao néi lùc İt
+10044	10000	100	4	1	Vâ §ang tôc gia kÕt hîp c¸c chiªu thøc nµo d­íi ®©y ®Ó ph¸t huy uy lùc?	ThÕ V©n Tung, ThiÕu ¢m QuyÕt	Th¸i Êt Tiªu Diªu, ThÊt Tinh QuyÕt	ThiÕu D­¬ng QuyÕt, Tµn ¶nh QuyÕt	Cµn kh«n quyÕt, Th­îng thanh v« cùc
+10045	10000	100	4	1	D­íi d©y tÇng nµo lµ ®iÓm chuyÓn tiÕp t¨ng cÊp cña c¸c chiªu thøc th­êng?	10, 15,19	8, 16	10, 16	8, 15,19
+10046	10000	100	4	1	M«n ph¸i nµo cã tªn chiªu thøc th­êng lµ 6 ch÷?	4	5	6	7
+10047	10000	100	4	1	C©u nµo d­íi ®©y chØ sù hçn lo¹n?	Lµm g× còng kh«ng thµnh	Kh«ng thÓ lµm bÊt cø ®iÒu g×	TÊn c«ng lo¹n x¹	Hµnh ®éng ph¶n ph­¬ng h­íng
+10048	10000	100	4	1	Chiªu *NguyÖt B¸n ThÇn Tinh* cña m«n ph¸i nµo?	HuyÒn Vâ KiÕm TrËn	TÜnh D¹ T­	NguyÖt Thùc khóc	Th¸i Êt Tam Thanh kiÕm
+10049	10000	100	4	1	D­íi ®©y c©u nµo chØ tªn 3 chiªu thøc cao cÊp?	TiÕu Ng÷ Gi¶i Di, HuyÒn NhÊt V« T­îng, Chİnh Khİ B¸t Ph­¬ng	V« ı V« NiÖm, Tam Nha NhiÔu Thô, Bæng §¶ QuÇn KhuyÓn.	Uy LÉm QuÇn Ma, Ph¸ Trô To¸i Vò, Vò §¶ Lª Hoa	V« §Şnh V« Ph¸p, Tu Di Giíi Tö, NguyÖt ¶nh Phi Hµ
+10050	10000	100	4	1	§èi víi chiªu thøc ThÊt Tinh L¹c Tr­êng Kh«ng c©u nµo d­íi ®©y sai?	T¨ng thªm lùc tÊn c«ng	Gièng mét chiªu cña B¾c §Èu ChuyÓn Th¸i H­	Lµ chiªu KiÕm ph¸p cña Vâ §ang ®¹o gia	Uy lùc tÊn c«ng m¹nh nhÊt
+10051	10000	100	4	1	Tµn ¶nh QuyÕt lµ mét vâ c«ng ®Æc biÖt, c©u nµo d­íi ®©y sai?	TÊn c«ng cïng lóc nhiÒu ®èi ph­¬ng	Lµm cho¸ng ®èi ph­¬ng	Cã thÓ tµng h×nh	Kh«ng thÓ ®i chuyÓn
+10052	10000	100	4	1	Liªn quan Lµm cho¸ng ®èi ph­¬ng, c©u nµo d­íi ®©y sai?	Gi¶m tİnh phßng ngù cña ®èi ph­¬ng	ChØ cã mét m«n ph¸i ph¸t huy ®­îc c«ng lùc nµy	Gi¶m sù tÊn c«ng cña ®èi ph­¬ng	Gi¶m tèc ®é di chuyÓn cña ®èi ph­¬ng
+10053	10000	100	4	1	Vâ c«ng nµo sau ®©y cã thÓ gi¶i ®éc?	Gi¶i §éc ThuËt, Hãa Ngäc c«ng	Hµm Sa X¹ ¶nh, V« Ng· T©m Ph¸p	Gi¶i §éc ThuËt, Quan ¢m QuyÕt	Gi¶i §éc ThuËt, Thanh ¢m Ph¹n X­íng
+10054	10000	100	4	1	Vâ c«ng nµo d­íi ®©y cã thuéc tİnh ngò hµnh?	§µ L«i Ph¸	Phôc Hæ Khİ C«ng	Phôc Ma ThÇn C«ng	Ngò ChuyÓn ChØ
+10055	10000	100	4	1	Tµo §¹i Lùc lµ bang chñ cña bang nµo?	Kim Ng­u bang	Ng©n K×nh bang	§ång Hæ bang	Phñ ®Çu bang
+10056	10000	100	4	1	Phu nh©n cña D­¬ng NghiÖp lµ ai?	Xa Th¸i Qu©n	Xa Th¸i Qu©n	D­¬ng Th¸i Qu©n	M· Th¸i Qu©n
+10057	10000	100	4	1	Phong Yªu ®éng n»m ë ®©u?	Giang T©n Th«n	Ba L¨ng huyÖn	§¹o H­¬ng th«n	Long M«n trÊn
+10058	10000	100	4	1	VŞ ®¹i hiÖp chuyªn trõ ¸c ë H¹nh Hoa th«n tªn g×?	Tr­¬ng V©n	Tr­¬ng TËp Nguyªn	Tr­¬ng §×nh	Tr­¬ng Hµ
+10059	10000	100	4	1	VŞ ®¹i hiÖp diÖt trõ yªu ma ë Giang T©n th«n tªn g×?	Tr­¬ng §×nh	Tr­¬ng V©n	Tr­¬ng TËp Nguyªn	Tr­¬ng Hµ
+10060	10000	100	4	1	Ai ®· chñ tr­ëng nhèt yªu qu¸i t¹i Giang T©n th«n?	D­¬ng NguyÖt s­ th¸i	V­¬ng CÈn	T¹p Nguyªn ch©n nh©n	HuyÒn DiÖt T«n Gi¶
+10061	10000	100	4	1	Ai ®· më cöa ®éng Phong Yªu?	Ng« ViÖt L·o Tæ	Lôc Mao	Lao S¬n	Tr­¬ng ThuËn
+10062	10000	100	4	1	Ng« NguyÖt l·o tæ Èn n¸u ë ®©u?	Thiªn S­ ®éng	Long Hæ ®éng	B¨ng T©m ®éng	Thanh ¢m ®éng
+10063	10000	100	4	1	Hoµn Nhan A Cèt §¶ x­ng ®Õ lÊy quèc hiÖu lµ g×?	§¹i Kim	KhiÕt §an	T©y H¹	§¹i H¹
+10064	10000	100	4	1	Gia LuËt A B¶o C¬ x­ng ®Õ lÊy quèc hiÖu lµ g×?	KhiÕt §an	T©y H¹	§¹i Kim	§¹i H¹
+10065	10000	100	4	1	Nguyªn H¹o x­ng ®Õ lÊy quèc hiÖu lµ g×?	§¹i H¹	§¹i Kim	T©y H¹	KhiÕt §an
+10066	10000	100	4	1	B¾c Tèng bŞ thÕ lùc nµo diÖt vong?	 Kim 	Liªu	T©y H¹	M«ng Cæ
+10067	10000	100	4	1	D­îc phÈm nµo sau ®©y kh«ng thÓ dïng ®Ó chÕ t¹o thuèc mª?	Tö hµ xa	M¹n §µ La hoa	¸p bÊt l­	Th¶o « m¹t
+10068	10000	100	4	1	Ai ®· ®æi quèc hiÖu thµnh §¹i Liªu?	Liªu Th¸i T«ng	Liªu Th¸i Tæ	Liªu ThÕ T«ng	Liªu Th¸nh T«ng
+10069	10000	100	4	1	Ai lµ hoµng ®Õ cña n­íc KhiÕt §an?	Gia LuËt A B¶o C¬	Hoµn Nhan A Cèt §¶	Gia LuËt §øc Quang	Thµnh C¸t T­ H·n
+10070	10000	100	4	1	Ai ®· c¾t 16 ch©u giao cho KhiÕt §an?	Th¹ch Kİnh §­êng	TriÖu Khu«ng DÉn	TriÖu Quang NghÜa	Phan Nh©n Mü
+10071	10000	100	4	1	Lo¹i v¨n häc nµo thŞnh v­îng nhÊt thêi Tèng?	Tõ	Th¬	Khóc	Phó
+10072	10000	100	4	1	Trong 4 ph¸t minh lín vÒ khoa häc cæ ®¹i Trung Quèc, ph¸t minh nµo sau ®©y kh«ng xuÊt hiÖn thêi Tèng?	GiÊy	Thuèc næ	M¸y ®¸nh ch÷	La bµn
+10073	10000	100	4	1	Thª tö cña D­¬ng Diªn Huy lµ ai?	C«ng chóa ThiÕt Kİnh.	C«ng chóa ThiÕt PhiÕn	C«ng chóa ThiÕt CÇm	C«ng Chóa ThiÕt HuyÕt
+10074	10000	100	4	1	C­ d©n cña H¹nh Hoa th«n b©y giê ë ®©u?	D­¬ng Trung ®éng	Giang T©n Th«n	§¹o H­¬ng th«n	Cæ D­¬ng ®éng
+10075	10000	100	4	1	Tæ s­ s¸ng lËp ra Vâ §ang Néi gia quyÒn lµ ai?	Tr­¬ng Tam Phong	Xa Lu©n H¶i	D­¬ng V¨n Qu¶ng	Tr­¬ng V« Kş
+10076	10000	100	4	1	Nh©n vËt nµo d­íi ®©y kh«ng ph¶i lµ ng­êi B¾c Tèng?	§­êng B¸ Hæ	V­¬ng An Th¹ch	KhÊu ChuÈn	Bao Chöng
+10077	10000	100	4	1	Ng­êi lËp nªn triÒu Tèng lµ ai?	TriÖu Khu«ng DÉn	TriÖu §øc Ph­¬ng	TriÖu Quang NghÜa	TriÖu C¸t
+10078	10000	100	4	1	Ng­êi Tèng lµm phß m· KhiÕt §an lµ ai?	D­¬ng Diªn Huy	D­¬ng Diªn Chiªu	D­¬ng Diªn §øc	D­¬ng Diªn Lang
+10079	10000	100	4	1	D­¬ng Diªn Chiªu lµ con thø mÊy cña D­¬ng NghiÖp?	Thø s¸u	Thø n¨m	Thø b¶y	Thø t¸m
+10080	10000	100	4	1	Qu¸i trong thÕ giíi VLTK2 ph©n thµnh mÊy lo¹i thuéc tİnh?	7	6	5	4
+10081	10000	100	4	1	§Çu lÜnh cña thá lµ?	H¾c Thè v­¬ng	B¹ch Thè v­¬ng	Kh«i Thè v­¬ng	Hoµng Thè v­¬ng
+10082	10000	100	4	1	§Çu lÜnh cña sãi lµ:?	Sãi n©u	Sãi x¸m	Sãi xanh	Sãi ®iªn
+10083	10000	100	4	1	§Çu lÜnh cña heo rõng lµ?	D· Tr­ V­¬ng	Heo rõng 	Kh«i tr­ v­¬ng	H¾c tr­ v­¬ng
+10084	10000	100	4	1	"Lo¹i khØ nµo th­êng thÊy ë Nga My??"	M· HÇu	Di hÇu	D· hÇu 	Phi hÇu
+10085	10000	100	4	1	DÊu hiÖu nµo ®Ó nhËn biÕt tªn C«n ®å?	Tó hoa hµi	YÕm 	Trang søc	Quan phôc
+10086	10000	100	4	1	L­u manh thİch uèng g× nhÊt? 	Thiªu töu	N÷ Nhi Hång	Lª Hoa töu	Thiªu §ao Tö
+10087	10000	100	4	1	B¸ch NhËt TiÔn gÇn §­êng M«n dïng vËt g×?? 	Cung tªn	Phi tiªuV«	Phi ®ao	BÉy
+10088	10000	100	4	1	"Quanh C¸i Bang ph¸i cã nhiÒu:?"	Trém vÆt	C­êng ®¹o	§¹i hiÖp	Bé kho¸i
+10089	10000	100	4	1	Qu¸i nµo th­êng r¬i Tµng Hång Hoa?	Thá	Sãi	GÊu	Qu¹ 
+10090	10000	100	4	1	"Nh·n Kİnh xµ th­êng xuÊt hiÖn ë ®©u??"	Thôc Trung §­êng M«n	Th¶o nguyªn	ThiÕu L©m mËt thÊt	Phôc Ng­u s¬n
+10091	10000	100	4	1	NPC nµo d­íi ®©y kh«ng ph¶i lµ tªn trém?	S¬n tÆc	C«n ®å	L­u Manh	Trém vÆt
+10092	10000	100	4	1	NPC nµo d­íi ®©y lu«n xuÊt chiªu tr­íc ®èi ph­¬ng?	KiÕm Kh¸ch	§ao TuyÖt	KiÕm Cuång	Trém vÆt
+10093	10000	100	4	1	Ng­êi m¹nh nhÊt NhŞ Long s¬n lµ ai??	Lç Trİ Th©m	Vâ Tßng	Tèng Giang	L©m Xung
+10094	10000	100	4	1	Thanh Thµnh s¬n cã nhiÒu?	Qu¹	Th­¬ng  ¦ng	KhØ	Sãi
+10095	10000	100	4	1	Tªn cña lo¹i qu¸i kh«ng nguy hiÓm cã mµu g×?	Tr¾ng	§á	Vµng	Xanh
+10096	10000	100	4	1	Tªn kÎ ®Şch nguy hiÓm víi b¶n th©n lµ?	"§á, vµng, xanh "	Vµng, xanh	§á, xanh 	Tr¾ng, ®á
+10097	10000	100	4	1	Qu¸i thuéc hÖ nµo d­íi ®©y chØ cã thÓ dïng vò khİ ngò hµnh tÊn c«ng?	¢m	Ch­a	Méc 	 Kim 
+10098	10000	100	4	1	Lo¹i qu¸i nµo sau ®©y kh«ng chñ ®éng tÊn c«ng?	Hæ	Qu¹	GÊu x¸m	H¾c Thè v­¬ng
+10099	10000	100	4	1	§éng vËt nµo xuÊt hiÖn nhiÒu nhÊt ë ThiÕu ThÊt s¬n??	Hæ 	Sãi	KhØ	Thá
+10100	10000	100	4	1	Vò khİ cña l­u manh lµ?	Bæng	§ao	Cung tªn	B¶o KiÕm
+10101	10000	100	4	1	Trªn ng­êi kÎ ®Şch kh«ng ®­îc rít?	TiÒn	Y phôc	Vò khİ	D­îc liÖu
+10102	10000	100	4	1	Víi ®èi ph­¬ng thuéc tİnh Thñy tèt nhÊt dïng ?	Vò khİ thuéc tİnh thæ	Vò khİ thuéc tİnh kim	Vò khİ thuéc tİnh háa	Vò khİ thuéc tİnh thñy
+10103	10000	100	4	1	§éng vËt di chuyÓn nhanh nhÊt lµ?	Qu¹	Sãi 	Thá	Hæ
+10104	10000	100	4	1	N­íc nµo n»m ph­¬ng B¾c cña §¹i Tèng?	Liªu	 Kim 	Nga	M«ng Cæ
+10105	10000	100	4	1	D­¬ng NghiÖp tö trËn t¹i:	Bia Lı L¨ng	Bia Lı Qu¶ng	Bia T« Vò	Bia Anh Hïng
+10106	10000	100	4	1	Phu nh©n cña D­¬ng NghiÖp lµ	Xµ Th¸i Hoa	Phµn Lª Huª	Hoa Méc Lan	T¸i Kim Hoa
+10107	10000	100	4	1	Khu vùc nµo d­íi ®©y kh«ng cßn trªn b¶n ®å?	B¾c BiÖn Kinh	T©y BiÖn Kinh	Nam BiÖn Kinh	§«ng BiÖn Kinh
+10108	10000	100	4	1	Kinh ®« cña B¾c Tèng lµ	BiÖn Kinh	Thµnh §«	TuyÒn Ch©u	T­¬ng D­¬ng
+10109	10000	100	4	1	VËt phÈm nµo d­íi ®©y kh«ng thÓ gi¸m ®Şnh	Gi¸m ®Şnh phï	KiÕm	Gi¶	§ao
+10110	10000	100	4	1	Thi nh©n ®­îc x­ng tông UyÓn ¦íc ph¸i lµ ai?	LiÔu VÜnh	T« §«ng Pha	T©n Khİ TËt	Ph¹m Träng Yªm
+10111	10000	100	4	1	Khu vùc nµo d­íi ®©y gÇn §µo Hoa ®¶o	TuyÒn Ch©u	T­¬ng D­¬ng	§¹i Lı	Phông T­êng
+10112	10000	100	4	1	Qu©n Liªu t¹i Nh¹n M«n quan ®· bµy liÖt trËn g×?	Thiªn M«n trËn	Tr­êng Xµ trËn	B¾c §Èu ThÊt Tinh trËn	B¸t M«n Kim Táa trËn
+10113	10000	100	4	1	N¬i yªu qu¸i th­êng xuÊt hiÖn	Giang T©n Th«n	Long TuyÒn Th«n	Long M«n trÊn	Nh¹n M«n quan
+10114	10000	100	4	1	Tæ chøc Minh gi¸o thêi kú ®Çu B¾c Tèng cßn cã tªn lµ	B¸i Háa gi¸o	B¸i thæ gi¸o	B¸i kim gi¸o	B¸i thñy gi¸o
+10115	10000	100	4	1	B¶o KiÕm  kh«ng ®­îc truyÒn l¹i cho	M¹c Tø	M¹c Tam	M¹c NhŞ	M¹c §¹i
+10116	10000	100	4	1	Thµnh thŞ nµo cËn biÓn?	TuyÒn Ch©u	T­¬ng D­¬ng	D­¬ng Ch©u	Phông T­êng
+10117	10000	100	4	1	Thiªn h¹ vâ c«ng xuÊt…	ThiÕu L©m	Nga My	Vâ §ang	D· CÇu
+10118	10000	100	4	1	S¬n tr¹i nµo d­íi ®©y thuéc L­¬ng s¬n?	NhŞ Long s¬n	Vò L¨ng s¬n	Hoa S¬n	Phôc Ng­u s¬n
+10119	10000	100	4	1	M«n ph¸i n»m ë Miªu C­¬ng lµ 	Ngò §éc	§­êng M«n	C¸i Bang	C«n L«n
+10120	10000	100	4	1	Ng­êi ®­îc mai t¸ng trong l¨ng TÇn Thñy Hoµng lµ	Doanh Chİnh	Phï Kiªn	Lı ThÕ D©n	H¹ng Vò
+10121	10000	100	4	1	Hoa S¬n LuËn KiÕm hµng n¨m diÔn ra t¹i	Hoa S¬n	Th¸i S¬n	Kim S¬n	Hµnh S¬n
+10122	10000	100	4	1	TriÖu Quang NghÜa kÕ vŞ TriÖu Khu«ng DÉn, «ng ta lµ	§Ö ®Ö	Nhi tö	Phô th©n	Ch¸u
+10123	10000	100	4	1	Tr­íc triÒu ®¹i nhµ Tèng lµ	HËu Chu	HËu TÊn	HËu L­¬ng	TriÒu §­êng
+10124	10000	100	4	1	Trong C¸i Bang ph¸i nµo sau ®©y ®­îc sÕp chung víi ¤ Y ph¸i?	TŞnh Y ph¸i	Ph¸ Y ph¸i	V« Y ph¸i	Thêi trang ph¸i
+10125	10000	100	4	1	§­êng M«n thuéc:	Tø Xuyªn	Hå Nam	ChiÕt Giang	S¬n §«ng
+10126	10000	100	4	1	ThiÕu L©m Ph­¬ng Tr­îng lµ:	HuyÒn Tõ	HuyÒn Bi	HuyÒn Thèng	HuyÒn Khæ
+10127	10000	100	4	1	MËt ®éng ë Thanh Thµnh S¬n lµ:	Thiªn S­ ®éng	ThÊt Tinh ®éng	D­¬ng Trung ®éng	Long Hæ ®éng
+10128	10000	100	4	1	Thµnh phè ma trong truyÒn thuyÕt Trung Quèc lµ:	Phong §«	Tİn §«	§¹i §«	Thµnh §«
+10133	10000	100	4	1	Nguyªn liÖu nµo d­íi ®©y gióp t¨ng cÊp vò khİ?	Thiªn th¹ch	B¸ch LuyÖn C­¬ng	Th¸i b¹ch tinh kim	HuyÒn thiÕt
+10134	10000	100	4	1	Nh÷ng nguyªn liÖu nµo sau ®©y cã t¸c dông gióp t©n trang vò khİ?	Kim Tİch	Bİ Ng©n	L«i Viªm Kim Sa	Bå §Ò
+10135	10000	100	4	1	Liªn quan viÖc t¨ng thuéc tİnh vò khİ, c©u nµo d­íi ®©y sai?	ChØ cÇn cã ®ñ vËt liÖu th× vò khİ nµo còng t¨ng ®­îc	Vò khİ d­íi cÊp 4 cÇn cã c¸c m¶nh Thiªn th¹ch ®Ó t¨ng thuéc tİnh	Vò khİ trªn cÊp 4 cÇn cã Thiªn th¹ch s¾t ®Ó t¨ng thuéc tİnh	BÊt cø Vò khİ nµo còng cã thÓ t¨ng thuéc tİnh
+10136	10000	100	4	1	B­íc ra giang hå cÇn ph¶i cã nh÷ng së tr­êng riªng ®Ó tån t¹i. C©u nµo d­íi d©y kh«ng thuéc së tr­êng?	Song nh©n kş m·	§óc t¹o vò khİ	Lµm hé gi¸p	LuyÖn thuèc
+10137	10000	100	4	1	C¸c cao nh©n ë tiÖm rÌn Thµnh §« mçi lÇn truyÒn 1 kü n¨ng sèng lÊy bao nhiªu tiÒn?	2000 hµo	2000  b¹c	2000 thái vµng	2000 l­îng tiÒn
+10138	10000	100	4	1	Thµnh D« chØ cã duy nhÊt 1 ng­êi d¹y may hé gi¸p, lµ ai?	CÈm n­¬ng	M¹c NhŞ	Tè Mai	D· TÈu
+10139	10000	100	4	1	C¸c nguyªn liÖu nµo d­íi ®©y kh«ng cÇn luyÖn vÉn cã thÓ dïng ®Ó chÕ t¸c trang bŞ?	Thùc liÖu	Nguyªn méc	Nguyªn Kho¸ng th¹ch	T¬
+10140	10000	100	4	1	C¸c vËt phÈm nµo d­íi ®©y cã thÓ th«ng qua kü n¨ng sèng chÕ t¸c?	Ngo¹i trang	H¹ y	Bè phÈm	Qu¸n m·o
+10141	10000	100	4	1	KÕt hîp gi÷ kü n¨ng sèng víi 1 nguyªn liÖu sÏ chÕ t¹o ®­îc vËt phÈm nh­ ı. C©u nãi nµo d­íi ®©y sai?	§an ®Ønh vµ Thñy Háa phiÕn cã thÓ rÌn ®­îc binh khİ dµi	¤ kim Chïy vµ lß B¸ch LuyÖn Hµnh cã thÓ rÌn ®­îc binh khİ ng¾n	Lß Bµo §inh vµ §ång B¨ng gi¸m cã thÓ t¹o Thùc vËt	Thiªn Hµo Bót  vµ Linh phï chØ sÏ chÕ ®­îc linh phï
+10142	10000	100	4	1	ChÕ t¹o Linh phï, ngoµi Thiªn Hµo Bót  vµ Linh phï chØ cÇn cã thªm nguyªn liÖu nµo?	Linh HuyÕt vµ Chu sa	S¾t vµ Méc ®iÒu	Da thó vµ Chøc cÈm	ThŞt vµ g¹o
+10143	10000	100	4	1	Liªn quan viÖc chÕ t¹o vËt phÈm, c©u nµo d­íi ®©y sai?	ChÕ thùc vËt cã thÓ thªm qu¶ bå ®Ò	ChÕ vò khİ cã thÓ thªm L«i DiÖm Kim sa	ChÕ Hé gi¸p cã thÓ thªm Thiªn Y V« Phong	ChÕ ®¬n ®­îc cã thÓ thªm D­îc V­¬ng ThÇn biªn
+10144	10000	100	4	1	Khi vøt c¸c vËt phÈm ra ngoµi, mçi vËt phÈm sÏ hiÖn 1 h×nh d¹ng kh¸c nhau. C©u nµo d­íi ®©y sai?	Tµng Hång Hoa  vøt ra sÏ cã h×nh d­îc th¶o	ThŞt thá vøt ra sÏ cã h×nh gãi trßn	Lang Hån vøt ra sÏ cã h×nh khèi vu«ng	Thñy Háa c«n vøt ra sÏ cã h×nh C«n dµi
+10145	10000	100	4	1	Vâ cô tõ tay TÆc ®å r¬i ra chøa nhiÒu bİ Èn. C©u nµo d­íi ®©y sai?	Trong chøa thiªn ®Şa Ngò hµnh, Uy lùc kinh ng­êi	Trong chøa gi¸m phï, cã thÓ gi¸m ®Şnh trang bŞ	Trong cã nhiÒu lç trèng, cã thÓ kh¸m thªm B¶o Th¹ch	Trong chøa c¸c kı tù b¸t qu¸i Chu dŞch, uy lùc kinh  ng­êi
+10146	10000	100	4	1	Thµnh §« cã 1 vŞ cao nh©n chuyªn chØ dÉn cho nh÷ng ng­êi míi b­íc vµo giang hå! §ã lµ ai?	D· TÈu	Trİ TÈu	Ngu TÈu	Qu¸i TÈu
+10147	10000	100	4	1	C¸c thao t¸c nµo d­íi ®©y kh«ng cÇn ®èi ph­¬ng ®ång ı vÉn tiÕn hµnh ®­îc?	Cõu s¸t	Giao dŞch	2 ng­êi cïng c­ìi ngùa	N¾m tay
+10148	10000	100	4	1	Giao dŞch víi ng­êi kh¸c, quan träng nhÊt lµ ®iÒu g×?	Thµnh tİn	Giao tiÒn giao hµng	ChØ víi ng­êi quen	§óng gi¸ ®óng hµng
+10150	10000	100	4	1	4 quyÓn mËt tŞch tuyÖt ®Ønh vâ c«ng ®­îc ®ån ®¹i trong Giang hå, quyÓn nµo ®øng thø nhÊt?	T©y S¬n MËt TŞch	Cöu KiÕm MËt TŞch	Cöu D­¬ng Ch©n Kinh	Cöu ¢m Ch©n Kinh
+10151	10000	100	4	1	QuyÓn vâ c«ng thÇn phæ cña Th¸i Tæ Hoµng ®Õ truyÒn l¹i cã tªn lµ g×?	Tr­êng QuyÒn phæ	M·nh Háa ®ao ph¸p	Cµn Kh«n b¶o ®iÓn	B¾c Minh b¶o ®iÓn

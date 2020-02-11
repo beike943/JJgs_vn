@@ -1,0 +1,155 @@
+ 	ID1	ID2	ID3	ID4	ID5	ID6
+Cho¸ng	0					
+Hçn lo¹n	0					
+Ngñ	0					
+Tª liÖt	0					
+§Þnh th©n	0					
+Tróng ®éc	0					
+Gi¶m tèc	0					
+Lµm chËm	0					
+Thu Hµo Minh Tra	66					
+Kim Chung Tr¸o	26	165				
+HuÖ Nh·n Chó	37	181				
+La H¸n TrËn	40					
+Ngò ChuyÓn ChØ	48	197				
+Ph¸ Ma Chó	49	198				
+Kim Cang BÊt Ho¹i	50	200				
+V« T­íng ThÇn C«ng	53	204				
+BÊt §éng Minh V­¬ng Chó	55	208	209			
+T©m Nh·n	60	212				
+Thèi §éc ThuËt	68					
+Hµm Sa X¹ ¶nh	71	344	345			
+Quan ¢m QuyÕt	219	226	229			
+§é Nguyªn QuyÕt	79	221				
+PhËt Quang Phæ ChiÕu	80					
+Liªn Hoa T©m Kinh	81	222				
+L­u Thñy QuyÕt	83	225	1338			
+BÊt DiÖt T©m Ph¸p	85	227	228	1337		
+PhËt Quang ChiÕn KhÝ	86	230	231	1340		
+PhËt ¢m ChiÕn ý	87	232	233	1339		
+Th«ng Tý QuyÒn	105	234				
+Thiªn C©n H¹p						
+Táa HÇu CÇm N· Thñ	108	237				
+Tiªu Dao Du						
+Tóy §iÖp	111	240	241			
+Tóy QuyÒn	112					
+Nª Thu C«ng	118	244				
+Th©u Thiªn Ho¸n NhËt	122	307	308			
+V« Ng· T©m Ph¸p	132	256				
+Th¸i Êt Tiªu Diªu C«ng	149					
+B¾c §Èu ThÊt Tinh trËn	155					
+B¸ V­¬ng T¹ Gi¸p	121	245	246			
+TriÒn Méng KiÕm ý	134	259				
+L¹c S­¬ng KiÕm ý	135	260				
+NguyÖt Thùc khóc	93	313	314			
+TÜnh D¹ T­	95	316	317			
+D­¬ng Quan Tam §iÖp	97	318	319			
+¤ D¹ §Ò	100	323	324	325		
+ThiÕu L©m Long Tr¶o Thñ	43					
+Mª HoÆc	0					
+Kim ThiÒn C«ng	458	489	967	971		
+TiÒm Long ThÇn C«ng	402	414	978	979	1428	
+Nh­ ý Táa Nguyªn C«ng	405	417	424	986	1434	
+ChÊn Qu©n Tam TiÕu QuyÕt	426	432	1007	1008	1446	
+Thiªn Hµ ThÇn C«ng	463	491	968	972		
+V« TrÇn ThÇn C«ng	403	415	981	982	1430	
+Tu La C«ng	459	490				
+Chiªm Y ThËp B¸t §iÖt	465	493	970	974		
+Tö Hµ ThÇn C«ng	464	492	969	973		
+HuyÔn ThÇn quyÕt	742	770	771			
+D­¬ng Gia Kú M«n ThuÉn	739					
+D­¬ng Gia Tôc MÖnh QuyÕt	743	763	764			
+D­¬ng Gia Anh Hïng KhÝ	728					
+D­¬ng Gia ChiÕn §Þnh QuyÕt	725	750				
+Tµm cæ	363					
+§éc cæ	354	388	389	390		
+HuyÔn Cæ	362					
+Linh cæ	436	1015	1452			
+Ma cæ						
+Thi cæ	358	394	395	396		
+H­¬ng cæ	357					
+T©m cæ	360	397	398	399		
+HuyÕt cæ	356	391	392	393		
+Yªu cæ	359					
+Ba S¬n D¹ Vò	867					
+L«i TÕ	1018					
+Phong TÕ	1019					
+Cang Phong QuyÕt	1026	1041				
+Kinh Phong ThuÊn L«i QuyÕt	1034	1047	1293	1294	1454	
+V¹n L«i To¸i Tinh Phï	1030	1045	1050			
+HuyÒn Phong TriÒn ý QuyÕt	1031	1046	1052			
+Tiªn Phong L­u T¸n QuyÕt	1028	1043				
+D­¬ng Sa QuyÕt						
+Ngù Phong QuyÕt	1022	1037				
+Kim L« Hé ThÓ	1055	1068				
+Thiªn KiÕp PhÇn	1058	1072				
+Ng­ng Háa BÝch	1059	1073				
+KhÝ Hãa Du Long						
+B¹o S¸t K×nh	1065	1079				
+Cµn Kh«n §¹i Na Di	1066					
+Håi Phong LiÖt DiÖm	1202	1205	1296	1297	1456	
+Quang Minh Bót Ph¸p	1084	1097				
+Kim Táa TrËn	1098	1113	1119	1124		
+HuyÒn Thñy TrËn	1101	1114	1120	1125		
+Phong Binh LÖnh	1088	1102				
+Bµn Méc TrËn	1103	1115	1121	1126		
+TÊn ¶nh LÖnh	1090	1104				
+Cµn Kh«n NghÞch ChuyÓn	1091	1105				
+NghiÖp Háa TrËn	1106	1116	1122	1127		
+Thæ Lao TrËn	1107	1117	1123	1128		
+Ngò Linh Quy Nguyªn	1095	1110				
+Quang Minh Ngò Hµnh TrËn	1096					
+§o¹n Cèt Tr¶o						
+Hñ Th­¬ng Ên	1133	1146				
+B¨ng HuyÕt Ên	1135	1148				
+HÊp HuyÕt Ên						
+Hµn HuyÕt Ên	1137	1150				
+ThÝch Cèt Ên						
+Truy Hån Ên	1139	1152				
+ThÝ C¶nh Tr¶o						
+Hµn B¨ng HuyÕt Ch­íng	1141	1154				
+Hãa HuyÕt Ên						
+VÉn Th­¬ng Ên	1143	1156				
+Hµn B¨ng Miªn Ch­ëng	1213					
+Hµn B¨ng Ng­ng HuyÕt Ên	1204	1207	1302	1303	1460	
+Khëi Vò						
+Linh Miªu VËn	1167	1177	1184			
+MÞ Hoa	1169	1178	1185			
+§o¹n V©n QuyÕt 						
+Thu NguyÖt Phó	1171	1179	1187			
+§iÖp O¸n	1173	1180	1188			
+Thiªn Háa DiÔm D­¬ng	1174	1181	1189	1190		
+Méng Xµ	1176	1182	1192	1193		
+Loan Phông Cöu Thiªn	1196					
+Tóy Méng Ng©m	1194	1195	1305	1306	1462	
+L¹c Hoa QuyÕt	1232	1233				
+§µo hoa ch­¬ng	1234	1235				
+Táa T©m QuyÕt	1236	1237				
+Linh §éng QuyÕt						
+Mª X¶o QuyÕt						
+Tiªn L­ H­¬ng	1226	1271				
+§iÖp LuyÕn Hoa						
+Cöu Vü Hoa Tiªn QuyÕt						
+Phån Hoa MËu	1253	1254	1308	1309	1464	
+T¨ng søc m¹nh	1316	1385				
+T¨ng th©n ph¸p	1317	1386				
+T¨ng néi c«ng	1318	1387				
+T¨ng linh ho¹t	1319	1388				
+T¨ng g©n cèt	1320	1389				
+S¸t ý	1875					
+Hçn §én §Êu Ph¸ch	1879					
+LuyÖn KiÕm-SÝ Hµn	1888	1839				
+LuyÖn KiÕm-Thiªn Minh	1889	1841				
+LuyÖn KiÕm-Phong CËn	1890	1843				
+KiÕm Thñ Kh«ng Minh-ChÝnh	1860	1896				
+KiÕm Thñ Kh«ng Minh-Phô	1861					
+Thiªn Phong Trôy	1898	1903	1904			
+KiÕm ý Ph¶n X¹	1895					
+Phån Hoa-H­ Nh­îc	1909					
+¸p chÕ						
+CÊm vËt						
+Sö dông ThÕ Th©n Phï						
+Bång Lai Tiªn Thñy						
+Bång Lai Tiªn Lé						
+Bång Lai Tiªn §¬n						
+Bång Lai Lé Thñy						

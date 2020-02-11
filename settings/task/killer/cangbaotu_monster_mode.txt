@@ -1,0 +1,11 @@
+Level	MonsterName	MonsterMode
+§¼ng cÊp B¶o Tµng Yªu Qu¸i	KiÓu yªu qu¸i	Tªn yªu qu¸i
+10	B¶o tµng qu¸i	B¶o tµng qu¸i10
+20	B¶o tµng qu¸i	B¶o tµng qu¸i20
+30	B¶o tµng qu¸i	B¶o tµng qu¸i30
+40	B¶o tµng qu¸i	B¶o tµng qu¸i40
+50	B¶o tµng qu¸i	B¶o tµng qu¸i50
+60	B¶o tµng qu¸i	B¶o tµng qu¸i60
+70	B¶o tµng qu¸i	B¶o tµng qu¸i70
+80	B¶o tµng qu¸i	B¶o tµng qu¸i80
+90	B¶o tµng qu¸i	B¶o tµng qu¸i90

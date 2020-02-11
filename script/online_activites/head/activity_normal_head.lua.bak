@@ -1,0 +1,688 @@
+--file function :Vn activity base class info
+--function design:cunzhang
+--develop date 5-17-2011
+--modify list:
+Include("\\script\\lib\\globalfunctions.lua");
+Include("\\script\\misc\\taskmanager.lua");
+TB_VN_ACTIVITY_MAIN = {}
+
+EVENT_LOG_TITLE = "Hoat dong thang 6 nam 2011"
+
+SVN_ACTIVITY_INI_FILE = "\\settings\\online\\VnOnlineMain.ini"
+g_objVNAcitivityInfo = ff_GetIniFileObj(SVN_ACTIVITY_INI_FILE)
+if g_objVNAcitivityInfo:Open() ~= 1 then
+	gf_WriteLog("SystemError","load ini file error! file path:"..SVN_ACTIVITY_INI_FILE)
+end
+--activity class info
+CLASS_ACTIVITY = {
+	nActivityID = 0,
+	sActivityName = "activity_name",
+	sActivityChgKey = "activity_chg_key",
+	tbTaskGroup = {},
+	nItemChgNum = 0,
+	--prize item info
+	tbPrizeItemInfo = {
+		--ÌîÐ´¸ñÊ½
+		--µÚÒ»¸öÏà¹ØÎïÆ·
+		[1] = {
+			--ÎïÆ·ÐÅÏ¢
+			--tbItemInfo ={2,1,1,"sItemName"},
+			--ÈÎÎñ±äÁ¿Ïà¹Ø
+			--nTaskIdPrizeType = 1,
+			--nTaskIdGetFinalPrize = 2,
+			--nTaskIdUseItemTimes = 3,
+			--ÓÃÕâ¸öÀ´±êÊ¾ÊÇ·ñ·ÖÖ»ÓÐ¾­Ñé½±ÀøºÍ°üº¬¾­Ñé½±ÀøºÍÆäËü½±Àø
+			--tbExpPrizeNum = {2500000,2000000},
+			--ÆÕÍ¨½±ÀøÐÅÏ¢¡¾¸´ÔÓ½±ÀøÄ£°å¡¿
+			tbNormalPrize = {
+				--tbPrizeInfo = {},
+				--tbItemRoomWeight = {},
+				nRandomBase = 10000,		--½±ÀøËæ¼´»ùÊýÄ¬ÈÏÎª10000
+			},
+			--´ÎÊý½±Àø
+			nPrizeAdditionalTimes = 20,
+				--Í¬ÆÕÍ¨½±ÀøÄ£°å
+			tbAdditionalPrize = {
+				nRandomBase = 10000,		--½±ÀøËæ¼´»ùÊýÄ¬ÈÏÎª10000
+			},
+			--×îÖÕ½±Àø
+			nItemUseTimesMax = 2000,
+				--Í¬ÆÕÍ¨½±ÀøÄ£°å
+			tbFinalPrize = {
+				nRandomBase = 10000,		--½±ÀøËæ¼´»ùÊýÄ¬ÈÏÎª10000
+
+			},
+
+		},
+		--µÚ¶þ¸öÏà¹ØÎïÆ·
+		--[2] = {},
+
+	},
+	--ÌáÊ¾Ïà¹Ø
+	tbHintString = {
+		[1] = "<color=yellow>%s<color> ®­îc tiÕn hµnh trong thêi gian tõ %s, th«ng tin chi tiÕt t¹i <color=green>http://volam2.zing.vn<color>",
+		[2] = "Chän h×nh thøc nhËn th­ëng %s ",
+		[3] = "NhËn phÇn th­ëng cuèi %s ",
+		[4] = "<color=green>th«ng b¸o<color>: thêi h¹n sö dông vËt phÈm ®· hÕt ",
+		[5] = "<color=green>Nh¾c nhë<color>: sè lÇn sö dông <color=green>%s<color> ®· ®¹t giíi h¹n <color=red>%d<color>",
+		[6] = "<color=green>Nh¾c nhë<color>: sö dông <color=green>%s<color> ®¹t ®Õn <color=red>%d<color> lÇn sÏ cã thÓ nhËn ®­îc phÇn th­ëng cuèi!",
+		[7] = "<color=green>th«ng b¸o<color>: c¸c h¹ ®· nhËn phÇn th­ëng nµy råi!",
+		[8] = "<color=green>th«ng b¸o<color>: thêi h¹n sö dông vËt phÈm ®· hÕt ",
+		[9] = {
+			"<color=green>Nh¾c nhë<color>: vui lßng chän h×nh thøc nhËn th­ëng %s ",
+			{
+				"KÝch ho¹t phÇn th­ëng kh«ng nhËn vËt phÈm (nhËn ®­îc %d%% ®iÓm kinh nghiÖm)/#Vet_Activity_SetItemUseInfo(%d,%d,%d,1)",
+				"KÝch ho¹t nhËn th­ëng vµ vËt phÈm /#Vet_Activity_SetItemUseInfo(%d,%d,%d,2)",
+				"Tho¸t/nothing",
+			},
+		},
+		[10] = {
+			"PhÇn th­ëng sö dông %s",
+			"PhÇn th­ëng ®Æc thï (%d) sö dông %s ",
+			"NhËn ®­îc phÇn th­ëng cuèi %s ",
+		},
+		[11] = "<color=green>Nh¾c nhë<color>: sè lÇn sö dông <color=green>%s<color> hiÖn t¹i cña c¸c h¹ lµ:%d/%d",
+		[12] = {
+			[1] = "<color=green>th«ng b¸o<color>: h·y chän phÇn th­ëng cuèi",
+			[2] ={
+				"%d ®iÓm kinh nghiÖm vµ phÇn th­ëng vËt phÈm /#Vet_Activity_SelLastPrize(%d,%d,%d,1)",
+				"%d ®iÓm n©ng cÊp b¹n ®ång hµnh vµ vËt phÈm /#Vet_Activity_SelLastPrize(%d,%d,%d,2)",
+				"%d ®iÓm linh lùc b¹n ®ång hµnh vµ vËt phÈm /#Vet_Activity_SelLastPrize(%d,%d,%d,3)",
+				"Tho¸t/nothing",
+			},
+		},
+	},
+}
+--½õÄÒ´óÊÂ¼þ´¦Àí
+function CLASS_ACTIVITY:JinNangOpen(tbSayDialog,szSayHead)
+	if self:OnlineTimeChk() == 1 then
+		szSayHead = self:CreateActivityHead()
+		--¶Ò»»Ñ¡Ïî
+		--for i = 1,self.nItemChgNum - 1 do
+			tinsert(tbSayDialog,gf_VnGetChangeSaySel(self.sActivityChgKey.."Chg"..tostring(2)).."/#gf_VnItemChgDeal(\""..self.sActivityChgKey.."Chg"..tostring(2).."\")")
+		--end
+		for i = 1,getn(self.tbPrizeItemInfo) do
+			if getn(self.tbPrizeItemInfo[i].tbExpPrizeNum) == 2 then
+				tinsert(tbSayDialog,format(self.tbHintString[2].."/#gf_VnSetActivityPrizeModel("..self.tbTaskGroup[1]..","..self.tbTaskGroup[2]..","..i..")",self.tbPrizeItemInfo[i].tbItemInfo[4]))
+			end
+			if self.tbPrizeItemInfo[i].nItemUseTimesMax then
+				tinsert(tbSayDialog,format(self.tbHintString[3].."/#Vet_Activity_GetLastPrize("..self.tbTaskGroup[1]..","..self.tbTaskGroup[2]..","..i..")",self.tbPrizeItemInfo[i].tbItemInfo[4]))
+			end
+		end
+		tbSayDialog,szSayHead = self:OnJinNangOpen(tbSayDialog,szSayHead)
+	end
+	return tbSayDialog,szSayHead
+end
+function CLASS_ACTIVITY:CreateActivityHead()
+	local sStartTime = GetEventStartDate(self.nActivityID)
+	local nEndTime = GetEventEndDate(self.nActivityID)
+	local sTimString = "ngµy "..tostring(tonumber(strsub(sStartTime,7,8))).." th¸ng "..tostring(tonumber(strsub(sStartTime,5,6))).." n¨m "..tostring(strsub(sStartTime,1,4))
+	sTimString = sTimString.." ®Õn 24:00".." ngµy "..tostring(tonumber(strsub(nEndTime,7,8))).." th¸ng "..tostring(tonumber(strsub(nEndTime,5,6)))
+	if strsub(sStartTime,1,4) ~= strsub(nEndTime,1,4) then
+		sTimString = sTimString..tostring(strsub(sStartTime,1,4)).." n¨m"
+	end
+	return  format(self.tbHintString[1],self.sActivityName,sTimString)
+end
+--»î¶¯¿ª·ÅÊ±¼äÅÐ¶Ï
+function CLASS_ACTIVITY:OnlineTimeChk()
+	return gf_CheckEventDateEx(self.nActivityID)
+end
+--¿ªÆô»ñÈ¡½±Àø
+function CLASS_ACTIVITY:ItemPrizeOnUse(nItemIndex,nItemSeq)
+	--Ê±¼ä¼ì²â
+	if self:OnlineTimeChk() ~= 1 then
+		Talk(1,"",self.tbHintString[8])
+		return
+	end
+	local tbPrizeItemInfo = self.tbPrizeItemInfo[nItemSeq]
+	local nUseTimes = 0
+	--Ê¹ÓÃÉÏÏÞÅÐ¶Ï
+	if tbPrizeItemInfo.nItemUseTimesMax then
+		nUseTimes = Vet_Activity_GetItemUseInfo(self.tbTaskGroup[1],self.tbTaskGroup[2],tbPrizeItemInfo.nTaskIdUseItemTimes)
+		if nUseTimes >= tbPrizeItemInfo.nItemUseTimesMax then
+			Talk(1,"",format(self.tbHintString[5],tbPrizeItemInfo.tbItemInfo[4],tbPrizeItemInfo.nItemUseTimesMax))
+			return
+		end
+	end
+	--¶Ò»»¹æÔò¼ì²â
+	local nPrizeType = 1
+	if getn(tbPrizeItemInfo.tbExpPrizeNum) == 2 then
+		nPrizeType = Vet_Activity_GetItemUseInfo(self.tbTaskGroup[1],self.tbTaskGroup[2],tbPrizeItemInfo.nTaskIdPrizeType)
+		if nPrizeType == 0 then
+			self:PrizeTypeSel(nItemSeq)
+			return
+		end
+	end
+	--±³°ü¿Õ¼äÅÐ¶Ï
+	if nPrizeType == 2 then
+		if tbPrizeItemInfo.nPrizeAdditionalTimes and mod((nUseTimes + 1),tbPrizeItemInfo.nPrizeAdditionalTimes) == 0 then
+			if gf_Judge_Room_Weight(tbPrizeItemInfo.tbAdditionalPrize.tbItemRoomWeight[1],tbPrizeItemInfo.tbAdditionalPrize.tbItemRoomWeight[2],"") ~= 1 then
+				return
+			end
+		else
+			if gf_Judge_Room_Weight(tbPrizeItemInfo.tbNormalPrize.tbItemRoomWeight[1],tbPrizeItemInfo.tbNormalPrize.tbItemRoomWeight[2],"") ~= 1 then
+				return
+			end
+		end
+	end
+	--ÆÕÍ¨½±Àø´¦Àí
+	if DelItemByIndex(nItemIndex,1) ~= 1 then
+		return
+	else
+		if nPrizeType == 1 then		--µ¥´¿Áì¾­ÑéµÄ´¦Àí
+			ModifyExp(tbPrizeItemInfo.tbExpPrizeNum[1])
+			Msg2Player("C¸c h¹ ®· nhËn ®­îc "..tbPrizeItemInfo.tbExpPrizeNum[1].." ®iÓm kinh nghiÖm")
+			self:OnGetItemExpPrize(nUseTimes + 1)
+		else		--¾­ÑéºÍÆäËü½±ÀøµÄ´¦Àí
+			ModifyExp(tbPrizeItemInfo.tbExpPrizeNum[2])
+			Msg2Player("C¸c h¹ ®· nhËn ®­îc "..tbPrizeItemInfo.tbExpPrizeNum[2].." ®iÓm kinh nghiÖm")
+			--ÊÇ·ñÓÐÌØÊâ´ÎÊýµÄ´¦Àí
+			if tbPrizeItemInfo.nPrizeAdditionalTimes and mod((nUseTimes + 1),tbPrizeItemInfo.nPrizeAdditionalTimes) == 0 then
+				self:GiveItemPrize(tbPrizeItemInfo.tbAdditionalPrize,format(self.tbHintString[10][2],tbPrizeItemInfo.nPrizeAdditionalTimes,tbPrizeItemInfo.tbItemInfo[4]))
+				self:OnGetItemAddionalPrize(nUseTimes + 1)
+			else
+				self:GiveItemPrize(tbPrizeItemInfo.tbNormalPrize,format(self.tbHintString[10][1],tbPrizeItemInfo.tbItemInfo[4]))
+				self:OnGetItemOtherPrize(nUseTimes + 1)
+			end
+		end
+		--Ê¹ÓÃ´ÎÊý´¦Àí
+		if tbPrizeItemInfo.nItemUseTimesMax then
+			Vet_Activity_SetItemUseInfo(self.tbTaskGroup[1],self.tbTaskGroup[2],tbPrizeItemInfo.nTaskIdUseItemTimes,(nUseTimes + 1))
+			--Talk(1,"",format(self.tbHintString[11],tbPrizeItemInfo.tbItemInfo[4],(nUseTimes + 1),tbPrizeItemInfo.nItemUseTimesMax))
+		end
+	end
+end
+--½±ÀøÄ£Ê½Ñ¡È¡
+function CLASS_ACTIVITY:PrizeTypeSel(nItemSeq)
+	local tbItemPrizeInfo = self.tbPrizeItemInfo[nItemSeq]
+	if getn(tbItemPrizeInfo.tbExpPrizeNum) == 2 then
+		Say(format(self.tbHintString[9][1],tbItemPrizeInfo.tbItemInfo[4]),
+			3,
+			format(self.tbHintString[9][2][1],floor(tbItemPrizeInfo.tbExpPrizeNum[1]*100/tbItemPrizeInfo.tbExpPrizeNum[2]),self.tbTaskGroup[1],self.tbTaskGroup[2],tbItemPrizeInfo.nTaskIdPrizeType),
+			format(self.tbHintString[9][2][2],self.tbTaskGroup[1],self.tbTaskGroup[2],tbItemPrizeInfo.nTaskIdPrizeType),
+			self.tbHintString[9][2][3]
+		)
+	end
+end
+--»ñÈ¡×îÖÕ½±Àø
+function CLASS_ACTIVITY:GetFinalPrize(nItemSeq,nPrizeDiff)
+	--Ê±¼ä¼ì²â
+	if self:OnlineTimeChk() ~= 1 then
+		Talk(1,"",self.tbHintString[8])
+		return
+	end
+	--»¹ÒªÅÐ¶ÏÒ»´Î
+	if self.tbPrizeItemInfo[nItemSeq] == nil then
+		return
+	end
+	local tbPrizeInfo = self.tbPrizeItemInfo[nItemSeq]
+	--ÅÐ¶ÏÊÇ·ñÓÐ×îÖÕ½±Àø
+	if tbPrizeInfo.nItemUseTimesMax == nil then
+		return
+	end
+	--ÅÐ¶ÏÓÎÏ·Ê±¼ä
+	if self:OnlineTimeChk() ~= 1 then
+		return
+	end
+	--XÐt ®iÒu kiÖn nhËn phÇn th­ëng cuèi
+	local nCurPetLevel = mod(GetTask(TASK_VNG_PET), 100)
+	if nPrizeDiff == 2 and nCurPetLevel < 1 then
+		Talk(1,"","§¹i hiÖp ch­a cã B¹n §ång Hµnh, kh«ng thÓ nhËn phÇn th­ëng nµy!")			
+		return
+     end
+    	if nPrizeDiff == 3 and nCurPetLevel < 2 then
+		Talk(1,"","B¹n §ång Hµnh ®¼ng cÊp 2 trë lªn míi cã thÓ nhËn phÇn th­ëng nµy!")
+		return
+     end
+	--ÅÐ¶Ï´ÎÊý
+	local nUseTimes = Vet_Activity_GetItemUseInfo(self.tbTaskGroup[1],self.tbTaskGroup[2],tbPrizeInfo.nTaskIdUseItemTimes)
+	if nUseTimes < tbPrizeInfo.nItemUseTimesMax then
+		Talk(1,"",format(self.tbHintString[6],tbPrizeInfo.tbItemInfo[4],tbPrizeInfo.nItemUseTimesMax))
+		return
+	end
+	--ÊÇ·ñÁìÈ¡ÅÐ¶Ï
+	if Vet_Activity_GetItemUseInfo(self.tbTaskGroup[1],self.tbTaskGroup[2],tbPrizeInfo.nTaskIdGetFinalPrize) == 1 then
+		Talk(1,"",self.tbHintString[7])
+		return
+	else
+		--¿Õ¼ä¸ºÖØÅÐ¶Ï
+		if tbPrizeInfo.tbFinalPrize and tbPrizeInfo.tbFinalPrize.tbItemRoomWeight and gf_Judge_Room_Weight(tbPrizeInfo.tbFinalPrize.tbItemRoomWeight[1],tbPrizeInfo.tbFinalPrize.tbItemRoomWeight[2],"") ~= 1 then
+			return 0
+		end
+		--½±Àø´¦Àí
+		if tbPrizeInfo.tbFinalPrize.tbPrizeInfo then
+			Vet_Activity_SetItemUseInfo(self.tbTaskGroup[1],self.tbTaskGroup[2],tbPrizeInfo.nTaskIdGetFinalPrize,1)
+			self:GiveItemPrize(tbPrizeInfo.tbFinalPrize,format(self.tbHintString[10][3],tbPrizeInfo.tbItemInfo[4]))
+		end
+		self:OnGetFinalPrize(nPrizeDiff)
+	end
+end
+--¸øÓè½±Àø
+function CLASS_ACTIVITY:GiveItemPrize(tbItemPrizeInfo,szLog)
+	gf_EventGiveRandAward(tbItemPrizeInfo.tbPrizeInfo,tbItemPrizeInfo.nRandomBase,1,self.sActivityName, EVENT_LOG_TITLE, szLog)
+end
+
+--=====Ðéº¯Êý£¬ÐèÒªÔÙÅÉÉúÖÐÖØÐÂ¶¨Òå
+function CLASS_ACTIVITY:OnGetFinalPrize()
+end
+function CLASS_ACTIVITY:OnJinNangOpen(tbSayDialog,szSayHead)
+	return tbSayDialog,szSayHead
+end
+function CLASS_ACTIVITY:OnGetItemExpPrize(nUseTimes)
+end
+function CLASS_ACTIVITY:OnGetItemAddionalPrize(nUseTimes)
+end
+function CLASS_ACTIVITY:OnGetItemOtherPrize(nUseTimes)
+end
+
+function CLASS_ACTIVITY:OnPlantSmallTree()
+end
+function CLASS_ACTIVITY:OnPlantBigTree()
+end
+function CLASS_ACTIVITY:OnOpenSeedBag()
+end
+function CLASS_ACTIVITY:OnPersonnalWulishizhe()
+
+end
+--=====ÆäËüº¯Êý
+function nothing()
+end
+--Í¨¹ý¹Ø¼ü×ÖÀ´´´½¨Ò»¸ö»î¶¯µÄÐÅÏ¢
+function Vet_Create_Activity_By_Ini(tActivity,sIniKey)
+	tActivity.nActivityID = g_objVNAcitivityInfo:GetNum(sIniKey,"nActivityId")
+	tActivity.sActivityName = g_objVNAcitivityInfo:GetString(sIniKey,"sActivityName")
+	tActivity.sActivityChgKey = g_objVNAcitivityInfo:GetString(sIniKey,"sActivityChgKey")
+	tActivity.tbTaskGroup = g_objVNAcitivityInfo:GetMixTable(sIniKey,"tTaskGroup")
+	tActivity.nItemChgNum = g_objVNAcitivityInfo:GetNum(sIniKey,"nItemChgNum")
+	--½±ÀøÎïÆ·Ïà¹Ø
+	for nItemPrizeNum = 1,g_objVNAcitivityInfo:GetNum(sIniKey,"nPrizeItemCount") do
+		tActivity.tbPrizeItemInfo[nItemPrizeNum] = {
+			tbItemInfo = g_objVNAcitivityInfo:GetMixTable(sIniKey,"tbPrizeItemInfo"..nItemPrizeNum),
+			nTaskIdPrizeType = g_objVNAcitivityInfo:GetNum(sIniKey,"nTaskIdPrizeType"..nItemPrizeNum),
+			nTaskIdGetFinalPrize = g_objVNAcitivityInfo:GetNum(sIniKey,"nTaskIdGetFinalPrize"..nItemPrizeNum),
+			nTaskIdUseItemTimes = g_objVNAcitivityInfo:GetNum(sIniKey,"nTaskIdUseItemTimes"..nItemPrizeNum),
+			tbExpPrizeNum = g_objVNAcitivityInfo:GetMixTable(sIniKey,"tbExpPrizeNum"..nItemPrizeNum),
+			tbNormalPrize = {
+				tbItemRoomWeight = g_objVNAcitivityInfo:GetMixTable(sIniKey,"tbNormalPrizeRoomWeight"..nItemPrizeNum),
+			},
+			nPrizeAdditionalTimes = g_objVNAcitivityInfo:GetNum(sIniKey,"nPrizeAdditionalTimes"..nItemPrizeNum),
+			tbAdditionalPrize = {
+				tbItemRoomWeight = g_objVNAcitivityInfo:GetMixTable(sIniKey,"tbAdditionalPrizeRoomWeight"..nItemPrizeNum),
+			},
+			nItemUseTimesMax = g_objVNAcitivityInfo:GetNum(sIniKey,"nItemUseTimesMax"..nItemPrizeNum),
+			tbFinalPrize = {
+				tbItemRoomWeight = g_objVNAcitivityInfo:GetMixTable(sIniKey,"tbFinalPrizeRoomWeight"..nItemPrizeNum),
+			},
+		}
+	end
+end
+--»î¶¯±äÁ¿´¦Àí
+function Vet_Activity_GetItemUseInfo(nTaskGrouId,nTaskGroupVersionId,nTaskIDSeq)
+	local g_objVetAcitivityTaskGroupTemp = TaskManager:Create(nTaskGrouId,nTaskGroupVersionId)
+	return g_objVetAcitivityTaskGroupTemp:GetTask(nTaskIDSeq)
+end
+function Vet_Activity_SetItemUseInfo(nTaskGrouId,nTaskGroupVersionId,nTaskIDSeq,nTaskValue)
+	local g_objVetAcitivityTaskGroupTemp = TaskManager:Create(nTaskGrouId,nTaskGroupVersionId)
+	return g_objVetAcitivityTaskGroupTemp:SetTask(nTaskIDSeq,nTaskValue)
+end
+--Ñ¡Ôñ×îÖÕ½±Àø
+function Vet_Activity_SelLastPrize(nTaskGrouId,nTaskIDSeq,nItemSeq,nPrizeDiff)
+	local tbActivity = gf_VnGetActivityByGroupId(nTaskGrouId,nTaskIDSeq)
+	if tbActivity then tbActivity:GetFinalPrize(nItemSeq,nPrizeDiff) end;
+end
+function Vet_Activity_GetLastPrize(nTaskGrouId,nTaskIDSeq,nItemSeq)
+	local tbActivity = gf_VnGetActivityByGroupId(nTaskGrouId,nTaskIDSeq)
+	if not(tbActivity) then return end;
+	local tTempSel = tbActivity.tbPrizeItemInfo[nItemSeq].tbFinalPrize.sel
+	if  tTempSel ~= nil then
+		local tTempDiaSel = {}
+		for j = 1,getn(tTempSel) do
+		if tTempSel[j] ~= nil and tTempSel[j] ~= 0 then
+			tinsert(tTempDiaSel,format(tbActivity.tbHintString[12][2][j],tTempSel[j],nTaskGrouId,nTaskIDSeq,nItemSeq))
+		end
+	end
+	tinsert(tTempDiaSel,tbActivity.tbHintString[12][2][4])
+	Say(tbActivity.tbHintString[12][1],
+		getn(tTempDiaSel),
+		tTempDiaSel
+	)
+	end
+	return
+end
+--»ñÈ¡½õÄÒ´óÊÂ¼þÑ¡Ïî
+function get_tbJNDialog_info(tbSayDialog, szSayHead)
+	for i = 1,getn(TB_VN_ACTIVITY_MAIN) do
+		tbSayDialog, szSayHead = TB_VN_ACTIVITY_MAIN[i]:JinNangOpen(tbSayDialog,szSayHead)
+	end
+	return tbSayDialog, szSayHead
+end
+--ÓÉTaskGroupidµÈÐÅÏ¢¶¨Î»
+function gf_VnGetActivityByGroupId(nTaskGrouId,nTaskIDSeq)
+	for i = 1,getn(TB_VN_ACTIVITY_MAIN) do
+		if TB_VN_ACTIVITY_MAIN[i]:OnlineTimeChk() == 1 and TB_VN_ACTIVITY_MAIN[i].tbTaskGroup[1] == nTaskGrouId and TB_VN_ACTIVITY_MAIN[i].tbTaskGroup[2] == nTaskIDSeq then
+			return TB_VN_ACTIVITY_MAIN[i]
+		end
+	end
+end
+--ÓÉÎïÆ·ÐÅÏ¢¶¨Î»»î¶¯
+function gf_VnGetActivityByItemIndex(nItemIndex)
+	local nItemId,nDetaiId,nParticularId = GetItemInfoByIndex(nItemIndex)
+	for i = 1,getn(TB_VN_ACTIVITY_MAIN) do
+		if TB_VN_ACTIVITY_MAIN[i]:OnlineTimeChk() == 1 then
+			for nItemSeq = 1,getn(TB_VN_ACTIVITY_MAIN[i].tbPrizeItemInfo) do
+				local tbItemInfo = TB_VN_ACTIVITY_MAIN[i].tbPrizeItemInfo[nItemSeq].tbItemInfo
+				if tbItemInfo[1] == nItemId and tbItemInfo[2] == nDetaiId and tbItemInfo[3] == nParticularId then
+					return TB_VN_ACTIVITY_MAIN[i],nItemSeq
+				end
+			end
+		end
+	end
+end
+--ÓÉÊ±¼ä¶¨Î»»î¶¯ÐÅÏ¢
+function gf_VnGetActivityByTime()
+	local tActivity = {}
+	for i = 1,getn(TB_VN_ACTIVITY_MAIN) do
+		if TB_VN_ACTIVITY_MAIN[i]:OnlineTimeChk() == 1 then
+			tinsert(tActivity,TB_VN_ACTIVITY_MAIN[i])
+		end
+	end
+	return tActivity
+end
+--½±ÀøÄ£Ê½Ñ¡È¡
+function gf_VnSetActivityPrizeModel(nTaskGrouId,nTaskIDSeq,nItemSeq)
+	local tbActivity = gf_VnGetActivityByGroupId(nTaskGrouId,nTaskIDSeq)
+	if tbActivity then tbActivity:PrizeTypeSel(nItemSeq) end;
+end
+--normal task-prize api functions
+function vaf_WulinshizhePersonalAward()
+	local tActivity = gf_VnGetActivityByTime()
+	for i= 1,getn(tActivity) do
+		tActivity[i]:OnPersonnalWulishizhe()
+	end
+end
+function vaf_WulinshizheTeamAward()
+	local tActivity = gf_VnGetActivityByTime()
+	for i= 1,getn(tActivity) do
+		tActivity[i]:OnTesamWulishizhe()
+	end
+end
+function vaf_PlantSmallTreeAward()
+	local tActivity = gf_VnGetActivityByTime()
+	for i= 1,getn(tActivity) do
+		tActivity[i]:OnPlantSmallTree()
+	end
+end
+function vaf_PlantBigTreeAward()
+	local tActivity = gf_VnGetActivityByTime()
+	for i= 1,getn(tActivity) do
+		tActivity[i]:OnPlantBigTree()
+	end
+end
+function vaf_OpenSeedBagTreeAward()
+	local tActivity = gf_VnGetActivityByTime()
+	for i= 1,getn(tActivity) do
+		tActivity[i]:OnOpenSeedBag()
+	end
+end
+--===========================Normal prize info
+VET_FY_WEAPON = {
+	{1, 675, "Ph¸ Yªn ®ao", {0, 3, 6001, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 675, "Ph¸ Yªn c«n", {0, 5, 6002, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 675, "Phï Yªn tr­îng", {0, 8, 6003, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 675, "Hµm Yªn thñ", {0, 0, 6004, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 675, "Tµng Yªn ch©m", {0, 1, 6005, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 675, "Phi Yªn kiÕm", {0, 2, 6006, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 675, "VËn Yªn cÇm", {0, 10, 6007, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 675, "V©n Yªn thñ", {0, 0, 6008, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 675, "L­u Yªn c«n", {0, 5, 6009, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 675, "HuyÒn Yªn kiÕm", {0, 2, 6010, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 675, "Vò Yªn bót", {0, 9, 6011, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 675, "Hµ Tiªm Th­¬ng", {0, 6, 6012, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 675, "Hµnh Yªn Cung", {0, 4, 6013, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 625, "Träc Yªn nhÉn", {0, 7, 6014, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 600, "Yªu Yªn tr¶o", {0, 11, 6015, 1, 1, -1, -1, -1, -1, -1, -1}}
+};
+--Faction Cloth 9
+VET_FACTION_CLOTH_9 = {
+	{1, 20, "V« §æng La S¸t TrÊm HuyÕt Y", {0, 100, 2131, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "V« §æng La S¸t TrÊm HuyÕt Y", {0, 100, 2132, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "V« §æng La S¸t TrÊm HuyÕt Y", {0, 100, 2133, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "V« §æng La S¸t TrÊm HuyÕt Y", {0, 100, 2134, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Thiªn Long B¸t Bé Kh¶i Gi¸p", {0, 100, 231, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Thiªn Long B¸t Bé Kh¶i Gi¸p", {0, 100, 232, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "V« L­îng Ph¸p T«n ThiÒn §Þnh Bµo", {0, 100, 331, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "V« L­îng Ph¸p T«n ThiÒn §Þnh Bµo", {0, 100, 332, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "B¸t B¶o La H¸n §¹i Thõa Kh¶i Gi¸p ", {0, 100, 431, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "B¸t B¶o La H¸n §¹i Thõa Kh¶i Gi¸p ", {0, 100, 432, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Thiªn C¬ Sø Gi¶ ThÇn TriÖu C©n", {0, 100, 631, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Thiªn C¬ Sø Gi¶ ThÇn TriÖu C©n", {0, 100, 632, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Thiªn C¬ Sø Gi¶ ThÇn TriÖu C©n", {0, 100, 633, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Thiªn C¬ Sø Gi¶ ThÇn TriÖu C©n", {0, 100, 634, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "B¹ch Liªn Tiªn Tö B¶o Èn Y", {0, 100, 831, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "B¹ch Liªn Tiªn Tö B¶o Èn Y", {0, 100, 832, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Ngäc VËn Tiªn Tö HuyÒn Hån Y", {0, 100, 931, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Ngäc VËn Tiªn Tö HuyÒn Hån Y", {0, 100, 932, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long §Çu ThÇn C¸i §»ng V©n Y", {0, 100, 1131, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long §Çu ThÇn C¸i §»ng V©n Y", {0, 100, 1132, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long §Çu ThÇn C¸i §»ng V©n Y", {0, 100, 1133, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long §Çu ThÇn C¸i §»ng V©n Y", {0, 100, 1134, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "KhÊt Thiªn ThÇn C¸i V©n Du Y", {0, 100, 1231, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "KhÊt Thiªn ThÇn C¸i V©n Du Y", {0, 100, 1232, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "KhÊt Thiªn ThÇn C¸i V©n Du Y", {0, 100, 1233, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "KhÊt Thiªn ThÇn C¸i V©n Du Y", {0, 100, 1234, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Ch­ëng Kinh Thanh Quang Bµo", {0, 100, 1431, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Ch­ëng Kinh Thanh Quang Bµo", {0, 100, 1432, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Ch­ëng Kinh Thanh Quang Bµo", {0, 100, 1433, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Ch­ëng Kinh Thanh Quang Bµo", {0, 100, 1434, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Th¸i Êt T¶n Nh©n H¹o Nhiªn Phôc", {0, 100, 1531, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Th¸i Êt T¶n Nh©n H¹o Nhiªn Phôc", {0, 100, 1532, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Th¸i Êt T¶n Nh©n H¹o Nhiªn Phôc", {0, 100, 1533, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Th¸i Êt T¶n Nh©n H¹o Nhiªn Phôc", {0, 100, 1534, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long T­¬ng Ngao KhÝ ChiÕn kh¶i", {0, 100, 1731, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long T­¬ng Ngao KhÝ ChiÕn kh¶i", {0, 100, 1732, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long T­¬ng Ngao KhÝ ChiÕn kh¶i", {0, 100, 1733, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long T­¬ng Ngao KhÝ ChiÕn kh¶i", {0, 100, 1734, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 30, "Hæ Dùc M·nh Sü ChiÕn kh¶i", {0, 100, 1831, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 30, "Hæ Dùc M·nh Sü ChiÕn kh¶i", {0, 100, 1832, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 30, "Hæ Dùc M·nh Sü ChiÕn kh¶i", {0, 100, 1833, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 30, "Hæ Dùc M·nh Sü ChiÕn kh¶i", {0, 100, 1834, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 30, "U Minh Quû S¸t Tu La HuyÕt Y", {0, 100, 2031, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 30, "U Minh Quû S¸t Tu La HuyÕt Y", {0, 100, 2032, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 30, "U Minh Quû S¸t Tu La HuyÕt Y", {0, 100, 2033, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 30, "U Minh Quû S¸t Tu La HuyÕt Y", {0, 100, 2034, 1, 1, -1, -1, -1, -1, -1, -1}}
+};
+--Faction Weapon 9
+VET_FACTION_WEAPON_9 = {
+	{1, 20, "V« §éng La S¸t TrÈm HuyÕt Tr¶o", {0, 11, 2131, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "V« §éng La S¸t TrÈm HuyÕt Tr¶o", {0, 11, 2132, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "V« §éng La S¸t TrÈm HuyÕt Tr¶o", {0, 11, 2133, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "V« §éng La S¸t TrÈm HuyÕt Tr¶o", {0, 11, 2134, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "B¸t Bé Thiªn Long Thiªn Chóng §ao", {0, 3, 231, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "B¸t Bé Thiªn Long Thiªn Chóng §ao", {0, 3, 232, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "B¸t Bé Thiªn Long Thiªn Chóng C«n", {0, 5, 231, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "B¸t Bé Thiªn Long Thiªn Chóng C«n", {0, 5, 232, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "V« L­îng Ph¸p T«n ThiÒn Tr­îng", {0, 8, 331, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "V« L­îng Ph¸p T«n ThiÒn Tr­îng", {0, 8, 332, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "B¸t B¶o La H¸n §¹i Thõa Thñ", {0, 0, 431, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "B¸t B¶o La H¸n §¹i Thõa Thñ", {0, 0, 432, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Thiªn C¬ Sø Gi¶ ThÇn TriÖu Ch©m", {0, 1, 631, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Thiªn C¬ Sø Gi¶ ThÇn TriÖu Ch©m", {0, 1, 632, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Thiªn C¬ Sø Gi¶ ThÇn TriÖu Ch©m", {0, 1, 633, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Thiªn C¬ Sø Gi¶ ThÇn TriÖu Ch©m", {0, 1, 634, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "B¹ch Liªn Tiªn Tö B¶o UÈn KiÕm", {0, 2, 831, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "B¹ch Liªn Tiªn Tö B¶o UÈn KiÕm", {0, 2, 832, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Ngäc VËn Tiªn Tö HuyÒn Hån CÇm", {0, 10, 931, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Ngäc VËn Tiªn Tö HuyÒn Hån CÇm", {0, 10, 932, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long §Çu ThÇn C¸i §»ng V©n Thñ", {0, 0, 1131, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long §Çu ThÇn C¸i §»ng V©n Thñ", {0, 0, 1132, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long §Çu ThÇn C¸i §»ng V©n Thñ", {0, 0, 1133, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long §Çu ThÇn C¸i §»ng V©n Thñ", {0, 0, 1134, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "KhÊt Thiªn ThÇn C¸i V©n Du C«n", {0, 5, 1231, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "KhÊt Thiªn ThÇn C¸i V©n Du C«n", {0, 5, 1232, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "KhÊt Thiªn ThÇn C¸i V©n Du C«n", {0, 5, 1233, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "KhÊt Thiªn ThÇn C¸i V©n Du C«n", {0, 5, 1234, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Ch­ëng Kinh Thanh Quang KiÕm", {0, 2, 1431, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Ch­ëng Kinh Thanh Quang KiÕm", {0, 2, 1432, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Ch­ëng Kinh Thanh Quang KiÕm", {0, 2, 1433, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Ch­ëng Kinh Thanh Quang KiÕm", {0, 2, 1434, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Th¸i Êt T¶n Nh©n H¹o Nhiªn Bót", {0, 9, 1531, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Th¸i Êt T¶n Nh©n H¹o Nhiªn Bót", {0, 9, 1532, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Th¸i Êt T¶n Nh©n H¹o Nhiªn Bót", {0, 9, 1533, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Th¸i Êt T¶n Nh©n H¹o Nhiªn Bót", {0, 9, 1534, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long T­¬ng T­íng Qu©n Th­¬ng", {0, 6, 1731, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long T­¬ng T­íng Qu©n Th­¬ng", {0, 6, 1732, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long T­¬ng T­íng Qu©n Th­¬ng", {0, 6, 1733, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Long T­¬ng T­íng Qu©n Th­¬ng", {0, 6, 1734, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Hæ Dùc T­íng Qu©n Cung", {0, 4, 1831, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Hæ Dùc T­íng Qu©n Cung", {0, 4, 1832, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Hæ Dùc T­íng Qu©n Cung", {0, 4, 1833, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 20, "Hæ Dùc T­íng Qu©n Cung", {0, 4, 1834, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 30, "U Minh Quû S¸t Tu La NhÉn", {0, 7, 2031, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 30, "U Minh Quû S¸t Tu La NhÉn", {0, 7, 2032, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 30, "U Minh Quû S¸t Tu La NhÉn", {0, 7, 2033, 1, 1, -1, -1, -1, -1, -1, -1}},
+	{1, 30, "U Minh Quû S¸t Tu La NhÉn", {0, 7, 2034, 1, 1, -1, -1, -1, -1, -1, -1}}
+};
+function vaf_GiveFyWeapon()
+	gf_EventGiveRandAward(VET_FY_WEAPON,1000,1)
+end
+function vaf_GiveShimenCloth9()
+	gf_EventGiveRandAward(VET_FACTION_CLOTH_9,1000,1)
+end
+function vaf_GiveShimenWeapon9()
+	gf_EventGiveRandAward(VET_FACTION_WEAPON_9,1000,1)
+end
+function gf_VnGetPrizeRandomSeed(tbPrize)
+	local nRandomSeed = 0
+	for i = 1,getn(tbPrize) do
+		nRandomSeed = nRandomSeed + tbPrize[i][2]
+	end
+	return nRandomSeed
+end
+--attention:all the pet-award-api are here
+--add pet grow award:the param is the number of award
+function gf_VnGiveActivityPetGrowAward(nPetGrowAward)
+	--TODO add pet grow award here
+	SetTask(TASK_VNG_PET, GetTask(TASK_VNG_PET) + (20 * 100))
+	Msg2Player("B¹n nhËn ®­îc 20 §iÓm N©ng CÊp B¹n §ång Hµnh")
+end
+--add pet mp award api: the param is the number of award
+function gf_VnGiveActivityPetMpAward(nPetMpAward)
+	--TODO add pet mp award here
+	Pet_AddGP(1)
+	Msg2Player("B¹n nhËn ®­îc 1 §iÓm Linh Lùc B¹n §ång Hµnh")
+end
+---==========================201106:summer holiday
+VET_201106SUMMERHOLIDAY_FTUITMILKJUICE = {
+    {3, 300, 10000, 1},
+    {1, 50, "Thiªn th¹ch", {2, 2, 8, 1}, 0},
+    {1, 30, "M¶nh Thiªn th¹ch", {2, 2, 7, 1}, 0},
+    {1, 5, "ThÕ Th©n phï", {2, 0, 556, 1}, 7 * 24 * 3600},
+    {1, 10, "B¸t Nh· Chøng Th­", {2, 1, 30114, 1}, 7 * 24 * 3600},
+    {1, 10, "C©y B¸t Nh· nhá", {2, 0, 504, 1}, 7 * 24 * 3600},
+    {1, 5, "C©y B¸t Nh·", {2, 0, 398, 1}, 7 * 24 * 3600},
+    {1, 5, "Thiªn Hµ MËt tÞch", {0, 107, 64, 1}, 0},
+    {1, 5, "Tö Hµ MËt tÞch", {0, 107, 65, 1}, 0},
+    {1, 5, "Chiªm Y Phæ", {0, 107, 66, 1}, 0},
+    {1, 10, "Tu Ch©n YÕu QuyÕt", {2, 0, 554, 1}, 7 * 24 * 3600},
+    {1, 10, "TiÓu Nh©n s©m qu¶", {2, 0, 552, 1}, 7 * 24 * 3600},
+    {1, 5, "§ång TiÒn Vµng", {2, 1, 30094, 1}, 0},
+    {1, 10, "§é NguyÖt ThÇn Sa", {2, 1, 3332, 1}, 0},
+    {1, 100, "XÝch ThiÕt Tinh", {2, 1, 2652, 1}, 0},
+    {1, 35, "Th¸i DÞch Hçn Nguyªn C«ng §å", {2, 0, 1082, 1}, 0},
+    {4, 245, 10, 1},
+    {5, 160, 10, 1},
+};
+VET_201106SUMMERHOLIDAY_FTUITMILKJUICE20 = {
+    {1, 300, "Sæ tay sèng", {2, 19, 1, 1}, 7 * 24 * 3600},
+    {1, 300, "C¬ quan nh©n", {2, 1, 1011, 1}, 7 * 24 * 3600},
+    {1, 500, "V« NgÊn Thñy", {2, 1, 503, 1}, 7 * 24 * 3600},
+    {1, 500, "TÈy Tñy ®¬n", {2, 0, 136, 1}, 7 * 24 * 3600},
+    {1, 100, "TÈy Tñy linh ®¬n", {2, 0, 137, 1}, 7 * 24 * 3600},
+    {1, 1049, "§Êu hån", {2, 1, 1157, 1}, 7 * 24 * 3600},
+    {1, 1000, "R­¬ng BÝ KÝp", {2, 1, 30093, 1}, 7 * 24 * 3600},
+    {1, 1, "Qu©n C«ng Huy Hoµng", {2, 1, 9977, 1}, 7 * 24 * 3600},
+    {1, 50, "Qu©n C«ng §¹i", {2, 1, 9998, 1}, 7 * 24 * 3600},
+    {1, 400, "Qu©n C«ng Ch­¬ng", {2, 1, 9999, 1}, 7 * 24 * 3600},
+    {1, 400, "NguyÖt Hoa Chi Tinh", {2, 1, 3219, 1}, 0},
+    {8, 1800, 60, 1},
+    {15, 1800, 60, 1},
+    {12, 1800, 60, 1},
+};
+VET_201106SUMMERHOLIDAY_FINALPRIZE = {
+    {1, 1, "Thiªn Qu¸i Th¹ch", {2, 0, 1084, 1}, 0},
+    {1, 100, "ChiÕn ThÇn hoµn", {2, 1, 1005, 1}, 7 * 24 * 3600},
+    {1, 10, "Phi Yªn Th¹ch", {2, 1, 30130, 1}, 0},
+    {1, 50, "Tö Quang ThÇn Th¹ch", {2, 1, 30131, 1}, 0},
+    {1, 10, "Long Tö Bèi", {2, 1, 30155, 1}, 0},
+    {1, 10, "Phông Tö Bèi", {2, 1, 30156, 1}, 0},
+    {1, 10, "¦ng Tö Bèi", {2, 1, 30158, 1}, 0},
+    {1, 300, "Nh©n S©m V¹n N¨m", {2, 1, 30071, 2}, 0},
+    {1, 1, "§Þnh Hån Thiªn Th¹ch ThÇn Th¹ch", {2, 1, 1067, 1}, 7 * 24 * 3600},
+    {1, 10, "Thiªn Th¹ch Tinh Th¹ch", {2, 1, 1009, 1}, 0},
+    {1, 5, "Thiªn Th¹ch linh th¹ch", {2, 1, 1068, 1}, 7 * 24 * 3600},
+    {1, 1, "L¨ng Ba Vi Bé", {0, 112, 78, 1, 1, -1, -1, -1, -1, -1, -1}, 0},
+    {1, 50, "Hoµng Kim §¹i Hång Bao (trèng)", {2, 1, 538, 1}, 7 * 24 * 3600},
+    {1, 5, "Th¸i DÞch Hçn Nguyªn Phæ", {2, 0, 1083, 1}, 0},
+	{31, 422, format("SetTask(VET_200912_TASK_JUNGONG, GetTask(VET_200912_TASK_JUNGONG)+7000);Msg2Player('%s')","C¸c h¹ nhËn ®­îc 7000 ®iÓm qu©n c«ng")},
+	{31, 5, "vaf_GiveFyWeapon()", ""},
+	{31, 5, "vaf_GiveShimenCloth9()", ""},
+	{31, 5, "vaf_GiveShimenWeapon9()", ""},
+};
+
+tVNActivity201106 = gf_Inherit(CLASS_ACTIVITY)
+tinsert(TB_VN_ACTIVITY_MAIN,tVNActivity201106)
+Vet_Create_Activity_By_Ini(tVNActivity201106,"201106SummerHoliday")
+tVNActivity201106.tbPrizeItemInfo[1].tbNormalPrize.tbPrizeInfo = VET_201106SUMMERHOLIDAY_FTUITMILKJUICE
+tVNActivity201106.tbPrizeItemInfo[1].tbNormalPrize.nRandomBase = gf_VnGetPrizeRandomSeed(VET_201106SUMMERHOLIDAY_FTUITMILKJUICE)
+tVNActivity201106.tbPrizeItemInfo[1].nPrizeAdditionalTimes = 20
+tVNActivity201106.tbPrizeItemInfo[1].tbAdditionalPrize.tbPrizeInfo = VET_201106SUMMERHOLIDAY_FTUITMILKJUICE20
+tVNActivity201106.tbPrizeItemInfo[1].tbAdditionalPrize.nRandomBase = gf_VnGetPrizeRandomSeed(VET_201106SUMMERHOLIDAY_FTUITMILKJUICE20)
+tVNActivity201106.tbPrizeItemInfo[1].nItemUseTimesMax = 2000
+tVNActivity201106.tbPrizeItemInfo[1].tbFinalPrize.tbPrizeInfo = VET_201106SUMMERHOLIDAY_FINALPRIZE
+tVNActivity201106.tbPrizeItemInfo[1].tbFinalPrize.nRandomBase = gf_VnGetPrizeRandomSeed(VET_201106SUMMERHOLIDAY_FINALPRIZE)
+--the number of final prize:1st-experence num;2nd&3rd:pet
+tVNActivity201106.tbPrizeItemInfo[1].tbFinalPrize.sel = {20000000,20,1}
+--The final prize add here!
+function tVNActivity201106:OnGetFinalPrize(nPrizeDiff)
+	WriteLogEx(EVENT_LOG_TITLE, "nhËn phÇn th­ëng cuèi lo¹i "..nPrizeDiff)
+	if nPrizeDiff == 1 then
+		ModifyExp(self.tbPrizeItemInfo[1].tbFinalPrize.sel[1])
+	elseif nPrizeDiff == 2 then
+		gf_VnGiveActivityPetGrowAward(self.tbPrizeItemInfo[1].tbFinalPrize.sel[2])
+	else
+		gf_VnGiveActivityPetMpAward(self.tbPrizeItemInfo[1].tbFinalPrize.sel[3])
+	end
+end
+function tVNActivity201106:OnPlantBigTree()
+	gf_GivePlantBigTreeAward({2,1,30317,40},"Tr¸i c©y mïa hÌ ",self.sActivityName)
+end
+function tVNActivity201106:OnPlantSmallTree()
+	gf_GivePlantSmallTreeAward({2,1,30317,30},"Tr¸i c©y mïa hÌ ",self.sActivityName)
+end
+function tVNActivity201106:OnPersonnalWulishizhe()
+	gf_GiveDailyTaskPersonalAward({2,1,30317,30},"Tr¸i c©y mïa hÌ ",self.sActivityName)
+end
+function tVNActivity201106:OnTesamWulishizhe()
+	gf_GiveDailyTaskTeamAward({2,1,30317,30},"Tr¸i c©y mïa hÌ ",self.sActivityName)
+end
+function tVNActivity201106:OnOpenSeedBag()
+	gf_GiveSeedBagAward({2,1,30317,100},"Tr¸i c©y mïa hÌ ",self.sActivityName)
+end
+
+----------------------------------------------------------------------------
+function VET_201102_Operating_SinhTo()
+	AskClientForNumber("ConfirmSinhto", 1, 999, "Sinh tè tr¸i c©y ?")
+end
+
+function ConfirmSinhto(nCount)
+	if gf_Judge_Room_Weight(2, 100, "") ~= 1 then
+        return 0;
+    end
+   if GetItemCount(2,1,30317) < (5 * nCount ) or GetItemCount(2,1,30230) < (2 * nCount)  then
+        Talk(1, "", "B¹n kh«ng ®ñ ®iÒu kiÖn ®æi "..nCount.." Sinh tè tr¸i c©y");
+        return 0;
+   elseif  DelItem(2,1,30317, 5 * nCount)and DelItem(2,1,30230,  2 * nCount) == 1 then 
+        gf_AddItemEx2({2,1,30319, nCount}, "Sinh tè tr¸i c©y", EVENT_LOG_TITLE, "®æi vËt phÈm b»ng xu", 0, 1)
+    end
+    SelectSay()
+end

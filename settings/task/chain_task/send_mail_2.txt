@@ -1,0 +1,146 @@
+TaskID	NpcID	EventID	Attrib	TaskValue	TaskRate1	TaskRate2	TaskRate3	TaskRate4	TaskRate5	TaskRate6	TaskRate7	TaskRate8	TaskRate9	TaskRate10	TaskRate11	TaskRate12	TaskRate13	TaskRate14	TaskRate15	TaskRate16	TaskRate17	TaskRate18	TaskRate19	TaskRate20	TaskInfoA	TaskInfoB	TaskInfoC	TaskInfoD
+50010001	Thñ khè	1001	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Thñ khè			
+50010002	Xa phu	1002	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Xa phu			
+50010003	TriÖu Phæ	1003	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	TriÖu Phæ			
+50010004	Bé ®Çu	1004	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Bé ®Çu			
+50010005	VÖ binh thµnh m«n	1005	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	VÖ binh thµnh m«n			
+50010006	Tµo B©n	1006	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Tµo B©n			
+50010007	Binh Bé ThÞ Lang	1007	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Binh Bé ThÞ Lang			
+50010008	Binh Bé Thñ vÖ	1008	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Binh Bé Thñ vÖ			
+50010009	ThÞ VÖ T­íng phñ	1009	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	ThÞ VÖ T­íng phñ			
+50010010	CÊm qu©n	1010	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	CÊm qu©n			
+50010011	§¹i Néi Tæng Qu¶n	1011	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	§¹i Néi Tæng Qu¶n			
+50010012	D· TÈu	1012	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	D· TÈu			
+50010013	Chñ TiÖm vò khÝ	1013	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ TiÖm vò khÝ			
+50010014	Chñ D­îc ®iÕm	1014	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ D­îc ®iÕm			
+50010015	Chñ T¹p hãa	1015	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ T¹p hãa			
+50010016	Chñ TiÖm Nam phôc	1016	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ TiÖm Nam phôc
+50010017	Chñ TiÖm N÷ phôc	1017	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ TiÖm N÷ phôc
+50010018	Chñ töu lÇu	1018	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ töu lÇu
+50010019	TiÓu nhÞ	1019	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	TiÓu nhÞ
+50010020	Nh©n sÜ giang hå	1020	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Nh©n sÜ giang hå
+50010021	Tµo §¹i Lùc	1021	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Tµo §¹i Lùc
+50010022	Vâ s­	1022	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Vâ s­
+50010023	Chñ tiÒn trang	1023	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ tiÒn trang
+50010024	Chñ Kim hoµn	1024	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ Kim hoµn
+50010025	Sø gi¶ m«n ph¸i	1025	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Sø gi¶ m«n ph¸i
+50010026	Hµng xãm Hµn TrÝ Nh­îng	1026	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Hµng xãm Hµn TrÝ Nh­îng
+50010027	Tiªu s­	1027	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Tiªu s­
+50010028	Vò N­¬ng	1028	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Vò N­¬ng
+50010029	ThÇy bãi	1029	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	ThÇy bãi
+50010030	Quan viªn tho¸i nhiÖm	1030	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Quan viªn tho¸i nhiÖm
+50010031	Chñ th­¬ng héi	1031	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ th­¬ng héi
+50010032	Hµnh C­íc Th­¬ng Nh©n	1032	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Hµnh C­íc Th­¬ng Nh©n
+50010033	B¸ch HiÓu Sinh	1033	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	B¸ch HiÓu Sinh
+50010034	Ngù Trï	1034	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ngù Trï
+50010035	Chñ Kim hoµn	1035	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ Kim hoµn
+50010036	V©n Du §¹o Nh©n	1036	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	V©n Du §¹o Nh©n
+50010037	Xa Th¸i Qu©n	1037	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Xa Th¸i Qu©n
+50010038	B¸n ngùa	1038	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	B¸n ngùa
+50010039	KhÊu ChuÈn	1039	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	KhÊu ChuÈn
+50010040	Thñ khè	1040	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Thñ khè
+50010041	Xa phu	1041	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Xa phu
+50010042	D· TÈu	1042	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	D· TÈu
+50010043	A ThÞnh	1043	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	A ThÞnh
+50010044	Sø gi¶ m«n ph¸i	1044	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Sø gi¶ m«n ph¸i
+50010045	N¹n d©n_Gi¸p	1045	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N¹n d©n_Gi¸p
+50010046	N¹n d©n Êt	1046	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N¹n d©n Êt
+50010047	N¹n d©n_BÝnh	1047	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N¹n d©n_BÝnh
+50010048	N¹n d©n_§inh	1048	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N¹n d©n_§inh
+50010049	Chñ TiÖm Nam phôc	1049	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ TiÖm Nam phôc
+50010050	Chñ TiÖm N÷ phôc	1050	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ TiÖm N÷ phôc
+50010051	VÖ binh thµnh m«n	1051	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	VÖ binh thµnh m«n
+50010052	Th¸i thó	1052	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Th¸i thó
+50010053	Bé ®Çu	1053	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Bé ®Çu
+50010054	Vâ s­	1054	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Vâ s­
+50010055	Chñ D­îc ®iÕm	1055	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ D­îc ®iÕm
+50010056	Du Ph­¬ng ®¹i phu	1056	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Du Ph­¬ng ®¹i phu
+50010057	CÈm n­¬ng	1057	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	CÈm n­¬ng
+50010058	M¹c NhÞ	1058	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	M¹c NhÞ
+50010059	Chñ TiÖm vò khÝ	1059	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ TiÖm vò khÝ
+50010060	Chu ThiÖn Nh©n	1060	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chu ThiÖn Nh©n
+50010061	Chñ th­¬ng héi	1061	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ th­¬ng héi
+50010062	N¹n d©n	1062	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N¹n d©n
+50010063	Quan viªn tho¸i nhiÖm	1063	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Quan viªn tho¸i nhiÖm
+50010064	ThÇy bãi	1064	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	ThÇy bãi
+50010065	Vò N­¬ng	1065	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Vò N­¬ng
+50010066	Chñ T¹p hãa	1066	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ T¹p hãa
+50010067	Tiªu s­	1067	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Tiªu s­
+50010068	Chñ töu lÇu	1068	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ töu lÇu
+50010069	V­¬ng CÈn	1069	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	V­¬ng CÈn
+50010070	Nha dÞch	1070	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Nha dÞch
+50010071	Nha dÞch	1071	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Nha dÞch
+50010072	Chñ l«i ®µi	1072	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ l«i ®µi
+50010073	Chñ tiÒn trang	1073	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ tiÒn trang
+50010074	Hµnh C­íc Th­¬ng Nh©n	1074	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Hµnh C­íc Th­¬ng Nh©n
+50010075	Chñ Kim hoµn	1075	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ Kim hoµn
+50010076	B¸ch HiÓu Sinh	1076	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	B¸ch HiÓu Sinh
+50010077	Xa phu	1077	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Xa phu
+50010078	Thñ khè	1078	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Thñ khè
+50010079	Chñ TiÖm vò khÝ	1079	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ TiÖm vò khÝ
+50010080	Chñ D­îc ®iÕm	1080	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ D­îc ®iÕm
+50010081	Chñ T¹p hãa	1081	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ T¹p hãa
+50010082	Chñ TiÖm Nam phôc	1082	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ TiÖm Nam phôc
+50010083	Chñ TiÖm N÷ phôc	1083	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ TiÖm N÷ phôc
+50010084	Chñ Kim hoµn	1084	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ Kim hoµn
+50010085	T­ M· TÊn Nguyªn	1085	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	T­ M· TÊn Nguyªn
+50010086	Th¸i thó	1086	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Th¸i thó
+50010087	Hµn NghÜa	1087	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Hµn NghÜa
+50010088	Cæ L·o Ta	1088	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Cæ L·o Ta
+50010089	Cæ MÆc	1089	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Cæ MÆc
+50010090	Ph­¬ng Khanh	1090	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Ph­¬ng Khanh
+50010091	Chñ l«i ®µi	1091	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Chñ l«i ®µi
+50010092	Vu DÇn	1092	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Vu DÇn
+50010093	Tr­¬ng ¶nh	1093	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Tr­¬ng ¶nh
+50010094	M¹c H÷u Vi	1094	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	M¹c H÷u Vi
+50010095	Hµnh C­íc Th­¬ng Nh©n	1095	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Hµnh C­íc Th­¬ng Nh©n
+50010096	M¹c Tam	1096	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	M¹c Tam			
+50010097	Tiªu s­	1097	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Tiªu s­			
+50010098	HuyÒn Tõ	1098	2	5	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	HuyÒn Tõ	H·y ®Õn <color=yellow>ThiÕu L©m<color> gÆp <color=yellow>HuyÒn Tõ<color> nãi ®· s¾p xÕp xong viÖc giao l­u 2 ph¸i.	Tö H¹c Ch©n Nh©n nãi ®· s¾p xÕp xong viÖc giao l­u 2 ph¸i.	§a t¹ ®· chuyÓn lêi!
+50010099	HuyÒn Minh	1099	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	HuyÒn Minh	H·y ®Õn <color=yellow>ThiÕu L©m<color> gÆp <color=yellow>HuyÒn Minh<color> nãi ®èi víi ®Ö tö kh«ng cÇn qu¸ hµ kh¾c.	Tö H¹c Ch©n Nh©n nãi ®èi víi ®Ö tö kh«ng cÇn qu¸ hµ kh¾c.	§a t¹ ®· chuyÓn lêi!
+50010100	HuyÒn Hèi	1100	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	HuyÒn Hèi	H·y ®Õn <color=yellow>ThiÕu L©m<color> gÆp <color=yellow>HuyÒn Hèi<color> nãi qua vµi b÷a sÏ thØnh gi¸o vâ nghÖ.	Tö H¹c Ch©n Nh©n nãi qua vµi b÷a sÏ thØnh gi¸o vâ nghÖ.	§a t¹ ®· chuyÓn lêi!
+50010101	HuyÒn Bi	1101	2	5	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	HuyÒn Bi	H·y ®Õn <color=yellow>ThiÕu L©m<color> gÆp <color=yellow>HuyÒn Bi<color> nãi cã r¶nh lªn Vâ §ang ®¸nh cê.	Tö H¹c Ch©n Nh©n nãi cã r¶nh lªn Vâ §ang ®¸nh cê.	§a t¹ ®· chuyÓn lêi!
+50010102	HuyÒn Khæ	1102	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	HuyÒn Khæ	H·y ®Õn <color=yellow>ThiÕu L©m<color> gÆp <color=yellow>HuyÒn Khæ<color> nãi cã r¶nh h·y ®Õn Vâ §ang th¶o luËn th­ tÞch cña tiªn nh©n.	Tö H¹c Ch©n Nh©n nãi cã r¶nh h·y ®Õn Vâ §ang th¶o luËn th­ tÞch cña tiªn nh©n.	§a t¹ ®· chuyÓn lêi!
+50010103	TÞnh Viªn	1103	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	TÞnh Viªn	H·y ®Õn <color=yellow>ThiÕu L©m<color> gÆp <color=yellow>TÞnh Viªn<color> nãi viÖc ®µm luËn víi quý tù ®· chuÈn bÞ xong.	Tö H¹c Ch©n Nh©n nãi viÖc ®µm luËn víi quý tù ®· chuÈn bÞ xong.	§a t¹ ®· chuyÓn lêi!
+50010104	TÞnh Th«ng	1104	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	TÞnh Th«ng	H·y ®Õn <color=yellow>ThiÕu L©m<color> gÆp <color=yellow>TÞnh Th«ng<color> nãi viÖc trao ®æi vâ nghÖ hai ph¸i.	Tö H¹c Ch©n Nh©n nãi viÖc trao ®æi vâ nghÖ hai ph¸i.	§a t¹ ®· chuyÓn lêi!
+50010105	V« Danh T¨ng	1105	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	V« Danh T¨ng	H·y ®Õn <color=yellow>ThiÕu L©m<color> gÆp <color=yellow>V« Danh T¨ng<color> chuyÓn lêi hái th¨m cña Tö D­¬ng	Tö H¹c Ch©n Nh©n nhê ta chuyÓn lêi hái th¨m cña Tö D­¬ng.	§a t¹ ®· chuyÓn lêi!
+50010106	C­u Ma La	1106	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	C­u Ma La	H·y ®Õn <color=yellow>ThiÕu L©m<color> gÆp <color=yellow>C­u Ma La<color> nãi kh«ng nªn lµm nh÷ng viÖc tr¸i kho¸y.	Tö H¹c Ch©n Nh©n nãi kh«ng nªn lµm nh÷ng viÖc tr¸i kho¸y.	§a t¹ ®· chuyÓn lêi!
+50010107	Tæ V¨n §¹t	1107	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	Tæ V¨n §¹t	H·y ®Õn <color=yellow>ThiÕu L©m<color> gÆp <color=yellow>Tæ V¨n §¹t<color> nãi h·y khuyªn HuyÒn Bi, giíi luËt kh«ng thÓ ph¹m.	Tö H¹c Ch©n Nh©n nãi h·y khuyªn HuyÒn Bi, giíi luËt kh«ng thÓ ph¹m.	§a t¹ ®· chuyÓn lêi!
+50010108	Háa C«ng §Çu	1108	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	Háa C«ng §Çu	H·y ®Õn <color=yellow>ThiÕu L©m<color> gÆp <color=yellow>Háa C«ng §Çu<color> nãi gióp ng­êi tÈy trÇn chí quªn tÞnh t©m chÝnh m×nh.	Tö H¹c Ch©n Nh©n nãi nãi gióp ng­êi tÈy trÇn chí quªn tÞnh t©m chinh m×nh.	§a t¹ ®· chuyÓn lêi!
+50010109	HuyÒn DiÖt T«n Gi¶	1109	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	HuyÒn DiÖt T«n Gi¶	H·y ®Õn <color=yellow>ThiÕu L©m<color> gÆp <color=yellow>HuyÒn DiÖt T«n Gi¶<color> nãi dïng vò lùc kh«ng ph¶i lµ biÖn ph¸p tèt..	Tö H¹c Ch©n Nh©n nhê ta nãi dïng vò lùc kh«ng ph¶i lµ biÖn ph¸p tèt..	§a t¹ ®· chuyÓn lêi!
+50010110	H­¬ng kh¸ch	1110	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	H­¬ng kh¸ch	H·y ®Õn <color=yellow>ThiÕu L©m<color> gÆp <color=yellow>H­¬ng Kh¸ch<color> nãi cã r¶nh ®i xem c¶nh ®Ñp Vâ §ang.	Tö H¹c Ch©n Nh©n nãi cã r¶nh ®i xem c¶nh ®Ñp Vâ §ang.	§a t¹ ®· chuyÓn lêi!
+50010111	Tö H¹c ch©n nh©n	1111	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Tö H¹c ch©n nh©n	H·y ®Õn gÆp <color=yellow>Tö H¹c Ch©n Nh©n<color> nãi b¹n lµ 1 ng­êi ®iªn.	Tö H¹c Ch©n Nh©n nhê t¹i h¹ chuyÓn lêi, «ng Êy nãi:¤ng bÞ bÖnh t©m thÇn.	§a t¹ ®· chuyÓn lêi!
+50010112	Du ChÊn Sinh	1112	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	Du ChÊn Sinh	H·y ®Õn gÆp <color=yellow>Du ChÊn Sinh<color> nãi h·y chØ b¶o ®Ö tö nhiÒu h¬n.	Tö H¹c Ch©n Nh©n nhê ta chuyÓn lêi nªn chØ b¶o ®Ö tö nhiÒu h¬n.	§a t¹ ®· chuyÓn lêi!
+50010113	§¹i KiÕm Ch©u	1113	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	§¹i KiÕm Ch©u	H·y ®Õn gÆp <color=yellow>§¹i KiÕm Ch©u<color> nãi d¹y ®Ö tö kh«ng nªn manh ®éng.	Tö H¹c Ch©n Nh©n nãi d¹y ®Ö tö kh«ng nªn manh ®éng.	§a t¹ ®· chuyÓn lêi!
+50010114	Tr­¬ng Ngä D­¬ng	1114	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	Tr­¬ng Ngä D­¬ng	H·y ®Õn gÆp <color=yellow>Tr­¬ng Ngä D­¬ng<color> nãi HuyÒn Tõ ph­¬ng tr­îng v× cã viÖc hÑn vµi ngµy sau ®¸nh cê tiÕp.	Tö H¹c Ch©n Nh©n nãi HuyÒn Tõ ph­¬ng tr­îng v× cã viÖc hÑn vµi ngµy sau ®¸nh cê tiÕp.	§a t¹ ®· chuyÓn lêi!
+50010115	M¹c Thu Phong	1115	2	5	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	M¹c Thu Phong	H·y ®Õn nhê <color=yellow>M¹c Thu Phong<color> hái xem viÖc tû vâ víi ThiÕu L©m khi nµo tiÕn hµnh.	Tö H¹c Ch©n Nh©n nhê ®¹i hiÖp hái xem viÖc tû vâ víi ThiÕu L©m khi nµo tiÕn hµnh.	§a t¹ ®· chuyÓn lêi!
+50010116	§¹i CÈm Nguyªn	1116	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	§¹i CÈm Nguyªn	H·y ®Õn nhê <color=yellow>§¹i CÈm Nguyªn<color> ®Õn Nga My ph¸i tra xem viÖc Phong §« nh­ thÕ nµo?	Tö H¹c Ch©n Nh©n nhê ®¹i hiÖp ®Õn Nga My ph¸i tra xem viÖc Phong §« nh­ thÕ nµo?	§a t¹ ®· chuyÓn lêi!
+50010117	Yªn Nh­	1117	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	Yªn Nh­	H·y ®Õn nhê <color=yellow>Yªn Nh­<color> chuÈn bÞ trau dåi vâ nghÖ víi ®Ö tö ThiÕu L©m.	Tö H¹c Ch©n Nh©n nhê n÷ hiÖp chuÈn bÞ trau dåi vâ nghÖ víi ®Ö tö ThiÕu L©m.	§a t¹ ®· chuyÓn lêi!
+50010118	Thanh Phong	1118	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Thanh Phong	H·y ®Õn gÆp <color=yellow>Thanh Phong<color> nãi nªn Ýt giao du víi ®Ö tö §­êng M«n.	Tö H¹c Ch©n Nh©n nãi nªn Ýt giao du víi ®Ö tö §­êng M«n.	<color=green>Thanh Phong<color>: §a t¹ ®· chuyÓn lêi!
+50010119	Minh NguyÖt	1119	2	5	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	Minh NguyÖt	H·y ®Õn gÆp <color=yellow>Minh NguyÖt<color> nãi chuÈn bÞ ®ãn tiÕp ®Ö tö ThiÕu L©m.	Tö H¹c Ch©n Nh©n nãi chuÈn bÞ ®ãn tiÕp ®Ö tö ThiÕu L©m.	§a t¹ ®· chuyÓn lêi!
+50010120	T¹p Nguyªn ch©n nh©n	1120	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	T¹p Nguyªn ch©n nh©n	H·y ®Õn gÆp <color=yellow>TËp Nguyªn Ch©n Nh©n<color> nãi nhiÔu lo¹n tam giíi lµ ®iÒu kh«ng nªn.	Tö H¹c Ch©n Nh©n nãi nhiÔu lo¹n tam giíi lµ ®iÒu kh«ng nªn.	§a t¹ ®· chuyÓn lêi!
+50010121	Ch©n Nh­ s­ th¸i	1121	2	5	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	Ch©n Nh­ s­ th¸i	H·y ®Õn <color=yellow>Nga My<color> gÆp <color=yellow>Ch©n Nh­ S­ Th¸i<color> nãi viÖc gi¶ng kinh ph¶i chËm vµi ngµy, xin l­îng thø.	Tö H¹c Ch©n Nh©n nãi viÖc gi¶ng kinh ph¶i chËm vµi ngµy, xin l­îng thø.	§a t¹ ®· chuyÓn lêi!
+50010122	HuÖ ¢m s­ th¸i	1122	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	HuÖ ¢m s­ th¸i	H·y ®Õn <color=yellow>Nga My<color> gÆp <color=yellow>HuÖ ¢m S­ Th¸i<color> nãi gi¶ng kinh lÇn sau sÏ mang nh¹c phæ.	Tö H¹c Ch©n Nh©n nãi gi¶ng kinh lÇn sau sÏ mang nh¹c phæ.	§a t¹ ®· chuyÓn lêi!
+50010123	TuÖ T©m s­ th¸i	1123	2	5	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	TuÖ T©m s­ th¸i	H·y ®Õn <color=yellow>Nga My<color> gÆp <color=yellow>TuÖ T©m S­ Th¸i<color> nãi khi gi¶ng kinh lÇn sau giao l­u 1 chót vÒ phËt häc th­ tÞch.	Tö H¹c Ch©n Nh©n nhê ta nãi víi s­ th¸i khi gi¶ng kinh lÇn sau giao l­u 1 chót vÒ phËt häc th­ tÞch.	§a t¹ ®· chuyÓn lêi!
+50010124	TÇn Phông Dao	1124	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	TÇn Phông Dao	H·y ®Õn <color=yellow>Nga My<color> gÆp <color=yellow>TÇn Phông Dao<color> nãi ph¶i chó chó ý Phong Ma ®éng.	Tö H¹c Ch©n Nh©n nãi ph¶i chó ý Phong Ma ®éng.	§a t¹ ®· chuyÓn lêi!
+50010125	DiÖp Tö Hinh	1125	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	DiÖp Tö Hinh	H·y ®Õn <color=yellow>Nga My<color> gÆp <color=yellow>DiÖp Tö Hinh<color> nãi h·y gióp ®ì d©n nghÌo Thµnh §«.	Tö H¹c Ch©n Nh©n mong s­ th¸i gióp ®ì d©n nghÌo Thµnh §«.	§a t¹ ®· chuyÓn lêi!
+50010126	L©m UyÓn Y	1126	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	L©m UyÓn Y	H·y ®Õn <color=yellow>Nga My<color> gÆp <color=yellow>L©m UyÓn Y<color> nãi h·y gióp ®ì d©n nghÌo Thµnh §«.	Tö H¹c Ch©n Nh©n nãi h·y gióp ®ì d©n nghÌo Thµnh §«.	§a t¹ ®· chuyÓn lêi!
+50010127	Nghi Thanh	1127	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	Nghi Thanh	H·y ®Õn <color=yellow>Nga My<color> gÆp <color=yellow>Nghi Thanh<color> nãi h·y khuyªn ®Ö tö §­êng M«n phß trî nhµ Tèng.	Tö H¹c Ch©n Nh©n nãi h·y khuyªn ®Ö tö §­êng M«n phß trî nhµ Tèng.	§a t¹ ®· chuyÓn lêi!
+50010128	Nghi Hßa	1128	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	Nghi Hßa	H·y ®Õn <color=yellow>Nga My<color> gÆp <color=yellow>Nghi Hßa<color> nãi h·y th«ng b¸o cho ®Ö tö Nga My cÈn thËn kÎ ®Þch Èn n¸u ë Thanh Thµnh S¬n.	Tö H¹c Ch©n Nh©n nãi h·y th«ng b¸o cho ®Ö tö Nga My cÈn thËn kÎ ®Þch Èn n¸u ë Thanh Thµnh S¬n.	§a t¹ ®· chuyÓn lêi!
+50010129	D­¬ng NguyÖt s­ th¸i	1129	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	D­¬ng NguyÖt s­ th¸i	H·y ®Õn <color=yellow>Nga My<color> gÆp <color=yellow>D­¬ng NguyÖt S­ Th¸i<color> nãi ®èi phã yªu ma kh«ng cÇn dïng vò lùc.	Tö H¹c Ch©n Nh©n nãi ®èi phã yªu ma kh«ng cÇn dïng vò lùc.	§a t¹ ®· chuyÓn lêi!
+50010130	Long T¹i Thiªn	1130	2	5	500	500	500	500	500	500	500	500	500	500	500	500	500	500	500	500	500	500	500	500	Long T¹i Thiªn	H·y ®Õn <color=yellow>C¸i Bang<color> gÆp <color=yellow>Long T¹i Thiªn<color> nãi lÊy thêi cuéc lµm träng kh«ng nªn lªn L­¬ng S¬n B¹c.	Tö H¹c Ch©n Nh©n nãi nªn lÊy thêi cuéc lµm träng kh«ng nªn lªn L­¬ng S¬n B¹c.	§a t¹ ®· chuyÓn lêi!
+50010131	Bµng L· Väng	1131	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Bµng L· Väng	H·y ®Õn <color=yellow>C¸i Bang<color> gÆp <color=yellow>Bµng L· Väng<color> nãi nÕu tõ bá viÖc chi viÖn cho L­¬ng S¬n B¹c, sÏ ph¸i ®Ö tö Vâ §ang ®i gi¶ng vâ kinh cho ®Ö tö C¸i Bang.	Tö H¹c Ch©n Nh©n nãi nÕu tõ bá viÖc chi viÖn cho L­¬ng S¬n B¹c, sÏ ph¸i ®Ö tö ThiÕu L©m ®i gi¶ng vâ kinh cho ®Ö tö C¸i Bang.	§a t¹ ®· chuyÓn lêi!
+50010132	TrÇn Chung H¹c	1132	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	TrÇn Chung H¹c	H·y ®Õn <color=yellow>C¸i Bang<color> gÆp <color=yellow>TrÇn Chung H¹c<color> nãi m©u thuÉn gi÷a s­ huynh ®Ö lµ ®iÒu khã tr¸nh, mong tr­ëng l·o xö lý nhÑ tay.	Tö H¹c Ch©n Nh©n nãi m©u thuÉn gi÷a s­ huynh ®Ö lµ ®iÒu khã tr¸nh, mong tr­ëng l·o xö lý nhÑ tay.	§a t¹ ®· chuyÓn lêi!
+50010133	Tèng Nguyªn An	1133	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	Tèng Nguyªn An	H·y ®Õn <color=yellow>C¸i Bang<color> nhê <color=yellow>Tèng Nguyªn An<color> ®iÒu tra xem trong lôc ®¹i ®Ö tö cã ai lµ L©m §µo kh«ng?	Tö H¹c Ch©n Nh©n nhê ®¹i hiÖp ®iÒu tra xem trong lôc ®¹i ®Ö tö cã ai lµ L©m §µo kh«ng?	§a t¹ ®· chuyÓn lêi!
+50010134	M· TÞnh Sinh	1134	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	M· TÞnh Sinh	H·y ®Õn <color=yellow>C¸i Bang<color> gÆp <color=yellow>M· TÞnh Sinh<color> nãi cã r¶nh ®Õn Vâ §ang trao ®æi vâ c«ng.	Tö H¹c Ch©n Nh©n nãi cã r¶nh ®Õn Vâ §ang trao ®æi vâ c«ng.	§a t¹ ®· chuyÓn lêi!
+50010135	§¬n §iÒn NghÜa	1135	2	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	§¬n §iÒn NghÜa	H·y ®Õn <color=yellow>C¸i Bang<color> nhê <color=yellow>§¬n §iÒn NghÜa<color> ®iÒu tra trong C¸i Bang ai nãi xÊu Vâ §ang.	Tö H¹c Ch©n Nh©n nhê ®¹i hiÖp ®iÒu tra trong C¸i Bang ai nãi xÊu Vâ §ang.	§a t¹ ®· chuyÓn lêi!
+50010136	V­u Tri VÞ	1136	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	V­u Tri VÞ	H·y ®Õn <color=yellow>C¸i Bang<color> nhê <color=yellow>V­u Tri VÞ<color> ®iÒu tra tin tøc vÒ mËt tÞch Vâ §ang.	Tö H¹c Ch©n Nh©n nhê ®¹i hiÖp ®iÒu tra tin tøc vÒ mËt tÞch Vâ §ang.	§a t¹ ®· chuyÓn lêi!
+50010137	Hång ThÊt	1137	2	5	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	400	Hång ThÊt	H·y ®Õn <color=yellow>C¸i Bang<color> nãi víi <color=yellow>Hång ThÊt<color> HuyÒn Tõ ph­¬ng tr­îng muèn nhËn Hång ThÊt lµm ®Ö tö.	Tö H¹c Ch©n Nh©n muèn thu nhËn ng­¬i lµm ®Ö tö.	§a t¹ ®· chuyÓn lêi!
+50010138	§­êng M«n L·o L·o	1138	2	5	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	300	§­êng M«n L·o L·o	H·y ®Õn <color=yellow>§­êng M«n<color> gÆp <color=yellow>§­êng M«n L·o L·o<color> nãi nªn liªn thñ víi Vâ §ang tiªu diÖt thÕ lùc ¸c «n ë T­¬ng D­¬ng vµ Thµnh §«.	Tö H¹c Ch©n Nh©n nãi nªn liªn thñ víi Vâ §ang tiªu diÖt thÕ lùc ¸c «n ë T­¬ng D­¬ng vµ Thµnh §«.	§a t¹ ®· chuyÓn lêi!
+50010139	§­êng Thiªn TiÕu	1139	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	§­êng Thiªn TiÕu	H·y ®Õn <color=yellow>§­êng M«n<color> nhê <color=yellow>§­êng Thiªn TiÕu<color> thuyÕt phôc L·o L·o phß trî §¹i Tèng.	Tö H¹c Ch©n Nh©n nhê ®¹i hiÖp thuyÕt phôc L·o L·o phß trî §¹i Tèng.	§a t¹ ®· chuyÓn lêi!
+50010140	§­êng Thiªn H¶i	1140	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	§­êng Thiªn H¶i	H·y ®Õn <color=yellow>§­êng M«n<color> gÆp <color=yellow>§­êng Thiªn H¶i<color> nãi tù t¹o nghiÖp ch­íng khã tr¸nh ®¹i kiÕp.	Tö H¹c Ch©n Nh©n nãi tù t¹o nghiÖp ch­íng khã tr¸nh ®¹i kiÕp.	§a t¹ ®· chuyÓn lêi!
+50010141	§­êng Kþ	1141	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	§­êng Kþ	H·y ®Õn <color=yellow>§­êng M«n<color> gÆp <color=yellow>§­êng Kþ<color> nãi viÖc quan träng nªn ph¶i gi¸m ®Þnh ¸m khÝ thËt kü.	Tö H¹c Ch©n Nh©n nãi viÖc quan träng nªn ph¶i gi¸m ®Þnh ¸m khÝ thËt kü.	§a t¹ ®· chuyÓn lêi!
+50010142	§­êng Ng¹o	1142	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	§­êng Ng¹o	H·y ®Õn <color=yellow>§­êng M«n<color> gÆp <color=yellow>§­êng Ng¹o<color> nãi muèn thØnh gi¸o kü thuËt chÕ t¹o háa d­îc.	Tö H¹c Ch©n Nh©n nhê ta nãi xin thØnh gi¸o kü thuËt chÕ t¹o háa d­îc.	§a t¹ ®· chuyÓn lêi!
+50010143	§­êng Xu©n	1143	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	§­êng Xu©n	H·y ®Õn <color=yellow>§­êng M«n<color> nhê <color=yellow>§­êng Xu©n<color> trÞ ®éc cho ®Ö tö Vâ §ang.	Tö H¹c Ch©n Nh©n nhê ®¹i hiÖp trÞ ®éc cho ®Ö tö Vâ §ang.	§a t¹ ®· chuyÓn lêi!
+50010144	§­êng V©n	1144	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	§­êng V©n	H·y ®Õn <color=yellow>§­êng M«n<color> nhê <color=yellow>§­êng V©n<color> gi¸m ®Þnh bÉy mµ ®Ö tö Vâ §ang tróng ph¶i.	Tö H¹c Ch©n Nh©n nhê ®¹i hiÖp gi¸m ®Þnh bÉy mµ ®Ö tö Vâ §ang tróng ph¶i.	§a t¹ ®· chuyÓn lêi!
+50010145	§­êng UyÓn Nhi	1145	2	5	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	200	§­êng UyÓn Nhi	H·y ®Õn <color=yellow>§­êng M«n<color> gÆp <color=yellow>§­êng UyÓn Nhi<color> nãi duyªn sè lµ do trêi ®Þnh, kh«ng nªn gi÷ m·i trong lßng.	Tö H¹c Ch©n Nh©n nãi duyªn sè lµ do trêi ®Þnh, kh«ng nªn gi÷ m·i trong lßng.	§a t¹ ®· chuyÓn lêi!

@@ -1,0 +1,3 @@
+Type	Record	RecordParam	CallbackFile	CallbackFunc	MaxRankCount	UpdateInterval	IsGlobalRank
+0	XVX_RANK_LOCAL	0;0	\script\global\xvx_callback.lua	OnArrive_LocalRank	30	120	0
+1	XVX_RANK_GLOBAL	0;0	\script\global\xvx_callback.lua	OnArrive_GlobalRank	100	300	1

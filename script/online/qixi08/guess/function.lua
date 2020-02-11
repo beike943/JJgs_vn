@@ -1,0 +1,1 @@
+Include("\\script\\online\\qixi08\\guess\\head.lua");

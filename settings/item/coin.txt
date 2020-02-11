@@ -1,0 +1,2 @@
+Gene	Sub	Detail
+2	1	198

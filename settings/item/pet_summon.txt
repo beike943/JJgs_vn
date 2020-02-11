@@ -1,0 +1,30 @@
+Particular	defaultTemplate	Level_1	Ability_1	Template_1	Level_2	Ability_2	Template_2	Level_3	Ability_3	Template_3	Level_4	Ability_4	Template_4
+1	§iªu mµu th¾ng	30	25	ThiÓm §iÖn §iªu-Tr¾ng	90	60	Tiªn §iªu-Tr¾ng						
+2	V«i §iªu	30	25	ThiÓm §iÖn §iªu-X¸m	90	60	Tiªn §iªu-X¸m						
+3	Kim §iªu	30	25	ThiÓm §iÖn §iªu-Vµng	90	60	Tiªn §iªu-Vµng						
+4	Tö §iªu	30	25	ThiÓm §iÖn §iªu-Tİm	90	60	Tiªn §iªu-Tİm						
+5	Hång §iªu	30	25	ThiÓm §iÖn §iªu-§á	90	60	Tiªn §iªu-§á						
+6	§iªu 7 Mµu	30	25	ThiÓm §iÖn §iªu 7 Mµu	90	60	Tiªn §iªu 7 Mµu						
+7	§o¹n VÜ §iªu-Tr¾ng	30	25	ThiÓm §iÖn §iªu-Tr¾ng	90	60	Tiªn §iªu-Tr¾ng						
+8	§o¹n VÜ §iªu-X¸m	30	25	ThiÓm §iÖn §iªu-X¸m	90	60	Tiªn §iªu-X¸m						
+9	§o¹n VÜ §iªu-Vµng	30	25	ThiÓm §iÖn §iªu-Vµng	90	60	Tiªn §iªu-Vµng						
+10	§o¹n VÜ §iªu-Tİm	30	25	ThiÓm §iÖn §iªu-Tİm	90	60	Tiªn §iªu-Tİm						
+11	§o¹n VÜ §iªu-§á	30	25	ThiÓm §iÖn §iªu-§á	90	60	Tiªn §iªu-§á						
+12	§o¹n VÜ §iªu 7 Mµu	30	25	ThiÓm §iÖn §iªu 7 Mµu	90	60	Tiªn §iªu 7 Mµu						
+13	ThiÓm §iÖn §iªu-Tr¾ng	90	60	Tiªn §iªu-Tr¾ng									
+14	ThiÓm §iÖn §iªu-X¸m	90	60	Tiªn §iªu-X¸m									
+15	ThiÓm §iÖn §iªu-Vµng	90	60	Tiªn §iªu-Vµng									
+16	ThiÓm §iÖn §iªu-Tİm	90	60	Tiªn §iªu-Tİm									
+17	ThiÓm §iÖn §iªu-§á	90	60	Tiªn §iªu-§á									
+18	ThiÓm §iÖn §iªu 7 Mµu	90	60	Tiªn §iªu 7 Mµu									
+19	Tiªn §iªu-Tr¾ng												
+20	Tiªn §iªu-X¸m												
+21	Tiªn §iªu-Vµng												
+22	Tiªn §iªu-Tİm												
+23	Tiªn §iªu-§á												
+24	Tiªn §iªu 7 Mµu												
+100	Linh KiÕm 1	40		Linh KiÕm 2	60		Linh KiÕm 3	80		Linh KiÕm 4			
+101	Linh KiÕm 2	60		Linh KiÕm 3	80		Linh KiÕm 4						
+102	Linh KiÕm 3	80		Linh KiÕm 4									
+103	Linh KiÕm 4												
+104	Linh KiÕm 5												

@@ -1,0 +1,178 @@
+Genre	Detail	Particular	Text
+Lo¹i lín	Lo¹i phô	Lo¹i nhá	Tªn vËt phÈm
+0	0	8	BÝch Xµ thñ
+0	0	9	Kh¸ng Long thñ
+0	0	10	T­êng Ph­îng
+0	0	11	Né Long
+0	0	12	Ngò Ph­¬ng Quû Chóng
+0	0	13	Nª Lª ®Þa ngôc
+0	2	21	TÝch D­¬ng
+0	2	22	HuyÒn §iÖn
+0	2	23	Thanh S­¬ng
+0	2	24	Dao Quang
+0	2	25	BÝch HuyÕt
+0	2	26	HuyÒn thiÕt Träng KiÕm
+0	5	34	TiÒm Long c«n
+0	5	35	Tö Kim L­¬ng
+0	5	36	§¶ CÈu bæng
+0	5	37	KhÈn Na La Bæng
+0	5	38	Thiªn Xµ c«n
+0	5	39	Thanh Long c«n
+0	1	47	Ngäc Phong ch©m
+0	1	48	Tô Lý Cµn Kh«n
+0	1	49	Hµm Sa X¹ ¶nh
+0	1	50	ThÊt Tinh ThÊu Cèt Ch©m
+0	1	51	ThÊt S¸t Thiªn La
+0	1	52	Thiªn ngo¹i phi tiªn
+0	3	58	Ph¸ S¬n ®ao
+0	3	59	Nh©n §å ®ao
+0	3	60	Long L©n
+0	3	61	B¸ch TÞch
+0	3	62	Thiªn S¸t
+0	3	63	B¸ V­¬ng
+0	10	69	HuyÒn Nhai Phi Béc
+0	10	70	H¶i NguyÖt Thanh Huy
+0	10	71	Cöu Tiªu Ngäc Béi
+0	10	72	HiÖu Chung
+0	10	73	Lôc Khëi
+0	10	74	Tiªu VÜ
+0	9	80	Truy NguyÖt bót
+0	9	81	ThÞ Hån bót
+0	9	82	Long ThiÖt
+0	9	83	R¨ng sãi
+0	9	84	Ph¸ Qu©n
+0	9	85	Thiªn C¬
+0	8	91	NguyÖt Lu©n tr­îng
+0	8	92	Kh«ng Minh tr­îng
+0	8	93	B¶o Quang tr­îng
+0	8	94	§¹i Tù T¹i Tr­îng
+0	8	95	§¹i B¸t Nh· Tr­îng
+0	8	96	Thiªn PhËt tr­îng
+0	6	102	Tó Cèt th­¬ng
+0	6	103	XÝch NguyÖt th­¬ng
+0	6	104	Ng©n Xµ th­¬ng
+0	6	105	Háa Yªn Th­¬ng
+0	6	106	Tr­îng B¸t Xµ M©u
+0	6	107	Ph¸ Thiªn kÝch
+0	4	113	Trôc NguyÖt cung
+0	4	114	DiÖt DiÖm cung
+0	4	115	Tö Kim
+0	4	116	ThÇn Lùc
+0	4	117	Xi Nha
+0	4	118	Long KhÈu
+0	103	10	DËt Èn Qu¸n
+0	103	11	Hång L¨ng C©n
+0	103	12	Hµng V©n Thóc ®¸i
+0	103	13	Thanh Sa Nh·n Tr¸o
+0	103	14	XÝch Tinh Nh·n Tr¸o
+0	103	15	Phi V©n L¹p
+0	103	16	TuyÖt B¶o Qu¸n
+0	103	17	S¬n Quû DiÖn
+0	103	18	MËt ThÇn qu¸n
+0	103	28	H¶i ThÇn kÕt
+0	103	29	§Þnh Quèc Tö C©n
+0	103	30	MËt NhÉn DiÖn tr¸o
+0	103	31	ThÇn S¸ch Kim Kh«i
+0	103	32	Ngò Quû c©n
+0	103	33	Tinh Cang ChiÕn Kh«i
+0	103	34	L«i Tr× diÖn
+0	103	35	Chung Quú diÖn
+0	103	36	DÞ ThÇn c©n
+0	103	46	§»ng Xµ tr©m
+0	103	47	Minh §iÖp kÕt
+0	103	48	Kim Phông Tr©m
+0	103	49	§Þa KiÖt
+0	103	50	§o¹t hån
+0	103	51	NhËt MiÖn
+0	103	52	ThÇn ¤
+0	103	53	Tu La
+0	103	54	Chu T­íc
+0	103	64	Thiªn La Thoa
+0	103	65	Thiªn Phong Thóc tr©m
+0	103	66	V©n Méng Thoa
+0	103	67	Phi §iÓu
+0	103	68	Hång Cèc
+0	103	69	B¶o T­îng
+0	103	70	Phong L«i
+0	103	71	Vu Hµm
+0	103	72	Tr­êng sinh
+0	100	11	NhuyÔn Kim y
+0	100	12	Th­¬ng  Lan y
+0	100	13	Lam K×nh b× gi¸p
+0	100	14	XÝch Long bµo
+0	100	15	Thiªn Lang y
+0	100	16	B¨ng Tµm Trï sam
+0	100	17	S¬n Quû huyÕt y
+0	100	18	Thiªn Gi¸ng bµo
+0	100	29	Di Nhiªm Kh¸ch y
+0	100	30	Thiªn NhÉn y
+0	100	31	ThÇn S¸ch Kim gi¸p
+0	100	32	L«i Ng©n Gi¸p
+0	100	33	Tinh Cang HuyÒn Kim gi¸p
+0	100	34	Háa Chu Th¸nh sam
+0	100	35	HuyÕt Hµ Quû V­¬ng gi¸p
+0	100	36	Long B¸ ¤ kim y
+0	100	47	Thanh Linh Th­êng
+0	100	48	Hång Nghª Th­êng
+0	100	49	L©n Quang gi¸p
+0	100	50	Hå C¬ Vò y
+0	100	51	Minh Quang gi¸p
+0	100	52	Nghª Th­êng Vò y
+0	100	53	Thiªn y
+0	100	54	Phi Thiªn Th¸i Th­êng
+0	100	65	Thiªn C«ng §Êu y
+0	100	66	Linh Lung Th­êng
+0	100	67	Thó V­¬ng §Êu y
+0	100	68	Th¸i Hoa Th­êng
+0	100	69	NghÞch V©n §Êu y
+0	100	70	CÈm V©n Th­êng
+0	100	71	V« Song §Êu y
+0	100	72	Ngò S¾c Nghª Th­êng
+0	102	4	Tiªn X¹ h­¬ng Nang
+0	102	5	Long Diªn H­¬ng Nang
+0	102	9	Ngò S¾c Ngäc Béi
+0	102	10	MÆc Ngäc Ngäc Béi
+0	102	14	Hæ Ph¸ch Hé phï
+0	102	15	Hång PhØ Thóy hé phï
+0	102	19	Lam Thñy Tinh Giíi ChØ
+0	102	20	Toµn Th¹ch Giíi ChØ
+0	101	9	XÝch L©n trang
+0	101	10	Nh­ ý trang
+0	101	11	Long B× trang
+0	101	12	HuyÒn ¶nh trang
+0	101	13	Thiªn Lang trang
+0	101	14	Phi Ng­ trang
+0	101	15	Thanh V©n trang
+0	101	16	BÝch L©n trang
+0	101	17	S¸t KiÕp trang
+0	101	18	¤ Tµm trang
+0	101	27	CÈm Lan trang
+0	101	28	Thanh S­¬ng trang
+0	101	29	Thiªn Phong trang
+0	101	30	BÝ Èn trang
+0	101	31	ThÇn S¸ch trang
+0	101	32	Thiªn L«i trang
+0	101	33	Nhu C­¬ng trang
+0	101	34	Cuång Viªm trang
+0	101	35	HuyÕt Hµ trang
+0	101	36	Thiªn C­¬ng Trang
+0	101	45	CÈm Anh Tó Trang
+0	101	46	V©n Hµ Tó Trang
+0	101	47	Toµn Kim Gi¸p Trang
+0	101	48	Hång V©n Tó Trang
+0	101	49	L«i ThÇn
+0	101	50	Thiªn M·
+0	101	51	Ph¸ TrËn
+0	101	52	PhÊt V©n
+0	101	53	Hæ TiÕu
+0	101	54	Th¸i Thanh
+0	101	63	Thiªn Tµm Tó Trang
+0	101	64	Khëi La Tó Trang
+0	101	65	Vâ ThÇn Tó Trang
+0	101	66	Linh Lung Tó Trang
+0	101	67	B¸ch ChiÕn
+0	101	68	ThÇn N÷
+0	101	69	Vò Linh
+0	101	70	T¶n Hoa
+0	101	71	Hång Ngäc
+0	101	72	XuÊt V©n

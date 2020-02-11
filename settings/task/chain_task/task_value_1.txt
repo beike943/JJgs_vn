@@ -1,0 +1,11 @@
+Name	TaskValue	Genre	Detail	Particular	Num	Identify	Socket1	Socket2	Socket3	Series
+T©y S¬n MËt tÞch	1000	0	15	67	1					
+ChiÕu D¹ Ngäc S­ Tö	900	0	105	9	1					
+¢m Hµo Th¹ch	800	2	4	7	1					
+MÆc Ngäc Ngäc Béi	700	0	102	10	1					
+Hiªn Viªn KiÕm	600	0	2	26	1					
+Nh©n §å ®ao	500	0	3	59	1					
+HuyÒn thiÕt	400	2	2	6	1					
+Sinh Sinh Hãa T¸n	300	1	0	16	1					
+N÷ Nhi Hång	200	1	1	12	1					
+Méc Thñ	100	2	1	31	1					

@@ -1,0 +1,220 @@
+-- 2007-5-9 9:38
+-- Óü×ä
+
+Include("\\script\\gongcheng\\prison\\prison_head.lua")
+
+tCityWarOutPos =
+{
+	[1] = {200, 1385, 2829},
+	[2] = {300, 1769, 3555},
+	[3] = {100, 1413, 2958},
+	[4] = {400, 1520, 2981},
+	[5] = {150, 1682, 3125},
+	[6] = {350, 1460, 2948},
+}
+
+function main()
+	Say("§i hay ë, tïy ng­¬i quyÕt ®Şnh!",2,"§­a ta ra ngoµi/go_outside", "§Ó ta suy nghÜ ®·!/no_say")
+end
+
+function go_outside()
+	local tMap = 
+	{
+		[730] = 1801,
+		[731] = 1802,
+		[732] = 1803,
+		[733] = 1804,
+		[734] = 1805,
+	}
+	local nMapID = GetWorldPos()
+	if tMap[nMapID] == nil then
+		return
+	end
+	CreateTrigger(2, tMap[nMapID], CITYWAR_LEAVE_PRISON)
+	
+	local nTrigger = GetTrigger(CITYWAR_STEP_TRIGGER)
+	local nStep = GetTriggerParam(nTrigger, 2)
+	if nTrigger == 0 then					-- À´Ì½¼àµÄ
+		local selTab = 
+		{
+			"BiÖn Kinh/#go_out_safe(1)",
+			"Thµnh §«/#go_out_safe(2)",
+			"TuyÒn Ch©u/#go_out_safe(3)",
+			"§¹i Lı/#go_out_safe(4)",
+			"D­¬ng Ch©u/#go_out_safe(5)",
+			"T­¬ng D­¬ng/#go_out_safe(6)",
+			"Hñy bá/no_say"
+		}
+		Say("Ta cã thÓ ®­a ng­¬i ®Õn nh÷ng n¬i sau: ", getn(selTab), selTab)
+	elseif  nStep > CITYWAR_MAX_STEP then	-- ±»×¥½øÀ´µÄÒÑ¾­¹»Ê±¼äµÄ
+		chose_go_out()
+	else
+		chose_want_bail()
+	end
+end
+
+function chose_go_out()
+	local nValue = GetPKValue()
+	local nPay = nValue * 80
+	if nValue > 0 then
+		Say("<color=green>Lİnh g¸c lao<color>: ®iÓm PK cña ng­¬i hiÖn lµ "..nValue..", ®­a cho ta "..nPay.." l­îng h¹ ®iÓm PK xuèng cßn 0, sao h¶?",
+			1,
+			"Ra ngôc vµ tÈy ®iÓm PK/chose_go_out_xi",
+			--"Ra ngôc nh­ng kh«ng tÈy ®iÓm PK/chose_go_out_buxi")
+	else
+		chose_go_out_buxi()
+	end
+end
+
+function chose_go_out_xi()
+	local selTab = 
+	{
+		"BiÖn Kinh/#go_out_safe_xi(1)",
+		"Thµnh §«/#go_out_safe_xi(2)",
+		"TuyÒn Ch©u/#go_out_safe_xi(3)",
+		"§¹i Lı/#go_out_safe_xi(4)",
+		"D­¬ng Ch©u/#go_out_safe_xi(5)",
+		"T­¬ng D­¬ng/#go_out_safe_xi(6)",
+		"Hñy bá/no_say"
+	}
+	Say("Ng­¬i ®· chän ra ngôc vµ tÈy ®iÓm PK. Ta cã thÓ ®­a ng­¬i ®Õn nh÷ng n¬i sau: ", getn(selTab), selTab)
+end
+
+function chose_go_out_buxi()
+	local selTab = 
+	{
+		"BiÖn Kinh/#go_out_safe(1)",
+		"Thµnh §«/#go_out_safe(2)",
+		"TuyÒn Ch©u/#go_out_safe(3)",
+		"§¹i Lı/#go_out_safe(4)",
+		"D­¬ng Ch©u/#go_out_safe(5)",
+		"T­¬ng D­¬ng/#go_out_safe(6)",
+		"Hñy bá/no_say"
+	}
+	Say("Ta cã thÓ ®­a ng­¬i ®Õn nh÷ng n¬i sau: ", getn(selTab), selTab)
+end
+
+function chose_want_bail()
+	local nValue = GetPKValue()
+	if nValue > 0 then
+		Say("<color=green>Lİnh g¸c lao<color>: ®iÓm PK cña ng­¬i hiÖn lµ "..nValue..", khi ra ngôc b¹n cã thÓ ngÉu nhiªn bŞ trõ "..(nValue*80).." l­îng h¹ ®iÓm PK xuèng cßn 0, sao h¶?",
+			2,
+			"Ra ngôc vµ tÈy ®iÓm PK/want_bail_xi",
+			"Ra ngôc nh­ng kh«ng tÈy ®iÓm PK/want_bail_buxi")
+	else
+		want_bail_buxi()
+	end
+end
+
+function want_bail_xi()
+	local _, nArrestPay = CustomDataRead("tongcitywar_arrest_tong")
+	print(_, nArrestPay)
+	if nArrestPay == nil then
+		nArrestPay = 0
+	end
+	local nValue = GetPKValue() * 80
+	local nPay = nArrestPay + nValue
+	
+	local selTab = 
+	{
+		"X¸c nhËn b¶o l·nh, ®Õn Khai Phong/#go_outside_yes(1,"..nPay..",1)",
+		"X¸c nhËn b¶o l·nh, ®Õn Thµnh §«/#go_outside_yes(2,"..nPay..",1)",
+		"X¸c nhËn b¶o l·nh, ®Õn TuyÒn Ch©u /#go_outside_yes(3,"..nPay..",1)",
+		"X¸c nhËn b¶o l·nh, ®Õn §¹i Lİ/#go_outside_yes(4,"..nPay..",1)",
+		"X¸c nhËn b¶o l·nh, ®Õn D­¬ng Ch©u/#go_outside_yes(5,"..nPay..",1)",
+		"X¸c nhËn b¶o l·nh, ®Õn T­¬ng D­¬ng/#go_outside_yes(6,"..nPay..",1)",
+		"Hñy bá/no_say",
+	}
+	Say("Ch­a ®Õn h¹n ra lao, giê muèn ®i ph¶i ®ãng tiÒn b¶o l·nh <color=yellow>"..nArrestPay.." l­îng<color> vµ (ngÉu nhiªn) "..nValue.." l­îng tÈy ®iÓm PK, sao h¶?",getn(selTab),selTab)
+end
+
+function want_bail_buxi()	
+	local _, nPay = CustomDataRead("tongcitywar_arrest_tong")
+	if nPay == nil then
+		nPay = 0
+	end
+	
+	local selTab = 
+	{
+		"X¸c nhËn b¶o l·nh, ®Õn Khai Phong/#go_outside_yes(1,"..nPay..",0)",
+		"X¸c nhËn b¶o l·nh, ®Õn Thµnh §«/#go_outside_yes(2,"..nPay..",0)",
+		"X¸c nhËn b¶o l·nh, ®Õn TuyÒn Ch©u /#go_outside_yes(3,"..nPay..",0)",
+		"X¸c nhËn b¶o l·nh, ®Õn §¹i Lİ/#go_outside_yes(4,"..nPay..",0)",
+		"X¸c nhËn b¶o l·nh, ®Õn D­¬ng Ch©u/#go_outside_yes(5,"..nPay..",0)",
+		"X¸c nhËn b¶o l·nh, ®Õn T­¬ng D­¬ng/#go_outside_yes(6,"..nPay..",0)",
+		"Hñy bá/no_say",
+	}
+	
+	if nPay == 0 then
+		Say("Ch­a ®Õn h¹n ra lao, giê muèn ®i ph¶i ®ãng tiÒn b¶o l·nh. Tuy nhiªn khi ng­¬i bŞ truy n· kh«ng ®ñ 70 cÊp, kh«ng cÇn n¹p tiÒn b¶o l·nh",getn(selTab),selTab)
+	else
+		Say("Ch­a ®Õn h¹n ra lao, giê muèn ®i ph¶i ®ãng tiÒn b¶o l·nh <color=yellow>"..nPay.." l­îng<color>, sao h¶?",getn(selTab),selTab)
+	end
+end;
+
+function go_outside_yes(index, nPay, subPK)
+	if nPay == 0 then
+		--µØÍ¼¶ÔNewWorld×÷ÁËÏŞÖÆ£¬ÒªÌîµÚËÄ²ÎÊı¡£È¨ÏŞÉèÖÃ²Î¿´\GameSvr\maps\god_power.iniÅäÖÃÎÄ¼ş
+		CleanInteractive()
+		NewWorld(tCityWarOutPos[index][1], tCityWarOutPos[index][2], tCityWarOutPos[index][3], 100)
+		CustomDataRemove("tongcitywar_arrest_tong")
+		RemoveTrigger(GetTrigger(CITYWAR_STEP_TRIGGER))
+		SetPlayerRevivalPos(tCityWarOutPos[index][1], tCityWarOutPos[index][1])
+	else
+		if Pay(nPay * 10000) == 1 then
+			if subPK == 1 then
+				AddPKValue(-GetPKValue())
+			end
+			--µØÍ¼¶ÔNewWorld×÷ÁËÏŞÖÆ£¬ÒªÌîµÚËÄ²ÎÊı¡£È¨ÏŞÉèÖÃ²Î¿´\GameSvr\maps\god_power.iniÅäÖÃÎÄ¼ş
+			CleanInteractive()
+			NewWorld(tCityWarOutPos[index][1], tCityWarOutPos[index][2], tCityWarOutPos[index][3], 100)
+			CustomDataRemove("tongcitywar_arrest_tong")
+			RemoveTrigger(GetTrigger(CITYWAR_STEP_TRIGGER))
+			SetPlayerRevivalPos(tCityWarOutPos[index][1], tCityWarOutPos[index][1])
+			-- °ÑË°ÊÕ¼Óµ½×¥×Ô¼ºÃû²¶µÄÄÇ¸ö³ÇÊĞÀï
+--			local szTong = CustomDataRead("tongcitywar_arrest_tong")
+--			if szTong ~= nil and szTong ~= "" then
+--				local nMoney = GetTongAttr("TONG_MONEY", szTong)
+--				nMoney = nMoney + floor(nPay * 0.8)
+--				if nMoney > 20000 then
+--					nMoney = 20000
+--				end
+--				SetTongAttr("TONG_MONEY", szTong, nMoney)
+--			end
+		else
+			Talk(1,"","Kh«ng tiÒn mµ ®ßi b¶o l·nh, lµm ta mÊt thêi gian qu¸!")
+		end
+	end
+end
+
+function go_out_safe_xi(index)
+	local nValue = GetPKValue()
+	local nPay = nValue * 80
+	if Pay(nPay * 10000) == 1 then
+		RemoveTrigger(GetTrigger(CITYWAR_STEP_TRIGGER))
+		CleanInteractive()
+		AddPKValue(-nValue)
+		NewWorld(tCityWarOutPos[index][1], tCityWarOutPos[index][2], tCityWarOutPos[index][3], 100)
+		local szTong = CustomDataRead("tongcitywar_arrest_tong")
+		if szTong ~= nil and szTong ~= "" then
+			local nMoney = GetTongAttr("TONG_MONEY", szTong)
+			nMoney = nMoney + floor(nPay * 0.8)
+			if nMoney > 20000 then
+				nMoney = 20000
+			end
+			SetTongAttr("TONG_MONEY", szTong, nMoney)
+		end
+	else
+		Talk(1,"","Kh«ng tiÒn mµ ®ßi tÈy PK! Lµm ta mÊt thêi gian qu¸!")
+	end
+end
+
+function go_out_safe(index)
+	--µØÍ¼¶ÔNewWorld×÷ÁËÏŞÖÆ£¬ÒªÌîµÚËÄ²ÎÊı¡£È¨ÏŞÉèÖÃ²Î¿´\GameSvr\maps\god_power.iniÅäÖÃÎÄ¼ş
+	RemoveTrigger(GetTrigger(CITYWAR_STEP_TRIGGER))
+	CleanInteractive()
+	NewWorld(tCityWarOutPos[index][1], tCityWarOutPos[index][2], tCityWarOutPos[index][3], 100)
+end
+
+function no_say()
+end

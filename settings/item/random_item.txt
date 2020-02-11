@@ -1,0 +1,382 @@
+ItemsID	Genre	Detail	Particular	Num	Name
+Tra cøu vËt phÈm	Lo¹i lín	Lo¹i trung	Lo¹i tiÓu	Chän	Tªn vËt phÈm
+1353	1	2	1	10	Tµng Hång Hoa
+1354	1	2	2	10	C¸t C¸nh
+1355	1	2	3	10	Hoµng liªn
+1356	1	2	4	10	X¹ h­¬ng
+1357	1	2	5	10	Nh©n s©m
+1358	1	2	6	10	MËt gÊu
+1359	1	2	7	10	Ngäc Linh chi
+1360	1	2	8	10	Ba ®Ëu
+1361	1	2	9	10	X¸c ve
+1362	1	2	10	10	§iÒn thÊt
+1363	1	2	11	10	Xuyªn s¬n gi¸p
+1364	1	2	12	10	TuyÕt liªn tö
+1365	1	3	1	10	ThÞt Thá
+1366	1	3	2	10	ThÞt Gµ
+1367	1	3	3	10	L« ng­
+1368	1	3	4	10	Tay GÊu
+1369	1	3	5	10	Hång Cao L­¬ng
+1370	1	3	6	10	Kim Thùc §¹o
+1371	1	3	7	10	Men r­îu
+1372	1	3	8	10	Gia vÞ
+1373	1	3	9	10	Quang Th«ng Ma
+1374	1	3	10	10	Khuynh ly ®Ëu
+1375	1	3	11	10	NhiÔu minh ®Ëu
+1376	1	3	12	10	Dung tr¹ch cèc
+1377	1	3	13	10	MÝa
+1378	1	3	14	10	Diªn Tinh m¹ch
+1379	1	3	15	10	ThuÇn hßa m¹ch
+1380	1	3	16	10	Du long tóc
+1381	1	3	17	10	Phông Qu¸n Tóc
+1382	1	3	18	10	Dao Chi Tóc
+1383	1	3	19	10	Méc nhÜ
+1384	1	3	20	10	Th¹ch khuÈn
+1385	1	3	21	10	M¨ng
+1386	1	3	22	10	Hå tiªu
+1387	1	1	1	10	B¸nh Ng«
+1388	1	1	2	10	C¬m n¾m
+1389	1	1	3	10	Mµn thÇu
+1390	1	1	4	10	B¸nh xÕp
+1391	1	1	5	10	B¸nh bao thÞt
+1392	1	1	6	10	M¨ng xµo
+1393	1	1	7	10	Tø Quý ®Ëu
+1394	1	1	8	10	§Ëu xµo
+1395	1	1	9	10	C¶i xµo tái
+1396	1	1	10	10	Thiªu §ao Tö
+1397	1	1	11	10	N÷ Nhi Hång
+1398	1	1	12	10	§¹o Hoa H­¬ng
+1399	1	1	13	10	Tóy Méng Töu
+1400	1	0	1	10	B¨ng
+1401	1	0	2	10	Kim S¸ng T¸n
+1402	1	0	3	10	ChØ HuyÕt T¸n
+1403	1	0	4	10	B¹ch V©n t¸n
+1404	1	0	5	10	Thiªn H­¬ng CÈm Tôc
+1405	1	0	6	10	H¾c Ngäc §o¹n Tôc Cao
+1406	1	0	7	10	TiÓu Hoµn ®¬n
+1407	1	0	8	10	Hoµn D­¬ng ®¬n
+1408	1	0	9	10	§¹i Hoµn ®¬n
+1409	1	0	10	10	NhÊt Nguyªn Phôc Thñy §¬n
+1410	1	0	11	10	V¹n VËt Quy Nguyªn §¬n
+1411	1	0	12	10	Thanh T©m t¸n
+1412	1	0	13	10	Ých KhÝ t¸n
+1413	1	0	14	10	Ngäc Linh t¸n
+1414	1	0	15	10	Ngò Hoa Ngäc Lé Hoµn
+1415	1	0	16	10	Sinh Sinh Hãa T¸n
+1416	1	0	17	10	B¹ch NhËt ®¬n
+1417	1	0	18	10	Toµn Sinh ®¬n
+1418	1	0	19	10	Chiªu Hån ®¬n
+1419	1	0	20	10	Ng­ DÞch §¬n
+1420	1	0	21	10	B«n Tinh NguyÖt §¬n
+1421	1	0	22	10	Ých D­¬ng t¸n
+1422	1	0	23	10	Thiªn Kim t¸n
+1423	1	0	24	10	Bæ Thiªn t¸n
+1424	1	0	25	10	ThÊt Trïng ThÊt Hoa T¸n
+1425	1	0	26	10	§¹i NhËt D­¬ng T¸n
+1426	1	0	27	10	Gi¶i §éc ®¬n
+1427	1	0	28	10	ChØ Thñy ®¬n
+1428	1	0	29	10	Bµi V©n ®¬n
+1429	1	0	30	10	Cµn Nguyªn ChÝnh KhÝ §¬n
+1430	1	0	31	10	Thiªn V­¬ng Bæ T©m §¬n
+1431	1	0	32	10	Cöu chuyÓn håi hån ®¬n
+1432	1	5	1	10	BiÖn Kinh Håi phï
+1433	1	5	2	10	Thµnh §« Håi phï
+1434	1	5	3	10	TuyÒn Ch©u Håi phï
+1435	1	5	4	10	T­¬ng D­¬ng Håi phï
+1436	1	5	7	10	D­¬ng Ch©u Håi phï
+1437	1	5	5	10	Phông T­êng Håi phï
+1438	1	1	14	10	C¬m chiªn trøng
+1439	1	1	15	10	B¸nh Bét vµng
+1440	1	1	16	10	L¹c Mai
+1441	1	1	17	10	Minh NguyÖt D¹
+1442	1	1	18	10	Méc Lan Xu©n
+1443	1	1	19	10	T©y B¾c Väng
+1444	1	5	26	10	Tèng anh hïng lÖnh (s¬)
+1445	1	5	27	2	Tèng anh hïng lÖnh (cao)
+1446	1	5	28	10	Liªu anh hïng lÖnh (s¬)
+1447	1	5	29	2	 Liªu anh hïng lÖnh (cao)
+1448	2	5	1	2	Gi¸m ®Þnh phï cÊp 1
+1449	2	5	2	2	Gi¸m ®Þnh phï cÊp 2
+1450	2	5	3	2	Gi¸m ®Þnh phï cÊp 3
+1451	2	5	4	2	Gi¸m ®Þnh phï cÊp 4
+1452	2	5	5	2	Gi¸m ®Þnh phï cÊp 5
+1453	2	5	6	2	Gi¸m ®Þnh phï cÊp 6
+1454	2	5	7	2	Gi¸m ®Þnh phï cÊp 7
+1455	2	3	1	5	Long Phông kÕt
+1456	2	3	2	5	Long Hoµng lÖnh
+1457	2	3	3	5	Cµn Kh«n kÕt
+1458	2	3	4	5	Thiªn PhËt Ch©u
+1459	2	11	0	5	¸m khÝ
+1460	2	3	6	5	C¬ quan
+1461	2	3	7	5	X¸ Lîi Kim ®¬n
+1462	2	3	8	5	Cù Tö lÖnh
+1463	2	3	9	5	Mª Hån TuyÕn
+1464	2	3	10	5	¶nh NguyÖt phï
+1465	2	3	11	5	Th¸i HuyÒn Chó
+1466	2	3	12	5	Ph¸ Ma Chó
+1467	2	8	1	5	Tô ThiÕt th¹ch
+1468	2	8	2	5	Tô §ång th¹ch
+1469	2	8	3	5	Tô TÝch th¹ch
+1470	2	8	4	5	Tô Ng©n th¹ch
+1471	2	8	5	5	¤ kim th¹ch
+1472	2	8	6	5	Th¸i B¹ch Tinh Th¹ch
+1473	2	8	7	5	HuyÒn Th¹ch
+1474	2	10	7	5	Loan ®iÓu vò
+1475	2	9	1	5	L«ng thá
+1476	2	9	2	5	Tµm t¬
+1477	2	9	3	5	T¬ Ngò S¾c
+1478	2	9	4	5	L·nh trïng t¬
+1479	2	9	5	5	Háa chu t¬
+1480	2	9	6	5	B¨ng tµm t¬
+1481	2	9	7	5	¤ Tµm  t¬
+1482	2	2	1	5	Tinh ThiÕt
+1483	2	2	2	5	B¸ch LuyÖn C­¬ng
+1484	2	2	3	5	Tö Kim
+1485	2	2	4	5	Hµn thiÕt
+1486	2	2	5	5	Th¸i b¹ch tinh kim
+1487	2	2	6	5	HuyÒn thiÕt
+1488	2	2	7	5	M¶nh Thiªn th¹ch
+1489	2	2	8	5	Thiªn th¹ch
+1490	2	2	9	5	Trïng Méc
+1491	2	2	10	5	ThiÕt Ch­¬ng Méc
+1492	2	2	11	5	ThiÕt TuyÕn Méc
+1493	2	2	12	5	Ba La Méc
+1494	2	2	13	5	§µn Méc
+1495	2	2	14	5	Bå §Ò Méc
+1496	2	2	15	5	Da sãi
+1497	2	2	16	5	Da hæ
+1498	2	2	17	5	Da c¸o
+1499	2	2	18	5	Da r¾n
+1500	2	2	20	5	Da gÊu
+1501	2	2	21	5	H¾c CÈm
+1502	2	2	22	5	Chøc cÈm
+1503	2	2	23	5	Háa Ho¸n CÈm
+1504	2	2	24	5	Méc Miªn CÈm
+1505	2	2	25	5	V©n CÈm
+1506	2	2	26	5	Thiªn T«n CÈm
+1507	2	2	27	5	Liªn Hoµnh Phæ
+1508	2	2	57	5	Tu La Phæ	
+1509	2	2	58	5	ThÇn Binh Phæ	
+1510	2	2	28	5	D­îc V­¬ng ThÇn biªn
+1511	2	2	29	5	§én Gi¸p Th­
+1512	2	2	30	5	Chu sa
+1513	2	2	31	5	§¬n T©m sa
+1514	2	2	32	5	BÝch HuyÕt Sa
+1515	2	2	33	5	H¾c KhuyÓn Linh HuyÕt
+1516	2	2	34	5	Thanh ¤ Linh HuyÕt
+1517	2	2	35	5	HuyÒn H¹c Linh HuyÕt
+1518	2	2	36	5	Thiªn thanh th¹ch
+1519	2	2	37	5	H¾c « th¹ch
+1520	2	2	38	5	XÝch thiÕt
+1521	2	2	39	5	V©n mÉu
+1522	2	2	40	5	C¸o th¹ch
+1523	2	2	41	5	Tïng Méc
+1524	2	2	42	5	D­¬ng Méc
+1525	2	2	43	5	Sam Méc
+1526	2	2	44	5	ThiÕt Méc
+1527	2	2	45	5	Ng« §ång
+1528	2	2	46	5	Da hæ tr¾ng
+1529	2	2	47	5	Da S­ tö
+1530	2	2	48	5	Da V­în tr¾ng
+1531	2	2	49	5	Chu T­íc vò
+1532	2	2	50	5	Da Linh ngao
+1533	2	2	51	5	Phông Hoµng Vò
+1534	2	2	52	5	Lang chu t¬
+1535	2	2	53	5	Hång t¬
+1536	2	2	54	5	Linh Chu t¬
+1537	2	2	55	5	Kim tµm t¬
+1538	2	2	56	5	Thiªn Tµm t¬
+1539	2	1	2	10	§u«i thá
+1540	2	1	3	10	R¨ng sãi
+1541	2	1	4	10	Thè Nhi Qu¶
+1542	2	1	5	10	L«ng sãi
+1543	2	1	6	10	No·n trïng
+1544	2	1	7	10	Nanh heo rõng
+1545	2	1	8	10	L«ng sãi th­îng ®¼ng
+1546	2	1	9	10	VÊn Lé th¹ch
+1547	2	1	10	10	ThiÕt Ban ChØ
+1548	2	1	11	10	Tó hoa hµi
+1549	2	1	12	10	Thiªu töu
+1550	2	1	13	10	Tæ ong
+1551	2	1	14	10	Nanh heo th­îng h¹ng
+1552	2	1	15	10	GÊm lam
+1553	2	1	16	10	HÇu Nhi Qu¶
+1554	2	1	17	10	Thanh Kim
+1555	2	1	18	10	C¸nh d¬i
+1556	2	1	19	10	Hæ vÜ
+1557	2	1	20	10	ThiÕt Th­¬ng §Çu
+1558	2	1	21	10	Bao ®ao
+1559	2	1	22	10	TuyÕt Tinh
+1560	2	1	23	10	Thèi Cèt
+1561	2	1	24	10	S­u ThÇn Ký
+1562	2	1	25	10	Gi¸p Méc Bµi
+1563	2	1	26	10	¸m Yªn
+1564	2	1	27	10	¢m Ph¸ch
+1565	2	1	28	10	Trøng chim
+1566	2	1	29	10	B¶o B×nh
+1567	2	1	30	10	§ång kiÕm
+1568	2	1	31	10	Méc Thñ
+1569	2	1	32	10	Hång Tinh
+1570	2	1	33	10	Êt Méc Bµi
+1571	2	1	34	10	Quan phôc
+1572	2	1	35	10	B¸nh n­íng
+1573	2	1	36	10	Gia Ph¸p bæng
+1574	2	1	37	10	Lang Hån
+1575	2	1	38	10	Hµng hãa
+1576	2	1	39	10	D¹ Minh Ch©u
+1577	2	1	40	10	Th­¬ng g·y
+1578	2	1	41	10	Kim Thoa
+1579	2	1	42	10	MiÕng ®ång
+1580	2	1	43	10	Th¶o hµi
+1581	2	1	44	10	Töu B«i
+1582	2	1	45	10	TuyÕt Ph¸ch
+1583	2	1	46	10	BÝnh Méc Bµi
+1584	2	1	47	10	ThiÕt Xoa
+1585	2	1	48	10	§u«i Hæ vµng
+1586	2	1	49	10	ThÇn Ma chÝ
+1587	2	1	50	10	Thñ Cèt
+1588	2	1	51	10	U Hån
+1589	2	1	52	10	Tr·m Töu
+1590	2	1	53	10	Di T¾c Chung
+1591	2	1	54	10	GÊm vµng
+1592	2	1	55	10	B×nh trµ
+1593	2	1	56	10	C«ng V¨n
+1594	2	1	57	10	Hép trang søc
+1595	2	1	58	10	C¸nh d¬i
+1596	2	1	59	10	§inh Méc Bµi
+1597	2	1	60	10	BÇu r­îu da dª
+1598	2	1	61	10	D©y xÝch
+1599	2	1	62	10	Lôc Ph¸ch
+1600	2	1	63	10	Mãc C©u
+1601	2	1	64	10	MËu Méc Bµi
+1602	2	1	65	10	BÇu r­îu da dª
+1603	2	1	66	10	DÜ Méc Bµi
+1604	2	1	67	10	§¹i Tèng ®Þa chÝ
+1605	2	1	68	10	Ch©m cøu ®ång nh©n
+1606	2	1	69	10	Hoµng Kim Ban ChØ
+1607	2	1	70	10	Canh Méc Bµi
+1608	2	1	71	10	ThiÕt B¸t Qu¸i
+1609	2	1	72	10	Ên Th¹ch
+1610	2	1	73	10	§inh Ba
+1611	2	1	74	10	Bao tay Da h­¬u
+1612	2	1	75	10	Môc L«i V¨n §ao
+1613	2	1	76	10	MÉu §¬n
+1614	2	1	77	10	T©n Méc Bµi
+1615	2	1	78	10	Hïng V¨n
+1616	2	1	79	10	Kim Xøng Xµ
+1617	2	1	80	10	KiÕm Hån
+1618	2	1	81	10	B¹ch V©n b«i
+1619	2	1	82	10	Quy Hoa KÝnh
+1620	2	1	83	10	Nh©m Méc Bµi
+1621	2	1	84	10	Hæ Ph¸ch
+1622	2	1	85	10	Quý Méc Bµi
+1623	2	1	86	10	Kim Cang
+1624	2	1	87	10	Ngäc Nh­ ý
+1625	2	1	88	10	B×nh Ngäc
+1626	2	1	89	10	Tª Ng­u Cung
+1627	2	1	90	10	NhÉn Hé PhËt
+1628	2	1	91	10	Lôc Trô
+1629	2	1	92	10	Quû Hån
+1630	2	1	93	10	Vßng B¹ch Ngäc
+1631	2	1	94	10	Tµ PhËt Ban ChØ
+1632	2	1	95	10	TuyÕt Hoa Giíi C¬
+1633	2	1	96	10	ChØ Nam Ng­
+1634	2	1	97	10	Th­¬ng Hµn luËn
+1635	2	1	98	10	Khª S¬n chÝ
+1636	2	1	99	10	HuyÔn Quang
+1637	2	1	100	10	§«ng L¨ng
+1638	2	1	101	10	MÆt n¹ Thiªn V­¬ng
+1639	2	1	102	10	Nh©n §å Phñ
+1640	2	1	103	10	B×nh ¤n dÞch
+1641	2	1	104	10	Hæ phï
+1642	2	1	105	10	Vâ Kinh Tæng YÕu
+1643	2	1	106	10	V¶y Kú L©n
+1644	2	1	107	10	Hoµng §Õ Néi Kinh
+1645	2	1	108	10	Hoµng Kim b¶o r­¬ng
+1646	2	1	109	1	X¸ Lîi TruyÒn C«ng
+1647	2	1	110	1	M¶nh b¶n ®å SHXT
+1648	2	1	111	1	Hoa hång
+1649	2	1	112	1	Ch©n thá
+1650	2	1	113	1	Nanh sãi
+1651	2	1	114	1	T¬ kh¸ng Thñy
+1652	2	1	115	1	Ph¸ Thiªn Cung
+1653	2	1	116	1	X­¬ng rång
+1654	2	1	117	1	Tóy Tiªn Cóc
+1655	2	1	118	1	Thi V­¬ng LÆc Cèt
+1656	2	1	119	1	Thi KhÝ B×nh
+1657	2	1	120	1	Qu¶n Tö
+1658	2	1	121	1	Tói Phi Ng­
+1659	2	1	122	1	B×nh Song Tinh
+1660	2	1	123	1	Thó V­¬ng T©m
+1661	2	1	124	1	X­¬ng sä
+1662	2	1	125	1	Tô Hån ®Ønh
+1663	2	1	126	1	L¹p Hoµn
+1664	2	1	127	1	D¬i ®éc
+1665	2	1	128	1	Quan m·o
+1666	2	1	129	1	MËt S¸t LÖnh
+1667	2	1	130	1	ChÊn Thiªn TuyÕt
+1668	2	1	131	1	Tµng B¶o §å
+1669	2	1	132	1	DiÒu
+1670	2	1	133	1	Con rèi
+1671	2	1	134	1	Tµo Ng©n
+1672	2	1	135	1	Hoa Th¹ch C­¬ng
+1673	2	1	136	1	DÇu ®en
+1674	2	1	137	1	Tr­êng Thµnh KÝnh
+1675	2	1	138	1	B¶n ch÷ TÊt Th¨ng
+1676	2	1	139	1	Nh©n §Çu NiÖm Ch©u
+1677	2	1	140	1	Khª S¬n chÝ
+1678	2	1	141	1	Yªu V­¬ng chiÕn kú
+1679	2	1	142	1	Hoµng TriÒu Ngäc Tû
+1680	2	1	143	1	Thiªn C­¬ng Ngò L«i §¹i Ph¸p
+1681	2	1	144	1	Kim Chuyªn
+1682	2	1	145	1	Ng©n phiÕu
+1683	2	1	146	1	L«i Viªm Kim Sa
+1684	2	1	147	1	Thiªn Y V« Phong 
+1685	2	1	148	1	M¶nh B¨ng th¹ch
+1686	2	1	149	1	B¨ng th¹ch
+1687	2	1	150	1	§én Èn Linh Phï
+1688	2	1	151	1	Bå §Ò
+1689	2	1	152	1	BÝ Ng©n
+1690	2	1	153	1	PhÈm mµu
+1691	2	11	1	100	Tinh ThiÕt Ch©m
+1692	2	11	2	100	Xuyªn Cèt Ch©m
+1693	2	11	3	100	L«i Háa Ch©m
+1694	2	11	4	100	LiÖt NhËn Ch©m
+1695	2	11	5	100	TrÊn Ma Ch©m
+1696	2	11	6	100	Ph¸ Gi¸p Ch©m
+1697	2	11	7	100	B¸ V­¬ng Ch©m
+1698	2	11	8	100	Minh NguyÖt Ch©m
+1699	2	11	9	100	§o¹n Long Ch©m
+1700	2	1	155	5	L«ng c¸o
+1701	2	1	156	5	Trøng B¹ch §iªu
+1702	2	1	157	5	Cung
+1703	2	1	158	5	M¶nh b¶n ®å Thiªn ¢m gi¸o
+1704	2	1	159	5	Thiªn ¢m MËt TÝn
+1705	2	1	160	5	Qu¸i dÞ th¹ch
+1706	2	1	161	5	Ng¹c vÜ cèt
+1707	2	1	162	5	D·i cãc
+1708	2	1	163	5	H¹t Ch©m
+1709	2	1	164	5	DÞ Téc Qu¶i Liªn
+1710	2	1	165	5	DÞ Téc b× ngoa
+1711	2	1	166	5	da Th­¬ng Viªn
+1712	2	1	167	5	Ng©n Hå ®¬n
+1713	2	1	168	5	Ng©n th­¬ng háng
+1714	2	1	169	5	Xi Háa c«n
+1715	2	1	170	5	B¹ch Ng­ L©n
+1716	2	1	171	5	Hång ng­ l©n
+1717	2	1	172	5	D¹ §ao
+1718	2	1	173	5	Vâ sÜ ®ao
+1719	2	1	174	5	Vâ sÜ yªu ®¸i
+1720	2	1	175	5	MÆt n¹ Vâ sÜ
+1721	2	1	176	5	§éc Phong thÝch
+1722	2	1	177	5	Gi¸p x¸c phiÕn
+1723	2	1	178	5	Háa ¶nh ThÇn ®ao
+1724	2	1	179	5	Quû §Çu Tr­îng
+1725	2	1	180	5	Ng¹c Ng­ Nh·n CÇu
+1726	2	1	181	5	ThÇn bÝ phñ
+1727	2	1	182	5	KiÕm thÇn bÝ
+1728	2	1	183	5	Linh Tiªu
+1729	2	1	184	5	Linh Qu¶
+1730	2	1	185	5	Linh T¶n
+1731	2	1	186	5	Linh CÇm
+1732	2	1	187	5	Linh §Þch

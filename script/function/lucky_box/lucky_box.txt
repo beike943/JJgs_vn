@@ -1,0 +1,30 @@
+Name	G	D	P	Num	freePbby	freeExpire	freeBind	freeNotice	Pbby	Expire	Bind	Notice
+T™n vÀt ph»m:	id	id	id	Ch‰n	T˚ l÷ mi‘n ph› (ßi“n ng…u nhi™n)	ThÍi gian tÂn tπi (Ngµy)	Kh„a kh´ng (4 kh„a, 1 kh´ng kh„a)	Th´ng b∏o kh´ng	T˚ l÷ (ßi“n ng…u nhi™n)	ThÍi gian tÂn tπi (Ngµy)	Kh„a kh´ng	Th´ng b∏o kh´ng
+Huy’tTr›chThπch Lv1	2	22	101	1	10000	0	1	0	1000	0	1	0
+Huy’tTr›chThπch Lv2	2	22	102	1	3750	0	1	0	375	0	1	0
+Huy’tTr›chThπch Lv3	2	22	103	1	1000	0	1	0	100	0	1	0
+Huy’tTr›chThπch Lv4	2	22	104	1	240	0	1	1	23	0	1	1
+Huy’tTr›chThπch Lv5	2	22	105	1	8	0	1	1	1	0	1	1
+Huy’tTr›chThπch Lv1	2	22	101	1	10000	0	1	0	1000	0	1	0
+Huy’tTr›chThπch Lv6	2	22	106	1	2	0	1	1	1	0	1	1
+Nguy÷tBπchThπch Lv1	2	22	201	1	10000	0	1	0	1000	0	1	0
+Nguy÷tBπchThπch Lv2	2	22	202	1	3750	0	1	0	375	0	1	0
+Nguy÷tBπchThπch Lv3	2	22	203	1	1000	0	1	0	100	0	1	0
+Nguy÷tBπchThπch Lv4	2	22	204	1	240	0	1	1	23	0	1	1
+Nguy÷tBπchThπch Lv5	2	22	205	1	8	0	1	1	1	0	1	1
+Nguy÷tBπchThπch Lv1	2	22	201	1	10000	0	1	0	1000	0	1	0
+Nguy÷tBπchThπch Lv6	2	22	206	1	2	0	1	1	1	0	1	1
+HÊ Ph∏ch Thπch C p 1	2	22	301	1	10000	0	1	0	1000	0	1	0
+HÊ Ph∏ch Thπch C p 2	2	22	302	1	3750	0	1	0	375	0	1	0
+HÊ Ph∏ch Thπch C p 3	2	22	303	1	1000	0	1	0	100	0	1	0
+HÊ Ph∏ch Thπch C p 4	2	22	304	1	240	0	1	1	23	0	1	1
+HÊ Ph∏ch Thπch C p 5	2	22	305	1	8	0	1	1	1	0	1	1
+HÊ Ph∏ch Thπch C p 1	2	22	301	1	10000	0	1	0	1000	0	1	0
+HÊ Ph∏ch Thπch C p 6	2	22	306	1	2	0	1	1	1	0	1	1
+Hæc Di÷u Thπch C p 1	2	22	401	1	10000	0	1	0	1000	0	1	0
+Hæc Di÷u Thπch C p 2	2	22	402	1	3750	0	1	0	375	0	1	0
+Hæc Di÷u Thπch C p 3	2	22	403	1	1000	0	1	0	100	0	1	0
+Hæc Di÷u Thπch C p 4	2	22	404	1	240	0	1	1	23	0	1	1
+Hæc Di÷u Thπch C p 5	2	22	405	1	8	0	1	1	1	0	1	1
+Hæc Di÷u Thπch C p 1	2	22	401	1	10000	0	1	0	1000	0	1	0
+Hæc Di÷u Thπch C p 6	2	22	406	1	2	0	1	1	1	0	1	1

@@ -1,0 +1,8 @@
+magic	attenuation_begin_magic_time	attenuation_stable_magic_time	attenuation_value_begin	attenuation_value_stable	attenuation_time_begin	attenuation_time_stable	magic_time_valid_sec	magic_time_low_limit_f
+state_sleep	1	4	15	75	0	75	4	36
+state_paralysis	1	4	15	75	0	75	20	36
+state_confusion	1	4	20	80	0	85	8	18
+state_fetter	1	4	15	75	0	75	5	18
+state_vertigo	1	4	20	80	0	75	2	18
+state_slow	2	5	15	75	15	75	10	36
+state_attack_speed_dec	2	5	15	75	15	75	10	36

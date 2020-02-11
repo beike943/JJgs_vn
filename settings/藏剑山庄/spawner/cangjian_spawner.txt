@@ -1,0 +1,568 @@
+SortID	UnitIndex	MapID	MapX	MapY	NpcID	NpcName	RandomTable	SpawnPeriod	Amount	Limit	SpawnerCount
+101	1	1	1542	3474	Chã canh	Chã canh	0	2	1	1	20
+102	1	1	1525	3425	Chã canh	Chã canh	0	2	1	1	20
+103	1	1	1546	3421	Chã canh	Chã canh	0	2	1	1	20
+104	1	1	1518	3401	Chã canh	Chã canh	0	2	1	1	20
+105	1	1	1542	3378	Chã canh	Chã canh	0	2	1	1	20
+106	1	1	1525	3385	Gia ®inh	Gia ®inh	0	2	1	1	20
+107	1	1	1504	3346	Gia ®inh	Gia ®inh	0	2	1	1	20
+108	1	1	1533	3346	Gia ®inh	Gia ®inh	0	2	1	1	20
+109	1	1	1529	3312	Gia ®inh	Gia ®inh	0	2	1	1	20
+110	1	1	1550	3323	Gia ®inh	Gia ®inh	0	2	1	1	20
+111	1	1	1553	3248	Gia ®inh	Gia ®inh	0	2	1	1	20
+112	1	1	1593	3272	Gia ®inh	Gia ®inh	0	2	1	1	20
+113	1	1	1595	3217	Gia ®inh	Gia ®inh	0	2	1	1	20
+114	1	1	1562	3205	Gia ®inh	Gia ®inh	0	2	1	1	20
+115	1	1	1614	3250	Gia ®inh	Gia ®inh	0	2	1	1	20
+201	1	2	1600	3155	Gia ®inh	Gia ®inh	0	2	1	1	20
+202	1	2	1602	3177	Gia ®inh	Gia ®inh	0	2	1	1	20
+203	1	2	1618	3195	Gia ®inh	Gia ®inh	0	2	1	1	20
+204	1	2	1635	3189	Gia ®inh	Gia ®inh	0	2	1	1	20
+205	1	2	1652	3177	Gia ®inh	Gia ®inh	0	2	1	1	20
+206	1	2	1663	3164	Gia ®inh	Gia ®inh	0	2	1	1	20
+207	1	2	1651	3137	Gia ®inh	Gia ®inh	0	2	1	1	20
+208	1	2	1627	3125	Gia ®inh	Gia ®inh	0	2	1	1	20
+209	1	2	1613	3134	Gia ®inh	Gia ®inh	0	2	1	1	20
+210	1	2	1644	3119	Gia ®inh	Gia ®inh	0	2	1	1	20
+211	1	2	1664	3140	Gia ®inh	Gia ®inh	0	2	1	1	20
+212	1	2	1681	3146	Gia ®inh	Gia ®inh	0	2	1	1	20
+213	1	2	1679	3164	Gia ®inh	Gia ®inh	0	2	1	1	20
+214	1	2	1693	3158	Gia ®inh	Gia ®inh	0	2	1	1	20
+215	1	2	1670	3174	Gia ®inh	Gia ®inh	0	2	1	1	20
+216	1	2	1656	3192	Gia ®inh	Gia ®inh	0	2	1	1	20
+217	1	2	1647	3212	Gia ®inh	Gia ®inh	0	2	1	1	20
+218	1	2	1630	3205	Gia ®inh	Gia ®inh	0	2	1	1	20
+219	1	2	1638	3220	Gia ®inh	Gia ®inh	0	2	1	1	20
+220	1	2	1594	3166	Gia ®inh	Gia ®inh	0	2	1	1	20
+221	1	2	1584	3166	Gia ®inh	Gia ®inh	0	2	1	1	20
+222	1	2	1582	3151	Gia ®inh	Gia ®inh	0	2	1	1	20
+223	1	2	1573	3159	Gia ®inh	Gia ®inh	0	2	1	1	20
+224	1	2	1618	3114	Gia ®inh	Gia ®inh	0	2	1	1	20
+225	1	2	1631	3107	Gia ®inh	Gia ®inh	0	2	1	1	20
+226	1	2	1624	3093	Gia ®inh	Gia ®inh	0	2	1	1	20
+227	1	2	1639	3092	Gia ®inh	Gia ®inh	0	2	1	1	20
+228	1	2	1624	3138	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+229	1	2	1612	3153	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+230	1	2	1627	3189	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+231	1	2	1639	3137	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+232	1	2	1656	3151	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+233	1	2	1637	3209	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+234	1	2	1609	3187	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+235	1	2	1587	3157	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+236	1	2	1606	3124	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+237	1	2	1632	3095	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+238	1	2	1573	3153	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+239	1	2	1594	3128	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+240	1	2	1613	3109	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+241	1	2	1632	3086	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+242	1	2	1626	3126	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+243	1	2	1663	3165	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+244	1	2	1598	3153	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+245	1	2	1636	3189	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+246	1	2	1637	3226	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+247	1	2	1701	3161	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+248	1	2	1657	3119	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+249	1	2	1611	3183	Gi¸o ®Çu	Gi¸o ®Çu	0	4	1	1	20
+301	1	3	1578	3142	Gia ®inh	Gia ®inh	0	4	1	1	20
+302	1	3	1580	3152	Gia ®inh	Gia ®inh	0	4	1	1	20
+303	1	3	1583	3145	Gia ®inh	Gia ®inh	0	4	1	1	20
+304	1	3	1594	3129	Gia ®inh	Gia ®inh	0	4	1	1	20
+305	1	3	1599	3118	Gia ®inh	Gia ®inh	0	4	1	1	20
+306	1	3	1599	3127	Gia ®inh	Gia ®inh	0	4	1	1	20
+307	1	3	1622	3092	Gia ®inh	Gia ®inh	0	4	1	1	20
+308	1	3	1619	3099	Gia ®inh	Gia ®inh	0	4	1	1	20
+309	1	3	1615	3104	Gia ®inh	Gia ®inh	0	4	1	1	20
+310	1	3	1625	3102	Gia ®inh	Gia ®inh	0	4	1	1	20
+311	1	3	1622	3107	Gia ®inh	Gia ®inh	0	4	1	1	20
+312	1	3	1643	3083	Gia ®inh	Gia ®inh	0	4	1	1	20
+313	1	3	1651	3082	Gia ®inh	Gia ®inh	0	4	1	1	20
+314	1	3	1647	3073	Gia ®inh	Gia ®inh	0	4	1	1	20
+315	1	3	1649	3090	Gia ®inh	Gia ®inh	0	4	1	1	20
+316	1	3	1670	3095	Gia ®inh	Gia ®inh	0	4	1	1	20
+317	1	3	1675	3101	Gia ®inh	Gia ®inh	0	4	1	1	20
+318	1	3	1668	3102	Gia ®inh	Gia ®inh	0	4	1	1	20
+319	1	3	1674	3106	Gia ®inh	Gia ®inh	0	4	1	1	20
+320	1	3	1691	3119	Gia ®inh	Gia ®inh	0	4	1	1	20
+321	1	3	1689	3131	Gia ®inh	Gia ®inh	0	4	1	1	20
+322	1	3	1696	3125	Gia ®inh	Gia ®inh	0	4	1	1	20
+323	1	3	1667	3130	Gia ®inh	Gia ®inh	0	4	1	1	20
+324	1	3	1667	3148	Gia ®inh	Gia ®inh	0	4	1	1	20
+325	1	3	1673	3137	Gia ®inh	Gia ®inh	0	4	1	1	20
+326	1	3	1651	3156	Gia ®inh	Gia ®inh	0	4	1	1	20
+327	1	3	1652	3164	Gia ®inh	Gia ®inh	0	4	1	1	20
+328	1	3	1646	3164	Gia ®inh	Gia ®inh	0	4	1	1	20
+329	1	3	1637	3180	Gia ®inh	Gia ®inh	0	4	1	1	20
+330	1	3	1632	3185	Gia ®inh	Gia ®inh	0	4	1	1	20
+331	1	3	1622	3193	Gia ®inh	Gia ®inh	0	4	1	1	20
+332	1	3	1629	3195	Gia ®inh	Gia ®inh	0	4	1	1	20
+333	1	3	1624	3204	Gia ®inh	Gia ®inh	0	4	1	1	20
+334	1	3	1620	3139	Gia ®inh	Gia ®inh	0	4	1	1	20
+335	1	3	1619	3157	Gia ®inh	Gia ®inh	0	4	1	1	20
+336	1	3	1638	3139	Gia ®inh	Gia ®inh	0	4	1	1	20
+337	1	3	1638	3159	Gia ®inh	Gia ®inh	0	4	1	1	20
+338	1	3	1629	3148	Gia ®inh	Gia ®inh	0	4	1	1	20
+339	1	3	1587	3134	L·o béc	L·o béc	0	4	1	1	20
+340	1	3	1609	3111	L·o béc	L·o béc	0	4	1	1	20
+341	1	3	1631	3088	L·o béc	L·o béc	0	4	1	1	20
+342	1	3	1660	3092	L·o béc	L·o béc	0	4	1	1	20
+343	1	3	1684	3113	L·o béc	L·o béc	0	4	1	1	20
+344	1	3	1681	3132	L·o béc	L·o béc	0	4	1	1	20
+345	1	3	1664	3153	L·o béc	L·o béc	0	4	1	1	20
+346	1	3	1644	3174	L·o béc	L·o béc	0	4	1	1	20
+401	1	4	1682	3038	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+402	1	4	1686	3034	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+403	1	4	1687	3032	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+404	1	4	1703	3017	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+405	1	4	1707	3014	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+406	1	4	1725	3005	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+407	1	4	1727	3006	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+408	1	4	1729	3008	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+409	1	4	1726	2971	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+410	1	4	1728	2970	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+411	1	4	1741	2957	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+412	1	4	1743	2956	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+413	1	4	1774	2932	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+414	1	4	1782	2923	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+415	1	4	1809	2896	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+416	1	4	1816	2886	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+417	1	4	1819	2883	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+418	1	4	1799	2925	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+419	1	4	1802	2927	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+420	1	4	1823	2937	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+421	1	4	1826	2934	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+422	1	4	1832	2926	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+423	1	4	1834	2922	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+424	1	4	1842	2917	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+425	1	4	1847	2913	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+426	1	4	1799	2963	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+427	1	4	1796	2965	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+428	1	4	1789	2971	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+429	1	4	1785	2977	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+430	1	4	1781	2981	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+431	1	4	1770	2968	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+432	1	4	1762	2973	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+433	1	4	1753	3017	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+434	1	4	1756	3013	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+435	1	4	1759	3010	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+436	1	4	1706	3063	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+437	1	4	1709	3060	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+438	1	4	1713	3056	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+439	1	4	1715	3051	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+440	1	4	1718	3048	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+441	1	4	1729	3040	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+442	1	4	1734	3089	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+443	1	4	1737	3086	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+444	1	4	1740	3082	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+445	1	4	1747	3073	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+446	1	4	1756	3068	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+447	1	4	1754	3039	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+448	1	4	1756	3040	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+449	1	4	1788	3045	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+450	1	4	1792	3041	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+451	1	4	1798	3033	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+452	1	4	1805	3028	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+453	1	4	1810	3024	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+454	1	4	1805	2993	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+455	1	4	1800	2992	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+456	1	4	1788	3001	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+457	1	4	1785	3006	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+458	1	4	1843	2987	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+459	1	4	1839	2989	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+460	1	4	1836	2993	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+461	1	4	1835	2963	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+462	1	4	1832	2960	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+463	1	4	1828	2957	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+464	1	4	1868	2960	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+465	1	4	1874	2952	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+466	1	4	1877	2948	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	8	1	1	20
+501	1	5	1591	3129	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+502	1	5	1598	3127	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+503	1	5	1596	3134	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+504	1	5	1596	3161	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+505	1	5	1594	3167	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+506	1	5	1599	3168	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+507	1	5	1535	3192	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+508	1	5	1537	3202	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+509	1	5	1540	3195	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+510	1	5	1576	3183	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+511	1	5	1573	3190	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+512	1	5	1578	3191	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+513	1	5	1597	3259	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+514	1	5	1596	3251	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+515	1	5	1601	3256	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+516	1	5	1595	3209	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+517	1	5	1592	3212	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+518	1	5	1597	3215	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+519	1	5	1627	3187	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+520	1	5	1626	3179	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+521	1	5	1621	3187	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+522	1	5	1658	3194	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+523	1	5	1662	3192	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+524	1	5	1661	3199	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+801	1	8	1376	2997	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+802	1	8	1475	3037	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+803	1	8	1448	3000	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+804	1	8	1398	3094	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+805	1	8	1483	3118	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+806	1	8	1438	3175	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+807	1	8	1438	2835	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+808	1	8	1416	2983	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+809	1	8	1516	3108	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+810	1	8	1483	2806	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+811	1	8	1404	2852	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+812	1	8	1501	3096	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+813	1	8	1433	3090	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+814	1	8	1475	2885	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+815	1	8	1421	2945	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+816	1	8	1497	3044	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+817	1	8	1425	3065	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+818	1	8	1495	2818	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+819	1	8	1383	2903	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+820	1	8	1517	3158	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+821	1	8	1540	2940	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+822	1	8	1591	2853	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+823	1	8	1408	3081	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+824	1	8	1514	2868	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+825	1	8	1593	2915	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+826	1	8	1544	3175	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+827	1	8	1593	2886	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+828	1	8	1586	3039	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+829	1	8	1422	2853	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+830	1	8	1475	2832	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+831	1	8	1504	2969	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+832	1	8	1578	2860	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+833	1	8	1559	3068	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+834	1	8	1380	2862	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+835	1	8	1564	2864	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+836	1	8	1592	3065	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+837	1	8	1547	2847	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+838	1	8	1523	3027	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+839	1	8	1547	2813	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+840	1	8	1501	2829	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+841	1	8	1526	2984	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+842	1	8	1509	2756	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+843	1	8	1527	2772	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+844	1	8	1438	2990	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+845	1	8	1551	2764	§Ö tö cao cÊp	Tµng KiÕm ®Ö tö	0	4	1	1	20
+846	1	8	1376	2997	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+847	1	8	1475	3037	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+848	1	8	1448	3000	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+849	1	8	1398	3094	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+850	1	8	1483	3118	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+851	1	8	1438	3175	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+852	1	8	1438	2835	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+853	1	8	1416	2983	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+854	1	8	1516	3108	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+855	1	8	1483	2806	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+856	1	8	1404	2852	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+857	1	8	1501	3096	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+858	1	8	1433	3090	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+859	1	8	1475	2885	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+860	1	8	1421	2945	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+861	1	8	1497	3044	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+862	1	8	1425	3065	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+863	1	8	1495	2818	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+864	1	8	1383	2903	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+865	1	8	1517	3158	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+866	1	8	1540	2940	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+867	1	8	1591	2853	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+868	1	8	1408	3081	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+869	1	8	1514	2868	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+870	1	8	1593	2915	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+871	1	8	1544	3175	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+872	1	8	1593	2886	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+873	1	8	1586	3039	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+874	1	8	1422	2853	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+875	1	8	1475	2832	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+876	1	8	1378	2989	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+877	1	8	1489	3168	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+878	1	8	1510	3154	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+879	1	8	1594	2984	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+880	1	8	1497	3030	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+881	1	8	1477	3020	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+882	1	8	1513	3103	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+883	1	8	1522	3021	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+884	1	8	1505	2963	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+885	1	8	1520	2921	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+886	1	8	1510	2889	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+887	1	8	1472	2887	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+888	1	8	1459	2927	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+889	1	8	1444	3000	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+890	1	8	1589	2936	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+891	1	8	1497	2755	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+892	1	8	1473	2756	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+893	1	8	1383	2947	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch	0	4	1	1	20
+901	1	9	1500	3133	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+902	1	9	1493	3138	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+903	1	9	1489	3148	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+904	1	9	1511	3133	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+905	1	9	1522	3152	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+906	1	9	1518	3168	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+907	1	9	1507	3179	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+908	1	9	1495	3177	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+909	1	9	1486	3163	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+910	1	9	1506	3145	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+911	1	9	1497	3158	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+912	1	9	1506	3165	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+913	1	9	1512	3150	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+914	1	9	1470	3312	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+915	1	9	1481	3317	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+916	1	9	1492	3329	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+917	1	9	1488	3347	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+918	1	9	1480	3356	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+919	1	9	1467	3360	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+920	1	9	1458	3348	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+921	1	9	1456	3319	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+922	1	9	1468	3325	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+923	1	9	1467	3341	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+924	1	9	1479	3342	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+925	1	9	1481	3329	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+926	1	9	1610	3343	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+927	1	9	1624	3351	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+928	1	9	1631	3369	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+929	1	9	1627	3389	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+930	1	9	1597	3351	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+931	1	9	1589	3363	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+932	1	9	1592	3385	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+933	1	9	1600	3400	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+934	1	9	1614	3402	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+935	1	9	1617	3387	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+936	1	9	1619	3366	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+937	1	9	1608	3362	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+938	1	9	1604	3380	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+939	1	9	1667	3197	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+940	1	9	1679	3196	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+941	1	9	1691	3205	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+942	1	9	1690	3228	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+943	1	9	1685	3244	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+944	1	9	1668	3240	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+945	1	9	1661	3228	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+946	1	9	1662	3208	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+947	1	9	1674	3210	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+948	1	9	1683	3214	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+949	1	9	1671	3225	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+950	1	9	1682	3230	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+951	1	9	1607	3102	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+952	1	9	1606	3123	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+953	1	9	1597	3138	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+954	1	9	1586	3144	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+955	1	9	1574	3128	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+956	1	9	1572	3104	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+957	1	9	1582	3088	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+958	1	9	1596	3089	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+959	1	9	1589	3101	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+960	1	9	1598	3115	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+961	1	9	1590	3127	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+962	1	9	1582	3116	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+963	1	9	1566	3205	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+964	1	9	1556	3212	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+965	1	9	1545	3223	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+966	1	9	1534	3233	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+967	1	9	1526	3243	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+968	1	9	1535	3254	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+969	1	9	1545	3264	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+970	1	9	1558	3274	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+971	1	9	1573	3275	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+972	1	9	1586	3262	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+973	1	9	1598	3250	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+974	1	9	1596	3229	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+975	1	9	1584	3216	Thæ kiÕm	Thæ kiÕm	0	4	1	1	20
+976	1	9	1588	3237	Háa KiÕm	Háa KiÕm	0	4	1	1	20
+977	1	9	1568	3219	Thñy kiÕm	Thñy kiÕm	0	4	1	1	20
+978	1	9	1544	3242	Méc kiÕm	Méc kiÕm	0	4	1	1	20
+979	1	9	1568	3259	Kim kiÕm	Kim kiÕm	0	4	1	1	20
+10001	1	1	1541	3474	Chã canh	Chã canh					
+10002	1	1	1534	3465	Chã canh	Chã canh					
+10003	1	1	1525	3464	Chã canh	Chã canh					
+10004	1	1	1543	3458	Chã canh	Chã canh					
+10005	1	1	1532	3451	Chã canh	Chã canh					
+10006	1	1	1550	3447	Chã canh	Chã canh					
+10007	1	1	1541	3443	Chã canh	Chã canh					
+10008	1	1	1528	3433	Chã canh	Chã canh					
+10009	1	1	1529	3428	Chã canh	Chã canh					
+10010	1	1	1546	3421	Chã canh	Chã canh					
+10011	1	1	1536	3408	Chã canh	Chã canh					
+10012	1	1	1523	3399	Chã canh	Chã canh
+10013	1	1	1533	3381	Chã canh	Chã canh
+10014	1	1	1512	3363	Chã canh	Chã canh
+10015	1	1	1527	3334	Chã canh	Chã canh
+10016	1	1	1538	3314	Chã canh	Chã canh
+10017	1	1	1528	3355	Chã canh	Chã canh
+10018	1	1	1518	3350	Gia ®inh	Gia ®inh
+10019	1	1	1506	3346	Gia ®inh	Gia ®inh
+10020	1	1	1554	3322	Gia ®inh	Gia ®inh
+10021	1	1	1549	3304	Gia ®inh	Gia ®inh
+10022	1	1	1544	3281	Gia ®inh	Gia ®inh
+10023	1	1	1557	3291	Gia ®inh	Gia ®inh
+10024	1	1	1564	3307	Gia ®inh	Gia ®inh
+10025	1	1	1573	3289	Gia ®inh	Gia ®inh
+10026	1	1	1554	3262	Gia ®inh	Gia ®inh
+10027	1	1	1558	3238	Gia ®inh	Gia ®inh
+10028	1	1	1564	3223	Gia ®inh	Gia ®inh
+10029	1	1	1574	3209	Gia ®inh	Gia ®inh
+10030	1	1	1590	3219	Gia ®inh	Gia ®inh
+10031	1	1	1606	3231	Gia ®inh	Gia ®inh
+10032	1	1	1611	3249	Gia ®inh	Gia ®inh
+10033	1	1	1605	3263	Gia ®inh	Gia ®inh
+10034	1	1	1595	3269	Gia ®inh	Gia ®inh
+10035	1	1	1583	3280	Gia ®inh	Gia ®inh
+10036	1	1	1568	3270	Gia ®inh	Gia ®inh
+10037	1	1	1537	3380	Gia ®inh	Gia ®inh
+10038	1	1	1536	3386	Gia ®inh	Gia ®inh
+10039	1	1	1534	3391	Gia ®inh	Gia ®inh
+10040	1	1	1531	3394	Gia ®inh	Gia ®inh
+10041	1	1	1526	3397	Gia ®inh	Gia ®inh
+10042	1	1	1520	3398	Gia ®inh	Gia ®inh
+10043	1	1	1511	3381	Gia ®inh	Gia ®inh
+10044	1	1	1515	3374	Gia ®inh	Gia ®inh
+10045	1	1	1519	3368	Gia ®inh	Gia ®inh
+10046	1	1	1523	3368	Gia ®inh	Gia ®inh
+10047	1	1	1528	3367	Gia ®inh	Gia ®inh
+10048	1	1	1512	3363	Gia ®inh	Gia ®inh
+10049	1	1	1522	3356	Gia ®inh	Gia ®inh
+10050	1	1	1525	3445	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+10051	1	1	1539	3481	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+10052	1	1	1544	3376	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+10053	1	1	1504	3347	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+10054	1	1	1523	3319	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+10055	1	1	1562	3322	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+10056	1	1	1563	3204	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+10057	1	1	1550	3255	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+10058	1	1	1616	3246	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+10059	1	1	1599	3276	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+10060	1	1	1586	3205	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+10061	1	1	1605	3225	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+20001	1	2	1573	3153	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+20002	1	2	1594	3128	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+20003	1	2	1613	3109	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+20004	1	2	1632	3086	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+20005	1	2	1626	3126	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+20006	1	2	1663	3165	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+20007	1	2	1598	3153	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+20008	1	2	1636	3189	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+20009	1	2	1637	3226	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+20010	1	2	1701	3161	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+20011	1	2	1657	3119	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+20012	1	2	1611	3183	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+30001	1	3	1629	3137	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+30002	1	3	1616	3148	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+30003	1	3	1629	3159	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+30004	1	3	1639	3149	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+30005	1	3	1560	3153	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+30006	1	3	1590	3177	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+30007	1	3	1619	3216	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+30008	1	3	1699	3135	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+30009	1	3	1672	3094	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+30010	1	3	1646	3069	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+30011	1	3	1594	3116	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+40001	1	4	1757	2996	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+40002	1	4	1726	2995	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+40003	1	4	1762	2934	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+40004	1	4	1807	2908	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+40005	1	4	1835	2843	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+40006	1	4	1887	2895	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+40007	1	4	1810	2963	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+40008	1	4	1772	3072	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+40009	1	4	1818	2993	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+40010	1	4	1867	2974	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+40011	1	4	1920	2929	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+50001	1	5	1671	3357	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+50002	1	5	1721	3330	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+50003	1	5	1728	3393	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+50004	1	5	1654	3275	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+50005	1	5	1683	3277	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+50006	1	5	1666	3195	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+50007	1	5	1593	3119	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+50008	1	5	1531	3207	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+50009	1	5	1595	3260	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+50010	1	5	1601	3193	R­¬ng th­êng	B¶o r­¬ng ngÉu nhiªn
+80001	1	8	1376	2997	Ng­êi V« h×nh-Háa	C¬ quan
+80002	1	8	1438	2804	Ng­êi V« h×nh-Háa	C¬ quan
+80003	1	8	1475	3037	Ng­êi V« h×nh-Háa	C¬ quan
+80004	1	8	1448	3000	Ng­êi V« h×nh-Háa	C¬ quan
+80005	1	8	1475	3176	Ng­êi V« h×nh-Háa	C¬ quan
+80006	1	8	1398	3094	Ng­êi V« h×nh-Háa	C¬ quan
+80007	1	8	1440	3074	Ng­êi V« h×nh-Háa	C¬ quan
+80008	1	8	1483	3118	Ng­êi V« h×nh-Háa	C¬ quan
+80009	1	8	1438	3175	Ng­êi V« h×nh-Háa	C¬ quan
+80010	1	8	1441	2761	Ng­êi V« h×nh-Háa	C¬ quan
+80011	1	8	1438	2835	Ng­êi V« h×nh-Háa	C¬ quan
+80012	1	8	1416	2983	Ng­êi V« h×nh-Háa	C¬ quan
+80013	1	8	1459	3165	Ng­êi V« h×nh-Háa	C¬ quan
+80014	1	8	1516	3108	Ng­êi V« h×nh-b¨ng	C¬ quan
+80015	1	8	1434	3141	Ng­êi V« h×nh-b¨ng	C¬ quan
+80016	1	8	1483	2806	Ng­êi V« h×nh-b¨ng	C¬ quan
+80017	1	8	1404	2852	Ng­êi V« h×nh-b¨ng	C¬ quan
+80018	1	8	1414	2952	Ng­êi V« h×nh-b¨ng	C¬ quan
+80019	1	8	1501	3096	Ng­êi V« h×nh-b¨ng	C¬ quan
+80020	1	8	1497	3073	Ng­êi V« h×nh-b¨ng	C¬ quan
+80021	1	8	1433	3090	Ng­êi V« h×nh-b¨ng	C¬ quan
+80022	1	8	1475	2885	Ng­êi V« h×nh-b¨ng	C¬ quan
+80023	1	8	1394	2841	Ng­êi V« h×nh-b¨ng	C¬ quan
+80024	1	8	1421	2945	Ng­êi V« h×nh-b¨ng	C¬ quan
+80025	1	8	1480	3085	Ng­êi V« h×nh-b¨ng	C¬ quan
+80026	1	8	1497	3044	Ng­êi V« h×nh-b¨ng	C¬ quan
+80027	1	8	1425	3065	Ng­êi V« h×nh-b¨ng	C¬ quan
+80028	1	8	1495	2818	Ng­êi V« h×nh-b¨ng	C¬ quan
+80029	1	8	1380	2883	Ng­êi V« h×nh-b¨ng	C¬ quan
+80030	1	8	1383	2903	Ng­êi V« h×nh-ngñ	C¬ quan
+80031	1	8	1509	3157	Ng­êi V« h×nh-ngñ	C¬ quan
+80032	1	8	1517	3158	Ng­êi V« h×nh-ngñ	C¬ quan
+80033	1	8	1540	2940	Ng­êi V« h×nh-ngñ	C¬ quan
+80034	1	8	1581	3087	Ng­êi V« h×nh-ngñ	C¬ quan
+80035	1	8	1434	2768	Ng­êi V« h×nh-ngñ	C¬ quan
+80036	1	8	1591	2853	Ng­êi V« h×nh-ngñ	C¬ quan
+80037	1	8	1408	3081	Ng­êi V« h×nh-ngñ	C¬ quan
+80038	1	8	1514	2868	Ng­êi V« h×nh-ngñ	C¬ quan
+80039	1	8	1462	2761	Ng­êi V« h×nh-ngñ	C¬ quan
+80040	1	8	1593	2915	Ng­êi V« h×nh-ngñ	C¬ quan
+80041	1	8	1542	3138	Ng­êi V« h×nh-ngñ	C¬ quan
+80042	1	8	1544	3175	Ng­êi V« h×nh-ngñ	C¬ quan
+80043	1	8	1593	2886	Ng­êi V« h×nh-ngñ	C¬ quan
+80044	1	8	1586	3039	Ng­êi V« h×nh-ngñ	C¬ quan
+80045	1	8	1422	2853	Ng­êi V« h×nh-lo¹n	C¬ quan
+80046	1	8	1585	2852	Ng­êi V« h×nh-lo¹n	C¬ quan
+80047	1	8	1382	3056	Ng­êi V« h×nh-lo¹n	C¬ quan
+80048	1	8	1541	2760	Ng­êi V« h×nh-lo¹n	C¬ quan
+80049	1	8	1475	2832	Ng­êi V« h×nh-lo¹n	C¬ quan
+80050	1	8	1504	2969	Ng­êi V« h×nh-lo¹n	C¬ quan
+80051	1	8	1578	2860	Ng­êi V« h×nh-lo¹n	C¬ quan
+80052	1	8	1588	3008	Ng­êi V« h×nh-lo¹n	C¬ quan
+80053	1	8	1559	3068	Ng­êi V« h×nh-lo¹n	C¬ quan
+80054	1	8	1542	3115	Ng­êi V« h×nh-lo¹n	C¬ quan
+80055	1	8	1380	2862	Ng­êi V« h×nh-lo¹n	C¬ quan
+80056	1	8	1564	2864	Ng­êi V« h×nh-lo¹n	C¬ quan
+80057	1	8	1592	3065	Ng­êi V« h×nh-lo¹n	C¬ quan
+80058	1	8	1539	3086	Ng­êi V« h×nh-lo¹n	C¬ quan
+80059	1	8	1547	2847	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80060	1	8	1523	3027	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80061	1	8	1448	2943	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80062	1	8	1547	2813	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80063	1	8	1501	2829	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80064	1	8	1526	2984	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80065	1	8	1381	3010	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80066	1	8	1509	2756	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80067	1	8	1538	3006	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80068	1	8	1570	3072	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80069	1	8	1527	2772	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80070	1	8	1568	2960	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80071	1	8	1438	2990	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80072	1	8	1551	2764	Ng­êi V« h×nh-cho¸ng	C¬ quan
+80073	1	8	1378	2989	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80074	1	8	1489	3168	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80075	1	8	1510	3154	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80076	1	8	1594	2984	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80077	1	8	1497	3030	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80078	1	8	1477	3020	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80079	1	8	1513	3103	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80080	1	8	1522	3021	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80081	1	8	1505	2963	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80082	1	8	1520	2921	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80083	1	8	1510	2889	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80084	1	8	1472	2887	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80085	1	8	1459	2927	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80086	1	8	1444	3000	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80087	1	8	1589	2936	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80088	1	8	1497	2755	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80089	1	8	1473	2756	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch
+80090	1	8	1383	2947	ThÇn bÝ kh¸ch	ThÇn bÝ kh¸ch

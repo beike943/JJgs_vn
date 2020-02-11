@@ -1,0 +1,30 @@
+Tªn thó c­ng	Lo¹i h×nh chİnh	Lo¹i h×nh phô	Ph©n lo¹i chi tiÕt	NÆng	Gi¸	Cã ph¶i lµ thó c­ng tÊn c«ng	Linh tİnh ban ®Çu	PhÈm chÊt linh tİnh	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	HiÖn h×nh nhá trªn giao diÖn	HiÖn h×nh lín trªn giao diÖn	ThuyÕt minh	L­u (chuçi kı tù)	Khi vøt ra ngoµi sÏ hiÓn thŞ tªn	File gèc	CÊp	Cã/kh«ng thÓ giao dŞch (0 ®­îc,1 kh«ng ®­îc,)	Cã/kh«ng thÓ vøt (0 ®­îc; 1 kh«ng ®­îc)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)
+§iªu mµu th¾ng	2	20	1	1	0	1	8,12	30,40										\image\item\other\°×õõa1.spr	\image\item\other\°×õõa0.spr	§iªu tr¾ng th­êng, rÊt th­êng thÊy				1	2	1		
+V«i §iªu	2	20	2	1	0	1	8,12	30,40										\image\item\other\»Òõõa1.spr	\image\item\other\»Òõõa0.spr	§iªu x¸m th­êng, rÊt th­êng thÊy				1	2	1		
+Kim §iªu	2	20	3	1	0	1	8,12	30,40										\image\item\other\»Æõõa1.spr	\image\item\other\»Æõõa0.spr	§iªu vµng th­êng, rÊt th­êng thÊy				1	2	1		
+Tö §iªu	2	20	4	1	0	1	8,12	30,40										\image\item\other\×Ïõõa1.spr	\image\item\other\×Ïõõa0.spr	§iªu tİm th­êng, rÊt th­êng thÊy				1	2	1		
+Hång §iªu	2	20	5	1	0	1	8,12	30,40										\image\item\other\ºìõõa1.spr	\image\item\other\ºìõõa0.spr	§iªu ®á th­êng, rÊt th­êng thÊy				1	2	1		
+§iªu 7 Mµu	2	20	6	1	0	1	8,12	30,50										\image\item\other\Æß²Êõõa1.spr	\image\item\other\Æß²Êõõa0.spr	§iªu 7 mµu rÊt hiÕm cã				1	2	1		
+§o¹n VÜ §iªu-Tr¾ng	2	20	7	1	0	1	8,12	30,40										\image\item\other\°×õõa1.spr	\image\item\other\°×õõa0.spr	§o¹n VÜ §iªu-Tr¾ng th­êng, rÊt th­êng thÊy				1	2	1		
+§o¹n VÜ §iªu-X¸m	2	20	8	1	0	1	8,12	30,40										\image\item\other\»Òõõa1.spr	\image\item\other\»Òõõa0.spr	§o¹n VÜ §iªu-X¸m th­êng, rÊt th­êng thÊy				1	2	1		
+§o¹n VÜ §iªu-Vµng	2	20	9	1	0	1	8,12	30,40										\image\item\other\»Æõõa1.spr	\image\item\other\»Æõõa0.spr	§o¹n VÜ §iªu-Vµng th­êng, rÊt th­êng thÊy				1	2	1		
+§o¹n VÜ §iªu-Tİm	2	20	10	1	0	1	8,12	30,40										\image\item\other\×Ïõõa1.spr	\image\item\other\×Ïõõa0.spr	§o¹n VÜ §iªu-Tİm th­êng, rÊt th­êng thÊy				1	2	1		
+§o¹n VÜ §iªu-§á	2	20	11	1	0	1	8,12	30,40										\image\item\other\ºìõõa1.spr	\image\item\other\ºìõõa0.spr	§o¹n VÜ §iªu-§á th­êng, rÊt th­êng thÊy				1	2	1		
+§o¹n VÜ §iªu 7 Mµu	2	20	12	1	0	1	8,12	30,50										\image\item\other\Æß²Êõõa1.spr	\image\item\other\Æß²Êõõa0.spr	§o¹n VÜ §iªu 7 mµu rÊt hiÕm cã				1	2	1		
+ThiÓm §iÖn §iªu-Tr¾ng	2	20	13	1	0	1	8,12	30,40										\image\item\other\°×õõa1.spr	\image\item\other\°×õõa0.spr	ThiÓm §iÖn §iªu-Tr¾ng th­êng, rÊt th­êng thÊy				1	2	1		
+ThiÓm §iÖn §iªu-X¸m	2	20	14	1	0	1	8,12	30,40										\image\item\other\»Òõõa1.spr	\image\item\other\»Òõõa0.spr	ThiÓm §iÖn §iªu-X¸m th­êng, rÊt th­êng thÊy				1	2	1		
+ThiÓm §iÖn §iªu-Vµng	2	20	15	1	0	1	8,12	30,40										\image\item\other\»Æõõa1.spr	\image\item\other\»Æõõa0.spr	ThiÓm §iÖn §iªu-Vµng th­êng, rÊt th­êng thÊy				1	2	1		
+ThiÓm §iÖn §iªu-Tİm	2	20	16	1	0	1	8,12	30,40										\image\item\other\×Ïõõa1.spr	\image\item\other\×Ïõõa0.spr	ThiÓm §iÖn §iªu-Tİm th­êng, rÊt th­êng thÊy				1	2	1		
+ThiÓm §iÖn §iªu-§á	2	20	17	1	0	1	8,12	30,40										\image\item\other\ºìõõa1.spr	\image\item\other\ºìõõa0.spr	ThiÓm §iÖn §iªu-§á th­êng, rÊt th­êng thÊy				1	2	1		
+ThiÓm §iÖn §iªu 7 Mµu	2	20	18	1	0	1	8,12	30,50										\image\item\other\Æß²Êõõa1.spr	\image\item\other\Æß²Êõõa0.spr	ThiÓm §iÖn §iªu 7 mµu rÊt hiÕm cã				1	2	1		
+Tiªn §iªu-Tr¾ng	2	20	19	1	0	1	10,15	40,50										\image\item\other\°×õõa1.spr	\image\item\other\°×õõa0.spr	Mét trong nh÷ng thó c­ng cña Cöu Thiªn Tiªn N÷, kh«ng biÕt v× sao l¹i l¹c xuèng trÇn gian				1	2	1		
+Tiªn §iªu-X¸m	2	20	20	1	0	1	10,15	40,50										\image\item\other\»Òõõa1.spr	\image\item\other\»Òõõa0.spr	Mét trong nh÷ng thó c­ng cña Cöu Thiªn Tiªn N÷, kh«ng biÕt v× sao l¹i l¹c xuèng trÇn gian				1	2	1		
+Tiªn §iªu-Vµng	2	20	21	1	0	1	10,15	40,50										\image\item\other\»Æõõa1.spr	\image\item\other\»Æõõa0.spr	Mét trong nh÷ng thó c­ng cña Cöu Thiªn Tiªn N÷, kh«ng biÕt v× sao l¹i l¹c xuèng trÇn gian				1	2	1		
+Tiªn §iªu-Tİm	2	20	22	1	0	1	10,15	40,50										\image\item\other\×Ïõõa1.spr	\image\item\other\×Ïõõa0.spr	Mét trong nh÷ng thó c­ng cña Cöu Thiªn Tiªn N÷, kh«ng biÕt v× sao l¹i l¹c xuèng trÇn gian				1	2	1		
+Tiªn §iªu-§á	2	20	23	1	0	1	10,15	40,50										\image\item\other\ºìõõa1.spr	\image\item\other\ºìõõa0.spr	Mét trong nh÷ng thó c­ng cña Cöu Thiªn Tiªn N÷, kh«ng biÕt v× sao l¹i l¹c xuèng trÇn gian				1	2	1		
+Tiªn §iªu 7 Mµu	2	20	24	1	0	1	10,15	50,60										\image\item\other\Æß²Êõõa1.spr	\image\item\other\Æß²Êõõa0.spr	Mét trong nh÷ng thó c­ng cña Cöu Thiªn Tiªn N÷, kh«ng biÕt v× sao l¹i l¹c xuèng trÇn gian				1	2	1		
+Linh KiÕm	2	20	100	1	0	1	0,0	0,0										\image\item\weapon\wea_hugesword_01a1.spr	\image\item\weapon\wea_hugesword_01a0.spr	Linh KiÕm th­êng.<enter><color=Gold>Th¨ng cÊp Linh KiÕm sÏ t¨ng s¸t th­¬ng b¶n th©n, mçi cÊp 2 ®iÓm.				1	1	1		
+Linh KiÕm	2	20	101	1	0	1	0,0	0,0										\image\item\weapon\wea_hugesword_02a1.spr	\image\item\weapon\wea_hugesword_02a0.spr	Linh KiÕm luyÖn hãa ®¬n gi¶n.<enter><color=Gold>Th¨ng cÊp Linh KiÕm sÏ t¨ng s¸t th­¬ng b¶n th©n, mçi cÊp 2 ®iÓm.				1	1	1		
+Linh KiÕm	2	20	102	1	0	1	0,0	0,0										\image\item\weapon\wea_hugesword_03a1.spr	\image\item\weapon\wea_hugesword_03a0.spr	Linh KiÕm luyÖn hãa kü.<enter><color=Gold>Th¨ng cÊp Linh KiÕm sÏ t¨ng s¸t th­¬ng b¶n th©n, mçi cÊp 2 ®iÓm.				1	1	1		
+Linh KiÕm	2	20	103	1	0	1	0,0	0,0										\image\item\weapon\wea_hugesword_04a1.spr	\image\item\weapon\wea_hugesword_04a0.spr	Linh KiÕm luyÖn hãa l©u n¨m.<enter><color=Gold>Th¨ng cÊp Linh KiÕm sÏ t¨ng s¸t th­¬ng b¶n th©n, mçi cÊp 2 ®iÓm.				1	1	1		
+Kho¸ng ThÕ ThÇn KiÕm	2	20	104	1	0	1	0,0	0,0										\image\item\weapon\wea_hugesword_05a1.spr	\image\item\weapon\wea_hugesword_05a0.spr	Kho¸ng ThÕ ThÇn KiÕm.<enter><color=Gold>Th¨ng cÊp Linh KiÕm sÏ t¨ng s¸t th­¬ng b¶n th©n, mçi cÊp 2 ®iÓm.				1	1	1		

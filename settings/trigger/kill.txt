@@ -1,0 +1,303 @@
+ID	EventType	TriggerType	TargetName	TargetMap	TotalCount	ScriptFile	ScriptFunc
+1	0	1	L­u Manh		1	\script\task\world\ox_quest\five_elements_weapon\step002_004_³É¶¼½¼ÇøÁ÷Ã¥.lua	wq_ox_few_002_004
+2	0	1	L­u Manh		30	\script\task\world\ox_quest\five_elements_weapon\step003_001a_³É¶¼½¼ÇøÁ÷Ã¥.lua	wq_ox_few_003_001a
+3	0	1	C«n ®å		20	\script\task\world\ox_quest\five_elements_weapon\step003_001b_³É¶¼½¼ÇøÎÞÀµ.lua	wq_ox_few_003_001b
+4	0	1	Hæ		1	\script\task\world\ox_quest\five_elements_weapon\step005_003_ÉÙÁÖËÂÍâÃÍ»¢.lua	wq_ox_few_005_003
+5	0	1	Hñ thi		1	\script\task\world\ox_quest\five_elements_weapon\step004_004_³É¶¼ÄÏ½¼¸¯Ê¬.lua	wq_ox_few_004_004
+
+10	0	1			1	\script\online\motherday\mothersday_head.lua	Drop_Fish
+11	0	1			1	\script\online\motherday\mothersday_head.lua	Drop_Rice
+12	0	1			1	\script\online\motherday\mothersday_head.lua	Drop_Fruit
+
+51	0	1	Hµnh lý cña d©n lµng		1	\script\task\world\ox_quest\oni_boar_teeth\step001_002_³É¶¼Î÷½¼°ü¹ü.lua	wq_ox_obt_001_002
+52	0	1	Heo rõng		20	\script\task\world\ox_quest\oni_boar_teeth\step001_004_³É¶¼Î÷½¼Ò°Öí.lua	wq_ox_obt_001_004
+53	0	1	Heo rõng		1	\script\task\world\ox_quest\oni_boar_teeth\step001_006_³É¶¼Î÷½¼Ò°Öí.lua	wq_ox_obt_001_006
+
+101	0	1	Thá x¸m		30	\script\task\world\ox_quest\the_black_blood\step002_003_³É¶¼±±½¼»ÒÍÃ.lua	wq_ox_tbb_002_003
+110	0	1				\script\online\newyear08\qingtong_trigger.lua	finishkill
+150	0	1			1	\script\²Ø½£É½×¯\ying_xiong_ling.lua	yxl_killed
+
+201	0	1	Thá rõng		10	\script\task\random\task_start.lua	finish_kill
+202	0	1	Thá x¸m		10	\script\task\random\task_start.lua	finish_kill
+203	0	1	Heo rõng		10	\script\task\random\task_start.lua	finish_kill
+204	0	1	ThiÕt Gi¸p Trïng		10	\script\task\random\task_start.lua	finish_kill
+205	0	1	Sãi xanh		10	\script\task\random\task_start.lua	finish_kill
+206	0	1	KiÕm Kh¸ch		10	\script\task\random\task_start.lua	finish_kill
+207	0	1	§ao HiÖp		10	\script\task\random\task_start.lua	finish_kill
+208	0	1	M· HÇu		10	\script\task\random\task_start.lua	finish_kill
+209	0	1	Sãi ®iªn		10	\script\task\random\task_start.lua	finish_kill
+210	0	1	NhÖn		10	\script\task\random\task_start.lua	finish_kill
+211	0	1	Nh·n KÝnh Xµ		10	\script\task\random\task_start.lua	finish_kill
+212	0	1	§ao TuyÖt		10	\script\task\random\task_start.lua	finish_kill
+213	0	1	§ao V­¬ng		10	\script\task\random\task_start.lua	finish_kill
+214	0	1	Bé kho¸i		10	\script\task\random\task_start.lua	finish_kill
+215	0	1	Tèng ®ao binh		10	\script\task\random\task_start.lua	finish_kill
+216	0	1	Tèng qu©n tö sÜ		10	\script\task\random\task_start.lua	finish_kill
+217	0	1	Hæ Y Nh©n		10	\script\task\random\task_start.lua	finish_kill
+218	0	1	Hoang m¹c ®ao kh¸ch		10	\script\task\random\task_start.lua	finish_kill
+219	0	1	L­u KhÊu		10	\script\task\random\task_start.lua	finish_kill
+220	0	1	Tµ T¨ng		10	\script\task\random\task_start.lua	finish_kill
+221	0	1	Trïng Qu¸i V­¬ng		10	\script\task\random\task_start.lua	finish_kill
+222	0	1	Vâ sÜ dÞ téc		10	\script\task\random\task_start.lua	finish_kill
+223	0	1	Cung thñ ngo¹i téc		10	\script\task\random\task_start.lua	finish_kill
+
+250	0	1	Ngäc phong		1	\script\task\world\´óÀí\task_trigger.lua	PoisonBee_Killed_1
+251	0	1	RÕt ®éc		20	\script\task\world\´óÀí\task_trigger.lua	PoisonSco_Killed_20
+252	0	1	Thùc Nh©n Th¶o		1	\script\task\world\´óÀí\task_trigger.lua	AnPlant_Killed_1
+253	0	1	Xi Háa B¹ch gi¸o ®å		10	\script\task\world\´óÀí\task_trigger.lua	ChiHuoWhite_Killed_10
+254	0	1	Xi Háa H¾c gi¸o ®å		10	\script\task\world\´óÀí\task_trigger.lua	ChiHuoBlack_Killed_10
+255	0	1	Xi Háa XÝch gi¸o ®å		15	\script\task\world\´óÀí\task_trigger.lua	ChiHuoRed_Killed_15
+256	0	1	Miªu LÜnh Hé Ên		1	\script\task\world\´óÀí\task_trigger.lua	MLHY_Killed_1
+257	0	1	Miªu LÜnh Thæ ty		1	\script\task\world\´óÀí\task_trigger.lua	MLTS_Killed_1
+258	0	1	Tö D¹ Hæ		1	\script\task\world\´óÀí\task_trigger.lua	MidnightTiger_Killed_1
+259	0	1	B¹ch §Çu §iªu		1	\script\task\world\´óÀí\task_trigger.lua	BaldEagle_Killed_1
+260	0	1	D¬i ®éc		20	\script\task\world\´óÀí\task_trigger.lua	PoisonBat_Killed_20
+261	0	1	¸c Lµ		1	\script\task\world\´óÀí\task_trigger.lua	BloodCrow_Killed_1
+262	0	1	Kh«i Lçi §éc nh©n		15	\script\task\world\´óÀí\task_trigger.lua	CreatureMan_Killed_15
+263	0	1	Xi Háa tr­ëng l·o		15	\script\task\world\´óÀí\task_trigger.lua	ChiHuoElder_Killed_15
+264	0	1	H¾c Tinh Tinh		1	\script\task\world\´óÀí\task_trigger.lua	Jocko_Killed_1
+
+189	0	1	L­u Manh		1	\script\task\world\lizhi_ÈªÖÝ\task_trigger.lua	Lm_Killed_1
+190	0	1	Diªu LËp Thµnh		1	\script\task\world\lizhi_ÈªÖÝ\task_trigger.lua	Ylc_Killed
+191	0	1	L­u Manh		10	\script\task\world\lizhi_ÈªÖÝ\task_trigger.lua	Lm_Killed_10
+192	0	1	C«n ®å		10	\script\task\world\lizhi_ÈªÖÝ\task_trigger.lua	Wl_Killed
+193	0	1	D­îc th¶o		1	\script\task\world\lizhi_ÈªÖÝ\task_trigger.lua	Yc_Killed
+194	0	1	Heo rõng		1	\script\task\world\lizhi_ÈªÖÝ\task_trigger.lua	Yz_Killed
+195	0	1	Ch­¬ng VÜ C­¬ng		1	\script\task\world\lizhi_ÈªÖÝ\task_trigger.lua	Zwg_Killed
+
+199	0	1	C«n ®å		1	\script\task\world\lizhi_ãê¾©\task_trigger.lua	Wl_Killed_5
+200	0	1	L­u Manh		20	\script\task\world\lizhi_ãê¾©\task_trigger.lua	Lm_Killed
+198	0	1	C«n ®å		10	\script\task\world\lizhi_ãê¾©\task_trigger.lua	Wl_Killed
+
+502	0	1		217	1	\script\task\world\lizhi_³¤¸èÃÅ\task_trigger.lua	Yzl_Killed
+503	0	1	LiÖp Hé	218	1	\script\task\world\lizhi_³¤¸èÃÅ\task_trigger.lua	Lbs_Killed
+504	0	1		327	1	\script\task\world\lizhi_³¤¸èÃÅ\task_trigger.lua	Wmb_Killed
+505	0	1		326	1	\script\task\world\lizhi_³¤¸èÃÅ\task_trigger.lua	Mxsz_Killed
+506	0	1	Hå Ly		20	\script\task\world\lizhi_³¤¸èÃÅ\task_trigger.lua	Hl_Killed
+513	0	1	Sãi x¸m		1	\script\task\world\lizhi_³É¶¼\task_trigger.lua	Xtl_Killed
+514	0	1	Sãi xanh		1	\script\task\world\lizhi_³É¶¼\task_trigger.lua	Xql_Killed
+515	0	1	B¸ch NhËt TiÔn		1	\script\task\world\lizhi_³É¶¼\task_trigger.lua	Brj_Killed
+516	0	1	Trém vÆt		1	\script\task\world\lizhi_³É¶¼\task_trigger.lua	Xt_Killed
+517	0	1	Phi tÆc		1	\script\task\world\lizhi_³É¶¼\task_trigger.lua	Fz_Killed
+
+518	0	1	Hæ		1	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	LaoHu_Killed
+519	0	1	LiÖp Hé	218	1	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	LieHu_Killed
+520	0	1		326	1	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	Mxsz_Killed
+
+521	0	1	Tèng ®ao binh		20	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	Db_Killed
+522	0	1	Tèng qu©n tö sÜ		20	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	Qb_Killed
+523	0	1		310	1	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	Jmg_Killed
+524	0	1	T©y H¹ T­íng LÜnh		3	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	Jl_Killed
+525	0	1		309	1	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	Sd_Killed
+526	0	1	N÷ HiÖp Kh¸ch		1	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	Njx_Killed
+527	0	1	R­¬ng ®éc d­îc		5	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	Dyx_Killed
+528	0	1	Liªu ®ao binh		15	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	Ldb_Killed
+529	0	1	Liªu th­¬ng qu©n		15	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	Lqb_Killed
+530	0	1	Liªu tiÔn binh		15	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	Ljb_Killed
+531	0	1	Tµ T¨ng		1	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	Xs_Killed
+532	0	1	Ph¸p S­ T©y H¹		1	\script\task\world\lizhi_ÏåÑô\task_trigger.lua	Zs_Killed
+533	0	1	Hæ		1	\script\task\world\lizhi_ÑïÖÝ\task_trigger.lua	LaoHu_Killed
+534	0	1	Th¶o KhÊu		1	\script\task\world\lizhi_ÑïÖÝ\task_trigger.lua	Ck_Killed
+535	0	1	Cãc ®éc		1	\script\task\world\lizhi_ÑïÖÝ\task_trigger.lua	Dcc_Killed
+536	0	1	Bß c¹p		1	\script\task\world\lizhi_ÑïÖÝ\task_trigger.lua	Tx_Killed
+537	0	1	Thiªn ¢m Vâ SÜ		1	\script\task\world\lizhi_ÑïÖÝ\task_trigger.lua	Ws_Killed
+538	0	1	Tói tÇm th­êng	107	1	\script\task\world\lizhi_ÑïÖÝ\task_trigger.lua	Bg_Killed
+539	0	1	Th­¬ng Viªn	107	1	\script\task\world\lizhi_ÑïÖÝ\task_trigger.lua	Cy_Killed
+540	0	1	Ng©n Hå	107	1	\script\task\world\lizhi_ÑïÖÝ\task_trigger.lua	Yh_Killed
+541	0	1	Th­¬ng ThÇn		30	\script\task\world\lizhi_ÑïÖÝ\task_trigger.lua	Qs_Killed
+542	0	1	Xi Háa gi¸o ®å		1	\script\task\world\lizhi_ÑïÖÝ\task_trigger.lua	Jt_Killed
+544	0	1	§«ng H¶i Thñy Téc		1	\script\task\world\lizhi_ÑïÖÝ\task_trigger.lua	Sz_Killed
+545	0	1	§«ng H¶i Thñy Téc Binh sÜ		1	\script\task\world\lizhi_ÑïÖÝ\task_trigger.lua	Szsb_Killed
+
+546	0	1	Hæ		1	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	LaoHu_Killed
+547	0	1	Hñ thi		1	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	Fs_Killed
+548	0	1	Hµnh Thi		1	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	Xs_Killed
+549	0	1	Väng Giang Hång		1	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	Wjh_Killed
+550	0	1	Qu¹ §en		1	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	Hy_Killed
+551	0	1	ThiÕu n÷ ¤ M«ng Bé		1	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	Sn_Killed
+552	0	1	¤ M«ng Téc Nh©n		1	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	Zr_Killed
+553	0	1	¤ M«ng Dòng SÜ		1	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	Ys_Killed
+554	0	1	Tèng V¹n		1	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	Sw_Killed
+555	0	1	Lý LËp		1	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	Ll_Killed
+556	0	1	Cè §¹i TÈu		1	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	G_Killed
+557	0	1	§ång nh©n		1	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	Tr_Killed
+558	0	1	KiÕm Cuång		8	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	Jk_Killed
+559	0	1	§ao TuyÖt		10	\script\task\world\lizhi_½­½ò´å\task_trigger.lua	Dj_Killed
+
+600	0	1			1	\script\item\jiangquan_diaoluo.lua	finishkill
+601	0	1			1	\script\item\yuanshi_diaoluo.lua	finishkill
+
+1000	0	1			1	\script\task\WeekEnd\task_trigger.lua	Kill_All
+1001	0	1		951	1	\script\task\WeekEnd\task_trigger.lua	Kill_Wk
+1002	0	1		952	1	\script\task\WeekEnd\task_trigger.lua	Kill_Wk
+1003	0	1		953	1	\script\task\WeekEnd\task_trigger.lua	Kill_Wk
+1004	0	1		954	1	\script\task\WeekEnd\task_trigger.lua	Kill_Wk
+1005	0	1		955	1	\script\task\WeekEnd\task_trigger.lua	Kill_Wk
+1006	0	1		956	1	\script\task\WeekEnd\task_trigger.lua	Kill_Wk
+1007	0	1		957	1	\script\task\WeekEnd\task_trigger.lua	Kill_Wk
+1008	0	1		958	1	\script\task\WeekEnd\task_trigger.lua	Kill_Wk
+1009	0	1		959	1	\script\task\WeekEnd\task_trigger.lua	Kill_Wk
+1010	0	1		960	1	\script\task\WeekEnd\task_trigger.lua	Kill_Wk
+
+1101	0	1			1	\script\²Ø½£É½×¯\task_script\³É¶¼\²Ø½£Ê¹Õß.lua	Killing_Unit
+1102	0	1			1	\script\²Ø½£É½×¯\task_script\ãê¾©\²Ø½£Ê¹Õß.lua	Killing_Unit
+1103	0	1			1	\script\²Ø½£É½×¯\task_script\ÈªÖÝ\²Ø½£Ê¹Õß.lua	Killing_Unit
+1104	0	1			1	\script\²Ø½£É½×¯\task_script\ÏåÑô\²Ø½£Ê¹Õß.lua	Killing_Unit
+1105	0	1			1	\script\²Ø½£É½×¯\task_script\ÑïÖÝ\²Ø½£Ê¹Õß.lua	Killing_Unit
+
+1106	0	1			1	\script\Ì«Ðé»Ã¾³\trigger.lua	OnKill
+
+1200	0	1			1	\script\online\Ê¥µ®½Ú»î¶¯\christmas_trigger.lua	sdlw_killed
+1201	0	1			1	\script\online\´º½Ú»î¶¯\newyear_trigger.lua	material_killed
+1202	0	1			1	\script\online\qingrenyuanxiao\qryx_trigger.lua	chocolate_drop
+1203	0	1	Ng­êi lïn		1	\script\online\qingrenyuanxiao\qryx_trigger.lua	drop_libing
+1204	0	1	C«n ®å		1	\script\online\qingrenyuanxiao\qryx_trigger.lua	drop_hzmty
+1205	0	1	C«n ®å		30	\script\online\qingming08\tomb_sweep_2008_kill_cback.lua	monster_killed
+1206	0	1	Quan sø		30	\script\online\qingming08\tomb_sweep_2008_kill_cback.lua	monster_killed
+1207	0	1	Cao thñ quan ngo¹i		30	\script\online\qingming08\tomb_sweep_2008_kill_cback.lua	monster_killed
+1208	0	1	TÇm B¶o Nh©n		30	\script\online\qingming08\tomb_sweep_2008_kill_cback.lua	monster_killed
+
+1220	0	1	Yªu c¬ Ba T­		1	\script\task\world\xibei\task_trigger.lua	bosihanfu_killed_1
+1221	0	1	T©y Vùc H·n Phô		1	\script\task\world\xibei\task_trigger.lua	xiyuhanfu_killed_1
+1222	0	1	NhÊt PhÈm §­êng MËt Sø		1	\script\task\world\xibei\task_trigger.lua	yipintangmishi_killed_1
+1223	0	1	T©y B¾c Tr¸ng H¸n		1	\script\task\world\xibei\task_trigger.lua	xibeizhuanghan_killed_1
+1224	0	1	¢m NhËt Sø 		1	\script\task\world\xibei\task_trigger.lua	anrishi_killed_1
+1225	0	1	Minh NhËt Sø		1	\script\task\world\xibei\task_trigger.lua	mingyueshi_killed_1
+1226	0	1	T©y B¾c Yªn H¸n		1	\script\task\world\xibei\task_trigger.lua	xibeiyanhan_killed_1
+1227	0	1	Gian TÕ Minh gi¸o		1	\script\task\world\xibei\task_trigger.lua	mingjiaojianxi_killed_1
+1228	0	1	§Ö Tö Minh gi¸o		30	\script\task\world\xibei\task_trigger.lua	mingjiaopantu_killed_30
+1229	0	1	NhÊt PhÈm §­êng ¸m S¸y Sø		30	\script\task\world\xibei\task_trigger.lua	yipintanganshashi_killed_30
+1230	0	1	KÎ ®µo mé		1	\script\task\world\xibei\task_trigger.lua	daomuren_killed_1
+1231	0	1	T­îng binh m· Vò VÖ		25	\script\task\world\xibei\task_trigger.lua	kongshoubingmayong_killed_25
+1232	0	1	T­îng binh m· Hé VÖ		25	\script\task\world\xibei\task_trigger.lua	chinubingmayong_killed_25
+1233	0	1	T©y H¹ Vâ SÜ		1	\script\task\world\xibei\task_trigger.lua	xixiawushi_killed_1
+1234	0	1	T©y H¹ Dòng SÜ		1	\script\task\world\xibei\task_trigger.lua	xixiayongshi_killed_1
+1235	0	1	D­îc Nh©n		30	\script\task\world\xibei\task_trigger.lua	yaoren_killed_30
+1236	0	1	Ng­êi c©y		1	\script\task\world\xibei\task_trigger.lua	qiannianshuren_killed_1
+1237	0	1	Sa M¹c Hµnh Nh©n		1	\script\task\world\xibei\task_trigger.lua	shamoxingzhe_killed_1
+1238	0	1	TÇm B¶o Nh©n		1	\script\task\world\xibei\task_trigger.lua	xunbaoren_killed_1
+1239	0	1	LiÖt Nhan Li Long		1	\script\task\world\xibei\task_trigger.lua	lieyanchilong_killed_1
+1240	0	1	XÝch LuyÖn Háa Hå		1	\script\task\world\xibei\task_trigger.lua	chilianhuohu_killed_1
+1241	0	1	Cao thñ quan ngo¹i		1	\script\task\world\xibei\task_trigger.lua	guanwaigaoshou_killed_1
+1242	0	1		889	1	\script\gongcheng\personal_task\task_trigger.lua	tong_task_killed
+1243	0	1	Thá MËp		1	\script\online\viet_event\200907\3\item_pangtuzibox.lua	task_trigger
+1245	0	1			1	\script\task\global_task\trigger.lua	TSDL_Trigger
+1246	0	1	Sãi x¸m		10	\script\task\global_task\trigger.lua	xiaotulang
+1247	0	1	Sãi xanh		10	\script\task\global_task\trigger.lua	xiaoqinglang
+1248	0	1	Bao tr­ëng l·o		1	\script\task\global_task\trigger.lua	baozhanglao
+1249	0	1	Gi¸o ®å		4	\script\task\global_task\trigger.lua	jiaotu
+1250	0	1	TiÓu H¾c tr­		3	\script\task\global_task\trigger.lua	heiyezhu
+1251	0	1	H¾c Tinh Tinh		10	\script\task\global_task\trigger.lua	heixingxing
+1252	0	1	Muçi ®éc		15	\script\task\global_task\trigger.lua	dushe
+1253	0	1	Nh·n kÝnh xµ		10	\script\task\global_task\trigger.lua	yanjingshe
+1254	0	1	Niªn thó to lín		1	\script\task\global_task\trigger.lua	danianshou
+1255	0	1	Ng©n KiÕm		7	\script\task\global_task\trigger.lua	yinjian
+1256	0	1	Hoµng Chung C«ng		1	\script\task\global_task\trigger.lua	huangzhonggong
+1257	0	1	Gi¸o ®å		10	\script\task\global_task\trigger.lua	jiaotu_30109
+1258	0	1	ThÝch Kh¸ch Hoµng Kú		20	\script\task\global_task\trigger.lua	huangqicike
+1259	0	1	Tr­ëng l·o Hoµng H÷u Vi		1	\script\task\global_task\trigger.lua	huangyouwei
+1260	0	1	T¶ hé ph¸p M· LËp §ao		1	\script\task\global_task\trigger.lua	malidao
+1261	0	1	Tr­ëng l·o Tiªu NhÜ Hång		1	\script\task\global_task\trigger.lua	xiaolihong
+1262	0	1	Tr­ëng l·o Phi Thiªn Lam Miªu		1	\script\task\global_task\trigger.lua	feitianmao
+1263	0	1	Lam Kú ThÝch Kh¸ch		20	\script\task\global_task\trigger.lua	lanqicike
+1264	0	1	Tr­ëng l·o B¹ch Linh Linh		1	\script\task\global_task\trigger.lua	bailingling
+1265	0	1	ThÝch Kh¸ch B¹ch Kú		20	\script\task\global_task\trigger.lua	baiqicike
+1267	0	1	ThÝch Kh¸ch Hoµng Kú		4	\script\task\item\Õ½Æì.lua	huangqicike_118
+1268	0	1	ThÝch Kh¸ch Hång Kú		4	\script\task\item\Õ½Æì.lua	hongqicike_118
+1269	0	1	ThÝch Kh¸ch B¹ch Kú		4	\script\task\item\Õ½Æì.lua	baiqicike_118
+1270	0	1	Lam Kú ThÝch Kh¸ch		4	\script\task\item\Õ½Æì.lua	lanqicike_118
+1271	0	1	ThÝch Kh¸ch H¾c Kú		4	\script\task\item\Õ½Æì.lua	heiqicike_118
+1272	0	1	H÷u hé ph¸p Lý Tam §ao		1	\script\task\item\Õ½Æì.lua	lisandao_118
+1273	0	1	Du Hån		10	\script\task\global_task\trigger.lua	youhun_121
+1274	0	1	H¸m S¬n ®¹i v­¬ng		1	\script\task\global_task\trigger.lua	hanshandawan
+1275	0	1				\script\online\liangshanboss\lsb_trigger.lua	LSB_Trigger
+1276	0	1				\script\online\olympic\oly_trigger.lua	OLY_Trigger
+1277	0	1				\script\online\qianhe_tower\qht_trigger.lua	Qht_Trigger
+1278	0	1				\script\online\dazitie\dzt_head.lua	dzt_tmz_kill
+1279	0	1				\script\vng\kill_trigger.lua	Vng_Kill_Trigger
+1280	0	1	ThÇn bÝ cung tiÔn thñ		10	\script\task\global_task\trigger.lua	shenmigongjianshou
+1281	0	1	ThuÇn NhÊt Ch­ëng		1	\script\task\global_task\trigger.lua	chunyizhang
+1282	0	1	D· Mao T­îng		10	\script\task\global_task\trigger.lua	yemaoxiang
+1283	0	1	H¾c Tinh Tinh		10	\script\task\global_task\trigger.lua	heixingxing_101
+1284	0	1	Háa Kú L©n		10	\script\task\global_task\trigger.lua	huoqilin
+1285	0	1	ThiÕt Ch­ëng Èn SÜ		10	\script\task\global_task\trigger.lua	tiezhangyinsi
+1286	0	1	Lý Nh­îc Phi		1	\script\task\global_task\trigger.lua	liruofei
+1287	0	1	Ma Hãa Tèng Binh		30	\script\task\global_task\trigger.lua	mohuasongbing
+1288	0	1	Ma Hãa Liªu Tiªn Phong		1	\script\task\global_task\trigger.lua	mohualiaoxianfeng
+1289	0	1	Ma Hãa Liªu Binh		30	\script\task\global_task\trigger.lua	mohualiaobing
+1290	0	1	Ma Hãa Tèng Tiªn Phong		1	\script\task\global_task\trigger.lua	mohuasongxianfeng
+1293	0	1	Qu¸i vËt		1	\script\function\zq_battles\zq_head.lua	ZQ_ProtectSeal_Killer
+1294	0	1	Ng­ Qu¸i		1	\script\task\global_task\trigger.lua	yugaui
+1295	0	1	TiÓu Lam §ao Quû		10	\script\task\global_task\trigger.lua	xiaolandaogui
+1296	0	1	Yªu Hå		1	\script\task\global_task\trigger.lua	yaohu
+1297	0	1				\script\global\npcdeath_trigger.lua	OnNpcDeath
+1298	0	1	TiÓu Hång ®ao quû		30	\script\task\global_task\trigger.lua	xiaohongdaogui
+1299	0	1	Du Hån		30	\script\task\global_task\trigger.lua	youhui
+1300	0	1	Tµ T¨ng		30	\script\task\global_task\trigger.lua	xieseng
+1301	0	1	Sãi x¸m		30	\script\task\global_task\trigger.lua	huilang
+1302	0	1	Liªu ®ao binh		30	\script\task\global_task\trigger.lua	liaodaobing
+1303	0	1	Phi tÆc		30	\script\task\global_task\trigger.lua	feizei
+1304	0	1	Sãi ®iªn		30	\script\task\global_task\trigger.lua	dianlang
+1305	0	1	Méc nh©n		30	\script\task\global_task\trigger.lua	muren
+1306	0	1	Hæ		30	\script\task\global_task\trigger.lua	laohu
+1307	0	1	§ao HiÖp		30	\script\task\global_task\trigger.lua	daoxia
+1308	0	1	Danh Th­¬ng Kh¸ch		30	\script\task\global_task\trigger.lua	mingjianke
+1309	0	1	RÕt ®éc		30	\script\task\global_task\trigger.lua	duwugong
+1310	0	1	Thùc Nh©n Th¶o		30	\script\task\global_task\trigger.lua	judushirencao
+1311	0	1	Miªu LÜnh Hé Ên		30	\script\task\global_task\trigger.lua	miaolinhuyin
+1312	0	1	Xi Háa H¾c gi¸o ®å		30	\script\task\global_task\trigger.lua	chihuoheijiaotu
+1313	0	1	Nh·n KÝnh Xµ		30	\script\task\global_task\trigger.lua	yanjingshe2
+1314	0	1	¤ M«ng Dòng SÜ		30	\script\task\global_task\trigger.lua	wumengyongshi
+1315	0	1	Oa Quèc §ao kh¸ch		30	\script\task\global_task\trigger.lua	weiguodaoke
+1316	0	1	S¸t thñ ngo¹i téc		30	\script\task\global_task\trigger.lua	waizhushashou
+1317	0	1	Cung thñ ngo¹i téc		30	\script\task\global_task\trigger.lua	waizhugongshou
+1318	0	1	Vâ sÜ dÞ téc		30	\script\task\global_task\trigger.lua	yizhuwushi
+1319	0	1	TiÔn thñ dÞ téc		30	\script\task\global_task\trigger.lua	yizhujianshou
+1320	0	1	Trïng Qu¸i		30	\script\task\global_task\trigger.lua	chongguai
+1321	0	1	Th¹ch Nh©n		30	\script\task\global_task\trigger.lua	shiren
+1322	0	1	Xi Háa B¹ch gi¸o ®å		30	\script\task\global_task\trigger.lua	chihuobaijiaotu
+1323	0	1	Xi Háa gi¸o ®å		30	\script\task\global_task\trigger.lua	chihuojiaotu
+1324	0	1	NhÊt PhÈm §­êng MËt Sø		30	\script\task\global_task\trigger.lua	yipingtangmishi
+1325	0	1	XÝch LuyÖn Háa Hå		30	\script\task\global_task\trigger.lua	chilianhuohu
+1326	0	1	Tèng ®ao binh		30	\script\task\global_task\trigger.lua	songdaobing
+1327	0	1	Tèng qu©n tö sÜ		30	\script\task\global_task\trigger.lua	songjunsishi
+1328	0	1	Ong vµng		30	\script\task\global_task\trigger.lua	dahuangfeng
+1329	0	1	Yªu c¬ Ba T­		30	\script\task\global_task\trigger.lua	bosiyaoji
+1330	0	1	Xi Háa §ao Kh¸ch		30	\script\task\global_task\trigger.lua	chihuodaoke
+1331	0	1	Sa M¹c Hµnh Nh©n		30	\script\task\global_task\trigger.lua	shamoxingren
+1332	0	1	Liªu th­¬ng qu©n		30	\script\task\global_task\trigger.lua	liaoqiangbing
+1333	0	1	C«n ®å		30	\script\task\global_task\trigger.lua	wulai
+1334	0	1	Th­¬ng Viªn		30	\script\task\global_task\trigger.lua	cangyuan
+1335	0	1	T©y H¹ Vâ SÜ		30	\script\task\global_task\trigger.lua	bingmayongshiwei
+1336	0	1	Hå Ly		20	\script\task\global_task\trigger.lua	ck_huli
+1337	0	1	Xi Háa XÝch gi¸o ®å		20	\script\task\global_task\trigger.lua	ck_cihuojiaotu
+1338	0	1	Th­¬ng Viªn		20	\script\task\global_task\trigger.lua	ck_cangyuan
+1339	0	1	Miªu LÜnh Thæ ty		20	\script\task\global_task\trigger.lua	ck_miaolingtushi
+1340	0	1	Yªu c¬ Ba T­		20	\script\task\global_task\trigger.lua	ck_boshiyaoji
+1341	0	1	Oa Quèc §ao kh¸ch		20	\script\task\global_task\trigger.lua	ck_weiguodaoke
+1342	0	1	Tú Bµ Tiªn Tö		20	\script\task\global_task\trigger.lua	ck_pipaxianzi
+1343	0	1	Ch­¬ng VÜ C­¬ng		1	\script\task\global_task\trigger.lua	ck_zhangweigang
+1344	0	1	Th­îng Cæ Háa Kú L©n		1	\script\task\global_task\trigger.lua	ck_shangguhuoqiling
+1345	0	1	Ng­ Qu¸i §Çu Môc		1	\script\task\global_task\trigger.lua	ck_yuguaitoumu
+1346	0	1	Lý LËp		1	\script\task\global_task\trigger.lua	ck_lili
+1347	0	1	§Çu lÜnh S¬n tÆc		1	\script\task\global_task\trigger.lua	ck_funiushandawang
+1348	0	1	T©y H¹ T­íng LÜnh		1	\script\task\global_task\trigger.lua	ck_xixiajianglin
+1349	0	1	Xi Háa Yªu N÷		1	\script\task\global_task\trigger.lua	ck_chihuoyaofu
+1350	0	1	Ngù §éc ¢m C¬		1	\script\task\global_task\trigger.lua	ck_boduyingji
+1351	0	1	Xi Háa ¸c t¨ng		1	\script\task\global_task\trigger.lua	ck_chihuosengwu
+1352	0	1	Xi Háa §¹i tr­ëng l·o		1	\script\task\global_task\trigger.lua	ck_chihuozhanglao
+1353	0	1	A Tu La		1	\script\task\global_task\trigger.lua	ck_axiuluo
+1354	0	1	Ma H« La Giµ		1	\script\task\global_task\trigger.lua	ck_mohuluojia
+1355	0	1	§oµn Thõa ¢n		1	\script\task\global_task\trigger.lua	ck_duanchengen
+1356	0	1	Xu©n ThËp Tam n­¬ng		1	\script\task\global_task\trigger.lua	ck_chunshisanniang
+1357	0	1	Di Tu §¹i h¸n		1	\script\task\global_task\trigger.lua	ck_zaxusahan
+1358	0	1	Xi Háa §ao Kh¸ch		20	\script\task\global_task\trigger.lua	chihuodaoke2
+1359	0	1	H¾c Y Tr¸ng SÜ		10	\script\task\global_task\trigger.lua	heiyizhuangshi
+1360	0	1	§µo Hoa §¶o Chñ Hoµng Long		1	\script\task\global_task\trigger.lua	world_boss
+1361	0	1	T©y Vùc Th­¬ng Lang B¸ V­¬ng		1	\script\task\global_task\trigger.lua	world_boss
+1362	0	1	Ngäc S¬n Chi Linh Thiªn Cöu		1	\script\task\global_task\trigger.lua	world_boss
+1363	0	1	U Tr¹ch Chi ¶nh Minh Vâ		1	\script\task\global_task\trigger.lua	world_boss
+1364	0	1	Ng« ViÖt L·o Tæ		1	\script\task\global_task\trigger.lua	world_boss
+1365	0	1	L«i KiÕp Thó		1	\script\task\global_task\trigger.lua	world_boss
+1366	0	1	Trïng Qu¸i V­¬ng		199	\script\task\global_task\trigger.lua	world_boss
+1367	0	1	Kh«i Lçi §éc nh©n		30	\script\task\global_task\trigger.lua	world_boss

@@ -1,0 +1,272 @@
+AttrId	AttrName	Rate	Event	Time	SkillId	Attr	Value1	Value2	Value3	Value4	Value5	Value6	Value7	Value8	Value9	Value10	DescColor	Desc
+Sи hi÷u thuйc tЁnh: 	 ф–‘√ы≥∆	 	Thuйc tЁnh phЄt sinh khi (0 chЎ tЄc dфng khi trєng bё, 1 ЃЄnh trуng kќ Ѓёch tЄc dфng l™n bґn th©n, 2 ЃЄnh bєi kќ Ѓёch tЄc dфng l™n bґn th©n, 3 bё kќ Ѓёch ЃЄnh trуng tЄc dфng l™n bґn th©n, 4 khi hеi sinh tЄc dфng l™n bґn th©n, 5 khi ЃЄnh trуng kќ Ѓёch cг tЄc dфng l™n ng≠кi kќ Ѓёch, 6 bё kќ Ѓёch ЃЄnh trуng cг tЄc dфng l™n kќ Ѓёch)		N’u lµ thuйc tЁnh kь n®ng, ghi nhЋn ID kь n®ng	Loєi thuйc tЁnh (dЈy kэ tщ)	Trё Lv1	Trё Lv2	Trё Lv3	Trё Lv4	Trё Lv5	Trё Lv6	Trё Lv7	Trё Lv8	Trё Lv9	Trё Lv10	Kэ tщ mµu sЊc mi™u tґ	Chу thЁch
+1	»ќ¬цµг—®’ж∆ш					NEED_ZHEN_QI												
+2	ґљ¬цµг—®’ж∆ш					NEED_ZHEN_QI												
+3	іш¬цµг—®’ж∆ш					NEED_ZHEN_QI												
+4	≥е¬цµг—®’ж∆ш					NEED_ZHEN_QI												
+5	«ъє«µг—®’ж∆ш					NEED_ZHEN_QI	1000	1000	1000	1000	1000	1000						
+6	÷–ЉЂµг—®’ж∆ш					NEED_ZHEN_QI	1000	1000	1000	1000	1000	1000						
+7	…сЎ µг—®’ж∆ш					NEED_ZHEN_QI	1000	1000	1000	1000	1000	1000						
+8	єЎ‘™µг—®’ж∆ш					NEED_ZHEN_QI	1000	1000	1000	1000	1000	1000						
+9	љ®јпµг—®’ж∆ш					NEED_ZHEN_QI	1000	1000	1000	1000	1000	1000						
+10	рѓќ≤µг—®’ж∆ш					NEED_ZHEN_QI	1500	1500	1500	1500	1500	1500						
+11	лю÷–µг—®’ж∆ш					NEED_ZHEN_QI	1500	1500	1500	1500	1500	1500						
+12	Јз≥Ўµг—®’ж∆ш					NEED_ZHEN_QI	2000	2000	2000	2000	2000	2000						
+13	∞ўјпµг—®’ж∆ш					NEED_ZHEN_QI	3000	3000	3000	3000	3000	3000						
+14	”сћ√µг—®’ж∆ш					NEED_ZHEN_QI	3000	3000	3000	3000	3000	3000						
+15	„ѕєђµг—®’ж∆ш					NEED_ZHEN_QI	3000	3000	3000	3000	3000	3000						
+16	иѓзбµг—®’ж∆ш					NEED_ZHEN_QI	3000	3000	3000	3000	3000	3000						
+17	ЅЃ»™µг—®’ж∆ш					NEED_ZHEN_QI	3000	3000	3000	3000	3000	3000						
+18	ћмЌїµг—®’ж∆ш					NEED_ZHEN_QI	3000	3000	3000	3000	3000	3000						
+19	–ь аµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+20	Їуґ•µг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+21	—∆√≈µг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+22	√ь√≈µг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+23	÷Ѕ—фµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+24	∞ўїбµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+25	÷– аµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+26	…сµјµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+27	…н÷щµг—®’ж∆ш					NEED_ZHEN_QI	6000	6000	6000	6000	6000	6000						
+28	ЈзЄЃµг—®’ж∆ш					NEED_ZHEN_QI	6000	6000	6000	6000	6000	6000						
+29	љоЋхµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+30	—ь”бµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+31	Љє÷–µг—®’ж∆ш					NEED_ZHEN_QI	10000	10000	10000	10000	10000	10000						
+32	Ѕйћ®µг—®’ж∆ш					NEED_ZHEN_QI	10000	10000	10000	10000	10000	10000						
+33	іу„µµг—®’ж∆ш					NEED_ZHEN_QI	10000	10000	10000	10000	10000	10000						
+34	“хЅкµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+35	ƒ‘їІµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+36	Њ¶√чµг—®’ж∆ш					NEED_ZHEN_QI	14000	14000	14000	14000	14000	14000						
+37	Ќв«рµг—®’ж∆ш					NEED_ZHEN_QI	6000	6000	6000	6000	6000	6000						
+38	ћм„Џµг—®’ж∆ш					NEED_ZHEN_QI	6000	6000	6000	6000	6000	6000						
+39	ЉзЊЃµг—®’ж∆ш					NEED_ZHEN_QI	7000	7000	7000	7000	7000	7000						
+40	Ќкє«µг—®’ж∆ш					NEED_ZHEN_QI	7000	7000	7000	7000	7000	7000						
+41	’э”™µг—®’ж∆ш					NEED_ZHEN_QI	7000	7000	7000	7000	7000	7000						
+42	ќђµјµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+43	±Њ…сµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+44	—ф∞„µг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+45	ћм≥еµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+46	≥–Ѕйµг—®’ж∆ш					NEED_ZHEN_QI	9000	9000	9000	9000	9000	9000						
+47	ƒњі∞µг—®’ж∆ш					NEED_ZHEN_QI	9000	9000	9000	9000	9000	9000						
+48	єв√чµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+49	–ь÷”µг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+50	ќе аµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+51	…ў≥еµг—®’ж∆ш					NEED_ZHEN_QI	13000	13000	13000	13000	13000	13000						
+52	іуЇ’µг—®’ж∆ш					NEED_ZHEN_QI	6000	6000	6000	6000	6000	6000						
+53	…ћ«ъµг—®’ж∆ш					NEED_ZHEN_QI	6000	6000	6000	6000	6000	6000						
+54	“хґЉµг—®’ж∆ш					NEED_ZHEN_QI	7000	7000	7000	7000	7000	7000						
+55	”ƒ√≈µг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+56	Їбє«µг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+57	ћЂ““µг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+58	√§”бµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+59	Ћƒ¬ъµг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+60	÷–„Ґµг—®’ж∆ш					NEED_ZHEN_QI	12000	12000	12000	12000	12000	12000						
+61	∆ш—®µг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+62	 ѓєЎµг—®’ж∆ш					NEED_ZHEN_QI	12000	12000	12000	12000	12000	12000						
+63	Ќ®є»µг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+64	єЎ√≈µг—®’ж∆ш					NEED_ZHEN_QI	8000	8000	8000	8000	8000	8000						
+65	∆ш≥еµг—®’ж∆ш					NEED_ZHEN_QI	13000	13000	13000	13000	13000	13000						
+66	ї™Є«µг—®’ж∆ш					NEED_ZHEN_QI	4000	4000	4000	4000	4000	4000						
+67	»ќ¬цЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+68	ґљ¬цЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+69	іш¬цЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+70	≥е¬цЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+71	«ъє«Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+72	÷–ЉЂЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+73	…сЎ Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+74	єЎ‘™Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+75	љ®јпЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+76	рѓќ≤Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+77	лю÷–Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+78	Јз≥ЎЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+79	∞ўјпЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+80	”сћ√Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+81	„ѕєђЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+82	иѓзбЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+83	ЅЃ»™Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+84	ћмЌїЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+85	–ь аЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+86	Їуґ•Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+87	—∆√≈Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+88	√ь√≈Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+89	÷Ѕ—фЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+90	∞ўїбЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+91	÷– аЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+92	…сµјЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+93	…н÷щЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+94	ЈзЄЃЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+95	љоЋхЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+96	—ь”бЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+97	Љє÷–Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+98	Ѕйћ®Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+99	іу„µЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+100	“хЅкЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+101	ƒ‘їІЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+102	Њ¶√чЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+103	Ќв«рЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+104	ћм„ЏЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+105	ЉзЊЃЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+106	Ќкє«Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+107	’э”™Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+108	ќђµјЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+109	±Њ…сЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+110	—ф∞„Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+111	ћм≥еЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+112	≥–ЅйЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+113	ƒњі∞Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+114	єв√чЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+115	–ь÷”Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+116	ќе аЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+117	…ў≥еЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+118	іуЇ’Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+119	…ћ«ъЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+120	“хґЉЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+121	”ƒ√≈Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+122	Їбє«Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+123	ћЂ““Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+124	√§”бЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+125	Ћƒ¬ъЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+126	÷–„ҐЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+127	∆ш—®Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+128	 ѓєЎЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+129	Ќ®є»Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+130	єЎ√≈Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+131	∆ш≥еЊ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+132	ї™Є«Њ≥љз–и«у					NEED_JING_JIE	1	2	3	4	5	6						
+133	»ќ¬ц«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL												
+134	ґљ¬ц«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL												
+135	іш¬ц«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL												
+136	≥е¬ц«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL												
+137	«ъє««∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+138	÷–ЉЂ«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+139	…сЎ «∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+140	єЎ‘™«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+141	љ®јп«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+142	рѓќ≤«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+143	лю÷–«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+144	Јз≥Ў«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+145	∞ўјп«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+146	”сћ√«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+147	„ѕєђ«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+148	иѓзб«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+149	ЅЃ»™«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+150	ћмЌї«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+151	–ь а«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+152	Їуґ•«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+153	—∆√≈«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+154	√ь√≈«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+155	÷Ѕ—ф«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+156	∞ўїб«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+157	÷– а«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+158	…сµј«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+159	…н÷щ«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+160	ЈзЄЃ«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+161	љоЋх«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+162	—ь”б«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+163	Љє÷–«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+164	Ѕйћ®«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+165	іу„µ«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+166	“хЅк«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+167	ƒ‘їІ«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+168	Њ¶√ч«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+169	Ќв«р«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+170	ћм„Џ«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+171	ЉзЊЃ«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+172	Ќкє««∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+173	’э”™«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+174	ќђµј«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+175	±Њ…с«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+176	—ф∞„«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+177	ћм≥е«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+178	≥–Ѕй«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+179	ƒњі∞«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+180	єв√ч«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+181	–ь÷”«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+182	ќе а«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+183	…ў≥е«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+184	іуЇ’«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+185	…ћ«ъ«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+186	“хґЉ«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+187	”ƒ√≈«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+188	Їбє««∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+189	ћЂ““«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+190	√§”б«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+191	Ћƒ¬ъ«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+192	÷–„Ґ«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+193	∆ш—®«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+194	 ѓєЎ«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+195	Ќ®є»«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+196	єЎ√≈«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+197	∆ш≥е«∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+198	ї™Є««∞÷√—®ќї÷Ў э–и«у					NEED_PRE_NODE_LEVEL	1	2	3	4	5	6						
+199	5«ъє«		0			state_max_carry_percent_add	10	12	14	16	18	20					Green2	Giнi hєn vЄc n®ng t®ng %d%%
+200	6÷–ЉЂ		0			state_stamina_max_point_add	10	14	18	22	26	30					Green2	Giнi hєn th” lщc t®ng %d Ѓi”m
+201	7…сЎ 		0			state_mounting_speed_add	100	120	140	160	180	200					Green2	Tиc Ѓй cйng th™m khi c≠мi ngщa t®ng%d%%
+202	8єЎ‘™		0			state_inc_exp_gain	5	10	15	20	25	30					Green2	kinh nghi÷m nhЋn Ѓ≠оc t®ng %d%%
+203	9љ®јп		0			state_dec_equip_need	3	4	5	6	7	8					Green2	Y™u c«u c p Ѓй cсa trang bё giґm %d
+204	10рѓќ≤		0			state_attack_buff_time	5	6	7	8	9	10					Blue0	Thкi gian hз trо cЂng kЁch k–o dµi %d%%
+205	11лю÷–		0			state_defence_buff_time	5	6	7	8	9	10					Blue0	Thкi gian hз trо phяng ngщ k–o dµi %d%%
+206	12Јз≥Ў		0			state_move_speed_percent_add	10	12	14	16	18	20					Blue0	Tиc Ѓй di chuy”n t®ng %d%%
+207	13∞ўјп				30122	SKILL_ATTR	1	2	3	4	5	6	7	8	9	10	gold	Kь n®ng chс Ѓйng %d
+208	14”сћ√		0			state_add_vitality	10	16	22	28	34	40					gold	G©n cиt t®ng %d
+209	15„ѕєђ		0			state_add_strength	10	16	22	28	34	40					gold	Sшc mєnh t®ng %d
+210	16иѓзб		0			state_add_observe	10	16	22	28	34	40					gold	Linh hoєt t®ng %d
+211	17ЅЃ»™		0			state_add_energy	10	16	22	28	34	40					gold	Nйi cЂng t®ng %d
+212	18ћмЌї		0			state_add_dexterity	10	16	22	28	34	40					gold	Th©n phЄp t®ng %d
+213	19–ь а		0			state_quench_posion	100	116	132	148	164	180					Blue0	Ійc sЄt t®ng %d
+214	20Їуґ•		0			state_npc_event_2_magic	6553639	7864359	9175079	10485799	11796519	13107239						
+215	21—∆√≈		0			state_add_dexterity	15	20	25	30	35	40					Blue0	Th©n phЄp t®ng %d
+216	22√ь√≈		0			state_add_dexterity	15	20	25	30	35	40					Blue0	Th©n phЄp t®ng %d
+217	23÷Ѕ—ф		0			state_damage_point	90	102	114	126	138	150					Blue0	SЄt th≠ђng t®ng %d
+218	24∞ўїб		0			state_npc_event_2_magic	6553640	7864360	9175080	10485800	11796520	13107240						
+219	25÷– а		0			state_add_observe	15	20	25	30	35	40					Blue0	Linh hoєt t®ng %d
+220	26…сµј		0			state_add_observe	15	20	25	30	35	40					Blue0	Linh hoєt t®ng %d
+221	27…н÷щ		0			state_npc_event_2_magic	3276837	3932197	4587557	5242917	5898277	6553637						
+222	28ЈзЄЃ		0			state_npc_event_2_magic	6553641	7864361	9175081	10485801	11796521	13107241						
+223	29љоЋх		0			state_add_strength	15	20	25	30	35	40					Blue0	Sшc mєnh t®ng %d
+224	30—ь”б		0			state_add_energy	15	20	25	30	35	40					Blue0	Nйi cЂng t®ng %d
+225	31Љє÷–		0			state_attack_speed_add	10	14	18	22	26	30					gold	Tиc Ѓй cЂng kЁch % t®ng %d%%
+226	32Ѕйћ®		0			state_dodge_point_increase	150	200	250	300	350	400					gold	N– trЄnh t®ng %d
+227	33іу„µ		0			state_life_max_point_add	750	1200	1650	2100	2550	3000					gold	Sinh lщc t®ng %d
+228	34“хЅк					state_magic_armor_add	15	20	25	30	35	40					gold	Trё sи hй giЄp nйi phяng t®ng %d
+229	35ƒ‘їІ					state_physical_armor_add	15	20	25	30	35	40					gold	Trё sи hй giЄp ngoєi phяng t®ng %d
+230	36Њ¶√ч				30123	SKILL_ATTR	1	2	3	4	5	6	7	8	9	10	gold	Kь n®ng chс Ѓйng: 
+231	37Ќв«р		0			state_p_attack_percent_add	5	8	11	14	17	20					Blue0	Ngoєi cЂng t®ng %d%%
+232	38ћм„Џ		0			state_npc_event_2_magic	6553642	9175082	11796522	14417962	17039402	19660842						
+233	39ЉзЊЃ		0			state_vitality_life_per_add	5	8	11	14	17	20					Blue0	G©n cиt ґnh h≠ђng sinh lщc t®ng %d%%
+234	40Ќкє«		0			state_add_vitality	15	20	25	30	35	40					Blue0	G©n cиt t®ng %d
+235	41’э”™		0			state_strength_attack_per_add	5	8	11	14	17	20					Blue0	Sшc mєnh ґnh h≠лng ngoєi cЂng t®ng%d%%
+236	42ќђµј		0			state_add_strength	15	20	25	30	35	40					Blue0	Sшc mєnh t®ng %d
+237	43±Њ…с		0			state_add_dexterity	15	20	25	30	35	40					Blue0	Th©n phЄp t®ng %d
+238	44—ф∞„		0			state_add_energy	15	20	25	30	35	40					Blue0	Nйi cЂng t®ng %d
+239	45ћм≥е		0			state_accuracy_point_increase	200	275	350	425	500	575					Blue0	ChЁnh xЄc t®ng %d
+240	46≥–Ѕй		0			state_fast_recovery	50	60	70	80	90	100					gold	Thкi gian ґnh h≠лng giґm %d%%
+241	47ƒњі∞		0			state_knockback_immune	5	6	7	8	9	10					gold	TrЄnh hi÷u quґ bё Ѓ»y lпi t®ng %d%%
+242	48єв√ч		0			state_life_max_point_add	1000	1600	2200	2800	3400	4000					gold	Giнi hєn sinh lщc t®ng %d
+243	49–ь÷”					state_physical_armor_add	20	26	32	38	44	50					gold	Trё sи hй giЄp ngoєi phяng t®ng %d
+244	50ќе а					state_magic_armor_add	20	26	32	38	44	50					gold	Trё sи hй giЄp nйi phяng t®ng %d
+245	51…ў≥е				30124	SKILL_ATTR	1	2	3	4	5	6	7	8	9	10	gold	Kь n®ng chс Ѓйng: 
+246	52іуЇ’		0			state_m_attack_percent_add	5	8	11	14	17	20					Blue0	SЄt th≠ђng nйi cЂng %d%%
+247	53…ћ«ъ		0			state_npc_event_2_magic	6553643	9175083	11796523	14417963	17039403	19660843						
+248	54“хґЉ		0			state_energy_i_attack_per_add	5	8	11	14	17	20					Blue0	Nйi cЂng ґnh h≠лng nйi cЂng t®ng %d%%
+249	55”ƒ√≈		0			state_add_energy	15	20	25	30	35	40					Blue0	Nйi cЂng t®ng %d
+250	56Їбє«		0			state_add_vitality	15	20	25	30	35	40					Blue0	G©n cиt t®ng %d
+251	57ћЂ““		0			state_add_observe	15	20	25	30	35	40					Blue0	Linh hoєt t®ng %d
+252	58√§”б		0			state_add_dexterity	15	20	25	30	35	40					Blue0	Th©n phЄp t®ng %d
+253	59Ћƒ¬ъ		0			state_medicine_time_increase	10	14	18	22	26	30					Blue0	Hi÷u quґ thuиc k–o dµi %d%%
+254	60÷–„Ґ		0			state_burst_enhance_rate	1	2	3	4	5	6					gold	Tиc Ѓй thi tri”n t®ng %d%%
+255	61∆ш—®		0			state_neili_max_percent_add	10	14	18	22	26	30					gold	Іi”m nйi lщc t®ng %d%%
+256	62 ѓєЎ		0			state_life_max_point_add	500	800	1100	1400	1700	2000					gold	Іi”m sinh lщc t®ng %d
+257	63Ќ®є»					state_magic_armor_add	10	14	18	22	26	30					gold	Trё sи hй giЄp nйi phяng t®ng %d
+258	64єЎ√≈					state_physical_armor_add	10	14	18	22	26	30					gold	Trё sи hй giЄp ngoєi phяng t®ng %d
+259	65∆ш≥е				30125	SKILL_ATTR	1	2	3	4	5	6	7	8	9	10	gold	Kь n®ng bё Ѓйng: 
+260	66ї™Є«		0			state_life_max_percent_add	5	8	11	14	17	20					gold	Giнi hєn Ѓi”m sinh lщc t®ng %d%%
+261	20ѕ‘ Њ					DUMMY_ATTR	150	180	210	240	270	300					gold	T n cЂng cг tы l÷ t®ng Ѓйc sЄt %d
+262	24ѕ‘ Њ					DUMMY_ATTR	120	144	168	192	216	240					gold	T n cЂng cг tы l÷ t®ng sЄt th≠ђng %d
+263	27ѕ‘ Њ					DUMMY_ATTR	200	240	280	320	360	400					Blue0	SЄt th≠ђng Cж Ійc t®ng %d
+264	28ѕ‘ Њ					DUMMY_ATTR	250	300	350	400	450	500					gold	T n cЂng cг tы l÷ t®ng sЄt th≠ђng Cж Ійc %d
+265	38ѕ‘ Њ					DUMMY_ATTR	10	14	18	22	26	30					gold	T n cЂng cг tы l÷ t®ng ngoєi cЂng %d%%
+266	53ѕ‘ Њ					DUMMY_ATTR	10	14	18	22	26	30					gold	T n cЂng cг tы l÷ t®ng nйi cЂng %d%%
+267	»ќ¬ц∆р Љ–ІєыЋµ√ч						1	2	3	4	5	6	7	8	9	10	gold	Mл huy÷t vё NhЋm Mєch t«ng %d
+268	ґљ¬ц∆р Љ–ІєыЋµ√ч						1	2	3	4	5	6	7	8	9	10	gold	Mл huy÷t vё Іиc Mєch t«ng %d
+269	іш¬ц∆р Љ–ІєыЋµ√ч						1	2	3	4	5	6	7	8	9	10	gold	Mл huy÷t vё ІЄi Mєch t«ng %d
+270	≥е¬ц∆р Љ–ІєыЋµ√ч						1	2	3	4	5	6	7	8	9	10	gold	Mл huy÷t vё Xung Mєch t«ng %d

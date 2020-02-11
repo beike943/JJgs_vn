@@ -1,0 +1,42 @@
+EventID	TaskID	TaskName	IsAsk	StartType1	StartDes1	StartType2	StartDes2	StartType3	StartDes3	StartType4	StartDes4	StartType5	StartDes5	TaskText
+1	2051	NhiÖm vô 1 Cæ MÆc_T­¬ng D­¬ng	1	§¼ng cÊp lín	100									
+1	2052	NhiÖm vô 2 Cæ MÆc_T­¬ng D­¬ng		KÕt thóc nhiÖm vô	NhiÖm vô 1 Cæ MÆc_T­¬ng D­¬ng									
+1	2053	NhiÖm vô 1 Hµn tæng qu¶n_T­¬ng D­¬ng		B¾t ®Çu nhiÖm vô	NhiÖm vô 2 Cæ MÆc_T­¬ng D­¬ng									
+1	2054	NhiÖm vô 2 Hµn tæng qu¶n_T­¬ng D­¬ng												
+1	2055	T×m Tr­¬ng ¶nh_T­¬ng D­¬ng												
+1	2056	T­¬ng D­¬ng_t×m Tö H¹c Ch©n Nh©n												
+1	2057	T­¬ng D­¬ng_t×m Xa phu												
+1	2058	T×m San H« tr©m cho Xa Phu_T­¬ng D­¬ng												
+1	2059	T×m Th¸i thó TÝn sø _T­¬ng D­¬ng												
+1	2060	KiÕm C¸c_Quay vÒ gÆp Tö H¹c Ch©n Nh©n												
+1	2061	Vâ §ang_§Õn Nga My hái th¨m												
+1	2062	Nga My_§Õn T­¬ng D­¬ng t×m Phï Nghi												
+1	2063	T­¬ng D­¬ng_T×m chñ Töu lÇu BiÖn Kinh												
+2	2064	BiÖn Kinh_T×m vËt chñ Töu lÇu cÇn												
+3	2065	T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_§èi tho¹i víi Xa phu	1	§¼ng cÊp lín	8									Chñ TiÖm N÷ phôc T­¬ng D­¬ng b¶o b¹n ®Õn hái Xa phu ë Nam m«n cã thÓ chuyÓn hµng gióp kh«ng?
+3	2066	T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_Hái Th¸i Thó thñ lÖnh												Muèn ra khái thµnh ph¶i cã Thñ lÖnh cña Th¸i Thó, b¹n ®µnh ph¶i t×m T­ M· Th¸i Thó ®Ó xin mét tÊm.
+3	2067	T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_§­a Th¸i Thó ng©n l­îng												Muèn Thñ lÖnh µ? §­a ®ñ 5 l­îng cho Th¸i Thó lµ ®­îc.
+3	2068	T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_B¸o tin Xa phu												Mau ®em thanh gç trÞ gi¸ 5 l­îng b¹c nµy ®­a cho Xa phu ë Nam m«n!
+3	2069	T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_B¸o tin Chñ TiÖm N÷ phôc												B¹n cã thÓ quay vÒ gÆp Chñ TiÖm N÷ phôc
+4	2070	T­¬ng D­¬ng_§ao cña Tiªu s­_§èi tho¹i víi chñ tiÖm vò khÝ		§¼ng cÊp lín	10									Tiªu s­ nhê b¹n t×m Chñ tiÖm vò khÝ
+4	2071	T­¬ng D­¬ng_§ao cña Tiªu s­_T×m nanh heo rõng												Chñ tiÖm vò khÝ nhê b¹n ®Õn phÝa Nam BiÖn Kinh t×m 10 nanh heo rõng
+4	2072	T­¬ng D­¬ng_§ao cña Tiªu s­_B¸o tin Tiªu s­												B¹n cã thÓ quay vÒ gÆp Tiªu s­
+5	2073	BiÖn Kinh §«ng tr­ëng th«n 1		§¼ng cÊp lín	99									
+5	2074	BiÖn Kinh D­îc DÉn 1		§¼ng cÊp lín	99									
+5	2075	BiÖn Kinh D­îc DÉn 2		KÕt thóc nhiÖm vô	BiÖn Kinh D­îc DÉn 1									
+5	2076	BiÖn Kinh D­îc DÉn 3		KÕt thóc nhiÖm vô	BiÖn Kinh D­îc DÉn 2									
+5	2077	BiÖn Kinh §«ng Th­ sinh 1		§¼ng cÊp lín	99									
+5	2078	BiÖn Kinh §«ng Th­ sinh 2		KÕt thóc nhiÖm vô	BiÖn Kinh §«ng Th­ sinh 1									
+5	2079	BiÖn Kinh §«ng Th­ sinh 3		KÕt thóc nhiÖm vô	BiÖn Kinh §«ng Th­ sinh 2									
+5	2080	BiÖn Kinh §«ng Th­ sinh 4		KÕt thóc nhiÖm vô	BiÖn Kinh §«ng Th­ sinh 3									
+5	2081	Thêi Thiªn T­¬ng D­¬ng (1 )												
+5	2082	Thêi Thiªn T­¬ng D­¬ng (2 )		KÕt thóc nhiÖm vô	Thêi Thiªn T­¬ng D­¬ng (1 )	§¼ng cÊp lín	25
+5	2083	Thêi Thiªn T­¬ng D­¬ng (3 )		KÕt thóc nhiÖm vô	Thêi Thiªn T­¬ng D­¬ng (2 )	§¼ng cÊp lín	30
+5	2084	Vâ Tßng_NhÞ Long s¬n		KÕt thóc nhiÖm vô	Thêi Thiªn T­¬ng D­¬ng (3 )		
+5	2085	Tèng Giang_Thñy B¹c (1)		KÕt thóc nhiÖm vô	Vâ Tßng_NhÞ Long s¬n		
+5	2086	Tèng Giang_Thñy B¹c (2)		KÕt thóc nhiÖm vô	Tèng Giang_Thñy B¹c (1)		
+5	2087	Tèng Giang_Thñy B¹c (3)		KÕt thóc nhiÖm vô	Tèng Giang_Thñy B¹c (2)	§¼ng cÊp lín	99
+5	2088	S¬n tr¹i Long T¹i Thiªn		B¾t ®Çu nhiÖm vô	Tèng Giang_Thñy B¹c (3)		
+5	2089	Tèng Giang_Thñy B¹c (4)		KÕt thóc nhiÖm vô	Tèng Giang_Thñy B¹c (3)		
+5	2090	Tèng Giang_Thñy B¹c (5)		KÕt thóc nhiÖm vô	Tèng Giang_Thñy B¹c (4)		
+5	2091	Lý S­ S­		B¾t ®Çu nhiÖm vô	Tèng Giang_Thñy B¹c (5)		

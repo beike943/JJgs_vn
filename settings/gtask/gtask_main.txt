@@ -1,0 +1,259 @@
+Task_Name	Task_ID	Task_Flag	From_NPC	To_NPC	Ex_Condition	Finish_Condition	Task_Action	Task_Prize	Action_Room_Weight	Prize_Room_Weight	Cancel_Task	Skip_Task
+Tªn nhiÖm vô 	ID nhiÖm vô (yªu cÇu ®Õm liªn tôc tõ 1 trë lªn)	lËp l¹i, ghi ký hiÖu	Tªn npc nhËn nhiÖm vô	Tªn npc hoµn thµnh nhiÖm vô	§iÒu kiÖn tiÒn ®Ò. b¶ng gtask_condition.txt	§iÒu kiÖn hoµn thµnh, b¶ng gtask_condition.txt	NhiÖm vô Action, b¶ng gtask_prize.txt	PhÇn th­ëng hoµn thµnh, b¶ng gtask_prize.txt	KiÓm tra träng l­îng kh«ng gian Action, dïng ký hiÖu ";" ®Ó c¸ch ra	KiÓm tra träng l­îng kh«ng gian Prize, dïng ký hiÖu "," ®Ó c¸ch ra	Hñy nhiÖm vô, ®iÒn-1 tøc kh«ng thÓ hñy nhÖm vô, ®iÒn sè tøc cÇn tiªu hao l­îng tiÒn, ®¬n vÞ tÝnh: ®ång	Bá qua nhiÖm vô, ®iÒn -1 tøc kh«ng thÓ bá qua nhiÖm vô nµy, ®iÒn sè tøc cÇn tiªu hao l­îng tiÒn t­¬ng øng, ®¬n vÞ: ®ång
+T×m kú d­îc kh¸ng ®éc	1	0	Chñ töu lÇu	Nh¹c BÊt QuÇn	30001			30001&30019	1;0	1;0	-1	-1
+Thu thËp nguyªn liÖu chÕ d­îc	2	0	Nh¹c BÊt QuÇn	Nh¹c BÊt QuÇn	30002	30003&30004	30103&30104	30020	1;0	1;0	1	-1
+T×m hiÓu t×nh h×nh b¸ t¸nh	3	0	Nh¹c BÊt QuÇn	B¸ch HiÓu Sinh	30002	30134	30002	30021	1;0	1;0	-1	-1
+ThØnh gi¸o B¹ch Danh Danh	4	0	B¸ch HiÓu Sinh	B¹ch Doanh Doanh	30128			30023	1;0	1;0	-1	-1
+Thu thËp nguyªn liÖu ®éc d­îc	5	0	B¹ch Doanh Doanh	B¹ch Doanh Doanh	30002	30005&30122	30003	30024	1;0	1;0	1	-1
+Th¨m hái Tö H¹c Ch©n Nh©n	6	0	B¹ch Doanh Doanh	Tö H¹c ch©n nh©n	30002			30025	1;0	1;0	-1	-1
+ThØnh gi¸o Tö H¹c Ch©n Nh©n	7	0	Tö H¹c ch©n nh©n	Bao tr­ëng l·o	30002			30026	1;0	1;0	1	-1
+§o¹t lÊy DÉn Hån Linh	8	0	Bao tr­ëng l·o	Tö H¹c ch©n nh©n	30002	30034	30108&30118	30027	1;0	1;0	1	-1
+Hái c¸ch Tiªu Linh	9	0	Tö H¹c ch©n nh©n	Thî rÌn L­u	30002			30028	1;0	1;0	-1	-1
+Thu thËp nguyªn liÖu Tiªu Linh	10	0	Thî rÌn L­u	Thî rÌn L­u	30002	30006&30007&30008		30029	1;0	1;0	1	-1
+LuyÖn chÕ dung dÞch	11	0	Thî rÌn L­u	Thî rÌn L­u	30002			30030	1;0	1;0	-1	-1
+Gi¶i cøu b¸ t¸nh	12	0	Thî rÌn L­u	Lý L·o	30002	30135	30005	30031	1;0	1;0	-1	-1
+T×m râ néi t×nh	13	0	Lý L·o	Nh¹c BÊt QuÇn	30002			30032	1;0	1;0	-1	-1
+BÈm b¸o t×nh h×nh	14	0	Nh¹c BÊt QuÇn	V« Danh T¨ng	30002	30009	30006	30033	1;0	1;0	1	-1
+Th¨m hái V« Danh T¨ng	15	0	V« Danh T¨ng	V« Danh T¨ng	30002			30109&30034	1;0	1;0	-1	-1
+Tham gia §¹i Héi Vâ L©m	16	0	V« Danh T¨ng	Nh¹n Kha	30002			30035	1;0	1;0	-1	-1
+§Õn gÆp Nh¹n Kh¶	17	0	Nh¹n Kha	D­¬ng Liªn §×nh	30002			30036	1;0	1;0	-1	-1
+§¸nh b¹i tø ®¹i gi¸o ®å	18	0	D­¬ng Liªn §×nh	D­¬ng Liªn §×nh	30002	30010	30110	30037	1;0	1;0	1	-1
+Tra hái D­¬ng Liªn §×nh	19	0	D­¬ng Liªn §×nh	V« Danh T¨ng	30002			30038	1;0	1;0	-1	-1
+CÇu cøu V« Danh T¨ng	20	0	V« Danh T¨ng	Nh¹c BÊt QuÇn	30002			30039	1;0	1;0	-1	-1
+T×m ®­îc manh mèi míi	21	0	Nh¹c BÊt QuÇn	H­íng VÊn Thiªn	30002			30040	1;0	1;0	-1	-1
+Th¨m hái H­íng VÊn Thiªn	22	0	H­íng VÊn Thiªn	Téc tr­ëng Miªu LÜnh	30002			30041	1;0	1;0	-1	-1
+Tiªu diÖt H¾c Tr­	23	0	Téc tr­ëng Miªu LÜnh	Téc tr­ëng Miªu LÜnh	30002	30011	30111	30042	1;0	1;0	-1	-1
+§o¹t lÊy r­îu ngon	24	0	Téc tr­ëng Miªu LÜnh	H­íng VÊn Thiªn	30002	30012	30007	30043	1;0	1;0	-1	-1
+BiÕt ®­îc ch©n t­íng	25	0	H­íng VÊn Thiªn	§an Thanh Sinh	30002		30008	30044	1;0	1;0	-1	-1
+Th¨m hái §an Thanh Sinh	26	0	§an Thanh Sinh	§an Thanh Sinh	30002			30045	1;0	1;0	-1	-1
+Thö th¸ch cña §an Thanh Sinh	27	0	§an Thanh Sinh	¢u D­¬ng Häa 	30002			30046	1;0	1;0	-1	-1
+§o¹t lÊy tranh vÏ	28	0	¢u D­¬ng Häa 	¢u D­¬ng Häa 	30002	30016&30017		30047	1;0	1;0	-1	-1
+Giao tranh vÏ	29	0	¢u D­¬ng Häa 	§an Thanh Sinh	30002	30018	30009	30048	1;0	1;0	-1	-1
+Th¨m hái Tó Bót ¤ng	30	0	§an Thanh Sinh	Tó Bót ¤ng	30002	30019	30010	30049	1;0	1;0	-1	-1
+ThØnh gi¸o V¹n Sù Th«ng	31	0	Tó Bót ¤ng	V¹n Sù Th«ng	30002			30050	1;0	1;0	-1	-1
+Trõng trÞ quan sø	32	0	V¹n Sù Th«ng	Th«n tr­ëng	30002	30020		30051	1;0	1;0	-1	-1
+Giao nép th­ tÝn	33	0	Th«n tr­ëng	V¹n Sù Th«ng	30002	30022	30013&30012	30052	1;0	1;0	-1	-1
+T×m Tr­¬ng §¹i H÷u	34	0	V¹n Sù Th«ng	Tr­¬ng §¹i H÷u	30130			30054	1;0	1;0	-1	-1
+TÆng mËt ong	35	0	Tr­¬ng §¹i H÷u	Tr­¬ng §¹i H÷u	30002	30023		30055	1;0	1;0	-1	-1
+Thu thËp nguyªn liÖu chÕ bót	36	0	Tr­¬ng §¹i H÷u	Tr­¬ng §¹i H÷u	30002	30024&30025		30056	1;0	1;0	-1	-1
+Giao nép Bót Long H¹o	37	0	Tr­¬ng §¹i H÷u	Tó Bót ¤ng	30002	30027	30014	30057	1;0	1;0	-1	-1
+Th¨m hái H¾c B¹ch Tö	38	0	Tó Bót ¤ng	H¾c B¹ch Tö	30131	30028	30015	30059	1;0	1;0	-1	-1
+Th¨m hái Hµn Tö phi	39	0	H¾c B¹ch Tö	Hµn Tö Phi	30002	30029	30016	30060	1;0	1;0	-1	-1
+Tiªu diÖt §¹i Niªn Thó	40	0	Hµn Tö Phi	Hµn Tö Phi	30002	30030&30031&30032&30033	30112&30113&30114&30115	30061	1;0	1;0	1	-1
+Häc ®¸nh cê	41	0	Hµn Tö Phi	Hµn Tö Phi	30002			30062	1;0	1;0	-1	-1
+Quay l¹i t×m H¾c B¹ch Tö	42	0	Hµn Tö Phi	H¾c B¹ch Tö	30002			30063	1;0	1;0	-1	-1
+§¸nh cê víi H¾c B¹ch Tö	43	0	H¾c B¹ch Tö	H¾c B¹ch Tö	30002			30064	1;0	1;0	-1	-1
+Th¨m hái Hoµng Chung C«ng	44	0	H¾c B¹ch Tö	Hoµng Chung C«ng	30002	30039	30017	30065	1;0	1;0	-1	-1
+§¸nh vì Ng©n KiÕm	45	0	Hoµng Chung C«ng	Hoµng Chung C«ng	30002	30037	30116&30117	30066	1;0	1;0	1	-1
+Truy t×m cao nh©n thÇn bÝ	46	0	Hoµng Chung C«ng	NhËm Ng· Hµnh	30002			30067	1;0	1;0	-1	-1
+Giao nép Chñy thñ	47	0	NhËm Ng· Hµnh	NhËm Ng· Hµnh	30002	30038		30068	1;0	1;0	-1	-1
+Tiªu diÖt ®éc m·ng	48	0	NhËm Ng· Hµnh	NhËm Ng· Hµnh	30002	30040		30069	1;0	1;0	-1	-1
+Truy t×m Hoµng Chung C«ng	49	0	NhËm Ng· Hµnh	Hoµng Chung C«ng	30002			30070	1;0	1;0	-1	-1
+§¸nh b¹i Hoµng Chung C«ng	50	0	Hoµng Chung C«ng	Hoµng Chung C«ng	30002	30041	30118&30119	30071	1;0	1;0	1	-1
+T×m hiÓu ph­¬ng ph¸p	51	0	Hoµng Chung C«ng	NhËm Ng· Hµnh	30002			30072	1;0	1;0	-1	-1
+ThiÕt quyÓn nan ®Ò	52	0	NhËm Ng· Hµnh	Chñ TiÖm vò khÝ	30120			30073	1;0	1;0	-1	-1
+Háa Hå Linh HuyÕt	53	0	Chñ TiÖm vò khÝ	NhËm Ng· Hµnh	30002	30101&30100	30100	30074	1;0	1;0	-1	-1
+H¾c ©m ®éc	54	0	NhËm Ng· Hµnh	Ph¹m Träng Yªm	30002			30075	1;0	1;0	-1	-1
+B¹ch d­¬ng ®¬n	55	0	Ph¹m Träng Yªm	Ph¹m Träng Yªm	30002	30102&30103		30076	1;0	1;0	-1	-1
+Gi¶i ®éc	56	0	Ph¹m Träng Yªm	NhËm Ng· Hµnh	30002	30104	30101	30077	1;0	1;0	-1	-1
+Giai nh©n ph­¬ng nµo	57	0	NhËm Ng· Hµnh	H¾c Tæng Qu¶n	30002			30078	1;0	1;0	-1	-1
+Truy t×m giai nh©n	58	0	H¾c Tæng Qu¶n	NhËm Ng· Hµnh	30002			30079	1;0	1;0	-1	-1
+Lôc Tróc ¤ng	59	0	NhËm Ng· Hµnh	Lôc Tróc ¤ng	30002	30129	30130	30080	1;0	1;0	-1	-1
+T©y §¶o	60	0	Lôc Tróc ¤ng	NhËm Doanh Doanh	30002			30081	1;0	1;0	-1	-1
+§¸nh b¹i gi¸o ®å	61	0	NhËm Doanh Doanh	NhËm Doanh Doanh	30002	30105	30120	30082	1;0	1;0	-1	-1
+Cha con t­¬ng tô	62	0	NhËm Doanh Doanh	NhËm Ng· Hµnh	30002			30083	1;0	1;0	-1	-1
+M­u l­îc	63	0	NhËm Ng· Hµnh	Nh¹c BÊt QuÇn	30002			30084	1;0	1;0	-1	-1
+Th­¬ng th¶o	64	0	Nh¹c BÊt QuÇn	NhËm Ng· Hµnh	30002			30085	1;0	1;0	-1	-1
+Cuéc hÑn H¾c Méc Nhai	65	0	NhËm Ng· Hµnh	NhËm Ng· Hµnh	30002			30086	1;0	1;0	-1	-1
+TÊn c«ng Hoµng Kú	66	0	NhËm Ng· Hµnh	NhËm Ng· Hµnh	30002	30106&30107	30121&30122	30087	1;0	1;0	-1	-1
+HuyÕt chiÕn Hång Kú	67	0	NhËm Ng· Hµnh	NhËm Ng· Hµnh	30002	30108&30109	30123&30124	30088	1;0	1;0	-1	-1
+Tiªu hñy vËt liÖu	68	0	NhËm Ng· Hµnh	NhËm Ng· Hµnh	30002	30110&30111&30112	30125&30126	30089	1;0	1;0	-1	-1
+øng cøu néi øng	69	0	NhËm Ng· Hµnh	NhËm Ng· Hµnh	30002	30113&30114&30115	30127&30128	30090	1;0	1;0	-1	-1
+Kiªn thñ ph¶n ph¸c	70	0	NhËm Ng· Hµnh	NhËm Ng· Hµnh	30002	30116&30117	30102	30091	1;0	1;0	1	-1
+Chiªu dô §«ng Ph­¬ng BÊt B¹i	71	0	NhËm Ng· Hµnh	D­¬ng Liªn §×nh	30002			30092	1;0	1;0	-1	-1
+§¸nh b¹i §«ng Ph­¬ng BÊt B¹i	72	0	D­¬ng Liªn §×nh	NhËm Ng· Hµnh	30002	30118		30093	1;0	1;0	1	-1
+<Quú Hoa B¶o §iÓn> D­¬ng Bé	73	0	NhËm Ng· Hµnh	NhËm Ng· Hµnh	30002	30137	30132	30094	1;0	1;0	-1	-1
+Th¨m Giang BiÖt H¹c	74	0		Giang BiÖt H¹c	30138	30149		30157	1;0	1;0	-1	-1
+§¸nh b¹i H¸m S¬n ®¹i v­¬ng	75	0	Giang BiÖt H¹c	Giang BiÖt H¹c	30002	30139	30138	30158	1;0	1;0	-1	-1
+Th¨m L­u T­ Anh	76	0	Giang BiÖt H¹c	L­u T­ Anh	30002	30157	30133	30159	1;0	1;0	-1	-1
+ChØnh söa UÈn Linh	77	0	L­u T­ Anh	Giang BiÖt H¹c	30002		30166	30160	1;0	1;0	-1	-1
+Thanh Long Gi¸c	78	0	Giang BiÖt H¹c	Giang BiÖt H¹c	30002	30140&30141&30142	30134	30161&30167	1;0	1;0	1	-1
+Th­¬ng ¦ng Tr¸c	79	0	Giang BiÖt H¹c	Giang BiÖt H¹c	30002	30143&30144&30145	30135	30162	1;0	1;0	1	-1
+Tø Linh DiÖt Ph¸p TrËn	80	0	Giang BiÖt H¹c	Giang BiÖt H¹c	30002	30146&30147	30136	30163&30168	1;0	1;0	1	-1
+§­a th­	81	0	Giang BiÖt H¹c	ThÇn gi¸o H¾c Tæng Qu¶n	30002	30148	30137	30164	1;0	1;0	-1	-1
+BÈm b¸o t×nh h×nh	82	0	ThÇn gi¸o H¾c Tæng Qu¶n	Giang BiÖt H¹c	30002			30165	1;0	1;0	-1	-1
+V­ît Th«ng Thiªn HuyÔn C¶nh 1 lÇn	83	1			30138	30151		30139&30143	1;0	1;0	1	-1
+V­ît Th«ng Thiªn HuyÔn C¶nh 4 lÇn	84	1			30138	30152		30141&30145	1;0	1;0	1	-1
+V­ît V¹n KiÕm Tròng 1 lÇn	85	1			30150	30153		30148&30150	1;0	1;0	-1	-1
+7 lÇn v­ît V¹n KiÕm Tròng 	86	1			30150	30154		30149&30151	1;0	1;0	-1	-1
+¶i 1 lÇn lËt bµi thu phÝ	87	1			30150	30155		30140&30147&30319	1;0	1;0	-1	-1
+¶i 15 lÇn lËt bµi thu phÝ	88	1			30150	30156		30142&30321	1;0	1;0	-1	-1
+NhÆt §¹i B¶o R­¬ng Boss Hoµng Kim	89	1			30138	30158		30169	1;0	1;0	-1	-1
+TriÖu gäi 5 lÇn L­¬ng S¬n hµo kiÖt	90	1			30138	30159		30170	1;0	1;0	-1	-1
+Më 1 L­¬ng S¬n MËt B¶o R­¬ng 	91	1			30138	30160		30171	1;0	1;0	-1	-1
+TËp kÝch	92	0	Nh¹c BÊt QuÇn	Nh¹c BÊt QuÇn	30161&30178	30162	30172	30182&30201	1;0	1;0	-1	-1
+Th¨m dß	93	0	Nh¹c BÊt QuÇn	Nh¹c Linh San	30002			30183&30202	1;0	1;0	-1	-1
+TiÓu Phi Tö	94	0	Nh¹c Linh San	ThuÇn NhÊt Ch­ëng	30002			30184&30203	1;0	1;0	-1	-1
+T×m r­îu	95	0	ThuÇn NhÊt Ch­ëng	ThuÇn NhÊt Ch­ëng	30002	30163		30185&30204	1;0	1;0	1	-1
+Ch©n t­íng	96	0	ThuÇn NhÊt Ch­ëng	Nh¹c BÊt QuÇn	30002			30186&30205	1;0	1;0	-1	-1
+Hç thÑn	97	0	Nh¹c BÊt QuÇn	ThuÇn NhÊt Ch­ëng	30002	30164	30173	30187&30206	1;0	1;0	1	-1
+Thï hËn	98	0	ThuÇn NhÊt Ch­ëng	ThuÇn NhÊt Ch­ëng	30002	30165	30176&30175	30188&30207	1;0	1;0	1	-1
+Khuyªn nh¾n	99	0	ThuÇn NhÊt Ch­ëng	Nh¹c BÊt QuÇn	30002			30189&30208	1;0	1;0	-1	-1
+B¾t cãc	100	0	Nh¹c BÊt QuÇn	Tr×nh Phong	30002			30190&30209	1;0	1;0	-1	-1
+V©n Bang Chñ	101	0	Tr×nh Phong	Tr×nh Phong	30002	30166&30167&30168	30178&30177	30191&30210	1;0	1;0	1	-1
+Lôc bang chñ	102	0	Tr×nh Phong	Tr×nh Phong	30002	30169&30170	30179	30192&30211	1;0	1;0	1	-1
+Khu vùc	103	0	Tr×nh Phong	Nh¹c BÊt QuÇn	30002	30171	30174	30193&30212	1;0	1;0	1	-1
+Héi hîp	104	0	Nh¹c BÊt QuÇn	(Nh¹c BÊt QuÇn)	30002			30194&30213	1;0	1;0	-1	-1
+Cù XÝ Hæ	105	0	(Nh¹c BÊt QuÇn)	(Nh¹c BÊt QuÇn)	30002	30172&30176		30195&30214	1;0	1;0	1	-1
+Thñ vÖ	106	0	(Nh¹c BÊt QuÇn)	(Nh¹c BÊt QuÇn)	30002	30173&30177		30196&30215	1;0	1;0	1	-1
+ThÇn ®iÖn	107	0	(Nh¹c BÊt QuÇn)	(Nh¹c Linh San)	30002			30197&30216	1;0	1;0	-1	-1
+ThiÕt Ch­ëng Èn SÜ	108	0	(Nh¹c Linh San)	(Nh¹c Linh San)	30002	30174	30180	30198&30217	1;0	1;0	1	-1
+QuyÕt chiÕn sinh tö	109	0	(Nh¹c Linh San)	(Nh¹c Linh San)	30002	30175	30181&30220	30199&30218	1;0	1;0	1	-1
+§¸p t¹	110	0	(Nh¹c Linh San)	Nh¹c BÊt QuÇn	30002			30200&30219	1;0	1;0	-1	-1
+An Ninh	111	1			30161&30178	30179	30265	30222&30223	1;0	1;0	1	200000
+Tiªu nh­îc qu©n Liªu	112	1			30161&30178	30180		30222&30225	1;0	1;0	1	200000
+GÆp ma	113	1			30161&30178	30181	30266	30222&30227	1;0	1;0	1	200000
+Thanh trõ c¶n trë	114	1			30161&30178	30182	30267	30222&30229	1;0	1;0	1	200000
+T«n nghiªm cña ng­êi chÕt	115	1			30161&30178	30183	30268	30222&30231	1;0	1;0	1	200000
+QuÐt dän c¶n trë	116	1			30161&30178	30184	30265	30222&30233	1;0	1;0	1	200000
+QuyÕt diÖt qu©n Tèng	117	1			30161&30178	30185		30222&30235	1;0	1;0	1	200000
+ThÊt thÕ	118	1			30161&30178	30186	30268	30222&30237	1;0	1;0	1	200000
+NiÒm vinh dù cña thÞ téc	119	1			30161&30178	30187	30267	30222&30239	1;0	1;0	1	200000
+SØ nhôc	120	1			30161&30178	30188	30266	30222&30241	1;0	1;0	1	200000
+Hån Quy Cè H­¬ng	121	1			30161&30178	30189		30222&30243	1;0	1;0	1	200000
+L­¬ng d­îc phèi ph­¬ng 1	122	1			30161&30178	30190		30222&30245	1;0	1;0	1	200000
+L­¬ng d­îc phèi ph­¬ng 2	123	1			30161&30178	30191		30222&30247	1;0	1;0	1	200000
+Cøu trÞ th­¬ng binh	124	1			30161&30178	30192&30200	30271	30222&30249	1;0	1;0	1	200000
+Siªu ®é vong hån	125	1			30161&30178	30193		30222&30251	1;0	1;0	1	200000
+Nguyªn liÖu ®¬n d­îc 1 	126	1			30161&30178	30194		30222&30253	1;0	1;0	1	200000
+Nguyªn liÖu ®¬n d­îc 2	127	1			30161&30178	30195		30222&30255	1;0	1;0	1	200000
+Dòng gi¶ bÊt tö	128	1			30161&30178	30196&30201	30272	30222&30257	1;0	1;0	1	200000
+ThÊt tinh hoa	129	1			30161&30178	30197&30202		30222&30259&30260	1;0	1;0	1	-1
+Tö Kim Méc	130	1			30161&30178	30198&30203		30222&30261&30262	1;0	1;0	1	-1
+Kho¸n tinh thiÕt	131	1			30161&30178	30199&30204		30222&30263&30264	1;0	1;0	1	-1
+NhiÖm vô nhËp m«n C«n L«n(1)	132	0	Chu BÊt HoÆc	M· BÊt TiÒn	30205&30213&30215			30276	1;0	1;0	-1	-1
+NhiÖm vô nhËp m«n C«n L«n(2)	133	0	M· BÊt TiÒn	TÇn BÊt Tri	30002			30277	1;0	1;0	-1	-1
+NhiÖm vô nhËp m«n C«n L«n(3)	134	0	TÇn BÊt Tri	TÇn BÊt Tri	30002	30206&30207		30278	1;0	1;0	-1	-1
+NhiÖm vô nhËp m«n C«n L«n(4)	135	0	TÇn BÊt Tri	M· BÊt TiÒn	30002	30211&30212	30273	30279&30286	1;0	1;0	-1	-1
+NhiÖm vô nhËp m«n Thóy Yªn(1)	136	0	Sµi Hoµng Nhi	Chu Tö V¨n	30205&30214&30215			30280	1;0	1;0	-1	-1
+NhiÖm vô nhËp m«n Thóy Yªn(2)	137	0	Chu Tö V¨n	Tö Quyªn	30002	30208	30274	30281	1;0	1;0	-1	-1
+NhiÖm vô nhËp m«n Thóy Yªn(3)	138	0	Tö Quyªn	Chu Tö V¨n	30002	30209	30275	30282	1;0	1;0	-1	-1
+NhiÖm vô nhËp m«n Thóy Yªn(4)	139	0	Chu Tö V¨n	Hå Man Thµnh	30002			30283	1;0	1;0	-1	-1
+NhiÖm vô nhËp m«n Thóy Yªn(5)	140	0	Hå Man Thµnh	Hå Man Thµnh	30002	30210		30284	1;0	1;0	-1	-1
+NhiÖm vô nhËp m«n Thóy Yªn(6)	141	0	Hå Man Thµnh	Sµi Hoµng Nhi	30002			30285&30287	1;0	1;0	-1	-1
+T×m LiÖp Hé	142	0	Nh¹c BÊt QuÇn	LiÖp Hé	30161&30216			30289&30290	1;0	1;0	1	-1
+T×m Trãc Yªu Nh©n	143	0	LiÖp Hé	Nh¹n Kha	30002			30291&30292	1;0	1;0	1	-1
+Thu thËp nguyªn liÖu	144	0	Nh¹n Kha	Nh¹n Kha	30002	30217&30218		30293&30294	1;0	1;0	1	-1
+Tiªu diÖt Ng­ Qu¸i	145	0	Nh¹n Kha	Nh¹n Kha	30002	30219&30220	30288&30313	30295&30296	1;0	1;0	1	-1
+T×m hiÓu bèi c¶nh	146	0	Nh¹n Kha	Chu BÊt HoÆc	30002			30297&30298	1;0	1;0	1	-1
+Kh¶o nghiÖm	147	0	Chu BÊt HoÆc	Chu BÊt HoÆc	30002	30221	30314	30299&30300	1;0	1;0	1	-1
+Lai lÞch Yªu Hå	148	0	Chu BÊt HoÆc	Sµi Hoµng Nhi	30002			30301&30302	1;0	1;0	1	-1
+T×nh th©m tù h¶i	149	0	Sµi Hoµng Nhi	Chu BÊt HoÆc	30002			30303&30304	1;0	1;0	1	-1
+TrÊn Yªu ThÊt	150	0	Chu BÊt HoÆc	Sµi Hoµng Nhi	30002			30305&30306	1;0	1;0	1	-1
+Tiªu diÖt Yªu Hå	151	0	Sµi Hoµng Nhi	Sµi Hoµng Nhi	30002	30222	30315&30316	30307&30308	1;0	1;0	1	-1
+GhÐ th¨m Sµi Hoµng Nhi	152	0	Sµi Hoµng Nhi	Sµi Hoµng Nhi	30002			30309&30310	1;0	1;0	1	-1
+BÈm b¸o Nh¹c BÊt QuÇn	153	0	Sµi Hoµng Nhi	Nh¹c BÊt QuÇn	30002			30311&30312&30317	1;0	1;0	1	-1
+TrÊn ¸p ¸c Quû	154	1			30001	30223	30329	30325&30326	1;0	1;0	-1	1
+Tiªu diÖt Du Hån	155	1			30001	30224	30330	30325&30326	1;0	1;0	-1	1
+TrÊn ¸p Tµ T¨ng	156	1			30001	30225	30331	30325&30326	1;0	1;0	-1	1
+Tiªu diÖt Sãi X¸m	157	1			30001	30226	30332	30325&30326	1;0	1;0	-1	1
+Tiªu diÖt Liªu §ao Binh	158	1			30001	30227	30333	30325&30326	1;0	1;0	-1	1
+Thu thËp Thanh Long C«n	159	1			30001	30228		30328&30367	1;0	1;0	-1	1
+Tiªu diÖt Phi TÆc	160	1			30001	30229	30334	30325&30326	1;0	1;0	-1	1
+Tiªu diÖt Sãi §iªn	161	1			30001	30230	30335	30325&30326	1;0	1;0	-1	1
+Thu thËp HuyÒn ThiÕt Träng KiÕm	162	1			30001	30231		30328&30367	1;0	1;0	-1	1
+Khiªu chiÕn Méc Nh©n	163	1			30001	30232	30336	30325&30326	1;0	1;0	-1	1
+Tiªu diÖt Hæ	164	1			30001	30233	30337	30325&30326	1;0	1;0	-1	1
+Thu thËp Thiªn C¬	165	1			30001	30234		30328&30367	1;0	1;0	-1	1
+Tiªu diÖt §ao HiÖp	166	1			30001	30235	30338	30325&30326	1;0	1;0	-1	1
+Tiªu diÖt Danh Th­¬ng Kh¸ch	167	1			30001	30236	30339	30325&30326	1;0	1;0	-1	1
+Thu thËp HuyÕt Hµ Trang	168	1			30001	30237		30328&30367	1;0	1;0	-1	1
+Tiªu diÖt RÕt §éc	169	1			30001	30238	30340	30325&30326	1;0	1;0	-1	1
+Tiªu diÖt Thùc Nh©n Th¶o	170	1			30001	30239	30341	30325&30326	1;0	1;0	-1	1
+Thu thËp MËt ThÇn Qu¸n	171	1			30001	30240		30328&30367	1;0	1;0	-1	1
+§¸nh b¹i Miªu LÜnh Hé Ên	172	1			30001	30241	30342	30325&30326	1;0	1;0	-1	1
+Gi¸o huÊn Xi Háa H¾c Gi¸o §å	173	1			30001	30242	30343	30325&30326	1;0	1;0	-1	1
+Thu thËp Thiªn Y	174	1			30001	30243		30328&30367	1;0	1;0	-1	1
+ChÕ t¹o B¨ng	175	1			30001	30244		30328&30367	1;0	1;0	-1	1
+§o¹t vÒ Th­ T×nh	176	1			30001	30245		30325&30326	1;0	1;0	-1	1
+Thu thËp V¹n VËt Quy Nguyªn §¬n	177	1			30001	30246		30328&30367	1;0	1;0	-1	1
+Tiªu diÖt Nh·n KÝnh Xµ	178	1			30001	30247	30344	30325&30326	1;0	1;0	-1	1
+§o¹t vÒ T¸o	179	1			30001	30248		30325&30326	1;0	1;0	-1	1
+Thu tËp C¶i xµo tái	180	1			30001	30249		30328&30367	1;0	1;0	-1	1
+Tiªu diÖt ¤ M«ng Dòng SÜ	181	1			30001	30250	30345	30325&30326	1;0	1;0	-1	1
+Tiªu diÖt Oa Quèc §ao Kh¸ch	182	1			30001	30251	30346	30325&30326	1;0	1;0	-1	1
+ChÕ t¹o B¸nh Ng«	183	1			30001	30252		30328&30367	1;0	1;0	-1	1
+Gi¸o huÊn S¸t Thñ Ngo¹i Téc	184	1			30001	30253	30347	30325&30326	1;0	1;0	-1	1
+Gi¸o huÊn Cung Thñ Ngo¹i Téc	185	1			30001	30254	30348	30325&30326	1;0	1;0	-1	1
+Thu thËp Tô Linh Phï ChØ	186	1			30001	30255		30328&30367	1;0	1;0	-1	1
+Tiªu diÖt Vâ SÜ DÞ Téc	187	1			30001	30256	30349	30325&30326	1;0	1;0	-1	1
+Tiªu diÖt TiÔn Thñ DÞ Téc	188	1			30001	30257	30350	30325&30326	1;0	1;0	-1	1
+Thu thËp Nhu C­¬ng Trang	189	1			30001	30258		30328&30367	1;0	1;0	-1	1
+Tiªu diÖt Trïng Qu¸i	190	1			30001	30259	30351	30325&30326	1;0	1;0	-1	1
+Tiªu diÖt Th¹ch Nh©n	191	1			30001	30260	30352	30325&30326	1;0	1;0	-1	1
+Thu thËp TuyÖt B¶o Qu¸n	192	1			30001	30261		30328&30367	1;0	1;0	-1	1
+Tiªu diÖt Xi Háa B¹ch Gi¸o §å	193	1			30001	30262	30353	30325&30326	1;0	1;0	-1	1
+Tiªu diÖt Xi Háa Gi¸o §å	194	1			30001	30263	30354	30325&30326	1;0	1;0	-1	1
+Thu thËp Ngò Hoa Ngäc Lé Hoµn	195	1			30001	30264		30328&30367	1;0	1;0	-1	1
+Tiªu diÖt MËt Sø NhÊt PhÈm §­êng	196	1			30001	30265	30355	30325&30326	1;0	1;0	-1	1
+Tiªu diÖt XÝch LuyÖn Háa Hå	197	1			30001	30266	30356	30325&30326	1;0	1;0	-1	1
+Thu thËp Ph¸ S¬n §ao	198	1			30001	30267		30328&30367	1;0	1;0	-1	1
+§¸nh b¹i Tèng §ao Binh	199	1			30001	30268	30357	30325&30326	1;0	1;0	-1	1
+§¸nh b¹i Tèng Qu©n Tö SÜ	200	1			30001	30269	30358	30325&30326	1;0	1;0	-1	1
+Thu thËp Hå C¬ Vò Y	201	1			30001	30270		30328&30367	1;0	1;0	-1	1
+§Þa HuyÒn Cung	202	1			30001	30271		30327&30368	1;0	1;0	-1	1
+Tiªu diÖt Ong Vµng	203	1			30001	30272	30359	30325&30326	1;0	1;0	-1	1
+Thu thËp §¶ CÈu Bæng	204	1			30001	30273		30328&30367	1;0	1;0	-1	1
+V¹n KiÕm Tròng	205	1			30001	30274		30327&30368	1;0	1;0	-1	1
+Tiªu diÖt Ba T­ Yªu C¬	206	1			30001	30275	30360	30325&30326	1;0	1;0	-1	1
+Thu thËp Háa Yªn Th­¬ng	207	1			30001	30276		30328&30367	1;0	1;0	-1	1
+Th¸i NhÊt Th¸p	208	1			30001	30277		30327&30368	1;0	1;0	-1	1
+Tiªu diÖt Xi Háa §ao Kh¸ch	209	1			30001	30278	30361	30325&30326	1;0	1;0	-1	1
+Thu thËp BÝch HuyÕt KiÕm	210	1			30001	30279		30328&30367	1;0	1;0	-1	1
+ChiÕn tr­êng Tèng Liªu	211	1			30001	30280		30327&30368	1;0	1;0	-1	1
+Tiªu diÖt Sa M¹c Hµnh Nh©n	212	1			30001	30281	30362	30325&30326	1;0	1;0	-1	1
+Thu thËp Cöu Tiªu Ngäc Béi	213	1			30001	30282		30328&30367	1;0	1;0	-1	1
+Quay l¹i Tµng KiÕm	214	1			30001	30283		30327&30368	1;0	1;0	-1	1
+Tiªu diÖt Liªu Th­¬ng Qu©n	215	1			30001	30284	30363	30325&30326	1;0	1;0	-1	1
+Thu thËp Minh Quang Gi¸p	216	1			30001	30285		30328&30367	1;0	1;0	-1	1
+L­¬ng S¬n H¶o H¸n	217	1			30001	30286		30327&30368	1;0	1;0	-1	1
+Gi¸o huÊn C«n §å	218	1			30001	30287	30364	30325&30326	1;0	1;0	-1	1
+Thu thËp NhÊt Nguyªn Phôc Thñy §¬n	219	1			30001	30288		30328&30367	1;0	1;0	-1	1
+Tö Quang C¸c	220	1			30001	30289		30327&30368	1;0	1;0	-1	1
+Tiªu diÖt Th­¬ng Viªn	221	1			30001	30290	30365	30325&30326	1;0	1;0	-1	1
+Thu thËp B¸nh Bao ThÞt	222	1			30001	30291		30328&30367	1;0	1;0	-1	1
+Th¸i H­ MËt Th¸m	223	1			30001	30292		30327&30368	1;0	1;0	-1	1
+Tiªu diÖt Vâ SÜ T©y H¹	224	1			30001	30293	30366	30325&30326	1;0	1;0	-1	1
+Thu thËp Gi¸m §Þnh Phï cÊp 5	225	1			30001	30294		30328&30367	1;0	1;0	-1	1
+Tiªu diÖt ¸c Lang	226	1			30319	30295&30296	30103&30104	30369	1;0	1;0	-1	-1
+Tiªu diÖt Hå Ly	227	1			30319	30297	30377	30370	1;0	1;0	-1	-1
+Tiªu diÖt Xi Háa XÝch Gi¸o §å	228	1			30319	30298	30378	30371	1;0	1;0	-1	-1
+Tiªu diÖt Th­¬ng Viªn	229	1			30319	30299	30379	30372	1;0	1;0	-1	-1
+Tiªu diÖt Miªu LÜnh Thæ Ty	230	1			30319	30300	30380	30373	1;0	1;0	-1	-1
+Tiªu diÖt Ba T­ Yªu C¬	231	1			30319	30301	30381	30374	1;0	1;0	-1	-1
+Tiªu diÖt Oa Quèc §ao Kh¸ch	232	1			30319	30302	30382	30375	1;0	1;0	-1	-1
+Tiªu diÖt Tú Bµ Tiªn Tö	233	1			30319	30303	30383	30376	1;0	1;0	-1	-1
+Quay VÒ Chèn Cò	234	1			30319	30304&30305&30306	30384&30385&30386	30399	1;0	1;0	-1	-1
+Quay VÒ Chèn Cò	235	1			30319	30307&30308&30309	30387&30388&30389	30399	1;0	1;0	-1	-1
+Quay VÒ Chèn Cò	236	1			30319	30310&30311&30312	30390&30391&30392	30399	1;0	1;0	-1	-1
+Quay VÒ Chèn Cò	237	1			30319	30313&30314&30315&30316	30393&30394&30395&30396	30399	1;0	1;0	-1	-1
+Quay VÒ Chèn Cò	238	1			30319	30317&30318	30397&30398	30399	1;0	1;0	-1	-1
+T×m §æng Giµ La	239	0	B¾c §Èu L·o Nh©n	§æng Giµ La	30341			30401	1;0	1;0	10	-1
+Tiªu diÖt Xi Háa §ao Kh¸ch	240	0	§æng Giµ La	§æng Giµ La	30002&30341	30321	30424	30402	1;0	1;0	10	-1
+Tiªu diÖt Kh«i Lçi §éc Nh©n	241	0	§æng Giµ La	§æng Giµ La	30002&30341	30322&30340	30436	30403	1;0	1;0	10	-1
+T×m Th­¬ng ¦ng	242	0	§æng Giµ La	Th­¬ng ¦ng	30002&30341			30404	1;0	1;0	10	-1
+T×m B¾c §Èu L·o Nh©n	243	0	Th­¬ng ¦ng	B¾c §Èu L·o Nh©n	30002&30341			30405&30400	1;0	1;0	10	-1
+Gi¶i cøu Th­¬ng ¦ng	244	0	B¾c §Èu L·o Nh©n	Th­¬ng ¦ng	30002&30341			30406	1;0	1;0	10	-1
+§¸nh b¹i Xi Háa Gi¸o Chñ	245	0	Th­¬ng ¦ng	Th­¬ng ¦ng	30002&30341	30324	30425	30407	1;0	1;0	10	-1
+Trë vÒ §¹i Lý	246	0	Th­¬ng ¦ng	§æng Giµ La	30002&30341		30438	30408	1;0	1;0	10	-1
+Tr¶ lêi B¾c §Èu L·o Nh©n	247	0	§æng Giµ La	B¾c §Èu L·o Nh©n	30002&30341		30439	30409&30410&30437	1;0	1;0	10	-1
+T×m Xa Th¸i Qu©n	248	0	Nh¹c BÊt QuÇn	Xa Th¸i Qu©n	30325&30337			30415	1;0	1;0	10	-1
+§¸nh b¹i H¾c Y Tr¸ng SÜ	249	0	Xa Th¸i Qu©n	Xa Th¸i Qu©n	30002&30341&30337	30326	30426	30416	1;0	1;0	10	-1
+T×m Tèng Qu©n Tr­ëng Hé VÖ	250	0	Xa Th¸i Qu©n	Tèng qu©n tr­ëng hé vÖ	30002&30341&30337			30417	1;0	1;0	10	-1
+§¸nh b¹i Ng« ViÖt L·o Tæ	251	0	Tèng qu©n tr­ëng hé vÖ	Tèng qu©n tr­ëng hé vÖ	30002&30341&30337	30336	30433	30418	1;0	1;0	10	-1
+T×m D­¬ng NghiÖp	252	0	Tèng qu©n tr­ëng hé vÖ	D­¬ng NghiÖp	30002&30341&30337			30419	1;0	1;0	10	-1
+T×m D­¬ng NguyÖt S­ Th¸i	253	0	D­¬ng NghiÖp	D­¬ng NguyÖt s­ th¸i	30002&30341&30337			30420	1;0	1;0	10	-1
+Tiªu diÖt Trïng Qu¸i V­¬ng	254	0	D­¬ng NguyÖt s­ th¸i	D­¬ng NghiÖp	30002&30341&30337	30327&30339	30435	30421	1;0	1;0	10	-1
+§¹i Khiªu ChiÕn	255	0	D­¬ng NghiÖp	D­¬ng NghiÖp	30002&30341&30337	30328&30329&30330&30331	30427&30428&30429&30430	30422	1;0	1;0	10	-1
+Thu thËp nguyªn liÖu	256	0	D­¬ng NghiÖp	Nh¹c BÊt QuÇn	30002&30341&30337	30332&30333&30334&30338		30423	1;0	1;0	10	-1
+KhiÕu ChiÕn L«i KiÕp Thó	257	0	Nh¹c BÊt QuÇn	Nh¹c BÊt QuÇn	30002&30341&30337	30335	30414&30434	30431	1;0	1;0	10	-1

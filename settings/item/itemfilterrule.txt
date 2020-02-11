@@ -1,0 +1,2 @@
+ItemG	ItemD	ItemP	Attr1	Attr2	IsAllow
+0	-1	-1	-1	-1	1

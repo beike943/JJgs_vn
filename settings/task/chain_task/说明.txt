@@ -1,0 +1,30 @@
+EntranceLevel.txt -b¶ng c¨n cø vµo ®¼ng cÊp ng­êi ch¬i x¸c ®Şnh ®é khã nhiÖm vô.
+TaskTypeDistributing.txt - b¶ng c¨n cø møc ®é khã x¸c ®Şnh lo¹i h×nh nhiÖm vô
+PrizeForm.txt -b¶ng phÇn th­ëng cña tÊt c¶ chuçi nhiÖm vô.
+
+TaskValue.txt		 B¶ng phÇn th­ëng theo ®é cèng hiÕn trong chuçi nhiÖm vô [chó ı]: gi¸ trŞ lín ®Ó ë trªn!!!		[b¶ng cÇn ®iÒn]
+CollectItem.txt -b¶ng nhiÖm vô thu thËp vËt phÈm
+KillMonster.txt -b¶ng nhiÖm vô ®i thu phôc sè qu¸i nhÊt ®Şnh
+UpgradeAttrib.txt -b¶ng nhiÖm vô t¨ng cÊp 1 sè thuéc tİnh nµo ®ã
+ShowItem.txt -b¶ng nhiÖm vô bµy ra vËt phÈm nhÊt ®Şnh
+SendMail.txt -b¶ng nhiÖm vô göi th­
+
+HiÖn t¹i c¸ch trao gi¶i lµ: mçi khi lµm xong 1 nhiÖm vô th× tù ®éng ph¸t th­ëng, PrizeForm.txt sÏ dùa vµo ®¼ng cÊp ng­êi ch¬i mµ ph¸t th­ëng, sau nµy sÏ c¨n cø thªm turns vµ step, hiÖn t¹i lµ trùc tiÕp ph¸t th­ëng cã trong b¶ng PrizeForm.txt
+Khi ng­êi ch¬i tra xem phÇn th­ëng ®é cèng hiÕn:
+§iÒu chØnh hµm sè b¶n gèc:	GetTaskContribute (TaskNo) ph¶n håi ®é cèng hiÕn trong chuçi nhiÖm vô nµy ng­êi ch¬i tİch lòy.
+
+Khi ng­êi ch¬i tra nhËn phÇn th­ëng ®é cèng hiÕn:
+Tr­íc hÕt ®­a ra c©u hái ng­êi ch¬i muèn dïng bao nhiªu ®é cèng hiÕn ®Ó l·nh th­ëng (10% ®Õn 100%), sau ®ã ®iÒu chØnh hµm sè trong c«ng thøc GetTaskPrize (TaskNo,nPercent) trong ®ã nPercent lµ 1 sè nguyªn ch½n: 10, 20... 100
+							      TrŞ ph¶n håi lµ 1 chuçi kı tù, cã khi lµ tªn vËt phÈm cao cÊp nhÊt, hÖ thèng sÏ nãi: B¹n nhËn ®­îc vËt phÈm XXX
+B­íc tiÕp theo sÏ tù ®éng trõ ®é cèng hiÖn mµ ng­êi ch¬i sö dông, sau ®ã khi tra xem ®é cèng hiÕn cßn l¹i, sÏ th«ng b¸o cho ng­êi ch¬i biÕt cßn bao nhiªu
+
+Nh÷ng c¸i kh¸c th× ®é cèng hiÕn kh«ng thay ®æi so víi tr­íc ®ã, bao gåm hñy bá nhiÖm vô.
+
+Kı hiÖu lo¹i chØ sè t¨ng cÊp:
+0 - Kinh nghiÖm
+1 - Danh väng
+2- TrŞ PK
+3 - §¼ng cÊp
+
+Chó ı: trŞ sè trong TaskRate sau khi céng ph¶i b»ng 10000.
+

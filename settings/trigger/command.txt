@@ -1,0 +1,359 @@
+ID	CommandType	TargetMap	TargetDisplayName	ScriptFile	ScriptFunc
+1	0	300	Vâ s­	\script\task\world\ox_quest\five_elements_weapon\step001_001_³É¶¼ÐÂÊÖÎäÊ¦.lua	wq_ox_few_001_001
+2	0	300	Chñ l«i ®µi	\script\task\world\ox_quest\five_elements_weapon\step001_002_³É¶¼ÀÞÌ¨ÀÏ°å.lua	wq_ox_few_001_002
+3	0	300	VÖ binh thµnh m«n	\script\task\world\ox_quest\five_elements_weapon\step002_001_³É¶¼³ÇÃÅÎÀ±ø.lua	wq_ox_few_002_001
+4	0	300	Bé ®Çu	\script\task\world\ox_quest\five_elements_weapon\step002_002_³É¶¼ÑÃÃÅ²¶Í·.lua	wq_ox_few_002_002
+5	0	300	Bé ®Çu	\script\task\world\ox_quest\five_elements_weapon\step002_003_³É¶¼ÑÃÃÅ²¶Í·.lua	wq_ox_few_002_003
+6	0	300	Bé ®Çu	\script\task\world\ox_quest\five_elements_weapon\step002_005_³É¶¼ÑÃÃÅ²¶Í·.lua	wq_ox_few_002_005
+7	0	300	Bé ®Çu	\script\task\world\ox_quest\five_elements_weapon\step003_002_³É¶¼ÑÃÃÅ²¶Í·.lua	wq_ox_few_003_002
+8	0	300	Bé ®Çu	\script\task\world\ox_quest\five_elements_weapon\step004_001_³É¶¼ÑÃÃÅ²¶Í·.lua	wq_ox_few_004_001
+9	0	304	§éi tr­ëng Binh sÜ	\script\task\world\ox_quest\five_elements_weapon\step004_002_³É¶¼Ê¿±ø¶Ó³¤.lua	wq_ox_few_004_002
+10	0	304	Binh sÜ	\script\task\world\ox_quest\five_elements_weapon\step004_003_³É¶¼ÄÏ½¼Ê¿±ø.lua	wq_ox_few_004_003
+11	0	304	Binh sÜ	\script\task\world\ox_quest\five_elements_weapon\step004_005_³É¶¼ÄÏ½¼Ê¿±ø.lua	wq_ox_few_004_005
+12	0	200	Chñ TiÖm vò khÝ	\script\task\world\ox_quest\five_elements_weapon\step005_001_ãê¾©ÎäÆ÷ÀÏ°å.lua	wq_ox_few_005_001
+13	0	200	Chñ TiÖm vò khÝ	\script\task\world\ox_quest\five_elements_weapon\step005_002_ãê¾©ÎäÆ÷ÀÏ°å.lua	wq_ox_few_005_002
+14	0	200	Chñ TiÖm vò khÝ	\script\task\world\ox_quest\five_elements_weapon\step005_004_ãê¾©ÎäÆ÷ÀÏ°å.lua	wq_ox_few_005_004
+
+51	0	301	Th«n d©n	\script\task\world\ox_quest\oni_boar_teeth\step001_001_³É¶¼Î÷½¼´åÃñ.lua	wq_ox_obt_001_001
+52	0	301	Th«n d©n	\script\task\world\ox_quest\oni_boar_teeth\step001_003_³É¶¼Î÷½¼´åÃñ.lua	wq_ox_obt_001_003
+53	0	301	Th«n d©n	\script\task\world\ox_quest\oni_boar_teeth\step001_005_³É¶¼Î÷½¼´åÃñ.lua	wq_ox_obt_001_005
+54	0	301	Th«n d©n	\script\task\world\ox_quest\oni_boar_teeth\step001_007_³É¶¼Î÷½¼´åÃñ.lua	wq_ox_obt_001_007
+
+101	0	308	Chñ tiÖm nhá	\script\task\world\ox_quest\the_black_blood\step001_001_³É¶¼±±½¼Ð¡µêÀÏ°å.lua	wq_ox_tbb_001_001
+102	0	308	Chñ tiÖm nhá	\script\task\world\ox_quest\the_black_blood\step001_003_³É¶¼±±½¼Ð¡µêÀÏ°å.lua	wq_ox_tbb_001_003
+105	0	308	§øa bÐ ®¸ng th­¬ng	\script\task\world\ox_quest\the_black_blood\step002_001_³É¶¼±±½¼¿ÉÁ¯Ð¡º¢.lua	wq_ox_tbb_002_001
+106	0	308	LiÖp Hé	\script\task\world\ox_quest\the_black_blood\step002_002_³É¶¼±±½¼ÁÔ»§.lua	wq_ox_tbb_002_002
+107	0	308	LiÖp Hé	\script\task\world\ox_quest\the_black_blood\step002_004_³É¶¼±±½¼ÁÔ»§.lua	wq_ox_tbb_002_004
+
+200	0	200	TriÖu Diªn Niªn	\script\task\world\´óÀí\task_trigger.lua	Zhaoyannian_Talk
+201	0	350	M¹c Tam	\script\task\world\´óÀí\task_trigger.lua	MoSan_Talk
+202	0	219	Xa Th¸i Qu©n	\script\task\world\´óÀí\task_trigger.lua	SheTaiJun_Talk
+203	0		B¸ch HiÓu Sinh	\script\task\world\´óÀí\task_trigger.lua	BaiXiaoSheng_Talk
+
+210	0	500	¢u D­¬ng Häa 	\script\task\world\xibei\task_trigger.lua	ouyanghua_talk
+
+2001	0	100	D· TÈu	\script\online\newyear08\bainian_trigger.lua	main
+2002	0	100	Chñ TiÖm vò khÝ	\script\online\newyear08\bainian_trigger.lua	main
+2003	0	100	Chñ D­îc ®iÕm	\script\online\newyear08\bainian_trigger.lua	main
+2004	0	100	Chñ T¹p hãa	\script\online\newyear08\bainian_trigger.lua	main
+2005	0	100	Chñ TiÖm Nam phôc	\script\online\newyear08\bainian_trigger.lua	main
+2006	0	100	Chñ TiÖm N÷ phôc	\script\online\newyear08\bainian_trigger.lua	main
+2007	0	100	Chñ Kim hoµn	\script\online\newyear08\bainian_trigger.lua	main
+2008	0	100	Chñ tiÒn trang	\script\online\newyear08\bainian_trigger.lua	main
+2009	0	100	Thñ khè	\script\online\newyear08\bainian_trigger.lua	main
+2010	0	100	Xa phu TuyÒn Ch©u	\script\online\newyear08\bainian_trigger.lua	main
+2011	0	100	Qu¶n lý cöa hiÖu	\script\online\newyear08\bainian_trigger.lua	main
+2012	0	100	L©m D­îc S­	\script\online\newyear08\bainian_trigger.lua	main
+2013	0	100	Lý Phong Thu	\script\online\newyear08\bainian_trigger.lua	main
+2014	0	100	Chñ l«i ®µi	\script\online\newyear08\bainian_trigger.lua	main
+2015	0	100	ChØ huy sø	\script\online\newyear08\bainian_trigger.lua	main
+2016	0	100	Sø gi¶ bang ph¸i	\script\online\newyear08\bainian_trigger.lua	main
+2018	0	100	LÔ quan	\script\online\newyear08\bainian_trigger.lua	main
+2019	0	100	Bé ®Çu	\script\online\newyear08\bainian_trigger.lua	main
+2021	0	100	Hµnh C­íc Th­¬ng Nh©n	\script\online\newyear08\bainian_trigger.lua	main
+2022	0	100	Sø gi¶ Tµng KiÕm	\script\online\newyear08\bainian_trigger.lua	main
+2023	0	100	Chñ th­¬ng héi	\script\online\newyear08\bainian_trigger.lua	main
+2024	0	100	Vâ s­	\script\online\newyear08\bainian_trigger.lua	main
+2025	0	100	TiÓu ®ång	\script\online\newyear08\bainian_trigger.lua	main
+2026	0	100	§¹i ChÝ C­êng	\script\online\newyear08\bainian_trigger.lua	main
+2027	0	100	Th¸i thó	\script\online\newyear08\bainian_trigger.lua	main
+2028	0	100	VÖ binh thµnh m«n	\script\online\newyear08\bainian_trigger.lua	main
+2029	0	100	La Sa	\script\online\newyear08\bainian_trigger.lua	main
+2030	0	100	V­¬ng NghiÖp VÜ	\script\online\newyear08\bainian_trigger.lua	main
+2031	0	100	Tiªu s­	\script\online\newyear08\bainian_trigger.lua	main
+2032	0	100	Nha dÞch	\script\online\newyear08\bainian_trigger.lua	main
+2033	0	100	Uy NhÜ Tèn	\script\online\newyear08\bainian_trigger.lua	main
+2034	0	100	H¹ KiÖt	\script\online\newyear08\bainian_trigger.lua	main
+2035	0	100	Chung Phãng	\script\online\newyear08\bainian_trigger.lua	main
+2036	0	100	Chñ töu lÇu	\script\online\newyear08\bainian_trigger.lua	main
+2037	0	100	B¸ch HiÓu Sinh	\script\online\newyear08\bainian_trigger.lua	main
+2038	0	100	Chu B©n Cö	\script\online\newyear08\bainian_trigger.lua	main
+					
+2041	0	150	Chñ TiÖm vò khÝ	\script\online\newyear08\bainian_trigger.lua	main
+2042	0	150	Chñ D­îc ®iÕm	\script\online\newyear08\bainian_trigger.lua	main
+2043	0	150	Chñ T¹p hãa	\script\online\newyear08\bainian_trigger.lua	main
+2044	0	150	Chñ TiÖm Nam phôc	\script\online\newyear08\bainian_trigger.lua	main
+2045	0	150	Chñ TiÖm N÷ phôc	\script\online\newyear08\bainian_trigger.lua	main
+2046	0	150	Chñ Kim hoµn	\script\online\newyear08\bainian_trigger.lua	main
+2047	0	150	Chñ tiÒn trang	\script\online\newyear08\bainian_trigger.lua	main
+2048	0	150	Thñ khè	\script\online\newyear08\bainian_trigger.lua	main
+2049	0	150	Xa phu	\script\online\newyear08\bainian_trigger.lua	main
+2050	0	150	Chñ th­¬ng héi	\script\online\newyear08\bainian_trigger.lua	main
+2051	0	150	Ch©n Tö §¬n	\script\online\newyear08\bainian_trigger.lua	main
+2052	0	150	ChØ huy sø	\script\online\newyear08\bainian_trigger.lua	main
+2053	0	150	Bé ®Çu	\script\online\newyear08\bainian_trigger.lua	main
+2054	0	150	Sø gi¶ Tµng KiÕm	\script\online\newyear08\bainian_trigger.lua	main
+2055	0	150	Chñ l«i ®µi	\script\online\newyear08\bainian_trigger.lua	main
+2056	0	150	Hµnh C­íc Th­¬ng Nh©n	\script\online\newyear08\bainian_trigger.lua	main
+2057	0	150	Lý TiÕn Dòng	\script\online\newyear08\bainian_trigger.lua	main
+2058	0	150	H¹ HÇu CÇm	\script\online\newyear08\bainian_trigger.lua	main
+2059	0	150	Tr­¬ng B¸ H¸n	\script\online\newyear08\bainian_trigger.lua	main
+2060	0	150	Thu Dung	\script\online\newyear08\bainian_trigger.lua	main
+2061	0	150	Chñ töu lÇu	\script\online\newyear08\bainian_trigger.lua	main
+2062	0	150	H¹ HÇu Anh	\script\online\newyear08\bainian_trigger.lua	main
+2063	0	150	H¹ HÇu Liªn	\script\online\newyear08\bainian_trigger.lua	main
+2064	0	150	L­u HuyÒn Thanh	\script\online\newyear08\bainian_trigger.lua	main
+2065	0	150	M·nh Nham 	\script\online\newyear08\bainian_trigger.lua	main
+2066	0	150	Phïng §ång Nhi	\script\online\newyear08\bainian_trigger.lua	main
+2067	0	150	TrÇn MÉn	\script\online\newyear08\bainian_trigger.lua	main
+2068	0	150	T­ëng Duy	\script\online\newyear08\bainian_trigger.lua	main
+					
+2071	0	200	D· TÈu	\script\online\newyear08\bainian_trigger.lua	main
+2072	0	200	Chñ TiÖm vò khÝ	\script\online\newyear08\bainian_trigger.lua	main
+2073	0	200	Chñ D­îc ®iÕm	\script\online\newyear08\bainian_trigger.lua	main
+2074	0	200	Chñ T¹p hãa	\script\online\newyear08\bainian_trigger.lua	main
+2075	0	200	Chñ TiÖm Nam phôc	\script\online\newyear08\bainian_trigger.lua	main
+2076	0	200	Chñ TiÖm N÷ phôc	\script\online\newyear08\bainian_trigger.lua	main
+2077	0	200	Chñ Kim hoµn	\script\online\newyear08\bainian_trigger.lua	main
+2078	0	200	Chñ tiÒn trang	\script\online\newyear08\bainian_trigger.lua	main
+2079	0	200	Thñ khè	\script\online\newyear08\bainian_trigger.lua	main
+2080	0	200	Xa phu	\script\online\newyear08\bainian_trigger.lua	main
+2081	0	200	Qu¶n lý cöa hiÖu	\script\online\newyear08\bainian_trigger.lua	main
+2082	0	200	M¹c §¹i	\script\online\newyear08\bainian_trigger.lua	main
+2083	0	200	V©n Du §¹o Nh©n	\script\online\newyear08\bainian_trigger.lua	main
+2084	0	200	Ngù Trï	\script\online\newyear08\bainian_trigger.lua	main
+2085	0	200	L­u NhÊt Phñ	\script\online\newyear08\bainian_trigger.lua	main
+2086	0	200	Thî s¨n Tr­¬ng	\script\online\newyear08\bainian_trigger.lua	main
+2087	0	200	Bé ®Çu	\script\online\newyear08\bainian_trigger.lua	main
+2088	0	200	LÔ quan	\script\online\newyear08\bainian_trigger.lua	main
+2089	0	200	Chñ th­¬ng héi	\script\online\newyear08\bainian_trigger.lua	main
+2090	0	200	Hµnh C­íc Th­¬ng Nh©n	\script\online\newyear08\bainian_trigger.lua	main
+2093	0	200	Ch©n Tö §¬n	\script\online\newyear08\bainian_trigger.lua	main
+2094	0	200	Sø gi¶ Tµng KiÕm	\script\online\newyear08\bainian_trigger.lua	main
+2095	0	200	TriÖu Diªn Niªn	\script\online\newyear08\bainian_trigger.lua	main
+2096	0	200	Tiªu ViÔn L©u	\script\online\newyear08\bainian_trigger.lua	main
+2097	0	200	Sø gi¶ bang ph¸i	\script\online\newyear08\bainian_trigger.lua	main
+2098	0	200	VÖ binh thµnh m«n	\script\online\newyear08\bainian_trigger.lua	main
+2099	0	200	Tµo B©n	\script\online\newyear08\bainian_trigger.lua	main
+2100	0	200	Binh Bé ThÞ Lang	\script\online\newyear08\bainian_trigger.lua	main
+2101	0	200	Binh Bé Thñ vÖ	\script\online\newyear08\bainian_trigger.lua	main
+2102	0	200	TriÖu Phæ	\script\online\newyear08\bainian_trigger.lua	main
+2103	0	200	ThÞ VÖ T­íng phñ	\script\online\newyear08\bainian_trigger.lua	main
+2104	0	200	CÊm qu©n	\script\online\newyear08\bainian_trigger.lua	main
+2105	0	200	KhÊu ChuÈn	\script\online\newyear08\bainian_trigger.lua	main
+2106	0	200	CÊm qu©n	\script\online\newyear08\bainian_trigger.lua	main
+2107	0	200	Chñ töu lÇu	\script\online\newyear08\bainian_trigger.lua	main
+2108	0	200	TiÓu nhÞ	\script\online\newyear08\bainian_trigger.lua	main
+2109	0	200	Nh©n sÜ giang hå	\script\online\newyear08\bainian_trigger.lua	main
+2110	0	200	Tµo §¹i Lùc	\script\online\newyear08\bainian_trigger.lua	main
+2111	0	200	Gi¸o sÜ	\script\online\newyear08\bainian_trigger.lua	main
+2112	0	200	Vâ s­	\script\online\newyear08\bainian_trigger.lua	main
+2113	0	200	Hµng xãm Hµn TrÝ Nh­îng	\script\online\newyear08\bainian_trigger.lua	main
+2114	0	200	Tiªu s­	\script\online\newyear08\bainian_trigger.lua	main
+2115	0	200	Vò N­¬ng	\script\online\newyear08\bainian_trigger.lua	main
+2116	0	200	ThÇy bãi	\script\online\newyear08\bainian_trigger.lua	main
+2117	0	200	Quan viªn tho¸i nhiÖm	\script\online\newyear08\bainian_trigger.lua	main
+2118	0	200	TiÓu ®ång	\script\online\newyear08\bainian_trigger.lua	main
+2119	0	200	B¸ch HiÓu Sinh	\script\online\newyear08\bainian_trigger.lua	main
+2120	0	200	Lý S­ S­	\script\online\newyear08\bainian_trigger.lua	main
+2121	0	200	B¸n ngùa	\script\online\newyear08\bainian_trigger.lua	main
+					
+2131	0	300	D· TÈu	\script\online\newyear08\bainian_trigger.lua	main
+2132	0	300	Chñ TiÖm vò khÝ	\script\online\newyear08\bainian_trigger.lua	main
+2133	0	300	Chñ D­îc ®iÕm	\script\online\newyear08\bainian_trigger.lua	main
+2134	0	300	Chñ T¹p hãa	\script\online\newyear08\bainian_trigger.lua	main
+2135	0	300	Chñ TiÖm Nam phôc	\script\online\newyear08\bainian_trigger.lua	main
+2136	0	300	Chñ TiÖm N÷ phôc	\script\online\newyear08\bainian_trigger.lua	main
+2137	0	300	Chñ Kim hoµn	\script\online\newyear08\bainian_trigger.lua	main
+2138	0	300	Chñ tiÒn trang	\script\online\newyear08\bainian_trigger.lua	main
+2139	0	300	Thñ khè	\script\online\newyear08\bainian_trigger.lua	main
+2140	0	300	Xa phu	\script\online\newyear08\bainian_trigger.lua	main
+2141	0	300	Qu¶n lý cöa hiÖu	\script\online\newyear08\bainian_trigger.lua	main
+2142	0	300	M¹c NhÞ	\script\online\newyear08\bainian_trigger.lua	main
+2143	0	300	CÈm n­¬ng	\script\online\newyear08\bainian_trigger.lua	main
+2144	0	300	Du Ph­¬ng ®¹i phu	\script\online\newyear08\bainian_trigger.lua	main
+2145	0	300	§¹i Kho¸ng C«ng	\script\online\newyear08\bainian_trigger.lua	main
+2146	0	300	Hoµng §¹i ThÈm	\script\online\newyear08\bainian_trigger.lua	main
+2147	0	300	Bé ®Çu	\script\online\newyear08\bainian_trigger.lua	main
+2148	0	300	LÔ quan	\script\online\newyear08\bainian_trigger.lua	main
+2149	0	300	Chñ th­¬ng héi	\script\online\newyear08\bainian_trigger.lua	main
+2150	0	300	Sø gi¶ Tµng KiÕm	\script\online\newyear08\bainian_trigger.lua	main
+2151	0	300	Hµnh C­íc Th­¬ng Nh©n	\script\online\newyear08\bainian_trigger.lua	main
+2153	0	300	Sø gi¶ bang ph¸i	\script\online\newyear08\bainian_trigger.lua	main
+2155	0	300	Vò N­¬ng	\script\online\newyear08\bainian_trigger.lua	main
+2156	0	300	N¹n d©n_BÝnh	\script\online\newyear08\bainian_trigger.lua	main
+2157	0	300	N¹n d©n_§inh	\script\online\newyear08\bainian_trigger.lua	main
+2158	0	300	N¹n d©n_Gi¸p	\script\online\newyear08\bainian_trigger.lua	main
+2159	0	300	N¹n d©n Êt	\script\online\newyear08\bainian_trigger.lua	main
+2160	0	300	N¹n d©n	\script\online\newyear08\bainian_trigger.lua	main
+2161	0	300	Chu ThiÖn Nh©n	\script\online\newyear08\bainian_trigger.lua	main
+2162	0	300	A ThÞnh	\script\online\newyear08\bainian_trigger.lua	main
+2163	0	300	Chu UÊt Ly	\script\online\newyear08\bainian_trigger.lua	main
+2164	0	300	Th¸i thó	\script\online\newyear08\bainian_trigger.lua	main
+2165	0	300	Chñ l«i ®µi	\script\online\newyear08\bainian_trigger.lua	main
+2166	0	300	Nha dÞch	\script\online\newyear08\bainian_trigger.lua	main
+2167	0	300	Nha dÞch	\script\online\newyear08\bainian_trigger.lua	main
+2168	0	300	VÖ binh thµnh m«n	\script\online\newyear08\bainian_trigger.lua	main
+2169	0	300	Vâ s­	\script\online\newyear08\bainian_trigger.lua	main
+2170	0	300	ThÇy bãi	\script\online\newyear08\bainian_trigger.lua	main
+2171	0	300	Quan viªn tho¸i nhiÖm	\script\online\newyear08\bainian_trigger.lua	main
+2172	0	300	Chñ töu lÇu	\script\online\newyear08\bainian_trigger.lua	main
+2173	0	300	V­¬ng CÈn	\script\online\newyear08\bainian_trigger.lua	main
+2174	0	300	B¸ch HiÓu Sinh	\script\online\newyear08\bainian_trigger.lua	main
+2175	0	300	Tiªu s­	\script\online\newyear08\bainian_trigger.lua	main
+2176	0	300	Gi¸o sÜ	\script\online\newyear08\bainian_trigger.lua	main
+2177	0	300	TiÓu ®ång	\script\online\newyear08\bainian_trigger.lua	main
+2178	0	300	Tiªu s­	\script\online\newyear08\bainian_trigger.lua	main
+					
+2181	0	350	Chñ TiÖm vò khÝ	\script\online\newyear08\bainian_trigger.lua	main
+2182	0	350	Chñ D­îc ®iÕm	\script\online\newyear08\bainian_trigger.lua	main
+2183	0	350	Chñ T¹p hãa	\script\online\newyear08\bainian_trigger.lua	main
+2184	0	350	Chñ TiÖm Nam phôc	\script\online\newyear08\bainian_trigger.lua	main
+2185	0	350	Chñ TiÖm N÷ phôc	\script\online\newyear08\bainian_trigger.lua	main
+2186	0	350	Chñ Kim hoµn	\script\online\newyear08\bainian_trigger.lua	main
+2187	0	350	Thñ khè	\script\online\newyear08\bainian_trigger.lua	main
+2188	0	350	Xa phu	\script\online\newyear08\bainian_trigger.lua	main
+2189	0	350	Bé ®Çu	\script\online\newyear08\bainian_trigger.lua	main
+2190	0	350	Tr¸c Thiªn Hµnh	\script\online\newyear08\bainian_trigger.lua	main
+2191	0	350	Chñ l«i ®µi	\script\online\newyear08\bainian_trigger.lua	main
+2192	0	350	Minh Chñ Kim S¬n	\script\online\newyear08\bainian_trigger.lua	main
+2193	0	350	Ch©n Tö §¬n	\script\online\newyear08\bainian_trigger.lua	main
+2194	0	350	ChØ huy sø	\script\online\newyear08\bainian_trigger.lua	main
+2195	0	350	Chñ th­¬ng héi	\script\online\newyear08\bainian_trigger.lua	main
+2196	0	350	Thî rÌn L­u	\script\online\newyear08\bainian_trigger.lua	main
+2197	0	350	M¹c Tam	\script\online\newyear08\bainian_trigger.lua	main
+2198	0	350	Hµnh C­íc Th­¬ng Nh©n	\script\online\newyear08\bainian_trigger.lua	main
+2199	0	350	Sø gi¶ Tµng KiÕm	\script\online\newyear08\bainian_trigger.lua	main
+2200	0	350	Th¸i thó	\script\online\newyear08\bainian_trigger.lua	main
+2201	0	350	Chñ töu lÇu	\script\online\newyear08\bainian_trigger.lua	main
+2202	0	350	Ph­¬ng Khanh	\script\online\newyear08\bainian_trigger.lua	main
+2203	0	350	Vu DÇn	\script\online\newyear08\bainian_trigger.lua	main
+2204	0	350	Tæng binh	\script\online\newyear08\bainian_trigger.lua	main
+2205	0	350	Tr­¬ng ¶nh	\script\online\newyear08\bainian_trigger.lua	main
+2206	0	350	M¹c H÷u Vi	\script\online\newyear08\bainian_trigger.lua	main
+2207	0	350	Tiªu s­	\script\online\newyear08\bainian_trigger.lua	main
+2208	0	350	T­ M· TÊn Nguyªn	\script\online\newyear08\bainian_trigger.lua	main
+2209	0	350	Hµn NghÜa	\script\online\newyear08\bainian_trigger.lua	main
+2210	0	350	Cæ MÆc	\script\online\newyear08\bainian_trigger.lua	main
+2211	0	350	Thiªn Tóc Minh	\script\online\newyear08\bainian_trigger.lua	main
+2212	0	350	Cæ L·o Ta	\script\online\newyear08\bainian_trigger.lua	main
+2213	0	350	Phï Nghi	\script\online\newyear08\bainian_trigger.lua	main
+					
+2221	0	400	Chñ TiÖm vò khÝ	\script\online\newyear08\bainian_trigger.lua	main
+2222	0	400	Chñ D­îc ®iÕm	\script\online\newyear08\bainian_trigger.lua	main
+2223	0	400	Chñ T¹p hãa	\script\online\newyear08\bainian_trigger.lua	main
+2224	0	400	Chñ TiÖm Nam phôc	\script\online\newyear08\bainian_trigger.lua	main
+2225	0	400	Chñ TiÖm N÷ phôc	\script\online\newyear08\bainian_trigger.lua	main
+2226	0	400	Chñ Kim hoµn	\script\online\newyear08\bainian_trigger.lua	main
+2227	0	400	Thñ khè	\script\online\newyear08\bainian_trigger.lua	main
+2228	0	400	Xa phu §¹i Lý	\script\online\newyear08\bainian_trigger.lua	main
+2229	0	400	Chñ th­¬ng héi	\script\online\newyear08\bainian_trigger.lua	main
+2230	0	400	LÔ quan	\script\online\newyear08\bainian_trigger.lua	main
+2231	0	400	Chñ töu lÇu	\script\online\newyear08\bainian_trigger.lua	main
+2233	0	400	TrÞnh Qu¸n Chi	\script\online\newyear08\bainian_trigger.lua	main
+2234	0	400	§æng Giµ La	\script\online\newyear08\bainian_trigger.lua	main
+2235	0	400	TrÇn LËp Hµnh	\script\online\newyear08\bainian_trigger.lua	main
+2236	0	400	L­u §iÓn	\script\online\newyear08\bainian_trigger.lua	main
+2237	0	400	Cao Th¨ng TuyÒn	\script\online\newyear08\bainian_trigger.lua	main
+
+3001	0	200	Thñ khè	\script\task\random\incept_npc.lua	main
+3002	0	200	Xa phu	\script\task\random\incept_npc.lua	main
+3003	0	200	TriÖu Phæ	\script\task\random\incept_npc.lua	main
+3004	0	200	Bé ®Çu	\script\task\random\incept_npc.lua	main
+3005	0	200	VÖ binh thµnh m«n	\script\task\random\incept_npc.lua	main
+3006	0	200	Tµo B©n	\script\task\random\incept_npc.lua	main
+3007	0	200	Binh Bé ThÞ Lang	\script\task\random\incept_npc.lua	main
+3008	0	200	Binh Bé Thñ vÖ	\script\task\random\incept_npc.lua	main
+3009	0	200	ThÞ VÖ T­íng phñ	\script\task\random\incept_npc.lua	main
+3010	0	200	CÊm qu©n	\script\task\random\incept_npc.lua	main
+3011	0	200	LÔ quan	\script\task\random\incept_npc.lua	main
+3012	0	200	D· TÈu	\script\task\random\incept_npc.lua	main
+3013	0	200	Chñ TiÖm vò khÝ	\script\task\random\incept_npc.lua	main
+3014	0	200	Chñ D­îc ®iÕm	\script\task\random\incept_npc.lua	main
+3015	0	200	Chñ T¹p hãa	\script\task\random\incept_npc.lua	main
+3016	0	200	Chñ TiÖm Nam phôc	\script\task\random\incept_npc.lua	main
+3017	0	200	Chñ TiÖm N÷ phôc	\script\task\random\incept_npc.lua	main
+3018	0	200	Chñ töu lÇu	\script\task\random\incept_npc.lua	main
+3019	0	200	TiÓu nhÞ	\script\task\random\incept_npc.lua	main
+3020	0	200	Nh©n sÜ giang hå	\script\task\random\incept_npc.lua	main
+3021	0	200	Tµo §¹i Lùc	\script\task\random\incept_npc.lua	main
+3022	0	200	Vâ s­	\script\task\random\incept_npc.lua	main
+3023	0	200	Chñ tiÒn trang	\script\task\random\incept_npc.lua	main
+3024	0	200	Chñ Kim hoµn	\script\task\random\incept_npc.lua	main
+3025	0	200	Sø gi¶ m«n ph¸i	\script\task\random\incept_npc.lua	main
+3026	0	200	Hµng xãm Hµn TrÝ Nh­îng	\script\task\random\incept_npc.lua	main
+3027	0	200	Tiªu s­	\script\task\random\incept_npc.lua	main
+3028	0	200	Vò N­¬ng	\script\task\random\incept_npc.lua	main
+3029	0	200	ThÇy bãi	\script\task\random\incept_npc.lua	main
+3030	0	200	Quan viªn tho¸i nhiÖm	\script\task\random\incept_npc.lua	main
+3031	0	200	Chñ th­¬ng héi	\script\task\random\incept_npc.lua	main
+3032	0	200	Hµnh C­íc Th­¬ng Nh©n	\script\task\random\incept_npc.lua	main
+3033	0	200	B¸ch HiÓu Sinh	\script\task\random\incept_npc.lua	main
+3034	0	200	Ngù Trï	\script\task\random\incept_npc.lua	main
+3035	0	200	Chñ Kim hoµn	\script\task\random\incept_npc.lua	main
+3036	0	200	V©n Du §¹o Nh©n	\script\task\random\incept_npc.lua	main
+3037	0	219	Xa Th¸i Qu©n	\script\task\random\incept_npc.lua	main
+3038	0	200	B¸n ngùa	\script\task\random\incept_npc.lua	main
+3039	0	200	KhÊu ChuÈn	\script\task\random\incept_npc.lua	main
+3040	0	300	Thñ khè	\script\task\random\incept_npc.lua	main
+3041	0	300	Xa phu	\script\task\random\incept_npc.lua	main
+3042	0	300	D· TÈu	\script\task\random\incept_npc.lua	main
+3043	0	300	A ThÞnh	\script\task\random\incept_npc.lua	main
+3044	0	300	Sø gi¶ m«n ph¸i	\script\task\random\incept_npc.lua	main
+3045	0	300	N¹n d©n_Gi¸p	\script\task\random\incept_npc.lua	main
+3046	0	300	N¹n d©n Êt	\script\task\random\incept_npc.lua	main
+3047	0	300	N¹n d©n_BÝnh	\script\task\random\incept_npc.lua	main
+3048	0	300	N¹n d©n_§inh	\script\task\random\incept_npc.lua	main
+3049	0	300	Chñ TiÖm Nam phôc	\script\task\random\incept_npc.lua	main
+3050	0	300	Chñ TiÖm N÷ phôc	\script\task\random\incept_npc.lua	main
+3051	0	300	VÖ binh thµnh m«n	\script\task\random\incept_npc.lua	main
+3052	0	300	Th¸i thó	\script\task\random\incept_npc.lua	main
+3053	0	300	Bé ®Çu	\script\task\random\incept_npc.lua	main
+3054	0	300	Vâ s­	\script\task\random\incept_npc.lua	main
+3055	0	300	Chñ D­îc ®iÕm	\script\task\random\incept_npc.lua	main
+3056	0	300	Du Ph­¬ng ®¹i phu	\script\task\random\incept_npc.lua	main
+3057	0	300	CÈm n­¬ng	\script\task\random\incept_npc.lua	main
+3058	0	300	M¹c NhÞ	\script\task\random\incept_npc.lua	main
+3059	0	300	Chñ TiÖm vò khÝ	\script\task\random\incept_npc.lua	main
+3060	0	300	Chu ThiÖn Nh©n	\script\task\random\incept_npc.lua	main
+3061	0	300	Chñ th­¬ng héi	\script\task\random\incept_npc.lua	main
+3062	0	300	Quan viªn tho¸i nhiÖm	\script\task\random\incept_npc.lua	main
+3063	0	300	ThÇy bãi	\script\task\random\incept_npc.lua	main
+3064	0	300	Vò N­¬ng	\script\task\random\incept_npc.lua	main
+3065	0	300	Chñ T¹p hãa	\script\task\random\incept_npc.lua	main
+3066	0	300	Tiªu s­	\script\task\random\incept_npc.lua	main
+3067	0	300	Chñ töu lÇu	\script\task\random\incept_npc.lua	main
+3068	0	300	V­¬ng CÈn	\script\task\random\incept_npc.lua	main
+3069	0	300	Nha dÞch	\script\task\random\incept_npc.lua	main
+3070	0	300	Nha dÞch	\script\task\random\incept_npc.lua	main
+3071	0	300	Chñ l«i ®µi	\script\task\random\incept_npc.lua	main
+3072	0	300	Chñ tiÒn trang	\script\task\random\incept_npc.lua	main
+3073	0	300	Hµnh C­íc Th­¬ng Nh©n	\script\task\random\incept_npc.lua	main
+3074	0	300	Chñ Kim hoµn	\script\task\random\incept_npc.lua	main
+3075	0	300	B¸ch HiÓu Sinh	\script\task\random\incept_npc.lua	main
+3076	0	350	Xa phu	\script\task\random\incept_npc.lua	main
+3077	0	350	Thñ khè	\script\task\random\incept_npc.lua	main
+3078	0	350	Chñ TiÖm vò khÝ	\script\task\random\incept_npc.lua	main
+3079	0	350	Chñ D­îc ®iÕm	\script\task\random\incept_npc.lua	main
+3080	0	350	Chñ T¹p hãa	\script\task\random\incept_npc.lua	main
+3081	0	350	Chñ TiÖm Nam phôc	\script\task\random\incept_npc.lua	main
+3082	0	350	Chñ TiÖm N÷ phôc	\script\task\random\incept_npc.lua	main
+3083	0	350	Chñ Kim hoµn	\script\task\random\incept_npc.lua	main
+3084	0	350	T­ M· TÊn Nguyªn	\script\task\random\incept_npc.lua	main
+3085	0	350	Th¸i thó	\script\task\random\incept_npc.lua	main
+3086	0	350	Hµn NghÜa	\script\task\random\incept_npc.lua	main
+3087	0	350	Cæ L·o Ta	\script\task\random\incept_npc.lua	main
+3088	0	350	Cæ MÆc	\script\task\random\incept_npc.lua	main
+3089	0	350	Ph­¬ng Khanh	\script\task\random\incept_npc.lua	main
+3090	0	350	Chñ l«i ®µi	\script\task\random\incept_npc.lua	main
+3091	0	350	Vu DÇn	\script\task\random\incept_npc.lua	main
+3092	0	350	Tr­¬ng ¶nh	\script\task\random\incept_npc.lua	main
+3093	0	350	M¹c H÷u Vi	\script\task\random\incept_npc.lua	main
+3094	0	350	Hµnh C­íc Th­¬ng Nh©n	\script\task\random\incept_npc.lua	main
+3095	0	350	M¹c Tam	\script\task\random\incept_npc.lua	main
+3096	0	350	Tiªu s­	\script\task\random\incept_npc.lua	main
+3097	0	204	HuyÒn Tõ	\script\task\random\incept_npc.lua	main
+3098	0	204	HuyÒn Minh	\script\task\random\incept_npc.lua	main
+3099	0	204	Háa C«ng §Çu	\script\task\random\incept_npc.lua	main
+3100	0	312	Tö H¹c ch©n nh©n	\script\task\random\incept_npc.lua	main
+3101	0	312	Tr­¬ng Ngä D­¬ng	\script\task\random\incept_npc.lua	main
+3102	0	303	Ch©n Nh­ s­ th¸i	\script\task\random\incept_npc.lua	main
+3103	0	209	Long T¹i Thiªn	\script\task\random\incept_npc.lua	main
+3104	0	209	V­u Tri VÞ	\script\task\random\incept_npc.lua	main
+3105	0	209	Hång ThÊt	\script\task\random\incept_npc.lua	main
+3106	0	305	§­êng M«n L·o L·o	\script\task\random\incept_npc.lua	main
+3107	0	305	§­êng V©n	\script\task\random\incept_npc.lua	main
+3108	0	305	§­êng UyÓn Nhi	\script\task\random\incept_npc.lua	main
+3109	0	407	B¹ch Doanh Doanh	\script\task\random\incept_npc.lua	main
+3110	1	0	0	\script\task\global_task\npc_talk.lua	main
+3111	1	0	0	\script\online\spring2014\sp_head.lua	sp_NpcTalk

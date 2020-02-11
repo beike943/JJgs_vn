@@ -1,0 +1,1 @@
+Sort	Page	X	Y	Description	Information	GiveItem1Type	GiveItem1Genre	GiveItem1Detail	GiveItem1Particular	GiveItem1Count	WantItem1Type	WantItem1Genre	WantItem1Detail	WantItem1Particular	WantItem1Count	TimeLimit	DayLimit	ExpMulriple1	JinJuanMulriple1

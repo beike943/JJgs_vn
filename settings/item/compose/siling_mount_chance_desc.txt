@@ -1,0 +1,6 @@
+ChanceHigh	Description
+10	RÊt nhá
+30	TiÓu
+60	th­êng
+99.9	§¹i
+100	nhÊt ®Þnh thµnh c«ng

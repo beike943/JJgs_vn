@@ -1,0 +1,1443 @@
+LineId	Name	GroupID	AttrId	AttrLv	Rate	AttrWorth	ConflictGroupID		Më khãa:  ®Æc tr­ng=8:2		D:C:B=4:3:3
+ID duy nhÊt	unuse line(2~10)	ID ®­îc tham chiÕu									
+	unuse line(2~10)	Cã thÓ trïng lÆp									
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+	unuse line(2~10)										
+1	Ph¸t triÓn D-C	0									
+2	Ph¸t triÓn nhãm ®iÒn vµo D	1									
+3	Hao mßn vò khÝ gi¶m: /1% 	1	13141	1	192	200	21				
+4	Søc lùc+/1	1	13142	1	184	200	22				
+5	T¨ng giíi h¹n träng l­îng/1%	1	13143	1	184	200	23				
+6	ThÓ lùc	1	13144	1	184	200	24				
+7	ThÓ lùc 1%	1	13145	1	184	200	25				
+8	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	1	13146	1	184	200	26				
+9	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	1	13147	1	184	200	27				
+10	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	1	13148	1	184	200	28				
+11	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	1	13149	1	184	200	29				
+12	HiÖu qu¶ d­îc phÈm håi néi/1%	1	13150	1	184	200	30				
+13	yªu cÇu ®¼ng cÊp gi¶m /1	1	13151	1	184	200	31				
+14	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	1	13152	1	184	200	32				
+15	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	1	13153	1	184	200	33				
+16	Ph¸t triÓn thuéc tÝnh chÝnh D	1									
+17	Søc m¹nh	1	13081	1	266	300	1				
+18	Th©n ph¸p	1	13082	1	266	300	2				
+19	Néi c«ng 	1	13083	1	266	300	3				
+20	Linh ho¹t	1	13084	1	266	300	4				
+21	G©n cèt	1	13085	1	266	300	5				
+22	Néi lùc 	1	13086	1	266	300	6				
+23	Néi lùc %	1	13087	1	266	300	7				
+24	§iÓm sinh lùc	1	13088	1	266	300	8				
+25	Sinh mÖnh %	1	13089	1	272	300	9				
+26	Ph¸t triÓn nhãm c«ng kÝch D	1									
+27	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	1	13108	1	200	400	10				
+28	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	1	13109	1	200	400	11				
+29	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	1	13110	1	200	400	12				
+30	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	1	13111	1	200	400	13				
+31	T¨ng ®iÓm sè tæng lùc c«ng kÝch ngo¹i c«ng	1	13112	1	200	400	14				
+32	T¨ng ®iÓm sè tæng lùc c«ng kÝch néi c«ng	1	13113	1	200	400	15				
+33	S¸t th­¬ng t¨ng /1	1	13114	1	0	400	16				
+34	S¸t th­¬ng ®éc	1	13115	1	0	400	17				
+35	§éc s¸t t¨ng /1	1	13116	1	0	400	18				
+36	Ngo¹i c«ng t¨ng: /1% 	1	13117	1	0	400	19				
+37	Néi c«ng t¨ng /1% 	1	13118	1	0	400	20				
+38	Ph¸t triÓn nhãm ®iÒn vµo C	1									
+39	Hao mßn vò khÝ gi¶m: /1% 	1	13154	1	124	300	21				
+40	Søc lùc+/1	1	13155	1	123	300	22				
+41	T¨ng giíi h¹n träng l­îng/1%	1	13156	1	123	300	23				
+42	ThÓ lùc	1	13157	1	123	300	24				
+43	ThÓ lùc 1%	1	13158	1	123	300	25				
+44	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	1	13159	1	123	300	26				
+45	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	1	13160	1	123	300	27				
+46	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	1	13161	1	123	300	28				
+47	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	1	13162	1	123	300	29				
+48	HiÖu qu¶ d­îc phÈm håi néi/1%	1	13163	1	123	300	30				
+49	yªu cÇu ®¼ng cÊp gi¶m /1	1	13164	1	123	300	31				
+50	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	1	13165	1	123	300	32				
+51	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	1	13166	1	123	300	33				
+52	Ph¸t triÓn thuéc tÝnh chÝnh C	1									
+53	Søc m¹nh	1	13090	1	177	400	1				
+54	Th©n ph¸p	1	13091	1	177	400	2				
+55	Néi c«ng 	1	13092	1	177	400	3				
+56	Linh ho¹t	1	13093	1	177	400	4				
+57	G©n cèt	1	13094	1	177	400	5				
+58	Néi lùc 	1	13095	1	177	400	6				
+59	Néi lùc %	1	13096	1	177	400	7				
+60	§iÓm sinh lùc	1	13097	1	177	400	8				
+61	Sinh mÖnh %	1	13098	1	184	400	9				
+62	Ph¸t triÓn nhãm c«ng kÝch C	1									
+63	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	1	13119	1	90	500	10				
+64	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	1	13120	1	90	500	11				
+65	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	1	13121	1	90	500	12				
+66	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	1	13122	1	90	500	13				
+67	T¨ng ®iÓm sè tæng lùc c«ng kÝch ngo¹i c«ng	1	13123	1	88	500	14				
+68	T¨ng ®iÓm sè tæng lùc c«ng kÝch néi c«ng	1	13124	1	88	500	15				
+69	S¸t th­¬ng t¨ng /1	1	13125	1	88	500	16				
+70	S¸t th­¬ng ®éc	1	13126	1	88	500	17				
+71	§éc s¸t t¨ng /1	1	13127	1	88	500	18				
+72	Ngo¹i c«ng t¨ng: /1% 	1	13128	1	0	500	19				
+73	Néi c«ng t¨ng /1% 	1	13129	1	0	500	20				
+74	Ph¸t triÓn D-B	0									
+75	Ph¸t triÓn nhãm ®iÒn vµo D	2									
+76	Hao mßn vò khÝ gi¶m: /1% 	2	13141	1	164	200	21				
+77	Søc lùc+/1	2	13142	1	153	200	22				
+78	T¨ng giíi h¹n träng l­îng/1%	2	13143	1	153	200	23				
+79	ThÓ lùc	2	13144	1	153	200	24				
+80	ThÓ lùc 1%	2	13145	1	153	200	25				
+81	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	2	13146	1	153	200	26				
+82	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	2	13147	1	153	200	27				
+83	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	2	13148	1	153	200	28				
+84	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	2	13149	1	153	200	29				
+85	HiÖu qu¶ d­îc phÈm håi néi/1%	2	13150	1	153	200	30				
+86	yªu cÇu ®¼ng cÊp gi¶m /1	2	13151	1	153	200	31				
+87	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	2	13152	1	153	200	32				
+88	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	2	13153	1	153	200	33				
+89	Ph¸t triÓn thuéc tÝnh chÝnh D	2									
+90	Søc m¹nh	2	13081	1	222	300	1				
+91	Th©n ph¸p	2	13082	1	222	300	2				
+92	Néi c«ng 	2	13083	1	222	300	3				
+93	Linh ho¹t	2	13084	1	222	300	4				
+94	G©n cèt	2	13085	1	222	300	5				
+95	Néi lùc 	2	13086	1	222	300	6				
+96	Néi lùc %	2	13087	1	222	300	7				
+97	§iÓm sinh lùc	2	13088	1	222	300	8				
+98	Sinh mÖnh %	2	13089	1	224	300	9				
+99	Ph¸t triÓn nhãm c«ng kÝch D	2									
+100	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	2	13108	1	170	400	10				
+101	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	2	13109	1	166	400	11				
+102	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	2	13110	1	166	400	12				
+103	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	2	13111	1	166	400	13				
+104	T¨ng ®iÓm sè tæng lùc c«ng kÝch ngo¹i c«ng	2	13112	1	166	400	14				
+105	T¨ng ®iÓm sè tæng lùc c«ng kÝch néi c«ng	2	13113	1	166	400	15				
+106	S¸t th­¬ng t¨ng /1	2	13114	1	0	400	16				
+107	S¸t th­¬ng ®éc	2	13115	1	0	400	17				
+108	§éc s¸t t¨ng /1	2	13116	1	0	400	18				
+109	Ngo¹i c«ng t¨ng: /1% 	2	13117	1	0	400	19				
+110	Néi c«ng t¨ng /1% 	2	13118	1	0	400	20				
+111	Ph¸t triÓn nhãm ®iÒn vµo C	2	0	0							
+112	Hao mßn vò khÝ gi¶m: /1% 	2	13154	1	96	300	21				
+113	Søc lùc+/1	2	13155	1	92	300	22				
+114	T¨ng giíi h¹n träng l­îng/1%	2	13156	1	92	300	23				
+115	ThÓ lùc	2	13157	1	92	300	24				
+116	ThÓ lùc 1%	2	13158	1	92	300	25				
+117	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	2	13159	1	92	300	26				
+118	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	2	13160	1	92	300	27				
+119	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	2	13161	1	92	300	28				
+120	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	2	13162	1	92	300	29				
+121	HiÖu qu¶ d­îc phÈm håi néi/1%	2	13163	1	92	300	30				
+122	yªu cÇu ®¼ng cÊp gi¶m /1	2	13164	1	92	300	31				
+123	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	2	13165	1	92	300	32				
+124	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	2	13166	1	92	300	33				
+125	Ph¸t triÓn thuéc tÝnh chÝnh C	2									
+126	Søc m¹nh	2	13090	1	133	400	1				
+127	Th©n ph¸p	2	13091	1	133	400	2				
+128	Néi c«ng 	2	13092	1	133	400	3				
+129	Linh ho¹t	2	13093	1	133	400	4				
+130	G©n cèt	2	13094	1	133	400	5				
+131	Néi lùc 	2	13095	1	133	400	6				
+132	Néi lùc %	2	13096	1	133	400	7				
+133	§iÓm sinh lùc	2	13097	1	133	400	8				
+134	Sinh mÖnh %	2	13098	1	136	400	9				
+135	Ph¸t triÓn nhãm c«ng kÝch C	2									
+136	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	2	13119	1	69	500	10				
+137	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	2	13120	1	69	500	11				
+138	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	2	13121	1	66	500	12				
+139	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	2	13122	1	66	500	13				
+140	T¨ng ®iÓm sè tæng lùc c«ng kÝch ngo¹i c«ng	2	13123	1	66	500	14				
+141	T¨ng ®iÓm sè tæng lùc c«ng kÝch néi c«ng	2	13124	1	66	500	15				
+142	S¸t th­¬ng t¨ng /1	2	13125	1	66	500	16				
+143	S¸t th­¬ng ®éc	2	13126	1	66	500	17				
+144	§éc s¸t t¨ng /1	2	13127	1	66	500	18				
+145	Ngo¹i c«ng t¨ng: /1% 	2	13128	1	0	500	19				
+146	Néi c«ng t¨ng /1% 	2	13129	1	0	500	20				
+147	Ph¸t triÓn nhãm ®iÒn vµo B	2	0	0							
+148	Hao mßn vò khÝ gi¶m: /1% 	2	13167	1	68	400	21				
+149	Søc lùc+/1	2	13168	1	61	400	22				
+150	T¨ng giíi h¹n träng l­îng/1%	2	13169	1	61	400	23				
+151	ThÓ lùc	2	13170	1	61	400	24				
+152	ThÓ lùc 1%	2	13171	1	61	400	25				
+153	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	2	13172	1	61	400	26				
+154	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	2	13173	1	61	400	27				
+155	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	2	13174	1	61	400	28				
+156	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	2	13175	1	61	400	29				
+157	HiÖu qu¶ d­îc phÈm håi néi/1%	2	13176	1	61	400	30				
+158	yªu cÇu ®¼ng cÊp gi¶m /1	2	13177	1	61	400	31				
+159	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	2	13178	1	61	400	32				
+160	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	2	13179	1	61	400	33				
+161	Ph¸t triÓn thuéc tÝnh chÝnh B	2									
+162	Søc m¹nh	2	13099	1	88	500	1				
+163	Th©n ph¸p	2	13100	1	88	500	2				
+164	Néi c«ng 	2	13101	1	88	500	3				
+165	Linh ho¹t	2	13102	1	88	500	4				
+166	G©n cèt	2	13103	1	88	500	5				
+167	Néi lùc 	2	13104	1	88	500	6				
+168	Néi lùc %	2	13105	1	88	500	7				
+169	§iÓm sinh lùc	2	13106	1	88	500	8				
+170	Sinh mÖnh %	2	13107	1	96	500	9				
+171	Ph¸t triÓn nhãm c«ng kÝch B	2									
+172	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	2	13130	1	38	600	10				
+173	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	2	13131	1	38	600	11				
+174	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	2	13132	1	36	600	12				
+175	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	2	13133	1	36	600	13				
+176	T¨ng ®iÓm sè tæng lùc c«ng kÝch ngo¹i c«ng	2	13134	1	36	600	14				
+177	T¨ng ®iÓm sè tæng lùc c«ng kÝch néi c«ng	2	13135	1	36	600	15				
+178	S¸t th­¬ng t¨ng /1	2	13136	1	36	600	16				
+179	S¸t th­¬ng ®éc	2	13137	1	36	600	17				
+180	§éc s¸t t¨ng /1	2	13138	1	36	600	18				
+181	Ngo¹i c«ng t¨ng: /1% 	2	13139	1	36	600	19				
+182	Néi c«ng t¨ng /1% 	2	13140	1	36	600	20				
+183	Søc m¹nh B	3	13099	1	10000	600	1				
+184	Th©n ph¸p B	4	13100	1	10000	600	2				
+185	Néi lùc B	5	13101	1	10000	600	3				
+186	Linh ho¹t B	6	13102	1	10000	600	4				
+187	G©n cèt B	7	13103	1	10000	600	5				
+188	Sinh mÖnh % B	8	13107	1	10000	600	9				
+189	Më khãa D-C										
+190	Nhãm më khãa D	9	0	0							
+191	Hao mßn vò khÝ gi¶m: /1% 	9	13180	1	120	200	34				
+192	Søc lùc+/1	9	13181	1	120	200	35				
+193	T¨ng giíi h¹n träng l­îng/1%	9	13182	1	120	200	36				
+194	ThÓ lùc	9	13183	1	120	200	37				
+195	ThÓ lùc 1%	9	13184	1	120	200	38				
+196	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	9	13185	1	120	200	39				
+197	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	9	13186	1	120	200	40				
+198	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	9	13187	1	120	200	41				
+199	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	9	13188	1	120	200	42				
+200	HiÖu qu¶ d­îc phÈm håi néi/1%	9	13189	1	120	200	43				
+201	yªu cÇu ®¼ng cÊp gi¶m /1	9	13190	1	120	200	44				
+202	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	9	13191	1	120	200	45				
+203	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	9	13192	1	120	200	46				
+204	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	9	13193	1	120	200	47				
+205	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	9	13194	1	120	200	48				
+206	T¨ng ®iÓm sè néi c«ng	9	13195	1	120	200	49				
+207	T¨ng ®iÓm sè ngo¹i c«ng	9	13196	1	120	200	50				
+208	S¸t th­¬ng t¨ng /1	9	13197	1	120	200	51				
+209	T¨ng s¸t th­¬ng ®éc	9	13198	1	120	200	52				
+210	§éc s¸t t¨ng /1	9	13199	1	120	200	53				
+211	Søc m¹nh	9	13200	1	120	200	54				
+212	Th©n ph¸p	9	13201	1	120	200	55				
+213	Néi c«ng 	9	13202	1	120	200	56				
+214	Linh ho¹t	9	13203	1	120	200	57				
+215	G©n cèt	9	13204	1	120	200	58				
+216	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	9	13205	1	120	200	59				
+217	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	9	13206	1	120	200	60				
+218	Gi¶m ®éc s¸t /1	9	13207	1	120	200	61				
+219	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	9	13208	1	120	200	62				
+220	Thêi gian hç trî phßng thñ t¨ng: /1% 	9	13209	1	120	200	63				
+221	D­îc hiÖu kÐo dµi	9	13210	1	120	200	64				
+222	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	9	13211	1	120	200	65				
+223	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	9	13212	1	120	200	66				
+224	Ngo¹i c«ng t¨ng: /1% 	9	13213	1	120	200	67				
+225	Néi c«ng t¨ng /1% 	9	13214	1	120	200	68				
+226	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	9	13215	1	120	200	69				
+227	Néi lùc 	9	13216	1	120	200	70				
+228	Néi lùc %	9	13217	1	120	200	71				
+229	§iÓm sinh lùc	9	13218	1	120	200	72				
+230	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	9	13219	1	120	200	73				
+231	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	9	13220	1	120	200	74				
+232	Sinh mÖnh %	9	13221	1	120	200	75				
+233	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	9	13222	1	0	200	76				
+234	Tèc ®é ®¸nh t¨ng: /1% 	9	13223	1	240	200	77				
+235	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	9	13224	1	120	200	78				
+236	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	9	13225	1	120	200	79				
+237	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	9	13226	1	120	200	80				
+238	Ph¶n ®ßn s¸t th­¬ng ®éc	9	13227	1	120	200	81				
+239	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	9	13228	1	120	200	82				
+240	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	9	13229	1	120	200	83				
+241	Nhãm më khãa C	9									
+242	Hao mßn vò khÝ gi¶m: /1% 	9	13180	2	80	400	34				
+243	Søc lùc+/1	9	13181	2	80	400	35				
+244	T¨ng giíi h¹n träng l­îng/1%	9	13182	2	80	400	36				
+245	ThÓ lùc	9	13183	2	80	400	37				
+246	ThÓ lùc 1%	9	13184	2	80	400	38				
+247	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	9	13185	2	80	400	39				
+248	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	9	13186	2	80	400	40				
+249	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	9	13187	2	80	400	41				
+250	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	9	13188	2	80	400	42				
+251	HiÖu qu¶ d­îc phÈm håi néi/1%	9	13189	2	80	400	43				
+252	yªu cÇu ®¼ng cÊp gi¶m /1	9	13190	2	80	400	44				
+253	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	9	13191	2	80	400	45				
+254	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	9	13192	2	80	400	46				
+255	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	9	13193	2	80	400	47				
+256	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	9	13194	2	80	400	48				
+257	T¨ng ®iÓm sè néi c«ng	9	13195	2	80	400	49				
+258	T¨ng ®iÓm sè ngo¹i c«ng	9	13196	2	80	400	50				
+259	S¸t th­¬ng t¨ng /1	9	13197	2	80	400	51				
+260	T¨ng s¸t th­¬ng ®éc	9	13198	2	80	400	52				
+261	§éc s¸t t¨ng /1	9	13199	2	80	400	53				
+262	Søc m¹nh	9	13200	2	80	400	54				
+263	Th©n ph¸p	9	13201	2	80	400	55				
+264	Néi c«ng 	9	13202	2	80	400	56				
+265	Linh ho¹t	9	13203	2	80	400	57				
+266	G©n cèt	9	13204	2	80	400	58				
+267	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	9	13205	2	80	400	59				
+268	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	9	13206	2	80	400	60				
+269	Gi¶m ®éc s¸t /1	9	13207	2	80	400	61				
+270	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	9	13208	2	80	400	62				
+271	Thêi gian hç trî phßng thñ t¨ng: /1% 	9	13209	2	80	400	63				
+272	D­îc hiÖu kÐo dµi	9	13210	2	80	400	64				
+273	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	9	13211	2	80	400	65				
+274	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	9	13212	2	80	400	66				
+275	Ngo¹i c«ng t¨ng: /1% 	9	13213	2	80	400	67				
+276	Néi c«ng t¨ng /1% 	9	13214	2	80	400	68				
+277	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	9	13215	2	80	400	69				
+278	Néi lùc 	9	13216	2	80	400	70				
+279	Néi lùc %	9	13217	2	80	400	71				
+280	§iÓm sinh lùc	9	13218	2	80	400	72				
+281	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	9	13219	2	80	400	73				
+282	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	9	13220	2	80	400	74				
+283	Sinh mÖnh %	9	13221	2	80	400	75				
+284	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	9	13222	2	0	400	76				
+285	Tèc ®é ®¸nh t¨ng: /1% 	9	13223	2	160	400	77				
+286	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	9	13224	2	80	400	78				
+287	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	9	13225	2	80	400	79				
+288	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	9	13226	2	80	400	80				
+289	Ph¶n ®ßn s¸t th­¬ng ®éc	9	13227	2	80	400	81				
+290	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	9	13228	2	80	400	82				
+291	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	9	13229	2	80	400	83				
+292	Më khãa D-B	0									
+293	Nhãm më khãa D	10									
+294	Hao mßn vò khÝ gi¶m: /1% 	10	13180	1	80	200	34				
+295	Søc lùc+/1	10	13181	1	80	200	35				
+296	T¨ng giíi h¹n träng l­îng/1%	10	13182	1	80	200	36				
+297	ThÓ lùc	10	13183	1	80	200	37				
+298	ThÓ lùc 1%	10	13184	1	80	200	38				
+299	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	10	13185	1	80	200	39				
+300	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	10	13186	1	80	200	40				
+301	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	10	13187	1	80	200	41				
+302	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	10	13188	1	80	200	42				
+303	HiÖu qu¶ d­îc phÈm håi néi/1%	10	13189	1	80	200	43				
+304	yªu cÇu ®¼ng cÊp gi¶m /1	10	13190	1	80	200	44				
+305	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	10	13191	1	80	200	45				
+306	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	10	13192	1	80	200	46				
+307	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	10	13193	1	80	200	47				
+308	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	10	13194	1	80	200	48				
+309	T¨ng ®iÓm sè néi c«ng	10	13195	1	80	200	49				
+310	T¨ng ®iÓm sè ngo¹i c«ng	10	13196	1	80	200	50				
+311	S¸t th­¬ng t¨ng /1	10	13197	1	80	200	51				
+312	T¨ng s¸t th­¬ng ®éc	10	13198	1	80	200	52				
+313	§éc s¸t t¨ng /1	10	13199	1	80	200	53				
+314	Søc m¹nh	10	13200	1	80	200	54				
+315	Th©n ph¸p	10	13201	1	80	200	55				
+316	Néi c«ng 	10	13202	1	80	200	56				
+317	Linh ho¹t	10	13203	1	80	200	57				
+318	G©n cèt	10	13204	1	80	200	58				
+319	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	10	13205	1	80	200	59				
+320	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	10	13206	1	80	200	60				
+321	Gi¶m ®éc s¸t /1	10	13207	1	80	200	61				
+322	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	10	13208	1	80	200	62				
+323	Thêi gian hç trî phßng thñ t¨ng: /1% 	10	13209	1	80	200	63				
+324	D­îc hiÖu kÐo dµi	10	13210	1	80	200	64				
+325	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	10	13211	1	80	200	65				
+326	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	10	13212	1	80	200	66				
+327	Ngo¹i c«ng t¨ng: /1% 	10	13213	1	80	200	67				
+328	Néi c«ng t¨ng /1% 	10	13214	1	80	200	68				
+329	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	10	13215	1	80	200	69				
+330	Néi lùc 	10	13216	1	80	200	70				
+331	Néi lùc %	10	13217	1	80	200	71				
+332	§iÓm sinh lùc	10	13218	1	80	200	72				
+333	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	10	13219	1	80	200	73				
+334	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	10	13220	1	80	200	74				
+335	Sinh mÖnh %	10	13221	1	80	200	75				
+336	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	10	13222	1	0	200	76				
+337	Tèc ®é ®¸nh t¨ng: /1% 	10	13223	1	160	200	77				
+338	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	10	13224	1	80	200	78				
+339	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	10	13225	1	80	200	79				
+340	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	10	13226	1	80	200	80				
+341	Ph¶n ®ßn s¸t th­¬ng ®éc	10	13227	1	80	200	81				
+342	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	10	13228	1	80	200	82				
+343	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	10	13229	1	80	200	83				
+344	Nhãm më khãa C	10									
+345	Hao mßn vò khÝ gi¶m: /1% 	10	13180	2	60	400	34				
+346	Søc lùc+/1	10	13181	2	60	400	35				
+347	T¨ng giíi h¹n träng l­îng/1%	10	13182	2	60	400	36				
+348	ThÓ lùc	10	13183	2	60	400	37				
+349	ThÓ lùc 1%	10	13184	2	60	400	38				
+350	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	10	13185	2	60	400	39				
+351	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	10	13186	2	60	400	40				
+352	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	10	13187	2	60	400	41				
+353	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	10	13188	2	60	400	42				
+354	HiÖu qu¶ d­îc phÈm håi néi/1%	10	13189	2	60	400	43				
+355	yªu cÇu ®¼ng cÊp gi¶m /1	10	13190	2	60	400	44				
+356	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	10	13191	2	60	400	45				
+357	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	10	13192	2	60	400	46				
+358	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	10	13193	2	60	400	47				
+359	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	10	13194	2	60	400	48				
+360	T¨ng ®iÓm sè néi c«ng	10	13195	2	60	400	49				
+361	T¨ng ®iÓm sè ngo¹i c«ng	10	13196	2	60	400	50				
+362	S¸t th­¬ng t¨ng /1	10	13197	2	60	400	51				
+363	T¨ng s¸t th­¬ng ®éc	10	13198	2	60	400	52				
+364	§éc s¸t t¨ng /1	10	13199	2	60	400	53				
+365	Søc m¹nh	10	13200	2	60	400	54				
+366	Th©n ph¸p	10	13201	2	60	400	55				
+367	Néi c«ng 	10	13202	2	60	400	56				
+368	Linh ho¹t	10	13203	2	60	400	57				
+369	G©n cèt	10	13204	2	60	400	58				
+370	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	10	13205	2	60	400	59				
+371	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	10	13206	2	60	400	60				
+372	Gi¶m ®éc s¸t /1	10	13207	2	60	400	61				
+373	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	10	13208	2	60	400	62				
+374	Thêi gian hç trî phßng thñ t¨ng: /1% 	10	13209	2	60	400	63				
+375	D­îc hiÖu kÐo dµi	10	13210	2	60	400	64				
+376	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	10	13211	2	60	400	65				
+377	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	10	13212	2	60	400	66				
+378	Ngo¹i c«ng t¨ng: /1% 	10	13213	2	60	400	67				
+379	Néi c«ng t¨ng /1% 	10	13214	2	60	400	68				
+380	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	10	13215	2	60	400	69				
+381	Néi lùc 	10	13216	2	60	400	70				
+382	Néi lùc %	10	13217	2	60	400	71				
+383	§iÓm sinh lùc	10	13218	2	60	400	72				
+384	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	10	13219	2	60	400	73				
+385	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	10	13220	2	60	400	74				
+386	Sinh mÖnh %	10	13221	2	60	400	75				
+387	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	10	13222	2	0	400	76				
+388	Tèc ®é ®¸nh t¨ng: /1% 	10	13223	2	120	400	77				
+389	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	10	13224	2	60	400	78				
+390	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	10	13225	2	60	400	79				
+391	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	10	13226	2	60	400	80				
+392	Ph¶n ®ßn s¸t th­¬ng ®éc	10	13227	2	60	400	81				
+393	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	10	13228	2	60	400	82				
+394	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	10	13229	2	60	400	83				
+395	Nhãm më khãa B	10									
+396	Hao mßn vò khÝ gi¶m: /1% 	10	13180	3	60	600	34				
+397	Søc lùc+/1	10	13181	3	60	600	35				
+398	T¨ng giíi h¹n träng l­îng/1%	10	13182	3	60	600	36				
+399	ThÓ lùc	10	13183	3	60	600	37				
+400	ThÓ lùc 1%	10	13184	3	60	600	38				
+401	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	10	13185	3	60	600	39				
+402	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	10	13186	3	60	600	40				
+403	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	10	13187	3	60	600	41				
+404	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	10	13188	3	60	600	42				
+405	HiÖu qu¶ d­îc phÈm håi néi/1%	10	13189	3	60	600	43				
+406	yªu cÇu ®¼ng cÊp gi¶m /1	10	13190	3	60	600	44				
+407	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	10	13191	3	60	600	45				
+408	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	10	13192	3	60	600	46				
+409	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	10	13193	3	60	600	47				
+410	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	10	13194	3	60	600	48				
+411	T¨ng ®iÓm sè néi c«ng	10	13195	3	60	600	49				
+412	T¨ng ®iÓm sè ngo¹i c«ng	10	13196	3	60	600	50				
+413	S¸t th­¬ng t¨ng /1	10	13197	3	60	600	51				
+414	T¨ng s¸t th­¬ng ®éc	10	13198	3	60	600	52				
+415	§éc s¸t t¨ng /1	10	13199	3	60	600	53				
+416	Søc m¹nh	10	13200	3	60	600	54				
+417	Th©n ph¸p	10	13201	3	60	600	55				
+418	Néi c«ng 	10	13202	3	60	600	56				
+419	Linh ho¹t	10	13203	3	60	600	57				
+420	G©n cèt	10	13204	3	60	600	58				
+421	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	10	13205	3	60	600	59				
+422	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	10	13206	3	60	600	60				
+423	Gi¶m ®éc s¸t /1	10	13207	3	60	600	61				
+424	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	10	13208	3	60	600	62				
+425	Thêi gian hç trî phßng thñ t¨ng: /1% 	10	13209	3	60	600	63				
+426	D­îc hiÖu kÐo dµi	10	13210	3	60	600	64				
+427	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	10	13211	3	60	600	65				
+428	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	10	13212	3	60	600	66				
+429	Ngo¹i c«ng t¨ng: /1% 	10	13213	3	60	600	67				
+430	Néi c«ng t¨ng /1% 	10	13214	3	60	600	68				
+431	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	10	13215	3	60	600	69				
+432	Néi lùc 	10	13216	3	60	600	70				
+433	Néi lùc %	10	13217	3	60	600	71				
+434	§iÓm sinh lùc	10	13218	3	60	600	72				
+435	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	10	13219	3	60	600	73				
+436	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	10	13220	3	60	600	74				
+437	Sinh mÖnh %	10	13221	3	60	600	75				
+438	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	10	13222	3	0	600	76				
+439	Tèc ®é ®¸nh t¨ng: /1% 	10	13223	3	120	600	77				
+440	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	10	13224	3	60	600	78				
+441	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	10	13225	3	60	600	79				
+442	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	10	13226	3	60	600	80				
+443	Ph¶n ®ßn s¸t th­¬ng ®éc	10	13227	3	60	600	81				
+444	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	10	13228	3	60	600	82				
+445	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	10	13229	3	60	600	83				
+446	Më khãa + Huy ch­¬ng ®Æc tr­ng D-B										
+447	Nhãm më khãa D	11									
+448	Hao mßn vò khÝ gi¶m: /1% 	11	13180	1	64	200	34				
+449	Søc lùc+/1	11	13181	1	64	200	35				
+450	T¨ng giíi h¹n träng l­îng/1%	11	13182	1	64	200	36				
+451	ThÓ lùc	11	13183	1	64	200	37				
+452	ThÓ lùc 1%	11	13184	1	64	200	38				
+453	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	11	13185	1	64	200	39				
+454	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	11	13186	1	64	200	40				
+455	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	11	13187	1	64	200	41				
+456	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	11	13188	1	64	200	42				
+457	HiÖu qu¶ d­îc phÈm håi néi/1%	11	13189	1	64	200	43				
+458	yªu cÇu ®¼ng cÊp gi¶m /1	11	13190	1	64	200	44				
+459	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	11	13191	1	64	200	45				
+460	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	11	13192	1	64	200	46				
+461	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	11	13193	1	64	200	47				
+462	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	11	13194	1	64	200	48				
+463	T¨ng ®iÓm sè néi c«ng	11	13195	1	64	200	49				
+464	T¨ng ®iÓm sè ngo¹i c«ng	11	13196	1	64	200	50				
+465	S¸t th­¬ng t¨ng /1	11	13197	1	64	200	51				
+466	T¨ng s¸t th­¬ng ®éc	11	13198	1	64	200	52				
+467	§éc s¸t t¨ng /1	11	13199	1	64	200	53				
+468	Søc m¹nh	11	13200	1	64	200	54				
+469	Th©n ph¸p	11	13201	1	64	200	55				
+470	Néi c«ng 	11	13202	1	64	200	56				
+471	Linh ho¹t	11	13203	1	64	200	57				
+472	G©n cèt	11	13204	1	64	200	58				
+473	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	11	13205	1	64	200	59				
+474	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	11	13206	1	64	200	60				
+475	Gi¶m ®éc s¸t /1	11	13207	1	64	200	61				
+476	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	11	13208	1	64	200	62				
+477	Thêi gian hç trî phßng thñ t¨ng: /1% 	11	13209	1	64	200	63				
+478	D­îc hiÖu kÐo dµi	11	13210	1	64	200	64				
+479	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	11	13211	1	64	200	65				
+480	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	11	13212	1	64	200	66				
+481	Ngo¹i c«ng t¨ng: /1% 	11	13213	1	64	200	67				
+482	Néi c«ng t¨ng /1% 	11	13214	1	64	200	68				
+483	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	11	13215	1	64	200	69				
+484	Néi lùc 	11	13216	1	64	200	70				
+485	Néi lùc %	11	13217	1	64	200	71				
+486	§iÓm sinh lùc	11	13218	1	64	200	72				
+487	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	11	13219	1	64	200	73				
+488	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	11	13220	1	64	200	74				
+489	Sinh mÖnh %	11	13221	1	64	200	75				
+490	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	11	13222	1	0	200	76				
+491	Tèc ®é ®¸nh t¨ng: /1% 	11	13223	1	128	200	77				
+492	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	11	13224	1	64	200	78				
+493	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	11	13225	1	64	200	79				
+494	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	11	13226	1	64	200	80				
+495	Ph¶n ®ßn s¸t th­¬ng ®éc	11	13227	1	64	200	81				
+496	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	11	13228	1	64	200	82				
+497	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	11	13229	1	64	200	83				
+498	Nhãm më khãa C	11	0	0							
+499	Hao mßn vò khÝ gi¶m: /1% 	11	13180	2	48	400	34				
+500	Søc lùc+/1	11	13181	2	48	400	35				
+501	T¨ng giíi h¹n träng l­îng/1%	11	13182	2	48	400	36				
+502	ThÓ lùc	11	13183	2	48	400	37				
+503	ThÓ lùc 1%	11	13184	2	48	400	38				
+504	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	11	13185	2	48	400	39				
+505	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	11	13186	2	48	400	40				
+506	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	11	13187	2	48	400	41				
+507	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	11	13188	2	48	400	42				
+508	HiÖu qu¶ d­îc phÈm håi néi/1%	11	13189	2	48	400	43				
+509	yªu cÇu ®¼ng cÊp gi¶m /1	11	13190	2	48	400	44				
+510	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	11	13191	2	48	400	45				
+511	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	11	13192	2	48	400	46				
+512	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	11	13193	2	48	400	47				
+513	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	11	13194	2	48	400	48				
+514	T¨ng ®iÓm sè néi c«ng	11	13195	2	48	400	49				
+515	T¨ng ®iÓm sè ngo¹i c«ng	11	13196	2	48	400	50				
+516	S¸t th­¬ng t¨ng /1	11	13197	2	48	400	51				
+517	T¨ng s¸t th­¬ng ®éc	11	13198	2	48	400	52				
+518	§éc s¸t t¨ng /1	11	13199	2	48	400	53				
+519	Søc m¹nh	11	13200	2	48	400	54				
+520	Th©n ph¸p	11	13201	2	48	400	55				
+521	Néi c«ng 	11	13202	2	48	400	56				
+522	Linh ho¹t	11	13203	2	48	400	57				
+523	G©n cèt	11	13204	2	48	400	58				
+524	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	11	13205	2	48	400	59				
+525	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	11	13206	2	48	400	60				
+526	Gi¶m ®éc s¸t /1	11	13207	2	48	400	61				
+527	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	11	13208	2	48	400	62				
+528	Thêi gian hç trî phßng thñ t¨ng: /1% 	11	13209	2	48	400	63				
+529	D­îc hiÖu kÐo dµi	11	13210	2	48	400	64				
+530	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	11	13211	2	48	400	65				
+531	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	11	13212	2	48	400	66				
+532	Ngo¹i c«ng t¨ng: /1% 	11	13213	2	48	400	67				
+533	Néi c«ng t¨ng /1% 	11	13214	2	48	400	68				
+534	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	11	13215	2	48	400	69				
+535	Néi lùc 	11	13216	2	48	400	70				
+536	Néi lùc %	11	13217	2	48	400	71				
+537	§iÓm sinh lùc	11	13218	2	48	400	72				
+538	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	11	13219	2	48	400	73				
+539	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	11	13220	2	48	400	74				
+540	Sinh mÖnh %	11	13221	2	48	400	75				
+541	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	11	13222	2	0	400	76				
+542	Tèc ®é ®¸nh t¨ng: /1% 	11	13223	2	96	400	77				
+543	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	11	13224	2	48	400	78				
+544	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	11	13225	2	48	400	79				
+545	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	11	13226	2	48	400	80				
+546	Ph¶n ®ßn s¸t th­¬ng ®éc	11	13227	2	48	400	81				
+547	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	11	13228	2	48	400	82				
+548	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	11	13229	2	48	400	83				
+549	Nhãm më khãa B	11	0	0							
+550	Hao mßn vò khÝ gi¶m: /1% 	11	13180	3	48	600	34				
+551	Søc lùc+/1	11	13181	3	48	600	35				
+552	T¨ng giíi h¹n träng l­îng/1%	11	13182	3	48	600	36				
+553	ThÓ lùc	11	13183	3	48	600	37				
+554	ThÓ lùc 1%	11	13184	3	48	600	38				
+555	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	11	13185	3	48	600	39				
+556	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	11	13186	3	48	600	40				
+557	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	11	13187	3	48	600	41				
+558	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	11	13188	3	48	600	42				
+559	HiÖu qu¶ d­îc phÈm håi néi/1%	11	13189	3	48	600	43				
+560	yªu cÇu ®¼ng cÊp gi¶m /1	11	13190	3	48	600	44				
+561	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	11	13191	3	48	600	45				
+562	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	11	13192	3	48	600	46				
+563	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	11	13193	3	48	600	47				
+564	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	11	13194	3	48	600	48				
+565	T¨ng ®iÓm sè néi c«ng	11	13195	3	48	600	49				
+566	T¨ng ®iÓm sè ngo¹i c«ng	11	13196	3	48	600	50				
+567	S¸t th­¬ng t¨ng /1	11	13197	3	48	600	51				
+568	T¨ng s¸t th­¬ng ®éc	11	13198	3	48	600	52				
+569	§éc s¸t t¨ng /1	11	13199	3	48	600	53				
+570	Søc m¹nh	11	13200	3	48	600	54				
+571	Th©n ph¸p	11	13201	3	48	600	55				
+572	Néi c«ng 	11	13202	3	48	600	56				
+573	Linh ho¹t	11	13203	3	48	600	57				
+574	G©n cèt	11	13204	3	48	600	58				
+575	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	11	13205	3	48	600	59				
+576	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	11	13206	3	48	600	60				
+577	Gi¶m ®éc s¸t /1	11	13207	3	48	600	61				
+578	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	11	13208	3	48	600	62				
+579	Thêi gian hç trî phßng thñ t¨ng: /1% 	11	13209	3	48	600	63				
+580	D­îc hiÖu kÐo dµi	11	13210	3	48	600	64				
+581	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	11	13211	3	48	600	65				
+582	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	11	13212	3	48	600	66				
+583	Ngo¹i c«ng t¨ng: /1% 	11	13213	3	48	600	67				
+584	Néi c«ng t¨ng /1% 	11	13214	3	48	600	68				
+585	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	11	13215	3	48	600	69				
+586	Néi lùc 	11	13216	3	48	600	70				
+587	Néi lùc %	11	13217	3	48	600	71				
+588	§iÓm sinh lùc	11	13218	3	48	600	72				
+589	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	11	13219	3	48	600	73				
+590	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	11	13220	3	48	600	74				
+591	Sinh mÖnh %	11	13221	3	48	600	75				
+592	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	11	13222	3	0	600	76				
+593	Tèc ®é ®¸nh t¨ng: /1% 	11	13223	3	96	600	77				
+594	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	11	13224	3	48	600	78				
+595	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	11	13225	3	48	600	79				
+596	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	11	13226	3	48	600	80				
+597	Ph¶n ®ßn s¸t th­¬ng ®éc	11	13227	3	48	600	81				
+598	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	11	13228	3	48	600	82				
+599	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	11	13229	3	48	600	83				
+600	Nhãm huy ch­¬ng ®Æc tr­ng D	11									
+601	Hót thÓ lùc/1	11	13284	1	80	500	84				
+602	Hót Néi lùc /1	11	13285	1	80	500	85				
+603	Khi c«ng kÝch cã tØ lÖ 1% khiÕn cho ®Þch nh©n gi¶m tèc/2 gi©y	11	13276	1	80	500	86				
+604	Khi c«ng kÝch cã tØ lÖ 1% khiÕn cho ®Þch nh©n chËm/2 gi©y	11	13277	1	80	500	87				
+605	Khi c«ng kÝch cã tØ lÖ 1% khiÕn cho ®Þch nh©n ®Þnh th©n/2 gi©y	11	13278	1	80	500	88				
+606	Khi c«ng kÝch cã tØ lÖ 1% khiÕn cho ®Þch nh©n tª liÖt/2 gi©y	11	13279	1	80	500	89				
+607	Khi c«ng kÝch cã tØ lÖ 1% khiÕn cho ®Þch nh©n ngñ/2 gi©y	11	13280	1	80	500	90				
+608	Hót Sinh lùc /1	11	13286	1	80	500	91				
+609	Khi c«ng kÝch cã tØ lÖ 1% khiÕn cho ®Þch nh©n cho¸ng/ 3 gi©y	11	13281	1	80	500	92				
+610	Khi c«ng kÝch cã tØ lÖ 1% khiÕn cho ®Þch nh©n lo¹n/ 3 gi©y	11	13282	1	80	500	93				
+611	Nhãm huy ch­¬ng ®Æc tr­ng C	11									
+612	Hót thÓ lùc/1	11	13284	2	60	700	84				
+613	Hót Néi lùc /1	11	13285	2	60	700	85				
+614	Khi c«ng kÝch cã tØ lÖ 2% khiÕn cho ®Þch nh©n gi¶m tèc/2 gi©y	11	13276	2	60	700	86				
+615	Khi c«ng kÝch cã tØ lÖ 2% khiÕn cho ®Þch nh©n chËm/2 gi©y	11	13277	2	60	700	87				
+616	Khi c«ng kÝch cã tØ lÖ 2% khiÕn cho ®Þch nh©n ®Þnh th©n/2 gi©y	11	13278	2	60	700	88				
+617	Khi c«ng kÝch cã tØ lÖ 2% khiÕn cho ®Þch nh©n tª liÖt/2 gi©y	11	13279	2	60	700	89				
+618	Khi c«ng kÝch cã tØ lÖ 2% khiÕn cho ®Þch nh©n ngñ/2 gi©y	11	13280	2	60	700	90				
+619	Hót Sinh lùc /1	11	13286	2	60	700	91				
+620	Khi c«ng kÝch cã tØ lÖ 1% khiÕn cho ®Þch nh©n cho¸ng/ 3 gi©y	11	13281	2	60	700	92				
+621	Khi c«ng kÝch cã tØ lÖ 1% khiÕn cho ®Þch nh©n lo¹n/ 3 gi©y	11	13282	2	60	700	93				
+622	Nhãm huy ch­¬ng ®Æc tr­ng B	11									
+623	Hót thÓ lùc/1	11	13284	3	60	900	84				
+624	Hót Néi lùc /1	11	13285	3	60	900	85				
+625	Khi c«ng kÝch cã tØ lÖ 3% khiÕn cho ®Þch nh©n gi¶m tèc/2 gi©y	11	13276	3	60	900	86				
+626	Khi c«ng kÝch cã tØ lÖ 3% khiÕn cho ®Þch nh©n chËm/2 gi©y	11	13277	3	60	900	87				
+627	Khi c«ng kÝch cã tØ lÖ 3% khiÕn cho ®Þch nh©n ®Þnh th©n/2 gi©y	11	13278	3	60	900	88				
+628	Khi c«ng kÝch cã tØ lÖ 3% khiÕn cho ®Þch nh©n tª liÖt/2 gi©y	11	13279	3	60	900	89				
+629	Khi c«ng kÝch cã tØ lÖ 3% khiÕn cho ®Þch nh©n ngñ/2 gi©y	11	13280	3	60	900	90				
+630	Hót Sinh lùc /1	11	13286	3	60	900	91				
+631	Khi c«ng kÝch cã tØ lÖ 3% khiÕn cho ®Þch nh©n cho¸ng/2 gi©y	11	13281	3	60	900	92				
+632	Khi c«ng kÝch cã tØ lÖ 3% khiÕn cho ®Þch nh©n lo¹n/2 gi©y	11	13282	3	60	900	93				
+633	Më khãa + nhãm ¸o choµng ®Æc s¾c D-B	0									
+634	Nhãm më khãa D	12									
+635	Hao mßn vò khÝ gi¶m: /1% 	12	13180	1	64	200	34				
+636	Søc lùc+/1	12	13181	1	64	200	35				
+637	T¨ng giíi h¹n träng l­îng/1%	12	13182	1	64	200	36				
+638	ThÓ lùc	12	13183	1	64	200	37				
+639	ThÓ lùc 1%	12	13184	1	64	200	38				
+640	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	12	13185	1	64	200	39				
+641	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	12	13186	1	64	200	40				
+642	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	12	13187	1	64	200	41				
+643	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	12	13188	1	64	200	42				
+644	HiÖu qu¶ d­îc phÈm håi néi/1%	12	13189	1	64	200	43				
+645	yªu cÇu ®¼ng cÊp gi¶m /1	12	13190	1	64	200	44				
+646	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	12	13191	1	64	200	45				
+647	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	12	13192	1	64	200	46				
+648	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	12	13193	1	64	200	47				
+649	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	12	13194	1	64	200	48				
+650	T¨ng ®iÓm sè néi c«ng	12	13195	1	64	200	49				
+651	T¨ng ®iÓm sè ngo¹i c«ng	12	13196	1	64	200	50				
+652	S¸t th­¬ng t¨ng /1	12	13197	1	64	200	51				
+653	T¨ng s¸t th­¬ng ®éc	12	13198	1	64	200	52				
+654	§éc s¸t t¨ng /1	12	13199	1	64	200	53				
+655	Søc m¹nh	12	13200	1	64	200	54				
+656	Th©n ph¸p	12	13201	1	64	200	55				
+657	Néi c«ng 	12	13202	1	64	200	56				
+658	Linh ho¹t	12	13203	1	64	200	57				
+659	G©n cèt	12	13204	1	64	200	58				
+660	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	12	13205	1	64	200	59				
+661	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	12	13206	1	64	200	60				
+662	Gi¶m ®éc s¸t /1	12	13207	1	64	200	61				
+663	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	12	13208	1	64	200	62				
+664	Thêi gian hç trî phßng thñ t¨ng: /1% 	12	13209	1	64	200	63				
+665	D­îc hiÖu kÐo dµi	12	13210	1	64	200	64				
+666	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	12	13211	1	64	200	65				
+667	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	12	13212	1	64	200	66				
+668	Ngo¹i c«ng t¨ng: /1% 	12	13213	1	64	200	67				
+669	Néi c«ng t¨ng /1% 	12	13214	1	64	200	68				
+670	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	12	13215	1	64	200	69				
+671	Néi lùc 	12	13216	1	64	200	70				
+672	Néi lùc %	12	13217	1	64	200	71				
+673	§iÓm sinh lùc	12	13218	1	64	200	72				
+674	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	12	13219	1	64	200	73				
+675	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	12	13220	1	64	200	74				
+676	Sinh mÖnh %	12	13221	1	64	200	75				
+677	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	12	13222	1	0	200	76				
+678	Tèc ®é ®¸nh t¨ng: /1% 	12	13223	1	128	200	77				
+679	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	12	13224	1	64	200	78				
+680	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	12	13225	1	64	200	79				
+681	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	12	13226	1	64	200	80				
+682	Ph¶n ®ßn s¸t th­¬ng ®éc	12	13227	1	64	200	81				
+683	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	12	13228	1	64	200	82				
+684	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	12	13229	1	64	200	83				
+685	Nhãm më khãa C	12									
+686	Hao mßn vò khÝ gi¶m: /1% 	12	13180	2	48	400	34				
+687	Søc lùc+/1	12	13181	2	48	400	35				
+688	T¨ng giíi h¹n träng l­îng/1%	12	13182	2	48	400	36				
+689	ThÓ lùc	12	13183	2	48	400	37				
+690	ThÓ lùc 1%	12	13184	2	48	400	38				
+691	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	12	13185	2	48	400	39				
+692	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	12	13186	2	48	400	40				
+693	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	12	13187	2	48	400	41				
+694	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	12	13188	2	48	400	42				
+695	HiÖu qu¶ d­îc phÈm håi néi/1%	12	13189	2	48	400	43				
+696	yªu cÇu ®¼ng cÊp gi¶m /1	12	13190	2	48	400	44				
+697	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	12	13191	2	48	400	45				
+698	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	12	13192	2	48	400	46				
+699	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	12	13193	2	48	400	47				
+700	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	12	13194	2	48	400	48				
+701	T¨ng ®iÓm sè néi c«ng	12	13195	2	48	400	49				
+702	T¨ng ®iÓm sè ngo¹i c«ng	12	13196	2	48	400	50				
+703	S¸t th­¬ng t¨ng /1	12	13197	2	48	400	51				
+704	T¨ng s¸t th­¬ng ®éc	12	13198	2	48	400	52				
+705	§éc s¸t t¨ng /1	12	13199	2	48	400	53				
+706	Søc m¹nh	12	13200	2	48	400	54				
+707	Th©n ph¸p	12	13201	2	48	400	55				
+708	Néi c«ng 	12	13202	2	48	400	56				
+709	Linh ho¹t	12	13203	2	48	400	57				
+710	G©n cèt	12	13204	2	48	400	58				
+711	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	12	13205	2	48	400	59				
+712	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	12	13206	2	48	400	60				
+713	Gi¶m ®éc s¸t /1	12	13207	2	48	400	61				
+714	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	12	13208	2	48	400	62				
+715	Thêi gian hç trî phßng thñ t¨ng: /1% 	12	13209	2	48	400	63				
+716	D­îc hiÖu kÐo dµi	12	13210	2	48	400	64				
+717	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	12	13211	2	48	400	65				
+718	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	12	13212	2	48	400	66				
+719	Ngo¹i c«ng t¨ng: /1% 	12	13213	2	48	400	67				
+720	Néi c«ng t¨ng /1% 	12	13214	2	48	400	68				
+721	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	12	13215	2	48	400	69				
+722	Néi lùc 	12	13216	2	48	400	70				
+723	Néi lùc %	12	13217	2	48	400	71				
+724	§iÓm sinh lùc	12	13218	2	48	400	72				
+725	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	12	13219	2	48	400	73				
+726	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	12	13220	2	48	400	74				
+727	Sinh mÖnh %	12	13221	2	48	400	75				
+728	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	12	13222	2	0	400	76				
+729	Tèc ®é ®¸nh t¨ng: /1% 	12	13223	2	96	400	77				
+730	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	12	13224	2	48	400	78				
+731	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	12	13225	2	48	400	79				
+732	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	12	13226	2	48	400	80				
+733	Ph¶n ®ßn s¸t th­¬ng ®éc	12	13227	2	48	400	81				
+734	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	12	13228	2	48	400	82				
+735	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	12	13229	2	48	400	83				
+736	Nhãm më khãa B	12									
+737	Hao mßn vò khÝ gi¶m: /1% 	12	13180	3	48	600	34				
+738	Søc lùc+/1	12	13181	3	48	600	35				
+739	T¨ng giíi h¹n träng l­îng/1%	12	13182	3	48	600	36				
+740	ThÓ lùc	12	13183	3	48	600	37				
+741	ThÓ lùc 1%	12	13184	3	48	600	38				
+742	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	12	13185	3	48	600	39				
+743	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	12	13186	3	48	600	40				
+744	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	12	13187	3	48	600	41				
+745	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	12	13188	3	48	600	42				
+746	HiÖu qu¶ d­îc phÈm håi néi/1%	12	13189	3	48	600	43				
+747	yªu cÇu ®¼ng cÊp gi¶m /1	12	13190	3	48	600	44				
+748	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	12	13191	3	48	600	45				
+749	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	12	13192	3	48	600	46				
+750	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	12	13193	3	48	600	47				
+751	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	12	13194	3	48	600	48				
+752	T¨ng ®iÓm sè néi c«ng	12	13195	3	48	600	49				
+753	T¨ng ®iÓm sè ngo¹i c«ng	12	13196	3	48	600	50				
+754	S¸t th­¬ng t¨ng /1	12	13197	3	48	600	51				
+755	T¨ng s¸t th­¬ng ®éc	12	13198	3	48	600	52				
+756	§éc s¸t t¨ng /1	12	13199	3	48	600	53				
+757	Søc m¹nh	12	13200	3	48	600	54				
+758	Th©n ph¸p	12	13201	3	48	600	55				
+759	Néi c«ng 	12	13202	3	48	600	56				
+760	Linh ho¹t	12	13203	3	48	600	57				
+761	G©n cèt	12	13204	3	48	600	58				
+762	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	12	13205	3	48	600	59				
+763	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	12	13206	3	48	600	60				
+764	Gi¶m ®éc s¸t /1	12	13207	3	48	600	61				
+765	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	12	13208	3	48	600	62				
+766	Thêi gian hç trî phßng thñ t¨ng: /1% 	12	13209	3	48	600	63				
+767	D­îc hiÖu kÐo dµi	12	13210	3	48	600	64				
+768	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	12	13211	3	48	600	65				
+769	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	12	13212	3	48	600	66				
+770	Ngo¹i c«ng t¨ng: /1% 	12	13213	3	48	600	67				
+771	Néi c«ng t¨ng /1% 	12	13214	3	48	600	68				
+772	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	12	13215	3	48	600	69				
+773	Néi lùc 	12	13216	3	48	600	70				
+774	Néi lùc %	12	13217	3	48	600	71				
+775	§iÓm sinh lùc	12	13218	3	48	600	72				
+776	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	12	13219	3	48	600	73				
+777	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	12	13220	3	48	600	74				
+778	Sinh mÖnh %	12	13221	3	48	600	75				
+779	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	12	13222	3	0	600	76				
+780	Tèc ®é ®¸nh t¨ng: /1% 	12	13223	3	96	600	77				
+781	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	12	13224	3	48	600	78				
+782	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	12	13225	3	48	600	79				
+783	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	12	13226	3	48	600	80				
+784	Ph¶n ®ßn s¸t th­¬ng ®éc	12	13227	3	48	600	81				
+785	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	12	13228	3	48	600	82				
+786	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	12	13229	3	48	600	83				
+787	Nhãm ¸o Choµng ®Æc s¾c D	12									
+788	Kh¸ng ®éc/1%	12	13240	1	66	400	94				
+789	X¸c suÊt chèng chËm/1%	12	13241	1	66	400	95				
+790	X¸c suÊt chèng lµm chËm/1%	12	13242	1	66	400	96				
+791	Ph¸ phßng thñ cña ®èi ph­¬ng/1%	12	13243	1	66	400	97				
+792	X¸c suÊt chèng tª liÖt/1%	12	13244	1	66	400	98				
+793	X¸c suÊt chèng ®Þnh th©n/1%	12	13245	1	66	400	99				
+794	X¸c suÊt chèng ngñ mª/1%	12	13246	1	66	400	100				
+795	X¸c suÊt chèng ®¸nh lïi/1%	12	13247	1	66	400	101				
+796	X¸c suÊt chèng ®¸nh ng·/1%	12	13248	1	66	400	102				
+797	X¸c suÊt chèng cho¸ng/1%	12	13249	1	66	400	103				
+798	X¸c suÊt chèng hçn lo¹n/1%	12	13250	1	66	400	104				
+799	Tr¸nh mäi tr¹ng th¸i phô/1%	12	13251	1	74	400	105				
+800	Nhãm ¸o Choµng ®Æc s¾c C	12									
+801	Kh¸ng ®éc/1%	12	13240	2	50	600	94				
+802	X¸c suÊt chèng chËm/1%	12	13241	2	50	600	95				
+803	X¸c suÊt chèng lµm chËm/1%	12	13242	2	50	600	96				
+804	Ph¸ phßng thñ cña ®èi ph­¬ng/1%	12	13243	2	50	600	97				
+805	X¸c suÊt chèng tª liÖt/1%	12	13244	2	50	600	98				
+806	X¸c suÊt chèng ®Þnh th©n/1%	12	13245	2	50	600	99				
+807	X¸c suÊt chèng ngñ mª/1%	12	13246	2	50	600	100				
+808	X¸c suÊt chèng ®¸nh lïi/1%	12	13247	2	50	600	101				
+809	X¸c suÊt chèng ®¸nh ng·/1%	12	13248	2	50	600	102				
+810	X¸c suÊt chèng cho¸ng/1%	12	13249	2	50	600	103				
+811	X¸c suÊt chèng hçn lo¹n/1%	12	13250	2	50	600	104				
+812	Tr¸nh mäi tr¹ng th¸i phô/1%	12	13251	2	50	600	105				
+813	Nhãm ¸o Choµng ®Æc s¾c B	12									
+814	Kh¸ng ®éc/1%	12	13240	3	50	800	94				
+815	X¸c suÊt chèng chËm/1%	12	13241	3	50	800	95				
+816	X¸c suÊt chèng lµm chËm/1%	12	13242	3	50	800	96				
+817	Ph¸ phßng thñ cña ®èi ph­¬ng/1%	12	13243	3	50	800	97				
+818	X¸c suÊt chèng tª liÖt/1%	12	13244	3	50	800	98				
+819	X¸c suÊt chèng ®Þnh th©n/1%	12	13245	3	50	800	99				
+820	X¸c suÊt chèng ngñ mª/1%	12	13246	3	50	800	100				
+821	X¸c suÊt chèng ®¸nh lïi/1%	12	13247	3	50	800	101				
+822	X¸c suÊt chèng ®¸nh ng·/1%	12	13248	3	50	800	102				
+823	X¸c suÊt chèng cho¸ng/1%	12	13249	3	50	800	103				
+824	X¸c suÊt chèng hçn lo¹n/1%	12	13250	3	50	800	104				
+825	Tr¸nh mäi tr¹ng th¸i phô/1%	12	13251	3	50	800	105				
+826	Më khãa + nhãm giµy ®Æc tr­ng D-B	0									
+827	Nhãm më khãa D	13									
+828	Hao mßn vò khÝ gi¶m: /1% 	13	13180	1	64	200	34				
+829	Søc lùc+/1	13	13181	1	64	200	35				
+830	T¨ng giíi h¹n träng l­îng/1%	13	13182	1	64	200	36				
+831	ThÓ lùc	13	13183	1	64	200	37				
+832	ThÓ lùc 1%	13	13184	1	64	200	38				
+833	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	13	13185	1	64	200	39				
+834	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	13	13186	1	64	200	40				
+835	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	13	13187	1	64	200	41				
+836	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	13	13188	1	64	200	42				
+837	HiÖu qu¶ d­îc phÈm håi néi/1%	13	13189	1	64	200	43				
+838	yªu cÇu ®¼ng cÊp gi¶m /1	13	13190	1	64	200	44				
+839	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	13	13191	1	64	200	45				
+840	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	13	13192	1	64	200	46				
+841	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	13	13193	1	64	200	47				
+842	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	13	13194	1	64	200	48				
+843	T¨ng ®iÓm sè néi c«ng	13	13195	1	64	200	49				
+844	T¨ng ®iÓm sè ngo¹i c«ng	13	13196	1	64	200	50				
+845	S¸t th­¬ng t¨ng /1	13	13197	1	64	200	51				
+846	T¨ng s¸t th­¬ng ®éc	13	13198	1	64	200	52				
+847	§éc s¸t t¨ng /1	13	13199	1	64	200	53				
+848	Søc m¹nh	13	13200	1	64	200	54				
+849	Th©n ph¸p	13	13201	1	64	200	55				
+850	Néi c«ng 	13	13202	1	64	200	56				
+851	Linh ho¹t	13	13203	1	64	200	57				
+852	G©n cèt	13	13204	1	64	200	58				
+853	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	13	13205	1	64	200	59				
+854	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	13	13206	1	64	200	60				
+855	Gi¶m ®éc s¸t /1	13	13207	1	64	200	61				
+856	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	13	13208	1	64	200	62				
+857	Thêi gian hç trî phßng thñ t¨ng: /1% 	13	13209	1	64	200	63				
+858	D­îc hiÖu kÐo dµi	13	13210	1	64	200	64				
+859	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	13	13211	1	64	200	65				
+860	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	13	13212	1	64	200	66				
+861	Ngo¹i c«ng t¨ng: /1% 	13	13213	1	64	200	67				
+862	Néi c«ng t¨ng /1% 	13	13214	1	64	200	68				
+863	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	13	13215	1	64	200	69				
+864	Néi lùc 	13	13216	1	64	200	70				
+865	Néi lùc %	13	13217	1	64	200	71				
+866	§iÓm sinh lùc	13	13218	1	64	200	72				
+867	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	13	13219	1	64	200	73				
+868	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	13	13220	1	64	200	74				
+869	Sinh mÖnh %	13	13221	1	64	200	75				
+870	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	13	13222	1	0	200	76				
+871	Tèc ®é ®¸nh t¨ng: /1% 	13	13223	1	128	200	77				
+872	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	13	13224	1	64	200	78				
+873	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	13	13225	1	64	200	79				
+874	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	13	13226	1	64	200	80				
+875	Ph¶n ®ßn s¸t th­¬ng ®éc	13	13227	1	64	200	81				
+876	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	13	13228	1	64	200	82				
+877	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	13	13229	1	64	200	83				
+878	Nhãm më khãa C	13									
+879	Hao mßn vò khÝ gi¶m: /1% 	13	13180	2	48	400	34				
+880	Søc lùc+/1	13	13181	2	48	400	35				
+881	T¨ng giíi h¹n träng l­îng/1%	13	13182	2	48	400	36				
+882	ThÓ lùc	13	13183	2	48	400	37				
+883	ThÓ lùc 1%	13	13184	2	48	400	38				
+884	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	13	13185	2	48	400	39				
+885	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	13	13186	2	48	400	40				
+886	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	13	13187	2	48	400	41				
+887	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	13	13188	2	48	400	42				
+888	HiÖu qu¶ d­îc phÈm håi néi/1%	13	13189	2	48	400	43				
+889	yªu cÇu ®¼ng cÊp gi¶m /1	13	13190	2	48	400	44				
+890	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	13	13191	2	48	400	45				
+891	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	13	13192	2	48	400	46				
+892	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	13	13193	2	48	400	47				
+893	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	13	13194	2	48	400	48				
+894	T¨ng ®iÓm sè néi c«ng	13	13195	2	48	400	49				
+895	T¨ng ®iÓm sè ngo¹i c«ng	13	13196	2	48	400	50				
+896	S¸t th­¬ng t¨ng /1	13	13197	2	48	400	51				
+897	T¨ng s¸t th­¬ng ®éc	13	13198	2	48	400	52				
+898	§éc s¸t t¨ng /1	13	13199	2	48	400	53				
+899	Søc m¹nh	13	13200	2	48	400	54				
+900	Th©n ph¸p	13	13201	2	48	400	55				
+901	Néi c«ng 	13	13202	2	48	400	56				
+902	Linh ho¹t	13	13203	2	48	400	57				
+903	G©n cèt	13	13204	2	48	400	58				
+904	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	13	13205	2	48	400	59				
+905	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	13	13206	2	48	400	60				
+906	Gi¶m ®éc s¸t /1	13	13207	2	48	400	61				
+907	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	13	13208	2	48	400	62				
+908	Thêi gian hç trî phßng thñ t¨ng: /1% 	13	13209	2	48	400	63				
+909	D­îc hiÖu kÐo dµi	13	13210	2	48	400	64				
+910	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	13	13211	2	48	400	65				
+911	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	13	13212	2	48	400	66				
+912	Ngo¹i c«ng t¨ng: /1% 	13	13213	2	48	400	67				
+913	Néi c«ng t¨ng /1% 	13	13214	2	48	400	68				
+914	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	13	13215	2	48	400	69				
+915	Néi lùc 	13	13216	2	48	400	70				
+916	Néi lùc %	13	13217	2	48	400	71				
+917	§iÓm sinh lùc	13	13218	2	48	400	72				
+918	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	13	13219	2	48	400	73				
+919	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	13	13220	2	48	400	74				
+920	Sinh mÖnh %	13	13221	2	48	400	75				
+921	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	13	13222	2	0	400	76				
+922	Tèc ®é ®¸nh t¨ng: /1% 	13	13223	2	96	400	77				
+923	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	13	13224	2	48	400	78				
+924	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	13	13225	2	48	400	79				
+925	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	13	13226	2	48	400	80				
+926	Ph¶n ®ßn s¸t th­¬ng ®éc	13	13227	2	48	400	81				
+927	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	13	13228	2	48	400	82				
+928	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	13	13229	2	48	400	83				
+929	Nhãm më khãa B	13									
+930	Hao mßn vò khÝ gi¶m: /1% 	13	13180	3	48	600	34				
+931	Søc lùc+/1	13	13181	3	48	600	35				
+932	T¨ng giíi h¹n träng l­îng/1%	13	13182	3	48	600	36				
+933	ThÓ lùc	13	13183	3	48	600	37				
+934	ThÓ lùc 1%	13	13184	3	48	600	38				
+935	§iÓm kinh nghiÖm nhËn ®­îc t¨ng: /1% 	13	13185	3	48	600	39				
+936	Täa thiÒn mçi 10 gi©y håi phôc sinh lùc/1	13	13186	3	48	600	40				
+937	Täa thiÒn mçi 10 gi©y håi phôc néi lùc/1	13	13187	3	48	600	41				
+938	Täa thiÒn mçi 10 gi©y håi phôc thÓ lùc/1	13	13188	3	48	600	42				
+939	HiÖu qu¶ d­îc phÈm håi néi/1%	13	13189	3	48	600	43				
+940	yªu cÇu ®¼ng cÊp gi¶m /1	13	13190	3	48	600	44				
+941	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng /1	13	13191	3	48	600	45				
+942	Néi c«ng lín nhÊt trªn vò khÝ t¨ng /1	13	13192	3	48	600	46				
+943	Ngo¹i c«ng nhá nhÊt trªn vò khÝ t¨ng /1	13	13193	3	48	600	47				
+944	Ngäai c«ng lín nhÊt trªn vò khÝ t¨ng 1	13	13194	3	48	600	48				
+945	T¨ng ®iÓm sè néi c«ng	13	13195	3	48	600	49				
+946	T¨ng ®iÓm sè ngo¹i c«ng	13	13196	3	48	600	50				
+947	S¸t th­¬ng t¨ng /1	13	13197	3	48	600	51				
+948	T¨ng s¸t th­¬ng ®éc	13	13198	3	48	600	52				
+949	§éc s¸t t¨ng /1	13	13199	3	48	600	53				
+950	Søc m¹nh	13	13200	3	48	600	54				
+951	Th©n ph¸p	13	13201	3	48	600	55				
+952	Néi c«ng 	13	13202	3	48	600	56				
+953	Linh ho¹t	13	13203	3	48	600	57				
+954	G©n cèt	13	13204	3	48	600	58				
+955	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	13	13205	3	48	600	59				
+956	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	13	13206	3	48	600	60				
+957	Gi¶m ®éc s¸t /1	13	13207	3	48	600	61				
+958	Thêi gian hç trî tÊn c«ng t¨ng: /1% 	13	13208	3	48	600	62				
+959	Thêi gian hç trî phßng thñ t¨ng: /1% 	13	13209	3	48	600	63				
+960	D­îc hiÖu kÐo dµi	13	13210	3	48	600	64				
+961	Tiªu diÖt ®Þch nh©n kh«i phôc sinh lùc	13	13211	3	48	600	65				
+962	Tiªu diÖt ®Þch nh©n kh«i phôc néi lùc	13	13212	3	48	600	66				
+963	Ngo¹i c«ng t¨ng: /1% 	13	13213	3	48	600	67				
+964	Néi c«ng t¨ng /1% 	13	13214	3	48	600	68				
+965	Tû lÖ s¸t th­¬ng tuyÖt ®èi /1%	13	13215	3	48	600	69				
+966	Néi lùc 	13	13216	3	48	600	70				
+967	Néi lùc %	13	13217	3	48	600	71				
+968	§iÓm sinh lùc	13	13218	3	48	600	72				
+969	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i c«ng	13	13219	3	48	600	73				
+970	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi c«ng	13	13220	3	48	600	74				
+971	Sinh mÖnh %	13	13221	3	48	600	75				
+972	Hoµn toµn bá qua tû lÖ tiªu hao kü n¨ng/1%	13	13222	3	0	600	76				
+973	Tèc ®é ®¸nh t¨ng: /1% 	13	13223	3	96	600	77				
+974	X¸c suÊt tÊn c«ng trong ph¹m vi: /1% 	13	13224	3	48	600	78				
+975	X¸c suÊt tÇn c«ng chÝ m¹ng: /1% 	13	13225	3	48	600	79				
+976	Dïng kü n¨ng kh«ng tÝnh tû lÖ gi¶n c¸ch/1%	13	13226	3	48	600	80				
+977	Ph¶n ®ßn s¸t th­¬ng ®éc	13	13227	3	48	600	81				
+978	TØ lÖ ph¶n ®ßn s¸t th­¬ng ngo¹i th­¬ng	13	13228	3	48	600	82				
+979	TØ lÖ ph¶n ®ßn s¸t th­¬ng néi th­¬ng	13	13229	3	48	600	83				
+980	Nhãm giµy ®Æc tr­ng D	13									
+981	T¨ng tèc ®é lªn ngùa	13	13252	1	80	400	106				
+982	Tèc ®é di chuyÓn 	13	13253	1	80	400	107				
+983	T¨ng tØ lÖ tèc ®é thu håi vµ triÖu håi	13	13254	1	80	400	108				
+984	Rót ng¾n thêi gian tª liÖt %	13	13255	1	80	400	109				
+985	Rót ng¾n thêi gian cho¸ng %	13	13256	1	80	400	110				
+986	Rót ng¾n thêi gian ®Þnh th©n %	13	13257	1	80	400	111				
+987	Rót ng¾n thêi gian lo¹n %	13	13258	1	80	400	112				
+988	Rót ng¾n thêi gian ngñ %	13	13259	1	80	400	113				
+989	Rót ng¾n thêi gian lµm chËm %	13	13260	1	80	400	114				
+990	Rót ng¾n thêi gian gi¶m tèc %	13	13261	1	80	400	115				
+991	Nhãm giµy ®Æc tr­ng C	13									
+992	T¨ng tèc ®é lªn ngùa	13	13252	2	60	600	106				
+993	Tèc ®é di chuyÓn 	13	13253	2	60	600	107				
+994	T¨ng tØ lÖ tèc ®é thu håi vµ triÖu håi	13	13254	2	60	600	108				
+995	Rót ng¾n thêi gian tª liÖt %	13	13255	2	60	600	109				
+996	Rót ng¾n thêi gian cho¸ng %	13	13256	2	60	600	110				
+997	Rót ng¾n thêi gian ®Þnh th©n %	13	13257	2	60	600	111				
+998	Rót ng¾n thêi gian lo¹n %	13	13258	2	60	600	112				
+999	Rót ng¾n thêi gian ngñ %	13	13259	2	60	600	113				
+1000	Rót ng¾n thêi gian lµm chËm %	13	13260	2	60	600	114				
+1001	Rót ng¾n thêi gian gi¶m tèc %	13	13261	2	60	600	115				
+1002	Nhãm giµy ®Æc tr­ng B	13									
+1003	T¨ng tèc ®é lªn ngùa	13	13252	3	60	800	106				
+1004	Tèc ®é di chuyÓn 	13	13253	3	60	800	107				
+1005	T¨ng tØ lÖ tèc ®é thu håi vµ triÖu håi	13	13254	3	60	800	108				
+1006	Rót ng¾n thêi gian tª liÖt %	13	13255	3	60	800	109				
+1007	Rót ng¾n thêi gian cho¸ng %	13	13256	3	60	800	110				
+1008	Rót ng¾n thêi gian ®Þnh th©n %	13	13257	3	60	800	111				
+1009	Rót ng¾n thêi gian lo¹n %	13	13258	3	60	800	112				
+1010	Rót ng¾n thêi gian ngñ %	13	13259	3	60	800	113				
+1011	Rót ng¾n thêi gian lµm chËm %	13	13260	3	60	800	114				
+1012	Rót ng¾n thêi gian gi¶m tèc %	13	13261	3	60	800	115				
+1013	Nhãm ph¸t triÓn T­íng Qu©n										
+1014	Søc m¹nh	14	13290	1	2000	1000	54				
+1015	Th©n ph¸p	14	13291	1	2000	1000	55				
+1016	Néi c«ng 	14	13292	1	2000	1000	56				
+1017	Linh ho¹t	14	13293	1	2000	1000	57				
+1018	G©n cèt	14	13294	1	2000	1000	58				
+1019	Nhãm ph¸t triÓn Nguyªn So¸i										
+1020	Søc m¹nh	15	13296	1	2000	1000	54				
+1021	Th©n ph¸p	15	13297	1	2000	1000	55				
+1022	Néi c«ng 	15	13298	1	2000	1000	56				
+1023	Linh ho¹t	15	13299	1	2000	1000	57				
+1024	G©n cèt	15	13300	1	2000	1000	58				
+1025	Nhãm më khãa T­íng Qu©n										
+1026	Hót Sinh lùc /1	16	13286	3	10000	1000	91				
+1027	C«ng kÝch +/1%	17	13295	1	10000	1000	116				
+1028	Tr¸nh mäi tr¹ng th¸i phô/1%	18	13301	1	10000	1000	105				
+1029	Tèc ®é di chuyÓn 	19	13302	1	10000	1000	107				
+1030	Nhãm më khãa Nguyªn So¸i										
+1031	Hót Sinh lùc /1	20	13286	4	10000	1000	91				
+1032	C«ng kÝch +/1%	21	13295	2	10000	1000	116				
+1033	Tr¸nh mäi tr¹ng th¸i phô/1%	22	13301	2	10000	1000	105				
+1034	Tèc ®é di chuyÓn 	23	13302	2	10000	1000	107				
+1035	Thiªn H¹ V« Song nhãm cè ®Þnh										
+1036	Thi triÓn%	24	13342	2	10000	1000	117				
+1037	D­îc hiÖu kÐo dµi	25	13356	2	10000	1000	64				
+1038	Gi¶m thä th­¬ng	26	13344	3	10000	1000	118				
+1039	Sinh mÖnh %	27	13343	2	10000	1000	9				
+1040	Thiªn H¹ V« Song Nhãm d­ìng thµnh										
+1041	Néi c«ng t¨ng /1% 	28	13350	2	2500	1000	20				
+1042	Ngo¹i c«ng t¨ng: /1% 	28	13351	3	2500	1000	19				
+1043	S¸t th­¬ng t¨ng /1	28	13352	3	2500	1000	16				
+1044	S¸t th­¬ng ®éc	28	13353	3	2500	1000	17				
+1045	Thiªn H¹ V« Song nhãm më khãa										
+1046	Søc m¹nh	29	13345	3	2000	2000	54				
+1047	Th©n ph¸p	29	13346	3	2000	2000	55				
+1048	Néi c«ng 	29	13347	3	2000	2000	56				
+1049	Linh ho¹t	29	13348	3	2000	2000	57				
+1050	G©n cèt	29	13349	3	2000	2000	58				
+1051	D­ìng thµnh Du HiÖp 1										
+1052	Linh ho¹t D	30	13360	1	2500	1000	61				
+1053	Th©n ph¸p D	30	13358	1	2500	1000	62				
+1054	Linh ho¹t C	30	13366	1	2000	1000	63				
+1055	Th©n ph¸p C	30	13364	1	2000	1000	64				
+1056	Linh ho¹t B	30	13372	1	500	1000	65				
+1057	Th©n ph¸p B	30	13370	1	500	1000	66				
+1058	D­ìng thµnh Du HiÖp 2										
+1059	Søc m¹nh D	31	13357	1	1000	1000	67				
+1060	G©n cèt D	31	13361	1	1000	1000	68				
+1061	Néi c«ng D	31	13359	1	1000	1000	69				
+1062	Sinh lùc D	31	13362	1	1000	1000	70				
+1063	Tû lÖ sinh lùc D	31	13459	1	1000	1000	3				
+1064	Søc m¹nh C	31	13363	1	800	1000	71				
+1065	G©n cèt C	31	13367	1	800	1000	72				
+1066	Néi c«ng C	31	13365	1	800	1000	73				
+1067	Sinh lùc C	31	13368	1	800	1000	74				
+1068	Tû lÖ sinh lùc C	31	13460	1	800	1000	2				
+1069	Søc m¹nh B	31	13369	1	200	1000	75				
+1070	G©n cèt B	31	13373	1	200	1000	76				
+1071	Néi c«ng B	31	13371	1	200	1000	77				
+1072	Sinh lùc B	31	13374	1	200	1000	78				
+1073	Tû lÖ sinh lùc B	31	13461	1	200	1000	1				
+1074	Më khãa Du HiÖp 1										
+1075	Linh ho¹t D	32	13378	1	2500	1000	79				
+1076	Th©n ph¸p D	32	13376	1	2500	1000	80				
+1077	Linh ho¹t C	32	13401	1	2000	1000	81				
+1078	Th©n ph¸p C	32	13399	1	2000	1000	82				
+1079	Linh ho¹t B	32	13424	1	500	1000	83				
+1080	Th©n ph¸p B	32	13422	1	500	1000	84				
+1081	Më khãa ¸o Choµng Du HiÖp 2										
+1082	Ph¶n ®ßn ngo¹i c«ng/1%D	33	13391	1	1000	1000	85				
+1083	Ph¶n ®ßn néi c«ng/1%D	33	13392	1	1000	1000	86				
+1084	T¨ng s¸t th­¬ng/1D	33	13380	1	1000	1000	87				
+1085	KÌm theo ®éc s¸t/1D	33	13381	1	1000	1000	88				
+1086	T¨ng s¸t th­¬ng cæ ®éc/1D	33	13382	1	1000	1000	89				
+1087	Ph¶n ®ßn ngo¹i c«ng/1%C	33	13414	1	800	1000	90				
+1088	Ph¶n ®ßn néi c«ng/1%C	33	13415	1	800	1000	91				
+1089	T¨ng s¸t th­¬ng/1C	33	13403	1	800	1000	92				
+1090	KÌm theo ®éc s¸t/1C	33	13404	1	800	1000	93				
+1091	T¨ng s¸t th­¬ng cæ ®éc/1C	33	13405	1	800	1000	94				
+1092	Ph¶n ®ßn ngo¹i c«ng/1%B	33	13437	1	200	1000	95				
+1093	Ph¶n ®ßn néi c«ng/1%B	33	13438	1	200	1000	96				
+1094	T¨ng s¸t th­¬ng/1B	33	13426	1	200	1000	97				
+1095	KÌm theo ®éc s¸t/1B	33	13427	1	200	1000	98				
+1096	T¨ng s¸t th­¬ng cæ ®éc/1B	33	13428	1	200	1000	99				
+1097	Më khãa Huy Ch­¬ng Du HiÖp 2										
+1098	Ph¶n ®ßn ngo¹i c«ng/1%D	34	13391	1	1000	1000	100				
+1099	Ph¶n ®ßn néi c«ng/1%D	34	13392	1	1000	1000	101				
+1100	T¨ng s¸t th­¬ng/1D	34	13380	1	1000	1000	102				
+1101	KÌm theo ®éc s¸t/1D	34	13381	1	1000	1000	103				
+1102	T¨ng s¸t th­¬ng cæ ®éc/1D	34	13382	1	1000	1000	104				
+1103	Ph¶n ®ßn ngo¹i c«ng/1%C	34	13414	1	800	1000	105				
+1104	Ph¶n ®ßn néi c«ng/1%C	34	13415	1	800	1000	106				
+1105	T¨ng s¸t th­¬ng/1C	34	13403	1	800	1000	107				
+1106	KÌm theo ®éc s¸t/1C	34	13404	1	800	1000	108				
+1107	T¨ng s¸t th­¬ng cæ ®éc/1C	34	13405	1	800	1000	109				
+1108	Ph¶n ®ßn ngo¹i c«ng/1%B	34	13437	1	200	1000	110				
+1109	Ph¶n ®ßn néi c«ng/1%B	34	13438	1	200	1000	111				
+1110	T¨ng s¸t th­¬ng/1B	34	13426	1	200	1000	112				
+1111	KÌm theo ®éc s¸t/1B	34	13427	1	200	1000	113				
+1112	T¨ng s¸t th­¬ng cæ ®éc/1B	34	13428	1	200	1000	114				
+1113	Më khãa Giµy Du HiÖp 2										
+1114	Tèc ®é di chuyÓn/1%D	35	13393	1	1250	1000	115				
+1115	T¨ng tèc ®é xuÊt chiªu/1%D	35	13395	1	1250	1000	116				
+1116	Kh¸ng tÊt c¶ D	35	13444	1	1250	1000	117				
+1117	T¨ng chÝ mÖnh/1%D	35	13397	1	1250	1000	118				
+1118	Tèc ®é di chuyÓn/1%C	35	13416	1	1000	1000	119				
+1119	T¨ng tèc ®é xuÊt chiªu/1%C	35	13418	1	1000	1000	120				
+1120	Kh¸ng tÊt c¶ C	35	13445	1	1000	1000	121				
+1121	T¨ng chÝ mÖnh/1%C	35	13420	1	1000	1000	122				
+1122	Tèc ®é di chuyÓn/1%D	35	13439	1	250	1000	123				
+1123	T¨ng tèc ®é xuÊt chiªu/1%B	35	13441	1	250	1000	124				
+1124	Kh¸ng tÊt c¶ B	35	13446	1	250	1000	125				
+1125	T¨ng chÝ mÖnh/1%B	35	13443	1	250	1000	126				
+1126	D­ìng thµnh ThiÕt HuyÕt 1										
+1127	Søc m¹nh D	36	13357	1	5000	1000	127				
+1128	Søc m¹nh C	36	13363	1	4000	1000	128				
+1129	Søc m¹nh B	36	13369	1	1000	1000	129				
+1130	D­ìng thµnh ThiÕt HuyÕt 2										
+1131	Linh ho¹t D	37	13360	1	1000	1000	130				
+1132	Th©n ph¸p D	37	13358	1	1000	1000	131				
+1133	G©n cèt D	37	13361	1	625	1000	132				
+1134	Néi c«ng D	37	13359	1	1000	1000	133				
+1135	Sinh lùc D	37	13362	1	750	1000	134				
+1136	Tû lÖ sinh lùc D	31	13459	1	625	1000	3				
+1137	Linh ho¹t C	37	13366	1	800	1000	135				
+1138	Th©n ph¸p C	37	13364	1	800	1000	136				
+1139	G©n cèt C	37	13367	1	500	1000	137				
+1140	Néi c«ng C	37	13365	1	800	1000	138				
+1141	Sinh lùc C	37	13368	1	600	1000	139				
+1142	Tû lÖ sinh lùc C	31	13460	1	500	1000	2				
+1143	Linh ho¹t B	37	13372	1	200	1000	140				
+1144	Th©n ph¸p B	37	13370	1	200	1000	141				
+1145	G©n cèt B	37	13373	1	125	1000	142				
+1146	Néi c«ng B	37	13371	1	200	1000	143				
+1147	Sinh lùc B	37	13374	1	150	1000	144				
+1148	Tû lÖ sinh lùc B	31	13461	1	125	1000	1				
+1149	Më khãa ThiÕt HuyÕt 1										
+1150	Søc m¹nh D	38	13375	1	1625	1000	145				
+1151	G©n cèt D	38	13379	1	1850	1000	146				
+1152	Sinh lùc %D	38	13447	1	1525	1000	147				
+1153	Søc m¹nh C	38	13398	1	1300	1000	148				
+1154	G©n cèt C	38	13402	1	1500	1000	149				
+1155	Sinh lùc %C	38	13448	1	1200	1000	150				
+1156	Søc m¹nh B	38	13421	1	325	1000	151				
+1157	G©n cèt B	38	13425	1	350	1000	152				
+1158	Sinh lùc %B	38	13449	1	325	1000	153				
+1159	Më khãa ¸o Choµng ThiÕt HuyÕt 2										
+1160	Ph¶n ®ßn ngo¹i c«ng/1D	39	13389	1	1250	1000	154				
+1161	Ph¶n ®ßn néi c«ng/1D	39	13390	1	1250	1000	155				
+1162	T¨ng ngo¹i c«ng/1%D	39	13387	1	1250	1000	156				
+1163	Tæng c«ng kÝch ngo¹i c«ng/1D	39	13385	1	1250	1000	157				
+1164	Ph¶n ®ßn ngo¹i c«ng/1C	39	13412	1	1000	1000	158				
+1165	Ph¶n ®ßn néi c«ng/1C	39	13413	1	1000	1000	159				
+1166	T¨ng ngo¹i c«ng/1%C	39	13410	1	1000	1000	160				
+1167	Tæng c«ng kÝch ngo¹i c«ng/1C	39	13408	1	1000	1000	161				
+1168	Ph¶n ®ßn ngo¹i c«ng/1B	39	13435	1	250	1000	162				
+1169	Ph¶n ®ßn néi c«ng/1B	39	13436	1	250	1000	163				
+1170	T¨ng ngo¹i c«ng/1%B	39	13433	1	250	1000	164				
+1171	Tæng c«ng kÝch ngo¹i c«ng/1B	39	13431	1	250	1000	165				
+1172	Më khãa Huy Ch­¬ng ThiÕt HuyÕt 2										
+1173	Ph¶n ®ßn ngo¹i c«ng/1D	40	13389	1	1250	1000	166				
+1174	Ph¶n ®ßn néi c«ng/1D	40	13390	1	1250	1000	167				
+1175	T¨ng ngo¹i c«ng/1%D	40	13387	1	1250	1000	168				
+1176	Tæng c«ng kÝch ngo¹i c«ng/1D	40	13385	1	1250	1000	169				
+1177	Ph¶n ®ßn ngo¹i c«ng/1C	40	13412	1	1000	1000	170				
+1178	Ph¶n ®ßn néi c«ng/1C	40	13413	1	1000	1000	171				
+1179	T¨ng ngo¹i c«ng/1%C	40	13410	1	1000	1000	172				
+1180	Tæng c«ng kÝch ngo¹i c«ng/1C	40	13408	1	1000	1000	173				
+1181	Ph¶n ®ßn ngo¹i c«ng/1B	40	13435	1	250	1000	174				
+1182	Ph¶n ®ßn néi c«ng/1B	40	13436	1	250	1000	175				
+1183	T¨ng ngo¹i c«ng/1%B	40	13433	1	250	1000	176				
+1184	Tæng c«ng kÝch ngo¹i c«ng/1B	40	13431	1	250	1000	177				
+1185	Më khãa Giµy ThiÕt HuyÕt 2										
+1186	Tèc ®é di chuyÓn/1%D	41	13393	1	1250	1000	178				
+1187	T¨ng tèc ®é xuÊt chiªu/1%D	41	13395	1	1250	1000	179				
+1188	Hót sinh lùc D	41	13394	1	1250	1000	180				
+1189	Gi¶m thä th­¬ng/1%D	41	13396	1	1250	1000	181				
+1190	Tèc ®é di chuyÓn/1%C	41	13416	1	1000	1000	182				
+1191	T¨ng tèc ®é xuÊt chiªu/1%C	41	13418	1	1000	1000	183				
+1192	Hót sinh lùc C	41	13417	1	1000	1000	184				
+1193	Gi¶m thä th­¬ng/1%C	41	13419	1	1000	1000	185				
+1194	Tèc ®é di chuyÓn/1%B	41	13439	1	250	1000	186				
+1195	T¨ng tèc ®é xuÊt chiªu/1%B	41	13441	1	250	1000	187				
+1196	Hót sinh lùc B	41	13440	1	250	1000	188				
+1197	Gi¶m thä th­¬ng/1%B	41	13442	1	250	1000	189				
+1198	D­ìng thµnh V©n Du 1										
+1199	Néi c«ng 	42	13359	1	5000	1000	190				
+1200	Néi c«ng 	42	13365	1	4000	1000	191				
+1201	Néi c«ng 	42	13371	1	1000	1000	192				
+1202	D­ìng thµnh V©n Du 2										
+1203	Linh ho¹t D	43	13360	1	1000	1000	193				
+1204	Th©n ph¸p D	43	13358	1	1000	1000	194				
+1205	G©n cèt D	43	13361	1	1000	1000	195				
+1206	Sinh lùc D	43	13362	1	1000	1000	196				
+1207	Tû lÖ sinh lùc D	31	13459	1	1000	1000	3				
+1208	Linh ho¹t C	43	13366	1	800	1000	197				
+1209	Th©n ph¸p C	43	13364	1	800	1000	198				
+1210	G©n cèt C	43	13367	1	800	1000	199				
+1211	Sinh lùc C	43	13368	1	800	1000	200				
+1212	Tû lÖ sinh lùc C	31	13460	1	800	1000	2				
+1213	Linh ho¹t B	43	13372	1	200	1000	201				
+1214	Th©n ph¸p B	43	13370	1	200	1000	202				
+1215	G©n cèt B	43	13373	1	200	1000	203				
+1216	Sinh lùc B	43	13374	1	200	1000	204				
+1217	Tû lÖ sinh lùc B	31	13461	1	200	1000	1				
+1218	Më khãa V©n Du 1										
+1219	Linh ho¹t D	44	13378	1	1300	1000	205				
+1220	Th©n ph¸p D	44	13376	1	1200	1000	206				
+1221	Néi c«ng D	44	13377	1	1500	1000	207				
+1222	Linh ho¹t C	44	13401	1	1300	1000	208				
+1223	Th©n ph¸p C	44	13399	1	1200	1000	209				
+1224	Néi c«ng C	44	13400	1	1500	1000	210				
+1225	Linh ho¹t B	44	13424	1	650	1000	211				
+1226	Th©n ph¸p B	44	13422	1	600	1000	212				
+1227	Néi c«ng B	44	13423	1	750	1000	213				
+1228	Më khãa ¸o Choµng V©n Du 2										
+1229	T¨ng néi c«ng/1%D	45	13388	1	1250	1000	214				
+1230	Tæng c«ng kÝch néi c«ng/1D	45	13386	1	1250	1000	215				
+1231	Néi c«ng lín nhÊt trªn vò khÝ t¨ng/1D	45	13383	1	1250	1000	216				
+1232	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng/1D	45	13384	1	1250	1000	217				
+1233	T¨ng néi c«ng/1%C	45	13411	1	1000	1000	218				
+1234	Tæng c«ng kÝch néi c«ng/1C	45	13409	1	1000	1000	219				
+1235	Néi c«ng lín nhÊt trªn vò khÝ t¨ng/1C	45	13406	1	1000	1000	220				
+1236	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng/1C	45	13407	1	1000	1000	221				
+1237	T¨ng néi c«ng/1%B	45	13434	1	250	1000	222				
+1238	Tæng c«ng kÝch néi c«ng/1B	45	13432	1	250	1000	223				
+1239	Néi c«ng lín nhÊt trªn vò khÝ t¨ng/1B	45	13429	1	250	1000	224				
+1240	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng/1B	45	13430	1	250	1000	225				
+1241	Më khãa Huy Ch­¬ng V©n Du 2										
+1242	T¨ng néi c«ng/1%D	46	13388	1	1250	1000	226				
+1243	Tæng c«ng kÝch néi c«ng/1D	46	13386	1	1250	1000	227				
+1244	Néi c«ng lín nhÊt trªn vò khÝ t¨ng/1D	46	13383	1	1250	1000	228				
+1245	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng/1D	46	13384	1	1250	1000	229				
+1246	T¨ng néi c«ng/1%C	46	13411	1	1000	1000	230				
+1247	Tæng c«ng kÝch néi c«ng/1C	46	13409	1	1000	1000	231				
+1248	Néi c«ng lín nhÊt trªn vò khÝ t¨ng/1C	46	13406	1	1000	1000	232				
+1249	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng/1C	46	13407	1	1000	1000	233				
+1250	T¨ng néi c«ng/1%B	46	13434	1	250	1000	234				
+1251	Tæng c«ng kÝch néi c«ng/1B	46	13432	1	250	1000	235				
+1252	Néi c«ng lín nhÊt trªn vò khÝ t¨ng/1B	46	13429	1	250	1000	236				
+1253	Néi c«ng nhá nhÊt trªn vò khÝ t¨ng/1B	46	13430	1	250	1000	237				
+1254	Më khãa Giµy V©n Du 2										
+1255	Tèc ®é di chuyÓn/1%D	47	13393	1	1250	1000	238				
+1256	T¨ng tèc ®é xuÊt chiªu/1%D	47	13395	1	1250	1000	239				
+1257	Gi¶m thä th­¬ng/1%D	47	13396	1	1250	1000	240				
+1258	T¨ng chÝ mÖnh/1%D	47	13397	1	1250	1000	241				
+1259	Tèc ®é di chuyÓn/1%C	47	13416	1	1000	1000	242				
+1260	T¨ng tèc ®é xuÊt chiªu/1%C	47	13418	1	1000	1000	243				
+1261	Gi¶m thä th­¬ng/1%C	47	13419	1	1000	1000	244				
+1262	T¨ng chÝ mÖnh/1%C	47	13420	1	1000	1000	245				
+1263	Tèc ®é di chuyÓn/1%B	47	13439	1	250	1000	246				
+1264	T¨ng tèc ®é xuÊt chiªu/1%B	47	13441	1	250	1000	247				
+1265	Gi¶m thä th­¬ng/1%B	47	13442	1	250	1000	248				
+1266	T¨ng chÝ mÖnh/1%B	47	13443	1	250	1000	249				
+1267	---------------------Linh §å §Çu-----------------------------------------										
+1268	XuÊt chiªu %D	48	13476	1	1000	1000	250				
+1269	XuÊt chiªu %C	48	13476	2	3000	1000	251				
+1270	XuÊt chiªu %B	48	13476	3	4500	1000	252				
+1271	XuÊt chiªu %A	48	13476	4	1500	1000	253				
+1272	D­îc hiÖu kÐo dµi	49	305	4	10000	1000	254				
+1273	Sinh lùc D	50	13491	1	3000	1000	255				
+1274	Sinh lùc C	50	13491	2	4500	1000	256				
+1275	Sinh lùc B	50	13491	3	2000	1000	257				
+1276	§iÓm sinh lùc A	50	13491	4	500	1000	258				
+1277	---------------------Linh §å Y-----------------------------------------										
+1278	Kh¸ng tÊt c¶ D	51	13477	2	2500	1000	259				
+1279	Kh¸ng tÊt c¶ C	51	13477	3	4000	1000	260				
+1280	Kh¸ng tÊt c¶ B	51	13477	4	2500	1000	261				
+1281	Kh¸ng tÊt c¶ A	51	13477	5	1000	1000	262				
+1282	Sinh lùc %D	52	290	4	1000	1000	263				
+1283	Sinh lùc %C	52	290	5	5000	1000	264				
+1284	Sinh mÖnh % B	52	290	6	3000	1000	265				
+1285	Sinh lùc %A	52	290	7	1000	1000	266				
+1286	---------------------Linh §å Khè (S¸t th­¬ng)-----------------------------------										
+1287	Nöa s¸t th­¬ng C	53	302	2	3000	1000	267				
+1288	Nöa s¸t th­¬ng B	53	302	3	5500	1000	268				
+1289	Nöa s¸t th­¬ng A	53	302	4	1500	1000	269				
+1290	S¸t th­¬ng D	54	563	1	3000	1000	270				
+1291	S¸t th­¬ng C	54	563	2	4500	1000	271				
+1292	S¸t th­¬ng B	54	563	3	2000	1000	272				
+1293	S¸t th­¬ng A	54	563	4	500	1000	273				
+1294	---------------------Linh §å Khè  (Ngo¹i c«ng)-----------------------------------										
+1295	Ngo¹i c«ng %D	55	13478	1	3000	1000	274				
+1296	Ngo¹i c«ng %C	55	13478	2	4500	1000	275				
+1297	Ngo¹i c«ng %B	55	13478	3	2000	1000	276				
+1298	Ngo¹i c«ng %A	55	13478	4	500	1000	277				
+1299	---------------------Linh §å Khè (Néi kÝch)-----------------------------------										
+1300	Néi kÝch %D	56	13479	1	3000	1000	278				
+1301	Néi kÝch %C	56	13479	2	4500	1000	279				
+1302	Néi kÝch %B	56	13479	3	2000	1000	280				
+1303	Néi kÝch %A	56	13479	4	500	1000	281				
+1304	---------------------Vò KhÝ Linh §å (S¸t th­¬ng)-------------------------------										
+1305	Th©n ph¸p D	57	13480	2	1000	1000	282				
+1306	Th©n ph¸p C	57	13480	3	2500	1000	283				
+1307	Th©n ph¸p B	57	13480	4	1000	1000	284				
+1308	Th©n ph¸p A	57	13480	5	500	1000	285				
+1309	Linh ho¹t D	57	13481	2	1000	1000	286				
+1310	Linh ho¹t C	57	13481	3	2500	1000	287				
+1311	Linh ho¹t B	57	13481	4	1000	1000	288				
+1312	Linh ho¹t A	57	13481	5	500	1000	289				
+1313	S¸t th­¬ng D	58	13492	2	2000	1000	290				
+1314	S¸t th­¬ng C	58	13492	3	4000	1000	291				
+1315	S¸t th­¬ng B	58	13492	4	3500	1000	292				
+1316	S¸t th­¬ng A	58	13492	5	500	1000	293				
+1317	---------------------Vò KhÝ Linh §å  (Ngo¹i c«ng)-------------------------------										
+1318	Søc m¹nh D	59	13482	2	1500	1000	294				
+1319	Søc m¹nh C	59	13482	3	5500	1000	295				
+1320	Søc m¹nh B	59	13482	4	2500	1000	296				
+1321	Søc m¹nh A	59	13482	5	500	1000	297				
+1322	Ngo¹i c«ng %D	60	13484	2	2000	1000	298				
+1323	Ngo¹i c«ng %C	60	13484	3	4000	1000	299				
+1324	Ngo¹i c«ng %B	60	13484	4	3500	1000	300				
+1325	Ngo¹i c«ng %A	60	13484	5	500	1000	301				
+1326	---------------------Vò KhÝ Linh §å (Néi kÝch)-------------------------------										
+1327	Néi c«ng D	61	13483	2	1500	1000	302				
+1328	Néi c«ng C	61	13483	3	5500	1000	303				
+1329	Néi c«ng B	61	13483	4	2500	1000	304				
+1330	Néi c«ng A	61	13483	5	500	1000	305				
+1331	Néi kÝch %D	62	13485	2	2000	1000	306				
+1332	Néi kÝch %C	62	13485	3	4000	1000	307				
+1333	Néi kÝch %B	62	13485	4	3500	1000	308				
+1334	Néi kÝch %A	62	13485	5	500	1000	309				
+1335	---------------------Trang bÞ Linh §å thuéc tÝnh ngÉu nhiªn (§Çu, Y, Khè c«ng kÝch)-----------------										
+1336	§éc s¸t	63	251	2	700	1000	310				
+1337	Cæ s¸t	63	13199	6	700	1000	311				
+1338	S¸t th­¬ng	63	394	4	500	1000	312				
+1339	Tû lÖ ngo¹i c«ng	63	261	3	600	1000	313				
+1340	Tû lÖ néi kÝch	63	262	3	600	1000	314				
+1341	Tû lÖ néi ngo¹i c«ng	63	389	4	400	1000	315				
+1342	Søc m¹nh	63	399	2	1300	1000	316				
+1343	Néi c«ng 	63	402	2	1300	1000	317				
+1344	G©n cèt	63	398	2	1300	1000	318				
+1345	Th©n ph¸p	63	400	2	1300	1000	319				
+1346	Linh ho¹t	63	401	2	1300	1000	320				
+1347	---------------------Trang bÞ Linh §å thuéc tÝnh ngÉu nhiªn (Vò khÝ tÊn c«ng)-------------------										
+1348	§éc s¸t	64	251	2	2000	1000	321				
+1349	Cæ s¸t	64	13199	6	2000	1000	322				
+1350	S¸t th­¬ng	64	394	4	1000	1000	323				
+1351	Tû lÖ ngo¹i c«ng	64	261	3	2000	1000	324				
+1352	Tû lÖ néi kÝch	64	262	3	2000	1000	325				
+1353	Tû lÖ néi ngo¹i c«ng	64	389	4	1000	1000	326				
+1354	Gi¶m tû lÖ ngo¹i phßng cña môc tiªu	65	13320	2	1500	1000	327				
+1355	Gi¶m tû lÖ néi phßng cña môc tiªu	65	13322	2	1500	1000	328				
+1356	Gi¶m tû lÖ néi ngo¹i phßng cña môc tiªu	65	444	5	1000	1000	329				
+1357	Gi¶m ®iÓm sè ngo¹i phßng môc tiªu	65	13464	3	1500	1000	330				
+1358	Gi¶m ®iÓm sè néi phßng môc tiªu	65	13465	3	1500	1000	331				
+1359	Gi¶m ®iÓm sè néi ngo¹i phßng môc tiªu	65	13466	2	1000	1000	332				
+1360	Ph¸ phßng thñ ®èi ph­¬ng	65	252	2	0	1000	333				
+1361	Hót sinh lùc	65	13237	1	1000	1000	334				
+1362	ChÝnh x¸c	65	13564	1	1000	1000	335				
+1363	---------------------Trang bÞ Linh §å thuéc tÝnh ngÉu nhiªn (Giíi chØ tÊn c«ng)-------------------										
+1364	Søc m¹nh	66	399	2	1800	1000	336				
+1365	Néi c«ng 	66	402	2	1800	1000	337				
+1366	G©n cèt	66	398	2	1800	1000	338				
+1367	Th©n ph¸p	66	400	2	1800	1000	339				
+1368	Linh ho¹t	66	401	2	1800	1000	340				
+1369	Ph¸ phßng thñ ®èi ph­¬ng	66	252	2	0	1000	341				
+1370	Hót sinh lùc	66	13237	1	1000	1000	342				
+1371	---------------------Trang bÞ Linh §å thuéc tÝnh ngÉu nhiªn (§Çu phßng ngù)---------------------										
+1372	Tû lÖ sinh lùc	67	277	5	1600	1000	343				
+1373	Tû lÖ ngo¹i phßng	67	493	2	1200	1000	344				
+1374	Tû lÖ néi phßng	67	494	2	1200	1000	345				
+1375	Tû lÖ néi ngo¹i phßng	67	495	1	800	1000	346				
+1376	§iÓm hé gi¸p ngo¹i phßng	67	13486	1	1200	1000	347				
+1377	§iÓm hé gi¸p néi phßng	67	13487	1	1200	1000	348				
+1378	§iÓm hé gi¸p néi ngo¹i phßng	67	13488	1	800	1000	349				
+1379	§iÓm ®éc s¸t gi¶m	67	13207	5	650	1000	350				
+1380	Kh¸ng ®éc	67	13240	5	650	1000	351				
+1381	Tû lÖ gi¶m thêi gian ®éc	67	13471	1	700	1000	352				
+1382	---------------------Trang bÞ Linh §å thuéc tÝnh ngÉu nhiªn (¸o phßng ngù)---------------------										
+1383	Tû lÖ sinh lùc	68	277	5	1600	1000	353				
+1384	Tû lÖ ngo¹i phßng	68	493	2	1200	1000	354				
+1385	Tû lÖ néi phßng	68	494	2	1200	1000	355				
+1386	Tû lÖ néi ngo¹i phßng	68	495	1	800	1000	356				
+1387	§iÓm hé gi¸p ngo¹i phßng	68	13486	1	1200	1000	357				
+1388	§iÓm hé gi¸p néi phßng	68	13487	1	1200	1000	358				
+1389	§iÓm hé gi¸p néi ngo¹i phßng	68	13488	1	800	1000	359				
+1390	§iÓm sè triÖt tiªu s¸t th­¬ng ngo¹i c«ng	68	13205	5	800	1000	360				
+1391	§iÓm sè triÖt tiªu s¸t th­¬ng néi c«ng	68	13206	5	800	1000	361				
+1392	§iÓm sè triÖt tiªu s¸t th­¬ng néi ngo¹i c«ng	68	13468	6	400	1000	362				
+1393	---------------------Trang bÞ Linh §å thuéc tÝnh ngÉu nhiªn (Khè phßng ngù)---------------------										
+1394	Tû lÖ sinh lùc	69	277	5	1600	1000	363				
+1395	Tû lÖ ngo¹i phßng	69	493	2	1200	1000	364				
+1396	Tû lÖ néi phßng	69	494	2	1200	1000	365				
+1397	Tû lÖ néi ngo¹i phßng	69	495	1	800	1000	366				
+1398	§iÓm hé gi¸p ngo¹i phßng	69	13486	1	1200	1000	367				
+1399	§iÓm hé gi¸p néi phßng	69	13487	1	1200	1000	368				
+1400	§iÓm hé gi¸p néi ngo¹i phßng	69	13488	1	800	1000	369				
+1401	§iÓm sè ph¶n ®ßn s¸t th­¬ng ngo¹i	69	13469	6	700	1000	370				
+1402	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi	69	13470	6	700	1000	371				
+1403	§iÓm sè ph¶n ®ßn s¸t th­¬ng néi ngo¹i	69	13287	5	300	1000	372				
+1404	Tû lÖ ph¶n ®ßn s¸t th­¬ng ®éc	69	13227	1	300	1000	373				
+1405	---------------------Trang bÞ Linh §å thuéc tÝnh ngÉu nhiªn (Giíi chØ phßng ngù)-------------------										
+1406	Tû lÖ sinh lùc	70	277	3	2000	1000	374				
+1407	Tû lÖ ngo¹i phßng	70	493	2	1500	1000	375				
+1408	Tû lÖ néi phßng	70	494	2	1500	1000	376				
+1409	Tû lÖ néi ngo¹i phßng	70	495	1	1000	1000	377				
+1410	§iÓm hé gi¸p ngo¹i phßng	70	13486	1	1500	1000	378				
+1411	§iÓm hé gi¸p néi phßng	70	13487	1	1500	1000	379				
+1412	§iÓm hé gi¸p néi ngo¹i phßng	70	13488	1	1000	1000	380				
+1413	---------------------Trang bÞ Linh §å thuéc tÝnh ngÉu nhiªn (§Çu, Y, Khè kh¸c)-----------------										
+1414	§iÓm sinh lùc	71	408	4	800	1000	381				
+1415	§¼ng cÊp céng thªm sinh lùc	71	13467	2	800	1000	382				
+1416	ChuyÓn sinh céng thªm sinh lùc	71	13490	3	800	1000	383				
+1417	NÐ tr¸nh tÊt c¶ tr¹ng th¸i phô	71	13251	1	300	1000	384				
+1418	Khi bÞ tÊn c«ng, cã tû lÖ t¨ng nÐ tr¸nh 10 gi©y	71	13473	1	600	1000	385				
+1419	Khi bÞ tÊn c«ng, cã tû lÖ t¨ng tèc ®é di chuyÓn 10 gi©y 	71	613	2	600	1000	386				
+1420	T¨ng nÐ tr¸nh	71	13554	1	600	1000	387				
+1421	---------------------Trang bÞ Linh §å thuéc tÝnh ngÉu nhiªn (Giíi chØ kh¸c)-------------------										
+1422	Tû lª 30% cã Tôc MÖnh QuyÕt 1 lÇn	72	614	7	0	1000	388				
+1423	Khi ch¹y cã mang Tµn ¶nh	72	13474	1	0	1000	389				
+1424	Khi thi triÓn kü n¨ng cã Tµn ¶nh	72	13475	1	0	1000	390				
+1425	Sö dông kü n¨ng cã tû lÖ kh«ng cã thêi gian chê	72	496	1	500	1000	391				
+1426	Tû lÖ xuÊt chiªu t¨ng	72	491	4	500	1000	392				
+1427	MËt tÞch céng thªm t¨ng	72	564	4	100	1000	393				
+1428	§iÓm thÓ lùc	72	13183	3	500	1000	394				
+1429	Néi lùc %	72	278	3	500	1000	395				
+1430	S¸t th­¬ng chuyÓn hãa thµnh néi lùc 	72	308	5	500	1000	396				
+1431	Sót ng¾n ®éng t¸c bÞ th­¬ng	72	89	2	500	1000	397				
+1432	D­îc hiÖu kÐo dµi	72	305	4	500	1000	398				
+1433	Gi¶m néi lùc tiªu hao	72	304	3	500	1000	399				

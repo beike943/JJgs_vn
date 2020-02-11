@@ -1,0 +1,375 @@
+Index	MapID	MapName	NpcName	PosX	PosY
+H­íng dÉn	ID khu vùc	Tªn b¶n ®å	Tªn Npc	Tung ®é	Hoµnh ®é
+1	200	BiÖn Kinh	D· TÈu	147	176
+2	200	BiÖn Kinh	Chñ TiÖm vò khÝ	173	174
+3	200	BiÖn Kinh	Chñ D­îc ®iÕm	170	176
+4	200	BiÖn Kinh	Chñ T¹p hãa	178	177
+5	200	BiÖn Kinh	Chñ TiÖm Nam phôc	167	177
+6	200	BiÖn Kinh	Chñ TiÖm N÷ phôc	181	177
+7	200	BiÖn Kinh	Chñ Kim hoµn	165	181
+8	200	BiÖn Kinh	Chñ tiÒn trang	179	180
+9	200	BiÖn Kinh	Thñ khè (§«ng)	186	184
+10	200	BiÖn Kinh	Thñ khè (Nam)	162	186
+11	200	BiÖn Kinh	Thñ khè (T©y)	159	173
+12	200	BiÖn Kinh	Xa phu	183	186
+13	200	BiÖn Kinh	Xa phu	157	184
+14	200	BiÖn Kinh	Xa phu	158	169
+15	200	BiÖn Kinh	Qu¶n lý cöa hiÖu	178	175
+16	200	BiÖn Kinh	M¹c §¹i	178	188
+17	200	BiÖn Kinh	V©n Du §¹o Nh©n	169	187
+18	200	BiÖn Kinh	Ngù Trï	197	180
+19	200	BiÖn Kinh	L­u NhÊt Phñ	152	181
+20	200	BiÖn Kinh	Thî s¨n Tr­¬ng	168	188
+21	200	BiÖn Kinh	Bé ®Çu	174	166
+22	200	BiÖn Kinh	LÔ quan	185	172
+23	200	BiÖn Kinh	Chñ th­¬ng héi	170	182
+24	200	BiÖn Kinh	Hµnh C­íc Th­¬ng Nh©n	177	183
+25	200	BiÖn Kinh	Sø gi¶ m«n ph¸i	175	176
+26	200	BiÖn Kinh	Sø gi¶	144	177
+27	200	BiÖn Kinh	Ch©n Tö §¬n	172	179
+28	200	BiÖn Kinh	Sø gi¶ Tµng KiÕm	153	172
+29	200	BiÖn Kinh	TriÖu Diªn Niªn	161	179
+30	200	BiÖn Kinh	Tiªu ViÔn L©u	162	174
+31	200	BiÖn Kinh	Sø gi¶ bang ph¸i	160	175
+32	200	BiÖn Kinh	VÖ binh thµnh m«n	155	169
+33	200	BiÖn Kinh	VÖ binh thµnh m«n	154	170
+34	200	BiÖn Kinh	VÖ binh thµnh m«n	154	187
+35	200	BiÖn Kinh	VÖ binh thµnh m«n	155	187
+36	200	BiÖn Kinh	VÖ binh thµnh m«n	191	187
+37	200	BiÖn Kinh	VÖ binh thµnh m«n	190	188
+38	200	BiÖn Kinh	Tµo B©n	196	176
+39	200	BiÖn Kinh	Binh Bé ThÞ Lang	194	176
+40	200	BiÖn Kinh	Binh Bé Thñ vÖ	193	178
+41	200	BiÖn Kinh	Binh Bé Thñ vÖ	193	178
+42	200	BiÖn Kinh	TriÖu Phæ	175	166
+43	200	BiÖn Kinh	ThÞ VÖ T­íng phñ	172	167
+44	200	BiÖn Kinh	CÊm qu©n	183	172
+45	200	BiÖn Kinh	CÊm qu©n	185	173
+46	200	BiÖn Kinh	CÊm qu©n	182	172
+47	200	BiÖn Kinh	CÊm qu©n	187	171
+48	200	BiÖn Kinh	KhÊu ChuÈn	177	174
+49	200	BiÖn Kinh	Chñ töu lÇu	185	179
+50	200	BiÖn Kinh	TiÓu nhÞ	184	179
+51	200	BiÖn Kinh	Nh©n sÜ giang hå	184	180
+52	200	BiÖn Kinh	Tµo §¹i Lùc	187	180
+53	200	BiÖn Kinh	Gi¸o sÜ	166	175
+54	200	BiÖn Kinh	Vâ s­	175	191
+55	200	BiÖn Kinh	Hµng xãm Hµn TrÝ Nh­îng	153	182
+56	200	BiÖn Kinh	Tiªu s­	172	171
+57	200	BiÖn Kinh	Vò N­¬ng	158	177
+58	200	BiÖn Kinh	ThÇy bãi	164	177
+59	200	BiÖn Kinh	Quan viªn tho¸i nhiÖm	169	165
+60	200	BiÖn Kinh	TiÓu ®ång	147	176
+61	200	BiÖn Kinh	B¸ch HiÓu Sinh	177	185
+62	200	BiÖn Kinh	Lý S­ S­	172	184
+63	200	BiÖn Kinh	B¸n ngùa	193	181
+64	300	Thµnh §«	D· TÈu	204	221
+65	300	Thµnh §«	Chñ TiÖm vò khÝ	212	215
+66	300	Thµnh §«	Chñ D­îc ®iÕm	217	224
+67	300	Thµnh §«	Chñ T¹p hãa	216	218
+68	300	Thµnh §«	Chñ TiÖm Nam phôc	216	215
+69	300	Thµnh §«	Chñ TiÖm N÷ phôc	212	219
+70	300	Thµnh §«	Chñ Kim hoµn	228	219
+71	300	Thµnh §«	Chñ tiÒn trang	214	226
+72	300	Thµnh §«	Thñ khè (B¾c)	240	216
+73	300	Thµnh §«	Thñ khè (T©y)	211	216
+74	300	Thµnh §«	Thñ khè (Nam)	210	228
+75	300	Thµnh §«	Xa phu	236	226
+76	300	Thµnh §«	Xa phu	209	218
+77	300	Thµnh §«	Xa phu	213	230
+78	300	Thµnh §«	Xa phu	235	215
+79	300	Thµnh §«	Qu¶n lý cöa hiÖu	234	220
+80	300	Thµnh §«	M¹c NhÞ	213	215
+81	300	Thµnh §«	CÈm n­¬ng	225	229
+82	300	Thµnh §«	Du Ph­¬ng ®¹i phu	215	225
+83	300	Thµnh §«	§¹i Kho¸ng C«ng	229	214
+84	300	Thµnh §«	Hoµng §¹i ThÈm	230	218
+85	300	Thµnh §«	Bé ®Çu	222	217
+86	300	Thµnh §«	LÔ quan	223	218
+87	300	Thµnh §«	Chñ th­¬ng héi	237	218
+88	300	Thµnh §«	Sø gi¶ Tµng KiÕm	222	231
+89	300	Thµnh §«	Hµnh C­íc Th­¬ng Nh©n	217	221
+90	300	Thµnh §«	Sø gi¶	204	223
+91	300	Thµnh §«	Sø gi¶ bang ph¸i	201	222
+92	300	Thµnh §«	Sø gi¶ m«n ph¸i	224	220
+93	300	Thµnh §«	Vò N­¬ng	227	228
+94	300	Thµnh §«	N¹n d©n_BÝnh	208	218
+95	300	Thµnh §«	N¹n d©n_§inh	233	214
+96	300	Thµnh §«	N¹n d©n_Gi¸p	237	227
+97	300	Thµnh §«	N¹n d©n Êt	205	228
+98	300	Thµnh §«	N¹n d©n	228	227
+99	300	Thµnh §«	Chu ThiÖn Nh©n	243	218
+100	300	Thµnh §«	A ThÞnh	222	234
+101	300	Thµnh §«	Chu UÊt Ly	226	224
+102	300	Thµnh §«	Th¸i thó	223	217
+103	300	Thµnh §«	Chñ l«i ®µi	230	223
+104	300	Thµnh §«	Nha dÞch	219	219
+105	300	Thµnh §«	Nha dÞch	219	220
+106	300	Thµnh §«	VÖ binh thµnh m«n	209	215
+107	300	Thµnh §«	VÖ binh thµnh m«n	239	214
+108	300	Thµnh §«	VÖ binh thµnh m«n	240	229
+109	300	Thµnh §«	VÖ binh thµnh m«n	206	231
+110	300	Thµnh §«	Vâ s­	207	221
+111	300	Thµnh §«	ThÇy bãi	211	224
+112	300	Thµnh §«	Quan viªn tho¸i nhiÖm	225	229
+113	300	Thµnh §«	Chñ töu lÇu	221	213
+114	300	Thµnh §«	V­¬ng CÈn	222	226
+115	300	Thµnh §«	B¸ch HiÓu Sinh	217	228
+116	300	Thµnh §«	Tiªu s­	227	210
+117	300	Thµnh §«	Gi¸o sÜ	213	221
+118	300	Thµnh §«	TiÓu ®ång	204	221
+119	100	TuyÒn Ch©u	D· TÈu	180	174
+120	100	TuyÒn Ch©u	Chñ TiÖm vò khÝ	173	187
+121	100	TuyÒn Ch©u	Chñ D­îc ®iÕm	179	183
+122	100	TuyÒn Ch©u	Chñ T¹p hãa	184	187
+123	100	TuyÒn Ch©u	Chñ TiÖm Nam phôc	167	188
+124	100	TuyÒn Ch©u	Chñ TiÖm N÷ phôc	183	185
+125	100	TuyÒn Ch©u	Chñ Kim hoµn	190	182
+126	100	TuyÒn Ch©u	Chñ tiÒn trang	176	182
+127	100	TuyÒn Ch©u	Thñ khè (B¾c)	189	179
+128	100	TuyÒn Ch©u	Thñ khè (§«ng)	194	192
+129	100	TuyÒn Ch©u	Thñ khè (T©y)	173	181
+130	100	TuyÒn Ch©u	Xa phu TuyÒn Ch©u (B¾c)	188	180
+131	100	TuyÒn Ch©u	Xa phu TuyÒn Ch©u (§«ng)	192	191
+132	100	TuyÒn Ch©u	Xa phu TuyÒn Ch©u (T©y)	171	180
+133	100	TuyÒn Ch©u	Qu¶n lý cöa hiÖu	178	180
+134	100	TuyÒn Ch©u	L©m D­îc S­	194	184
+135	100	TuyÒn Ch©u	Lý Phong Thu	200	185
+136	100	TuyÒn Ch©u	Chñ l«i ®µi	166	184
+137	100	TuyÒn Ch©u	ChØ huy sø	177	186
+138	100	TuyÒn Ch©u	Sø gi¶ bang ph¸i	181	191
+139	100	TuyÒn Ch©u	Sø gi¶	181	176
+140	100	TuyÒn Ch©u	LÔ quan	189	186
+141	100	TuyÒn Ch©u	Bé ®Çu	189	186
+142	100	TuyÒn Ch©u	Sø gi¶ m«n ph¸i	182	185
+143	100	TuyÒn Ch©u	Hµnh C­íc Th­¬ng Nh©n	182	182
+144	100	TuyÒn Ch©u	Sø gi¶ Tµng KiÕm	188	194
+145	100	TuyÒn Ch©u	Chñ th­¬ng héi	192	183
+146	100	TuyÒn Ch©u	Vâ s­	178	174
+147	100	TuyÒn Ch©u	TiÓu ®ång	183	176
+148	100	TuyÒn Ch©u	§¹i ChÝ C­êng	175	177
+149	100	TuyÒn Ch©u	Th¸i thó	190	186
+150	100	TuyÒn Ch©u	VÖ binh thµnh m«n	191	179
+151	100	TuyÒn Ch©u	VÖ binh thµnh m«n	192	179
+152	100	TuyÒn Ch©u	VÖ binh thµnh m«n	167	179
+153	100	TuyÒn Ch©u	VÖ binh thµnh m«n	197	195
+154	100	TuyÒn Ch©u	La Sa	190	184
+155	100	TuyÒn Ch©u	V­¬ng NghiÖp VÜ	196	185
+156	100	TuyÒn Ch©u	Tiªu s­	196	189
+157	100	TuyÒn Ch©u	Nha dÞch	188	188
+158	100	TuyÒn Ch©u	Uy NhÜ Tèn	163	183
+159	100	TuyÒn Ch©u	H¹ KiÖt	166	182
+160	100	TuyÒn Ch©u	Chung Phãng	171	188
+161	100	TuyÒn Ch©u	Chñ töu lÇu	182	197
+162	100	TuyÒn Ch©u	B¸ch HiÓu Sinh	176	191
+163	100	TuyÒn Ch©u	Chu B©n Cö	162	185
+164	350	T­¬ng D­¬ng	Chñ TiÖm vò khÝ	178	182
+165	350	T­¬ng D­¬ng	Chñ D­îc ®iÕm	174	185
+166	350	T­¬ng D­¬ng	Chñ T¹p hãa	173	181
+167	350	T­¬ng D­¬ng	Chñ TiÖm Nam phôc	172	180
+168	350	T­¬ng D­¬ng	Chñ TiÖm N÷ phôc	185	184
+169	350	T­¬ng D­¬ng	Chñ Kim hoµn	175	181
+170	350	T­¬ng D­¬ng	Thñ khè (Nam)	173	191
+171	350	T­¬ng D­¬ng	Thñ khè (T©y)	169	179
+172	350	T­¬ng D­¬ng	Thñ khè (B¾c)	191	178
+173	350	T­¬ng D­¬ng	Xa phu	168	189
+174	350	T­¬ng D­¬ng	Xa phu	165	180
+175	350	T­¬ng D­¬ng	Xa phu	190	178
+176	350	T­¬ng D­¬ng	Bé ®Çu	188	187
+177	350	T­¬ng D­¬ng	Tr¸c Thiªn Hµnh	178	188
+178	350	T­¬ng D­¬ng	Chñ l«i ®µi	199	184
+179	350	T­¬ng D­¬ng	Minh Chñ Kim S¬n	179	172
+180	350	T­¬ng D­¬ng	Ch©n Tö §¬n	181	185
+181	350	T­¬ng D­¬ng	ChØ huy sø	192	189
+182	350	T­¬ng D­¬ng	Chñ th­¬ng héi	181	182
+183	350	T­¬ng D­¬ng	Thî rÌn L­u	176	183
+184	350	T­¬ng D­¬ng	M¹c Tam	168	182
+185	350	T­¬ng D­¬ng	Hµnh C­íc Th­¬ng Nh©n	179	186
+186	350	T­¬ng D­¬ng	Sø gi¶ Tµng KiÕm	174	178
+187	350	T­¬ng D­¬ng	Th¸i thó	190	186
+188	350	T­¬ng D­¬ng	Chñ töu lÇu	190	182
+189	350	T­¬ng D­¬ng	Ph­¬ng Khanh	184	192
+190	350	T­¬ng D­¬ng	Vu DÇn	195	186
+191	350	T­¬ng D­¬ng	Tæng binh	190	187
+192	350	T­¬ng D­¬ng	Tr­¬ng ¶nh	183	189
+193	350	T­¬ng D­¬ng	M¹c H÷u Vi	177	193
+194	350	T­¬ng D­¬ng	Tiªu s­	178	191
+195	350	T­¬ng D­¬ng	T­ M· TÊn Nguyªn	180	174
+196	350	T­¬ng D­¬ng	Hµn NghÜa	185	176
+197	350	T­¬ng D­¬ng	Cæ MÆc	185	178
+198	350	T­¬ng D­¬ng	Thiªn Tóc Minh	185	181
+199	350	T­¬ng D­¬ng	Cæ L·o Ta	195	180
+200	350	T­¬ng D­¬ng	Phï Nghi	189	187
+201	150	D­¬ng Ch©u	Chñ TiÖm vò khÝ	212	193
+202	150	D­¬ng Ch©u	Chñ D­îc ®iÕm	209	193
+203	150	D­¬ng Ch©u	Chñ T¹p hãa	206	191
+204	150	D­¬ng Ch©u	Chñ TiÖm Nam phôc	218	197
+205	150	D­¬ng Ch©u	Chñ TiÖm N÷ phôc	219	198
+206	150	D­¬ng Ch©u	Chñ Kim hoµn	212	190
+207	150	D­¬ng Ch©u	Chñ tiÒn trang	210	202
+208	150	D­¬ng Ch©u	Thñ khè (B¾c)	215	191
+209	150	D­¬ng Ch©u	Thñ khè (§«ng)	219	198
+210	150	D­¬ng Ch©u	Thñ khè (T©y)	204	190
+211	150	D­¬ng Ch©u	Thñ khè (Nam)	201	198
+212	150	D­¬ng Ch©u	Xa phu	214	192
+213	150	D­¬ng Ch©u	Xa phu	220	198
+214	150	D­¬ng Ch©u	Xa phu	203	190
+215	150	D­¬ng Ch©u	Xa phu	203	198
+216	150	D­¬ng Ch©u	Chñ th­¬ng héi	204	196
+217	150	D­¬ng Ch©u	Ch©n Tö §¬n	214	196
+218	150	D­¬ng Ch©u	ChØ huy sø	210	197
+219	150	D­¬ng Ch©u	Bé ®Çu	217	197
+220	150	D­¬ng Ch©u	Sø gi¶ Tµng KiÕm	218	195
+221	150	D­¬ng Ch©u	Chñ l«i ®µi	220	195
+222	150	D­¬ng Ch©u	Hµnh C­íc Th­¬ng Nh©n	212	200
+223	150	D­¬ng Ch©u	Lý TiÕn Dòng	220	194
+224	150	D­¬ng Ch©u	H¹ HÇu CÇm	223	196
+225	150	D­¬ng Ch©u	Tr­¬ng B¸ H¸n	213	194
+226	150	D­¬ng Ch©u	Thu Dung	209	189
+227	150	D­¬ng Ch©u	Chñ töu lÇu	207	189
+228	150	D­¬ng Ch©u	H¹ HÇu Anh	201	195
+229	150	D­¬ng Ch©u	H¹ HÇu Liªn	201	195
+230	150	D­¬ng Ch©u	L­u HuyÒn Thanh	197	194
+231	150	D­¬ng Ch©u	M·nh Nham 	196	195
+232	150	D­¬ng Ch©u	Phïng §ång Nhi	208	199
+233	150	D­¬ng Ch©u	TrÇn MÉn	214	201
+234	150	D­¬ng Ch©u	T­ëng Duy	209	202
+235	400	§¹i Lý	Chñ TiÖm vò khÝ	195	187
+236	400	§¹i Lý	Chñ D­îc ®iÕm	190	187
+237	400	§¹i Lý	Chñ T¹p hãa	188	184
+238	400	§¹i Lý	Chñ TiÖm Nam phôc	183	184
+239	400	§¹i Lý	Chñ TiÖm N÷ phôc	187	185
+240	400	§¹i Lý	Chñ Kim hoµn	187	183
+241	400	§¹i Lý	Thñ khè (B¾c)	194	181
+242	400	§¹i Lý	Thñ khè (§«ng)	191	194
+243	400	§¹i Lý	Thñ khè (Nam)	181	191
+244	400	§¹i Lý	Xa phu §¹i Lý (B¾c)	193	180
+245	400	§¹i Lý	Xa phu §¹i Lý (§«ng)	196	194
+246	400	§¹i Lý	Xa phu §¹i Lý (Nam)	183	194
+247	400	§¹i Lý	Chñ th­¬ng héi	185	182
+248	400	§¹i Lý	LÔ quan	188	177
+249	400	§¹i Lý	Chñ töu lÇu	190	180
+250	400	§¹i Lý	Sø gi¶ m«n ph¸i	193	186
+251	400	§¹i Lý	TrÞnh Qu¸n Chi	199	182
+252	400	§¹i Lý	§æng Giµ La	190	177
+253	400	§¹i Lý	TrÇn LËp Hµnh	183	177
+254	400	§¹i Lý	L­u §iÓn	180	188
+255	400	§¹i Lý	Cao Th¨ng TuyÒn	192	190
+256	200	BiÖn Kinh	Long Chu sø gi¶	146	176
+257	300	Thµnh §«	Long Chu sø gi¶	204	220
+258	100	TuyÒn Ch©u	Long Chu sø gi¶	183	174
+259	303	Nga My	Ch©n Nh­ S­ Th¸i (Ch­ëng m«n Nga My)	205	197
+260	303	Nga My	TuÖ T©m s­ th¸i	210	199
+261	303	Nga My	HuÖ ¢m s­ th¸i	202	195
+262	303	Nga My	Nghi Thanh	209	195
+263	303	Nga My	DiÖp Tö Hinh	209	191
+264	303	Nga My	Nghi Hßa	199	201
+265	303	Nga My	Thñ khè	214	197
+266	303	Nga My	L©m UyÓn Y	219	196
+267	303	Nga My	TÇn Phông Dao	219	190
+268	303	Nga My	D­¬ng NguyÖt s­ th¸i	205	193
+269	305	§­êng M«n	§­êng Së Hång	199	176
+270	305	§­êng M«n	§­êng Thiªn TiÕu	195	172
+271	305	§­êng M«n	§­êng Ng¹o	205	172
+272	305	§­êng M«n	§­êng Thiªn H¶i	206	180
+273	305	§­êng M«n	§­êng UyÓn Nhi	194	180
+274	305	§­êng M«n	Thñ khè	202	177
+275	305	§­êng M«n	§­êng Xu©n	208	174
+276	305	§­êng M«n	§­êng V©n	193	174
+277	305	§­êng M«n	§­êng Kþ	202	171
+278	305	§­êng M«n	§éc Si	198	174
+279	312	Vâ §ang	Tö H¹c Ch©n Nh©n (Ch­ëng m«n Vâ §ang)	229	207
+280	312	Vâ §ang	Du ChÊn Sinh	226	204
+281	312	Vâ §ang	§¹i KiÕm Ch©u	237	210
+282	312	Vâ §ang	Tr­¬ng Ngä D­¬ng	238	206
+283	312	Vâ §ang	Yªn Nh­	222	206
+284	312	Vâ §ang	M¹c Thu Phong	218	213
+285	312	Vâ §ang	Thñ khè	231	214
+286	312	Vâ §ang	Minh NguyÖt	218	208
+287	312	Vâ §ang	T¹p Nguyªn ch©n nh©n	231	203
+288	209	C¸i Bang	Long T¹i Thiªn (Bang chñ C¸i Bang)	193	198
+289	209	C¸i Bang	M· TÞnh Sinh	191	197
+290	209	C¸i Bang	Tèng Nguyªn An	195	200
+291	209	C¸i Bang	TrÇn Chung H¹c	190	198
+292	209	C¸i Bang	V­u Tri VÞ	193	201
+293	209	C¸i Bang	Hång ThÊt	190	202
+294	209	C¸i Bang	Thñ khè	196	199
+295	209	C¸i Bang	§Ö tö C¸i Bang	212	194
+296	204	ThiÕu L©m	ThiÕu L©m Ph­¬ng Tr­îng	199	198
+297	204	ThiÕu L©m	HuyÒn Bi	207	200
+298	204	ThiÕu L©m	HuyÒn Hèi	204	202
+299	204	ThiÕu L©m	HuyÒn Khæ	196	195
+300	204	ThiÕu L©m	HuyÒn Minh	192	197
+301	204	ThiÕu L©m	Tæ V¨n §¹t	201	193
+302	204	ThiÕu L©m	TÞnh Viªn	188	203
+303	204	ThiÕu L©m	Thñ khè	195	197
+304	204	ThiÕu L©m	V« Danh T¨ng	209	190
+305	204	ThiÕu L©m	C­u Ma La	196	199
+306	204	ThiÕu L©m	TÞnh Th«ng	210	196
+307	204	ThiÕu L©m	HuyÒn DiÖt T«n Gi¶	216	191
+308	204	ThiÕu L©m	H­¬ng kh¸ch	191	211
+309	204	ThiÕu L©m	Háa C«ng §Çu	177	203
+310	219	D­¬ng M«n	Xa Th¸i Qu©n	191	195
+311	219	D­¬ng M«n	D­¬ng T«n B¶o	194	192
+312	219	D­¬ng M«n	Méc QuÕ Anh	185	198
+313	219	D­¬ng M«n	D­¬ng Bµi Phong	181	194
+314	219	D­¬ng M«n	D­¬ng Hång	204	204
+315	219	D­¬ng M«n	Thñ khè	199	196
+316	219	D­¬ng M«n	D­¬ng Diªn Chiªu	192	183
+317	404	Thóy Yªn	Sµi Hoµng Nhi	196	170
+318	404	Thóy Yªn	Chu Tö V¨n	190	169
+319	404	Thóy Yªn	Hå Man Thµnh	197	173
+320	404	Thóy Yªn	Hßa Hµi	186	171
+321	404	Thóy Yªn	X¶o X¶o	184	177
+322	404	Thóy Yªn	L­u Thanh Mi	192	168
+323	404	Thóy Yªn	Hé MÉn	199	172
+324	407	Ngò §éc	B¹ch Doanh Doanh	201	198
+325	407	Ngò §éc	Ng« Ng«n	199	198
+326	407	Ngò §éc	LiÔu T©n Tróc	200	201
+327	407	Ngò §éc	Th¸i Quang	194	200
+328	407	Ngò §éc	Hïng LËp	193	204
+329	407	Ngò §éc	Ph­¬ng Viªn	193	198
+330	407	Ngò §éc	C©u S¸ch	196	197
+331	407	Ngò §éc	T©y §å	200	204
+332	407	Ngò §éc	Thñ khè	202	202
+333	407	Ngò §éc	V­u Dung	205	201
+334	202	H¹nh Hoa th«n	Vi ¦ng	182	190
+335	202	H¹nh Hoa th«n	Tr­¬ng V©n	177	187
+336	202	H¹nh Hoa th«n	B¸ch Thóy B×nh	175	189
+337	203	T©y BiÖn Kinh	Th­ sinh kú qu¸i	193	197
+338	205	§«ng BiÖn Kinh	Hµ Tó C«	217	177
+339	205	§«ng BiÖn Kinh	Hæ con	216	178
+340	205	§«ng BiÖn Kinh	Th«n tr­ëng	218	179
+341	205	§«ng BiÖn Kinh	Hµ Th¹c Cö	196	185
+342	205	§«ng BiÖn Kinh	NhÞ Hçn	198	202
+343	205	§«ng BiÖn Kinh	L·nh ®¹i phu	231	181
+344	208	L­¬ng S¬n B¹c	Tèng Giang	189	172
+345	218	Linh B¶o s¬n	Th­ §ång	228	217
+346	301	T©y Thµnh §«	Th«n d©n	195	195
+347	304	Nam Thµnh §«	Ph¹m Träng Yªm	162	182
+348	304	Nam Thµnh §«	Chö C¸t Kú	197	197
+349	304	Nam Thµnh §«	Binh sÜ	197	198
+350	304	Nam Thµnh §«	§éi tr­ëng Binh sÜ	197	199
+351	304	Nam Thµnh §«	Binh sÜ	196	199
+352	306	Giang T©n Th«n	Tr­¬ng §×nh	191	167
+353	308	B¾c Thµnh §«	LiÖp Hé	185	184
+354	308	B¾c Thµnh §«	§øa bÐ ®¸ng th­¬ng	175	185
+355	308	B¾c Thµnh §«	Chñ tiÖm nhá	174	201
+356	309	KiÕm C¸c Thôc ®¹o	TrÇn Phi D­¬ng	160	184
+357	310	KiÕm M«n quan	Th¸c B¹t Kú	164	187
+358	311	Phôc Ng­u s¬n	L¹c Ph¸ch S¬n tÆc	169	166
+359	319	Phong Ma ®éng-1	Lam D· Quû	202	180
+360	326	Mé TuyÕt s¬n trang	Kim Phông	187	184
+361	101	H¶i ngo¹i c« ®¶o	ThÕ ngo¹i cao nh©n	197	194
+362	102	§µo Hoa ®¶o	ThuyÒn Phu §µo Hoa ®¶o	182	197
+363	104	§«ng H¶i H¶i T©n 2	ThuyÒn phu H¶i T©n	196	185
+364	106	Long TuyÒn Th«n	H­íng T­ Thanh	168	185
+365	107	Vò Di s¬n	§­êng Ninh	177	184
+366	604	Nh¹n M«n quan	D­¬ng NghiÖp	168	179
+367	604	Nh¹n M«n quan	Tèng qu©n tr­ëng hé vÖ	164	181
+368	601	§¹i Th¶o Nguyªn 1	Thñ vÖ bé l¹c	196	178
+369	602	§¹i Th¶o Nguyªn 2	Nhiªu L©n	197	189
+370	600	Bé l¹c V­¬ng Kú	Môc NghÜa	193	185
+371	600	Bé l¹c V­¬ng Kú	Tiªu Thiªn Hùu	194	179
+372	408	Miªu LÜnh	Miªu LÜnh Thñ lÜnh	162	196
+373	403	T©y Song B¶n N¹p nam	§oµn Tè ThuËn	182	177

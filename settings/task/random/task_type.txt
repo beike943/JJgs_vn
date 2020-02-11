@@ -1,0 +1,5 @@
+TaskType	Rate10	Rate20	Rate30	Rate40	Rate50	Rate60	Rate70	Rate80	Rate90	Rate100
+Lo¹i nhiÖm vô: §èi tho¹i 2 Thu thËp 3 §¸nh qu¸i	QuyÒn h¹n cÊp 10	QuyÒn h¹n cÊp 20	QuyÒn h¹n cÊp 30	QuyÒn h¹n cÊp 40	QuyÒn h¹n cÊp 50	QuyÒn h¹n cÊp 60	QuyÒn h¹n cÊp 70	QuyÒn h¹n cÊp 80	QuyÒn h¹n cÊp 90	QuyÒn h¹n cÊp 100
+1	0	0	0	0	0	0	0	0	0	0
+2	100	100	100	100	100	100	100	100	100	100
+3	50	100	300	500	500	500	600	600	800	800

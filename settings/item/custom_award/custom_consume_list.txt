@@ -1,0 +1,19 @@
+desc	group_id	award_name	award_type	item_g	item_d	item_p	num	runtime_stat_id	script	func
+		NOT NULL	1=OtherGroup				if award_type=OtherGroup is refer group_id	Eg: 2;3		
+			2=Script							
+			3=Item							
+			4=Exp							
+			5=Money							
+			6=ZhenQi							
+			7=JunGong							
+			8=JingLi							
+			9=XiuWei							
+			10=huoban							
+			11=linglizhi							
+			12=ShengWang							
+			13=ShiMenGongXianDu							
+	13	Kinh M¹ch §ång Nh©n	3	2	1	30730	3			
+	14	Kinh M¹ch Ng©n Nh©n	3	2	1	30731	3			
+	15	Kinh M¹ch Kim Nh©n	3	2	1	30732	3			
+csm_1_tianjiaoling	40	Thiªn Kiªu LÖnh	3	2	97	236	1			
+csm_2_tianjiaoling	41	Thiªn Kiªu LÖnh	3	2	97	236	2			

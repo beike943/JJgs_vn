@@ -1,0 +1,270 @@
+ID sù kiÖn	Sù kiÖn theo files gèc	Sù kiÖn theo hµm sè	ID NhiÖm vô	ChØ h­ëng øng mét lÇn	Tæng sè NPC tiªu diÖt	ID khu vùc	ID gèc Npc	N¨ng lùc NPC (Tïy chän 1/Ng­êi ch¬i 0/NPC phæ th«ng 1/Qu¸i xanh 2/BOSS 3)	§¼ng cÊp NPC	ThuyÕt minh
+1	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Thá tr¾ng	1	-1	
+2	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Thá x¸m	1	-1	
+3	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	L­u Manh	1	-1	
+4	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Sãi x¸m	1	-1	
+5	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	C«n ®å	1	-1	
+6	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	ThiÕt Gi¸p	1	-1	
+7	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Sãi xanh	1	-1	
+8	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	TiÓu D· tr­	1	-1	
+9	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Ong vµng	1	-1	
+10	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Minh Th©u	1	-1	
+11	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	B¸ch NhËt TiÔn	1	-1	
+12	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Hñ thi1	1	-1	
+13	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Hæ	1	-1	
+14	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	¸m TÆc	1	-1	
+15	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Th­¬ng Kh¸ch	1	-1	
+16	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	N÷ kiÕm kh¸ch	1	-1
+17	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	M· HÇu	1	-1
+18	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Hñ thi2	1	-1
+19	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	TuyÕt Qu¸i1	1	-1
+20	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Sãi ®iªn	1	-1
+21	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	NhÖn	1	-1
+22	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Nh·n kİnh xµ	1	-1
+23	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Qu¹ §en	1	-1
+24	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Th­¬ng kh¸ch trung cÊp	1	-1
+25	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Thiªn Lı Tiªu	1	-1
+26	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	§ao S¸t	1	-1
+27	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	KiÕm S¸t	1	-1
+28	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Yªu Hå 2	1	-1
+29	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	¢m Hån1	1	-1
+30	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	¢m Hån2	1	-1
+31	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	N÷ HiÖp Kh¸ch	1	-1
+32	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Vâ §¹i Lang-b×nh th­êng	1	-1
+33	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	B¸t Phô Hµ §«ng S­	1	-1
+34	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Méc nh©n	1	-1
+35	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Quan sø	1	-1
+36	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	S¬n tÆc	1	-1
+37	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	KiÕm Cuång	1	-1
+38	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	§ao TuyÖt	1	-1
+39	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	KiÕm TuyÖt	1	-1
+40	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	§ång nh©n	1	-1
+41	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	§ao Kh¸ch	1	-1
+42	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Thİch Kh¸ch1	1	-1
+43	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Thİch Kh¸ch2	1	-1
+44	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	C« L©u ®ao thñ	1	-1
+45	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	C« L©u th­¬ng thñ	1	-1
+46	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	TuyÕt Qu¸i3	1	-1
+47	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	N÷ KiÕm hµo	1	-1
+48	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Du Hån	1	-1
+49	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Oan Hån	1	-1
+50	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	HuyÒn Vâ §ao	1	-1
+51	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	HuyÒn Vâ KiÕm	1	-1
+52	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Hæ Y Nh©n	1	-1
+53	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Bé kho¸i	1	-1
+54	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	MËt th¸m	1	-1
+55	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Hoang m¹c ®ao kh¸ch	1	-1
+56	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	GÊu x¸m	1	-1
+57	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	M·ng KhÊu	1	-1
+58	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	§·ng §ao Kh¸ch	1	-1
+59	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	KiÕm Tµ	1	-1
+60	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Th­¬ng Tµ	1	-1
+61	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Trïng Qu¸i1	1	-1
+62	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	Thô Qu¸i1	1	-1
+63	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	TiÓu Hång ®ao quû	1	-1
+64	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	TiÓu Hång xoa quû	1	-1
+65	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	HuyÒn Vâ Th­ong	1	-1
+66	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Cung LiÖp	1	-1
+67	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	KiÕm Hån	1	-1
+68	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Tèng th­¬ng qu©n	1	-1
+69	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Tèng ®ao binh	1	-1
+70	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Tèng nâ binh	1	-1
+71	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Kim th­¬ng qu©n	1	-1
+72	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Kim ®ao binh	1	-1
+73	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Kim tiÔn binh	1	-1
+74	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	L­u KhÊu	1	-1
+75	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Tµ T¨ng	1	-1
+76	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Vâ sÜ dŞ téc	1	-1
+77	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	TiÔn thñ dŞ téc	1	-1
+78	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	S¸t thñ ngo¹i téc	1	-1
+79	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Cung thñ ngo¹i téc	1	-1
+81	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Trïng Qu¸i2	1	-1
+82	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	Th¹ch Nh©n1	1	-1
+83	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	O¸n Quû	1	-1
+84	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	¸c Quû	1	-1
+85	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Tiªn N÷1	1	-1
+86	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Lam Phi tr¶o quû	1	-1
+87	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	Háa kú l©n1	1	-1
+88	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Hå Ly	1	-1
+89	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Th¶o KhÊu	1	-1
+90	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Cãc1	1	-1
+91	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	C¸ sÊu1	1	-1
+92	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Bß c¹p	1	-1
+93	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Xi Háa §ao Kh¸ch	1	-1
+94	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Ng©n Hå	1	-1
+95	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Th­¬ng Viªn	1	-1
+96	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Th­¬ng Cuång	1	-1
+97	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Xi Háa gi¸o ®å	1	-1
+98	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Ng­ Qu¸i1	1	-1
+99	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Ng­ Qu¸i2 	1	-1
+100	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Oa KhÊu3	1	-1
+101	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Oa KhÊu4	1	-1
+102	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	N÷ Tú Bµ tiªn	1	-1
+103	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	N÷ Tiªu tiªn	1	-1
+104	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	N÷ t¶n tiªn	1	-1
+105	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	N÷ cÇm tiªn	1	-1
+106	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	N÷ §Şch tiªn	1	-1
+107	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	N÷ KiÕm tiªn	1	-1
+108	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	§éc Gi¸p Trïng	1	-1
+109	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	RÕt ®éc	1	-1
+110	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Ong ®éc nhá	1	-1
+111	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Muçi ®éc	1	-1
+112	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Thùc Nh©n Th¶o	1	-1
+113	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	§éc Tİch	1	-1
+114	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Xi Háa H¾c gi¸o ®å	1	-1
+115	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Xi Háa B¹ch gi¸o ®å	1	-1
+116	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Xi Háa Xİch gi¸o ®å	1	-1
+117	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Xi Háa sø gi¶	1	-1
+118	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Xi Háa hé ph¸p	1	-1
+119	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Miªu LÜnh TuÇn Tr¹i	1	-1
+120	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Mao Ng­u	1	-1
+121	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Miªu LÜnh Hé Ên	1	-1
+122	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Miªu LÜnh Phu nh©n	1	-1
+123	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	Miªu LÜnh Thæ ty	1	-1
+124	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	10	-1	H×nh nh©n	1	-1
+125	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	Xi Háa tr­ëng l·o	1	-1
+126	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	Xi Háa ®µn chñ	1	-1
+127	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	H¾c Tinh Tinh	1	-1
+128	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	D· Mao T­îng	1	-1
+129	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	Ph¶n Qu©n tuÇn la	1	-1
+130	\script\task\tasklink\killtrigger.lua	killmonster	-1	1	5	-1	Ph¶n qu©n vÖ binh	1	-1
+131	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	L­u Manh	27	-1
+132	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	C«n ®å	27	-1
+133	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Sãi xanh	27	-1
+134	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	TiÓu D· tr­	27	-1
+135	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Minh Th©u	27	-1
+136	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Hå Ly	27	-1
+137	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Muçi ®éc	27	-1
+138	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Hæ	27	-1
+139	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Xi Háa H¾c gi¸o ®å	27	-1
+140	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	¸m TÆc	27	-1
+141	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Th¶o KhÊu	27	-1
+142	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Phiªn Di §ao Kh¸ch	27	-1
+143	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	LiÖp Hé	27	-1
+144	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Qu¹ §en	27	-1
+145	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Quan sø	27	-1
+146	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	C¸ sÊu1	27	-1
+147	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Miªu LÜnh TuÇn Tr¹i	27	-1
+148	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	§ång nh©n	27	-1
+149	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	§ao Kh¸ch	27	-1
+150	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Ng©n Hå	27	-1
+151	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Kim ®ao binh	27	-1
+152	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	N÷ KiÕm hµo	27	-1
+153	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Bé kho¸i	27	-1
+154	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Th­¬ng Cuång	27	-1
+155	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Xi Háa gi¸o ®å	27	-1
+156	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	HuyÒn Vâ KiÕm	27	-1
+157	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	B¹ch §Çu §iªu	27	-1
+158	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Ng­ Qu¸i1	27	-1
+159	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	M·ng KhÊu	27	-1
+160	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Tö D¹ Hæ	27	-1
+161	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	L­u KhÊu	27	-1
+162	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Vâ sÜ dŞ téc	27	-1
+163	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Oa KhÊu4	27	-1
+164	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Ong ®éc	27	-1
+165	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Kim Gi¸p	27	-1
+166	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	¸c lµ	27	-1
+167	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Tr× §ao Hé VÖ	27	-1
+168	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Oa KhÊu1	27	-1
+169	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	H¾c Tinh Tinh	27	-1
+170	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Tr× M©u Hé VÖ	27	-1
+171	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Xi Háa cao thñ	27	-1
+172	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Ph¶n Qu©n tuÇn la	27	-1
+173	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	D· Mao T­îng	27	-1
+174	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Thiªn TÇm Vâ T¨ng	27	-1
+175	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	N÷ cÇm tiªn	27	-1
+176	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	N÷ t¶n tiªn	27	-1
+177	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Thùc Nh©n Th¶o	27	-1
+178	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Xi Háa Xİch gi¸o ®å	27	-1
+179	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Yªu Hå 2	27	-1
+180	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	§ao TuyÖt	27	-1
+181	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	§éc Tİch	27	-1
+182	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Thİch Kh¸ch2	27	-1
+183	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Miªu LÜnh Hé Ên	27	-1
+184	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Thİch Kh¸ch1	27	-1
+185	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Tµ T¨ng	27	-1
+186	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Thô Qu¸i1	27	-1
+187	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	KiÕm Tµ	27	-1
+188	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	§·ng §ao Kh¸ch	27	-1
+189	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	C¬ quan nh©n2	27	-1
+190	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Th­¬ng Tµ	27	-1
+191	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	GÊu x¸m	27	-1
+192	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	H×nh nh©n	27	-1
+193	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Háa kú l©n1	27	-1
+194	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Tiªn N÷1	27	-1
+195	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Xi Háa tr­ëng l·o	27	-1
+196	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Xi Háa ®µn chñ	27	-1
+197	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	N÷ Tiªu tiªn	27	-1
+198	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Ph¶n qu©n vÖ binh	27	-1
+199	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Thiªn TÇm Ph¸p T¨ng	27	-1
+200	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	N÷ Tú Bµ tiªn	27	-1
+201	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	§µ La Ni T¨ng	27	-1
+202	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	N÷ §Şch tiªn	27	-1
+203	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Oa KhÊu3	27	-1
+204	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Ma Ni T¨ng	27	-1
+205	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	N÷ KiÕm tiªn	27	-1
+206	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Th­¬ng Kh¸ch	27	-1
+207	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	M· HÇu	27	-1
+208	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	§ao S¸t	27	-1
+209	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Miªu téc thiÕu n÷1	27	-1
+210	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	TuyÕt Qu¸i1	27	-1
+211	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Xi Háa B¹ch gi¸o ®å	27	-1
+212	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Vâ §¹i Lang-b×nh th­êng	27	-1
+213	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Méc nh©n	27	-1
+214	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	B¸t Phô Hµ §«ng S­	27	-1
+215	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Cãc1	27	-1
+216	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Bß c¹p	27	-1
+217	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Hæ Y Nh©n	27	-1
+218	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Ng­ Qu¸i2	27	-1
+219	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	S¸t thñ ngo¹i téc	27	-1
+220	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Th¹ch Nh©n1	27	-1
+221	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Th­¬ng kh¸ch trung cÊp	27	-1
+222	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	D¬i hót m¸u	27	-1
+223	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Miªu LÜnh Phu nh©n	27	-1
+224	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Trïng Qu¸i1	27	-1
+225	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	D¬i ®éc	27	-1
+226	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Trïng Qu¸i2	27	-1
+227	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Sãi x¸m	27	-1
+228	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Mé TuyÕt KiÕm Kh¸ch	27	-1
+229	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Lé tÆc	27	-1
+230	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	N÷ HiÖp Kh¸ch	27	-1
+231	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Thiªn ¢m Vâ SÜ	27	-1
+232	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	S¬n tÆc	27	-1
+233	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Xi Háa §ao Kh¸ch	27	-1
+234	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Tèng th­¬ng qu©n	27	-1
+235	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Thiªn Lı Tiªu	27	-1
+236	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Cung LiÖp	27	-1
+237	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Kim tiÔn binh	27	-1
+238	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Miªu LÜnh Thæ ty	27	-1
+239	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Xi Háa sø gi¶	27	-1
+240	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	TiÔn thñ dŞ téc	27	-1
+241	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Cung thñ ngo¹i téc	27	-1
+242	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Xi Háa hé ph¸p	27	-1
+243	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Ong vµng	27	-1
+244	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Mé TuyÕt Th­¬ng Kh¸ch	27	-1
+245	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Mao Ng­u	27	-1
+246	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	KiÕm TuyÖt	27	-1
+247	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Hoang m¹c ®ao kh¸ch	27	-1
+248	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	§«ng H¶i Thñy Téc	27	-1
+249	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Thiªn ¢m TiÔn Thñ	27	-1
+250	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	TuyÕt Qu¸i3	27	-1
+251	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	ThiÕt Gi¸p	27	-1
+252	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	§éc Gi¸p Trïng	27	-1
+253	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Hñ thi1	27	-1
+254	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Hñ thi2	27	-1
+255	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	C« L©u ®ao thñ	27	-1
+256	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	C« L©u th­¬ng thñ	27	-1
+257	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Tèng ®ao binh	27	-1
+258	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Du Hån	27	-1
+259	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Oan Hån	27	-1
+260	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Th­¬ng Viªn	27	-1
+261	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	TiÓu Hång ®ao quû	27	-1
+262	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	TiÓu Hång xoa quû	27	-1
+263	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	KiÕm Hån	27	-1
+264	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Gia ®inh	27	-1
+265	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Lam Phi tr¶o quû	27	-1
+266	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	O¸n Quû	27	-1
+267	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	¸c Quû	27	-1
+268	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Kim th­¬ng qu©n	27	-1
+269	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Lam TiÓu ®ao quû	27	-1
+270	\script\task\tasklink\killtrigger.lua	killmonster1	-1	1	1	-1	Lam TiÓu xoa quû	27	-1

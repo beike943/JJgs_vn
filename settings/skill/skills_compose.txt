@@ -1,0 +1,11 @@
+ID	Name	Belong	Icon	Desc	LevelExp	BGM
+1	Kü nghÖ gia truyÒn	1	\UImage\lifeskillicon\sortbig\½­ºş¼¼ÒÕ.spr	Cã thÓ chÕ t¹o mét sè vËt phÈm dïng t¹m.	\settings\skill\skills_compose_exp.txt	\sound\lifeskill\Åëâ¿.wav
+2	ChÕ t¹o binh khİ dµi	3	\UImage\lifeskillicon\sortbig\³¤±øÆ÷¶ÍÔì.spr	Cã thÓ chÕ t¹o c¸c vò khİ nh­: C«n, th­¬ng, tr­îng.	\settings\skill\skills_compose_exp.txt	\sound\lifeskill\±øÆ÷¶ÍÔì.wav
+3	ChÕ t¹o binh khİ ng¾n	3	\UImage\lifeskillicon\sortbig\¶Ì±øÆ÷¶ÍÔì.spr	Cã thÓ chÕ t¹o c¸c vò khİ nh­: KiÕm, ®ao, hé thñ.	\settings\skill\skills_compose_exp.txt	\sound\lifeskill\±øÆ÷¶ÍÔì.wav
+4	ChÕ t¹o kú m«n binh khİ	3	\UImage\lifeskillicon\sortbig\ÆæÃÅ±øÆ÷¶ÍÔì.spr	Cã thÓ chÕ t¹o c¸c vò khİ nh­: §µn, bót, ¸m khİ.	\settings\skill\skills_compose_exp.txt	\sound\lifeskill\±øÆ÷¶ÍÔì.wav
+5	Lµm hé gi¸p	3	\UImage\lifeskillicon\sortbig\»¤¼×Ö¯Ôì.spr	Cã thÓ chÕ t¹o c¸c lo¹i y phôc phßng thñ.	\settings\skill\skills_compose_exp.txt	\sound\lifeskill\ÖÆÒÂ.wav
+6	ChÕ thuèc	3	\UImage\lifeskillicon\sortbig\Á¶µ¤.spr	Cã thÓ chÕ t¹o c¸c lo¹i ®¬n d­îc.	\settings\skill\skills_compose_exp.txt	\sound\lifeskill\ÖÆÒ©.wav
+7	NÊu n­íng	3	\UImage\lifeskillicon\sortbig\Åëâ¿.spr	Cã thÓ lµm c¸c mãn cao l­¬ng mÜ vŞ.	\settings\skill\skills_compose_exp.txt	\sound\lifeskill\Åëâ¿.wav
+8	ChÕ phï	3	\UImage\lifeskillicon\sortbig\ÖÆ·û.spr	Cã thÓ chÕ t¹o c¸c lo¹i Håi phï, TruyÒn tèng phï vµ Gi¸m ®Şnh phï.	\settings\skill\skills_zhifu_compose_exp.txt	\sound\lifeskill\ÖÆ·û.wav
+9	H¹ trang	3	\UImage\lifeskillicon\sortbig\ÖÆ¿ã.spr	Mét trong nh÷ng kü n¨ng s¶n xuÊt, cã thÓ s¶n xuÊt c¸c lo¹i h¹ y	\settings\skill\skills_compose_exp.txt	\sound\lifeskill\±øÆ÷¶ÍÔì.wav
+10	§Çu qu¸n	3	\UImage\lifeskillicon\sortbig\ÖÆÃ±.spr	Mét trong nh÷ng kü n¨ng s¶n xuÊt, cã thÓ s¶n xuÊt c¸c lo¹i nãn	\settings\skill\skills_compose_exp.txt	\sound\lifeskill\±øÆ÷¶ÍÔì.wav

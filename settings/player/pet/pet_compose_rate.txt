@@ -1,0 +1,21 @@
+TotalLevel	Lv1Rate	Lv2Rate	Lv3Rate	Lv4Rate	Lv5Rate	Lv6Rate	Lv7Rate	Lv8Rate	Lv9Rate	Lv10Rate
+	10000based	10000based	10000based	10000based	10000based	10000based	10000based	10000based	10000based	10000based
+2	7000	3000								
+3	5000	5000								
+4		9000	1000							
+5		7000	3000							
+6			9000	1000						
+7			8000	2000						
+8				9000	1000					
+9				8500	1500					
+10				7000	3000					
+11	10000									
+12	10000									
+13	10000									
+14	10000									
+15	10000									
+16	10000									
+17	10000									
+18	10000									
+19	10000									
+20	10000									

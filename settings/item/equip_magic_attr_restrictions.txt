@@ -1,0 +1,8 @@
+attrstring	situation
+state_life_percent_per10s_anytime	1
+state_neili_percent_per10s_anytime	1
+state_life_percent_per10s_anytime	2
+state_neili_percent_per10s_anytime	2
+state_diffuse_skill_effect	2
+state_life_per_per8f	1
+

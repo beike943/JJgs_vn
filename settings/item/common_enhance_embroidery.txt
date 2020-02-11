@@ -1,0 +1,4 @@
+EnhanceID	SuccessRate	Item_Count	Item_GDP	Stuff_1_Need	Stuff_1_Count	Stuff_1_GDP	SampleItem_1	StuffName_1
+1	100	1	0;108;-1	1	1	0;148;-1		Hoa v¨n-®Çu
+2	100	1	0;109;-1	1	1	0;149;-1		Hoa v¨n-y
+3	100	1	0;110;-1	1	1	0;150;-1		Hoa v¨n- trang

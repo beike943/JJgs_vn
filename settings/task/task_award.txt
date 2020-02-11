@@ -1,0 +1,72 @@
+TaskName	AwardType	Genre	Detail	Particular	GoodsNum	MoneyNum	ExpNum	ReputeNum	TaskString	AwardText
+NhiÖm vô 1 Cæ MÆc_T­¬ng D­¬ng	Ng©n l­îng					200				200 ®ång
+NhiÖm vô 1 Cæ MÆc_T­¬ng D­¬ng	Kinh nghiÖm						200			200 ®iÓm kinh nghiÖm
+NhiÖm vô 1 Cæ MÆc_T­¬ng D­¬ng	Danh väng							20		20 ®iÓm danh väng
+NhiÖm vô 1 Cæ MÆc_T­¬ng D­¬ng	B¾t ®Çu nhiÖm vô								NhiÖm vô 2 Cæ MÆc_T­¬ng D­¬ng	
+NhiÖm vô 2 Cæ MÆc_T­¬ng D­¬ng	Ng©n l­îng					100				100 tiÒn ®ång
+NhiÖm vô 2 Cæ MÆc_T­¬ng D­¬ng	Danh väng							10		10 ®iÓm danh väng
+NhiÖm vô 1 Hµn tæng qu¶n_T­¬ng D­¬ng	Ng©n l­îng									800 tiÒn ®ång
+NhiÖm vô 1 Hµn tæng qu¶n_T­¬ng D­¬ng	Danh väng									30 ®iÓm danh väng
+NhiÖm vô 2 Hµn tæng qu¶n_T­¬ng D­¬ng	Ng©n l­îng					100				
+T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_§èi tho¹i víi Xa phu	Kinh nghiÖm						50			
+T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_§èi tho¹i víi Xa phu	B¾t ®Çu nhiÖm vô								T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_Hái Th¸i Thó thñ lÖnh	
+T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_Hái Th¸i Thó thñ lÖnh	Kinh nghiÖm						50			
+T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_Hái Th¸i Thó thñ lÖnh	B¾t ®Çu nhiÖm vô								T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_§­a Th¸i Thó ng©n l­îng	
+T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_§­a Th¸i Thó ng©n l­îng	Kinh nghiÖm						50			
+T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_§­a Th¸i Thó ng©n l­îng	B¾t ®Çu nhiÖm vô								T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_B¸o tin Xa phu	
+T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_B¸o tin Xa phu	Kinh nghiÖm						50		
+T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_B¸o tin Xa phu	B¾t ®Çu nhiÖm vô								T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_B¸o tin Chñ TiÖm N÷ phôc
+T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_B¸o tin Chñ TiÖm N÷ phôc	Kinh nghiÖm						200		
+T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_B¸o tin Chñ TiÖm N÷ phôc	Ng©n l­îng					800			
+T­¬ng D­¬ng_Chñ TiÖm N÷ phôc_B¸o tin Chñ TiÖm N÷ phôc	Danh väng							15	
+T­¬ng D­¬ng_§ao cña Tiªu s­_§èi tho¹i víi chñ tiÖm vò khÝ	Kinh nghiÖm						50		
+T­¬ng D­¬ng_§ao cña Tiªu s­_§èi tho¹i víi chñ tiÖm vò khÝ	B¾t ®Çu nhiÖm vô								T­¬ng D­¬ng_§ao cña Tiªu s­_T×m nanh heo rõng
+T­¬ng D­¬ng_§ao cña Tiªu s­_T×m nanh heo rõng	Kinh nghiÖm						50		
+T­¬ng D­¬ng_§ao cña Tiªu s­_T×m nanh heo rõng	B¾t ®Çu nhiÖm vô								T­¬ng D­¬ng_§ao cña Tiªu s­_B¸o tin Tiªu s­
+T­¬ng D­¬ng_§ao cña Tiªu s­_B¸o tin Tiªu s­	Kinh nghiÖm						350		
+T­¬ng D­¬ng_§ao cña Tiªu s­_B¸o tin Tiªu s­	Danh väng							20	
+T­¬ng D­¬ng_§ao cña Tiªu s­_B¸o tin Tiªu s­	Ng©n l­îng					800			
+BiÖn Kinh §«ng tr­ëng th«n 1	Ng©n l­îng					193			
+BiÖn Kinh §«ng tr­ëng th«n 1	Kinh nghiÖm						300		
+BiÖn Kinh §«ng tr­ëng th«n 1	Danh väng							5	
+BiÖn Kinh §«ng tr­ëng th«n 1	VËt phÈm	2	0	18	1				
+BiÖn Kinh §«ng Th­ sinh 2	Ng©n l­îng					100		
+BiÖn Kinh §«ng Th­ sinh 2	Kinh nghiÖm						150	
+BiÖn Kinh §«ng Th­ sinh 3	Ng©n l­îng					193		
+BiÖn Kinh §«ng Th­ sinh 3	Kinh nghiÖm						300	
+BiÖn Kinh §«ng Th­ sinh 4	Ng©n l­îng					250		
+BiÖn Kinh §«ng Th­ sinh 4	Kinh nghiÖm						400	
+BiÖn Kinh §«ng Th­ sinh 4	Danh väng							5
+BiÖn Kinh §«ng Th­ sinh 4	VËt phÈm	2	0	22	1			
+BiÖn Kinh D­îc DÉn 2	VËt phÈm	2	0	30	1			
+BiÖn Kinh D­îc DÉn 3	Ng©n l­îng					195		
+BiÖn Kinh D­îc DÉn 3	Kinh nghiÖm						300	
+BiÖn Kinh D­îc DÉn 3	Danh väng							5
+BiÖn Kinh D­îc DÉn 3	VËt phÈm	2	0	23	1			
+Thêi Thiªn T­¬ng D­¬ng (1 )	Ng©n l­îng					300		
+Thêi Thiªn T­¬ng D­¬ng (1 )	Kinh nghiÖm						500	
+Thêi Thiªn T­¬ng D­¬ng (1 )	Danh väng							5
+Thêi Thiªn T­¬ng D­¬ng (2 )	Ng©n l­îng					450		
+Thêi Thiªn T­¬ng D­¬ng (2 )	Kinh nghiÖm						700	
+Thêi Thiªn T­¬ng D­¬ng (2 )	Danh väng							5
+Thêi Thiªn T­¬ng D­¬ng (3 )	Ng©n l­îng					600		
+Thêi Thiªn T­¬ng D­¬ng (3 )	Kinh nghiÖm						1000	
+Thêi Thiªn T­¬ng D­¬ng (3 )	Danh väng							5
+Vâ Tßng_NhÞ Long s¬n	Ng©n l­îng					300		
+Vâ Tßng_NhÞ Long s¬n	Kinh nghiÖm						500	
+Vâ Tßng_NhÞ Long s¬n	Danh väng							10
+Tèng Giang_Thñy B¹c (1)	Ng©n l­îng					300		
+Tèng Giang_Thñy B¹c (1)	Kinh nghiÖm						500	
+Tèng Giang_Thñy B¹c (1)	Danh väng							10
+Tèng Giang_Thñy B¹c (2)	Ng©n l­îng					300		
+Tèng Giang_Thñy B¹c (2)	Kinh nghiÖm						500	
+Tèng Giang_Thñy B¹c (2)	Danh väng							10
+S¬n tr¹i Long T¹i Thiªn	Ng©n l­îng					300		
+S¬n tr¹i Long T¹i Thiªn	Kinh nghiÖm						500	
+S¬n tr¹i Long T¹i Thiªn	Danh väng							10
+Tèng Giang_Thñy B¹c (3)	Ng©n l­îng					300		
+Tèng Giang_Thñy B¹c (3)	Kinh nghiÖm						500	
+Tèng Giang_Thñy B¹c (3)	Danh väng							10
+Tèng Giang_Thñy B¹c (4)	Ng©n l­îng					300		
+Tèng Giang_Thñy B¹c (4)	Kinh nghiÖm						500	
+Tèng Giang_Thñy B¹c (4)	Danh väng							10

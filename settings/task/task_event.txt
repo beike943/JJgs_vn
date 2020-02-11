@@ -1,0 +1,4 @@
+EventID	CanShare	EventText
+3	1	Hµng hãa cña Chñ TiÖm N÷ phôc T­¬ng D­¬ng
+4	1	B¶o ®ao Tiªu s­ T­¬ng D­¬ng
+5	1	Lôc L©m h¶o h¸n

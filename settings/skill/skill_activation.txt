@@ -1,0 +1,105 @@
+Initiative	ConditionSkillID_1	ConditionSkillLevel_1	ConditionRemove_1	ConditionSkillID_2	ConditionSkillLevel_2	ConditionRemove_2	ConditionSkillID_3	ConditionSkillLevel_3	ConditionRemove_3	TriggerSkillID_1	TriggerSkillLevel_1	TriggerRemove_1	TriggerSkillID_2	TriggerSkillLevel_2	TriggerRemove_2	MagicAttrib_1	MagicValue_1	MagicTime_1	MagicAttrib_2	MagicValue_2	MagicTime_2	MagicTarget
+1	354	7	1	356	7	0	360	7	0	363	1	0				state_sleep		18				0
+1	356	7	1	360	7	0	358	7	0	363	1	0				state_lock		18				0
+1	360	7	1	358	7	0	354	7	0	363	1	0				state_fetter		18				0
+1	358	7	1	354	7	0	356	7	0	363	1	0				state_confusion		18				0
+1	354	7	1	356	7	0	360	7	0	363	2	0				state_sleep		18				0
+1	356	7	1	360	7	0	358	7	0	363	2	0				state_lock		18				0
+1	360	7	1	358	7	0	354	7	0	363	2	0				state_fetter		18				0
+1	358	7	1	354	7	0	356	7	0	363	2	0				state_confusion		18				0
+1	354	7	1	356	7	0	360	7	0	363	3	0				state_sleep		18				0
+1	356	7	1	360	7	0	358	7	0	363	3	0				state_lock		18				0
+1	360	7	1	358	7	0	354	7	0	363	3	0				state_fetter		18				0
+1	358	7	1	354	7	0	356	7	0	363	3	0				state_confusion		18				0
+1	354	7	1	356	7	0	360	7	0	363	4	0				state_sleep		36				0
+1	356	7	1	360	7	0	358	7	0	363	4	0				state_lock		36				0
+1	360	7	1	358	7	0	354	7	0	363	4	0				state_fetter		36				0
+1	358	7	1	354	7	0	356	7	0	363	4	0				state_confusion		36				0
+1	354	7	1	356	7	0	360	7	0	363	5	0				state_sleep		36				0
+1	356	7	1	360	7	0	358	7	0	363	5	0				state_lock		36				0
+1	360	7	1	358	7	0	354	7	0	363	5	0				state_fetter		36				0
+1	358	7	1	354	7	0	356	7	0	363	5	0				state_confusion		36				0
+1	354	7	1	356	7	0	360	7	0	363	6	0				state_sleep		54				0
+1	356	7	1	360	7	0	358	7	0	363	6	0				state_lock		54				0
+1	360	7	1	358	7	0	354	7	0	363	6	0				state_fetter		54				0
+1	358	7	1	354	7	0	356	7	0	363	6	0				state_confusion		54				0
+1	354	7	1	356	7	0	360	7	0	363	7	0				state_sleep		90				0
+1	356	7	1	360	7	0	358	7	0	363	7	0				state_lock		90				0
+1	360	7	1	358	7	0	354	7	0	363	7	0				state_fetter		90				0
+1	358	7	1	354	7	0	356	7	0	363	7	0				state_confusion		90				0
+0	354	7	1	356	7	0	360	7	0	357	7	1	436	10	1	state_physical_damage_absorb	3000	270	state_magic_damage_absorb	3000	270	1
+0	356	7	1	360	7	0	358	7	0	357	7	1	436	10	1	state_physical_damage_absorb	3000	270	state_magic_damage_absorb	3000	270	1
+0	360	7	1	358	7	0	354	7	0	357	7	1	436	10	1	state_physical_damage_absorb	3000	270	state_magic_damage_absorb	3000	270	1
+0	358	7	1	354	7	0	356	7	0	357	7	1	436	10	1	state_physical_damage_absorb	3000	270	state_magic_damage_absorb	3000	270	1
+0	354	7	1	356	7	0	360	7	0	359	7	1	436	10	1	state_buff_resist	999	270	state_knockback_when_lose_hp	589839	270	1
+0	356	7	1	360	7	0	358	7	0	359	7	1	436	10	1	state_buff_resist	999	270	state_knockback_when_lose_hp	589839	270	1
+0	360	7	1	358	7	0	354	7	0	359	7	1	436	10	1	state_buff_resist	999	270	state_knockback_when_lose_hp	589839	270	1
+0	358	7	1	354	7	0	356	7	0	359	7	1	436	10	1	state_buff_resist	999	270	state_knockback_when_lose_hp	589839	270	1
+0	354	7	1	356	7	0	360	7	0	362	7	1	436	10	1	state_burst_enhance_rate	100	270	state_move_speed_percent_add	50	270	1
+0	356	7	1	360	7	0	358	7	0	362	7	1	436	10	1	state_burst_enhance_rate	100	270	state_move_speed_percent_add	50	270	1
+0	360	7	1	358	7	0	354	7	0	362	7	1	436	10	1	state_burst_enhance_rate	100	270	state_move_speed_percent_add	50	270	1
+0	358	7	1	354	7	0	356	7	0	362	7	1	436	10	1	state_burst_enhance_rate	100	270	state_move_speed_percent_add	50	270	1
+0	354	7	1	356	7	0	360	7	0	357	7	1				state_physical_parmor_per_add	20	270	state_magic_parmor_per_add	20	270	1
+0	356	7	1	360	7	0	358	7	0	357	7	1				state_physical_parmor_per_add	20	270	state_magic_parmor_per_add	20	270	1
+0	360	7	1	358	7	0	354	7	0	357	7	1				state_physical_parmor_per_add	20	270	state_magic_parmor_per_add	20	270	1
+0	358	7	1	354	7	0	356	7	0	357	7	1				state_physical_parmor_per_add	20	270	state_magic_parmor_per_add	20	270	1
+0	354	7	1	356	7	0	360	7	0	359	7	1				state_interval_ignore	40	180				1
+0	356	7	1	360	7	0	358	7	0	359	7	1				state_interval_ignore	40	180				1
+0	360	7	1	358	7	0	354	7	0	359	7	1				state_interval_ignore	40	180				1
+0	358	7	1	354	7	0	356	7	0	359	7	1				state_interval_ignore	40	180				1
+0	354	7	1	356	7	0	360	7	0	362	7	1				state_move_speed_percent_add	40	180				1
+0	356	7	1	360	7	0	358	7	0	362	7	1				state_move_speed_percent_add	40	180				1
+0	360	7	1	358	7	0	354	7	0	362	7	1				state_move_speed_percent_add	40	180				1
+0	358	7	1	354	7	0	356	7	0	362	7	1				state_move_speed_percent_add	40	180				1
+1	354	7	0	356	7	1				363	1	0				state_slow	30	90				0
+1	356	7	0	360	7	1				363	1	0				state_skill_cast_interval_add	20	72				0
+1	360	7	0	358	7	1				363	1	0				state_burst_dec_rate	20	90				0
+1	358	7	0	354	7	1				363	1	0				state_p_attack_percent_dec	20	90	state_m_attack_percent_dec	20	90	0
+1	354	7	0	356	7	1				363	2	0				state_slow	30	108				0
+1	356	7	0	360	7	1				363	2	0				state_skill_cast_interval_add	20	90				0
+1	360	7	0	358	7	1				363	2	0				state_burst_dec_rate	20	108				0
+1	358	7	0	354	7	1				363	2	0				state_p_attack_percent_dec	20	108	state_m_attack_percent_dec	20	108	0
+1	354	7	0	356	7	1				363	3	0				state_slow	30	126				0
+1	356	7	0	360	7	1				363	3	0				state_skill_cast_interval_add	30	72				0
+1	360	7	0	358	7	1				363	3	0				state_burst_dec_rate	20	126				0
+1	358	7	0	354	7	1				363	3	0				state_p_attack_percent_dec	20	126	state_m_attack_percent_dec	20	126	0
+1	354	7	0	356	7	1				363	4	0				state_slow	30	144				0
+1	356	7	0	360	7	1				363	4	0				state_skill_cast_interval_add	30	90				0
+1	360	7	0	358	7	1				363	4	0				state_burst_dec_rate	20	144				0
+1	358	7	0	354	7	1				363	4	0				state_p_attack_percent_dec	20	144	state_m_attack_percent_dec	20	144	0
+1	354	7	0	356	7	1				363	5	0				state_slow	30	162				0
+1	356	7	0	360	7	1				363	5	0				state_skill_cast_interval_add	40	90				0
+1	360	7	0	358	7	1				363	5	0				state_burst_dec_rate	20	162				0
+1	358	7	0	354	7	1				363	5	0				state_p_attack_percent_dec	20	162	state_m_attack_percent_dec	20	162	0
+1	354	7	0	356	7	1				363	6	0				state_slow	35	180				0
+1	356	7	0	360	7	1				363	6	0				state_skill_cast_interval_add	45	90				0
+1	360	7	0	358	7	1				363	6	0				state_burst_dec_rate	25	180				0
+1	358	7	0	354	7	1				363	6	0				state_p_attack_percent_dec	25	180	state_m_attack_percent_dec	25	180	0
+1	354	7	0	356	7	1				363	7	0				state_slow	40	180				0
+1	356	7	0	360	7	1				363	7	0				state_skill_cast_interval_add	50	90				0
+1	360	7	0	358	7	1				363	7	0				state_burst_dec_rate	30	180				0
+1	358	7	0	354	7	1				363	7	0				state_p_attack_percent_dec	30	180	state_m_attack_percent_dec	30	180	0
+0	354	7	0	356	7	1				357	7	1	436	10	1	state_physical_damage_absorb	1500	270	state_magic_damage_absorb	1500	270	1
+0	356	7	0	360	7	1				357	7	1	436	10	1	state_physical_damage_absorb	1500	270	state_magic_damage_absorb	1500	270	1
+0	360	7	0	358	7	1				357	7	1	436	10	1	state_physical_damage_absorb	1500	270	state_magic_damage_absorb	1500	270	1
+0	358	7	0	354	7	1				357	7	1	436	10	1	state_physical_damage_absorb	1500	270	state_magic_damage_absorb	1500	270	1
+0	354	7	0	356	7	1				359	7	1	436	10	1	state_buff_resist	999	180				1
+0	356	7	0	360	7	1				359	7	1	436	10	1	state_buff_resist	999	180				1
+0	360	7	0	358	7	1				359	7	1	436	10	1	state_buff_resist	999	180				1
+0	358	7	0	354	7	1				359	7	1	436	10	1	state_buff_resist	999	180				1
+0	354	7	0	356	7	1				362	7	1	436	10	1	state_burst_enhance_rate	50	270				1
+0	356	7	0	360	7	1				362	7	1	436	10	1	state_burst_enhance_rate	50	270				1
+0	360	7	0	358	7	1				362	7	1	436	10	1	state_burst_enhance_rate	50	270				1
+0	358	7	0	354	7	1				362	7	1	436	10	1	state_burst_enhance_rate	50	270				1
+0	354	7	0	356	7	1				357	7	1				state_physical_parmor_per_add	15	180	state_magic_parmor_per_add	15	180	1
+0	356	7	0	360	7	1				357	7	1				state_physical_parmor_per_add	15	180	state_magic_parmor_per_add	15	180	1
+0	360	7	0	358	7	1				357	7	1				state_physical_parmor_per_add	15	180	state_magic_parmor_per_add	15	180	1
+0	358	7	0	354	7	1				357	7	1				state_physical_parmor_per_add	15	180	state_magic_parmor_per_add	15	180	1
+0	354	7	0	356	7	1				359	7	1				state_interval_ignore	25	180				1
+0	356	7	0	360	7	1				359	7	1				state_interval_ignore	25	180				1
+0	360	7	0	358	7	1				359	7	1				state_interval_ignore	25	180				1
+0	358	7	0	354	7	1				359	7	1				state_interval_ignore	25	180				1
+0	354	7	0	356	7	1				362	7	1				state_move_speed_percent_add	30	180				1
+0	356	7	0	360	7	1				362	7	1				state_move_speed_percent_add	30	180				1
+0	360	7	0	358	7	1				362	7	1				state_move_speed_percent_add	30	180				1
+0	358	7	0	354	7	1				362	7	1				state_move_speed_percent_add	30	180				1

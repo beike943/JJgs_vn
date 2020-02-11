@@ -1,0 +1,26 @@
+Index	Level	TaskID	TaskValue	TaskInfo
+H­íng dÉn	§¼ng cÊp	Sè hiÖu thay ®æi nhiÖm vô	Gi¸ trŞ thay ®æi nhiÖm vô	ThuyÕt minh nhiÖm vô
+1	2	1503	0	<color=yellow>Thõa t­íng TriÖu Phæ ë BiÖn Kinh (175.166)<color> d­êng nh­ cã viÖc ­u phiÒn, h·y ®Õn ®ã 1 chuyÕn.
+2	2	1503	5	TriÖu thõa t­íng ch¼ng ph¶i nhê ng­¬i b¸o cho <color=yellow>VÖ Binh thµnh m«n<color> treo chiÕu th­ Th¸i Tæ b¨ng hµ, t©n ®Õ ®¨ng c¬ ®ã sao?
+3	2	1503	10	VÖ Binh ®· treo chiÕu th­, b»ng h÷u mau vÒ gÆp <color=yellow>Thõa t­íng TriÖu Phæ (175.166)<color>.
+4	2	1506	0	<color=yellow>Chu ThiÖn Nh©n ë Thµnh §« (245.221)<color> d­êng nh­ cã viÖc ­u phiÒn, h·y ®Õn ®ã 1 chuyÕn.
+5	2	1506	5	B»ng h÷u kh«ng ph¶i nhËn lêi víi Chu ThiÖn Nh©n, ®i th«ng b¸o cho N¹n d©n Gi¸p (228.227), N¹n d©n Êt (206.226), N¹n d©n Bİnh (208.218), N¹n d©n §inh (233.214) ®ã sao?
+6	2	1506	9	B»ng h÷u ®· th«ng b¸o xong, h·y mau vÒ gÆp <color=yellow>Chu ThiÖn Nh©n (245.221)<color>.
+7	5	1507	0	<color=yellow>N«ng phu A ThŞnh ë Thµnh §« (245.221)<color> d­êng nh­ cã viÖc ­u phiÒn, h·y ®Õn ®ã 1 chuyÕn.
+8	5	1507	5	B»ng h÷u kh«ng ph¶i høa gióp <color=yellow>N«ng phu A ThŞnh (245.221)<color> trõng trŞ Thá x¸m trong v­ên rau ngoµi thµnh, mang <color=yellow>10 ®u«i thá<color> vÒ lµm b»ng chøng ®ã sao?
+9	8	1504	0	<color=yellow>VÖ Binh BiÖn Kinh<color> d­êng nh­ cã viÖc ­u phiÒn, h·y ®Õn ®ã 1 chuyÕn.
+10	8	1504	5	B»ng h÷u kh«ng ph¶i høa gióp VÖ Binh thµnh m«n trõng trŞ bän C«n ®å ngoµi thµnh, vµ ®o¹t l¹i <color=yellow>10 ®«i Tó Hoa Hµi<color> ®ã sao?
+11	20	1510	0	<color=yellow>Tr­¬ng ¶nh ë T­¬ng D­¬ng (183.190)<color>d­êng nh­ cã viÖc ­u phiÒn, h·y ®Õn ®ã 1 chuyÕn.
+12	20	1510	5	B»ng h÷u kh«ng ph¶i høa gióp <color=yellow>Tr­¬ng ¶nh (183.190)<color> ®Õn nói Vâ §ang t×m bao ®ao vµ ThiÕt th­¬ng ®Çu mçi thø 10 c¸i ®ã sao? (tõ §ao HiÖp vµ KiÕm Kh¸ch)
+13	23	1511	0	<color=yellow>M¹c H÷u Vi ë T­¬ng D­¬ng (178.194)<color> d­êng nh­ cã viÖc ­u phiÒn, h·y ®Õn ®ã 1 chuyÕn.
+14	23	1511	5	B»ng h÷u kh«ng ph¶i høa gióp <color=yellow>M¹c H÷u Vi (178.194)<color> thu thËp <color=yellow>10 hæ vÜ<color> ®Ó trŞ bÖnh cho cha ®ã sao? (®¸nh hæ d÷ trªn ThiÕu L©m vµ Linh B¶o S¬n)
+15	30	1512	0	<color=yellow>Vu DÇn ë T­¬ng D­¬ng (196.186)<color>d­êng nh­ cã viÖc ­u phiÒn, h·y ®Õn ®ã 1 chuyÕn.
+16	30	1512	5	B»ng h÷u kh«ng ph¶i høa gióp <color=yellow>Vu DÇn (196.186)<color> t×m 15 c¸i méc thñ ®ã sao? (®¸nh méc nh©n ë tÇng 1 ThiÕu L©m mËt thÊt)
+17	35	1512	10	<color=yellow>Vu DÇn (196.186)<color> d­êng nh­ cã viÖc ­u phiÒn, h·y ®Õn ®ã 1 chuyÕn.
+18	35	1512	15	B»ng h÷u kh«ng ph¶i høa gióp <color=yellow>Vu DÇn (196.186)<color> t×m 15 tiÒn ®ång ®ã sao? (®¸nh ®ång nh©n ë tÇng 2 ThiÕu L©m mËt thÊt)
+19	50	149	0	<color=yellow>ViÔn Tinh ë B¾c TuyÒn Ch©u (198.199)<color> d­êng nh­ cã viÖc ­u phiÒn, h·y ®Õn ®ã 1 chuyÕn.
+20	50	149	1	B»ng h÷u kh«ng ph¶i ®Õn §«ng H¶i H¶i T©n tiªu diÖt <color=yellow>Ng­ qu¸i ®Çu môc (208.216)<color> b¸o thï cho chång <color=yellow>ViÔn Tinh<color> ®ã sao?
+21	50	149	2	§· ®¸nh b¹i Ng­ qu¸i ®Çu môc, h·y mau vÒ gÆp <color=yellow>ViÔn Tinh (198.199)<color>.
+22	50	149	3	§Ó t×m hiÓu ng­ qu¸i, B»ng h÷u kh«ng ph¶i ®Õn D­¬ng Ch©u gÆp <color=yellow>Lı TiÕn Dòng (220.194)<color> ®ã sao?
+23	50	149	4	§Ó gióp Lı TiÕn Dòng t×m ra ch©n t­íng cña Ng­ qu¸i, b»ng h÷u h·y t×m <color=yellow>¸o, quÇn mçi thø 5 c¸i<color> (®¸nh §«ng h¶i thñy téc vµ §«ng h¶i Thñy téc Binh sÜ)
+24	50	149	5	Th× ra Ng­ qu¸i lµ do d©n th«n biÕn thµnh, rèt cuéc cã cÇn ®Õn B¾c TuyÒn Ch©u th«ng b¸o cho <color=yellow>ViÔn Tinh<color> biÕt kh«ng? B»ng h÷u h·y tù quyÕt ®Şnh.

@@ -1,0 +1,6 @@
+MaterialMain	MaterialSub1	MaterialSub2	Cost	FailureLostChance	AddChancePerUnit	Greedy
+2	1	30115	1	10	0	0
+2	1	539	1	10	0.1	1
+2	1	30130	3	10	0	0
+2	1	1009	1	70	0.1	1
+-1	0	0	1000000	100	0	0

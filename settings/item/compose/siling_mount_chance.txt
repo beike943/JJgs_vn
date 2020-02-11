@@ -1,0 +1,2 @@
+BaseG	BaseD	BaseP	Chance
+2	1	30283	10

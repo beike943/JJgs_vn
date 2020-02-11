@@ -1,0 +1,135 @@
+[MapInfo]
+;sè l­îng khu vùc cña b¶n ®å nµy
+Area_Count=2
+
+[Area_SingleFight]
+SingleFightMap1=357
+SingleFightMap2=358
+SingleFightMap3=359
+SinglePos1=49760,101376
+SinglePos2=50656,99200
+
+[Area_1]
+
+;Trïng sinh ®iÓm hËu doanh 2
+homepos=\settings\battles\maps\yanmenguan\ºóÓª2.txt
+
+;Täa ®é tõ ®¹i doanh 2 chuyÓn ®Õn hËu doanh 2
+centertohomepos=\settings\battles\maps\yanmenguan\ºóÓª2.txt
+
+;Täa ®é ng­êi ch¬i tõ ®iÓm b¸o danh vµo hËu doanh 2
+intohome=\settings\battles\maps\yanmenguan\ºóÓª2.txt
+
+;Täa ®é tõ hËu doanh 2 chuyÓn ®Õn ®¹i doanh 2
+hometocenterpos=\settings\battles\maps\yanmenguan\´óÓª2.txt
+
+;NPC Trïng sinh ®iÓm khu vùc nµy
+npcpos1=\settings\battles\maps\yanmenguan\´óÓª2.txt
+npcpos2=\settings\battles\maps\yanmenguan\´óÓª2.txt
+
+;Täa ®é ®Æt vµ rót chiÕn kú trong ®¹i doanh 2 (§o¹t kú cè ®Şnh dïng)
+fixedflagpos=
+
+;®iÓm xuÊt hiÖn ngÉu nhiªn chiÕn kú khu vùc nµy (§o¹t kú ngÉu nhiªn dïng)
+randomflagpos1=
+randomflagpos2=
+
+;®iÓm xuÊt hiÖn Vâ T­íng khu vùc nµy (Vâ t­íng dïng)
+warriorpos1=
+warriorpos2=
+
+;trap ®iÓm hËu doanh 2 ®Õn ®¹i doanh 2
+hometrap=\settings\battles\maps\yanmenguan\ºóÓª2trap.txt
+
+;trap ®iÓm hËu doanh 2 ®Õn tiÒn doanh 2
+hometrap2=\settings\battles\maps\yanmenguan\ºóÓª2toÇ°Óª2.txt
+
+;®iÓm hËu doanh 2 chuyÓn ®Õn tiÒn doanh 2
+hometocenterpos2=\settings\battles\maps\yanmenguan\Ç°Óª2.txt
+
+;trap ®iÓm ®¹i doanh 2 chuyÓn ®Õn hËu doanh 2
+centertohometrap=\settings\battles\maps\yanmenguan\´óÓª2toºóÓª2trap.txt
+
+;trap ®iÓm doanh m«n 2 ®¹i doanh 2
+centertrap=\settings\battles\maps\yanmenguan\´óÓª2toÒ°Íâtrap.txt
+
+;täa ®é §¹i phu khu vùc nµy
+doctornpc=1310,3634
+
+;täa ®é r­¬ng chøa ®å khu vùc nµy
+depositobj=1293,3652
+
+;täa ®é So¸i kú khu vùc nµy
+symbolnpc=
+
+;®iÓm Nguyªn So¸i xuÊt hiÖn
+generalpos=
+
+;khu vùc phe
+camparea=0
+
+;®iÓm täa ®é trËn tiÒn
+frontpos=1532,3335
+
+[Area_2]
+
+
+;4 ®iÓm trïng sinh khu vùc hËu doanh nµy
+homepos=\settings\battles\maps\yanmenguan\ºóÓª4.txt
+
+;täa ®é tõ ®¹i doanh 4 chuyÓn ®Õn hËu doanh 4
+centertohomepos=\settings\battles\maps\yanmenguan\ºóÓª4.txt
+
+;Täa ®é ng­êi ch¬i tõ ®iÓm b¸o danh vµo hËu doanh 4
+intohome=\settings\battles\maps\yanmenguan\ºóÓª4.txt
+
+;Täa ®é tõ hËu doanh 4 chuyÓn ®Õn ®¹i doanh 4
+hometocenterpos=\settings\battles\maps\yanmenguan\´óÓª4.txt
+
+;NPC Trïng sinh ®iÓm khu vùc nµy
+npcpos1=\settings\battles\maps\yanmenguan\´óÓª4.txt
+npcpos2=\settings\battles\maps\yanmenguan\´óÓª4.txt
+
+;Täa ®é ®Æt vµ rót chiÕn kú trong ®¹i doanh 4 (§o¹t kú cè ®Şnh dïng)
+fixedflagpos=
+
+;®iÓm xuÊt hiÖn ngÉu nhiªn chiÕn kú khu vùc nµy (§o¹t kú ngÉu nhiªn dïng)
+randomflagpos1=
+randomflagpos2=
+
+;®iÓm xuÊt hiÖn Vâ T­íng khu vùc nµy (Vâ t­íng dïng)
+warriorpos1=
+warriorpos2=
+
+;trap ®iÓm hËu doanh 4 ®Õn ®¹i doanh 4
+hometrap=\settings\battles\maps\yanmenguan\ºóÓª4trap.txt
+
+;trap ®iÓm hËu doanh 4 ®Õn tiÒn doanh 4
+hometrap2=\settings\battles\maps\yanmenguan\ºóÓª4toÇ°Óª4.txt
+
+;®iÓm hËu doanh 4 chuyÓn ®Õn tiÒn doanh 4
+hometocenterpos2=\settings\battles\maps\yanmenguan\Ç°Óª4.txt
+
+;trap ®iÓm ®¹i doanh 4 chuyÓn ®Õn hËu doanh 4
+centertohometrap=\settings\battles\maps\yanmenguan\´óÓª4toºóÓª4trap.txt
+
+;trap ®iÓm doanh m«n 4 ®¹i doanh 4
+centertrap=\settings\battles\maps\yanmenguan\´óÓª4toÒ°Íâtrap.txt
+
+;täa ®é §¹i phu khu vùc nµy
+doctornpc=1975,2739
+
+;täa ®é r­¬ng chøa ®å khu vùc nµy
+depositobj=1996,2748
+
+;täa ®é So¸i kú khu vùc nµy
+symbolnpc=
+
+;®iÓm Nguyªn So¸i xuÊt hiÖn
+generalpos=
+
+;khu vùc phe
+camparea=0
+
+;®iÓm täa ®é trËn tiÒn
+frontpos=1716,3093

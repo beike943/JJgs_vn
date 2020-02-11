@@ -1,0 +1,276 @@
+Condition_ID	Type	Value_1	Value_2	Value_3	Value_4	Value_5	Value_6	Remark		
+sè hiÖu ®iÒu kiÖn	Lo¹i							Type: ExTask (kh«ng cÇn ghi, thÓ hiÖn nhiÖm vô nµy cÇn ph¶i hoµn thµnh nhiÖm vô tr­íc ®ã)		
+30001	Lv	80						Lv (kiÓm tra cÊp ®é, ®iÒn 70 tøc lµ lín h¬n hoÆc b»ng cÊp 70)		
+30002	ExTask							Item (kiÓm tra item, trÞ 1 trÞ 2 trÞ 3 ®iÒn vµo id item, trÞ 4 ®iÒn vµo sè l­îng item, trÞ 5 ®iÒn tªn vËt phÈm)		
+30003	Item	2	0	30008	1	Thanh Lang V­¬ng Nha	NhËn ®­îc %d/1 Thanh Lang V­¬ng Nha	Tv (kiÓm tra biÕn l­îng nhiÖm vô, trÞ 1 lµ biÕn l­îng ID, trÞ 2 lµ trÞ sè biÕn l­îng, trÞ 3 lµ 1 ==, 2 >, 3 >=, 4 <, 5 <=, 6 != biÕn l­îng nhiÖm vô t×m hiÓu thªm t¹i task_id.lua#		
+30004	Item	2	0	30007	1	Thæ Lang V­¬ng Nha	NhËn ®­îc %d/1 Thæ Lang V­¬ng Nha	Script		
+30005	Item	2	0	30009	10	§Ò HuyÕt Nha HuyÕt	NhËn ®­îc %d/10 giät §Ò HuyÕt Nha HuyÕt	TaskID (kiÓm trang tr¹ng th¸i cña id nhiÖm vô, trÞ 1 lµ id nhiÖm vô, trÞ 2 lµ trÞ sè tr¹ng th¸i: 1 thÓ hiÖn nhiÖm vô nµy cÇn hoµn thµnh, 0 thÓ hiÖn nhiÖm vô nµy vÉn ch­a nhËn		
+30006	Item	1	0	14	1	Ngäc Linh t¸n	Mua 1 b×nh Ngäc Linh T¸n	Killer (giÕt qu¸i, trÞ 1 ®iÒn tªn qu¸i, trÞ 2 ®iÒn sè l­îng)		
+30007	Item	2	0	351	1	Lé thñy	Mua 1 Lé Thñy	Meridian(Value_1 lµ so s¸nh cÊp ®é, Value_2 lµ 1. b»ng, 2. lín h¬n, 3. lín h¬n hoÆc b»ng, 4. nhá h¬n, 5. nhá h¬n hoÆc b»ng)		
+30008	Item	2	0	30011	10	MËt cãc	Tiªu diÖt Cãc §éc,  %d/10 mËt cãc	Sex (yªu cÇu giíi tÝnh, 1 lµ nam, 2 lµ n÷)		
+30009	Item	2	0	30029	1	Hoa S¬n LÖnh Kú	Mang theo Hoa S¬n LÖnh Kú	CheckPlayerRoute(1, ch­a gia nhËp nh¸nh ph¸i míi ®­îc nhËn, 2, ®· gia nhËp nh¸nh ph¸i míi ®­îc nhËn)		
+30010	Killer	Gi¸o ®å	4				Tiªu diÖt %d/4 gi¸o ®å	Meridian(nLevel cÊp kinh m¹ch, nKey lo¹i h×nh 1==? 2 >? 3>=? 4<? 5<=)		
+30011	Killer	TiÓu H¾c tr­	3				Tiªu diÖt %d/3 H¾c D· Tr­	Reborn(nLevel cÊp trïng sinh,nKey lo¹i h×nh 1==? 2 >? 3>=? 4<? 5<=)		
+30012	Item	2	0	30022	1	Linh TuyÒn Ngäc Lé Töu	nhËn ®­îc 1 Linh TuyÒn Ngäc Lé Töu	Exp (Sè EXP tiªu hao)		
+30016	Item	2	0	30012	10	Ngäc Béi	NhËn ®­îc %d/10 Ngäc Béi			
+30017	Item	2	0	30023	10	L«ng vò B¹ch §Çu §iªu	NhËn ®­îc %d/10 l«ng vò B¹ch §Çu §iªu			
+30018	Item	2	0	30032	1	Tranh vÏ <§¹i M¹c C« Yªn Trùc>	Mang trang vÏ <§¹i M¹c C« Yªn Trùc>			
+30019	Item	2	0	30033	1	Tranh vÏ	Mang tranh vÏ			
+30020	Item	2	0	30034	15	Ng©n l­îng	NhËn ®­îc %d/15 ng©n l­îng			
+30022	Item	2	0	30036	1	Th­ tÝn	Mang theo th­ tÝn			
+30023	Item	2	0	30035	1	MËt Ong Chóa Ngh×n N¨m	Mang theo MËt Ong Chóa Ngh×n N¨m			
+30024	Item	2	0	30013	5	Long Tu	NhËn ®­îc %d/5 Long Tu			
+30025	Item	2	0	30014	5	T­¬ng Phi Tróc	NhËn ®­îc %d/5 T­¬ng Phi Tróc			
+30027	Item	2	0	30037	1	Long Hµo Bót	Mang theo Long Hµo Bót			
+30028	Item	2	0	30038	1	Bót L«ng	Mang theo Bót Long			
+30029	Item	2	0	30039	1	Kú Phæ	Mang theo Kú Phæ			
+30030	Killer	H¾c Tinh Tinh	10				Tiªu diÖt %d/10 H¾c Tinh Tinh			
+30031	Killer	Muçi ®éc	15				Tiªu diÖt %d/15 Muçi §éc 			
+30032	Killer	Nh·n kÝnh xµ	10				Tiªu diÖt %d/10 R¾n Hæ			
+30033	Killer	Niªn thó to lín	1				Tiªu diÖt %d/1 Niªn Thó To Lín			
+30034	Killer	Bao tr­ëng l·o	1				Tiªu diÖt Bao Tr­ëng L·o			
+30037	Killer	Ng©n KiÕm	7				®¸nh vì %d/7 Ng©n KiÕm			
+30038	Item	2	0	30031	1	Chñy thñ	Mang Trñy Thñ giao cho NhËm Ng· Hµnh			
+30039	Item	2	0	30041	1	Kú Tö	Mang theo Kú Tö			
+30040	Item	2	0	30016	1	MËt §éc M·ng	NhËn ®­îc %d/1 MËt §éc M·ng			
+30041	Killer	Hoµng Chung C«ng	1				§¸nh b¹i Hoµng Chung C«ng			
+30100	Item	2	0	30024	1	Háa LuyÖn ThiÕt Trïy	NhËn ®­îc %d/1 Háa LuyÖn ThiÕt Trïy			
+30101	Item	2	0	30017	3	Háa Hå Linh HuyÕt	thu thËp %d/3 Háa Hå Linh HuyÕt			
+30102	Item	2	0	30018	10	D· Mao T­îng Nha	Thu thËp %d/10 D· Mao T­îng Nha			
+30103	Item	2	0	30019	10	§«ng H¶i Tr©n Ch©u	Thu thËp %d/10 §«ng H¶i Tr©n Ch©u			
+30104	Item	2	0	30025	1	B¹ch D­¬ng Hoµn	NhËn ®­îc %d/1 B¹ch D­¬ng Hoµn			
+30105	Killer	Gi¸o ®å	10				Tiªu diÖt %d/10 Gi¸o §å			
+30106	Killer	ThÝch Kh¸ch Hoµng Kú	20				§¸nh b¹i %d/20 Hoµng Kú ThÝch Kh¸ch			
+30107	Killer	Tr­ëng l·o Hoµng H÷u Vi	1				§¸nh b¹i %d/1 tr­ëng l·o Hoµng H÷u Vi			
+30108	Killer	T¶ hé ph¸p M· LËp §ao	1				§¸nh b¹i %d/1 t¶ hé ph¸p M· LËp §ao			
+30109	Killer	Tr­ëng l·o Tiªu NhÜ Hång	1				§¸nh b¹i %d/1 tr­ëng l·o Tiªu NhÜ Hång			
+30110	Killer	Tr­ëng l·o Phi Thiªn Lam Miªu	1				§¸nh b¹i %d/1 tr­ëng l·o Phi Thiªn Lam Miªu			
+30111	Killer	Lam Kú ThÝch Kh¸ch	20				§¸nh b¹i %d/20 Lam kú thÝch kh¸ch			
+30112	Tv	2961	10	1			§èt hñy 10 Trï BÞ VËt ChÊt			
+30113	Killer	Tr­ëng l·o B¹ch Linh Linh	1				§¸nh b¹i %d/1 tr­ëng l·o B¹ch Linh Linh			
+30114	Killer	ThÝch Kh¸ch B¹ch Kú	20				§¸nh b¹i %d/20 B¹ch Kú ThÝch Kh¸ch			
+30115	Tv	2962	8	1			Gi¶i cøu 8 vÞ Néi øng			
+30116	Tv	2963	2	1			§¸nh b¹i H¾c V« Th­êng, ®Æt chiÕn kú bªn c¹nh h¾n			
+30117	Tv	2964	6	1			TrÊn gi÷ 6 ®ît ph¶n c«ng cña kÎ thï			
+30118	Tv	3095	1	1			§¸nh b¹i §«ng Ph­¬ng BÊt B¹i			
+30119	Script						NhËn ®­îc <Quú Hoa B¶o §iÓn> D­¬ng phæ			
+30120	TaskID	51	1							
+30121	Item	2	0	30020	1	Thanh Linh T¸n	NhËn ®­îc Thanh Linh T¸n			
+30122	Item	2	0	30021	1	Thanh Phong B×nh	NhËn ®­îc Thanh Phong B×nh			
+30123	Item	2	0	30010	1	DÉn Hån Linh	NhËn ®­îc DÉn Hån Linh			
+30124	Item	2	0	30028	1	T¸n Hãa Tiªu Linh DÞch	NhËn ®­îc T¸n Hãa Tiªu Linh DÞch			
+30126	Script						§èi tho¹i víi Lý Hoa			Néi dung ®èi tho¹i: PlayerName: vÞ ®¹i ca nµy, gÇn ®©y b¸ t¸nh trong vïng vÉn sèng kháe chø? B¸ t¸nh Lý Hoa: NhËt nguyÖt thÇn gi¸o, nhÊt thèng giang hå, NhËt xuÊt ®«ng ph­¬ng, nhÊt thÕ bÊt b¹i. PlayerName: thËt kú l¹, vÞ ®¹i ca nµy ®ang nãi g× thÕ? Qua kia xem vÞ ®¹i tû kia thÕ nµo.
+30127	Script						§èi tho¹i víi TiÓu Thóy			Néi dung ®èi tho¹i: PlayerName: vÞ ®¹i tû nµy, gÇn ®©y b¸ t¸nh trong vïng vÉn sèng kháe chø? B¸ t¸nh TiÓu Thóy: NhËt nguyÖt thÇn gi¸o, nhÊt thèng giang hå, NhËt xuÊt ®«ng ph­¬ng, nhÊt thÕ bÊt b¹i. PlayerName: ph¶i ch¨ng mäi ng­êi ®· tróng ®éc cña NhËt NguyÖt ThÇn Gi¸o råi ch¨ng? §©y lµ lo¹i ®éc g×, c¶ Long M«n TrÊn nµy kh«ng mét ai cã thÓ nãi cho ta biÕt sao, Nh¹c ch­ëng m«n cã nãi víi ta r»ng b¸ t¸nh BiÖn Kinh tóc trÝ ®a m­u, häc thøc uyªn b¸c, hi väng hä cã thÓ nãi cho ta biÕt ®ang x¶y ra chuyÖn g×.
+30128	TaskID	3	1							
+30129	Item	2	0	30042	1	Th­ kiÖn cña H­íng VÊn Thiªn	Mang theo th­ tÝn			
+30130	TaskID	33	1							
+30131	TaskID	37	1							
+30132	Script						Sö dông Thanh Linh T¸n tr­íc khi ®èi tho¹i víi Lý Hoa t¹i Long M«n TrÊn			
+30133	Script						Sö dông DÉn Hån Linh vµ T¸n Hãa Tiªu Linh DÞch			
+30134	Tv	2958	3	1			Sö dông Thanh Linh T¸n, ®Õn Long M«n TrÊn t×m TiÓu Hoa vµ TiÓu Thóy			
+30135	Tv	2959	2	1			Sau khi vµo Long M«n TrÊn sö dông ngay DÉn Hån Linh vµ T¸n Hãa Tiªu Linh DÞch sau ®ã t×m Lý L·o ®èi tho¹i			
+30137	Killer	Du Hån	10				GiÕt chÕt%d/10 Du Hån, ®o¹t lÊy<<Quú Hoa B¶o §iÓn>>			
+30138	Lv	80								
+30139	Killer	H¸m S¬n ®¹i v­¬ng	1				§¸nh b¹i%d/1 H¸m S¬n ®¹i nh©n			
+30140	Item	2	0	30044	9	Thanh Long HuyÕt	NhËn ®­îc %d/9 Thanh Long HuyÕt			
+30141	Item	2	0	30045	1	Thanh Long Gi¸c	NhËn ®­îc %d/1 Thanh Long Gi¸c			
+30142	Item	2	0	30043	1	Hãa Long §Ønh	Gi÷ Hãa Long §Ønh			
+30143	Item	2	0	30023	9	L«ng vò B¹ch §Çu §iªu	NhËn%d/9 Long Vò B¹ch §Çu §iªu			
+30144	Item	2	0	30048	1	Th­¬ng ¦ng Tr¸c	NhËn%d/1 Th­¬ng ¦ng Tr¸c			
+30145	Item	2	0	30046	1	Chiªu ¦ng Phiªn	Gi÷ Chiªu ¦ng Phiªn			
+30146	Item	2	0	30049	1	DiÖt Ph¸p TrËn Bµn	Gi÷ DiÖt Ph¸p TrËn Bµn			
+30147	Item	2	0	30050	1	Tø Linh DiÖt Ph¸p TrËn	NhËn ®­îc %d/1 Tø Linh DiÖt Ph¸p TrËn			
+30148	Item	2	0	30051	1	Th­ tÝn	Mang theo th­ tÝn			
+30149	Item	2	0	30052	1	Bøc th­ thÇn bÝ	Bøc th­ thÇn bÝ			
+30150	Lv	70								
+30151	Tv	3070	1	1			V­ît Th«ng Thiªn HuyÔn C¶nh 1 lÇn			
+30152	Tv	3071	4	1			4 lÇn v­ît Th«ng Thiªn HuyÔn C¶nh  			
+30153	Tv	3072	1	1			V­ît V¹n KiÕm Tròng 1 lÇn			
+30154	Tv	3073	7	1			7 lÇn v­ît V¹n KiÕm Tròng 			
+30155	Tv	3074	1	1			1 lÇn lËt bµi thu phÝ V¹n KiÕm Tròng hoÆc Th«ng Thiªn HuyÔn C¶nh			
+30156	Tv	3075	15	1			15 lÇn lËt bµi thu phÝ V¹n KiÕm Tròng hoÆc Th«ng Thiªn HuyÔn C¶nh			
+30157	Item	2	0	30053	1	UÈn Linh r¸ch n¸t	Cã UÈn Linh r¸ch n¸t			
+30158	Tv	3079	1	1			NhÆt §¹i B¶o R­¬ng Hoµng Kim			
+30159	Tv	3087	5	1			TriÖu gäi 5 lÇn L­¬ng S¬n hµo kiÖt			
+30160	Tv	3088	1	1			Më 1 lÇn L­¬ng S¬n MËt B¶o R­¬ng			
+30161	Lv	90								
+30162	Killer	ThÇn bÝ cung tiÔn thñ	10				Tiªu diÖt %d/10ThÇn bÝ cung tiÔn thñ			
+30163	Item	2	0	30054	15	Mü töu	NhËn ®­îc %d/15 vß Mü töu			
+30164	Item	2	0	30060	1	Th­ tÝn	Mang theo th­ tÝn			
+30165	Killer	ThuÇn NhÊt Ch­ëng	1				§¸nh b¹i %d/1 ThuÇn NhÊt Ch­ëng			
+30166	Killer	H¾c Tinh Tinh	10				Tiªu diÖt %d/10 H¾c Tinh Tinh			
+30167	Killer	D· Mao T­îng	10				Tiªu diÖt %d/10 D· Mao T­îng			
+30168	Item	2	0	30055	1	B¶n ®å cña V©n Bang Chñ	NhËn ®­îc %d/1 B¶n ®å cña V©n Bang Chñ			
+30169	Killer	Háa Kú L©n	10				Tiªu diÖt %d/10 Háa Kú L©n			
+30170	Item	2	0	30056	1	B¶n ®å cña Lôc Bang Chñ	NhËn ®­îc %d/1 B¶n ®å cña Lôc Bang Chñ			
+30171	Item	2	0	30057	1	N÷a m¶nh b¶n ®å	Mang nöa m¶nh b¶n ®å			
+30172	Item	2	0	30058	1	Ch×a khãa vµng	NhËn ®­îc %d/1 Ch×a khãa vµng			
+30173	Item	2	0	30059	1	Ch×a khãa b¹c	NhËn ®­îc %d/1 Ch×a khãa b¹c			
+30174	Killer	ThiÕt Ch­ëng Èn SÜ	10				Tiªu diÖt %d/10 ThiÕt Ch­ëng Èn SÜ			
+30175	Killer	Lý Nh­îc Phi	1				§¸nh b¹i %d/1 Lý Nh­îc Phi			
+30176	Tv	3108	1	1			Khëi ®éng c¬ quan			
+30177	Tv	3109	1	1			Khëi ®éng c¬ quan			
+30178	Meridian	1	3							
+30179	Killer	Ma Hãa Tèng Binh	30				Tiªu diÖt %d/30 Ma Hãa Tèng Binh			
+30180	Tv	3113	10	1			Tiªu diÖt 10 kÎ ®Þch phe Liªu			
+30181	Killer	Ma Hãa Liªu Tiªn Phong	1				Tiªu diÖt %d/1 Ma Hãa Liªu Tiªn Phong			
+30182	Killer	Ma Hãa Liªu Binh	30				Tiªu diÖt %d/30 Ma Hãa Liªu Binh			
+30183	Killer	Ma Hãa Tèng Tiªn Phong	1				Tiªu diÖt %d/1 Ma Hãa Tèng Tiªn Phong			
+30184	Killer	Ma Hãa Tèng Binh	30				Tiªu diÖt %d/30 Ma Hãa Tèng Binh			
+30185	Tv	3114	10	1			Tiªu diÖt 10 kÎ ®Þch phe Tèng			
+30186	Killer	Ma Hãa Tèng Tiªn Phong	1				Tiªu diÖt %d/1 Ma Hãa Tèng Tiªn Phong			
+30187	Killer	Ma Hãa Liªu Binh	30				Tiªu diÖt %d/30 Ma Hãa Liªu Binh			
+30188	Killer	Ma Hãa Liªu Tiªn Phong	1				Tiªu diÖt %d/1 Ma Hãa Liªu Tiªn Phong			
+30189	Item	2	1	30482	10	Tèng Qu©n Yªu Bµi	NhËn ®­îc %d/10 Tèng Qu©n Yªu Bµi			
+30190	Item	2	1	30483	10	Ng­ng ThÇn Hoa	NhËn ®­îc %d/10 Ng­ng ThÇn Hoa			
+30191	Item	2	1	30484	10	Háa S¸t Th¹ch	NhËn ®­îc %d/10 Háa S¸t Th¹ch			
+30192	Tv	3115	3	1			Ch÷ trÞ 3 Tèng Qu©n Ng· BÖnh			
+30193	Item	2	1	30485	10	Liªu Qu©n NiÖm Ch©u	NhËn ®­îc %d/10 Liªu Qu©n NiÖm Ch©u			
+30194	Item	2	1	30484	10	Háa S¸t Th¹ch	NhËn ®­îc %d/10 Háa S¸t Th¹ch			
+30195	Item	2	1	30483	10	Ng­ng ThÇn Hoa	NhËn ®­îc %d/10 Ng­ng ThÇn Hoa			
+30196	Tv	3116	3	1			Ch÷ trÞ 3 Liªu Qu©n Ng· BÖnh			
+30197	Item	2	1	30463	200	ThÊt tinh hoa	Thu thËp %d/200 ThÊt Tinh Hoa			
+30198	Item	2	1	30461	200	Tö Kim Méc	Thu thËp %d/200 Tö Kim Méc			
+30199	Item	2	1	30462	200	Kho¸n tinh thiÕt	Thu thËp %d/200 Tinh ThiÕt Kho¸n			
+30200	Item	2	0	30061	1	Thanh T©m t¸n	Mang theo Thanh T©m T¸n			
+30201	Item	2	0	30062	1	S¸t khÝ ®¬n	Mang theo S¸t Khi T¸n			
+30202	Tv	3129	200	1			Hoµn thµnh thu thËp 200 lÇn			
+30203	Tv	3130	200	1			Hoµn thµnh thu thËp 200 lÇn			
+30204	Tv	3131	200	1			Hoµn thµnh thu thËp 200 lÇn			
+30205	Lv	10								
+30206	Item	2	0	30063	5	L«ng Thá Rõng	NhËn ®­îc %d/5 L«ng Thá Rõng			
+30207	Item	2	0	30064	5	HuyÕt Thá X¸m	NhËn ®­îc %d/5 HuyÕt Thá X¸m			
+30208	Item	2	0	30066	1	Vò §¹o T©m Ph¸p	Cã Vò §¹o T©m Ph¸p			
+30209	Item	2	0	30067	1	Nh¹c Phæ	Cã Nh¹c Phæ			
+30210	Item	2	0	30068	5	MËt Ong	NhËn ®­îc %d/5 MËt Ong			
+30211	Item	2	0	30065	1	Thiªn S­ Phï	Cã Thiªn S­ Phï			
+30212	Tv	3133	1	1			D¸n Thiªn S­ Phï lªn Thiªn Nguyªn Ph¸p TrËn Th¹ch Trô ®Ó phong Ên Yªu Hå			
+30213	Sex	1								
+30214	Sex	2								
+30215	CheckPlayerRoute	1								
+30216	Meridian	2	3							
+30217	Item	2	0	30069	5	Linh DiÖp v¹n n¨m	NhËn ®­îc %d/5 M¶nh Linh DiÖp V¹n N¨m			
+30218	Item	2	0	30070	5	Háa Kú L©n HuyÕt	NhËn ®­îc %d/5 Kú L©n HuyÕt			
+30219	Item	2	0	30071	1	Chu«ng	Cã Chu«ng ®Æc biÖt			
+30220	Killer	Ng­ Qu¸i	1				Tiªu diÖt %d/1 Ng­ Qu¸i			
+30221	Killer	TiÓu Lam §ao Quû	10				Tiªu diÖt %d/10 TiÓu Lam §ao Quû			
+30222	Killer	Yªu Hå	1				Tiªu diÖt %d/1 Yªu Hå			
+30223	Killer	TiÓu Hång ®ao quû	30				Tiªu diÖt %d/30 TiÓu Hång §ao Quû			
+30224	Killer	Du Hån	30				Tiªu diÖt %d/30 Du Hån			
+30225	Killer	Tµ T¨ng	30				Tiªu diÖt %d/30 Tµ T¨ng			
+30226	Killer	Sãi x¸m	30				Tiªu diÖt %d/30 Sãi X¸m			
+30227	Killer	Liªu ®ao binh	30				Tiªu diÖt %d/30 Liªu §ao Binh			
+30228	Item	0	5	39	6	Thanh Long c«n	Thu thËp %d/6 Thanh Long C«n			
+30229	Killer	Phi tÆc	30				Tiªu diÖt %d/30 Phi TÆc			
+30230	Killer	Sãi ®iªn	30				Tiªu diÖt %d/30 Sãi §iªn			
+30231	Item	0	2	26	6	HuyÒn thiÕt Träng KiÕm	Thu thËp %d/6 HuyÒn ThiÕt Träng KiÕm			
+30232	Killer	Méc nh©n	30				Tiªu diÖt %d/30 Méc Nh©n			
+30233	Killer	Hæ	30				Tiªu diÖt %d/30 Hæ			
+30234	Item	0	9	85	6	Thiªn C¬	Thu thËp %d/6 Thiªn C¬			
+30235	Killer	§ao HiÖp	30				Tiªu diÖt %d/30 §ao HiÖp			
+30236	Killer	Danh Th­¬ng Kh¸ch	30				Tiªu diÖt %d/30 Danh Th­¬ng Kh¸ch			
+30237	Item	0	101	35	6	HuyÕt Hµ trang	Thu thËp %d/6 HuyÕt Hµ Trang			
+30238	Killer	RÕt ®éc	30				Tiªu diÖt %d/30 RÕt §éc			
+30239	Killer	Thùc Nh©n Th¶o	30				Tiªu diÖt %d/30 Thùc Nh©n Th¶o			
+30240	Item	0	103	18	6	MËt ThÇn qu¸n	Thu thËp %d/6 MËt ThÇn Qu¸n			
+30241	Killer	Miªu LÜnh Hé Ên	30				Tiªu diÖt %d/30 Miªu LÜnh Hé Ên			
+30242	Killer	Xi Háa H¾c gi¸o ®å	30				Tiªu diÖt %d/30 Xi Háa H¾c Gi¸o §å			
+30243	Item	0	100	53	6	Thiªn y	Thu thËp %d/6 Thiªn Y			
+30244	Item	1	0	1	20	B¨ng	Thu thËp %d/20 B¨ng			
+30245	Item	2	1	30650	1	Th­ T×nh	NhËn ®­îc%d/1 Th­ T×nh			
+30246	Item	1	0	11	6	V¹n VËt Quy Nguyªn §¬n	Thu thËp %d/6 V¹n VËt Quy Nguyªn §¬n			
+30247	Killer	Nh·n KÝnh Xµ	30				Tiªu diÖt %d/30 Nh·n KÝnh Xµ			
+30248	Item	2	1	30651	1	Qu¶ T¸o §á	Thu thËp %d/1 Qu¶ T¸o §á			
+30249	Item	1	1	9	6	Rau Sèng	§· thu tËp %d/6 C¶i xµo tái			
+30250	Killer	¤ M«ng Dòng SÜ	30				Tiªu diÖt %d/30 ¤ M«ng Dòng SÜ			
+30251	Killer	Oa Quèc §ao kh¸ch	30				Tiªu diÖt %d/30 Oa Quèc §ao Kh¸ch			
+30252	Item	1	1	1	20	B¸nh Ng«	NhËn ®­îc %d/20 B¸nh Ng«			
+30253	Killer	S¸t thñ ngo¹i téc	30				Tiªu diÖt %d/30 S¸t Thñ Ngo¹i Téc			
+30254	Killer	Cung thñ ngo¹i téc	30				Tiªu diÖt %d/30 Cung Thñ Ngo¹i Téc			
+30255	Item	2	1	912	6	Tô linh phï chØ	Thu thËp %d/6 Tô Linh Phï ChØ			
+30256	Killer	Vâ sÜ dÞ téc	30				Tiªu diÖt %d/30 Vâ SÜ DÞ Téc			
+30257	Killer	TiÔn thñ dÞ téc	30				Tiªu diÖt %d/30 TiÔn Thñ DÞ Téc			
+30258	Item	0	101	33	10	Nhu C­¬ng trang	Thu thËp %d/10 Nhu C­¬ng Trang			
+30259	Killer	Trïng Qu¸i	30				Tiªu diÖt %d/30 Trïng Qu¸i			
+30260	Killer	Th¹ch Nh©n	30				Tiªu diÖt %d/30 Th¹ch Nh©n			
+30261	Item	0	103	16	10	TuyÖt B¶o Qu¸n	Thu thËp %d/10 TuyÖt B¶o Qu¸n			
+30262	Killer	Xi Háa B¹ch gi¸o ®å	30				Tiªu diÖt %d/30 Xi Háa B¹ch Gi¸o §å			
+30263	Killer	Xi Háa gi¸o ®å	30				Tiªu diÖt %d/30 Xi Háa Gi¸o §å			
+30264	Item	1	0	15	6	Ngò Hoa Ngäc Lé Hoµn	Thu thËp %d/6 Ngò Hoa Ngäc Lé Hoµn			
+30265	Killer	NhÊt PhÈm §­êng MËt Sø	30				Tiªu diÖt %d/30 MËt Sø NhÊt PhÈm §­êng			
+30266	Killer	XÝch LuyÖn Háa Hå	30				Tiªu diÖt %d/30 XÝch LuyÖn Háa Hå			
+30267	Item	0	3	58	10	Ph¸ S¬n ®ao	Thu thËp %d/10 Ph¸ S¬n §ao			
+30268	Killer	Tèng ®ao binh	30				Tiªu diÖt %d/30 Tèng §ao Binh			
+30269	Killer	Tèng qu©n tö sÜ	30				Tiªu diÖt %d/30 Tèng Qu©n Tö SÜ			
+30270	Item	0	100	50	10	Hå C¬ Vò y	Thu thËp %d/10 Hå C¬ Vò Y			
+30271	Item	0	152	1	2	¸o Choµng T¹o Bè	Thu thËp %d/2 ¸o Kho¸c T¹o Bè			
+30272	Killer	Ong vµng	30				Tiªu diÖt %d/30 Ong Vµng			
+30273	Item	0	5	36	10	§¶ CÈu bæng	Thu thËp %d/10 §¶ CÈu Bæng			
+30274	Item	0	154	1	2	Giµy V¶i Th«	Thu thËp %d/2 Th« Bè Hµi			
+30275	Killer	Yªu c¬ Ba T­	30				Tiªu diÖt %d/30 Ba T­ Yªu C¬			
+30276	Item	0	6	105	10	Háa Yªn Th­¬ng	Thu thËp %d/10 Háa Yªn Th­¬ng			
+30277	Item	2	1	30694	10	Vá G­¬m Cò	Thu thËp %d/10 Vá G­¬m Cò			
+30278	Killer	Xi Háa §ao Kh¸ch	30				Tiªu diÖt %d/30 Xi Háa §ao Kh¸ch			
+30279	Item	0	2	25	10	BÝch HuyÕt KiÕm	Thu thËp %d/10 BÝch HuyÕt KiÕm			
+30280	Item	2	1	30499	1	Hu©n ch­¬ng anh hïng	Thu thËp %d/1 Hu©n Ch­¬ng Anh Hïng			
+30281	Killer	Sa M¹c Hµnh Nh©n	30				Tiªu diÖt %d/30 Sa M¹c Hµnh Nh©n			
+30282	Item	0	10	71	10	Cöu Tiªu Ngäc Béi	Thu thËp %d/10 Cöu Tiªu Ngäc Béi			
+30283	Item	0	102	36	1	TiÓu Th­ Giíi ChØ	Thu thËp %d/1 TiÓu Th­ Giíi ChØ			
+30284	Killer	Liªu th­¬ng qu©n	30				Tiªu diÖt %d/30 Liªu Th­¬ng Qu©n			
+30285	Item	0	100	51	10	Minh Quang gi¸p	Thu thËp %d/10 Minh Quang Gi¸p			
+30286	Item	0	153	1	2	Huy Ch­¬ng §ång ChÕ	Thu thËp %d/2 Huy Ch­¬ng §ång ChÕ			
+30287	Killer	C«n ®å	30				Tiªu diÖt %d/30 C«n §å			
+30288	Item	1	0	10	10	NhÊt Nguyªn Phôc Thñy §¬n	Thu thËp %d/10 NhÊt Nguyªn Phôc Thñy §¬n			
+30289	Item	2	0	739	10	Th­îng Cæ Kú L©n HuyÕt	Thu thËp %d/10 Th­îng Cæ Kú L©n HuyÕt			
+30290	Killer	Th­¬ng Viªn	30				Tiªu diÖt %d/30 Th­¬ng Viªn			
+30291	Item	1	1	5	10	B¸nh bao thÞt	Thu thËp %d/10 B¸nh Bao ThÞt			
+30292	Item	2	1	469	10	Vßng Th¸i H­ B¸t Qu¸i - Cµn	Thu thËp %d/10 QuÎ Cµn			
+30293	Killer	T©y H¹ Vâ SÜ	30				Tiªu diÖt %d/30 Vâ SÜ T©y H¹			
+30294	Item	2	5	5	10	Gi¸m ®Þnh phï cÊp 5	Thu thËp %d/10 Gi¸m §Þnh Phï CÊp 5			
+30295	Killer	Sãi x¸m	10				Tiªu diÖt %d/10 Sãi X¸m			
+30296	Killer	Sãi xanh	10				Tiªu diÖt %d/10 Sãi Xanh			
+30297	Killer	Hå Ly	20				Tiªu diÖt %d/20 Hå Ly			
+30298	Killer	Xi Háa XÝch gi¸o ®å	20				Tiªu diÖt %d/20 Xi Háa XÝch Gi¸o §å			
+30299	Killer	Th­¬ng Viªn	20				Tiªu diÖt %d/20 Th­¬ng Viªn			
+30300	Killer	Miªu LÜnh Thæ ty	20				Tiªu diÖt %d/20 Miªu LÜnh Thæ Ty			
+30301	Killer	Yªu c¬ Ba T­	20				Tiªu diÖt %d/20 Ba T­ Yªu C¬			
+30302	Killer	Oa Quèc §ao kh¸ch	20				Tiªu diÖt %d/20 Oa Quèc §ao Kh¸ch			
+30303	Killer	Tú Bµ Tiªn Tö	20				Tiªu diÖt %d/20 Tú Bµ Tiªn Tö			
+30304	Killer	Ch­¬ng VÜ C­¬ng	1				Tiªu diÖt %d/1 Ch­¬ng VÜ C­¬ng			
+30305	Killer	Th­îng Cæ Háa Kú L©n	1				Tiªu diÖt %d/1 Th­îng Cæ Háa Kú L©n			
+30306	Killer	Ng­ Qu¸i §Çu Môc	1				Tiªu diÖt %d/1 Ng­ Qu¸i §Çu Môc			
+30307	Killer	Lý LËp	1				Tiªu diÖt %d/1 Lý LËp			
+30308	Killer	§Çu lÜnh S¬n tÆc	1				Tiªu diÖt %d/1 §Çu LÜnh S¬n TÆc			
+30309	Killer	T©y H¹ T­íng LÜnh	1				Tiªu diÖt %d/1 T©y H¹ T­íng LÜnh			
+30310	Killer	Xi Háa Yªu N÷	1				Tiªu diÖt %d/1 Xi Háa Yªu N÷			
+30311	Killer	Ngù §éc ¢m C¬	1				Tiªu diÖt %d/1 Ngù §éc ¢m C¬			
+30312	Killer	Xi Háa ¸c t¨ng	1				Tiªu diÖt %d/1 Xi Háa ¸c T¨ng			
+30313	Killer	Xi Háa §¹i tr­ëng l·o	1				Tiªu diÖt %d/1 Xi Háa §¹i Tr­ëng L·o			
+30314	Killer	A Tu La	1				Tiªu diÖt %d/1 A Tu La			
+30315	Killer	Ma H« La Giµ	1				Tiªu diÖt %d/1 Ma H« La Giµ			
+30316	Killer	§oµn Thõa ¢n	1				Tiªu diÖt %d/1 §oµn Thõa ¢n			
+30317	Killer	Xu©n ThËp Tam n­¬ng	1				Tiªu diÖt %d/1 Xu©n ThËp Tam N­¬ng			
+30318	Killer	Di Tu §¹i h¸n	1				Tiªu diÖt %d/1 CÇu Tu §¹i H¸n			
+30319	Lv	10								
+30320	Reborn	5	3							
+30321	Killer	Xi Háa §ao Kh¸ch	20				Tiªu diÖt %d/20 Xi Háa §ao Kh¸ch			
+30322	Item	2	1	30714	1	LÖnh bµi Xi Háa gi¸o	NhËn ®­îc %d/1 LÖnh Bµi Xi Háa Gi¸o			
+30323	Item	2	1	30716	1	Chu«ng BiÕn Th©n	Cã ®­îc Chu«ng BiÕn Th©n			
+30324	Item	2	1	30715	1	Thuèc Gi¶i	NhËn ®­îc %d/1 Thuèc gi¶i			
+30325	Reborn	6	3							
+30326	Killer	H¾c Y Tr¸ng SÜ	10				Tiªu diÖt %d/10 H¾c Y Tr¸ng SÜ			
+30327	Item	2	1	30722	1	Thiªn Hoa T¸n	NhËn ®­îc %d/1 Thiªn Hoa T¸n			
+30328	Killer	§µo Hoa §¶o Chñ Hoµng Long	1				Tiªu diÖt %d/1 §µo Hoa §¶o Chñ Hoµng Long			
+30329	Killer	T©y Vùc Th­¬ng Lang B¸ V­¬ng	1				Tiªu diÖt %d/1 T©y Vùc Th­¬ng Lang B¸ V­¬ng			
+30330	Killer	Ngäc S¬n Chi Linh Thiªn Cöu	1				Tiªu diÖt %d/1 Ngäc S¬n Chi Linh Thiªn Cöu			
+30331	Killer	U Tr¹ch Chi ¶nh Minh Vâ	1				Tiªu diÖt %d/1 U Tr¹ch Chi ¶nh Minh Vâ			
+30332	Item	2	1	30669	200	M¶nh MËt TÞch	Thu thËp %d/200 M¶nh MËt TÞch			
+30333	Item	2	0	1083	2	Th¸i DÞch Hçn Nguyªn C«ng phæ	Thu thËp %d/2 Th¸i DÞch Hçn Nguyªn C«ng Phæ			
+30334	Item	2	1	30345	2	ChuyÓn Sinh §¬n 	Thu thËp %d/2 ChuyÓn Sinh §¬n			
+30335	Killer	L«i KiÕp Thó	1				Tiªu diÖt %d/1 L«i KiÕp Thó			
+30336	Killer	Ng« ViÖt L·o Tæ	1				Tiªu diÖt %d/1 Ng« ViÖt L·o Tæ			
+30337	Meridian	3	3							
+30338	Exp	2000000000					Tiªu hao %d/2000000000 EXP			
+30339	Killer	Trïng Qu¸i V­¬ng	199				Tiªu diÖt %d/199 Trïng Qu¸i V­¬ng			
+30340	Killer	Kh«i Lçi §éc nh©n	30				Tiªu diÖt %d/30 Kh«i Lçi §éc Nh©n			
+30341	Lv	90	6							

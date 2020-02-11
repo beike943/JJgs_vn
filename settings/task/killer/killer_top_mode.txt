@@ -1,0 +1,20 @@
+Level	KillerTopID	KillerTopMode
+§¼ng cÊp s¸t thñ cao nhÊt	Tra cøu ®¼ng cÊp s¸t thñ	KiÓu ®¼ng cÊp s¸t thñ
+10	1000	TuyÖt S¸t thñ10
+10	1001	TuyÖt S¸t thñ12
+20	1002	TuyÖt S¸t thñ20
+20	1003	TuyÖt S¸t thñ22
+30	1004	TuyÖt S¸t thñ30
+30	1005	TuyÖt S¸t thñ32
+40	1006	TuyÖt S¸t thñ40
+40	1007	TuyÖt S¸t thñ42
+50	1008	TuyÖt S¸t thñ50
+50	1009	TuyÖt S¸t thñ52
+60	1010	TuyÖt S¸t thñ60
+60	1011	TuyÖt S¸t thñ62
+70	1012	TuyÖt S¸t thñ70
+70	1013	TuyÖt S¸t thñ72
+80	1014	TuyÖt S¸t thñ80
+80	1015	TuyÖt S¸t thñ82
+90	1016	TuyÖt S¸t thñ90
+90	1017	TuyÖt S¸t thñ92

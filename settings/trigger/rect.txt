@@ -1,0 +1,140 @@
+ID	TriggerType	TargetMap	RectLeftTopX	RectLeftTopY	RectRightBottomX	RectRightBottomY	ScriptFile	ScriptFunc
+1	0	201					\script\task\world\ox_quest\five_elements_weapon\Step003_001_成都城郊.lua	wq_ox_few_003_001
+2	3						\script\missions\bw\bwhead.lua	LeaveGameMap
+
+100	0	501					\script\task\world\xibei\task_trigger.lua	CreateYuanFeiYun
+101	0	504					\script\task\world\xibei\task_trigger.lua	CreateYuanFeiYun
+102	0	507					\script\task\world\xibei\task_trigger.lua	CreateYuanFeiYun
+
+200	0	108					\script\online\newyear08\pk_trigger.lua	enter_game
+201	3	108					\script\online\newyear08\pk_trigger.lua	leave_game
+
+1101	3						\script\藏剑山庄\task_script\成都\藏剑使者.lua	Leave_Map
+1102	3						\script\藏剑山庄\task_script\汴京\藏剑使者.lua	Leave_Map
+1103	3						\script\藏剑山庄\task_script\泉州\藏剑使者.lua	Leave_Map
+1104	3						\script\藏剑山庄\task_script\襄阳\藏剑使者.lua	Leave_Map
+1105	3						\script\藏剑山庄\task_script\扬州\藏剑使者.lua	Leave_Map
+
+1106	3						\script\太虚幻境\trigger.lua	Leave_Map
+
+1107	3	108					\script\online\plant\map_trigger.lua	LeaveMap
+1108	0	108					\script\online\plant\map_trigger.lua	EnterMap
+1109	3	205					\script\online\plant\map_trigger.lua	LeaveMap
+1110	0	205					\script\online\plant\map_trigger.lua	EnterMap
+1111	3	301					\script\online\plant\map_trigger.lua	LeaveMap
+1112	0	301					\script\online\plant\map_trigger.lua	EnterMap
+
+1300	3	202					\script\task\world\lizhi_汴京\task_trigger.lua	Leave_Map
+
+1400	0	201					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+1401	0	202					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+1402	0	150					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+1403	0	106					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+1404	0	108					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+1405	0	100					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+
+1430	0	218					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+1431	0	204					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+1432	0	203					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+1433	0	200					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+1434	0	201					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+1435	0	202					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+1436	0	150					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+1437	0	350					\script\task\WeekEnd\task_trigger.lua	Enter_Map
+
+1420	3	951					\script\task\WeekEnd\task_trigger.lua	Leave_Map_Wk
+1421	3	952					\script\task\WeekEnd\task_trigger.lua	Leave_Map_Wk
+1422	3	953					\script\task\WeekEnd\task_trigger.lua	Leave_Map_Wk
+1423	3	954					\script\task\WeekEnd\task_trigger.lua	Leave_Map_Wk
+1424	3	955					\script\task\WeekEnd\task_trigger.lua	Leave_Map_Wk
+1425	3	956					\script\task\WeekEnd\task_trigger.lua	Leave_Map_Wk
+1427	3	957					\script\task\WeekEnd\task_trigger.lua	Leave_Map_Wk
+1428	3	958					\script\task\WeekEnd\task_trigger.lua	Leave_Map_Wk
+1429	3	959					\script\task\WeekEnd\task_trigger.lua	Leave_Map_Wk
+1438	3	960					\script\task\WeekEnd\task_trigger.lua	Leave_Map_Wk
+
+1426	3						\script\task\WeekEnd\task_trigger.lua	Leave_Map_Boss
+
+1500	3	814					\script\task\practice\practice_trigger.lua	Leave_Map
+1501	3	812					\script\task\practice\practice_trigger.lua	Leave_Map
+1502	3	816					\script\task\practice\practice_trigger.lua	Leave_Map
+1503	3	815					\script\task\practice\practice_trigger.lua	Leave_Map
+1504	3	813					\script\task\practice\practice_trigger.lua	Leave_Map
+1505	3	817					\script\task\practice\practice_trigger.lua	Leave_Map
+1506	3	422					\script\task\practice\practice_trigger.lua	Leave_Map
+
+1600	0	204					\script\task\killer\killer_head.lua	CreateKiller
+1601	0	312					\script\task\killer\killer_head.lua	CreateKiller
+1602	0	303					\script\task\killer\killer_head.lua	CreateKiller
+1603	0	209					\script\task\killer\killer_head.lua	CreateKiller
+1604	0	305					\script\task\killer\killer_head.lua	CreateKiller
+1605	0	218					\script\task\killer\killer_head.lua	CreateKiller
+1606	0	217					\script\task\killer\killer_head.lua	CreateKiller
+1607	0	106					\script\task\killer\killer_head.lua	CreateKiller
+1608	0	309					\script\task\killer\killer_head.lua	CreateKiller
+1609	0	604					\script\task\killer\killer_head.lua	CreateKiller
+1610	0	151					\script\task\killer\killer_head.lua	CreateKiller
+1611	0	302					\script\task\killer\killer_head.lua	CreateKiller
+1612	0	310					\script\task\killer\killer_head.lua	CreateKiller
+1613	0	207					\script\task\killer\killer_head.lua	CreateKiller
+1614	0	107					\script\task\killer\killer_head.lua	CreateKiller
+1615	0	311					\script\task\killer\killer_head.lua	CreateKiller
+1616	0	103					\script\task\killer\killer_head.lua	CreateKiller
+1617	0	208					\script\task\killer\killer_head.lua	CreateKiller
+1618	0	104					\script\task\killer\killer_head.lua	CreateKiller
+1619	0	601					\script\task\killer\killer_head.lua	CreateKiller
+1620	0	602					\script\task\killer\killer_head.lua	CreateKiller
+1621	0	600					\script\task\killer\killer_head.lua	CreateKiller
+1622	0	315					\script\task\killer\killer_head.lua	CreateTopKiller
+1623	0	316					\script\task\killer\killer_head.lua	CreateTopKiller
+1624	0	317					\script\task\killer\killer_head.lua	CreateTopKiller
+1625	0	318					\script\task\killer\killer_head.lua	CreateTopKiller
+1626	0	319					\script\task\killer\killer_head.lua	CreateTopKiller
+1627	0	320					\script\task\killer\killer_head.lua	CreateTopKiller
+1628	0	321					\script\task\killer\killer_head.lua	CreateTopKiller
+1629	0	324					\script\task\killer\killer_head.lua	CreateTopKiller
+1630	0	325					\script\task\killer\killer_head.lua	CreateTopKiller
+1631	0	210					\script\task\killer\killer_head.lua	CreateTopKiller
+1632	0	211					\script\task\killer\killer_head.lua	CreateTopKiller
+1633	0	212					\script\task\killer\killer_head.lua	CreateTopKiller
+1634	0	111					\script\task\killer\killer_head.lua	CreateTopKiller
+1635	0	313					\script\task\killer\killer_head.lua	CreateTopKiller
+1636	0	314					\script\task\killer\killer_head.lua	CreateTopKiller
+1637	0	322					\script\task\killer\killer_head.lua	CreateTopKiller
+1638	0	323					\script\task\killer\killer_head.lua	CreateTopKiller
+1639	0	215					\script\task\killer\killer_head.lua	CreateTopKiller
+1640	0	112					\script\task\killer\killer_head.lua	CreateTopKiller
+1641	0	113					\script\task\killer\killer_head.lua	CreateTopKiller
+1642	0	109					\script\task\killer\killer_head.lua	CreateTopKiller
+1643	0	110					\script\task\killer\killer_head.lua	CreateTopKiller
+
+1700	0	108					\script\online\元旦活动\yuandan_trigger.lua	EnterFlagMap
+1701	3	108					\script\online\元旦活动\yuandan_trigger.lua	LeaveFlagMap
+1702	0	201					\script\online\元旦活动\yuandan_trigger.lua	EnterFlagMap
+1703	3	201					\script\online\元旦活动\yuandan_trigger.lua	LeaveFlagMap
+1704	0	304					\script\online\元旦活动\yuandan_trigger.lua	EnterFlagMap
+1705	3	304					\script\online\元旦活动\yuandan_trigger.lua	LeaveFlagMap
+
+1711	3	961					\script\online\春节活动\newyear_trigger.lua	LeaveSnowMap
+1712	3	962					\script\online\春节活动\newyear_trigger.lua	LeaveSnowMap
+1713	3	963					\script\online\春节活动\newyear_trigger.lua	LeaveSnowMap
+1714	3	964					\script\online\春节活动\newyear_trigger.lua	LeaveSnowMap
+1715	3	965					\script\online\春节活动\newyear_trigger.lua	LeaveSnowMap
+
+1800	3	969					\script\online\春节活动\spring2007\hua_shan\leave_huashan.lua	Leave_huashan
+
+1801	3	730					\script\gongcheng\prison\trigger.lua	Leave_Map
+1802	3	731					\script\gongcheng\prison\trigger.lua	Leave_Map
+1803	3	732					\script\gongcheng\prison\trigger.lua	Leave_Map
+1804	3	733					\script\gongcheng\prison\trigger.lua	Leave_Map
+1805	3	734					\script\gongcheng\prison\trigger.lua	Leave_Map
+1806	0	730					\script\gongcheng\prison\trigger.lua	Enter_Map
+1807	0	731					\script\gongcheng\prison\trigger.lua	Enter_Map
+1808	0	732					\script\gongcheng\prison\trigger.lua	Enter_Map
+1809	0	733					\script\gongcheng\prison\trigger.lua	Enter_Map
+1810	0	734					\script\gongcheng\prison\trigger.lua	Enter_Map
+1811	0	889					\script\gongcheng\personal_task\task_trigger.lua	Enter_Map
+1812	3	889					\script\gongcheng\personal_task\task_trigger.lua	Leave_Map
+
+3001	3	106					\script\online\jpz_event\first_tong\first_tong_trigger.lua	LeaveMap
+3002	0	106					\script\online\jpz_event\first_tong\first_tong_trigger.lua	EnterMap

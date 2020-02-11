@@ -1,0 +1,5 @@
+Tªn vËt phÈm	id1	id2	id3	Thêi gian tån t¹i	Gi¸
+ThÕ Th©n phï	2	0	556	86400	1000000
+ThÇn hµnh bİ phæ	0	200	39	86400	1000000
+Gi¸n §iÖp trang	2	1	9995	86400	1200000
+

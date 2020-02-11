@@ -1,0 +1,77 @@
+ID	EventType	AttributeCount	TargetType	Time	TimeEnhance	Attribute_0	Value_0	Probability_0	Enhance_0	Attribute_1	Value_1	Probability_1	Enhance_1	Attribute_2	Value_2	Probability_2	Enhance_2
+1	life_damage_2_magic	2		9		imme_when_lose_hp_percent	20		1	state_invincibility		100					
+2	life_damage_2_magic	2		9		imme_when_lose_hp_percent	15		1	state_invincibility		100					
+3	life_damage_2_magic	2				imme_when_lose_hp_percent	1		1	imme_life_percent_add	1	100					
+4	be_attacked_2_magic	3	1	90	1	imme_range_limit	300		1	state_sleep	1	100	2	state_deep_sleep	10	100	2
+5	be_attacked_2_magic	2	1	54	1	imme_range_limit	200		1	state_slow	5	100	2				
+6	be_attacked_2_magic	2		54	1	imme_range_limit	200		1	state_p_attack_percent_add	2	100	2				
+7	be_attacked_2_magic	2	1			imme_range_limit	200		1	imme_mana_percent_damage	1	100	2				
+8	be_attacked_2_magic	2		90	1	imme_range_limit	800		1	state_slow_immune	100	100	2				
+9	be_attacked_2_magic	2	1	36	1	imme_range_limit	200		1	state_magic_parmor_poi_dec	3	100	2				
+10	attack_2_magic	2				imme_effect_interval	1		1	imme_life_point_add	15	100	2				
+11	attack_2_magic	2	1	90	1	state_p_attack_percent_dec	100	100	2	state_m_attack_percent_dec	100	100	2				
+12	attack_2_magic	2		9	1	imme_effect_interval	108			state_skill_casted_when_magic_end	90767361	10	1				
+13	attack_2_magic	2		9	1	imme_effect_interval	108			state_skill_casted_when_magic_end	90832897	10	1				
+14	attack_2_magic	2		9	1	imme_effect_interval	108			state_skill_casted_when_magic_end	90898433	10	1				
+15	attack_2_magic	2		9	1	imme_effect_interval	108			state_skill_casted_when_magic_end	90963969	10	1				
+16	attack_2_magic	2		9	1	imme_effect_interval	108			state_skill_casted_when_magic_end	91029505	10	1				
+17	attack_2_magic	2		2	1	imme_effect_interval	36			state_skill_casted_when_magic_end	86245377	10	1				
+18	attack_2_magic	2		2	1	imme_effect_interval	36			state_skill_casted_when_magic_end	86310913	10	1				
+19	attack_2_magic	2		2	1	imme_effect_interval	36			state_skill_casted_when_magic_end	86376449	10	1				
+20	attack_2_magic	2		2	1	imme_effect_interval	36			state_skill_casted_when_magic_end	86441985	10	1				
+21	attack_2_magic	2		2	1	imme_effect_interval	36			state_skill_casted_when_magic_end	86245378	10	1				
+22	attack_2_magic	2		2	1	imme_effect_interval	36			state_skill_casted_when_magic_end	86310914	10	1				
+23	attack_2_magic	2		2	1	imme_effect_interval	36			state_skill_casted_when_magic_end	86376450	10	1				
+24	attack_2_magic	2		2	1	imme_effect_interval	36			state_skill_casted_when_magic_end	86441986	10	1				
+25	be_attacked_2_magic	2		2	1	imme_effect_interval	18		1	state_skill_casted_when_magic_end	82051073	25	8				
+26	attack_2_magic	2		2	1	imme_effect_interval	540		1	state_skill_casted_when_magic_end	96600065	25	8				
+27	attack_2_magic	2		2	1	imme_effect_interval	540		1	state_skill_casted_when_magic_end	96665601	25	8				
+28	attack_2_magic	2		2	1	imme_effect_interval	540		1	state_skill_casted_when_magic_end	96731137	25	8				
+29	be_attacked_2_magic	2	1	2	1	imme_effect_interval	540		1	state_skill_casted_when_magic_end	96796673	25	8				
+30	attack_2_magic	2	1		1	imme_effect_interval	90		1	imme_damage_life	1500	15	1				
+31	attack_2_magic	2		2	1	imme_effect_interval	360		1	state_skill_casted_when_magic_end	97058817	10	1				
+32	attack_2_magic	2	1	2	1	imme_effect_interval	180		1	state_skill_casted_when_magic_end	97124353	25	1				
+33	attack_2_magic	3			1	imme_effect_interval	18		1	imme_life_percent_add	5	100	1	imme_mana_percent_add	5	100	1
+34	attack_2_magic	2	1	180	1	imme_effect_interval	18		1	state_poison_damage	70	100	1				
+35	be_attacked_2_magic	2		90	1	imme_effect_interval	360		1	state_element_all_defend_point_add	5	20	2				
+36	attack_2_magic	2		90	1	imme_effect_interval	360		1	state_element_all_attack_point_add	5	20	2				
+37	attack_2_magic	1	1	180	1	state_gu_poison_damage	400	100	2								
+38	attack_2_magic	1	1	1	1	state_skill_casted_when_magic_end	1973092353	100	1								
+39	attack_2_magic	2		180	1	imme_effect_interval	36		1	state_quench_posion	150	10	2				
+40	attack_2_magic	2		180	1	imme_effect_interval	36		1	state_damage_point	120	10	2				
+41	attack_2_magic	2		180	1	imme_effect_interval	36		1	state_npc_event_2_magic	6553644	10	16				
+42	attack_2_magic	2		180	1	imme_effect_interval	36		1	state_p_attack_percent_add	10	10	2				
+43	attack_2_magic	2		180	1	imme_effect_interval	36		1	state_m_attack_percent_add	10	10	2				
+44	attack_2_magic	1	1	180	1	state_gu_poison_damage	250	100	2								
+45	attack_2_magic	2	1	2	1	imme_effect_interval	2			state_skill_casted_when_magic_end	122224641	35	1				
+46	attack_2_magic	2	1	2	1	imme_effect_interval	2			state_skill_casted_when_magic_end	122290177	35	1				
+47	attack_2_magic	2	1	2	1	imme_effect_interval	2			state_skill_casted_when_magic_end	122355713	35	1				
+48	kill_player_2_magic	3				imme_set_skill_interval	27918345	100	1	imme_set_skill_interval	65994761	100	1	imme_set_skill_interval	94765065	100	1
+49	be_attacked_2_magic	3	1	9		imme_range_limit	144			imme_effect_interval	36			state_vertigo	1	100	1
+50	be_attacked_2_magic	2	1	2	1	imme_effect_interval	18		1	state_skill_casted_when_magic_end	125108225	100	8				
+51	be_attacked_2_magic	3	1	2	1	imme_range_limit	144		1	imme_effect_interval	9			state_skill_casted_when_magic_end	125566977	100	8
+52	be_attacked_2_magic	3		2	1	imme_when_lose_hp_percent	10		1	imme_effect_interval	90			state_skill_casted_when_magic_end	125304833	100	1
+53	attack_2_magic	2		2	1	imme_effect_interval	9			state_skill_casted_when_magic_end	119603201	100	1				
+54	attack_2_magic	2	1	27	1	imme_effect_interval	270			state_vertigo	1	100	1				
+55	attack_2_magic	2	1	0	1	imme_effect_interval	36		1	state_life_suck	200	100	2				
+56	attack_2_magic	2	1	0	1	imme_effect_interval	36		1	state_stamina_suck	1	100	2				
+57	attack_2_magic	2	1	0	1	imme_effect_interval	36		1	state_neili_suck	4	100	2				
+58	attack_2_magic	2	1	54	1	imme_effect_times_per_skill	1		1	state_slow	30	1	4				
+59	attack_2_magic	3	1	54	1	imme_effect_times_per_skill	1		1	state_attack_speed_dec	30	1	4	state_burst_dec_rate	30	1	1
+60	attack_2_magic	2	1	54	1	imme_effect_times_per_skill	1		1	state_fetter		1	4				
+61	attack_2_magic	2	1	54	1	imme_effect_times_per_skill	1		1	state_paralysis		1	4				
+62	attack_2_magic	3	1	54	1	imme_effect_times_per_skill	1		1	state_sleep	1	1	4	state_deep_sleep	40	100	1
+63	attack_2_magic	2	1	54	1	imme_effect_times_per_skill	1		1	state_vertigo		1	4				
+64	attack_2_magic	2	1	54	1	imme_effect_times_per_skill	1		1	state_confusion		1	4				
+65	attack_2_magic	2	0	1	1	imme_effect_interval	54		1	state_cost_free	3	100	1				
+66	attack_2_magic	2	1	0	1	imme_effect_interval	18		1	state_life_suck	400	100	2				
+67	attack_2_magic	2	1	0	1	imme_effect_interval	18		1	state_life_suck	600	100	2				
+68	attack_2_magic	2	1	0	1	imme_effect_interval	18		1	state_life_suck	800	100	2				
+3001	be_attacked_2_magic	2	1		1	imme_effect_interval	9		1	imme_life_percent_damage	10	100	2				
+3002	be_attacked_2_magic	2		2	1	imme_effect_interval	90		1	state_skill_casted_when_magic_end	105709569	100	1				
+3003	be_attacked_2_magic	3		108	1	imme_effect_interval	270		1	state_receive_half_damage	8	100	2	state_destiny_point_add	60	100	1
+3004	attack_2_magic	3		108	1	imme_effect_interval	270		1	state_add_allability	12	100	2	state_destiny_point_add	60	100	1
+3005	attack_2_magic	2	1	18	1	imme_effect_interval	36		1	state_lost_life_per18_monster	10000	100	2				
+3006	be_attacked_2_magic	2	1	18	1	imme_effect_interval	9		1	state_lost_life_per18_monster	5000	100	2				
+3007	be_attacked_2_magic	2		2	1	imme_effect_interval	18		1	state_skill_casted_when_magic_end	114622465	100	1				
+3008	skill_be_interrupted_2_magic	2		54	1	state_block_left_skill	100	100	1	state_lock	100	100	1				

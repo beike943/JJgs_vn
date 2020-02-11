@@ -1,0 +1,2 @@
+BaseG	BaseD	BaseP	CheckScript	ProductScript	
+2	1	30283	\script\online_activites\silingmount\compose.lua	\script\online_activites\silingmount\compose.lua	

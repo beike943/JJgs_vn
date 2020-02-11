@@ -1,0 +1,111 @@
+NpcID	NpcName	NpcMap	MapID
+NpcID	Tªn Npc	V¨n tù Map hiÖn t¹i	ID b¶n ®å hiÖn t¹i 
+3001	Thñ khè	BiÖn Kinh	200
+3002	Xa phu	BiÖn Kinh	200
+3003	TriÖu Phæ	BiÖn Kinh	200
+3004	Bé ®Çu	BiÖn Kinh	200
+3005	VÖ binh thµnh m«n	BiÖn Kinh	200
+3006	Tµo B©n	BiÖn Kinh	200
+3007	Binh Bé ThÞ Lang	BiÖn Kinh	200
+3008	Binh Bé Thñ vÖ	BiÖn Kinh	200
+3009	ThÞ VÖ T­íng phñ	BiÖn Kinh	200
+3010	CÊm qu©n	BiÖn Kinh	200
+3011	LÔ quan	BiÖn Kinh	200
+3012	D· TÈu	BiÖn Kinh	200
+3013	Chñ TiÖm vò khÝ	BiÖn Kinh	200
+3014	Chñ D­îc ®iÕm	BiÖn Kinh	200
+3015	Chñ T¹p hãa	BiÖn Kinh	200
+3016	Chñ TiÖm Nam phôc	BiÖn Kinh	200
+3017	Chñ TiÖm N÷ phôc	BiÖn Kinh	200
+3018	Chñ töu lÇu	BiÖn Kinh	200
+3019	TiÓu nhÞ	BiÖn Kinh	200
+3020	Nh©n sÜ giang hå	BiÖn Kinh	200
+3021	Tµo §¹i Lùc	BiÖn Kinh	200
+3022	Vâ s­	BiÖn Kinh	200
+3023	Chñ tiÒn trang	BiÖn Kinh	200
+3024	Chñ Kim hoµn	BiÖn Kinh	200
+3025	Sø gi¶ m«n ph¸i	BiÖn Kinh	200
+3026	Hµng xãm Hµn TrÝ Nh­îng	BiÖn Kinh	200
+3027	Tiªu s­	BiÖn Kinh	200
+3028	Vò N­¬ng	BiÖn Kinh	200
+3029	ThÇy bãi	BiÖn Kinh	200
+3030	Quan viªn tho¸i nhiÖm	BiÖn Kinh	200
+3031	Chñ th­¬ng héi	BiÖn Kinh	200
+3032	Hµnh C­íc Th­¬ng Nh©n	BiÖn Kinh	200
+3033	B¸ch HiÓu Sinh	BiÖn Kinh	200
+3034	Ngù Trï	BiÖn Kinh	200
+3035	Chñ Kim hoµn	BiÖn Kinh	200
+3036	V©n Du §¹o Nh©n	BiÖn Kinh	200
+3037	Xa Th¸i Qu©n	Thiªn Ba D­¬ng phñ	219
+3038	B¸n ngùa	BiÖn Kinh	200
+3039	KhÊu ChuÈn	BiÖn Kinh	200
+3040	Thñ khè	Thµnh §«	300
+3041	Xa phu	Thµnh §«	300
+3042	D· TÈu	Thµnh §«	300
+3043	A ThÞnh	Thµnh §«	300
+3044	Sø gi¶ m«n ph¸i	Thµnh §«	300
+3045	N¹n d©n_Gi¸p	Thµnh §«	300
+3046	N¹n d©n Êt	Thµnh §«	300
+3047	N¹n d©n_BÝnh	Thµnh §«	300
+3048	N¹n d©n_§inh	Thµnh §«	300
+3049	Chñ TiÖm Nam phôc	Thµnh §«	300
+3050	Chñ TiÖm N÷ phôc	Thµnh §«	300
+3051	VÖ binh thµnh m«n	Thµnh §«	300
+3052	Th¸i thó	Thµnh §«	300
+3053	Bé ®Çu	Thµnh §«	300
+3054	Vâ s­	Thµnh §«	300
+3055	Chñ D­îc ®iÕm	Thµnh §«	300
+3056	Du Ph­¬ng ®¹i phu	Thµnh §«	300
+3057	CÈm n­¬ng	Thµnh §«	300
+3058	M¹c NhÞ	Thµnh §«	300
+3059	Chñ TiÖm vò khÝ	Thµnh §«	300
+3060	Chu ThiÖn Nh©n	Thµnh §«	300
+3061	Chñ th­¬ng héi	Thµnh §«	300
+3062	Quan viªn tho¸i nhiÖm	Thµnh §«	300
+3063	ThÇy bãi	Thµnh §«	300
+3064	Vò N­¬ng	Thµnh §«	300
+3065	Chñ T¹p hãa	Thµnh §«	300
+3066	Tiªu s­	Thµnh §«	300
+3067	Chñ töu lÇu	Thµnh §«	300
+3068	V­¬ng CÈn	Thµnh §«	300
+3069	Nha dÞch	Thµnh §«	300
+3070	Nha dÞch	Thµnh §«	300
+3071	Chñ l«i ®µi	Thµnh §«	300
+3072	Chñ tiÒn trang	Thµnh §«	300
+3073	Hµnh C­íc Th­¬ng Nh©n	Thµnh §«	300
+3074	Chñ Kim hoµn	Thµnh §«	300
+3075	B¸ch HiÓu Sinh	Thµnh §«	300
+3076	Xa phu	T­¬ng D­¬ng	350
+3077	Thñ khè	T­¬ng D­¬ng	350
+3078	Chñ TiÖm vò khÝ	T­¬ng D­¬ng	350
+3079	Chñ D­îc ®iÕm	T­¬ng D­¬ng	350
+3080	Chñ T¹p hãa	T­¬ng D­¬ng	350
+3081	Chñ TiÖm Nam phôc	T­¬ng D­¬ng	350
+3082	Chñ TiÖm N÷ phôc	T­¬ng D­¬ng	350
+3083	Chñ Kim hoµn	T­¬ng D­¬ng	350
+3084	T­ M· TÊn Nguyªn	T­¬ng D­¬ng	350
+3085	Th¸i thó	T­¬ng D­¬ng	350
+3086	Hµn NghÜa	T­¬ng D­¬ng	350
+3087	Cæ L·o Ta	T­¬ng D­¬ng	350
+3088	Cæ MÆc	T­¬ng D­¬ng	350
+3089	Ph­¬ng Khanh	T­¬ng D­¬ng	350
+3090	Chñ l«i ®µi	T­¬ng D­¬ng	350
+3091	Vu DÇn	T­¬ng D­¬ng	350
+3092	Tr­¬ng ¶nh	T­¬ng D­¬ng	350
+3093	M¹c H÷u Vi	T­¬ng D­¬ng	350
+3094	Hµnh C­íc Th­¬ng Nh©n	T­¬ng D­¬ng	350
+3095	M¹c Tam	T­¬ng D­¬ng	350
+3096	Tiªu s­	T­¬ng D­¬ng	350
+3097	HuyÒn Tõ	ThiÕu L©m	204
+3098	HuyÒn Minh	ThiÕu L©m	204
+3099	Háa C«ng §Çu	ThiÕu L©m	204
+3100	Tö H¹c ch©n nh©n	Ph¸i Vâ §ang	312
+3101	Tr­¬ng Ngä D­¬ng	Ph¸i Vâ §ang	312
+3102	Ch©n Nh­ s­ th¸i	Nga My	303
+3103	Long T¹i Thiªn	C¸i Bang	209
+3104	V­u Tri VÞ	C¸i Bang	209
+3105	Hång ThÊt	C¸i Bang	209
+3106	§­êng M«n L·o L·o	§­êng M«n	305
+3107	§­êng V©n	§­êng M«n	305
+3108	§­êng UyÓn Nhi	§­êng M«n	305
+3109	B¹ch Doanh Doanh	Ngò §éc Gi¸o	407

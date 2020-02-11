@@ -1,0 +1,5 @@
+ID	Ani	AniSpeed	Effect	EffectPos	EffectWaitTime	Sound	SoundWaitTime	Word	WordWaitTime
+0	¡n thùc vËt 0	100						Linh §iªu ¨n xong thÊy h¬i no	26
+1	¡n thùc vËt 1	100						Linh §iªu võa ¨n võa vui mõng vÉy ®u«i	10
+2	¡n thùc vËt 2	100						Linh §iªu ¨n xong thÊy rÊt no	26
+3	¡n thùc vËt 3	100						Linh §iªu nh×n thÊy thùc vËt ­a thİch liÒn nh¶y cÉng lªn	5

@@ -1,0 +1,14 @@
+ID	Hour	Minute	Week	Duration	Disable	Name
+ID¹ØÁªdaily_guide.txt	h 	 phót 	Thø mÊy kÝch ho¹t	Thêi gian duy tr× (s)	CÊm dïng	Chó thÝch danh hiÖu
+6	10	58	1;2;3;4;5;6;7	120	0	xxx
+6	16	58	1;2;3;4;5;6;7	120	0	xxx
+6	21	58	1;2;3;4;5;6;7	120	0	xxx
+7	13	58	1;2;3;4;5;6;7	120	0	xxx
+7	18	58	1;2;3;4;5;6;7	120	0	xxx
+8	14	58	1;2;3;4;5;6;7	120	0	xxx
+8	19	58	1;2;3;4;5;6;7	120	0	xxx
+9	16	28	1;2;3;4;5;6;7	120	0	xxx
+9	21	28	1;2;3;4;5;6;7	120	0	xxx
+11	20	58	1;2;3;4;5;6;7	120	0	xxx
+12	12	58	7	120	0	xxx
+12	22	28	7	120	0	xxx

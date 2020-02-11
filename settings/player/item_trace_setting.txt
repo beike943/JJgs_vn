@@ -1,0 +1,71 @@
+Genre	Detail	Particular	func	comments
+0	102	24;43		Lo¹i trang søc
+0	102	8801;8828		Lo¹i trang søc
+0	105	13;20		M·
+0	112	78;158		TrÊn ph¸i
+2	0	600;613		Chøng th­/b¶o r­¬ng NguyÖt L­îng Thè/tói quyÕt yÕu
+2	1	563		Kú Kim
+2	0	1028		R­¬ng vµng ThÞnh ThÕ
+2	1	3213		 Thanh §ång ®Ønh cÊp 1
+2	0	1055;1058		R­¬ng Thiªn §Þa HuyÒn Hoµng
+0	3	6001		Ph¸ Yªn ®ao
+0	5	6002		Ph¸ Yªn c«n
+0	0	6004		Hµm Yªn thñ
+0	8	6003		Phï Yªn tr­îng
+0	1	6005		Tµng Yªn ch©m
+0	2	6006		Phi Yªn kiÕm
+0	10	6007		VËn Yªn cÇm
+0	0	6008		V©n Yªn thñ
+0	5	6009		L­u Yªn c«n
+0	2	6010		HuyÒn Yªn kiÕm
+0	9	6011		Vò Yªn bót
+0	6	6012		Hµ Tiªm Th­¬ng
+0	4	6013		Hµnh Yªn Cung
+0	7	6014		Träc Yªn nhÉn
+0	11	6015		Yªu Yªn tr¶o
+0	103	8001;8004		Viªm §Õ Kh«i
+0	100	8001;8004		Viªm §Õ Y
+2	1	473;476		Th¸i H­ Bµn
+0	3	8801		Hiªn Viªn To¸i Vò §ao
+0	5	8802		Hiªn Viªn To¸i Vò C«n
+0	8	8803		Hiªn Viªn Cöu Nh­ Tr­îng
+0	0	8804		Hiªn Viªn H¹o Nhiªn Thñ
+0	1	8805		Hiªn Viªn ch©m v« h×nh
+0	2	8806		Hiªn Viªn Tö Tinh KiÕm
+0	10	8807		Hiªn Viªn Phông Hoµng CÇm
+0	0	8808		Hiªn Viªn Ngò Nh¹c Thñ
+0	5	8809		Hiªn Viªn Ph¸ Thiªn C«n
+0	2	8810		Hiªn Viªn Hång Qu©n KiÕm
+0	9	8811		Hiªn Viªn Sinh Tö Bót
+0	6	8812		Hiªn Viªn Ph¸ Qu©n Th­¬ng
+0	4	8813		Hiªn Viªn Khai Thiªn Cung
+0	7	8814		Hiªn Viªn ¢m D­¬ng NhÉn
+0	11	8815		Hiªn Viªn U Minh Tr¶o
+0	0	17		Thiªn §Þa HuyÒn Hoµng Thñ
+0	2	39		Thiªn §Þa HuyÒn Hoµng KiÕm 
+0	5	43		Thiªn §Þa HuyÒn Hoµng C«n
+0	1	56		Thiªn §Þa HuyÒn Hoµng KhÝ 
+0	3	67		Thiªn §Þa HuyÒn Hoµng Dao
+0	10	78		Thiªn §Þa HuyÒn Hoµng CÇm
+0	9	89		Thiªn §Þa HuyÒn Hoµng Bót 
+0	8	100		Thiªn §Þa HuyÒn Hoµng Tr­îng
+0	6	111		Thiªn §Þa HuyÒn Hoµng Th­¬ng 
+0	4	122		Thiªn §Þa HuyÒn Hoµng Cung 
+0	11	15		Thiªn §Þa HuyÒn Hoµng Tr¶o
+0	7	15		Thiªn §Þa HuyÒn Hoµng NhÉn 
+0	100	8101;8141		Trang bÞ B¸t Qu¸i
+0	103	85;88		Thiªn §Þa HuyÒn Hoµng Kh«i
+0	100	85;88		Thiªn §Þa HuyÒn Hoµng Gi¸p 
+0	101	85;88		Thiªn §Þa HuyÒn Hoµng Trang
+0	103	95;98		Tµng KiÕm Tö Kim m·o
+0	100	95;98		Kim Lò Th­êng
+0	101	95;98		Tµng KiÕm ¤ kim phôc
+2	1	1146		Viªm Hoµng ThiÕt Hån
+2	1	1067		§Þnh Hån Thiªn Th¹ch Linh Th¹ch
+2	1	1009		Thiªn Th¹ch Tinh Th¹ch
+2	1	1068		Thiªn Th¹ch linh th¹ch
+2	1	198		TiÒn lÎ
+2	0	1084		Thiªn Qu¸i Th¹ch
+2	0	1082		Th¸i DÞch Hçn Nguyªn C«ng §å
+0	107	159;179		T©n mËt tÞch s­ m«n
+

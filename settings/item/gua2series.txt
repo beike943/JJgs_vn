@@ -1,0 +1,11 @@
+Gua	gold	wood	water	fire	earth
+Ch­a					
+Kh¶m	5	10	40	45	50
+Kh«n	5	10	15	20	50
+ChÊn	5	35	40	45	50
+Tèn	5	35	40	45	50
+Trung					
+Cµn	30	35	40	45	50
+§oµi 	30	35	40	45	50
+CÊn	5	10	15	20	50
+Ly	5	10	15	45	50

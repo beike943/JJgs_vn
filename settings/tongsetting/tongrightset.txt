@@ -1,0 +1,16 @@
+RightID	RightName	ShowInSelect	CanInherit	RightDesc
+1	Gi¶i t¸n bang héi	0	0	Gi¶i t¸n bang héi
+2	thiÕt lËp bang quy	1	1	ThiÕt lËp vµ söa bang quy
+3	Th«ng b¸o	1	1	Th«ng b¸o
+4	Bæ vµ miÔn nhiÖm nh©n sù	1	1	Thµnh viªn qu¶n lı b·i nhiÖm bang héi
+5	Chiªu mé bang chóng	1	1	Chiªu mé bang chóng
+6	§uæi thµnh viªn	1	1	§uæi thµnh viªn
+7	CÊt vµo th­¬ng khè	1	1	QuyÒn cÊt gi÷ th­¬ng khè
+8	LÊy	1	1	QuyÒn sö dông th­¬ng khè
+9	Khãa th­¬ng khè	1	1	Khãa/më khãa th­¬ng khè
+10	Tin tøc	1	1	Th«ng b¸o cho thµnh viªn
+11	T¨ng cÊp ngò hµnh ®­êng	1	1	QuyÒn t¨ng cÊp ngò hµnh ®­êng
+12	b¶o vÖ ngò hµnh ®­êng	1	1	Cã quyÒn cÊt tµi nguyªn vµo Ngò hµnh ®­êng
+13	thay ®æi tµi nguyªn	1	1	chuyÓn tµi nguyªn tõ th­¬ng khè bang héi sang th­¬ng khè thµnh thŞ
+14	X©y thµnh	1	1	KiÕn lËp bang héi thµnh thŞ
+15	LËp thuÕ suÊt	1	1	ThiÕt lËp thuÕ suÊt

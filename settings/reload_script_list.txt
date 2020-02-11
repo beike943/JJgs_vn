@@ -1,0 +1,4 @@
+ID	NameWithRelativePath
+1	\script\online\qixi08\head.lua
+2	\script\online\qixi08\npc.lua
+3	\script\online\qixi08\item\zhounianqing_box.lua

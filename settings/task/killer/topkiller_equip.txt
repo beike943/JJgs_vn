@@ -1,0 +1,158 @@
+Index	Level	Genre	Detail	Particular	Text
+H­íng dÉn	CÊp	Lo¹i lín	Lo¹i phô	Lo¹i nhá	Tªn vËt phÈm
+1000	40	0	0	8	BÝch Xµ thñ
+1001	40	0	0	9	Kh¸ng Long thñ
+1002	50	0	0	10	T­êng Ph­îng
+1003	50	0	0	11	Né Long
+1004	60	0	0	12	Ngò Ph­¬ng Quû Chóng
+1005	70	0	0	13	Nª Lª ®Þa ngôc
+1006	40	0	2	21	TÝch D­¬ng
+1007	40	0	2	22	HuyÒn §iÖn
+1008	50	0	2	23	Thanh S­¬ng
+1009	50	0	2	24	Dao Quang
+1010	60	0	2	25	BÝch HuyÕt
+1011	70	0	2	26	HuyÒn thiÕt Träng KiÕm
+1012	40	0	5	34	TiÒm Long c«n
+1013	40	0	5	35	Tö Kim L­¬ng
+1014	50	0	5	36	§¶ CÈu bæng
+1015	50	0	5	37	KhÈn Na La Bæng
+1016	60	0	5	38	Thiªn Xµ c«n
+1017	70	0	5	39	Thanh Long c«n
+1018	40	0	1	47	Ngäc Phong ch©m
+1019	40	0	1	48	Tô Lý Cµn Kh«n
+1020	50	0	1	49	Hµm Sa X¹ ¶nh
+1021	50	0	1	50	ThÊt Tinh ThÊu Cèt Ch©m
+1022	60	0	1	51	ThÊt S¸t Thiªn La
+1023	70	0	1	52	Thiªn ngo¹i phi tiªn
+1024	40	0	3	58	Ph¸ S¬n ®ao
+1025	40	0	3	59	Nh©n §å ®ao
+1026	50	0	3	60	Long L©n
+1027	50	0	3	61	B¸ch TÞch
+1028	60	0	3	62	Thiªn S¸t
+1029	70	0	3	63	B¸ V­¬ng
+1030	40	0	10	69	HuyÒn Nhai Phi Béc
+1031	40	0	10	70	H¶i NguyÖt Thanh Huy
+1032	50	0	10	71	Cöu Tiªu Ngäc Béi
+1033	50	0	10	72	HiÖu Chung
+1034	60	0	10	73	Lôc Khëi
+1035	70	0	10	74	Tiªu VÜ
+1036	40	0	9	80	Truy NguyÖt bót
+1037	40	0	9	81	ThÞ Hån bót
+1038	50	0	9	82	Long ThiÖt
+1039	50	0	9	83	R¨ng sãi
+1040	60	0	9	84	Ph¸ Qu©n
+1041	70	0	9	85	Thiªn C¬
+1042	40	0	8	91	NguyÖt Lu©n tr­îng
+1043	40	0	8	92	Kh«ng Minh tr­îng
+1044	50	0	8	93	B¶o Quang tr­îng
+1045	50	0	8	94	§¹i Tù T¹i Tr­îng
+1046	60	0	8	95	§¹i B¸t Nh· Tr­îng
+1047	70	0	8	96	Thiªn PhËt tr­îng
+1048	40	0	103	9	ThiÕt TuyÕn L¹p
+1049	40	0	103	10	DËt Èn Qu¸n
+1050	40	0	103	11	Hång L¨ng C©n
+1051	40	0	103	12	Hµng V©n Thóc ®¸i
+1052	50	0	103	13	Thanh Sa Nh·n Tr¸o
+1053	50	0	103	14	XÝch Tinh Nh·n Tr¸o
+1054	60	0	103	15	Phi V©n L¹p
+1055	60	0	103	16	TuyÖt B¶o Qu¸n
+1056	70	0	103	17	S¬n Quû DiÖn
+1057	70	0	103	18	MËt ThÇn qu¸n
+1058	40	0	103	27	Chu T­íc Thóc c©n
+1059	40	0	103	28	H¶i ThÇn kÕt
+1060	40	0	103	29	§Þnh Quèc Tö C©n
+1061	40	0	103	30	MËt NhÉn DiÖn tr¸o
+1062	50	0	103	31	ThÇn S¸ch Kim Kh«i
+1063	50	0	103	32	Ngò Quû c©n
+1064	60	0	103	33	Tinh Cang ChiÕn Kh«i
+1065	60	0	103	34	L«i Tr× diÖn
+1066	70	0	103	35	Chung Quú diÖn
+1067	70	0	103	36	DÞ ThÇn c©n
+1068	40	0	103	45	Chu T­íc Ph¸t KÕt
+1069	40	0	103	46	§»ng Xµ tr©m
+1070	40	0	103	47	Minh §iÖp kÕt
+1071	40	0	103	48	Kim Phông Tr©m
+1072	50	0	103	49	§Þa KiÖt
+1073	50	0	103	50	§o¹t hån
+1074	60	0	103	51	NhËt MiÖn
+1075	60	0	103	52	ThÇn ¤
+1076	70	0	103	53	Tu La
+1077	70	0	103	54	Chu T­íc
+1078	40	0	103	63	Thiªn C¬ Thóc tr©m
+1079	40	0	103	64	Thiªn La Thoa
+1080	40	0	103	65	Thiªn Phong Thóc tr©m
+1081	40	0	103	66	V©n Méng Thoa
+1082	50	0	103	67	Phi §iÓu
+1083	50	0	103	68	Hång Cèc
+1084	60	0	103	69	B¶o T­îng
+1085	60	0	103	70	Phong L«i
+1086	70	0	103	71	Vu Hµm
+1087	70	0	103	72	Tr­êng sinh
+1088	40	0	100	11	NhuyÔn Kim y
+1089	40	0	100	12	Th­¬ng  Lan y
+1090	50	0	100	13	Lam K×nh b× gi¸p
+1091	50	0	100	14	XÝch Long bµo
+1092	60	0	100	15	Thiªn Lang y
+1093	60	0	100	16	B¨ng Tµm Trï sam
+1094	70	0	100	17	S¬n Quû huyÕt y
+1095	70	0	100	18	Thiªn Gi¸ng bµo
+1096	40	0	100	29	Di Nhiªm Kh¸ch y
+1097	40	0	100	30	Thiªn NhÉn y
+1098	50	0	100	31	ThÇn S¸ch Kim gi¸p
+1099	50	0	100	32	L«i Ng©n Gi¸p
+1100	60	0	100	33	Tinh Cang HuyÒn Kim gi¸p
+1101	60	0	100	34	Háa Chu Th¸nh sam
+1102	70	0	100	35	HuyÕt Hµ Quû V­¬ng gi¸p
+1103	70	0	100	36	Long B¸ ¤ kim y
+1104	40	0	100	47	Thanh Linh Th­êng
+1105	40	0	100	48	Hång Nghª Th­êng
+1106	50	0	100	49	L©n Quang gi¸p
+1107	50	0	100	50	Hå C¬ Vò y
+1108	60	0	100	51	Minh Quang gi¸p
+1109	60	0	100	52	Nghª Th­êng Vò y
+1110	70	0	100	53	Thiªn y
+1111	70	0	100	54	Phi Thiªn Th¸i Th­êng
+1112	40	0	100	65	Thiªn C«ng §Êu y
+1113	40	0	100	66	Linh Lung Th­êng
+1114	50	0	100	67	Thó V­¬ng §Êu y
+1115	50	0	100	68	Th¸i Hoa Th­êng
+1116	60	0	100	69	NghÞch V©n §Êu y
+1117	60	0	100	70	CÈm V©n Th­êng
+1118	70	0	100	71	V« Song §Êu y
+1119	70	0	100	72	Ngò S¾c Nghª Th­êng
+1120	40	0	101	10	Nh­ ý trang
+1121	40	0	101	11	Long B× trang
+1122	50	0	101	12	HuyÒn ¶nh trang
+1123	50	0	101	13	Thiªn Lang trang
+1124	50	0	101	14	Phi Ng­ trang
+1125	60	0	101	15	Thanh V©n trang
+1126	60	0	101	16	BÝch L©n trang
+1127	70	0	101	17	S¸t KiÕp trang
+1128	70	0	101	18	¤ Tµm trang
+1129	40	0	101	28	Thanh S­¬ng trang
+1130	40	0	101	29	Thiªn Phong trang
+1131	50	0	101	30	BÝ Èn trang
+1132	50	0	101	31	ThÇn S¸ch trang
+1133	50	0	101	32	Thiªn L«i trang
+1134	60	0	101	33	Nhu C­¬ng trang
+1135	60	0	101	34	Cuång Viªm trang
+1136	70	0	101	35	HuyÕt Hµ trang
+1137	70	0	101	36	Thiªn C­¬ng Trang
+1138	40	0	101	46	V©n Hµ Tó Trang
+1139	40	0	101	47	Toµn Kim Gi¸p Trang
+1140	50	0	101	48	Hång V©n Tó Trang
+1141	50	0	101	49	L«i ThÇn
+1142	50	0	101	50	Thiªn M·
+1143	60	0	101	51	Ph¸ TrËn
+1144	60	0	101	52	PhÊt V©n
+1145	70	0	101	53	Hæ TiÕu
+1146	70	0	101	54	Th¸i Thanh
+1147	40	0	101	64	Khëi La Tó Trang
+1148	40	0	101	65	Vâ ThÇn Tó Trang
+1149	50	0	101	66	Linh Lung Tó Trang
+1150	50	0	101	67	B¸ch ChiÕn
+1151	50	0	101	68	ThÇn N÷
+1152	60	0	101	69	Vò Linh
+1153	60	0	101	70	T¶n Hoa
+1154	70	0	101	71	Hång Ngäc
+1155	70	0	101	72	XuÊt V©n

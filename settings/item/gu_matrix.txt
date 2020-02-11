@@ -1,0 +1,45 @@
+Tªn cæ mÉu	Lo¹i h×nh chİnh	Lo¹i h×nh phô	Ph©n lo¹i chi tiÕt	NÆng	Gi¸	CÊp bËt ­u tiªn	Yªu cÇu: ®éc hÖ	Yªu cÇu: huyÕt hÖ	Yªu cÇu: linh hÖ	Yªu cÇu: ma hÖ	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)	HiÖn h×nh nhá trªn giao diÖn	HiÖn h×nh lín trªn giao diÖn	ThuyÕt minh	L­u (chuçi kı tù)	Khi vøt ra ngoµi sÏ hiÓn thŞ tªn	File gèc	L­u ( Ch÷ sè)	Cã/kh«ng thÓ giao dŞch (0 ®­îc,1 kh«ng ®­îc,)	Cã/kh«ng thÓ vøt (0 ®­îc; 1 kh«ng ®­îc)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)
+Cæ thÇn	2	16	1	1	1	1	100	100	100	100								\image\item\gumu\¹ÆÉña1.spr	\image\item\gumu\¹ÆÉña0.spr	Cã thÓ sinh ra tÊt c¶ c¸c loµi s©u ®éc.		Sinh ho¹t			2	1		
+H¾c Cæ Ma	2	16	2	1	1	5	90	90	90	90								\image\item\gumu\ºÚ¹ÆÄ§a1.spr	\image\item\gumu\ºÚ¹ÆÄ§a0.spr	mang s¸t khİ.		Sinh ho¹t			2	1		
+Kim Cæ V­¬ng	2	16	3	1	1	10	80	80	80	80								\image\item\gumu\½ğ¹ÆÍõa1.spr	\image\item\gumu\½ğ¹ÆÍõa0.spr	n¨ng lùc m¹nh nh­ng tİnh t×nh «n hßa		Sinh ho¹t			2	1		
+Thiªn HuyÕt Yªu Cæ MÉu	2	16	4	1	1	15	100	100	100	0								\image\item\gumu\´óÑª×ğ¹ÆÄ¸a1.spr	\image\item\gumu\´óÑª×ğ¹ÆÄ¸a0.spr	Thuéc tİnh ®éc huyÕt linh, thÕ gian hiÕm thÊy.		Sinh ho¹t			2	1		
+Thiªn Linh Yªu Cæ MÉu	2	16	5	1	1	15	0	100	100	100								\image\item\gumu\´óÁé×ğ¹ÆÄ¸a1.spr	\image\item\gumu\´óÁé×ğ¹ÆÄ¸a0.spr	Thuéc tİnh huyÕt, linh, ma, thÕ gian hiÕm thÊy.		Sinh ho¹t			2	1		
+Thiªn §éc Yªu Cæ MÉu	2	16	6	1	1	15	100	100	0	100								\image\item\gumu\´ó¶¾×ğ¹ÆÄ¸a1.spr	\image\item\gumu\´ó¶¾×ğ¹ÆÄ¸a0.spr	Thuéc tİnh ma, ®éc, huyÕt, thÕ gian hiÕm thÊy.		Sinh ho¹t			2	1		
+Thiªn Ma Yªu Cæ MÉu	2	16	7	1	1	15	100	0	100	100								\image\item\gumu\´óÄ§×ğ¹ÆÄ¸a1.spr	\image\item\gumu\´óÄ§×ğ¹ÆÄ¸a0.spr	Thuéc tİnh linh, ma, ®éc, thÕ gian hiÕm thÊy.		Sinh ho¹t			2	1		
+§¹i HuyÕt T«n Cæ MÉu	2	16	8	1	1	20	90	90	90	0								\image\item\gumu\´óÑª×ğ¹ÆÄ¸a1.spr	\image\item\gumu\´óÑª×ğ¹ÆÄ¸a0.spr	Thuéc tİnh ®éc, huyÕt, linh t­¬ng ®èi m¹nh		Sinh ho¹t			2	1		
+§¹i Linh T«n Cæ MÉu	2	16	9	1	1	20	0	90	90	90								\image\item\gumu\´óÁé×ğ¹ÆÄ¸a1.spr	\image\item\gumu\´óÁé×ğ¹ÆÄ¸a0.spr	Thuéc tİnh huyÕt, linh, ma t­¬ng ®èi m¹nh		Sinh ho¹t			2	1		
+§¹i §éc T«n Cæ MÉu	2	16	10	1	1	20	90	90	0	90								\image\item\gumu\´ó¶¾×ğ¹ÆÄ¸a1.spr	\image\item\gumu\´ó¶¾×ğ¹ÆÄ¸a0.spr	Thuéc tİnh ma,®éc, huyÕt t­¬ng ®èi m¹nh		Sinh ho¹t			2	1		
+§¹i Ma T«n Cæ MÉu	2	16	11	1	1	20	90	0	90	90								\image\item\gumu\´óÄ§×ğ¹ÆÄ¸a1.spr	\image\item\gumu\´óÄ§×ğ¹ÆÄ¸a0.spr	Thuéc tİnh linh, ma, ®éc t­¬ng ®èi m¹nh		Sinh ho¹t			2	1		
+§éc Thanh Cæ MÉu	2	16	12	1	1	25	100	0	0	0								\image\item\gumu\ÓÄÇà¹ÆÄ¸a1.spr	\image\item\gumu\ÓÄÇà¹ÆÄ¸a0.spr	§éc tİnh cùc m¹nh, lËp tøc lµm tª liÖt ®èi ph­¬ng.		Sinh ho¹t			2	1		
+HuyÕt Xİch Cæ MÉu	2	16	13	1	1	25	0	100	0	0								\image\item\gumu\Ñô³à¹ÆÄ¸a1.spr	\image\item\gumu\Ñô³à¹ÆÄ¸a0.spr	Thuéc hÖ huyÕt, hÔ ®ông vµo lµ v« ph­¬ng cøu ch÷a		Sinh ho¹t			2	1		
+Linh Tö Cæ MÉu	2	16	14	1	1	25	0	0	100	0								\image\item\gumu\Ğş×Ï¹ÆÄ¸a1.spr	\image\item\gumu\Ğş×Ï¹ÆÄ¸a0.spr	Thuéc hÖ linh, sö dông linh lùc t­¬ng ®èi m¹nh b¶o vÖ tù th©n		Sinh ho¹t			2	1		
+Ma B¹ch Cæ MÉu	2	16	15	1	1	25	0	0	0	100								\image\item\gumu\Ú¤°×¹ÆÄ¸a1.spr	\image\item\gumu\Ú¤°×¹ÆÄ¸a0.spr	Thuéc hÖ ma, toµn th©n ph¸t ra ma khİ, ng­êi th­êng kh«ng d¸m ®Õn gÇn.		Sinh ho¹t			2	1		
+§Şa HuyÕt S¸t Cæ MÉu	2	16	16	1	1	30	80	80	80	0								\image\item\gumu\Ğ¡ÑªÍõ¹ÆÄ¸a1.spr	\image\item\gumu\Ğ¡ÑªÍõ¹ÆÄ¸a0.spr	Thuéc tİnh ®éc, ma, linh t­¬ng ®èi m¹nh, khã cã thÓ ®Õn gÇn.		Sinh ho¹t			2	1		
+§Şa Linh S¸t Cæ MÉu	2	16	17	1	1	30	0	80	80	80								\image\item\gumu\Ğ¡ÁéÍõ¹ÆÄ¸a1.spr	\image\item\gumu\Ğ¡ÁéÍõ¹ÆÄ¸a0.spr	Thuéc tİnh huyÕt, linh, ma t­¬ng ®èi m¹nh, khã cã thÓ ®Õn gÇn.		Sinh ho¹t			2	1		
+§Şa §éc S¸t Cæ MÉu	2	16	18	1	1	30	80	80	0	80								\image\item\gumu\Ğ¡¶¾Íõ¹ÆÄ¸a1.spr	\image\item\gumu\Ğ¡¶¾Íõ¹ÆÄ¸a0.spr	Thuéc tİnh ma, ®éc, huyÕt t­¬ng ®èi m¹nh, khã cã thÓ ®Õn gÇn.		Sinh ho¹t			2	1		
+§Şa Ma S¸t Cæ MÉu	2	16	19	1	1	30	80	0	80	80								\image\item\gumu\Ğ¡Ä§Íõ¹ÆÄ¸a1.spr	\image\item\gumu\Ğ¡Ä§Íõ¹ÆÄ¸a0.spr	Thuéc tİnh linh, ma, ®éc t­¬ng ®èi m¹nh, khã cã thÓ ®Õn gÇn.		Sinh ho¹t			2	1		
+U Thanh Cæ MÉu	2	16	20	1	1	35	90	0	0	0								\image\item\gumu\ÓÄÇà¹ÆÄ¸a1.spr	\image\item\gumu\ÓÄÇà¹ÆÄ¸a0.spr	Thuéc hÖ ®éc, toµn th©n mµu xanh rÊt lµ nguy hiÓm.		Sinh ho¹t			2	1		
+D­¬ng Xİch Cæ MÉu	2	16	21	1	1	35	0	90	0	0								\image\item\gumu\Ñô³à¹ÆÄ¸a1.spr	\image\item\gumu\Ñô³à¹ÆÄ¸a0.spr	Thuéc hÖ huyÕt, rÊt nhiÒu xóc tu, rÊt lµ nguy hiÓm.		Sinh ho¹t			2	1		
+HuyÒn Tö Cæ MÉu	2	16	22	1	1	35	0	0	90	0								\image\item\gumu\Ğş×Ï¹ÆÄ¸a1.spr	\image\item\gumu\Ğş×Ï¹ÆÄ¸a0.spr	Thuéc linh hÖ, vá dµy vµ ch¾c, cã 3 sîi r©u rÊt lín.		Sinh ho¹t			2	1		
+Minh B¹ch Cæ MÉu	2	16	23	1	1	35	0	0	0	90								\image\item\gumu\Ú¤°×¹ÆÄ¸a1.spr	\image\item\gumu\Ú¤°×¹ÆÄ¸a0.spr	Thuéc ma hÖ, cã nhiÒu ®èt, mçi ®èt cã thÓ sinh ra v« sè s©u nhá.		Sinh ho¹t			2	1		
+TiÓu HuyÕt V­¬ng Cæ MÉu	2	16	24	1	1	40	70	70	70	0								\image\item\gumu\Ğ¡ÑªÍõ¹ÆÄ¸a1.spr	\image\item\gumu\Ğ¡ÑªÍõ¹ÆÄ¸a0.spr	Thuéc tİnh ®éc, huyÕt, linh t­¬ng ®èi m¹nh, th©n thÓ d­êng nh­ mét tói ®éc lín.		Sinh ho¹t			2	1		
+TiÓu Linh V­¬ng Cæ MÉu	2	16	25	1	1	40	0	70	70	70								\image\item\gumu\Ğ¡ÁéÍõ¹ÆÄ¸a1.spr	\image\item\gumu\Ğ¡ÁéÍõ¹ÆÄ¸a0.spr	Trªn th©n cã nh÷ng ®èm tr¾ng. Ma tİnh rÊt cao.		Sinh ho¹t			2	1		
+TiÓu §éc V­¬ng Cæ MÉu	2	16	26	1	1	40	70	70	0	70								\image\item\gumu\Ğ¡¶¾Íõ¹ÆÄ¸a1.spr	\image\item\gumu\Ğ¡¶¾Íõ¹ÆÄ¸a0.spr	Thuéc tİnh ma, ®éc, huyÕt t­¬ng ®èi m¹nh, cã mét con m¾t rÊt lín, bé gi¸p rÊt dµy.		Sinh ho¹t			2	1		
+TiÓu Ma V­¬ng Cæ MÉu	2	16	27	1	1	40	70	0	70	70								\image\item\gumu\Ğ¡Ä§Íõ¹ÆÄ¸a1.spr	\image\item\gumu\Ğ¡Ä§Íõ¹ÆÄ¸a0.spr	Thuéc tİnh linh, ma, ®éc t­¬ng ®èi m¹nh, trªn da cã rÊt nhiÒu tuyÕn ®éc.		Sinh ho¹t			2	1		
+Bİch Thanh Cæ MÉu	2	16	28	1	1	45	80	0	0	0								\image\item\gumu\Õ¿Çà¹ÆÄ¸a1.spr	\image\item\gumu\Õ¿Çà¹ÆÄ¸a0.spr	Thuéc hÖ ®éc, chØ sinh ë n¬i Èm ­ít, rÊt lµ nguy hiÓm.		Sinh ho¹t			2	1		
+Háa Xİch Cæ MÉu	2	16	29	1	1	45	0	80	0	0								\image\item\gumu\Öì³à¹ÆÄ¸a1.spr	\image\item\gumu\Öì³à¹ÆÄ¸a0.spr	Thuéc hÖ huyÕt, thİch hót m¸u loµi chim		Sinh ho¹t			2	1		
+¢m Tö Cæ MÉu	2	16	30	1	1	45	0	0	80	0								\image\item\gumu\°µ×Ï¹ÆÄ¸a1.spr	\image\item\gumu\°µ×Ï¹ÆÄ¸a0.spr	Thuéc hÖ linh, thÊy ¸nh s¸ng lµ chÕt.		Sinh ho¹t			2	1		
+MËt B¹ch Cæ MÉu	2	16	31	1	1	45	0	0	0	80								\image\item\gumu\¼«°×¹ÆÄ¸a1.spr	\image\item\gumu\¼«°×¹ÆÄ¸a0.spr	Thuéc tİnh ma, tr¶i qua chİn chİn t¸m m­¬i mèt ngµy míi tr­ëng thµnh.		Sinh ho¹t			2	1		
+Tr¹m Thanh Cæ MÉu	2	16	32	1	1	50	70	0	0	0								\image\item\gumu\Õ¿Çà¹ÆÄ¸a1.spr	\image\item\gumu\Õ¿Çà¹ÆÄ¸a0.spr	Thuéc hÖ ®éc, toµn th©n trong suèt, ®u«i cã ®èm ®á		Sinh ho¹t			2	1		
+Chu Xİch Cæ MÉu	2	16	33	1	1	50	0	70	0	0								\image\item\gumu\Öì³à¹ÆÄ¸a1.spr	\image\item\gumu\Öì³à¹ÆÄ¸a0.spr	Thuéc hÖ huyÕt, gièng èc ma, gi¸c mót rÊt nhiÒu.		Sinh ho¹t			2	1		
+¸m Tö Cæ MÉu	2	16	34	1	1	50	0	0	70	0								\image\item\gumu\°µ×Ï¹ÆÄ¸a1.spr	\image\item\gumu\°µ×Ï¹ÆÄ¸a0.spr	Thuéc hÖ linh, xóc gi¸c th« vµ dµi tiÖn cho viÖc hót chÊt dinh d­ìng.		Sinh ho¹t			2	1		
+Cùc B¹ch Cæ MÉu	2	16	35	1	1	50	0	0	0	70								\image\item\gumu\¼«°×¹ÆÄ¸a1.spr	\image\item\gumu\¼«°×¹ÆÄ¸a0.spr	Thuéc hÖ ma, ph¸t ra v« sè ¸nh s¸ng xanh, d­íi bông cã bµo tö rÊt to.		Sinh ho¹t			2	1		
+Th©m Thanh Cæ MÉu	2	16	36	1	1	55	50	0	0	0								\image\item\gumu\Çà¹ÆÄ¸a1.spr	\image\item\gumu\Çà¹ÆÄ¸a0.spr	Thuéc hÖ ®éc, mµu xanh ®Ëm.		Sinh ho¹t			2	1		
+§¹i Xİch Cæ MÉu	2	16	37	1	1	55	0	50	0	0								\image\item\gumu\³à¹ÆÄ¸a1.spr	\image\item\gumu\³à¹ÆÄ¸a0.spr	Thuéc hÖ huyÕt, mµu ®á ®Ëm.		Sinh ho¹t			2	1		
+MÆc Tö Cæ MÉu	2	16	38	1	1	55	0	0	50	0								\image\item\gumu\×Ï¹ÆÄ¸a1.spr	\image\item\gumu\×Ï¹ÆÄ¸a0.spr	Thuéc hÖ linh, mµu tİm ®en.		Sinh ho¹t			2	1		
+Kh«i B¹ch Cæ MÉu	2	16	39	1	1	55	0	0	0	50								\image\item\gumu\°×¹ÆÄ¸a1.spr	\image\item\gumu\°×¹ÆÄ¸a0.spr	Thuéc hÖ ma, mµu x¸m tr¾ng.		Sinh ho¹t			2	1		
+Thanh Cæ MÉu	2	16	40	1	1	60	30	0	0	0								\image\item\gumu\Çà¹ÆÄ¸a1.spr	\image\item\gumu\Çà¹ÆÄ¸a0.spr	Thuéc hÖ ®éc, mµu xanh.		Sinh ho¹t			2	1		
+Xİch Cæ MÉu	2	16	41	1	1	60	0	30	0	0								\image\item\gumu\³à¹ÆÄ¸a1.spr	\image\item\gumu\³à¹ÆÄ¸a0.spr	Thuéc hÖ huyÕt,  mµu ®á.		Sinh ho¹t			2	1		
+Tö Cæ MÉu	2	16	42	1	1	60	0	0	30	0								\image\item\gumu\×Ï¹ÆÄ¸a1.spr	\image\item\gumu\×Ï¹ÆÄ¸a0.spr	Thuéc hÖ linh, mµu tİm		Sinh ho¹t			2	1		
+B¹ch Cæ MÉu	2	16	43	1	1	60	0	0	0	30								\image\item\gumu\°×¹ÆÄ¸a1.spr	\image\item\gumu\°×¹ÆÄ¸a0.spr	Thuéc hÖ ma, mµu tr¾ng.		Sinh ho¹t			2	1		
+Cæ MÉu	2	16	44	1	1	100	0	0	0	0								\image\item\gumu\¹ÆÄ¸a1.spr	\image\item\gumu\¹ÆÄ¸a0.spr	C¬ thÓ dïng ®Ó nu«i d­ìng s©u nhá, b¶n th©n kh«ng cã ®éc tİnh.		Sinh ho¹t			2	1		

@@ -1,0 +1,4 @@
+ID	StartHour	StartMin	EndHour	EndMin	RefValue	MaxValue	MinValue	AllowMap	MissionId	RealMapId	Script	Function	Tips	TongReject
+ID duy nhÊt	Thêi gian b¾t ®Çu	Thêi gian b¾t ®Çu	Thêi gian kÕt thóc	Thêi gian kÕt thóc	Nh©n sè tham kh¶o	Nh©n sè lín nhÊt	Nh©n sè Ýt nhÊt	B¶n ®å cho phÐp	MissionId	M« h×nh b¶n ®å	Thùc hiÖn script	Thùc hiÖn hµm sè	Tªn cöa ¶i	Lo¹i bá cïng bang ( sè l­îng ®éi ngò cïng bang giíi h¹n, 0 lo¹i bá kh«ng giíi h¹n)
+1	12	45	13	0	15	20	10	428	65	6074	\script\missions\tong_melee\mission.lua	enterTongMelee	Lo¹n chiÕn bang héi	3
+2	22	15	22	30	15	20	10	428	65	6074	\script\missions\tong_melee\mission.lua	enterTongMelee	Lo¹n chiÕn bang héi	3
