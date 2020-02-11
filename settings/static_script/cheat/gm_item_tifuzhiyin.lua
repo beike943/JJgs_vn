@@ -1,10 +1,10 @@
---Ìå·şÖ¸Òı
+--ä½“æœæŒ‡å¼•
 
 Include("\\script\\lib\\globalfunctions.lua");
 Include("\\script\\task\\world\\task_head.lua")
 Include("\\script\\system_switch_config.lua")
 
-g_szTitle = "<color=green>H­íng dÉn:<color>"
+g_szTitle = "<color=green>GMç§˜ç±:ä¸€æœ¬åœ¨æ‰‹ï¼Œå¤©ä¸‹æˆ‘æœ‰!<color>"
 
 function OnUse(nItem)
 	if 1 ~= IsExpSvrSystemOpen() then
@@ -15,55 +15,68 @@ function OnUse(nItem)
 	local nRoute = GetPlayerRoute();
 	if nRoute <= 0 then
 		tSay = {
-			"Gia nhËp m«n ph¸i/JoinRoute_UpdateLevel",
+			"åŠ å…¥é—¨æ´¾å’Œå‡çº§/JoinRoute_UpdateLevel",
+			"è·å¾—1000é‡‘/Get_Money",
+			"ç§˜ç±å’Œè¯€è¦/Get_Book",
+			"ç”Ÿæ´»æŠ€èƒ½/Life_Skill",
+			"åˆ·æ½œèƒ½ç‚¹/shuashuxing",
+			"è£…å¤‡å‡çº§ç›¸å…³/Get_Enhance",
+			"è¡¥å……ç²¾åŠ›/Get_Energy",
 		}
 	else
 		tSay = {
-			"N©ng cao ®¼ng cÊp chuyÓn sinh nh©n vËt/player_reborn",
-			--"»ñÈ¡Ò«ÑîÌ××°+10/Get_YaoYang_10",
-			--"Ëæ»ú»ñµÃ3¼¶½ğÉß×°±¸+10/Get_JinShe",
-			format("%s/Process_Equip_LingTu", "NhËn Linh §å +10"),
-			format("%s/Process_SanJianTao", "NhËn trang søc ®eo h«ng 4 sao"),
-			"NhËn L­u Ph¸i Ch©n QuyÓn vµ QuyÕt YÕu/Get_Book",
-			"NhËn 1000 vµng/Get_Money",
-			--"°ï»á²Ù×÷/TongOperation",
-			"Thao th¸c kinh m¹ch/GetJingMai",
-			--"²¹³ä¾«Á¦/Get_Energy",
-			--"Éú»î¼¼ÄÜ/Life_Skill",
-			"NhËn tµi liÖu c­êng hãa/Get_Enhance",
-			"NhËn ®¸ quı/Get_Gem",
-			format("%s/Pet_OP", "Phôc sinh thó c­ng"),
-			format("%s/getTiLi", "Håi phôc thÓ lùc"),
-			format("%s/getTianJiaoLing", "NhËn Thiªn Kiªu LÖnh"),
+			"ç­‰çº§æå‡åˆ°90çº§/player_reborn",
+			"è·å–è€€æ¨å¥—è£…+15/Get_YaoYang_10",
+			"éšæœºè·å¾—3çº§é‡‘è›‡è£…å¤‡+15/Get_JinShe",
+			format("%s/Process_Equip_LingTu", "è·å¾—é¢†åœŸè£…å¤‡+15"),
+			format("%s/Process_SanJianTao", "è·å¾—ä¸‰ä»¶å¥— æŠ«é£ å¾½ç«  é‹"),
+			"ç§˜ç±å’Œè¯€è¦/Get_Book",
+			"åˆ·æ½œèƒ½ç‚¹/shuashuxing",
+			"è·å¾—1000é‡‘/Get_Money",
+			"å¸®ä¼šæ“ä½œ/TongOperation",
+			"è·å¾—ç»è„‰/GetJingMai",
+			"è¡¥å……ç²¾åŠ›/Get_Energy",
+			"ç”Ÿæ´»æŠ€èƒ½/Life_Skill",
+			"è£…å¤‡å‡çº§ç›¸å…³/Get_Enhance",
+			"è·å¾—å®çŸ³/Get_Gem",
+			format("%s/Pet_OP", "å® ç‰©ç›¸å…³"),
+			format("%s/getTiLi", "è·å¾—ä½“åŠ›"),
+			format("%s/getTianJiaoLing", "è·å¾—å¤©éª„ä»¤"),
 		}
 		if 3 == nRoute then
-			tinsert(tSay, "NhËn Thiªn PhËt Ch©u vµ Ph¸ Ma Chó/Give_ZhuzhuZhouzhou")
+			tinsert(tSay, "é¢†å–å¤©ä½›ç æˆ–ç ´é­”å’’/Give_ZhuzhuZhouzhou")
 		end
 		if 6 == nRoute then
-			tinsert(tSay, "NhËn ¸m Khİ vµ C¬ Quan/Give_JiguanAnqi")
+			tinsert(tSay, "æœºå…³æš—å™¨/Give_JiguanAnqi")
 		end
 		if 8 == nRoute then
-			tinsert(tSay, "NhËn X¸ Lîi Kim §¬n/Give_Dandan")
+			tinsert(tSay, "èˆåˆ©é‡‘ä¸¹/Give_Dandan")
 		end		
 		if 17 == nRoute then
-			tinsert(tSay, "NhËn ChiÕn M·/Give_ZhanMa")
+			tinsert(tSay, "è·å¾—æˆ˜é©¬/Give_ZhanMa")
 		end
 		if 18 == nRoute then
-			tinsert(tSay, "NhËn ChiÕn M· vµ Tô TiÔn/Give_Jiancu")
+			tinsert(tSay, "è·å¾—ç®­ç°‡/Give_Jiancu")
 		end
 		if 20 == nRoute then
-			tinsert(tSay, "NhËn Phong Thi Phï/Give_Fengshifu")
+			tinsert(tSay, "è·å¾—å°å°¸ç¬¦/Give_Fengshifu")
 		end
 		if 21 == nRoute then
-			tinsert(tSay, "NhËn Cæ/Give_GuGu")
+			tinsert(tSay, "Nhè–¾ C?Give_GuGu")
 		end
 		if 30 == nRoute then
-			tinsert(tSay, "NhËn §iªu/ling_nv_xiaodiao")
+			tinsert(tSay, "ç¿ çƒŸçµå¥³å°è²‚/ling_nv_xiaodiao")
 		end
 	end
-	tinsert(tSay, "Thanh lı tói/ClearBagAllItem");
-	tinsert(tSay, "T¹i h¹ chØ xem qua th«i/nothing");
-	Say(g_szTitle.."Ng­¬i cÇn gióp ®ì g×?", getn(tSay), tSay);
+	tinsert(tSay, "æ¸…ç©ºèƒŒåŒ…/ClearBagAllItem");
+	tinsert(tSay, "é€€å‡º/nothing");
+	Say(g_szTitle.."", getn(tSay), tSay);
+end
+
+function shuashuxing()
+	SetLevel(1,999 * 5)
+
+
 end
 
 function getTianJiaoLing()
@@ -79,12 +92,12 @@ end
 function Pet_OP()
 	local tSay = {}
 	if GetSkillLevel(30149) == 0 then
-		tinsert(tSay, format("%s/activePet", "Kİch ho¹t phôc sinh thó c­ng"))
+		tinsert(tSay, format("%s/activePet", "æ¿€æ´»å® ç‰©"))
 	end
-	tinsert(tSay, format("%s/getPetEgg", "NhËn Trøng Thó C­ng"))
-	tinsert(tSay, format("%s/getLingLi", "NhËn ®iÓm linh lùc"))
-	tinsert(tSay, "T¹i h¹ chØ xem qua th«i/nothing");
-	Say(g_szTitle.."Ng­¬i cÇn gióp ®ì g×?", getn(tSay), tSay);
+	tinsert(tSay, format("%s/getPetEgg", "è·å¾—å® ç‰©é£Ÿå“"))
+	tinsert(tSay, format("%s/getLingLi", "é¢†å–çµåŠ›"))
+	tinsert(tSay, "ä¸Šä¸€æ­¥/nothing");
+	Say(g_szTitle.."æˆ‘èƒ½ä¸ºæ‚¨æ•ˆåŠ³å—?", getn(tSay), tSay);
 end
 
 function activePet()
@@ -95,22 +108,22 @@ function activePet()
 			LevelUpSkill(nId)
 		end
 		
-		Msg2Player("§· häc Gi¸ng Linh ThuËt cÊp 5");
+		Msg2Player("ä»Šå¤©æ˜¯åœ£è¯èŠ‚");
 		PlaySound("\\sound\\sound_i016.wav");
 		SetCurrentNpcSFX(PIdx2NpcIdx(),905,0,0)
 	end
 end
 
 function Process_SanJianTao()
-   if 1 ~= gf_Judge_Room_Weight(10, 1, g_szTitle) then
+   if 1 ~= gf_Judge_Room_Weight(15, 1, g_szTitle) then
 		return 0;
 	end
 	for i=26,28 do
-    local pifeng,pIndex	=AddItem(0,154,i,1,1,-1,-1,-1,-1,-1,-1,0,10)
+    local pifeng,pIndex	=AddItem(0,154,i,1,1,-1,-1,-1,-1,-1,-1,0,15)
     FeedItem(pIndex,1000000)
-		local huizhang,hIndex	=AddItem(0,153,i,1,1,-1,-1,-1,-1,-1,-1,0,10)
+		local huizhang,hIndex	=AddItem(0,153,i,1,1,-1,-1,-1,-1,-1,-1,0,15)
 		FeedItem(hIndex,1000000)
-		local xie,xIndex	=AddItem(0,152,i,1,1,-1,-1,-1,-1,-1,-1,0,10)
+		local xie,xIndex	=AddItem(0,152,i,1,1,-1,-1,-1,-1,-1,-1,0,15)
 		FeedItem(xIndex,1000000)
 	end
 end
@@ -128,7 +141,7 @@ function getLingLi()
 	if nCur < 1000000 then
 		nCur = nCur + nAdd
 		SetTask(nTask, nCur*100)
-		Msg2Player(format("NhËn thµnh c«ng %d linh lùc", nAdd))
+		Msg2Player(format("æˆåŠŸé¢†å–çµåŠ›", nAdd))
 	end
 end
 
@@ -142,110 +155,110 @@ function Process_Equip_LingTu()
 		local nRoute	= GetPlayerRoute();
 		local nBody 	= GetBody();
 		if nRoute == 2 then
-            AddItem(0,3,30207,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,3,30207,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 3 then
-            AddItem(0,8,30208,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,8,30208,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 4 then
-            AddItem(0,0,30209,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,0,30209,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 6 then
-            AddItem(0,1,30210,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,1,30210,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 8 then
-            AddItem(0,2,30211,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,2,30211,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 9 then
-            AddItem(0,10,30212,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,10,30212,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 11 then
-            AddItem(0,0,30213,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,0,30213,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 12 then
-            AddItem(0,5,30214,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,5,30214,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 14 then
-            AddItem(0,2,30215,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,2,30215,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 15 then
-            AddItem(0,9,30216,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,9,30216,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 17 then
-            AddItem(0,6,30217,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,6,30217,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 18 then
-            AddItem(0,4,30218,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,4,30218,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 20 then
-            AddItem(0,7,30219,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,7,30219,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 21 then
-            AddItem(0,11,30220,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,11,30220,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 23 then
-            AddItem(0,2,30221,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,2,30221,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 29 then
-            AddItem(0,13,30222,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,13,30222,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nRoute == 30 then
-            AddItem(0,12,30223,1,1,-1,-1,-1,-1,-1,-1,-1,10)		
+            AddItem(0,12,30223,1,1,-1,-1,-1,-1,-1,-1,-1,15)		
 		end 
 		if nBody == 1 then
-			AddItem(0,101,30235,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,101,30239,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,101,30243,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,100,30235,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,103,30235,1,1,-1,-1,-1,-1,-1,-1,-1,10)
+			AddItem(0,101,30235,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,101,30239,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,101,30243,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,100,30235,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,103,30235,1,1,-1,-1,-1,-1,-1,-1,-1,15)
 		end
 		if nBody == 2 then
-			AddItem(0,101,30236,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,101,30240,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,101,30244,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,100,30236,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,103,30236,1,1,-1,-1,-1,-1,-1,-1,-1,10)
+			AddItem(0,101,30236,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,101,30240,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,101,30244,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,100,30236,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,103,30236,1,1,-1,-1,-1,-1,-1,-1,-1,15)
 		end
 		if nBody == 3 then
-			AddItem(0,101,30237,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,101,30241,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,101,30245,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,100,30237,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,103,30237,1,1,-1,-1,-1,-1,-1,-1,-1,10)
+			AddItem(0,101,30237,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,101,30241,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,101,30245,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,100,30237,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,103,30237,1,1,-1,-1,-1,-1,-1,-1,-1,15)
 		end
 		if nBody == 4 then
-			AddItem(0,101,30238,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,101,30242,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,101,30246,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,100,30238,1,1,-1,-1,-1,-1,-1,-1,-1,10)
-			AddItem(0,103,30238,1,1,-1,-1,-1,-1,-1,-1,-1,10)
+			AddItem(0,101,30238,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,101,30242,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,101,30246,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,100,30238,1,1,-1,-1,-1,-1,-1,-1,-1,15)
+			AddItem(0,103,30238,1,1,-1,-1,-1,-1,-1,-1,-1,15)
 		end
 end
 
 function JoinRoute_UpdateLevel()
 	if GetPlayerFaction() ~= 0 then
-		Talk(1,"",format("Ng­¬i ®· gia nhËp m«n ph¸i råi, ta kh«ng thÓ gióp ®­îc g×."));
+		Talk(1,"",format("ä½ å·²ç»åŠ å…¥äº†è¿™ä¸ªé—¨æ´¾,æˆ‘å¸®ä¸äº†ä½ ."));
 		return 0;
 	end
 	local tMenu = {
-		"ThiÕu L©m/join_sl",
-		"Vâ §ang/join_wd",
-		"Nga My/join_em",
-		"C¸i Bang/join_gb",
-		"§­êng M«n/join_tm",
-		"D­¬ng M«n/join_ym",
-		"Ngò §éc/join_wdu",
-		"C«n L«n/join_kl",
-		"Thóy Yªn/join_cy",
-		"Ra khái/nothing",
+		"åŠ å…¥å°‘æ—/join_sl",
+		"åŠ å…¥æ­¦å½“/join_wd",
+		"åŠ å…¥å³¨çœ‰/join_em",
+		"åŠ å…¥ä¸å¸®/join_gb",
+		"åŠ å…¥å”é—¨/join_tm",
+		"åŠ å…¥æ¨é—¨/join_ym",
+		"åŠ å…¥äº”æ¯’/join_wdu",
+		"åŠ å…¥æ˜†ä»‘/join_kl",
+		"åŠ å…¥ç¿ çƒŸ/join_cy",
+		"ä¸Šä¸€æ­¥/nothing",
 	};
-	Say("Ng­¬i muèn gia nhËp l­u ph¸i g×?", getn(tMenu), tMenu);
+	Say("åŠ å…¥é—¨æ´¾å—?", getn(tMenu), tMenu);
 end
 
---------------------------------------------------Ñ¡ÔñÃÅÅÉ¿ªÊ¼--------------------------------------
+--------------------------------------------------é€‰æ‹©é—¨æ´¾å¼€å§‹--------------------------------------
 function join_sl()
 	if GetSex() == 2 then
-		Say(g_szTitle.."Ph¸i ThiÕu L©m chØ thu nhËn ®Ö tö nam", 0);
+		Say(g_szTitle.."", 0);
 		return
 	end
 
@@ -254,11 +267,11 @@ function join_sl()
 	end;
 
 	local szSay = {
-		g_szTitle.."Ng­¬i muèn gia nhËp l­u ph¸i g×?",
-		"ThiÕu L©m vâ t«ng/#enter_mp(4)",
-		"ThiÕu L©m thiÒn t«ng/#enter_mp(3)",
-		"ThiÕu L©m tôc gia/#enter_mp(2)",
-		"Ra khái/nothing",
+		g_szTitle.."è¯·é€‰æ‹©åŠ å…¥ä¸€ä¸ªåˆ†æ”¯!",
+		"å°‘æ—æ­¦åƒ§/#enter_mp(4)",
+		"æˆä¸ºå°‘æ—ç¦…åƒ§/#enter_mp(3)",
+		"æˆä¸ºå°‘æ—ä¿—å®¶/#enter_mp(2)",
+		"ä¸Šä¸€æ­¥/nothing",
 	};
 
 	SelectSay(szSay);
@@ -270,10 +283,10 @@ function join_wd()
 	end;
 
 	local szSay = {
-		g_szTitle.."Ng­¬i muèn gia nhËp l­u ph¸i g×?",
-		"Vâ §ang ®¹o gia/#enter_mp(14)",
-		"Vâ §ang tôc gia/#enter_mp(15)",
-		"Ra khái/nothing",
+		g_szTitle.."è¯·é€‰æ‹©åŠ å…¥ä¸€ä¸ªåˆ†æ”¯!",
+		"æ­¦å½“é“å®¶/#enter_mp(14)",
+		"æ­¦å½“ä¿—å®¶/#enter_mp(15)",
+		"ä¸Šä¸€æ­¥/nothing",
 	};
 
 	SelectSay(szSay);
@@ -281,7 +294,7 @@ end;
 
 function join_em()
 	if GetSex() == 1 then
-		Say(g_szTitle.."Nga My kh«ng nhËn ®Ö tö nam", 0);
+		Say(g_szTitle.."å³¨çœ‰ä¸æ”¶ç”·å¼Ÿå­", 0);
 		return
 	end
 
@@ -290,10 +303,10 @@ function join_em()
 	end
 
 	local szSay = {
-		g_szTitle.."Ng­¬i muèn gia nhËp l­u ph¸i g×?",
-		"Nga My phËt gia/#enter_mp(8)",
-		"Nga My tôc gia/#enter_mp(9)",
-		"Ra khái/nothing",
+		g_szTitle.."è¯·é€‰æ‹©åŠ å…¥ä¸€ä¸ªåˆ†æ”¯!",
+		"å³¨åµ‹ä½›å®¶/#enter_mp(8)",
+		"å³¨åµ‹ä¿—å®¶/#enter_mp(9)",
+		"ä¸Šä¸€æ­¥/nothing",
 	};
 
 	SelectSay(szSay);
@@ -305,10 +318,10 @@ function join_gb()
 	end;
 
 	local szSay = {
-		g_szTitle.."Ng­¬i muèn gia nhËp l­u ph¸i g×?",
-		"C¸i Bang TÜnh y/#enter_mp(11)",
-		"C¸i Bang ¤ Y/#enter_mp(12)",
-		"Ra khái/nothing",
+		g_szTitle.."è¯·é€‰æ‹©åŠ å…¥ä¸€ä¸ªåˆ†æ”¯!",
+		"ä¸å¸®å‡€è¡£/#enter_mp(11)",
+		"ä¸å¸®æ±¡è¡£/#enter_mp(12)",
+		"ä¸Šä¸€æ­¥/nothing",
 	};
 	SelectSay(szSay);
 end;
@@ -319,9 +332,9 @@ function join_tm()
 	end;
 
 	local szSay = {
-		g_szTitle.."Ng­¬i muèn gia nhËp l­u ph¸i g×?",
-		"§­êng M«n/#enter_mp(6)",
-		"Ra khái/nothing",
+		g_szTitle.."åŠ å…¥å”é—¨?",
+		"å”é—¨/#enter_mp(6)",
+		"ä¸Šä¸€æ­¥/nothing",
 	};
 	SelectSay(szSay);
 end;
@@ -332,10 +345,10 @@ function join_ym()
 	end;
 
 	local szSay = {
-		g_szTitle.."Ng­¬i muèn gia nhËp l­u ph¸i g×?",
-		"D­¬ng M«n th­¬ng Kş/#enter_mp(17)",
-		"D­¬ng M«n Cung Kş/#enter_mp(18)",
-		"Ra khái/nothing",
+		g_szTitle.."è¯·é€‰æ‹©åŠ å…¥ä¸€ä¸ªåˆ†æ”¯!",
+		"æ¨é—¨æªéª‘/#enter_mp(17)",
+		"æ¨é—¨å¼“éª‘/#enter_mp(18)",
+		"ä¸Šä¸€æ­¥/nothing",
 	};
 	SelectSay(szSay);
 end;
@@ -346,17 +359,17 @@ function join_wdu()
 	end;
 
 	local szSay = {
-		g_szTitle.."Ng­¬i muèn gia nhËp l­u ph¸i g×?",
-		"HiÖp §éc/#enter_mp(20)",
-		"Tµ §éc/#enter_mp(21)",
-		"Ra khái/nothing",
+		g_szTitle.."è¯·é€‰æ‹©åŠ å…¥ä¸€ä¸ªåˆ†æ”¯!",
+		"äº”æ¯’é‚ªä¾ /#enter_mp(20)",
+		"äº”æ¯’è›Šå¸ˆ/#enter_mp(21)",
+		"ä¸Šä¸€æ­¥/nothing",
 	};
 	SelectSay(szSay);
 end;
 
 function join_kl()
 	if GetSex()==2 then
-		Talk(1,"","C«n L«n kh«ng thu nhËn ®Ö tö n÷!");
+		Talk(1,"","æ˜†ä»‘ä¸æ¥å—å¥³å¼Ÿå­!");
 		return 0
 	end
 
@@ -365,16 +378,16 @@ function join_kl()
 	end;
 
 	local szSay = {
-		g_szTitle.."Ng­¬i muèn gia nhËp l­u ph¸i g×?",
-		"C«n L«n Thiªn S­/#enter_mp(23)",
-		"Ra khái/nothing",
+		g_szTitle.."è¯·é€‰æ‹©åŠ å…¥ä¸€ä¸ªåˆ†æ”¯!",
+		"æ˜†ä»‘å¤©å¸ˆ/#enter_mp(23)",
+		"ä¸Šä¸€æ­¥/nothing",
 	};
 	SelectSay(szSay);
 end;
 
 function join_cy()
 	if GetSex()==1 then
-		Talk(1,"","Thóy Yªn kh«ng thu nhËn ®Ö tö nam!");
+		Talk(1,"","ç¿ çƒŸä¸æ”¶ç”·å¼Ÿå­!");
 		return 0
 	end
 
@@ -383,119 +396,119 @@ function join_cy()
 	end;
 
 	local szSay = {
-		g_szTitle.."Ng­¬i muèn gia nhËp l­u ph¸i g×?",
-		"Thóy Yªn Vò Tiªn/#enter_mp(29)",
-		"Thóy Yªn Linh N÷/#enter_mp(30)",
-		"Ra khái/nothing",
+		g_szTitle.."è¯·é€‰æ‹©åŠ å…¥ä¸€ä¸ªåˆ†æ”¯!",
+		"ç¿ çƒŸèˆä»™/#enter_mp(29)",
+		"ç¿ çƒŸçµå¥³/#enter_mp(30)",
+		"ä¸Šä¸€æ­¥/nothing",
 	};
 	SelectSay(szSay);
 end;
 
------------------------------------------ÈëÃÅÅÉ----------------------------------------
+-----------------------------------------å…¥é—¨æ´¾----------------------------------------
 function enter_mp(nRoute)
 	local nBegin = 0;
 	local nEnd = 0;
-	local nBody = GetBody(); --1=Õı³£ÄĞ£¬2=¿ıÎàÄĞ£¬3=ĞÔ¸ĞÅ®£¬4=½¿Ğ¡Å®
+	local nBody = GetBody(); --1=æ­£å¸¸ç”·ï¼Œ2=é­æ¢§ç”·ï¼Œ3=æ€§æ„Ÿå¥³ï¼Œ4=å¨‡å°å¥³
 
-	SetPlayerRoute(nRoute);						--ÉèÖÃÁ÷ÅÉ
+	SetPlayerRoute(nRoute);						--è®¾ç½®æµæ´¾
 
-	if nRoute == 2 then						--ÉÙÁÖË×¼Ò
+	if nRoute == 2 then						--å°‘æ—ä¿—å®¶
 		LearnSkill(3);
 		LearnSkill(5);
 		LearnSkill(32);
 		nBegin = 21;
 		nEnd = 31;
-	elseif nRoute == 3 then					--ÉÙÁÖìøÉ®
+	elseif nRoute == 3 then					--å°‘æ—ç¦…åƒ§
 		LearnSkill(6);
 		LearnSkill(57);
 		nBegin = 45;
 		nEnd = 56;
-	elseif nRoute == 4 then					--ÉÙÁÖÎäÉ®
+	elseif nRoute == 4 then					--å°‘æ—æ­¦åƒ§
 		LearnSkill(2);
 		LearnSkill(44);
 		nBegin = 33;
 		nEnd = 43;
-	elseif nRoute == 14 then					--Îäµ±µÀ¼Ò
+	elseif nRoute == 14 then					--æ­¦å½“é“å®¶
 		LearnSkill(4);
 		LearnSkill(146);
 		nBegin = 125;
 		nEnd = 145;
-	elseif nRoute == 15 then					--Îäµ±Ë×¼Ò
+	elseif nRoute == 15 then					--æ­¦å½“ä¿—å®¶
 		LearnSkill(5);
 		LearnSkill(159);
 		nBegin = 147;
 		nEnd = 158;
-	elseif nRoute == 8 then					--¶ëáÒ·ğ¼Ò
+	elseif nRoute == 8 then					--å³¨åµ‹ä½›å®¶
 		LearnSkill(4);
 		LearnSkill(89);
 		nBegin = 75
 		nEnd = 88;
-	elseif nRoute == 9 then					--¶ëáÒË×¼Ò
+	elseif nRoute == 9 then					--å³¨åµ‹ä¿—å®¶
 		LearnSkill(10);
 		LearnSkill(102);
 		nBegin = 90
 		nEnd = 101;
-	elseif nRoute == 11 then					--Ø¤°ï¾»ÒÂ
+	elseif nRoute == 11 then					--ä¸å¸®å‡€è¡£
 		LearnSkill(2);
 		LearnSkill(113);
 		nBegin = 103
 		nEnd = 112;
-	elseif nRoute == 12 then					--Ø¤°ïÎÛÒÂ
+	elseif nRoute == 12 then					--ä¸å¸®æ±¡è¡£
 		LearnSkill(5);
 		LearnSkill(124);
 		nBegin = 114
 		nEnd = 123;
-	elseif nRoute == 6 then					--ÌÆÃÅ
+	elseif nRoute == 6 then					--å”é—¨
 		LearnSkill(7);
 		LearnSkill(74);
 		nBegin = 58
 		nEnd = 73;
-	elseif nRoute == 17 then					--ÑîÃÅÇ¹Æï
+	elseif nRoute == 17 then					--æ¨é—¨æªéª‘
 		LearnSkill(11);
 		LearnSkill(732);
 		nBegin = 720;
 		nEnd = 731;
-	elseif nRoute == 18 then					--ÑîÃÅ¹­Æï
+	elseif nRoute == 18 then					--æ¨é—¨å¼“éª‘
 		LearnSkill(12);
 		LearnSkill(745);
 		nBegin = 733;
 		nEnd = 744;
-	elseif nRoute == 20 then					--Îå¶¾Ğ°ÏÀ
+	elseif nRoute == 20 then					--äº”æ¯’é‚ªä¾ 
 		LearnSkill(13);
 		LearnSkill(775);
 		nBegin = 364;
 		nEnd = 377;
-	elseif nRoute == 21 then					--Îå¶¾¹ÆÊ¦
+	elseif nRoute == 21 then					--äº”æ¯’è›Šå¸ˆ
 		LearnSkill(14);
 		LearnSkill(774);
 		nBegin = 347;
 		nEnd = 363;
-	elseif nRoute == 23 then					--À¥ÂØÌìÊ¦
+	elseif nRoute == 23 then					--æ˜†ä»‘å¤©å¸ˆ
 		LearnSkill(4);
 		LearnSkill(1032);
 		nBegin = 1017 ;
 		nEnd = 1031;
-	elseif nRoute == 25 then					--Ã÷½ÌÊ¥Õ½
+	elseif nRoute == 25 then					--æ˜æ•™åœ£æˆ˜
 		LearnSkill(3);
 		LearnSkill(1066);
 		nBegin = 1053 ;
 		nEnd = 1065;
-	elseif nRoute == 26 then					--Ã÷½ÌÕó±ø
+	elseif nRoute == 26 then					--æ˜æ•™é˜µå…µ
 		LearnSkill(8);
 		LearnSkill(1096);
 		nBegin = 1083 ;
 		nEnd = 1095;
-	elseif nRoute == 27 then					--Ã÷½ÌÑªÈË
+	elseif nRoute == 27 then					--æ˜æ•™è¡€äºº
 		LearnSkill(14);
 		LearnSkill(1213);
 		nBegin = 1131 ;
 		nEnd = 1143;
-	elseif nRoute == 29 then					--´äÑÌÎèÏÉ
+	elseif nRoute == 29 then					--ç¿ çƒŸèˆä»™
 		LearnSkill(15);
 		LearnSkill(1196);
 		nBegin = 1165 ;
 		nEnd = 1176;
-	elseif nRoute == 30 then					--´äÑÌÁéÅ®
+	elseif nRoute == 30 then					--ç¿ çƒŸçµå¥³
 		LearnSkill(16);
 		LearnSkill(1230);
 		nBegin = 1217 ;
@@ -512,17 +525,17 @@ function enter_mp(nRoute)
 		end
 	end;
 
-	----------------------------ÉèÖÃÊıÖµ------------
-	SetTask(336, 20000);				--ÉèÖÃÊ¦ÃÅ¹±Ï×¶È
-	ModifyReputation(2000, 0);			--ÉèÖÃÉùÍû
-	PlayerReborn(1, random(4));			--6×ª
-	gf_SetTaskByte(1538, 1, 5) 			--5×ª
-	SetLevel(90, 1);								--ÉèÖÃµÈ¼¶
+	----------------------------è®¾ç½®æ•°å€¼------------
+	SetTask(336, 20000);				--è®¾ç½®å¸ˆé—¨è´¡çŒ®åº¦
+	ModifyReputation(2000, 0);			--è®¾ç½®å£°æœ›
+	PlayerReborn(1, random(4));			--6è½¬
+	gf_SetTaskByte(1538, 1, 5) 			--5è½¬
+	SetLevel(90, 1);								--è®¾ç½®ç­‰çº§
 	
 	PlaySound("\\sound\\sound_i016.wav");
 	SetCurrentNpcSFX(PIdx2NpcIdx(),905,0,0)
-	Msg2Player("Thao t¸c thµnh c«ng, h·y ®¨ng nhËp l¹i")
-	Talk(1,"","Thao t¸c thµnh c«ng, h·y ®¨ng nhËp l¹i")
+	Msg2Player("æ“ä½œæˆåŠŸ,è¯·å†æ¬¡ç™»å½•æ¸¸æˆ!")
+	Talk(1,"","æ“ä½œæˆåŠŸ,è¯·å†æ¬¡ç™»å½•æ¸¸æˆ!")
 end
 
 function Get_YaoYang_10()
@@ -534,7 +547,7 @@ function Get_YaoYang_10()
 		end
 		local nRoute	= GetPlayerRoute();
 		local nBody 	= GetBody();
-		local nLevel  = 10;
+		local nLevel  = 15;
 		if nRoute == 2 and nBody ==1 then 
 				AddItem(0,100,3128,1,1,-1,-1,-1,-1,-1,-1,1,nLevel)
 				AddItem(0,101,3128,1,1,-1,-1,-1,-1,-1,-1,1,nLevel)
@@ -886,7 +899,7 @@ function Get_JinShe()
 		end
 		local nRoute	= GetPlayerRoute();
 		local nBody 	= GetBody();
-		local nLevel  = 10;
+		local nLevel  = 15;
 		if nRoute == 2 then 
 				local pifeng,pIndex	=AddItem(0,152,9,1,1,-1,-1,-1,-1,-1,-1,0,nLevel)
 				SetItemFeedUpAttrs(pIndex,186,164,182,759,771,825)
@@ -1097,11 +1110,11 @@ end
 
 function Get_Book()
 	local szSay = {
-		g_szTitle.."NhËn L­u Ph¸i Ch©n QuyÓn vµ QuyÕt YÕu!",
-		"NhËn Ch©n QuyÓn/Get_Book_ZhenJuan",
-		"NhËn QuyÕt YÕu/Get_Book_JueYao",
-		"Th¨ng cÊp mËt tŞch ®· trang bŞ/Get_Book_Update",
-		"Ra khái/nothing",
+		g_szTitle.."é€‰ä¸€ä¸ªå§",
+		"è·å¾—çœŸå·/Get_Book_ZhenJuan",
+		"è·å¾—è¯€è¦/Get_Book_JueYao",
+		"ç§˜ç±å‡çº§/Get_Book_Update",
+		"ä¸Šä¸€æ­¥/nothing",
 	};
 	SelectSay(szSay);
 end
@@ -1183,22 +1196,22 @@ function Get_Book_ZhenJuan()
 		AddItem(0, 107, 217-38,5)
 	end
 	
-	if nRoute == 23 then--À¥ÂØÌìÊ¦
+	if nRoute == 23 then--æ˜†ä»‘å¤©å¸ˆ
 		AddItem(0, 107, 218,5)
 		AddItem(0, 107, 218-20,5)
 	end
 	
-	if nRoute == 29 then--ÎèÏÉ
+	if nRoute == 29 then--èˆä»™
 		AddItem(0, 107, 222,5)
 	  AddItem(0, 107, 222-20,5)
 	end
 	
-	if nRoute == 30 then--ÁéÅ®
+	if nRoute == 30 then--çµå¥³
 		AddItem(0, 107, 223,5)
 		AddItem(0, 107, 223-20,5)
 	end
 	
-	gf_AddItemEx({0, 112, 158,	1, 4}, "L¨ng Ba Vi Bé toµn tËp");
+	gf_AddItemEx({0, 112, 158,	1, 4}, "æ¥æœ¬å‡Œæ³¢å¾®æ­¥å§");
 end
 
 function Get_Book_JueYao()
@@ -1235,7 +1248,7 @@ function Get_Book_JueYao()
 	end
 
 	for i = tJue[nRoute][1],tJue[nRoute][2] do
-		gf_AddItemEx({2, 6, i, 1, 4}, "QuyÕt YÕu");
+		gf_AddItemEx({2, 6, i, 1, 4}, "è¯€è¦");
 	end
 end
 
@@ -1320,11 +1333,11 @@ end
 
 function ling_nv_xiaodiao()
 	local szSay = {};
-	szSay[getn(szSay) + 1] = "NhËn TiÓu §iªu/Give_XiaoDiao";
-	szSay[getn(szSay) + 1] = "Nu«i TiÓu §iªu/Give_XiaoDiaoFood";
-	szSay[getn(szSay) + 1] = "HuÊn luyÖn TiÓu §iªu/Feed_XiaoDiao";
-	szSay[getn(szSay) + 1] = "Ra khái/nothing";
-	Say(g_szTitle.."TiÓu §iªu thao t¸c.", getn(szSay), szSay)
+	szSay[getn(szSay) + 1] = "è·å¾—å°è²‚/Give_XiaoDiao";
+	szSay[getn(szSay) + 1] = "è·å¾—å°è²‚é£Ÿç‰©/Give_XiaoDiaoFood";
+	szSay[getn(szSay) + 1] = "å–‚è²‚/Feed_XiaoDiao";
+	szSay[getn(szSay) + 1] = "ä¸Šä¸€æ­¥/nothing";
+	Say(g_szTitle.."é€‰ä¸€ä¸ªå§", getn(szSay), szSay)
 end
 
 
@@ -1352,14 +1365,14 @@ end
 function Feed_XiaoDiao()
 	local nPetItemIndex = GetPlayerEquipIndex(12);
 	if (nPetItemIndex == nil or nPetItemIndex <=0) then
-		Msg2Player("C¸c h¹ ch­a cã thó c­ng, kh«ng thÓ tiÕn hµnh huÊn luyÖn!");
+		Msg2Player("å¯¹ä¸èµ·, ä½ å¥½åƒæ²¡æœ‰è²‚!");
 		return
 	end;
 	local ItemGen, ItemDetail, ItemParticular = GetItemInfoByIndex(nPetItemIndex);
 	if (ItemGen == nil or ItemDetail == nil or ItemParticular == nil)
 		or (ItemGen ~= 2 or ItemDetail ~= 20)
 	then
-		Msg2Player("C¸c h¹ ch­a cã thó c­ng, kh«ng thÓ tiÕn hµnh huÊn luyÖn!");
+		Msg2Player("å¯¹ä¸èµ·, ä½ å¥½åƒæ²¡æœ‰è²‚!");
 		return
 	end
 
@@ -1370,7 +1383,7 @@ end
 
 function ClearBagAllItem(bTag)
 	if not bTag or tonumber(bTag) ~= 1 then
-		Say(g_szTitle.."Ng­¬i muèn thanh lı tói?", 2, "§ång ı/#ClearBagAllItem(1)", "Ra khái/nothing")
+		Say(g_szTitle.."ç¡®å®šè¦æ¸…ç©ºèƒŒåŒ…å—?", 2, "æ˜¯çš„/#ClearBagAllItem(1)", "ä¸/nothing")
 		return
 	end
 	ClearItemInPos();
@@ -1381,17 +1394,17 @@ end
 
 function TongOperation()
 	local szSay = {
-		g_szTitle.."Thao t¸c bang héi",
-		"Ta muèn lËp bang héi/TongOperation_Create",
-		"Ta muèn th¨ng cÊp bang héi/TongOperation_update",
-		"Ra khái/nothing",
+		g_szTitle.."å¸®ä¼šæ“ä½œ",
+		"å»ºç«‹å¸®ä¼š/TongOperation_Create",
+		"å¸®ä¼šå‡çº§/TongOperation_update",
+		"ä¸Šä¸€æ­¥/nothing",
 	};
 	SelectSay(szSay);
 end
 
 function TongOperation_Create()
 	if IsTongMember() ~= 0 then
-		Talk(1,"","Ng­¬i ®· cã bang héi");
+		Talk(1,"","ä½ æ—©å°±å·²ç»æœ‰å¸®ä¼šäº†");
 		return
 	end
 	if gf_Judge_Room_Weight(2, 100, " ") ~= 1 then
@@ -1423,14 +1436,14 @@ end
 
 function GetJingMai()
 	local szSay = {
-		g_szTitle.."Thao th¸c kinh m¹ch",
-		"TÈy ®iÓm kinh m¹ch/GetJingMai_Reset",
-		format("%s/getZhenqi", "NhËn ch©n khİ"),
-		format("%s/getJingMaiTongRen", "NhËn Kinh M¹ch §ång Nh©n"),
-		"Ra khái/nothing",
+		g_szTitle.."ç»è„‰ç›¸å…³",
+		"é‡ç½®ç»è„‰/GetJingMai_Reset",
+		format("%s/getZhenqi", "è·å¾—ç»è„‰"),
+		format("%s/getJingMaiTongRen", "è·å¾—ç»è„‰é“œäººï¼Ÿ"),
+		"ä¸Šä¸€æ­¥/nothing",
 	};
 	if MeridianGetLevel() < 4 then
-		tinsert(szSay, 2, "Th¨ng cÊp c¶nh giíi Vâ T«n/GetJingMai_Update")
+		tinsert(szSay, 2, "ç»è„‰å‡çº§/GetJingMai_Update")
 	end
 	SelectSay(szSay);
 end
@@ -1461,7 +1474,7 @@ end
 
 function GetJingMai_Reset(bTag)
 	if not bTag or tonumber(bTag) ~= 1 then
-		Say(g_szTitle.."Thao th¸c kinh m¹ch", 2,"§ång ı/#GetJingMai_Reset(1)", "Hñy bá/nothing")
+		Say(g_szTitle.."ç¡®å®šè¦é‡ç½®ç»è„‰ï¼Ÿ", 2,"æ˜¯çš„/#GetJingMai_Reset(1)", "å–æ¶ˆ/nothing")
 		return 0;
 	end
 	MeridianRestore(-1);
@@ -1470,9 +1483,9 @@ function GetJingMai_Reset(bTag)
 end
 
 function player_reborn()
-	PlayerReborn(2, random(4));			--6×ª
-	gf_SetTaskByte(1538, 1, 5) 			--5×ª
-	SetLevel(90, 1);								--ÉèÖÃµÈ¼¶
+	PlayerReborn(2, random(4));			--6è½¬
+	gf_SetTaskByte(1538, 1, 5) 			--5è½¬
+	SetLevel(90, 1);								--è®¾ç½®ç­‰çº§
 	
 	PlaySound("\\sound\\sound_i016.wav");
 	SetCurrentNpcSFX(PIdx2NpcIdx(),905,0,0);
@@ -1485,17 +1498,17 @@ end
 
 function Life_Skill()
 	local tSay = {
-		"Muèn t¨ng cÊp kü n¨ng thu thËp/upgrade_gather_skill",
-		"Muèn t¨ng cÊp kü n¨ng s¶n xuÊt/upgrade_compose_skill",
-		"NhËn nguyªn liÖu chÕ trang bŞ Linh §å/get_lingtu_equip_material",
-		"T¹i h¹ chØ xem qua th«i/nothing",
+		"å‡çº§é‡‡é›†æŠ€èƒ½/upgrade_gather_skill",
+		"å‡çº§åˆ¶ä½œæŠ€èƒ½/upgrade_compose_skill",
+		"è·å¾—é¢†åœŸè£…å¤‡ææ–™/get_lingtu_equip_material",
+		"ä¸Šä¸€æ­¥/nothing",
 	}
-	Say(g_szTitle.."T¨ng cÊp kü n¨ng sèng", getn(tSay), tSay);
+	Say(g_szTitle.."é‡‡é›†æŠ€èƒ½ç›¸å…³", getn(tSay), tSay);
 end
 
 function upgrade_gather_skill()
 	local tGather = {1, 2, 5, 6};
-	local tName = {"§èn c©y", "Lµm da", "§µo kho¸ng", "KĞo t¬"};
+	local tName = {"ä¿®å‰ªæ ‘æ", "åšçš®è‚¤", "æŒ–çŸ¿çŸ³", "æŠ½ä¸"};
 	local str = ""
 	for k, v in tName do
 		str = str.."<color=gold>"..v.."<color>,"
@@ -1504,13 +1517,13 @@ function upgrade_gather_skill()
 		local nCur = GetLifeSkillLevel(0, v)
 		local nMax = GetLifeSkillMaxLevel(0, v);
 		if nMax > nCur then
-			local msg = g_szTitle..format("HiÖn t¹i chØ cã thÓ th¨ng cÊp kü n¨ng %s, <color=gold>%s<color> ®ang ®¹t cÊp <color=green>%d<color>, muèn th¨ng cÊp <color=gold>%s<color> ®Õn cÊp <color=green>%d<color> kh«ng?",
+			local msg = g_szTitle..format("ç°åœ¨å¯ä»¥è¿›è¡ŒæŠ€èƒ½å‡çº§%s, <color=gold>%s<color> æ˜¯å¦è¾¾åˆ°äº†å‡çº§æ ‡å‡† <color=green>%d<color>, æƒ³å‡çº§ <color=gold>%s<color> å·²å‡åˆ°æœ€é«˜çº§ <color=green>%d<color> ä¸è¦äº†",
 				 str, tName[k], nCur, tName[k], nMax);
-			Say(msg, 2, format("§ång ı/#upgrade_gather_skill_do(%d, %d)", v, nMax), "Hñy bá/nothing")
+			Say(msg, 2, format("æ˜¯/#upgrade_gather_skill_do(%d, %d)", v, nMax), "ä¸/nothing")
 			return 0;
 		end
 	end
-	Talk(1,"","Kh«ng cã kü n¨ng sèng cã thÓ th¨ng cÊp, h·y ®i t×m NPC ®Ó häc vµ th¨ng cÊp giíi h¹n kü n¨ng ®Õn cÊp 99")
+	Talk(1,"","æ²¡æœ‰ç”Ÿæ´»æŠ€èƒ½å¯ä»¥æå‡ï¼Œå»æ‰¾NPCå­¦ä¹ ï¼ŒæŠŠæŠ€èƒ½æå‡åˆ°99çº§.")
 end
 
 function upgrade_gather_skill_do(nSkill, nMax)
@@ -1518,16 +1531,16 @@ function upgrade_gather_skill_do(nSkill, nMax)
 		AddLifeSkillExp(0, nSkill, 9999999);		
 	end
 	if 79 == nMax then
-		Talk(1,"","HiÖn ®· hoµn thµnh th¨ng cÊp kü n¨ng, h·y ®i t×m NPC ®Ó t¨ng cÊp giíi h¹n ®Õn 99 nµo!")
+		Talk(1,"","å·²å®Œæˆ, æŠ€èƒ½å‡åˆ°æœ€é«˜çº§äº†!")
 	end
-	Msg2Player(format("Thµnh c«ng t¨ng cÊp kü n¨ng ®Õn cÊp %d", nMax));
+	Msg2Player(format("å½“å‰æŠ€èƒ½ç­‰çº§%d", nMax));
 	PlaySound("\\sound\\sound_i016.wav");
 	SetCurrentNpcSFX(PIdx2NpcIdx(),905,0,0);
 end
 
 function upgrade_compose_skill()
 	local tGather = {2, 3, 4, 5, 9, 10};
-	local tName = {"ChÕ t¹o binh khİ dµi", "ChÕ t¹o binh khİ ng¾n", "ChÕ t¹o kú m«n binh khİ", "Lµm hé gi¸p", "H¹ trang", "§Çu qu¸n"};
+	local tName = {"é•¿å…µå™¨åˆ¶é€ ", "çŸ­å…µå™¨åˆ¶é€ ", "æ­¦å™¨åˆ¶é€ ", "åˆ¶ä½œç›”ç”²", "ä¸‹ä¸€é¡µ", "åˆ¶ä½œå¤´å† "};
 	local str = ""
 	for k, v in tName do
 		str = str.."<color=gold>"..v.."<color>,"
@@ -1536,13 +1549,13 @@ function upgrade_compose_skill()
 		local nCur = GetLifeSkillLevel(1, v)
 		local nMax = GetLifeSkillMaxLevel(1, v);
 		if nMax > nCur then
-			local msg = g_szTitle..format("HiÖn t¹i chØ cã thÓ th¨ng cÊp kü n¨ng %s, <color=gold>%s<color> ®ang ®¹t cÊp <color=green>%d<color>, muèn th¨ng cÊp <color=gold>%s<color> ®Õn cÊp <color=green>%d<color> kh«ng?",
+			local msg = g_szTitle..format("ç°åœ¨å¯ä»¥è¿›è¡ŒæŠ€èƒ½å‡çº§%s, <color=gold>%s<color> æ˜¯å¦è¾¾åˆ°äº†æ ‡å‡† <color=green>%d<color>, å‡çº§ <color=gold>%s<color> î†¬n cè•„ <color=green>%d<color> ä¸è¦äº†",
 				 str, tName[k], nCur, tName[k], nMax);
-			Say(msg, 2, format("§ång ı/#upgrade_compose_skill_do(%d, %d)", v, nMax), "Hñy bá/nothing")
+			Say(msg, 2, format("æ˜¯çš„/#upgrade_compose_skill_do(%d, %d)", v, nMax), "ä¸/nothing")
 			return 0;
 		end
 	end
-	Talk(1,"","Kh«ng cã kü n¨ng sèng cã thÓ th¨ng cÊp, h·y ®i t×m NPC ®Ó häc vµ th¨ng cÊp giíi h¹n kü n¨ng ®Õn cÊp 99")
+	Talk(1,"","æ²¡æœ‰ç”Ÿæ´»æŠ€èƒ½å¯ä»¥æå‡ï¼Œå»æ‰¾NPCå­¦ä¹ ï¼ŒæŠŠæŠ€èƒ½æå‡åˆ°99çº§.")
 end
 
 function upgrade_compose_skill_do(nSkill, nMax)
@@ -1550,16 +1563,16 @@ function upgrade_compose_skill_do(nSkill, nMax)
 		AddLifeSkillExp(1, nSkill, 9999999);		
 	end
 	if 79 == nMax then
-		Talk(1,"","HiÖn ®· hoµn thµnh th¨ng cÊp kü n¨ng, h·y ®i t×m NPC ®Ó t¨ng cÊp giíi h¹n ®Õn 99 nµo!")
+		Talk(1,"","å·²å®Œæˆ, æŠ€èƒ½å‡åˆ°æœ€é«˜çº§äº†!")
 	end
-	Msg2Player(format("Thµnh c«ng t¨ng cÊp kü n¨ng ®Õn cÊp %d", nMax));
+	Msg2Player(format("å½“å‰æŠ€èƒ½ç­‰çº§  %d", nMax));
 	PlaySound("\\sound\\sound_i016.wav");
 	SetCurrentNpcSFX(PIdx2NpcIdx(),905,0,0);
 end
 
 function get_lingtu_equip_material()
 	if gf_Judge_Room_Weight(18, 100) ~= 1 then
-		Talk(1,"",format("Tói kh«ng ®ñ %d « trèng", 18));
+		Talk(1,"",format("èƒŒåŒ…ç©ºé—´ä¸å¤Ÿ  %d æ ¼", 18));
 		return 0;
 	end
 	AddItem(2, 1, 30670, 999);
@@ -1584,19 +1597,19 @@ end
 
 function Get_Enhance()
 	local tSay = {
-		"NhËn ThÇn Th¹ch §Şnh Hån/Get_Enhance_1",
-		"NhËn Tinh th¹ch Thiªn Th¹ch/Get_Enhance_2",
-		"T¹i h¹ chØ xem qua th«i/nothing",
+		"è·å¾—é™¨é“çµçŸ³å’Œå®šé­‚é™¨é“ç¥çŸ³/Get_Enhance_1",
+		"è·å¾—é™¨é“ç²¾çŸ³/Get_Enhance_2",
+		"ä¸Šä¸€æ­¥/nothing",
 	}
-	Say(g_szTitle.."T¨ng cÊp kü n¨ng sèng", getn(tSay), tSay);
+	Say(g_szTitle.."æƒ³è¦ä»€ä¹ˆ", getn(tSay), tSay);
 end
 
 function Get_Enhance_1()
 	if gf_Judge_Room_Weight(2, 10, " ") ~= 1 then
 		return 0;
 	end
-	gf_AddItemEx2({2, 1, 1068, 1}, "Thiªn Th¹ch linh th¹ch", "Get_Enhance_1", "NhËn ThÇn Th¹ch §Şnh Hån", 0, 1);
-	gf_AddItemEx2({2, 1, 1067, 1}, "Thiªn Th¹ch linh th¹ch", "Get_Enhance_1", "NhËn ThÇn Th¹ch §Şnh Hån", 0, 1);
+	gf_AddItemEx2({2, 1, 1068, 1}, "é™¨é“çµçŸ³", "Get_Enhance_1", "è·å¾—é™¨é“çµçŸ³", 0, 1);
+	gf_AddItemEx2({2, 1, 1067, 1}, "å®šé­‚é™¨é“ç¥çŸ³", "Get_Enhance_1", "è·å¾—å®šé­‚é™¨é“ç¥çŸ³", 0, 1);
 end
 
 function Get_Enhance_2()
@@ -1604,7 +1617,7 @@ function Get_Enhance_2()
 		return 0;
 	end
 	AddItem(2, 1, 1009, 100);
-	WriteLogEx("Get_Enhance_2","NhËn Tinh th¹ch Thiªn Th¹ch", 100, "Thiªn Th¹ch Tinh Th¹ch");
+	WriteLogEx("Get_Enhance_2","é™¨é“æ™¶çŸ³", 100, "è·å¾—100ä¸ªé™¨é“æ™¶çŸ³");
 end
 
 function Get_Gem()
@@ -1612,11 +1625,11 @@ function Get_Gem()
 		return 0;
 	end
 	AddItem(2, 22, 101, 100);
-	WriteLogEx("Get_Gem","NhËn ®¸ quı", 100, "HuyÕtTrİchTh¹ch Lv5");
+	WriteLogEx("Get_Gem","è·å–å®çŸ³", 100, "Huyèª¸Trè¼ˆhThç­©h Lv5");
 	AddItem(2, 22, 201, 100);
-	WriteLogEx("Get_Gem","NhËn ®¸ quı", 100, "NguyÖtB¹chTh¹ch Lv5");
+	WriteLogEx("Get_Gem","è·å–å®çŸ³", 100, "Nguyè¬™Bç­©hThç­©h Lv5");
 	AddItem(2, 22, 301, 100);
-	WriteLogEx("Get_Gem","NhËn ®¸ quı", 100, "Hæ Ph¸ch Th¹ch CÊp 5");
+	WriteLogEx("Get_Gem","è·å–å®çŸ³", 100, "H?Phç«h Thç­©h Cè•„ 5");
 	AddItem(2, 22, 401, 100);	
-	WriteLogEx("Get_Gem","NhËn ®¸ quı", 100, "H¾c DiÖu Th¹ch CÊp 5");
+	WriteLogEx("Get_Gem","è·å–å®çŸ³", 100, "Hç¶¾ Diè¬š Thç­©h Cè•„ 5");
 end
