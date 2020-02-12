@@ -16,7 +16,7 @@ Include("\\script\\task\\world\\task_award.lua")
 Teach_Award_List = {
 
 	Award_01 = {
-		strAwardType = "§Õn gÆp D· TÈu",
+		strAwardType = "§Õn gÆp D?TÈu",
 		funAwardGive = function()
 			Earn(100);
 			ModifyExp(20);
@@ -25,16 +25,16 @@ Teach_Award_List = {
 	},
 	
 	Award_02 = {
-		strAwardType = "Chñ TiÖm vò khÝ",
+		strAwardType = "Ch?TiÖm v?kh",
 		funAwardGive = function()
 			AddItem(0,0,1,1,1,2,77);
 			GivePlayerExp(SKeyXinShou,"wuqidian")
-			Msg2Player("B¹n nhËn ®­îc 1 mãn vò khÝ!");
+			Msg2Player("ÄãµÃµ½1¼þÎäÆ÷");
 		end,
 	},
 	
 	Award_03 = {
-		strAwardType = "Chñ tiÖm trang phôc",
+		strAwardType = "Ch?tiÖm trang phôc",
 		funAwardGive = function()
 			local i=GetBody();
 			if i==1 then 
@@ -53,7 +53,7 @@ Teach_Award_List = {
 	},
 	
 	Award_04 = {
-		strAwardType = "Chñ Kim hoµn",
+		strAwardType = "Ch?Kim hoµn",
 		funAwardGive = function()
 		    local i = GetBody();
 		    if i==1 or i==2 then
@@ -62,32 +62,32 @@ Teach_Award_List = {
 			    AddItem(0,102,102,1,1,2,95,2,98);
 			end;
 			GivePlayerExp(SKeyXinShou,"shipindian")
-			Msg2Player("B¹n nhËn ®­îc 1 mãn trang søc!");
+			Msg2Player("Äú»ñµÃÒ»¼þ×°±¸!");
 		end,
 	},
 	
 	Award_05 = {
-		strAwardType = "Chñ D­îc ®iÕm",
+		strAwardType = "Ch?D­îc ®iÕm",
 		funAwardGive = function()
 			AddItem(1,0,2,20,1);
 			ModifyReputation(4,0);
 			GivePlayerExp(SKeyXinShou,"yaodian")
-			Msg2Player("B¹n nhËn ®­îc 20 b×nh Kim S¸ng t¸n!");
+			Msg2Player("Äú½«»ñµÃ20¸ö½ð´¯Ò©");
 		end,
 	},
 	
 	Award_06 = {
-		strAwardType = "Chñ T¹p hãa",
+		strAwardType = "Ch?T¹p hãa",
 		funAwardGive = function()
 			AddItem(2,5,1,2,1);
 			ModifyReputation(4,0);
 			GivePlayerExp(SKeyXinShou,"zahuodian")
-			Msg2Player("B¹n nhËn ®­îc 2 tÊm Gi¸m ®Þnh phï!");
+			Msg2Player("Äú»á»ñµÃ2¼ø¶¨·û£¡");
 		end,
 	},
 
 	Award_07 = {
-		strAwardType = "VÖ binh thµnh m«n",
+		strAwardType = "V?binh thµnh m«n",
 		funAwardGive = function()
 			Earn(50);
 			GivePlayerExp(SKeyXinShou,"chengmenweibin")
@@ -96,7 +96,7 @@ Teach_Award_List = {
 	},
 	
 	Award_08 = {
-		strAwardType = "Vâ s­",
+		strAwardType = "V?s",
 		funAwardGive = function()
 			ModifyReputation(4,0);
 			GivePlayerExp(SKeyXinShou,"wushi")
@@ -104,7 +104,7 @@ Teach_Award_List = {
 	},
 
 	Award_09 = {
-		strAwardType = "Chñ töu lÇu",
+		strAwardType = "Ch?töu lÇu",
 		funAwardGive = function()
 			GivePlayerExp(SKeyXinShou,"jiulou")
 			Earn(100);
@@ -113,7 +113,7 @@ Teach_Award_List = {
 	},
 	
 	Award_10 = {
-		strAwardType = "Tiªu s­",
+		strAwardType = "Tiªu s",
 		funAwardGive = function()
 			GivePlayerExp(SKeyXinShou,"biaoshi")
 			ModifyReputation(4,0);
@@ -122,7 +122,7 @@ Teach_Award_List = {
 	},
 	
 	Award_11 = {
-		strAwardType = "trao ®æi nhiÖm vô víi ng­êi kh¸c",
+		strAwardType = "trao ®æi nhiÖm v?víi ng­êi kh¸c",
 		funAwardGive = function()
 			Earn(100);
 			ModifyReputation(4,0)
@@ -131,7 +131,7 @@ Teach_Award_List = {
 	},
 	
 	Award_12 = {
-		strAwardType = "NhiÖm vô kÕt giao h¶o h÷u",
+		strAwardType = "NhiÖm v?kÕt giao h¶o h÷u",
 		funAwardGive = function()
 			local nPreservedPlayerIndex = PlayerIndex
 			local nMemCount = GetTeamSize()
@@ -157,7 +157,7 @@ Teach_Award_List = {
 					
 					AddItem(nGoods[i][1],nGoods[i][2],nGoods[i][3],1,1);
 					ModifyExp(100);			
-					Msg2Player("B¹n nhËn ®­îc 1 mãn trang bÞ!");
+					Msg2Player("Äú»ñµÃÒ»¼þ×°±¸!");
 				end;
 			
 			if z==1 then 
@@ -179,7 +179,7 @@ Teach_Award_List = {
 	},
 	
 	Award_13 = {
-		strAwardType = "HiÓu vÒ c¸c m«n ph¸i",
+		strAwardType = "HiÓu v?c¸c m«n ph¸i",
 		funAwardGive = function()
 		    
 		    local i=GetBody();
@@ -200,7 +200,7 @@ Teach_Award_List = {
 	},
 
 	Award_14 = {
-		strAwardType = "B¸ch HiÓu Sinh nhËn xÐt vÒ m«n ph¸i",
+		strAwardType = "B¸ch HiÓu Sinh nhËn xÐt v?m«n ph¸i",
 		funAwardGive = function()
 			Earn(100);
 			ModifyReputation(2,0);
@@ -208,7 +208,7 @@ Teach_Award_List = {
 	},
 
 	Award_15 = {
-		strAwardType = "ChuyÖn giang hå",
+		strAwardType = "ChuyÖn giang h",
 		funAwardGive = function()
 		    
 		    local i=GetBody();
