@@ -1,5 +1,5 @@
 lv	exp
-C蕄 	Kinh nghi謒
+级别	经验
 10	1000
 11	1000
 12	1500
