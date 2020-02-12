@@ -1,32 +1,32 @@
-Tªn lo¹i ®éc	Lo¹i h×nh chİnh	Lo¹i h×nh phô	Ph©n lo¹i chi tiÕt	NÆng	Gi¸	SÕp chång nhiÒu nhÊt	Yªu cÇu: ®éc hÖ	Yªu cÇu: huyÕt hÖ	Yªu cÇu: linh hÖ	Yªu cÇu: ma hÖ	Suy gi¶m hÖ §éc	Suy gi¶m hÖ HuyÕt	Suy gi¶m hÖ Linh	Suy gi¶m hÖ Ma	Suy gi¶m tuæi thä	Suy gi¶m ®ãi bông	Ph©n lo¹i	HiÖn h×nh nhá trªn giao diÖn	HiÖn h×nh lín trªn giao diÖn	ThuyÕt minh	L­u (chuçi kı tù)	Khi vøt ra ngoµi sÏ hiÓn thŞ tªn	File gèc	L­u ( Ch÷ sè)	Cã/kh«ng thÓ giao dŞch (0 ®­îc,1 kh«ng ®­îc,)	Cã/kh«ng thÓ vøt (0 ®­îc; 1 kh«ng ®­îc)	L­u ( Ch÷ sè)	L­u ( Ch÷ sè)
-cæ	2	17	1	0	1	999	1	1	1	1					5	10	0	\image\item\gu\¹Æ_a1.spr	\image\item\gu\¹Æ_a0.spr	Lo¹i s©u nhá ë Miªu C­¬ng, cã thÓ chÕ biÕn ®éc d­îc		Sinh ho¹t			0	0		
-§éc cæ	2	17	2	0	1	999	25	0	0	0					5	20	1	\image\item\gu\¶¾¹Æ_a1.spr	\image\item\gu\¶¾¹Æ_a0.spr	Lo¹i s©u nhá cã ®éc tİnh khiÕn ng­êi kh¸c tróng ®éc mµ kh«ng biÕt nguyªn nh©n		Sinh ho¹t			0	0		
-M·nh ®éc cæ	2	17	3	0	1	999	65	35	35	35					50	50	1	\image\item\gu\ÃÍ¶¾¹Æ_a1.spr	\image\item\gu\ÃÍ¶¾¹Æ_a0.spr	§éc tİnh m·nh liÖt, ng­êi Miªu thİch dïng ®Ó ®èi phã ®èi ph­¬ng		Sinh ho¹t			0	0		
-§éc yªu cæ	2	17	4	0	1	999	90	60	60	60					300	100	1	\image\item\gu\¶¾Ñı¹Æ_a1.spr	\image\item\gu\¶¾Ñı¹Æ_a0.spr	Kú ®éc m·nh liÖt h¬n c¶ bïa chó		Sinh ho¹t			0	0		
-HuyÕt cæ	2	17	5	0	1	999	0	25	0	0					5	20	2	\image\item\gu\Ñª¹Æ_a1.spr	\image\item\gu\Ñª¹Æ_a0.spr	RÊt thİch mïi m¸u, mét khi vËt chñ bŞ ch¶y m¸u sÏ bŞ hót m¸u liªn tôc		Sinh ho¹t			0	0		
-ThŞ huyÕt cæ	2	17	6	0	1	999	35	65	35	35					50	50	2	\image\item\gu\ÊÈÑª¹Æ_a1.spr	\image\item\gu\ÊÈÑª¹Æ_a0.spr	L¹i s©u nhá toµn th©n ®Çy miÖng hót, rÊt thİch hót m¸u.		Sinh ho¹t			0	0		
-HuyÕt Tinh cæ	2	17	7	0	1	999	60	90	60	60					300	100	2	\image\item\gu\Ñª¾«¹Æ_a1.spr	\image\item\gu\Ñª¾«¹Æ_a0.spr	Hót m¸u t­¬i vµ tinh khİ cña vËt chñ khiÕn toµn th©n lë loĞt mµ chÕt		Sinh ho¹t			0	0		
-H­¬ng cæ	2	17	8	0	1	999	0	0	30	0					10	20	3	\image\item\gu\Ïã¹Æ_a1.spr	\image\item\gu\Ïã¹Æ_a0.spr	Lo¹i trïng nhá mµu tr¾ng, táa ra mïi h­¬ng dŞu nhÑ		Sinh ho¹t			0	0		
-Mª h­¬ng cæ	2	17	9	0	1	999	35	35	65	35					60	50	3	\image\item\gu\ÃÔÏã¹Æ_a1.spr	\image\item\gu\ÃÔÏã¹Æ_a0.spr	Phİa sau cã h­¬ng nang táa ra h­¬ng nång mª ng­êi gióp vËt chñ tr¸nh s¸t th­¬ng		Sinh ho¹t			0	0		
-§Ò Hå cæ	2	17	10	0	1	999	60	60	90	60					300	100	3	\image\item\gu\õ®õ­¹Æ_a1.spr	\image\item\gu\õ®õ­¹Æ_a0.spr	Ng­êi th­êng kh«ng thÓ chèng l¹i mïi h­¬ng ®Æc biÖt cña chóng		Sinh ho¹t			0	0		
-Thi cæ	2	17	11	0	1	999	0	0	0	25					5	20	4	\image\item\gu\Ê¬¹Æ_a1.spr	\image\item\gu\Ê¬¹Æ_a0.spr	Th©n h×nh kú qu¸i nh­ ch©n vŞt, cã thÓ phñ kİn kinh m¹ch cña vËt chñ		Sinh ho¹t			0	0		
-Tam thi cæ	2	17	12	0	1	999	35	35	35	65					50	50	4	\image\item\gu\ÈıÊ¬¹Æ_a1.spr	\image\item\gu\ÈıÊ¬¹Æ_a0.spr	Lo¹i s©u nµy cã 3 ®«i ch©n mãc, mãc lÊy vµ lµm ®øt ®o¹n kinh m¹ch cña ng­êi		Sinh ho¹t			0	0		
-Quú V­¬ng cæ	2	17	13	0	1	999	60	60	60	90					300	100	4	\image\item\gu\¹íÍõ¹Æ_a1.spr	\image\item\gu\¹íÍõ¹Æ_a0.spr	Tr­íc cã cao thñ tróng ph¶i, trong mét ®ªm kinh m¹ch ®øt ®o¹n, mÊt hÕt vâ c«ng		Sinh ho¹t			0	0		
-Yªu cæ	2	17	14	0	1	999	40	0	0	0					10	20	1	\image\item\gu\Ñı¹Æ_a1.spr	\image\item\gu\Ñı¹Æ_a0.spr	RÊt thİch hót c¸c lo¹i néi khİ		Sinh ho¹t			0	0		
-Thùc Yªu Cæ	2	17	15	0	1	999	70	40	40	40					60	50	1	\image\item\gu\Ê³Ñı¹Æ_a1.spr	\image\item\gu\Ê³Ñı¹Æ_a0.spr	Lµ lo¹i s©u ®éc cã thÓ ph¸ gi¶i yªu ph¸p tµ thuËt		Sinh ho¹t			0	0		
-Yªu Hoµng Cæ	2	17	16	0	1	999	90	60	60	60					300	100	1	\image\item\gu\Ñı»Ê¹Æ_a1.spr	\image\item\gu\Ñı»Ê¹Æ_a0.spr	D©n gian truyÒn r»ng nã lµ loµi s©u tu luyÖn tr¨m n¨m, ®øng ®Çu trong c¸c lo¹i s©u ®éc		Sinh ho¹t			0	0		
-T©m cæ	2	17	17	0	1	999	0	0	25	0					5	20	3	\image\item\gu\ĞÄ¹Æ_a1.spr	\image\item\gu\ĞÄ¹Æ_a0.spr	Th©n sau cã vßi dµi, th©n mµu ®á rùc, ®éc tİnh cã thÓ khiÕn vËt chñ ho¶ng lo¹n		Sinh ho¹t			0	0		
-Thùc T©m Cæ	2	17	18	0	1	999	35	35	65	35					50	50	3	\image\item\gu\Ê´ĞÄ¹Æ_a1.spr	\image\item\gu\Ê´ĞÄ¹Æ_a0.spr	Bao lÊy t©m cang tõ tõ x©u xĞ ®Õn khi vËt chñ chÕt		Sinh ho¹t			0	0		
-T©m S¸t cæ	2	17	19	0	1	999	60	60	90	60					300	100	3	\image\item\gu\ĞÄÉ·¹Æ_a1.spr	\image\item\gu\ĞÄÉ·¹Æ_a0.spr	CÊu xĞ t©m m¹ch cña vËt chñ, khñng khiÕp dŞ th­êng		Sinh ho¹t			0	0		
-HuyÔn Cæ	2	17	20	0	1	999	0	50	0	0					20	20	2	\image\item\gu\»Ã¹Æ_a1.spr	\image\item\gu\»Ã¹Æ_a0.spr	Xinh x¾n nhÑ nhµng, cã thÓ t¹o ra líp s­¬ng mï máng manh		Sinh ho¹t			0	0		
-B¨ng HuyÔn Cæ	2	17	21	0	1	999	40	70	40	40					75	50	2	\image\item\gu\±ù»Ã¹Æ_a1.spr	\image\item\gu\±ù»Ã¹Æ_a0.spr	Khi bay táa ra s­¬ng l¹nh khiÕn ng­êi sinh ¶o gi¸c		Sinh ho¹t			0	0		
-Vong Tiªn cæ	2	17	22	0	1	999	65	90	65	65					400	100	2	\image\item\gu\ÍüÏÉ¹Æ_a1.spr	\image\item\gu\ÍüÏÉ¹Æ_a0.spr	T¹o ra ¶o ¶nh khiÕn ng­êi quªn hÕt u buån		Sinh ho¹t			0	0		
-Tµm cæ	2	17	23	0	1	999	40	40	40	60					20	20	4	\image\item\gu\ĞQ¹Æ_a1.spr	\image\item\gu\ĞQ¹Æ_a0.spr	Lo¹i s©u mµu tr¾ng, cæ s­ chiªm bao sai chóng ®Ó h¹i ng­êi		Sinh ho¹t			0	0		
-HuyÕt Tµm cæ	2	17	24	0	1	999	55	55	55	75					80	50	4	\image\item\gu\»ğĞQ¹Æ_a1.spr	\image\item\gu\»ğĞQ¹Æ_a0.spr	Kim gi¸p ph¸t s¸ng, cã mïi l¹ khiÕn ng­êi kh¸c sî h·i		Sinh ho¹t			0	0		
-Kim Tµm cæ	2	17	25	0	1	999	85	85	85	90					500	100	4	\image\item\gu\½ğĞQ¹Æ_a1.spr	\image\item\gu\½ğĞQ¹Æ_a0.spr	§­îc phong lµ vua c¸c lo¹i s©u ®éc, ®éc tİnh rÊt cao		Sinh ho¹t			0	0		
-Linh cæ	2	17	26	0	1	999	0	0	60	0					10	20	3	\image\item\gu\Áé¹Æ_a1.spr	\image\item\gu\Áé¹Æ_a0.spr	Lo¹i s©u mµu vµng rÊt cã İch víi con ng­êi		Sinh ho¹t			0	0		
-Linh Lung cæ	2	17	27	0	1	999	50	50	75	50					50	50	3	\image\item\gu\Ááçç¹Æ_a1.spr	\image\item\gu\Ááçç¹Æ_a0.spr	Th©n h×nh nh­ con ong vµng, ph¸p lùc rÊt m¹nh vµ lu«n trung thµnh víi chñ nh©n		Sinh ho¹t			0	0		
-ThÊt Th¸i TiÓu Tiªn Cæ	2	17	28	0	1	999	80	80	90	80					400	100	3	\image\item\gu\Æß²ÊĞ¡ÏÉ¹Æ_a1.spr	\image\item\gu\Æß²ÊĞ¡ÏÉ¹Æ_a0.spr	H×nh d¸ng ®Ñp m¾t, gÇn gòi víi chñ nh©n		Sinh ho¹t			0	0		
-Ma cæ	2	17	29	0	1	999	70	70	70	70					100	20	4	\image\item\gu\Ä§¹Æ_a1.spr	\image\item\gu\Ä§¹Æ_a0.spr	§en nh­ mùc, ®éc tİnh v« b×, cæ s­ th«ng th­êng kh«ng thÓ khèng chÕ chóng		Sinh ho¹t			0	0		
-U ¶nh cæ	2	17	30	0	1	999	80	80	80	80					500	50	4	\image\item\gu\ÓÄÓ°¹Æ_a1.spr	\image\item\gu\ÓÄÓ°¹Æ_a0.spr	Lo¹i s©u trong truyÒn thuyÕt, h×nh thï qu¸i dŞ, cho dï chØ nh×n mét lÇn còng bŞ ®o¹t mÊt t©m ph¸ch		Sinh ho¹t			0	0		
-V« ¶nh Ma Cæ	2	17	31	0	1	999	95	95	95	95					2000	100	4	\image\item\gu\ÎŞÓ°Ä§¹Æ_a1.spr	\image\item\gu\ÎŞÓ°Ä§¹Æ_a0.spr	Lo¹i s©u ®éc nhÊt, kh«ng thÓ gi¶i ®éc		Sinh ho¹t			0	0		
+Bug's name 	Main Category	Sub-category	Actual Type	Weight	Price	Largest Stack Amount	Poison Requirement 	Blood Requirement 	Soul Requirement 	Evil Requirement 	Poison Decrement  	Blood Decrement 	Soul Decrement	Evil Decrement	Life Decrement	Hunger Decrement	Type 	Display small image on interface	Display large image on interface	Description	Remain Field (Character String)	When dropped on ground, which item resource is used	Script Document	Remain (Number)	Tradeable (0Yes 1No  )	Discardable (0Yes 1No)	Remain (Number)	Remain (Number)
+¹Æ	2	17	1	0	1	999	1	1	1	1					5	10	0	\image\item\gu\¹Æ_a1.spr	\image\item\gu\¹Æ_a0.spr	Bug£¬Insect which can be found at Miao tribe, innoxious  		Éú»î²ÄÁÏ			0	0		
+¶¾¹Æ	2	17	2	0	1	999	25	0	0	0					5	20	1	\image\item\gu\¶¾¹Æ_a1.spr	\image\item\gu\¶¾¹Æ_a0.spr	Poison Bug£¬Noxious Bug, able to attack target with poison		Éú»î²ÄÁÏ			0	0		
+ÃÍ¶¾¹Æ	2	17	3	0	1	999	65	35	35	35					50	50	1	\image\item\gu\ÃÍ¶¾¹Æ_a1.spr	\image\item\gu\ÃÍ¶¾¹Æ_a0.spr	Venomed Bug£¬Very poisonous bug which can be used to attack enemy		Éú»î²ÄÁÏ			0	0		
+¶¾Ñı¹Æ	2	17	4	0	1	999	90	60	60	60					300	100	1	\image\item\gu\¶¾Ñı¹Æ_a1.spr	\image\item\gu\¶¾Ñı¹Æ_a0.spr	Noxious Bug£¬Bug with evil disposition  		Éú»î²ÄÁÏ			0	0		
+Ñª¹Æ	2	17	5	0	1	999	0	25	0	0					5	20	2	\image\item\gu\Ñª¹Æ_a1.spr	\image\item\gu\Ñª¹Æ_a0.spr	Blood Bug£¬Likes to adsorb blood from hosts		Éú»î²ÄÁÏ			0	0		
+ÊÈÑª¹Æ	2	17	6	0	1	999	35	65	35	35					50	50	2	\image\item\gu\ÊÈÑª¹Æ_a1.spr	\image\item\gu\ÊÈÑª¹Æ_a0.spr	BloodSucking Bug£¬Small bug which has lots of osculum on its body		Éú»î²ÄÁÏ			0	0		
+Ñª¾«¹Æ	2	17	7	0	1	999	60	90	60	60					300	100	2	\image\item\gu\Ñª¾«¹Æ_a1.spr	\image\item\gu\Ñª¾«¹Æ_a0.spr	BloodySoul Bug£¬Small bug which parasites in enemy's heart and absorbs enemy's blood and energy		Éú»î²ÄÁÏ			0	0		
+Ïã¹Æ	2	17	8	0	1	999	0	0	30	0					10	20	3	\image\item\gu\Ïã¹Æ_a1.spr	\image\item\gu\Ïã¹Æ_a0.spr	Savory Bug£¬Softhearted bug with faint fragrance		Éú»î²ÄÁÏ			0	0		
+ÃÔÏã¹Æ	2	17	9	0	1	999	35	35	65	35					60	50	3	\image\item\gu\ÃÔÏã¹Æ_a1.spr	\image\item\gu\ÃÔÏã¹Æ_a0.spr	Rosemary Bug£¬Bug which has an aroma vesicle on its back, able to protect the host		Éú»î²ÄÁÏ			0	0		
+õ®õ­¹Æ	2	17	10	0	1	999	60	60	90	60					300	100	3	\image\item\gu\õ®õ­¹Æ_a1.spr	\image\item\gu\õ®õ­¹Æ_a0.spr	Nirvana Bug£¬A bug with miraculous fragrance that nobody is able to withstand		Éú»î²ÄÁÏ			0	0		
+Ê¬¹Æ	2	17	11	0	1	999	0	0	0	25					5	20	4	\image\item\gu\Ê¬¹Æ_a1.spr	\image\item\gu\Ê¬¹Æ_a0.spr	Cadaver Bug£¬Small Bug with strange figure, able to seal host's pulse		Éú»î²ÄÁÏ			0	0		
+ÈıÊ¬¹Æ	2	17	12	0	1	999	35	35	35	65					50	50	4	\image\item\gu\ÈıÊ¬¹Æ_a1.spr	\image\item\gu\ÈıÊ¬¹Æ_a0.spr	3Cadevar Bug£¬Bug with 3 hook-like claws and parasite at enemy's pulse		Éú»î²ÄÁÏ			0	0		
+¹íÍõ¹Æ	2	17	13	0	1	999	60	60	60	90					300	100	4	\image\item\gu\¹íÍõ¹Æ_a1.spr	\image\item\gu\¹íÍõ¹Æ_a0.spr	Yama Bug£¬Mysterious bug that able to kill a martial art superior instantly		Éú»î²ÄÁÏ			0	0		
+Ñı¹Æ	2	17	14	0	1	999	40	0	0	0					10	20	1	\image\item\gu\Ñı¹Æ_a1.spr	\image\item\gu\Ñı¹Æ_a0.spr	Evil Bug£¬Bug which can be used to subdue demons		Éú»î²ÄÁÏ			0	0		
+Ê³Ñı¹Æ	2	17	15	0	1	999	70	40	40	40					60	50	1	\image\item\gu\Ê³Ñı¹Æ_a1.spr	\image\item\gu\Ê³Ñı¹Æ_a0.spr	DemonEating Bug£¬Bug which can be used to remove various evil spells		Éú»î²ÄÁÏ			0	0		
+Ñı»Ê¹Æ	2	17	16	0	1	999	90	60	60	60					300	100	1	\image\item\gu\Ñı»Ê¹Æ_a1.spr	\image\item\gu\Ñı»Ê¹Æ_a0.spr	DemonKing Bug£¬Great bug which able to devour all skills and practices learned by the enemy		Éú»î²ÄÁÏ			0	0
+ĞÄ¹Æ	2	17	17	0	1	999	0	0	25	0					5	20	3	\image\item\gu\ĞÄ¹Æ_a1.spr	\image\item\gu\ĞÄ¹Æ_a0.spr	Heart Bug£¬Bug with long feeler on its back, able to cause host to become mentally deranged		Éú»î²ÄÁÏ			0	0
+Ê´ĞÄ¹Æ	2	17	18	0	1	999	35	35	65	35					50	50	3	\image\item\gu\Ê´ĞÄ¹Æ_a1.spr	\image\item\gu\Ê´ĞÄ¹Æ_a0.spr	SoulErode Bug£¬Bug that wraps host's heart and lung to absorb his/her energy		Éú»î²ÄÁÏ			0	0
+ĞÄÉ·¹Æ	2	17	19	0	1	999	60	60	90	60					300	100	3	\image\item\gu\ĞÄÉ·¹Æ_a1.spr	\image\item\gu\ĞÄÉ·¹Æ_a0.spr	PallidSoul Bug£¬Bug which can be used to erode host's pulse and heart		Éú»î²ÄÁÏ			0	0
+»Ã¹Æ	2	17	20	0	1	999	0	50	0	0					20	20	2	\image\item\gu\»Ã¹Æ_a1.spr	\image\item\gu\»Ã¹Æ_a0.spr	Fantasy Bug£¬Small and agile bug which can produce mist		Éú»î²ÄÁÏ			0	0
+±ù»Ã¹Æ	2	17	21	0	1	999	40	70	40	40					75	50	2	\image\item\gu\±ù»Ã¹Æ_a1.spr	\image\item\gu\±ù»Ã¹Æ_a0.spr	Icy Bug£¬An agile bug which can produce cold mist to delude enemy		Éú»î²ÄÁÏ			0	0
+ÍüÏÉ¹Æ	2	17	22	0	1	999	65	90	65	65					400	100	2	\image\item\gu\ÍüÏÉ¹Æ_a1.spr	\image\item\gu\ÍüÏÉ¹Æ_a0.spr	Unruffled Bug£¬Bug which can delude enemy with illusion		Éú»î²ÄÁÏ			0	0
+ĞQ¹Æ	2	17	23	0	1	999	40	40	40	60					20	20	4	\image\item\gu\ĞQ¹Æ_a1.spr	\image\item\gu\ĞQ¹Æ_a0.spr	Worm Bug£¬A white bug with golden shell covered on its body		Éú»î²ÄÁÏ			0	0
+ÑªĞQ¹Æ	2	17	24	0	1	999	55	55	55	75					80	50	4	\image\item\gu\»ğĞQ¹Æ_a1.spr	\image\item\gu\»ğĞQ¹Æ_a0.spr	BloodyWorm Bug£¬Mysterious bug with shinning golden shell covered on its body		Éú»î²ÄÁÏ			0	0
+½ğĞQ¹Æ	2	17	25	0	1	999	85	85	85	90					500	100	4	\image\item\gu\½ğĞQ¹Æ_a1.spr	\image\item\gu\½ğĞQ¹Æ_a0.spr	GoldenWorm Bug£¬King of Bug, huge and very poisonous		Éú»î²ÄÁÏ			0	0
+Áé¹Æ	2	17	26	0	1	999	0	0	60	0					10	20	3	\image\item\gu\Áé¹Æ_a1.spr	\image\item\gu\Áé¹Æ_a0.spr	Soul Bug£¬Small gold bug, a beneficial bug for people		Éú»î²ÄÁÏ			0	0
+Ááçç¹Æ	2	17	27	0	1	999	50	50	75	50					50	50	3	\image\item\gu\Ááçç¹Æ_a1.spr	\image\item\gu\Ááçç¹Æ_a0.spr	Exquisite Bug£¬A huge, golden bug which possesses supernatural power and very loyalty		Éú»î²ÄÁÏ			0	0
+Æß²ÊĞ¡ÏÉ¹Æ	2	17	28	0	1	999	80	80	90	80					400	100	3	\image\item\gu\Æß²ÊĞ¡ÏÉ¹Æ_a1.spr	\image\item\gu\Æß²ÊĞ¡ÏÉ¹Æ_a0.spr	Rainbow Bug£¬Queen of bug, elegant and gentle  		Éú»î²ÄÁÏ			0	0
+Ä§¹Æ	2	17	29	0	1	999	70	70	70	70					100	20	4	\image\item\gu\Ä§¹Æ_a1.spr	\image\item\gu\Ä§¹Æ_a0.spr	Magic Bug£¬Poisonous bug in black color 		Éú»î²ÄÁÏ			0	0
+ÓÄÓ°¹Æ	2	17	30	0	1	999	80	80	80	80					500	50	4	\image\item\gu\ÓÄÓ°¹Æ_a1.spr	\image\item\gu\ÓÄÓ°¹Æ_a0.spr	Hakusho Bug £¬Legendary bug with unknown ability, attribute and figure 		Éú»î²ÄÁÏ			0	0
+ÎŞÓ°Ä§¹Æ	2	17	31	0	1	999	95	95	95	95					2000	100	4	\image\item\gu\ÎŞÓ°Ä§¹Æ_a1.spr	\image\item\gu\ÎŞÓ°Ä§¹Æ_a0.spr	Agile Evil Bug£¬Lord of the bug, with unknown ability, attribute and figure		Éú»î²ÄÁÏ			0	0

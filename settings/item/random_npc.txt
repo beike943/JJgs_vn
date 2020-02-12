@@ -1,146 +1,146 @@
 NpcID	NpcMode	NpcName
-H­íng dÉn	H×nh ném Npc	Tªn gäi Npc
-1000	Ong vµng	Ong vµng
-1001	Ong ®éc	Ong ®éc
-1002	Hå Ly	Hå Ly
-1003	Ng©n Hå	Ng©n Hå
-1004	Sãi ®iªn	Sãi ®iªn
-1005	NhÖn	NhÖn
-1006	Bß c¹p	Bß c¹p
-1007	ThiÕt Gi¸p	ThiÕt Gi¸p Trïng
-1008	Kim Gi¸p	ThiÕt Gi¸p trïng
-1009	Hæ	Hæ
-1010	GÊu x¸m	GÊu x¸m
-1011	Cãc1	Cãc ®éc
-1012	D¬i hót m¸u	D¬i hót m¸u
-1013	C¸ sÊu1	C¸ sÊu
-1014	Nh·n kÝnh xµ	Nh·n KÝnh Xµ
-1015	Qu¹ §en	Qu¹ §en
-1016	L­u Manh	L­u Manh
-1017	C«n ®å	C«n ®å
-1018	S¬n tÆc	S¬n tÆc
-1019	Th¶o KhÊu	Th¶o KhÊu
-1020	M·ng KhÊu	M·ng KhÊu
-1021	L­u KhÊu	TiÓu ®Çu môc
-1022	Minh Th©u	Trém vÆt
-1023	¸m TÆc	Phi tÆc
-1024	§ao Kh¸ch	§ao Kh¸ch
-1025	§·ng §ao Kh¸ch	§·ng §ao Kh¸ch
-1026	Th­¬ng Kh¸ch	KiÕm Kh¸ch
-1027	Th­¬ng kh¸ch trung cÊp	Danh Th­¬ng HiÖp
-1028	ThÝch Kh¸ch1	Thiªn S¸t
-1029	ThÝch Kh¸ch2	§Þa S¸t
-1030	B¸ch NhËt TiÔn	B¸ch NhËt TiÔn
-1031	Thiªn Lý Tiªu	Thiªn Lý Tiªu
-1032	Tµ T¨ng	Tµ T¨ng
-1033	Oa KhÊu1	Oa Quèc §ao kh¸ch
-1034	Oa KhÊu3	H¶i TÆc
-1035	Oa KhÊu4	Oa Quèc L·ng Nh©n
-1036	Phiªn Di §ao Kh¸ch	¤ M«ng Dòng SÜ
-1037	Phiªn Di Tiªu Thñ	¤ M«ng Téc Nh©n
-1038	Vâ sÜ dÞ téc	Vâ sÜ dÞ téc
-1039	TiÔn thñ dÞ téc	TiÔn thñ dÞ téc
-1040	Cung thñ ngo¹i téc	Cung thñ ngo¹i téc
-1041	Tèng th­¬ng qu©n	Tèng qu©n tö sÜ
-1042	Tèng ®ao binh	Tèng ®ao binh
-1043	Tèng nâ binh	Tèng nâ binh
-1044	Kim th­¬ng qu©n	Liªu th­¬ng qu©n
-1045	Kim ®ao binh	Liªu ®ao binh
-1046	Kim tiÔn binh	Liªu tiÔn binh
-1047	KiÕm Tµ	KiÕm Tµ
-1048	Th­¬ng Tµ	H¾c Phong KiÕm Kh¸ch
-1049	KiÕm Cuång	KiÕm Cuång
-1050	Th­¬ng Cuång	Th­¬ng ThÇn
-1051	§ao TuyÖt	§ao TuyÖt
-1052	KiÕm TuyÖt	§ao V­¬ng
-1053	§ao S¸t	§ao HiÖp
-1054	KiÕm S¸t	KiÕm S¸t
-1055	C« L©u ®ao thñ	C« L©u ®ao thñ
-1056	C« L©u th­¬ng thñ	C« L©u th­¬ng thñ
-1057	Hñ thi1	Hñ thi
-1058	Hñ thi2	Hµnh Thi
-1059	Yªu Hå 2	Linh Hå
-1060	TuyÕt Qu¸i1	TuyÕt Qu¸i
-1061	TuyÕt Qu¸i3	B¨ng Qu¸i
-1062	Trïng Qu¸i1	Trïng Qu¸i
-1063	Trïng Qu¸i2	Trïng Qu¸i V­¬ng
-1064	Th¹ch Nh©n1	Th¹ch Nh©n
-1065	Háa kú l©n1	Háa Kú L©n
-1066	Ng­ Qu¸i1	§«ng H¶i Thñy Téc
-1067	Ng­ Qu¸i2	§«ng H¶i Thñy Téc Binh sÜ
-1068	O¸n Quû	O¸n Quû
-1069	¸c Quû	¸c Quû
-1070	¢m Hån1	¢m Hån
-1071	¢m Hån2	U Hån
-1072	Thô Qu¸i1	Thô Qu¸i
-1073	C¬ quan nh©n1	C¬ quan Méc nh©n
-1074	C¬ quan nh©n2	C¬ quan §ång nh©n
-1075	Tiªn N÷1	B¨ng T©m N÷
-1076	Thá tr¾ng	Thá rõng
-1077	Thá x¸m	Thá x¸m
-1078	Sãi x¸m	Sãi x¸m
-1079	Sãi xanh	Sãi xanh
-1080	TiÓu D· tr­	Heo rõng
-1081	N÷ kiÕm kh¸ch	N÷ kiÕm kh¸ch
-1082	N÷ HiÖp Kh¸ch	N÷ HiÖp Kh¸ch
-1083	N÷ KiÕm hµo	N÷ KiÕm hµo
-1084	N÷ KiÕm tiªn	KiÕm tiªn Tö
-1085	N÷ §Þch tiªn	§Þch tiªn Tö
-1086	N÷ Tiªu tiªn	Tiªu Tiªn Tö
-1087	N÷ Tú Bµ tiªn	Tú Bµ Tiªn Tö
-1088	N÷ cÇm tiªn	CÇm Tiªn Tö
-1089	N÷ t¶n tiªn	T¶n Tiªn Tö
-1090	M· HÇu	M· HÇu
-1091	Th­¬ng Viªn	Th­¬ng Viªn
-1092	TiÓu Hång ®ao quû	TiÓu Hång ®ao quû
-1093	TiÓu Hång xoa quû	TiÓu Hång xoa quû
-1094	Lam Phi tr¶o quû	Lam Phi tr¶o quû
-1095	Du Hån	Du Hån
-1096	Oan Hån	Oan Hån
-1097	HuyÒn Vâ §ao	HuyÒn Vâ §ao
-1098	HuyÒn Vâ KiÕm	HuyÒn Vâ KiÕm
-1099	Cung LiÖp	Cung LiÖp
-1100	Hæ Y Nh©n	Hæ Y Nh©n
-1101	Vâ §¹i Lang-b×nh th­êng	Ng­êi lïn
-1102	B¸t Phô Hµ §«ng S­	B¸t Phô Hµ §«ng S­
-1103	Méc nh©n	Méc nh©n
-1104	§ång nh©n	§ång nh©n
-1105	Quan sø	Quan sø
-1106	Bé kho¸i	Bé kho¸i
-1107	MËt th¸m	MËt th¸m
-1108	KiÕm Hån	KiÕm Hån
-1109	Miªu téc thiÕu n÷1	ThiÕu n÷ ¤ M«ng Bé
-1110	Hoang m¹c ®ao kh¸ch	Hoang m¹c ®ao kh¸ch
-1111	§éc Gi¸p Trïng	§éc Gi¸p Trïng
-1112	RÕt ®éc	RÕt ®éc
-1113	Ong ®éc nhá	Ong ®éc
-1114	Muçi ®éc	Muçi ®éc
-1115	Thùc Nh©n Th¶o	Thùc Nh©n Th¶o
-1116	§éc TÝch	Cù §éc TÝch
-1117	Xi Háa H¾c gi¸o ®å	Xi Háa H¾c gi¸o ®å
-1118	Xi Háa B¹ch gi¸o ®å	Xi Háa B¹ch gi¸o ®å
-1119	Xi Háa XÝch gi¸o ®å	Xi Háa XÝch gi¸o ®å
-1120	Xi Háa sø gi¶	Xi Háa sø gi¶
-1121	D¬i ®éc	D¬i ®éc
-1122	Xi Háa hé ph¸p	Xi Háa hé ph¸p
-1123	¸c lµ	¸c Lµ
-1124	Miªu LÜnh TuÇn Tr¹i	Miªu LÜnh TuÇn Tr¹i
-1125	Mao Ng­u	Mao Ng­u
-1126	Miªu LÜnh Hé Ên	Miªu LÜnh Hé Ên
-1127	Miªu LÜnh Phu nh©n	Miªu LÜnh Phu nh©n
-1128	Miªu LÜnh Thæ ty	Miªu LÜnh Thæ ty
-1129	B¹ch §Çu §iªu	B¹ch §Çu §iªu
-1130	Tö D¹ Hæ	Tö D¹ Hæ
-1131	H×nh nh©n	H×nh nh©n
-1132	Xi Háa tr­ëng l·o	Xi Háa tr­ëng l·o
-1133	Xi Háa ®µn chñ	Xi Háa ®µn chñ
-1134	H¾c Tinh Tinh	H¾c Tinh Tinh
-1135	D· Mao T­îng	D· Mao T­îng
-1136	Ph¶n Qu©n tuÇn la	Ph¶n Qu©n tuÇn la
-1137	Ph¶n qu©n vÖ binh	VÖ sÜ ph¶n qu©n
-1138	Thiªn TÇm Vâ T¨ng	Thiªn TÇm Vâ T¨ng
-1139	Thiªn TÇm Ph¸p T¨ng	Thiªn TÇm Ph¸p T¨ng
-1140	Ma Ni T¨ng	Ma Ni T¨ng
-1141	§µ La Ni T¨ng	§µ La Ni T¨ng
-1142	Tr× §ao Hé VÖ	Tr× §ao Hé VÖ
-1143	Tr× M©u Hé VÖ	Tr× M©u Hé VÖ
+Ë÷Òý	NpcÄ£°å	NpcÃû³Æ
+1000	´ó»Æ·ä	´ó»Æ·ä
+1001	¶¾·ä	¶¾·ä
+1002	ºüÀê	ºüÀê
+1003	Òøºü	Òøºü
+1004	¶öÀÇ	¶öÀÇ
+1005	Ö©Öë	Ö©Öë
+1006	ÌìÐ«	ÌìÐ«
+1007	Ìú¼×	Ìú¼×³æ
+1008	½ð¼×	½ð¼×³æ
+1009	ÀÏ»¢	ÀÏ»¢
+1010	»ÒÐÜ	»ÒÐÜ
+1011	ó¸òÜ1	¶¾ó¸òÜ
+1012	ÎüÑªòùòð	ÎüÑªòùòð
+1013	Ê³ÈËöù1	Ê³ÈËöù
+1014	ÑÛ¾¦Éß	ÑÛ¾µÉß
+1015	ºÚÑ»	ºÚÑ»
+1016	Á÷Ã¥	Á÷Ã¥
+1017	ÎÞÀµ	ÎÞÀµ
+1018	É½Ôô	É½Ôô
+1019	²Ý¿Ü	²Ý¿Ü
+1020	Ã§¿Ü	Ã§¿Ü
+1021	Á÷¿Ü	É½Õ¯Ð¡Í·Ä¿
+1022	Ú¤Íµ	Ð¡Íµ
+1023	°µÔô	·ÉÔô
+1024	µ¶¿Í	µ¶¿Í
+1025	µ´µ¶¿Í	µ´µ¶¿Í
+1026	Ç¹¿Í	½£¿Í
+1027	ÖÐ¼¶Ç¹¿Í	ÃûÇ¹ÏÀ
+1028	´Ì¿Í1	ÌìÉ±
+1029	´Ì¿Í2	µØÉ±
+1030	°ÙÈÕ¼ý	°ÙÈÕ¼ý
+1031	Ç§ÀïïÚ	Ç§ÀïïÚ
+1032	Ð°É®	Ð°É®
+1033	ÙÁ¿Ü1	ÙÁ¹úµ¶¿Í
+1034	ÙÁ¿Ü3	ÙÁ¹úº£µÁ
+1035	ÙÁ¿Ü4	ÙÁ¹úÀËÈË
+1036	·¬ÒÄµ¶¿Í	ÎÚÃÉÓÂÊ¿
+1037	·¬ÒÄïÚÊÖ	ÎÚÃÉ×åÈË
+1038	Òì×åÎäÊ¿	Òì×åÎäÊ¿
+1039	Òì×å¼ýÊÖ	Òì×å¼ýÊÖ
+1040	Íâ×å¹­ÊÖ	Íâ×å¹­ÊÖ
+1041	ËÎÇ¹±ø	ËÎ¾üËÀÊ¿
+1042	ËÎµ¶±ø	ËÎµ¶±ø
+1043	ËÎåó±ø	ËÎåó±ø
+1044	½ðÇ¹±ø	ÁÉÇ¹±ø
+1045	½ðµ¶±ø	ÁÉµ¶±ø
+1046	½ð¼ý±ø	ÁÉ¼ý±ø
+1047	½£Ð°	½£Ð°
+1048	Ç¹Ð°	ºÚ·ç½£¿Í
+1049	½£¿ñ	½£¿ñ
+1050	Ç¹¿ñ	Ç¹Éñ
+1051	µ¶¾ø	µ¶¾ø
+1052	½£¾ø	µ¶Íõ
+1053	µ¶É·	µ¶ÏÀ
+1054	½£É·	½£É·
+1055	÷¼÷Ãµ¶ÊÖ	÷¼÷Ãµ¶ÊÖ
+1056	÷¼÷ÃÇ¹ÊÖ	÷¼÷ÃÇ¹ÊÖ
+1057	¸¯Ê¬1	¸¯Ê¬
+1058	¸¯Ê¬2	ÐÐÊ¬
+1059	Ñýºü2	Áéºü
+1060	Ñ©¹Ö1	Ñ©¹Ö
+1061	Ñ©¹Ö3	±ù¹Ö
+1062	³æ¹Ö1	³æ¹Ö
+1063	³æ¹Ö2	³æ¹ÖÍõ
+1064	Ê¯ÈË1	Ê¯ÈË
+1065	»ð÷è÷ë1	»ð÷è÷ë
+1066	Óã¹Ö1	¶«º£Ë®×å
+1067	Óã¹Ö2	¶«º£Ë®×åÊ¿±ø
+1068	Ô¹¹í	Ô¹¹í
+1069	¶ñ¹í	¶ñ¹í
+1070	Òõ»ê1	Òõ»ê
+1071	Òõ»ê2	ÓÄ»ê
+1072	Ê÷¹Ö1	Ê÷¹Ö
+1073	»ú¹ØÈË1	»ú¹ØÄ¾ÈË
+1074	»ú¹ØÈË2	»ú¹ØÍ­ÈË
+1075	ÏÉÅ®1	±ùÐÄÅ®
+1076	Ð¡°×ÍÃ	Ò°ÍÃ
+1077	Ð¡»ÒÍÃ	»ÒÍÃ
+1078	Ð¡ÍÁÀÇ	Ð¡ÍÁÀÇ
+1079	Ð¡ÇàÀÇ	Ð¡ÇàÀÇ
+1080	Ð¡Ò°Öí	Ò°Öí
+1081	Å®½£¿Í	Å®½£¿Í
+1082	Å®½£ÏÀ	Å®½£ÏÀ
+1083	Å®½£ºÀ	Å®½£ºÀ
+1084	Å®½£ÏÉ	½£ÏÉ×Ó
+1085	Å®µÑÏÉ	µÑÏÉ×Ó
+1086	Å®ÏôÏÉ	óïÏÉ×Ó
+1087	Å®ÅýÅÃÏÉ	ÅýÅÃÏÉ×Ó
+1088	Å®ÇÙÏÉ	ÇÙÏÉ×Ó
+1089	Å®É¡ÏÉ	É¡ÏÉ×Ó
+1090	Âíºï	Âíºï
+1091	²ÔÔ³	²ÔÔ³
+1092	Ð¡ºìµ¶¹í	Ð¡ºìµ¶¹í
+1093	Ð¡ºì²æ¹í	Ð¡ºì²æ¹í
+1094	À¶·É×¦¹í	À¶·É×¦¹í
+1095	ÓÎ»ê	ÓÎ»ê
+1096	Ô©»ê	Ô©»ê
+1097	»ÃÎäµ¶Õß	»ÃÎäµ¶Õß
+1098	»ÃÎä½£Õß	»ÃÎä½£Õß
+1099	³Ö¹­ÁÔ»§	³Ö¹­ÁÔ»§
+1100	³Ö²æÁÔ»§	³Ö²æÁÔ»§
+1101	ÆÕÍ¨Îä´óÀÉ	°«ºº
+1102	ÆÃ¸¾ºÓ¶«Ê¨	ÆÃ¸¾ºÓ¶«Ê¨
+1103	Ä¾ÈË	Ä¾ÈË
+1104	Í­ÈË	Í­ÈË
+1105	¶ñÀô	¶ñÀô
+1106	²¶¿ì	²¶¿ì
+1107	ÃÜÌ½	ÃÜÌ½
+1108	½£»ê	½£»ê
+1109	Ãç×åÐ¡¹ÃÄï1	ÎÚÃÉ²¿ÉÙÅ®
+1110	»ÄÄ®µ¶¿Í	»ÄÄ®µ¶¿Í
+1111	¶¾¼×³æ	¶¾¼×³æ
+1112	¶¾òÚò¼	¶¾òÚò¼
+1113	Ð¡¶¾·ä	¶¾·ä
+1114	¶¾ÎÃ	¶¾ÎÃ
+1115	¾ç¶¾Ê³ÈË²Ý	¾ç¶¾Ê³ÈË²Ý
+1116	¶¾òá	¾Þ¶¾òá
+1117	ò¿»ðºÚ½ÌÍ½	ò¿»ðºÚ½ÌÍ½
+1118	ò¿»ð°×½ÌÍ½	ò¿»ð°×½ÌÍ½
+1119	ò¿»ð³à½ÌÍ½	ò¿»ð³à½ÌÍ½
+1120	ò¿»ðÊ¹Õß	ò¿»ðÊ¹Õß
+1121	¶¾òð	¶¾òð
+1122	ò¿»ð»¤·¨	ò¿»ð»¤·¨
+1123	ÌäÑªÑ»	Ò¹ÌäÑªÑ»
+1124	ÃçÁëÑ²Õ¯	ÃçÁëÑ²Õ¯
+1125	ÃçÁëÒ°êóÅ£	ÃçÁëÒ°êóÅ£
+1126	ÃçÁë»¤Ó¡	ÃçÁë»¤Ó¡
+1127	ÃçÁë·òÈË	ÃçÁë·òÈË
+1128	ÃçÁëÍÁË¾	ÃçÁëÍÁË¾
+1129	°×Í·µñ	°×Í·µñ
+1130	×ÓÒ¹»¢	×ÓÒ¹»¢
+1131	¿þÀÜÈË	¿þÀÜÈË
+1132	ò¿»ð³¤ÀÏ	ò¿»ð³¤ÀÏ
+1133	ò¿»ðÌ³Ö÷	ò¿»ðÌ³Ö÷
+1134	ºÚÐÉÐÉ	ºÚÐÉÐÉ
+1135	Ò°Ã«Ïó	Ò°Ã«Ïó
+1136	ÅÑ¾üÑ²Âß	ÅÑ¾üÑ²Âß
+1137	ÅÑ¾üÎÀ±ø	ÅÑ¾üÎÀÊ¿
+1138	Ç§Ñ°ÎäÉ®	Ç§Ñ°ÎäÉ®
+1139	Ç§Ñ°·¨É®	Ç§Ñ°·¨É®
+1140	Ä¦ÄáÉ®	Ä¦ÄáÉ®
+1141	ÍÓÂÞÄáÉ®	ÍÓÂÞÄáÉ®
+1142	³Öµ¶»¤ÎÀ	³Öµ¶»¤ÎÀ
+1143	³ÖÃ¬»¤ÎÀ	³ÖÃ¬»¤ÎÀ

@@ -1,4 +1,4 @@
-Lo¹i lín	Lo¹i phô	Lo¹i h×nh chi tiÕt vËt phÈm	Sè hiÖu thuéc tİnh 1: 	§¼ng cÊp thuéc tİnh 1: 	Sè hiÖu thuéc tİnh 2: 	§¼ng cÊp thuéc tİnh 2: 	Sè hiÖu thuéc tİnh 3: 	§¼ng cÊp thuéc tİnh 3: 
+ÎïÆ·´óÀàĞÍ	ÎïÆ·¸±ÀàĞÍ	ÎïÆ·ÏêÏ¸Àà±ğ	ÊôĞÔ±àºÅ1	ÊôĞÔ1µÈ¼¶	ÊôĞÔ±àºÅ2	ÊôĞÔ2µÈ¼¶	ÊôĞÔ±àºÅ3	ÊôĞÔ3µÈ¼¶
 0	103	251	12	5	14	2	79	2
 0	103	271	12	7	14	2	79	2
 0	103	252	12	5	14	2	79	2
