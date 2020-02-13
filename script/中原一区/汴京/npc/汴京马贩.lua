@@ -8,30 +8,30 @@ function main()
 		task_107();
 		return
   	end;
-	Talk(1,"","Bän M· tÆc hoµnh hµnh qu¸ nªn kh«ng cã ngùa quı cung øng, hay lµ b»ng h÷u ®Õn Ngù c¸c xem thö!");
+	Talk(1,"","è¿™äº›ç›—è´¼å¤ªçŒ–ç—äº†ï¼Œä»–ä»¬æ²¡æœ‰çè´µçš„é©¬ï¼Œä¹Ÿæ²¡æœ‰æœ‹å‹ã€‚");
 --
 --	local strSay = {
---		"<color=green>ãê¾©Âí··<color>£ºÕâÎ»´óÏÀ£¬ÎÒÕâÀïÓĞ´óÁ¿µÄÇ§ÀïÁ¼¾Ô£¬±£Ö¤Ã»ÓĞ·èÅ£²¡ºÍÇİÁ÷¸Ğ£¬ÄúÒª¿´¿´ÓĞÃ»ÓĞÂúÒâµÄÂğ£¿",
---		"ÎÒÒª¿´¿´/Buy",
---		"ÎÒÒªÎ¹Âí/Feed",
---		"ÎÒÒªÀë¿ª/Leave",
+--		"<color=green>æ±´äº¬é©¬è´©<color>ï¼šè¿™ä½å¤§ä¾ ï¼Œæˆ‘è¿™é‡Œæœ‰å¤§é‡çš„åƒé‡Œè‰¯é©¹ï¼Œä¿è¯æ²¡æœ‰ç–¯ç‰›ç—…å’Œç¦½æµæ„Ÿï¼Œæ‚¨è¦çœ‹çœ‹æœ‰æ²¡æœ‰æ»¡æ„çš„å—ï¼Ÿ",
+--		"æˆ‘è¦çœ‹çœ‹/Buy",
+--		"æˆ‘è¦å–‚é©¬/Feed",
+--		"æˆ‘è¦ç¦»å¼€/Leave",
 --	}
 --	Say(strSay[1], 3, strSay[2], strSay[3], strSay[4])
 end
 
 function Buy()
 	Sale(54)
-	Talk(1,"","Toµn lµ ngùa quı ®i ngµn dÆm, ngµi chän mét con ®i!")
+	Talk(1,"","è¿™äº›éƒ½æ˜¯åƒé‡Œé©¬ï¼Œä½ é€‰ä¸€åŒ¹å§!")
 end
 
 function Feed()
 	local strSay = {
-		"Ngùa kh¸ch quan cã chót mÖt mái, ¨n cá lo¹i tèt cÇn <color=red>",
-		"<color> tiÒn ®ång. Kh¸ch quan muèn cho ngùa ¨n kh«ng?",
-		"Cho/FeedYes",
-		"Kh«ng cho/Leave",
-		"Ngùa kh¸ch quan cßn kháe kh«ng cÇn ¨n thªm cá.",
-		"VŞ kh¸ch quan...cá tuy tèt nh­ng...Kh¸ch quan muèn dïng thö µ?",
+		"å®¢å®˜ï¼Œæ‚¨çš„é©¬æœ‰ç‚¹å„¿ç´¯ï¼Œéœ€è¦åƒå¥½ç‚¹çš„è‰æ–™å“¦ï¼<color=red>",
+		"<color>ä½ æƒ³å–‚é©¬å—?",
+		"æ˜¯çš„/FeedYes",
+		"æˆ‘è¦ç¦»å¼€/Leave",
+		"å®¢å®˜çš„é©¬å¾ˆå¥½ï¼Œä¸éœ€è¦åƒæ›´å¤šçš„è‰äº†ã€‚",
+		"å®¢å®˜ï¼Œæˆ‘è¿™é‡Œçš„é©¬è‰å¾ˆå¥½ï¼Œä½ è¦å–‚é©¬å—?",
 	}
 
 	local nPrice = GetFeedHorsePrice()
@@ -46,8 +46,8 @@ end
 
 function FeedYes()
 	local strSay = {
-		"Cá tèt ®©y! §Ó tiÓu nh©n gióp kh¸ch quan cho ngùa ¨n!",
-		"Kh¸ch quan ®em İt tiÒn sao mua ®­îc cá lo¹i tèt?",
+		"å¥½å˜ï¼æˆ‘æ¥å¸®æ‚¨å–‚é©¬ï¼",
+		"å®¢è§‚åœ°è¯´ï¼Œå¾ˆå°‘çš„é’±æ˜¯ä¹°ä¸åˆ°å¥½çš„é©¬è‰çš„ã€‚",
 	}
 	local nPrice = GetFeedHorsePrice()
 	local nMoney = GetCash()
