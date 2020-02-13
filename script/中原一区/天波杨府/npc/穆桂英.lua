@@ -6,7 +6,7 @@ Include("\\script\\faction\\npc\\faction_master_main.lua")
 
 function main()
 	 if GetAntiEnthrallmentStatus() > 1 then
-	 	Talk(1,"","§· qu¸ 5 giê ch¬i, kh«ng thÓ häc vâ c«ng n÷a, h·y nghØ ng¬i ®Ó gi÷ g×n søc kháe!")
+	 	Talk(1,"","§· qu? 5 gi? ch¬i, kh«ng th? häc v? c«ng n÷a, h·y ngh? ng¬i ®Ó gi? g×n søc kháe!")
 	 	return
 	 end
   local nTaskValue = FN_GetTaskState(FN_YM);
@@ -16,13 +16,13 @@ function main()
 		task_003();
 		return
 	elseif (nTaskValuem==2) then
-		Say("TriÖu Phæ ë BiÖn Kinh",0);
+		Say("TriÖu Ph? ? BiÖn Kinh",0);
 		return
 	elseif (nTaskValuem==3) then
-		Say("CÊm qu©n ë chİnh m«n hoµng cung",0);
+		Say("CÊm qu©n ? chİnh m«n hoµng cung",0);
 		return
 	elseif (nTaskValuem==4) then
-		Say("§Õn BiÖn Kinh t×m TriÖu Phæ",0);
+		Say("§Õn BiÖn Kinh t×m TriÖu Ph?",0);
 		return
   elseif (nTaskValuem==5) then
 		task_011();
@@ -34,19 +34,19 @@ function main()
 		Say("§Õn bÈm b¸o Xa Th¸i Qu©n",0);
 		return
 	elseif GetTask(1401) == 135 or GetTask(1401) == 125 then --ÌìÃÅÕóºóĞøÈÎÎñ
-		Talk(1,"","<color=green>Méc QuÕ Anh<color>: nghe nãi lÇn nµy ng­¬i muèn tham gia ph¸ Thiªn M«n TrËn? ChuyÖn nµy kh«ng ph¶i trß ®ïa ngay c¶ ta còng ch­a cã n¾m ch¾c phÇn th¾ng dï ®· n¾m râ mäi yÕu ®iÓm cña Thiªn M«n TrËn. V× thÕ ta ®· lÖnh cho <color=yellow>Phiªu Kş t­íng qu©n Qu¸ch Qu©n B»ng<color> ®Õn <color=yellow>T­¬ng D­¬ng [178,175]<color> lËp nªn Thiªn M«n TrËn,dµnh cho qu©n sÜ ngµy ®ªm rÌn luyÖnmong sím t×m ra c¸ch ph¸ gi¶i huyÒn c¬, thiÕu hiÖp nÕu muèn tham gia th× h·y ®Õn ®ã rÌn luyÖn tr­íc.");
+		Talk(1,"","<color=green>Méc Qu? Anh<color>: nghe nãi lÇn nµy ng­¬i muèn tham gia ph? Thiªn M«n TrËn? ChuyÖn nµy kh«ng ph¶i tr? ®ïa ngay c? ta còng ch­a c? n¾m ch¾c phÇn th¾ng d? ®· n¾m r? mäi yÕu ®iÓm cña Thiªn M«n TrËn. V? th? ta ®· lÖnh cho <color=yellow>Phiªu K? t­íng qu©n Qu¸ch Qu©n B»ng<color> ®Õn <color=yellow>T­¬ng D­¬ng [178,175]<color> lËp nªn Thiªn M«n TrËn,dµnh cho qu©n s? ngµy ®ªm rÌn luyÖnmong sím t×m ra c¸ch ph? gi¶i huyÒn c?, thiÕu hiÖp nÕu muèn tham gia th? h·y ®Õn ®ã rÌn luyÖn tr­íc.");
 		SetTask(1401,136);
 		GivePlayerExp(SkeyTianmenzhen,"guojunpen")
-		TaskTip("T×m Qu¸ch Qu©n B»ng (T­¬ng D­¬ng [178,175]) hái th¨m vÒ t×nh h×nh Thiªn M«n TrËn.");
+		TaskTip("T×m Qu¸ch Qu©n B»ng (T­¬ng D­¬ng [178,175]) hái th¨m v? t×nh h×nh Thiªn M«n TrËn.");
 		return 0;	
 	elseif GetTask(1401) == 138 then
-		Talk(8,"","<color=green>Méc QuÕ Anh<color>: lÇn nµy thiÕu hiÖp v­ît ¶i n¾m ®­îc bao nhiªu kh¶ n¨ng chiÕn th¾ng?","<color=green> <color>: Kho¶n 50 phÇn tr¨m c¬ héi, hoÆc İt h¬n.","<color=green>Méc QuÕ Anh<color>: ch¼ng lÏ l¹i lµ v× m·nh b¶n ®å S¬n Hµ X· T¾c?","<color=green> <color>: ®óng vËy.","<color=green>Méc QuÕ Anh<color>: qu©n ta th¸m tö håi b¸o, m¶nh b¶n ®å S¬n Hµ X· T¾c ®· bŞ bİ mËt mang ®Õn Nh¹n M«n Quan råi.","<color=green> <color>: thÕ t­íng qu©n cã biÕt cô thÓ m·nh b¶n ®å ®· ®­îc ®­a ®Õn n¬i nµo?","<color=green>Méc QuÕ Anh<color>: cã lÏ giê ®· ®Õn Th¶o Nguyªn råi, thiÕu hiÖp h·y ®Õn ®ã xem thÕ nµo.","<color=green> <color>: ®a t¹ t­íng qu©n!")
+		Talk(8,"","<color=green>Méc Qu? Anh<color>: lÇn nµy thiÕu hiÖp v­ît ¶i n¾m ®­îc bao nhiªu kh? n¨ng chiÕn th¾ng?","<color=green> <color>: Kho¶n 50 phÇn tr¨m c? héi, hoÆc İt h¬n.","<color=green>Méc Qu? Anh<color>: ch¼ng l? l¹i l? v? m·nh b¶n ®å S¬n H? X? T¾c?","<color=green> <color>: ®óng vËy.","<color=green>Méc Qu? Anh<color>: qu©n ta th¸m t? håi b¸o, m¶nh b¶n ®å S¬n H? X? T¾c ®· b? b? mËt mang ®Õn Nh¹n M«n Quan råi.","<color=green> <color>: th? t­íng qu©n c? biÕt c? th? m·nh b¶n ®å ®· ®­îc ®­a ®Õn n¬i nµo?","<color=green>Méc Qu? Anh<color>: c? l? gi? ®· ®Õn Th¶o Nguyªn råi, thiÕu hiÖp h·y ®Õn ®ã xem th? nµo.","<color=green> <color>: ®a t? t­íng qu©n!")
 		SetTask(1401,139);
 		GivePlayerExp(SkeyTianmenzhen,"yanwushengli")
-		TaskTip("T×m qu©n quan qu©n Liªu (Nh¹n M«n Quan [194,195]) ®o¹t l¹i b¶n ®å S¬n Hµ X· T¾c.");
+		TaskTip("T×m qu©n quan qu©n Liªu (Nh¹n M«n Quan [194,195]) ®o¹t l¹i b¶n ®å S¬n H? X? T¾c.");
 		return 0;	
 	elseif GetTask(1401) == 140 then
-		Talk(4,"","<color=green>Méc QuÕ Anh<color>: xem ra qu©n Liªu ®· ®æi h­íng ®i,  b¶n ®å ®· bŞ hé tèng chuyÓn vÒ råi.","<color=green> <color>: ¸i chµ! Ch¼ng lÏ ta l¹i kh«ng thÓ t×m ra b¶n ®å S¬n Hµ X· T¾c.","<color=green>Méc QuÕ Anh<color>: thiÕu hiÖp chí lo ©u,  ngµy sau nÕu muèn th¸m thİnh thªm th«ng tin h·y ®Õn ®©y t×m ta.","<color=green> <color>: chØ ®µnh nh­ vËy, ®a t¹ t­íng qu©n!");
+		Talk(4,"","<color=green>Méc Qu? Anh<color>: xem ra qu©n Liªu ®· ®æi h­íng ®i,  b¶n ®å ®· b? h? tèng chuyÓn v? råi.","<color=green> <color>: ¸i ch?! Ch¼ng l? ta l¹i kh«ng th? t×m ra b¶n ®å S¬n H? X? T¾c.","<color=green>Méc Qu? Anh<color>: thiÕu hiÖp ch? lo ©u,  ngµy sau nÕu muèn th¸m thİnh thªm th«ng tin h·y ®Õn ®©y t×m ta.","<color=green> <color>: ch? ®µnh nh? vËy, ®a t? t­íng qu©n!");
 		SetTask(1401,141);
 		GivePlayerExp(SkeyTianmenzhen,"huibingmuguiying")
 		return 0;
@@ -54,25 +54,25 @@ function main()
 	
 	if  GetSex()==1 then
 		if (nTaskValue>=8) or (nTaskValue==0) then
-		Say("D­¬ng M«n cung kş dµnh cho <color=yellow>®Ö tö cung kş<color> tu luyÖn, chñ yÕu khèng chÕ ®èi ph­¬ng b¶o vÖ bªn m×nh. Sö dông <color=yellow>Cung<color> lµm vò khİ. Ta gióp g× ®­îc cho ng­¬i?",
+		Say("ÑîÃÅ¹­Æï×¨¹©<color=yellow>¹­ÆïµÜ×Ó<color> ĞŞÏ°, ÖØÔÚÇ£ÖÆµĞÈË£¬È·±£Õ½ÓÑ¡£ÒÔ<color=yellow>¹­<color> ÎªÎäÆ÷. ÓĞÊ²Ã´ÎÒÄÜ°ïÄãµÄ?",
 			4,
-			"Tham kiÕn gi¸o ®Çu/entersujia",
-			"Häc vâ c«ng D­¬ng M«n cung kş/skilllearn",
-			"Ta nhËn ®­îc mét quyÓn MËt tŞch trÊn ph¸i/change_mistery_book",
-			"Tham kiÕn t­íng qu©n/no")
+			"°İ¼ûÊ¦¸µ/entersujia",
+			"Ñ§Ï°ÑîÃÅ¹­ÆïÎä¹¦/skilllearn",
+			"ÎÒµÃµ½ÁË±¾ÃÅÕòÅÉÃØ¼®µÄ²Ğ±¾/change_mistery_book",
+			"¸ú½«¾ü´ò¸öÕĞºô/no")
 		else
-			Say("Méc QuÕ Anh: Ng­¬i ®i b¸o danh sau ®ã quay l¹i.",0);
+			Say("ÄÂ¹ğÓ¢: ÄãÈ¥±¨ÃûÔÙ»ØÀ´.",0);
 		end
 	end 
 		  
 	if  GetSex()==2 then
 		if (nTaskValuem>=8) or (nTaskValuem==0) then
-		Say("D­¬ng M«n cung kş dµnh cho <color=yellow>®Ö tö cung kş<color> tu luyÖn, chñ yÕu khèng chÕ ®èi ph­¬ng b¶o vÖ bªn m×nh. Sö dông <color=yellow>Cung<color> lµm vò khİ. Ta gióp g× ®­îc cho ng­¬i?",
+		Say("ÑîÃÅ¹­Æï×¨¹©<color=yellow>¹­ÆïµÜ×Ó<color> ĞŞÏ°, ÖØÔÚÇ£ÖÆµĞÈË£¬È·±£Õ½ÓÑ¡£ÒÔ<color=yellow>¹­<color> ÎªÎäÆ÷. ÓĞÊ²Ã´ÎÒÄÜ°ïÄãµÄ?",
 			4,
-			"Tham kiÕn gi¸o ®Çu/entersujia",
-			"Häc vâ c«ng D­¬ng M«n cung kş/skilllearn",
-			"Ta nhËn ®­îc mét quyÓn MËt tŞch trÊn ph¸i/change_mistery_book",
-			"Tham kiÕn t­íng qu©n/no")
+			"°İ¼ûÊ¦¸µ/entersujia",
+			"Ñ§Ï°ÑîÃÅ¹­ÆïÎä¹¦/skilllearn",
+			"ÎÒµÃµ½ÁË±¾ÃÅÕòÅÉÃØ¼®µÄ²Ğ±¾/change_mistery_book",
+			"¸ú½«¾ü´ò¸öÕĞºô/no")
 	   end;
 	end;
 end	
@@ -88,26 +88,26 @@ function change_mistery_book()
 	local nBook3 = GetItemCount(2, 1, canjuan3)		-- ÏÂ¾í
 	
 	if GetPlayerRoute() ~= 18 then	--Á÷ÅÉ¼ì²â
-		Say("Ng­¬i kh«ng ph¶i lµ ®Ö tö cña ta, MËt tŞch trÊn ph¸i sao cã thÓ giao cho ng­¬i chø?", 0)
+		Say("Ng­¬i kh«ng ph¶i l? ®Ö t? cña ta, MËt tŞch trÊn ph¸i sao c? th? giao cho ng­¬i ch??", 0)
 		return
 	end	
 
 	if (nBook1 == 0 and nBook2 == 0 and nBook3 == 0) then	-- É¶Ò²Ã»ÓĞ
-		Say("Ng­¬i ch­a tõng nhËn ®­îc trang mËt tŞch vâ c«ng nµo sao cã thÓ nãi lµ ®· cã nã?", 0)
+		Say("Ng­¬i ch­a tõng nhËn ®­îc trang mËt tŞch v? c«ng nµo sao c? th? nãi l? ®· c? n??", 0)
 		return
 	end
 	
-	Say("ThËt kh«ng ngê th«ng qua luyÖn thøc ng­¬i l¹i cã thÓ nhËn ®­îc MËt tŞch trÊn ph¸i, thËt xøng ®¸ng lµ ®å ®Ö cña bæn m«n. Ta sÏ gióp ng­¬i ®ãng l¹i thµnh mét quyÓn hoµn chØnh nh­ng thµnh c«ng hay kh«ng cßn xem ng­¬i cã may m¾n kh«ng n÷a.", 
+	Say("ThËt kh«ng ng? th«ng qua luyÖn thøc ng­¬i l¹i c? th? nhËn ®­îc MËt tŞch trÊn ph¸i, thËt xøng ®¸ng l? ®å ®Ö cña bæn m«n. Ta s? gióp ng­¬i ®ãng l¹i thµnh mét quyÓn hoµn chØnh nh­ng thµnh c«ng hay kh«ng cßn xem ng­¬i c? may m¾n kh«ng n÷a.", 
 		2,
-		"§­a c¸c trang s¸ch cho s­ phô/hand_up_book",
+		"§­a c¸c trang s¸ch cho s? ph?/hand_up_book",
 		"Kh«ng cÇn ®©u/no")
 end;
 
 -- ½«²Ğ±¾½»¸øÊ¦¸¸
 function hand_up_book()
-	Say("NÕu nh­ ng­¬i cã ®ñ 3 tËp Th­îng_Trung_H¹, ta nhÊt ®Şnh sÏ ®ãng l¹i thµnh mét quyÓn hoµn chØnh cho ng­¬i.", 
+	Say("NÕu nh? ng­¬i c? ®ñ 3 tËp Th­îng_Trung_H?, ta nhÊt ®Şnh s? ®ãng l¹i thµnh mét quyÓn hoµn chØnh cho ng­¬i.", 
 		2,
-		"§ång ı ®ãng s¸ch/confirm_change_book",
+		"§ång ? ®ãng s¸ch/confirm_change_book",
 		"Kh«ng cÇn ®©u/no")
 end;
 
@@ -159,11 +159,11 @@ function confirm_change_book()
 	
 	if (nCanChange == 1) then		-- ¿ÉÒÔ¸øÃØ¼®
 		AddItem(0, 112, 112, 1)
-		Say("Ng­¬i thËt lµ may m¾n, ®©y lµ quyÓn MËt tŞch trÊn ph¸i hoµn chØnh!", 0)
+		Say("Ng­¬i thËt l? may m¾n, ®©y l? quyÓn MËt tŞch trÊn ph¸i hoµn chØnh!", 0)
 		Msg2Player("B¹n nhËn ®­îc mét quyÓn MËt tŞch trÊn ph¸i!")
-		WriteLog("[§æi mËt tŞch trÊn ph¸i]:"..GetName().."§æi 1 MËt tŞch trÊn ph¸i cña D­¬ng M«n cung kş, nChangeType:"..nChangeType);
+		WriteLog("[§æi mËt tŞch trÊn ph¸i]:"..GetName().."§æi 1 MËt tŞch trÊn ph¸i cña D­¬ng M«n cung k?, nChangeType:"..nChangeType);
 	else
-		WriteLog("[§æi mËt tŞch trÊn ph¸i]:"..GetName().."§æi MËt tŞch trÊn ph¸i cña D­¬ng M«n cung kş thÊt b¹i, nChangeType:"..nChangeType);
+		WriteLog("[§æi mËt tŞch trÊn ph¸i]:"..GetName().."§æi MËt tŞch trÊn ph¸i cña D­¬ng M«n cung k? thÊt b¹i, nChangeType:"..nChangeType);
 		Talk(1,"","B¸o lçi, ®æi MËt tŞch trÊn ph¸i thÊt b¹i!");
 	end;
 end;
@@ -275,15 +275,15 @@ function showlimit(n)	--Ê¦ÃÅËµ»°
 --	if n==1 then
 --		Say("<color=green>ÄÂ¹ğÓ¢<color>£ºÄãµÄÎä¹¦¾«½øÁË£¡",0)
 	if n==2 then
-		Say("§¼ng cÊp cña ng­¬i ch­a ®ñ, cè g¾ng thªm nhĞ!",0)
+		Say("ÄãµÄµÈ¼¶²»×ã, Çë¼Ó±¶Å¬Á¦!",0)
 	elseif n==3 then
-		Say("§iÓm kinh nghiÖm cña ng­¬i ch­a ®ñ, cè g¾ng thªm nhĞ!",0)
+		Say("ÄãµÄ¾­ÑéÖµ²»×ã, Çë¼Ó±¶Å¬Á¦!",0)
 	elseif n==4 then
-		Say("§iÓm danh väng cña ng­¬i kh«ng ®ñ, cÇn tİch lòy thªm nhĞ!",0)
+		Say("ÄãµÄÉùÍû²»×ã, Çë¼ÌĞøÅ¬Á¦!",0)
 	elseif n==5 then
-		Say("Vâ c«ng lóc tr­íc ta d¹y cßn ch­a häc xong sao häc ®­îc c¸i míi, mau rÌn luyÖn thªm ®i!",0)
+		Say("V? c«ng lóc tr­íc ta d¹y cßn ch­a häc xong sao häc ®­îc c¸i míi, mau rÌn luyÖn thªm ®i!",0)
 	elseif n==6 then
-		Say("Ng©n l­îng cña ng­¬i kh«ng ®ñ, t×m ®ñ råi h·y quay l¹i nhĞ!",0)
+		Say("ÄãµÄÒøÁ½²»×ã£¬Çë×¬¹»ÒøÁ½ÔÙÀ´!",0)
 	else
 	end
 end;
@@ -295,7 +295,7 @@ function shaolinsujia()		--²ì¿´¼¼ÄÜ
 end;
 
 function tedian()		--²ì¿´¼¼ÄÜ
-Say("Vâ c«ng ta d¹y thuéc D­¬ng M«n cung kş chñ yÕu khèng chÕ ®èi ph­¬ng b¶o vÖ bªn m×nh, lÊy cung lµm vò khİ.",0)
+Say("V? c«ng ta d¹y thuéc D­¬ng M«n cung k? ch? yÕu khèng ch? ®èi ph­¬ng b¶o v? bªn m×nh, lÊy cung lµm v? kh?.",0)
 end;
 
 
@@ -306,56 +306,56 @@ function entersujia()		--¼ÓÈëÁ÷ÅÉ
 		if join_route_main(18) == 0 then
 			return
 		end
-		Say("Tèt! Ng­¬i ®· gia nhËp D­¬ng M«n sau nµy cã thÓ theo ta häc nghÖ, ta sÏ gióp ®¶ th«ng l¹i kinh m¹ch <color=yellow>tÈy ®iÓm tiÒm n¨ng<color>. Vâ c«ng cung kş chñ yÕu <color=yellow>Th©n ph¸p<color> lµm chñ. Giê cã thÓ ®Õn gÆp Xa Th¸i Qu©n nhËn <color=yellow>NhiÖm vô s­ m«n<color>.",0)
+		Say("Tèt! Ng­¬i ®· gia nhËp D­¬ng M«n sau nµy c? th? theo ta häc ngh?, ta s? gióp ®¶ th«ng l¹i kinh m¹ch <color=yellow>tÈy ®iÓm tiÒm n¨ng<color>. V? c«ng cung k? ch? yÕu <color=yellow>Th©n ph¸p<color> lµm ch?. Gi? c? th? ®Õn gÆp Xa Th¸i Qu©n nhËn <color=yellow>NhiÖm v? s? m«n<color>.",0)
 		SetPlayerRoute(18)	--Ö±½ÓÉèÖÃÁ÷ÅÉ
 		LearnSkill(733)
 		AddItem(0,4,108,1,1,4,65,4,66)
 		AddItem(0,105,10,1)
 		ResetProperty()        --Ï´Ç±ÄÜµã
-		TaskTip("Ng­¬i ®· trë thµnh ®Ö tö D­¬ng M«n cung kş!")
+		TaskTip("Ng­¬i ®· tr? thµnh ®Ö t? D­¬ng M«n cung k?!")
 		TaskTip("B¹n ®· ®­îc tÈy ®iÓm tiÒm n¨ng!")
-		TaskTip("B¹n ®· nhËp m«n! Cã thÓ ®Õn gÆp Xa Th¸i Qu©n nhËn nhiÖm vô.")
+		TaskTip("B¹n ®· nhËp m«n! C? th? ®Õn gÆp Xa Th¸i Qu©n nhËn nhiÖm v?.")
 	elseif   GetPlayerRoute() == 18 then
-	 	Say("Mau ®i luyÖn c«ng ®õng ®Ó mÊt mÆt vi s­.",0)
+	 	Say("Mau ®i luyÖn c«ng ®õng ®Ó mÊt mÆt vi s?.",0)
 	else
-		Say("Ta kh«ng ph¶i lµ s­ phô cña ng­¬i, nhÇm råi!",0)
+		Say("Ta kh«ng ph¶i l? s? ph? cña ng­¬i, nhÇm råi!",0)
 	end
 end;
 
 function skilllearn()		--Ñ§Ï°¼¼ÄÜ
 	if GetPlayerRoute() ~= 18 then	--Á÷ÅÉ¼ì²â
-		Say("Ng­¬i kh«ng ph¶i ®Ö tö cung kş kh«ng thÓ häc vâ c«ng D­¬ng M«n cung kş.",0)
+		Say("Ng­¬i kh«ng ph¶i ®Ö t? cung k? kh«ng th? häc v? c«ng D­¬ng M«n cung k?.",0)
 	else
-		Say("Kü n¨ng nµo d­íi gãc ph¶i cã dÊu mòi tªn th× cã thÓ häc, nhÊp chuét ®Ó t¨ng cÊp",0)
+		Say("K? n¨ng nµo d­íi gãc ph¶i c? dÊu mòi tªn th? c? th? häc, nhÊp chuét ®Ó t¨ng cÊp",0)
 		AllowLearnSkill()
 	end
 end;
 
 function change_mistery_book_linshi()
-		Say("Kh«ng ngê th«ng qua viÖc luyÖn thøc ng­¬i cã thÓ nhËn ®­îc MËt tŞch trÊn ph¸i, thËt xøng ®¸ng lµ ®å ®Ö cña bæn m«n. Nh­ng trÊn ph¸i vâ häc nµy ta còng ph¶i lÜnh ngé mét thêi gian míi cã thÓ truyÒn thô ®­îc, ng­¬i quay l¹i sau nhĞ!",0)
+		Say("Kh«ng ng? th«ng qua viÖc luyÖn thøc ng­¬i c? th? nhËn ®­îc MËt tŞch trÊn ph¸i, thËt xøng ®¸ng l? ®å ®Ö cña bæn m«n. Nh­ng trÊn ph¸i v? häc nµy ta còng ph¶i lÜnh ng? mét thêi gian míi c? th? truyÒn th? ®­îc, ng­¬i quay l¹i sau nh?!",0)
 end;
 
 function beforelearnskill(id)
 	if (id == 745) then	--°ÔÍõÏè·ï¼ı
-		if (GetSkillLevel("B¸ V­¬ng T­êng Phông TiÔn") <= 0) then
-			return "“B¸ V­¬ng T­êng Phông TiÔn” lµ <color=red>tuyÖt häc trÊn ph¸i<color> cña bæn m«n, chØ truyÒn cho ng­êi tµi giái."
+		if (GetSkillLevel("B? V­¬ng T­êng Phông TiÔn") <= 0) then
+			return "“B? V­¬ng T­êng Phông TiÔn? l? <color=red>tuyÖt häc trÊn ph¸i<color> cña bæn m«n, ch? truyÒn cho ng­êi tµi giái."
 		end
 	end
 end
 
 function afterlearnskill(id)
 	if (id == 745) then	--°ÔÍõÏè·ï¼ı
-		if (GetSkillLevel("B¸ V­¬ng T­êng Phông TiÔn") == 1) then
-			Say("ThiÕu hiÖp qu¶ nhiªn tè chÊt kh«ng tÖ, b­íc ®Çu ®· lÜnh héi “B¸ V­¬ng T­êng Phông TiÔn” cña bæn m«n, thËt ®¸ng nÓ!<enter><color=green>Ng­êi ch¬i<color>: Nh­ng... th­a s­ phô, v× sao lóc ®Ö tö thi triÓn “B¸ V­¬ng T­êng Phông TiÔn”, néi khİ trong ng­êi bŞ ph©n t¸n? §· nghe danh Lôc M¹ch ThÇn KiÕm cña §¹i Lı §oµn ThŞ tõ l©u, nghÜ ®Õn còng kh«ng d¸m, h«m nay l¹i cã dŞp thö. <enter>ThiÕu hiÖp cßn ch­a biÕt ®iÒu nµy, “B¸ V­¬ng T­êng Phông TiÔn”rÊt m¹nh, cho dï may m¾n häc ®­îc, nh­ng ch­a ch¾c ®iÒu khiÓn ®­îc nã. Tinh khİ bªn trong c¬ thÓ kh«ng tİch tô thµnh “s¸t khİ”? (møc s¸t khİ), th× kh«ng thÓ thi triÓn vâ c«ng nµy, cÇn tiªu hao “s¸t khİ” bªn trong. “S¸t khİ” gåm 10 phÇn, t¨ng khi c«ng ph¸ s¸t th­¬ng, dÇn dÇn tİch tô l¹i.", 1, "§ång ı/GiveMomentum")
-		elseif (GetSkillLevel("B¸ V­¬ng T­êng Phông TiÔn") == 5) then
-			Say("ThiÕu hiÖp qu¶ nhiªn tè chÊt th«ng minh, “B¸ V­¬ng T­êng Phông TiÔn” ®· lÜnh héi ®­îc 5 phÇn. Vâ c«ng nµy cã 20 cÊp, tõ cÊp 5 trë ®i thiÕu hiÖp cÇn ra søc luyÖn c«ng, ®Õn mét møc nhÊt ®Şnh sÏ t¨ng thªm 1 cÊp. Tõ cÊp 10 trë ®i ph¶i lÜnh héi MËt tŞch trÊn ph¸i cña bæn m«n, míi cã thÓ häc ®­îc.", 0)
+		if (GetSkillLevel("B? V­¬ng T­êng Phông TiÔn") == 1) then
+			Say("ThiÕu hiÖp qu? nhiªn t? chÊt kh«ng t?, b­íc ®Çu ®· lÜnh héi “B? V­¬ng T­êng Phông TiÔn? cña bæn m«n, thËt ®¸ng n?!<enter><color=green>Ng­êi ch¬i<color>: Nh­ng... th­a s? ph?, v? sao lóc ®Ö t? thi triÓn “B? V­¬ng T­êng Phông TiÔn?, néi kh? trong ng­êi b? ph©n t¸n? §· nghe danh Lôc M¹ch ThÇn KiÕm cña §¹i L? §oµn Th? t? l©u, ngh? ®Õn còng kh«ng d¸m, h«m nay l¹i c? dŞp th?. <enter>ThiÕu hiÖp cßn ch­a biÕt ®iÒu nµy, “B? V­¬ng T­êng Phông TiÔn”rÊt m¹nh, cho d? may m¾n häc ®­îc, nh­ng ch­a ch¾c ®iÒu khiÓn ®­îc n?. Tinh kh? bªn trong c? th? kh«ng tİch t? thµnh “s¸t khİ”? (møc s¸t kh?), th? kh«ng th? thi triÓn v? c«ng nµy, cÇn tiªu hao “s¸t khİ” bªn trong. “S¸t khİ” gåm 10 phÇn, t¨ng khi c«ng ph? s¸t th­¬ng, dÇn dÇn tİch t? l¹i.", 1, "§ång ?/GiveMomentum")
+		elseif (GetSkillLevel("B? V­¬ng T­êng Phông TiÔn") == 5) then
+			Say("ThiÕu hiÖp qu? nhiªn t? chÊt th«ng minh, “B? V­¬ng T­êng Phông TiÔn? ®· lÜnh héi ®­îc 5 phÇn. V? c«ng nµy c? 20 cÊp, t? cÊp 5 tr? ®i thiÕu hiÖp cÇn ra søc luyÖn c«ng, ®Õn mét møc nhÊt ®Şnh s? t¨ng thªm 1 cÊp. T? cÊp 10 tr? ®i ph¶i lÜnh héi MËt tŞch trÊn ph¸i cña bæn m«n, míi c? th? häc ®­îc.", 0)
 		end
 	end
 end
 
 function GiveMomentum()
-	Say("Ta ®ang vËn c«ng chØ dÉn ng­¬i tİch tô 10 phÇn s¸t khİ trong ng­êi, ®Ó ng­¬i thö thi triÓn “B¸ V­¬ng T­êng Phông TiÔn”. <enter><enter>L©u sau...<enter><enter>S¸t khİ trong ng­êi thiÕu hiÖp ®· h×nh thµnh, lóc nµy cã thÓ thö thi triÓn “B¸ V­¬ng T­êng Phông TiÔn”. TuyÖt häc trÊn ph¸i cña bæn m«n uy lùc dòng m·nh, chØ dïng ®Ó trõ b¹o gióp kÎ yÕu, thay trêi hµnh ®¹o, ®õng h¹i ng­êi v« téi, h·y nhí kü lÊy...", 0)
+	Say("Ta ®ang vËn c«ng ch? dÉn ng­¬i tİch t? 10 phÇn s¸t kh? trong ng­êi, ®Ó ng­¬i th? thi triÓn “B? V­¬ng T­êng Phông TiÔn?. <enter><enter>L©u sau...<enter><enter>S¸t kh? trong ng­êi thiÕu hiÖp ®· h×nh thµnh, lóc nµy c? th? th? thi triÓn “B? V­¬ng T­êng Phông TiÔn?. TuyÖt häc trÊn ph¸i cña bæn m«n uy lùc dòng m·nh, ch? dïng ®Ó tr? b¹o gióp k? yÕu, thay trêi hµnh ®¹o, ®õng h¹i ng­êi v? téi, h·y nh? k? lÊy...", 0)
 	SetMomentum(10)
-	RandomTaskTipEx("NhËn ®­îc 10 ®iÓm s¸t khİ s­ phô truyÒn cho", "momentumtip")
+	RandomTaskTipEx("NhËn ®­îc 10 ®iÓm s¸t kh? s? ph? truyÒn cho", "momentumtip")
 end
 
