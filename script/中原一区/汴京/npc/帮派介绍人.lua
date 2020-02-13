@@ -1,181 +1,182 @@
 Include("\\script\\online\\viet_event\\vng_task_control.lua");
 Include("\\script\\vng\\config\\newserver.lua");
 ---------------------------------------------------------
---	°ï»á½éÉÜÈË
---	°ï»áµÄ½Ó¿ÚÈË - Jeep tag
+--	å¸®ä¼šä»‹ç»äºº
+--	å¸®ä¼šçš„æ¥å£äºº - Jeep tag
 ---------------------------------------------------------
 
 function main()
---	Talk(1,"","Ta ®ang trong giai ®o¹n nghØ ng¬i, ng­¬i h·y quay l¹i sau nhĞ.")
+--	Talk(1,"","Ta ç”¢ng trong giai ç•‚ç­º ngh? ngç², ngî„¥i hç©£ quay lç­° sau nh?.")
 --	do	return	end
 	local nDate = tonumber(date("%Y%m%d"))
 	if tbGioiHanBangHoi[GetGlbValue(GLB_TSK_SERVER_ID)] ~= nil then
 		if nDate < tbGioiHanBangHoi[GetGlbValue(GLB_TSK_SERVER_ID)] then
-			Talk(1,"","Ch­a ®Õn thêi gian më tİnh n¨ng Bang Héi, ng­êi h·y quay l¹i sau nhĞ!!!");	
+			Talk(1,"","ç°åœ¨è¿˜æ²¡åˆ°å¼€æ”¾çš„æ—¶å€™ï¼Œè¯·ç¨åå†æ¥ï¼");	
 			do	return	end
 		end
 	end
 	local bWantCreateTong = GetTask(297)
 	local bWantDestoryTong = GetTask(295)
 	
-	local bIsTongMember = IsTongMember()	-- ÊÇ°ï»á³ÉÔ±µÄ»°£¬¾Í°Ñ½¨Á¢°ï»áµÄÌõ¼ş¸Éµô£¬²»ÈÃËû¸ãÁË£¡£¡£¡
+	local bIsTongMember = IsTongMember()	-- æ˜¯å¸®ä¼šæˆå‘˜çš„è¯ï¼Œå°±æŠŠå»ºç«‹å¸®ä¼šçš„æ¡ä»¶å¹²æ‰ï¼Œä¸è®©ä»–æäº†ï¼ï¼ï¼
 	if (bIsTongMember == 1) then
 		bWantCreateTong = 0;
 		SetTask(297, 0)
 	end
 	
-	-- <bWantDestoryTong == 1>±íÊ¾Íæ¼ÒÒÑ¾­µ½°ï»á½éÉÜÈË´¦ÉêÇë½âÉ¢°ï»á£¬À´ÕâÀïÉêÇë
-	-- <bWantDestoryTong == 2>±íÊ¾Íæ¼ÒÒÑ¾­ÔÚÕâÀïÉêÇë¹ı½âÉ¢°ï»á£¬ÓÖÀ´É§ÈÅ½ğÉ½ÕÆÃÅÈËÁË
-	-- <bWantDestoryTong == 3>±íÊ¾½ğÉ½ÕÆÃÅÈËÒÑ¾­´ğÓ¦ÁË½âÉ¢°ï»áµÄÉêÇë
+	-- <bWantDestoryTong == 1>è¡¨ç¤ºç©å®¶å·²ç»åˆ°å¸®ä¼šä»‹ç»äººå¤„ç”³è¯·è§£æ•£å¸®ä¼šï¼Œæ¥è¿™é‡Œç”³è¯·
+	-- <bWantDestoryTong == 2>è¡¨ç¤ºç©å®¶å·²ç»åœ¨è¿™é‡Œç”³è¯·è¿‡è§£æ•£å¸®ä¼šï¼Œåˆæ¥éªšæ‰°é‡‘å±±æŒé—¨äººäº†
+	-- <bWantDestoryTong == 3>è¡¨ç¤ºé‡‘å±±æŒé—¨äººå·²ç»ç­”åº”äº†è§£æ•£å¸®ä¼šçš„ç”³è¯·
 	
-	-- <bWantCreateTong == 1>±íÊ¾Íæ¼ÒÒÑ¾­µ½°ï»á½éÉÜÈË´¦ÉêÇë½¨Á¢°ï»á£¬À´ÕâÀïÉêÇë
-	-- <bWantCreateTong == 2>±íÊ¾Íæ¼ÒÒÑ¾­»ñµÃÁË½ğÉ½ÕÆÃÅÈËµÄÈÏ¿É£¬µÃµ½ÁË(»áÃËÁîÅÆ)
+	-- <bWantCreateTong == 1>è¡¨ç¤ºç©å®¶å·²ç»åˆ°å¸®ä¼šä»‹ç»äººå¤„ç”³è¯·å»ºç«‹å¸®ä¼šï¼Œæ¥è¿™é‡Œç”³è¯·
+	-- <bWantCreateTong == 2>è¡¨ç¤ºç©å®¶å·²ç»è·å¾—äº†é‡‘å±±æŒé—¨äººçš„è®¤å¯ï¼Œå¾—åˆ°äº†(ä¼šç›Ÿä»¤ç‰Œ)
 	
--- ½âÉ¢°ï»áµÄ²¿·Ö·Ö¸îÏß -- ¿ªÊ¼ ------------------------------------------------------------------------------
-	if ((bWantDestoryTong == 1) or (bWantDestoryTong == 2)) then	-- ÒÑ¾­ÉêÇëÁË½âÉ¢°ï»á£¬µ«ÊÇ»¹Ã»ÓĞµÃµ½½ğÉ½ÕÆÃÅÈËµÄ×îºóÈ·ÈÏ
-		Say("Lêi thØnh cÇu gi¶i t¸n bang héi cña b»ng h÷u ®· ®­îc tiÕp nhËn! §îi Minh Chñ Kim S¬n ®ång ı, B»ng h÷u cã thÓ tiÕn hµnh gi¶i t¸n bang héi!", 0)
+-- è§£æ•£å¸®ä¼šçš„éƒ¨åˆ†åˆ†å‰²çº¿ -- å¼€å§‹ ------------------------------------------------------------------------------
+	if ((bWantDestoryTong == 1) or (bWantDestoryTong == 2)) then	-- å·²ç»ç”³è¯·äº†è§£æ•£å¸®ä¼šï¼Œä½†æ˜¯è¿˜æ²¡æœ‰å¾—åˆ°é‡‘å±±æŒé—¨äººçš„æœ€åç¡®è®¤
+		Say("å·²ç”³è¯·è§£æ•£å¸®ä¼šï¼Œè¯·ç­‰å¾…é‡‘å±±æŒé—¨äººçš„åŒæ„åå³å¯è§£æ•£å¸®ä¼šã€‚", 0)
 		return
 	end
 	
-	if (bWantDestoryTong == 3) then		-- ½ğÉ½ÕÆÃÅÈËÒÑ¾­Í¬ÒâÁË½âÉ¢°ï»áÄØ
+	if (bWantDestoryTong == 3) then		-- é‡‘å±±æŒé—¨äººå·²ç»åŒæ„äº†è§£æ•£å¸®ä¼šå‘¢
 		SetTask(295, 0)
 		SetTask(296, 0)
 		SetTask(297, 0)
-		Talk(1,"","Phông lÖnh Minh Chñ Kim S¬n, ®· chİnh thøc gi¶i t¸n bang héi cña b»ng h÷u!")
+		Talk(1,"","é‡‘å±±æŒé—¨äººå·²ç»åŒæ„äº†ï¼Œå¸®ä¼šæ­£å¼è§£æ•£ï¼ä»Šåå¤§å®¶å„èµ°å„å®¶ï¼Œå„æ‰¾å„å¦ˆã€‚")
 		DestroyTong()
 		return
 	end
 	
--- ½âÉ¢°ï»áµÄ²¿·Ö·Ö¸îÏß -- ½áÊø ------------------------------------------------------------------------------
+-- è§£æ•£å¸®ä¼šçš„éƒ¨åˆ†åˆ†å‰²çº¿ -- ç»“æŸ ------------------------------------------------------------------------------
 
--- ½¨Á¢°ï»áµÄ²¿·Ö·Ö¸îÏß -- ¿ªÊ¼ ------------------------------------------------------------------------------	
-	if (bWantCreateTong == 1) then		-- ÒÑ¾­ÉêÇëÁË½¨Á¢°ï»á£¬»¹Ã»ÓĞµÃµ½ÕÆÃÅÈËµÄ×îºóÍ¬Òâ
-		Talk(1,"","Muèn x©y dùng bang héi ph¶i ®­îc Minh Chñ Kim S¬n ®ång ı. B»ng h÷u cÇn giao nép <color=yellow>Héi Minh lÖnh bµi<color> Minh Chñ Kim S¬n xem xĞt, ®­îc ch­ëng m«n chÊp nhËn míi cã thÓ chİnh thøc x©y dùng bang héi. H·y ®Õn T­¬ng D­¬ng t×m Minh Chñ Kim S¬n!")
+-- å»ºç«‹å¸®ä¼šçš„éƒ¨åˆ†åˆ†å‰²çº¿ -- å¼€å§‹ ------------------------------------------------------------------------------	
+	if (bWantCreateTong == 1) then		-- å·²ç»ç”³è¯·äº†å»ºç«‹å¸®ä¼šï¼Œè¿˜æ²¡æœ‰å¾—åˆ°æŒé—¨äººçš„æœ€ååŒæ„
+		Talk(1,"","å»ºç«‹å¸®ä¼šçš„è¯·æ±‚å·²ç»æäº¤ï¼Œè¯·ç­‰å¾…é‡‘å±±æŒé—¨äººçš„åŒæ„ã€‚")
 		return
 	end
 	
-	if (bWantCreateTong == 2) then		-- ÒÑ¾­¸ãµ½ÁË»áÃËÁîÅÆ
-		Say("Ng­¬i thËt xuÊt s¾c! Minh Chñ Kim S¬n ®· ®ång ı cho ng­¬i x©y dùng bang héi!",
+	if (bWantCreateTong == 2) then		-- å·²ç»æåˆ°äº†ä¼šç›Ÿä»¤ç‰Œ
+		Say("å¾ˆå¥½ï¼é‡‘å±±æŒé—¨äººé‚£è€å¤´å­ç»ˆäºåŒæ„äº†ï¼Œä½ ç°åœ¨å·²ç»æ‹¥æœ‰äº†ä¸€ä¸ªå¸®ä¼šã€‚",
 		    1,
-		    "Xin ®a t¹! Mong gióp t¹i h¹ tiÕn hµnh x©y dùng bang héi!/create_tong_formally")
+		    "éº»çƒ¦ä½ äº†ï¼Œèƒ½å¸®æˆ‘å»ºç«‹ä¸€ä¸ªå¸®ä¼šå—ï¼Ÿ/create_tong_formally")
 		return
 	end
--- ½¨Á¢°ï»áµÄ²¿·Ö·Ö¸îÏß -- ½áÊø ------------------------------------------------------------------------------
+-- å»ºç«‹å¸®ä¼šçš„éƒ¨åˆ†åˆ†å‰²çº¿ -- ç»“æŸ ------------------------------------------------------------------------------
 
 
-	--ÏĞÁÄ
-	Say("Ta phông lÖnh Vâ l©m minh chñ xö lı chuyÖn bang héi! B»ng h÷u cã chuyÖn g× kh«ng???",
+	--é—²èŠ
+	Say("æ‰¾æˆ‘æœ‰ä»€ä¹ˆäº‹å—ï¼Ÿ",
 	    6,
-	    "X©y dùng bang héi yªu cÇu nh÷ng ®iÒu kiÖn g×?/introduce_about_create_tong",
-	    "Cã ph¶i nh©n khİ bang héi cao cã thÓ nhËn ®­îc phÇn th­ëng ®Æc biÖt?/introduce_about_population",
-	    "Ta muèn s¸ng lËp bang ph¸i, triÖu tËp anh hïng thiªn h¹!/apply_create_tong_normal",
-	    "Ta muèn t¨ng cÊp, khuÕch tr­¬ng thÕ lùc bang héi ta!/apply_level_up_tong",
-	    "Ta muèn gi¶i t¸n bang héi, lui vÒ chèn s¬n l©m!/apply_destroy_tong_normal",
-	    "Kh«ng cã g×! ChØ tiÖn thÓ hái th¨m th«i!/chat_xxx")
+	    "å»ºç«‹å¸®ä¼šéœ€è¦ä»€ä¹ˆæ¡ä»¶?/introduce_about_create_tong",
+	    "æ˜¯ä¸æ˜¯é«˜çº§åˆ«çš„å¸®ä¼šå¯ä»¥è·å¾—ç‰¹åˆ«çš„å¥–åŠ±ï¼Ÿ/introduce_about_population",
+	    "æˆ‘æƒ³è¦å»ºç«‹ä¸€ä¸ªå¸®ä¼šï¼Œç„¶åå¬é›†å¤©ä¸‹è‹±é›„åŠ å…¥ï¼/apply_create_tong_normal",
+	    "æˆ‘æƒ³å‡çº§æˆ‘ä»¬å¸®ä¼šçš„å®åŠ›/apply_level_up_tong",
+	    "æˆ‘æƒ³è§£æ•£è¿™ä¸ªå¸®ä¼šï¼Œå½’éšå±±æ—ã€‚/apply_destroy_tong_normal",
+	    "æ²¡ä»€ä¹ˆï¼Œåªæ˜¯éšä¾¿çœ‹çœ‹ã€‚/chat_xxx")
 end;
 
 
 
--- ÕæµÄ¿ÉÒÔ½¨Á¢°ï»áÁË£¬ÊÕÁËÇ®£¬ÓĞÁîÅÆ¾ÍÂíÉÏ°ïÄã°ìÊÖĞø
+-- çœŸçš„å¯ä»¥å»ºç«‹å¸®ä¼šäº†ï¼Œæ”¶äº†é’±ï¼Œæœ‰ä»¤ç‰Œå°±é©¬ä¸Šå¸®ä½ åŠæ‰‹ç»­
 function create_tong_formally()
-	local bCardIsExist = GetItemCount(2,0,125)  -- ÊÇ·ñÓĞ»áÃËÁîÅÆ
+	local bCardIsExist = GetItemCount(2,0,125)  -- æ˜¯å¦æœ‰ä¼šç›Ÿä»¤ç‰Œ
 	if (bCardIsExist < 1) then
-		Say("B»ng h÷u ph¶i chuÈn bŞ <color=yellow>Héi Minh lÖnh bµi<color> ®Ó x©y dùng bang héi!", 0)
+		Say("å‡†å¤‡å¥½<color=yellow>å»ºç«‹<color>å¸®ä¼šäº†å—ï¼Ÿ", 0)
 		return
 	end
         if GetItemCount(2, 0, 555) < 1 then
-            Say("<color=green>Sø gi¶ bang héi<color>: LËp bang cÇn <color=yellow>Cµn Kh«n Phï<color>, ®¹i hiÖp nªn mang theo ®¹o cô nµy khi lËp bang nhĞ!", 0);
+            Say("<color=green>å¸®æ´¾ä»‹ç»äºº<color>:å»ºç«‹å¸®ä¼š<color=yellow>éœ€è¦<color>, æœ‰ä¼šç›Ÿä»¤ç‰Œã€‚", 0);
             return
         end
 
-	local nMoney = GetCash()	--»ñµÃÉíÉÏµÄÇ®
-	if (nMoney < 5000000) then	-- ¹»Ç®
-		Talk(1,"","<color=green>Sø gi¶ bang héi<color>: LËp bang cßn cÇn 500 l­îng vµng, quyªn gãp cho vâ l©m minh chñ ®Ó gióp b¸ tİnh thiªn h¹. HiÖn t¹i ®¹i hiÖp vÉn ch­a ®ñ tiÒn ®Ó lËp bang!")
+	local nMoney = GetCash()	--è·å¾—èº«ä¸Šçš„é’±
+	if (nMoney < 5000000) then	-- å¤Ÿé’±
+		Talk(1,"","<color=green>å¸®æ´¾ä»‹ç»äºº<color>:å»ºç«‹å¸®ä¼šéœ€è¦èŠ±è´¹500é‡‘å¸ï¼Œæœ‰é’±å†æ¥æ²¡é’±èµ°å¼€ï¼")
 		return
 	end
         if GetReputation() < 1000 then
-            Say("<color=green>Sø gi¶ bang héi<color>: KiÕn lËp bang héi cÇn <color=yellow>1000 danh väng<color>, ®¹i hiÖp luyÖn thªm thêi gian n÷a råi h½ng lËp bang héi!", 0);
+            Say("<color=green>å¸®æ´¾ä»‹ç»äºº<color>:å»ºç«‹å¸®ä¼šè¿˜éœ€è¦<color=yellow>1000<color>,ç‚¹å£°æœ›", 0);
             return
         end
 	
 	CreateTongDialog()
 end;
 
--- ½éÉÜ½¨Á¢°ï»áËùĞèÒªµÄÌõ¼ş
+-- ä»‹ç»å»ºç«‹å¸®ä¼šæ‰€éœ€è¦çš„æ¡ä»¶
 function introduce_about_create_tong()
-	Talk(1,"","<color=green>Sø gi¶ bang héi<color>: §iÒu kiÖn lËp bang cÇn nh©n vËt <color=yellow>cÊp 50<color> trë lªn vµ ph¶i mang <color=yellow>500 vµng <color> víi <color=yellow>Minh Héi LÖnh Bµi<color> vµ<color=yellow>cµn kh«n phï<color>")
+	Talk(1,"","<color=green>å¸®æ´¾ä»‹ç»äºº<color>: îœ¯è¥² kiè¬“ lè—€ bang cè• nhï¹ vè—… <color=yellow>cè•„ 50<color> tr? lçŒ² v? phç§ˆ mang <color=yellow>500 vç¥…g <color> véŸ <color=yellow>Minh Hé–• Lè¬“h Bç¤½<color> v?<color=yellow>cç¥… khç­ ph?<color>")
 end;
 
--- ½éÉÜ°ï»áÈËÆøÅÅÃûµÄ×÷ÓÃ
+-- ä»‹ç»å¸®ä¼šäººæ°”æ’åçš„ä½œç”¨
 function introduce_about_population()
-	Talk(1,"","B»ng h÷u qu¶ nhiªn b¾t tin nhanh nh¹y. Mçi ngµy chóng ta ®Òu ph¸i c¸c truyÒn nh©n n¾m b¾t t×nh h×nh nh©n khİ cña mçi bang héi. NÕu sè huynh ®Ö trong bang cµng nhiÒu, vâ nghÖ cao c­êng hoÆc thêi gian g¾n bã trong bang dµi ®Òu cã cèng hiÕn lín cho nh©n khİ cña bang héi. C¸c h¹ng ®Çu trong b¶ng xÕp h¹ng nh©n khİ bang héi ®Òu nhËn ®­îc phÇn th­ëng ®Æc biÖt cña Minh Chñ Kim S¬n!")
+	Talk(1,"","Bç±²g hé±± qu? nhiçŒ² bç· tin nhanh nhç®‰. Mé¸ ngç¥” ché«‡g ta î†©u phç«” cç« truyè¥« nhï¹ nç·ˆ bç· tè­¶h hè­¶h nhï¹ kh? cé¦» mé¸ bang hé–•. Nèª¹ s? huynh î†­ trong bang cç¥…g nhiè¥², v? ngh? cao cî…£ng hoèŠ» thé˜¨ gian gç·‰ b? trong bang dç¤½ î†©u c? cé‘g hièª² léŸ“ cho nhï¹ kh? cé¦» bang hé–•. Cç« hç­ºg î†u trong bç§g xèª´ hç­ºg nhï¹ kh? bang hé–• î†©u nhè–¾ î†„é ² phè• thî…¤ng î†c biè¬™ cé¦» Minh Ch? Kim Sç»!")
 end;
 
--- ÏëÒª³¢ÊÔ½¨Á¢°ï»á
+-- æƒ³è¦å°è¯•å»ºç«‹å¸®ä¼š
 function apply_create_tong_normal()
 	local bIsTongMember = IsTongMember()
 	if (bIsTongMember == 1) then
-		Talk(1,"","B»ng h÷u ®· lµ ng­êi cña bang héi kh«ng thÓ khai s¸ng bang héi!")
+		Talk(1,"","å¸®ä¼šæˆå‘˜ä¸å¾—ä¸æœå»·ä½œå¯¹")
 		return
 	end
 
 	local nCurPlayerLevel = GetLevel()
 	if (nCurPlayerLevel < 50) then
-		Talk(1,"","B»ng h÷u ch­a ®Õn cÊp 50! Cè g¾ng khæ luyÖn thªm råi h·y ®Õn!")
+		Talk(1,"","ä½ è¿˜å¤ªå¹´è½»äº†ï¼Œ50çº§åå†æ¥æ‰¾æˆ‘å§!")
 	else
 		SetTask(297, 1)
-		Talk(1,"","Muèn x©y dùng bang héi ph¶i ®­îc Minh Chñ Kim S¬n ®ång ı. B»ng h÷u cÇn giao nép <color=yellow>Héi Minh lÖnh bµi<color> Minh Chñ Kim S¬n xem xĞt, ®­îc ch­ëng m«n chÊp nhËn míi cã thÓ chİnh thøc x©y dùng bang héi. H·y ®Õn T­¬ng D­¬ng t×m Minh Chñ Kim S¬n!")
+		Talk(1,"","è¦å»ºç«‹å¸®ä¼šå¿…é¡»å¾—åˆ°<color=yellow>é‡‘å±±æŒé—¨äºº<color>çš„åŒæ„ï¼Œå»è¥„é˜³æ‰¾æ‰¾ä»–å§ï¼")
 	end
 end;
 
--- ÉêÇë½âÉ¢°ï»á£¬Ö®ºó¾Í±»´ò·¢µ½½ğÉ½ÕÆÃÅÈËÄÇÀïÈ¥ÁË
+-- ç”³è¯·è§£æ•£å¸®ä¼šï¼Œä¹‹åå°±è¢«æ‰“å‘åˆ°é‡‘å±±æŒé—¨äººé‚£é‡Œå»äº†
 function apply_destroy_tong_normal()
 	local bIsTongMaster = IsTongMaster()
-	if (bIsTongMaster == 0)	then	-- ²»ÊÇ°ïÖ÷
-		Talk(1,"","B»ng h÷u kh«ng ph¶i bang chñ cña bang nµo, sao l¹i cã thÓ gi¶i t¸n bang héi chø!")
+	if (bIsTongMaster == 0)	then	-- ä¸æ˜¯å¸®ä¸»
+		Talk(1,"","ä½ åˆä¸æ˜¯å¸®ä¸»ï¼Œçæ…å’Œä»€ä¹ˆå‘¢ï¼Ÿ")
 		return
 	end
 	
 	SetTask(295, 1)
-	Talk(1,"","Lêi thØnh cÇu gi¶i t¸n bang héi cña b»ng h÷u ®· ®­îc tiÕp nhËn! §îi Minh Chñ Kim S¬n ®ång ı, B»ng h÷u cã thÓ tiÕn hµnh gi¶i t¸n bang héi!")
+	Talk(1,"","ç”³è¯·è§£æ•£å¸®ä¼šçš„è¯·æ±‚å·²ç»æäº¤ï¼Œè¯·ç­‰å¾…é‡‘å±±æŒé—¨äººçš„æœ€ååŒæ„ï¼")
 end;
 
--- Õı×ÚÏĞÁÄ£¬²»ÓÃ»¨Ç®£¬°üÄãÂúÒâ
+-- æ­£å®—é—²èŠï¼Œä¸ç”¨èŠ±é’±ï¼ŒåŒ…ä½ æ»¡æ„
 function chat_xxx()
-	Talk(1,"","§a t¹ b»ng h÷u quan t©m! Nh­ng gÇn ®©y c«ng viÖc qu¸ nhiÒu, ®îi lóc r¶nh rçi sÏ trß chuyÖn víi b»ng h÷u!")
+	Talk(1,"","è°¢è°¢ä½ çš„å…³å¿ƒ!ä½†æ˜¯æœ€è¿‘å·¥ä½œå¤ªå¿™äº†ï¼Œç­‰æœ‰ç©ºçš„æ—¶å€™å†å’Œä½ èŠå¤©ã€‚")
 end;
 
--- ÉêÇëÉı¼¶°ï»áµÈ¼¶
+-- ç”³è¯·å‡çº§å¸®ä¼šç­‰çº§
 function apply_level_up_tong()
 	local bIsTongMaster = IsTongMaster()
-	if (bIsTongMaster == 0)	then	-- ²»ÊÇ°ïÖ÷
-		Talk(1,"","B»ng h÷u kh«ng ph¶i bang chñ! Muèn t¨ng cÊp bang héi, yªu cÇu bang chñ cña ng­¬i ®İch th©n ®Õn!")
+	if (bIsTongMaster == 0)	then	-- ä¸æ˜¯å¸®ä¸»
+		Talk(1,"","ä½ æ²¡æœ‰è¿™ä¸ªæƒåŠ›ï¼Œåªæœ‰å¸®ä¸»æ‰å¯ä»¥å‡çº§å¸®ä¼šã€‚")
 		return
 	end
 	
 	local nTongLevel = GetTongLevel()
-	if (nTongLevel >= 5) then		-- °ï»áÏÖÔÚÖ»ÄÜÉı¼¶µ½ 5 ¼¶£¬ÒÔºóµÄÒªµÈ°ï»á½¨Éè¹¦ÄÜ³öÁËÔÙÏòÉÏÃæÉı¼¶
-		Talk(1,"","TiÒn chØ cã thÓ t¨ng cÊp bang héi ®Õn cÊp 5. NÕu muèn tiÕp tôc t¨ng cÊp cÇn ph¶i kiÕn thiÕt bang héi míi cã thÓ tiÕp tôc t¨ng cÊp, nh­ng chøc n¨ng nµy t¹m thêi ch­a më. Xin c¸c bang chñ chê ®îi th«ng b¸o míi cña Minh Chñ Kim S¬n!")
+	if (nTongLevel >= 5) then		-- å¸®ä¼šç°åœ¨åªèƒ½å‡çº§åˆ° 5 çº§ï¼Œä»¥åçš„è¦ç­‰å¸®ä¼šå»ºè®¾åŠŸèƒ½å‡ºäº†å†å‘ä¸Šé¢å‡çº§
+		Talk(1,"","å¸®ä¼šç°åœ¨åªèƒ½å‡çº§åˆ°5çº§ã€‚å› ä¸ºå»ºè®¾åŠŸèƒ½æš‚æ—¶è¿˜ä¸å¼€æ”¾ï¼Œå¦‚æœä½ æƒ³è¦ç»§ç»­å‡çº§ï¼Œè¯·ç­‰å¾…é‡‘å±±çš„æ¶ˆæ¯ã€‚
+")
 		return
 	end
 	
-	if (nTongLevel == 0) then		-- ÁÙÊ±°ï»á£¬Ö±½Ó´ò·¢×ß£¬TMD£¡£¡
-		Talk(1,"","Bang héi t¹m thêi cña b»ng h÷u hiÖn ch­a ®ñ sè ng­êi, cÇn thu nhËn thªm! §îi ®Õn khi x©y dùng bang héi chİnh thøc h·y ®Õn t×m ta!")
+	if (nTongLevel == 0) then		-- ä¸´æ—¶å¸®ä¼šï¼Œç›´æ¥æ‰“å‘èµ°ï¼ŒTMDï¼ï¼
+		Talk(1,"","ä¸´æ—¶å¸®ä¼šï¼Œäººæ•°æœªå‡‘é½æ— æ³•å»ºç«‹æ­£å¼å¸®ä¼šï¼Œæ‹œæ‹œæ‚¨å˜ï¼")
 		return
 	end
 	
-	-- ÒÔÏÂ¿ªÊ¼ÊÇ1-4¼¶°ï»áµÄÉı¼¶¹¦ÄÜ£¬ÎÒÊÇÏëÒªÃ¿Ò»¼¶±ğ½²µÄ»°¶¼²»Í¬À²
+	-- ä»¥ä¸‹å¼€å§‹æ˜¯1-4çº§å¸®ä¼šçš„å‡çº§åŠŸèƒ½ï¼Œæˆ‘æ˜¯æƒ³è¦æ¯ä¸€çº§åˆ«è®²çš„è¯éƒ½ä¸åŒå•¦
 	local strTalk = {
-			"Bang héi hiÖn t¹i cña b»ng h÷u chØ lµ bang héi cÊp thÊp! CÇn t¨ng cÊp bang héi ®Ó ph¸t d­¬ng danh tiÕng trong giang hå, cã thÓ thu nhËn ®­îc nhiÒu huynh ®Ö. Bang héi khi t¨ng cÊp cã thÓ më réng quy m« nh­ng cÇn bá ra <color=yellow>170 tiÒn vµng<color>. B»ng h÷u b»ng lßng giao n¹p tiÒn t¨ng cÊp kh«ng?",
-			"Bang héi cña ng­¬i trô trªn giang hå ®· l©u nh­ng cÇn t¨ng cÊp ®Õn <color=yellow>bang héi cÊp 3<color> vµ ®­îc triÒu ®×nh thõa nhËn ®Ó tiÖn triÖu tËp huynh ®Ö cña quı bang khi Quèc gia h÷u sù. CÇn nép <color=yellow>400 tiÒn vµng<color> ®¨ng kı víi triÒu ®×nh, bang chñ cã mang ®ñ tiÒn kh«ng?",
-			"Buæi ®Çu x©y dùng bang héi, cÇn ph¶i v× thiªn h¹ b¸ t¸nh. N¹n d©n ë Giang T©n th«n tr«i d¹t kh¾p n¬i. Minh Chñ Kim S¬n ®ang dèc søc trî gióp hä, ®· ®Õn lóc chóng ta ph¶i gãp søc. §Ó t¨ng cÊp bang héi m×nh, h·y quyªn gãp chót tiÒn cøu ®é b¸ t¸nh. Theo quy m« cña bang héi, cÇn quyªn gãp <color=yellow>800 tiÒn vµng<color>!",
-			"Bang héi cña ng­¬i tuy ph¸t triÓn nhanh chãng nh­ng cÇn th¨ng lªn <color=yellow>bang héi cÊp 5<color> nh­ng ng­¬i hiÖn ch­a ®ñ danh tiÕng giang hå. H·y triÖu tËp ®¹i héi vâ l©m liªn minh, mêi bang chñ cña c¸c bang héi lín vµ anh hïng hµo kiÖt cïng tham gia ®Ó n©ng cao danh tiÕng vµ ph¸t d­¬ng thÕ lùc cña bang héi nh­ng cÇn tiªu tèn ®Õn <color=yellow>1400 tiÒn vµng<color>. Ng­¬i thÊy thÕ nµo?",
+			"Bang hé–• hiè¬“ tç­° cé¦» bç±²g hé±± ch? l? bang hé–• cè•„ thè•„! Cè• tâ•ªg cè•„ bang hé–• î†ª phç«§ dî„¥ng danh tièª²g trong giang h?, c? th? thu nhè–¾ î†„é ² nhiè¥² huynh î†­. Bang hé–• khi tâ•ªg cè•„ c? th? m? ré–šg quy m? nhç’¶g cè• b? ra <color=yellow>170 tiè¥« vç¥…g<color>. Bç±²g hé±± bç±²g léªg giao nç­½ tiè¥« tâ•ªg cè•„ khç­g?",
+			"Bang hé–• cé¦» ngî„¥i tr? trçŒ² giang h? î† lï¹— nhç’¶g cè• tâ•ªg cè•„ î†¬n <color=yellow>bang hé–• cè•„ 3<color> v? î†„é ² triè¥² î†®nh thé® nhè–¾ î†ª tiè¬“ triè¬š tè—€ huynh î†­ cé¦» qu? bang khi Qué‘“ gia hé±± s?. Cè• né–œ <color=yellow>400 tiè¥« vç¥…g<color> î…¿ng k? véŸ triè¥² î†®nh, bang ch? c? mang î‡ˆ tiè¥« khç­g?",
+			"Bué– î†u xï¹œ déµ±g bang hé–•, cè• phç§ˆ v? thiçŒ² h? b? tç«›h. Nç­º dï¹ ? Giang Tï¹ thç­ trç¦ dç®ƒ khç·‹ nç². Minh Ch? Kim Sç» ç”¢ng dé‘“ sé´† tr? gié«‰ h?, î† î†¬n léª³ ché«‡g ta phç§ˆ gé‰· sé´†. Ğ² tâ•ªg cè•„ bang hé–• mè­¶h, hç©£ quyçŒ² gé‰· ché« tiè¥« cé´˜ î‡€ b? tç«›h. Theo quy m? cé¦» bang hé–•, cè• quyçŒ² gé‰· <color=yellow>800 tiè¥« vç¥…g<color>!",
+			"Bang hé–• cé¦» ngî„¥i tuy phç«§ triè§§ nhanh ché‰µg nhç’¶g cè• thâ•ªg lçŒ² <color=yellow>bang hé–• cè•„ 5<color> nhç’¶g ngî„¥i hiè¬“ chç’¦ î‡ˆ danh tièª²g giang h?. Hç©£ triè¬š tè—€ î†i hé–• v? lï¹ liçŒ² minh, mé˜¨ bang ch? cé¦» cç« bang hé–• léŸ“ v? anh hé£Šg hç¥‡ kiè¬™ cé£Šg tham gia î†ª nï¹g cao danh tièª²g v? phç«§ dî„¥ng th? léµ¦ cé¦» bang hé–• nhç’¶g cè• tiçŒ½ té‘ î†¬n <color=yellow>1400 tiè¥« vç¥…g<color>. Ngî„¥i thè• th? nç¥‡?",
 			}
 	
 	Say(strTalk[nTongLevel], 
 	    2,
-	    "Hay l¾m! Huynh ®Ö nãi thËt cã lı! Ta sÏ giao tiÒn, chuyÖn cßn l¹i b»ng h÷u tù lo liÖu!/agree_add_tong_level",
-	    "§©y kh«ng ph¶i sè tiÒn nhá. T¹i h¹ ph¶i vÒ bµn b¹c víi c¸c huynh ®Ö trong bang!/disagree_add_tong_level")
+	    "å¾ˆä¸é”™!ä½ è¯´å¾—æœ‰é“ç†!æˆ‘æŠŠé’±ç»™ä½ ï¼Œå‰©ä¸‹çš„æˆ‘ä»¬è‡ªå·±æ¥å¤„ç†ã€‚/agree_add_tong_level",
+	    "è¿™å¯ä¸æ˜¯ä¸€ç¬”å°é’±ï¼Œæˆ‘å¾—å›å»å’Œæˆ‘çš„å…„å¼Ÿä»¬å•†é‡ä¸€ä¸‹ã€‚/disagree_add_tong_level")
 end;
 
 function agree_add_tong_level()
@@ -184,17 +185,17 @@ function agree_add_tong_level()
 	local nCurTongLevel = GetTongLevel()
 	local nCurHaveMoney = GetCash()
 	
-	if (nCurHaveMoney < nNeedMoney[nCurTongLevel]) then		-- Ç®²»¹»£¬¸ñÀÏ×ÓµÄÆ­ÈË£¡£¡
-		Say("HiÖn ng­¬i kh«ng cã ®ñ tiÒn. Cã tiÒn ®ñ råi ta bµn tiÕp!", 0)
+	if (nCurHaveMoney < nNeedMoney[nCurTongLevel]) then		-- é’±ä¸å¤Ÿï¼Œæ ¼è€å­çš„éª—äººï¼ï¼
+		Say("ä½ æ²¡æœ‰å¸¦è¶³å¤Ÿçš„é’±ï¼Œç­‰ä½ é’±å¤Ÿäº†ï¼Œæˆ‘ä»¬å†è°ˆã€‚", 0)
 		return
 	end
 	
 	Pay(nNeedMoney[nCurTongLevel])
 	AddTongLevel()
-	Talk(1,"","Chóc mõng bang héi cña b»ng h÷u ®­îc t¨ng cÊp! B»ng h÷u h·y quay vÒ chÊn h­ng bang héi, nhÊt ®Şnh thµnh tùu sÏ v­ît tréi trªn chèn giang hå!")
+	Talk(1,"","å¤§å‰å¤§åˆ©ï¼Œæ­å–œä½ çš„å¸®ä¼šå‡çº§æˆåŠŸäº†ï¼")
 end;
 
 function disagree_add_tong_level()
-	Talk(1,"","Hay l¾m! B»ng h÷u qu¶ nhiªn cã t­ chÊt bang chñ! QuyÕt ®Şnh xong cã thÓ quay l¹i t×m ta!")
+	Talk(1,"","å¤ªå¥½äº†ï¼ä½ ä¸€å®šä¼šæ„Ÿå…´è¶£çš„ï¼Œç­‰ä½ å†³å®šçš„æ—¶å€™å¯ä»¥å›æ¥æ‰¾æˆ‘ã€‚")
 end;
 
