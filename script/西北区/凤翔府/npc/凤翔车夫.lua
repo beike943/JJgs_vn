@@ -23,7 +23,7 @@ function main()
 	end
 	
 	if GetLevel() < 15 then
-		Say("我们免费送等级小于 <color=yellow>15级<color>, 的新手玩家",
+		Say("我们免费接送等级小于 <color=yellow>15级<color>, 的新手玩家",
 		3,
 		"成都/chengdu",
 		"泉州/quanzhou",
