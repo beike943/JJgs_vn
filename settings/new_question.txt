@@ -1,147 +1,147 @@
 TaskID	TaskRate	TaskValue	KeyNum	KeyPos	QuestionTitle	Key1	Key2	Key3	Key4	Key5
-10001	10000	100	4	1	Ai lµ ng­êi h­íng dÉn t©n thñ?	H­íng dÉn t©n thñ	DÞ nh©n	gm	§­êng T¨ng	
-10002	10000	100	4	1	Ai lµ ng­êi n¾m ®­îc bÝ quyÕt ®óc B¶o kiÕm H·n T­íng, M¹c Tµ?	M¹c NhÞ	M¹c §¹i	M¹c Tam	M¹c Tø	
-10003	10000	100	4	1	Thiªn V­¬ng l·o gia cã viÖc muèn ®Õn D­¬ng Ch©u, nh­ng xa phu kh«ng ®­a «ng ta ®i. Nguyªn nh©n lµ:	V­¬ng l·o gia kh«ng ®ñ lé phÝ	Xa phu h«m ®ã t©m tr¹ng kh«ng vui.	Tõ Thµnh §« ®Õn D­¬ng Ch©u kh«ng cã ®­êng ®i.	Tõ Thµnh §« ®Õn D­¬ng Ch©u kh«ng thÓ ®i xa phu.	
-10004	10000	100	4	1	V¨n tiÓu th­ trong mét lÇn t¶n bé ®· nhËn ®­îc bøc th­. Trong th­ viÕt nh­ sau: §· 3 n¨m råi kh«ng gÆp, lßng ta lu«n nhí ®Õn nµng. VÞ thiÕu hiÖp ®­îc nh¾c ®Õn trong th­ lµ ng­êi cña m«n ph¸i nµo?	Vâ §ang	ThiÕu L©m	§­êng M«n	Nga My	
-10005	10000	100	4	1	Ng­êi h­íng dÉn cho T©n thñ nhiÒu nhÊt lµ ai?	Quan viªn tho¸i nhiÖm	Thõa T­íng	Vò N­¬ng	D· TÈu	
-10006	10000	100	4	1	Quèc gia nµo sau ®©y lµ liªn bang cña ®¹i Tèng?	§¹i Lý	Thæ Phån	T©y H¹	T©y H¹	
-10007	10000	100	4	1	CÈm s¾c v« ®oan ngò thËp huyÒn, nhÊt huyÒn nhÊt tô t­ hoa niªn c©u th¬ trªn do n÷ ®Ö tö cña ph¸i nµo viÕt?	Nga My	C¸i Bang	Vâ §ang	§­êng M«n	
-10008	10000	100	4	1	Thµnh thÞ nµo sau ®©y kh«ng ph¶i lµ n¬i xuÊt th©n cña t©n thñ?	T­¬ng D­¬ng	TuyÒn Ch©u	BiÖn Kinh	Thµnh §«	
-10009	10000	100	4	1	Trêi cã ¸nh d­¬ng, n­íc cã ¸nh tr¨ng, t©m cã méng t­ëng, lßng ta cã c« n­¬ng. §o¹n th¬ trªn miªu t¶ néi dung nµo d­íi ®©y?	BiÓu lé t×nh c¶m	Dïng kü n¨ng sèng	Sö dông kü n¨ng chiÕn ®Êu	Sö dông ®¹o cô	
-10010	10000	100	4	1	LÖ nh·n vÊn hoa, hoa bÊt ng÷. Lo¹n hång phi qua thu thiªn khø. C©u th¬ trªn miªu t¶ vâ c«ng cña m«n ph¸i nµo d­íi ®©y?	§­êng M«n	Vâ §ang	ThiÕu L©m	C¸i Bang	
-10011	10000	100	4	1	Ng­êi cã quyÒn lùc cao nhÊt trong §­êng M«n gäi lµ g×?	L·o l·o	M«n chñ	Tæng qu¶n	Ch­ëng m«n	
-10012	10000	100	4	1	§¹o ®ång tinh nghÞch ë Vâ §ang ph¸i tªn gäi lµ g×?	Minh NguyÖt	Thanh Phong	MÆc Th­	T©m NghiÔn	
-10013	10000	100	4	1	Phiªn t¨ng ®Õn ThiÕu L©m Tù häc 72 tuyÖt kü tªn lµ g× ?	C­u Ma La	C­u Ma TrÝ	A Gi¸c La	Lç TrÝ Th©m	
-10014	10000	100	4	1	Sø gi¶ C¸i Bang lµ:	Hång ThÊt	T« X¸n	V­u Tri VÞ	Lç BÊt TuÇn	
-10015	10000	100	4	1	Tæ s­ ph¸i Nga My lµ ai?	T«n ThËp Tam N­¬ng	Qu¸ch T­êng	DiÖt TuyÖt S­ Th¸i	ViÖt N÷	
-10016	10000	100	4	1	*Träc töu nhÊt b«i gia v¹n lý, YÕn nhiªn vÞ liÔu vi v« kÕ, Kh­¬ng qu¶n du du s­¬ng m·n ®Þa…*. Bµi th¬ trªn ®­îc lµm ë ®©u?	Nh¹n M«n quan	Long M«n trÊn	KiÕm M«n quan	C« ®¶o
-10017	10000	100	4	1	ThiÕu L©m sø gi¶ lµ:	TÞnh Viªn	TÞnh Th«ng	Háa C«ng §Çu	Tæ V¨n §¹t
-10018	10000	100	4	1	Sø gi¶ Nga My ph¸i lµ:	Nghi Hßa	Nghi Thanh	HuÖ ¢m	TuÖ T©m
-10019	10000	100	4	1	Sø gi¶ §­êng M«n lµ: 	§­êng UyÓn Nhi	§­êng Thiªn H¶i	§­êng V©n	§­êng Ng¹o
-10020	10000	100	4	1	Sø gi¶ Vâ §ang lµ:	M¹c Thu Phong	Thanh Phong	Minh NguyÖt	Yªn Nh­
-10021	10000	100	4	1	Muèn t×m hiÓu nguån gèc ThiÕu L©m ph¸i nªn gÆp ai?	HuyÒn Minh	HuyÒn Hèi	HuyÒn Bi	HuyÒn Khæ
-10022	10000	100	4	1	Muèn t×m hiÓu nguån gèc Vâ §ang ph¸i nªn gÆp ai?	Tr­¬ng Ngä D­¬ng	Du ChÊn Sinh	§¹i KiÕm Ch©u	M¹c Thu Phong
-10023	10000	100	4	1	Muèn t×m hiÓu nguån gèc Nga My ph¸i nªn gÆp ai?	Nghi Thanh	Nghi Hßa	HuÖ ¢m	TuÖ T©m
-10024	10000	100	4	1	Muèn t×m hiÓu nguån gèc C¸i Bang nªn gÆp ai?	TrÇn Chung H¹c	Bµng L· Väng	Tèng Nguyªn An	M· TÞnh Sinh
-10025	10000	100	4	1	Muèn t×m hiÓu §­êng M«n nªn gÆp ai?	§­êng Ng¹o	§­êng Kþ	§­êng Xu©n	§­êng V©n
-10026	10000	100	4	1	M«n ph¸i nµo cã 3 tuyÕn cïng cã thÓ rÌn luyÖn chung?	ThiÕu L©m	Vâ §ang	C¸i Bang	§­êng M«n
-10027	10000	100	4	1	VÞ ¦¬ng kiÕm ph¸p thuéc hÖ:	Méc	 Kim 	Thñy	Thæ
-10028	10000	100	4	1	Hai chiªu thøc nµo kÕt hîp l¹i sÏ t¨ng thªm hiÖu qu¶ tÊn c«ng?	ChÝnh L­ìng Nghi kiÕm ph¸p, L­ìng Nghi kiÕm ph¸p	Tr¶m Ma §ao Ph¸p, Phong Ma c«n ph¸p	Ph¸ Ma Chó, §µ L«i Ph¸	TÜnh D¹ T­, ¤ D¹ §Ò
-10029	10000	100	4	1	M«n ph¸i nµo cã nhiÒu chiªu thøc vâ c«ng nhÊt?	Vâ §ang ®¹o gia	ThiÕu L©m thiÒn t¨ng	§­êng M«n hiÖp kh¸ch	Nga My phËt gia
-10030	10000	100	4	1	Vâ c«ng nµo d­íi ®©y cã søc c«ng kÝch m¹nh nhÊt?	Ch©n Vò ThÊt TiÖt KiÕm	§¹t Ma Vò Kinh	§¶ CÈu Bæng Ph¸p	§¹i Lùc Kim Cang ChØ
-10031	10000	100	4	1	ThiÕu L©m ngoµi vâ c«ng trÊn ph¸i cßn cã lo¹i nµo ®Æc s¾c?	Kim Chung Tr¸o, X¶ Th©n QuyÕt, Nh­ Lai T©m Ph¸p	Tr¶m Ma §ao Ph¸p, V« Th­êng C«n Ph¸p, §¹t Ma Vò Kinh.	ThiÕu L©m ®ao ph¸p, ThiÕu L©m c«n ph¸p, §¹t Ma Vò Kinh	Kim Chung Tr¸o, Nhiªn Méc ®ao ph¸p, §¹t Ma Vò Kinh
-10032	10000	100	4	1	§­êng M«n næi tiÕng thiªn h¹ nhê vµo g×?	¸m khÝ, ®éc, bÉy	¸m khÝ, háa khÝ, bÉy	¸m khÝ, ®éc, háa khÝ	¸m khÝ, Trinh s¸t, BÉy
-10033	10000	100	4	1	Vâ c«ng nµo d­íi ®©y cã thÓ tÊn c«ng nhiÒu qu¸i cïng lóc?	Phôc Ma ThÇn Th«ng, C©u Hån TÜnh, Lôc Hîp QuyÒn Ph¸p, L­u Quang KiÕm Ph¸p.	§¹i Lùc Kim Cang ChØ, Khu Xµ C«n Ph¸p, §¶ CÈu Bæng Ph¸p, §éc ThÝch Cèt.	V« Th­êng C«n Ph¸p, V« T­íng ThÇn C«ng, PhËt Quang ChiÕn KhÝ, M·n Thiªn Hoa Vò.	§¹t Ma Vò Kinh, TÜnh D¹ T­, H¹c CÇm QuyÕt, ThiÕu ¢m QuyÕt.
-10034	10000	100	4	1	Vâ c«ng cña m«n ph¸i nµo d­íi ®©y cã thÓ kÕt hîp néi_ngo¹i c«ng cïng lóc?	Nga My tôc gia	ThiÕu L©m thiÒn t¨ng	§­êng M«n hiÖp kh¸ch	Vâ §ang tôc gia
-10035	10000	100	4	1	Vâ c«ng nµo d­íi ®©y thiªn vÒ tÊn c«ng?	ThÇn m«n thËp tam kiÕm	V« ¶nh C­íc	ThÊt Tinh QuyÕt	ThuÇn D­¬ng KiÕm.
-10036	10000	100	4	1	ThiÕu L©m tôc gia phßng ngù cao, v×:	Vâ c«ng cã tÝnh phßng ngù cao	Cã c«ng cô hç trî	Sinh lùc cao	Cã søc bÒn bØ
-10037	10000	100	4	1	Chiªu thøc nµo cña ThiÕu L©m ThiÒn t¨ng cã thÓ ®Èy lïi ®èi ph­¬ng?	Phôc Ma ThÇn Th«ng, S­ Tö Hèng	Phôc Hæ KhÝ C«ng, §µ L«i Ph¸	V« T­íng ThÇn C«ng, §¹i Lùc Kim Cang ChØ	Ph¸ Ma Chó, BÊt §éng Minh V­¬ng.
-10038	10000	100	4	1	Chiªu thøc nµo sau ®©y cña §­êng M«n cã liªn quan ®Õn ®éc?	Hµm Sa X¹ ¶nh, M·n Thiªn Hoa Vò, Táa MÖnh Ch©m	Gi¶i §éc ThuËt, C©u Hån TÜnh, Xuyªn T©m ThÝch	Truy T©m TiÔn, §éc ThÝch Cèt, Thèi §éc ThuËt	B¹o Vò Lª Hoa, §o¹t Ph¸ch Phiªn, T©m Nh·n
-10039	10000	100	4	1	Chiªu thøc nµo cña Nga My cã thÓ phôc håi sinh lùc?	Phæ TÕ Chóng sinh, BÊt DiÖt T©m Ph¸p, §¹i Bi Chó	Quan ¢m QuyÕt, §é Nguyªn QuyÕt, PhËt Quang ChiÕn KhÝ	Quan ¢m QuyÕt, Thanh ¢m Ph¹n X­íng, Phæ TÕ Chóng Sinh	Quan ¢m QuyÕt, Phæ TÕ Chóng Sinh, PhËt Quang Phæ ChiÕu
-10040	10000	100	4	1	Khóc ®µn nµo cña Nga My cã thÓ lµm gi¶m sinh lùc ®èi ph­¬ng?	Tïy ý khóc, NguyÖt Thùc khóc, Phiªu H­¬ng khóc	Tïy ý khóc, TÜnh D¹ T­, D­¬ng Quan Tam §iÖp	Tïy ý khóc, H¹c CÇm QuyÕt, Phiªu H­¬ng khóc	D­¬ng Quan Tam §iÖp, ¤ D¹ §Ò, H¹c CÇm QuyÕt
-10041	10000	100	4	1	Chiªu thøc nµo cña C¸i Bang TÜnh y cã thÓ n©ng tû lÖ chÝnh x¸c nh­ng tù gi¶m sinh lùc?	Tiªu Dao Du, Tóy §iÖp	Th«ng Tý QuyÒn, B¸ V­¬ng QuyÒn	Lôc Hîp QuyÒn Ph¸p, Tóy quyÒn	Hçn Thiªn KhÝ C«ng, Thiªn C©n H¹p
-10042	10000	100	4	1	Vâ c«ng cña C¸i Bang ¤ y cã nh÷ng ®Æc ®iÓm g× mµ ph¸i kh¸c kh«ng cã?	5	4	3	2
-10043	10000	100	4	1	Vâ §ang ®¹o gia kiÕm ph¸p lîi dông nh÷ng ph­¬ng thøc nµo d­íi ®©y ®Ó lÊy nhu th¾ng c­¬ng?	TÊn c«ng liªn tôc, kh«ng cho ®èi ph­¬ng nghØ ng¬i	Ph¹m vi tÊn c«ng réng	Cã thÓ kÕt hîp víi c¸c vâ c«ng kh¸c	Ra ®ßn nhanh, tiªu hao néi lùc Ýt
-10044	10000	100	4	1	Vâ §ang tôc gia kÕt hîp c¸c chiªu thøc nµo d­íi ®©y ®Ó ph¸t huy uy lùc?	ThÕ V©n Tung, ThiÕu ¢m QuyÕt	Th¸i Êt Tiªu Diªu, ThÊt Tinh QuyÕt	ThiÕu D­¬ng QuyÕt, Tµn ¶nh QuyÕt	Cµn kh«n quyÕt, Th­îng thanh v« cùc
-10045	10000	100	4	1	D­íi d©y tÇng nµo lµ ®iÓm chuyÓn tiÕp t¨ng cÊp cña c¸c chiªu thøc th­êng?	10, 15,19	8, 16	10, 16	8, 15,19
-10046	10000	100	4	1	M«n ph¸i nµo cã tªn chiªu thøc th­êng lµ 6 ch÷?	4	5	6	7
-10047	10000	100	4	1	C©u nµo d­íi ®©y chØ sù hçn lo¹n?	Lµm g× còng kh«ng thµnh	Kh«ng thÓ lµm bÊt cø ®iÒu g×	TÊn c«ng lo¹n x¹	Hµnh ®éng ph¶n ph­¬ng h­íng
-10048	10000	100	4	1	Chiªu *NguyÖt B¸n ThÇn Tinh* cña m«n ph¸i nµo?	HuyÒn Vâ KiÕm TrËn	TÜnh D¹ T­	NguyÖt Thùc khóc	Th¸i Êt Tam Thanh kiÕm
-10049	10000	100	4	1	D­íi ®©y c©u nµo chØ tªn 3 chiªu thøc cao cÊp?	TiÕu Ng÷ Gi¶i Di, HuyÒn NhÊt V« T­îng, ChÝnh KhÝ B¸t Ph­¬ng	V« ý V« NiÖm, Tam Nha NhiÔu Thô, Bæng §¶ QuÇn KhuyÓn.	Uy LÉm QuÇn Ma, Ph¸ Trô To¸i Vò, Vò §¶ Lª Hoa	V« §Þnh V« Ph¸p, Tu Di Giíi Tö, NguyÖt ¶nh Phi Hµ
-10050	10000	100	4	1	§èi víi chiªu thøc ThÊt Tinh L¹c Tr­êng Kh«ng c©u nµo d­íi ®©y sai?	T¨ng thªm lùc tÊn c«ng	Gièng mét chiªu cña B¾c §Èu ChuyÓn Th¸i H­	Lµ chiªu KiÕm ph¸p cña Vâ §ang ®¹o gia	Uy lùc tÊn c«ng m¹nh nhÊt
-10051	10000	100	4	1	Tµn ¶nh QuyÕt lµ mét vâ c«ng ®Æc biÖt, c©u nµo d­íi ®©y sai?	TÊn c«ng cïng lóc nhiÒu ®èi ph­¬ng	Lµm cho¸ng ®èi ph­¬ng	Cã thÓ tµng h×nh	Kh«ng thÓ ®i chuyÓn
-10052	10000	100	4	1	Liªn quan Lµm cho¸ng ®èi ph­¬ng, c©u nµo d­íi ®©y sai?	Gi¶m tÝnh phßng ngù cña ®èi ph­¬ng	ChØ cã mét m«n ph¸i ph¸t huy ®­îc c«ng lùc nµy	Gi¶m sù tÊn c«ng cña ®èi ph­¬ng	Gi¶m tèc ®é di chuyÓn cña ®èi ph­¬ng
-10053	10000	100	4	1	Vâ c«ng nµo sau ®©y cã thÓ gi¶i ®éc?	Gi¶i §éc ThuËt, Hãa Ngäc c«ng	Hµm Sa X¹ ¶nh, V« Ng· T©m Ph¸p	Gi¶i §éc ThuËt, Quan ¢m QuyÕt	Gi¶i §éc ThuËt, Thanh ¢m Ph¹n X­íng
-10054	10000	100	4	1	Vâ c«ng nµo d­íi ®©y cã thuéc tÝnh ngò hµnh?	§µ L«i Ph¸	Phôc Hæ KhÝ C«ng	Phôc Ma ThÇn C«ng	Ngò ChuyÓn ChØ
-10055	10000	100	4	1	Tµo §¹i Lùc lµ bang chñ cña bang nµo?	Kim Ng­u bang	Ng©n K×nh bang	§ång Hæ bang	Phñ ®Çu bang
-10056	10000	100	4	1	Phu nh©n cña D­¬ng NghiÖp lµ ai?	Xa Th¸i Qu©n	Xa Th¸i Qu©n	D­¬ng Th¸i Qu©n	M· Th¸i Qu©n
-10057	10000	100	4	1	Phong Yªu ®éng n»m ë ®©u?	Giang T©n Th«n	Ba L¨ng huyÖn	§¹o H­¬ng th«n	Long M«n trÊn
-10058	10000	100	4	1	VÞ ®¹i hiÖp chuyªn trõ ¸c ë H¹nh Hoa th«n tªn g×?	Tr­¬ng V©n	Tr­¬ng TËp Nguyªn	Tr­¬ng §×nh	Tr­¬ng Hµ
-10059	10000	100	4	1	VÞ ®¹i hiÖp diÖt trõ yªu ma ë Giang T©n th«n tªn g×?	Tr­¬ng §×nh	Tr­¬ng V©n	Tr­¬ng TËp Nguyªn	Tr­¬ng Hµ
-10060	10000	100	4	1	Ai ®· chñ tr­ëng nhèt yªu qu¸i t¹i Giang T©n th«n?	D­¬ng NguyÖt s­ th¸i	V­¬ng CÈn	T¹p Nguyªn ch©n nh©n	HuyÒn DiÖt T«n Gi¶
-10061	10000	100	4	1	Ai ®· më cöa ®éng Phong Yªu?	Ng« ViÖt L·o Tæ	Lôc Mao	Lao S¬n	Tr­¬ng ThuËn
-10062	10000	100	4	1	Ng« NguyÖt l·o tæ Èn n¸u ë ®©u?	Thiªn S­ ®éng	Long Hæ ®éng	B¨ng T©m ®éng	Thanh ¢m ®éng
-10063	10000	100	4	1	Hoµn Nhan A Cèt §¶ x­ng ®Õ lÊy quèc hiÖu lµ g×?	§¹i Kim	KhiÕt §an	T©y H¹	§¹i H¹
-10064	10000	100	4	1	Gia LuËt A B¶o C¬ x­ng ®Õ lÊy quèc hiÖu lµ g×?	KhiÕt §an	T©y H¹	§¹i Kim	§¹i H¹
-10065	10000	100	4	1	Nguyªn H¹o x­ng ®Õ lÊy quèc hiÖu lµ g×?	§¹i H¹	§¹i Kim	T©y H¹	KhiÕt §an
-10066	10000	100	4	1	B¾c Tèng bÞ thÕ lùc nµo diÖt vong?	 Kim 	Liªu	T©y H¹	M«ng Cæ
-10067	10000	100	4	1	D­îc phÈm nµo sau ®©y kh«ng thÓ dïng ®Ó chÕ t¹o thuèc mª?	Tö hµ xa	M¹n §µ La hoa	¸p bÊt l­	Th¶o « m¹t
-10068	10000	100	4	1	Ai ®· ®æi quèc hiÖu thµnh §¹i Liªu?	Liªu Th¸i T«ng	Liªu Th¸i Tæ	Liªu ThÕ T«ng	Liªu Th¸nh T«ng
-10069	10000	100	4	1	Ai lµ hoµng ®Õ cña n­íc KhiÕt §an?	Gia LuËt A B¶o C¬	Hoµn Nhan A Cèt §¶	Gia LuËt §øc Quang	Thµnh C¸t T­ H·n
-10070	10000	100	4	1	Ai ®· c¾t 16 ch©u giao cho KhiÕt §an?	Th¹ch KÝnh §­êng	TriÖu Khu«ng DÉn	TriÖu Quang NghÜa	Phan Nh©n Mü
-10071	10000	100	4	1	Lo¹i v¨n häc nµo thÞnh v­îng nhÊt thêi Tèng?	Tõ	Th¬	Khóc	Phó
-10072	10000	100	4	1	Trong 4 ph¸t minh lín vÒ khoa häc cæ ®¹i Trung Quèc, ph¸t minh nµo sau ®©y kh«ng xuÊt hiÖn thêi Tèng?	GiÊy	Thuèc næ	M¸y ®¸nh ch÷	La bµn
-10073	10000	100	4	1	Thª tö cña D­¬ng Diªn Huy lµ ai?	C«ng chóa ThiÕt KÝnh.	C«ng chóa ThiÕt PhiÕn	C«ng chóa ThiÕt CÇm	C«ng Chóa ThiÕt HuyÕt
-10074	10000	100	4	1	C­ d©n cña H¹nh Hoa th«n b©y giê ë ®©u?	D­¬ng Trung ®éng	Giang T©n Th«n	§¹o H­¬ng th«n	Cæ D­¬ng ®éng
-10075	10000	100	4	1	Tæ s­ s¸ng lËp ra Vâ §ang Néi gia quyÒn lµ ai?	Tr­¬ng Tam Phong	Xa Lu©n H¶i	D­¬ng V¨n Qu¶ng	Tr­¬ng V« Kþ
-10076	10000	100	4	1	Nh©n vËt nµo d­íi ®©y kh«ng ph¶i lµ ng­êi B¾c Tèng?	§­êng B¸ Hæ	V­¬ng An Th¹ch	KhÊu ChuÈn	Bao Chöng
-10077	10000	100	4	1	Ng­êi lËp nªn triÒu Tèng lµ ai?	TriÖu Khu«ng DÉn	TriÖu §øc Ph­¬ng	TriÖu Quang NghÜa	TriÖu C¸t
-10078	10000	100	4	1	Ng­êi Tèng lµm phß m· KhiÕt §an lµ ai?	D­¬ng Diªn Huy	D­¬ng Diªn Chiªu	D­¬ng Diªn §øc	D­¬ng Diªn Lang
-10079	10000	100	4	1	D­¬ng Diªn Chiªu lµ con thø mÊy cña D­¬ng NghiÖp?	Thø s¸u	Thø n¨m	Thø b¶y	Thø t¸m
-10080	10000	100	4	1	Qu¸i trong thÕ giíi VLTK2 ph©n thµnh mÊy lo¹i thuéc tÝnh?	7	6	5	4
-10081	10000	100	4	1	§Çu lÜnh cña thá lµ?	H¾c Thè v­¬ng	B¹ch Thè v­¬ng	Kh«i Thè v­¬ng	Hoµng Thè v­¬ng
-10082	10000	100	4	1	§Çu lÜnh cña sãi lµ:?	Sãi n©u	Sãi x¸m	Sãi xanh	Sãi ®iªn
-10083	10000	100	4	1	§Çu lÜnh cña heo rõng lµ?	D· Tr­ V­¬ng	Heo rõng 	Kh«i tr­ v­¬ng	H¾c tr­ v­¬ng
-10084	10000	100	4	1	"Lo¹i khØ nµo th­êng thÊy ë Nga My??"	M· HÇu	Di hÇu	D· hÇu 	Phi hÇu
-10085	10000	100	4	1	DÊu hiÖu nµo ®Ó nhËn biÕt tªn C«n ®å?	Tó hoa hµi	YÕm 	Trang søc	Quan phôc
-10086	10000	100	4	1	L­u manh thÝch uèng g× nhÊt? 	Thiªu töu	N÷ Nhi Hång	Lª Hoa töu	Thiªu §ao Tö
-10087	10000	100	4	1	B¸ch NhËt TiÔn gÇn §­êng M«n dïng vËt g×?? 	Cung tªn	Phi tiªuV«	Phi ®ao	BÉy
-10088	10000	100	4	1	"Quanh C¸i Bang ph¸i cã nhiÒu:?"	Trém vÆt	C­êng ®¹o	§¹i hiÖp	Bé kho¸i
-10089	10000	100	4	1	Qu¸i nµo th­êng r¬i Tµng Hång Hoa?	Thá	Sãi	GÊu	Qu¹ 
-10090	10000	100	4	1	"Nh·n KÝnh xµ th­êng xuÊt hiÖn ë ®©u??"	Thôc Trung §­êng M«n	Th¶o nguyªn	ThiÕu L©m mËt thÊt	Phôc Ng­u s¬n
-10091	10000	100	4	1	NPC nµo d­íi ®©y kh«ng ph¶i lµ tªn trém?	S¬n tÆc	C«n ®å	L­u Manh	Trém vÆt
-10092	10000	100	4	1	NPC nµo d­íi ®©y lu«n xuÊt chiªu tr­íc ®èi ph­¬ng?	KiÕm Kh¸ch	§ao TuyÖt	KiÕm Cuång	Trém vÆt
-10093	10000	100	4	1	Ng­êi m¹nh nhÊt NhÞ Long s¬n lµ ai??	Lç TrÝ Th©m	Vâ Tßng	Tèng Giang	L©m Xung
-10094	10000	100	4	1	Thanh Thµnh s¬n cã nhiÒu?	Qu¹	Th­¬ng  ¦ng	KhØ	Sãi
-10095	10000	100	4	1	Tªn cña lo¹i qu¸i kh«ng nguy hiÓm cã mµu g×?	Tr¾ng	§á	Vµng	Xanh
-10096	10000	100	4	1	Tªn kÎ ®Þch nguy hiÓm víi b¶n th©n lµ?	"§á, vµng, xanh "	Vµng, xanh	§á, xanh 	Tr¾ng, ®á
-10097	10000	100	4	1	Qu¸i thuéc hÖ nµo d­íi ®©y chØ cã thÓ dïng vò khÝ ngò hµnh tÊn c«ng?	¢m	Ch­a	Méc 	 Kim 
-10098	10000	100	4	1	Lo¹i qu¸i nµo sau ®©y kh«ng chñ ®éng tÊn c«ng?	Hæ	Qu¹	GÊu x¸m	H¾c Thè v­¬ng
-10099	10000	100	4	1	§éng vËt nµo xuÊt hiÖn nhiÒu nhÊt ë ThiÕu ThÊt s¬n??	Hæ 	Sãi	KhØ	Thá
-10100	10000	100	4	1	Vò khÝ cña l­u manh lµ?	Bæng	§ao	Cung tªn	B¶o KiÕm
-10101	10000	100	4	1	Trªn ng­êi kÎ ®Þch kh«ng ®­îc rít?	TiÒn	Y phôc	Vò khÝ	D­îc liÖu
-10102	10000	100	4	1	Víi ®èi ph­¬ng thuéc tÝnh Thñy tèt nhÊt dïng ?	Vò khÝ thuéc tÝnh thæ	Vò khÝ thuéc tÝnh kim	Vò khÝ thuéc tÝnh háa	Vò khÝ thuéc tÝnh thñy
-10103	10000	100	4	1	§éng vËt di chuyÓn nhanh nhÊt lµ?	Qu¹	Sãi 	Thá	Hæ
-10104	10000	100	4	1	N­íc nµo n»m ph­¬ng B¾c cña §¹i Tèng?	Liªu	 Kim 	Nga	M«ng Cæ
-10105	10000	100	4	1	D­¬ng NghiÖp tö trËn t¹i:	Bia Lý L¨ng	Bia Lý Qu¶ng	Bia T« Vò	Bia Anh Hïng
-10106	10000	100	4	1	Phu nh©n cña D­¬ng NghiÖp lµ	Xµ Th¸i Hoa	Phµn Lª Huª	Hoa Méc Lan	T¸i Kim Hoa
-10107	10000	100	4	1	Khu vùc nµo d­íi ®©y kh«ng cßn trªn b¶n ®å?	B¾c BiÖn Kinh	T©y BiÖn Kinh	Nam BiÖn Kinh	§«ng BiÖn Kinh
-10108	10000	100	4	1	Kinh ®« cña B¾c Tèng lµ	BiÖn Kinh	Thµnh §«	TuyÒn Ch©u	T­¬ng D­¬ng
-10109	10000	100	4	1	VËt phÈm nµo d­íi ®©y kh«ng thÓ gi¸m ®Þnh	Gi¸m ®Þnh phï	KiÕm	Gi¶	§ao
-10110	10000	100	4	1	Thi nh©n ®­îc x­ng tông UyÓn ¦íc ph¸i lµ ai?	LiÔu VÜnh	T« §«ng Pha	T©n KhÝ TËt	Ph¹m Träng Yªm
-10111	10000	100	4	1	Khu vùc nµo d­íi ®©y gÇn §µo Hoa ®¶o	TuyÒn Ch©u	T­¬ng D­¬ng	§¹i Lý	Phông T­êng
-10112	10000	100	4	1	Qu©n Liªu t¹i Nh¹n M«n quan ®· bµy liÖt trËn g×?	Thiªn M«n trËn	Tr­êng Xµ trËn	B¾c §Èu ThÊt Tinh trËn	B¸t M«n Kim Táa trËn
-10113	10000	100	4	1	N¬i yªu qu¸i th­êng xuÊt hiÖn	Giang T©n Th«n	Long TuyÒn Th«n	Long M«n trÊn	Nh¹n M«n quan
-10114	10000	100	4	1	Tæ chøc Minh gi¸o thêi kú ®Çu B¾c Tèng cßn cã tªn lµ	B¸i Háa gi¸o	B¸i thæ gi¸o	B¸i kim gi¸o	B¸i thñy gi¸o
-10115	10000	100	4	1	B¶o KiÕm  kh«ng ®­îc truyÒn l¹i cho	M¹c Tø	M¹c Tam	M¹c NhÞ	M¹c §¹i
-10116	10000	100	4	1	Thµnh thÞ nµo cËn biÓn?	TuyÒn Ch©u	T­¬ng D­¬ng	D­¬ng Ch©u	Phông T­êng
-10117	10000	100	4	1	Thiªn h¹ vâ c«ng xuÊt…	ThiÕu L©m	Nga My	Vâ §ang	D· CÇu
-10118	10000	100	4	1	S¬n tr¹i nµo d­íi ®©y thuéc L­¬ng s¬n?	NhÞ Long s¬n	Vò L¨ng s¬n	Hoa S¬n	Phôc Ng­u s¬n
-10119	10000	100	4	1	M«n ph¸i n»m ë Miªu C­¬ng lµ 	Ngò §éc	§­êng M«n	C¸i Bang	C«n L«n
-10120	10000	100	4	1	Ng­êi ®­îc mai t¸ng trong l¨ng TÇn Thñy Hoµng lµ	Doanh ChÝnh	Phï Kiªn	Lý ThÕ D©n	H¹ng Vò
-10121	10000	100	4	1	Hoa S¬n LuËn KiÕm hµng n¨m diÔn ra t¹i	Hoa S¬n	Th¸i S¬n	Kim S¬n	Hµnh S¬n
-10122	10000	100	4	1	TriÖu Quang NghÜa kÕ vÞ TriÖu Khu«ng DÉn, «ng ta lµ	§Ö ®Ö	Nhi tö	Phô th©n	Ch¸u
-10123	10000	100	4	1	Tr­íc triÒu ®¹i nhµ Tèng lµ	HËu Chu	HËu TÊn	HËu L­¬ng	TriÒu §­êng
-10124	10000	100	4	1	Trong C¸i Bang ph¸i nµo sau ®©y ®­îc sÕp chung víi ¤ Y ph¸i?	TÞnh Y ph¸i	Ph¸ Y ph¸i	V« Y ph¸i	Thêi trang ph¸i
-10125	10000	100	4	1	§­êng M«n thuéc:	Tø Xuyªn	Hå Nam	ChiÕt Giang	S¬n §«ng
-10126	10000	100	4	1	ThiÕu L©m Ph­¬ng Tr­îng lµ:	HuyÒn Tõ	HuyÒn Bi	HuyÒn Thèng	HuyÒn Khæ
-10127	10000	100	4	1	MËt ®éng ë Thanh Thµnh S¬n lµ:	Thiªn S­ ®éng	ThÊt Tinh ®éng	D­¬ng Trung ®éng	Long Hæ ®éng
-10128	10000	100	4	1	Thµnh phè ma trong truyÒn thuyÕt Trung Quèc lµ:	Phong §«	TÝn §«	§¹i §«	Thµnh §«
-10133	10000	100	4	1	Nguyªn liÖu nµo d­íi ®©y gióp t¨ng cÊp vò khÝ?	Thiªn th¹ch	B¸ch LuyÖn C­¬ng	Th¸i b¹ch tinh kim	HuyÒn thiÕt
-10134	10000	100	4	1	Nh÷ng nguyªn liÖu nµo sau ®©y cã t¸c dông gióp t©n trang vò khÝ?	Kim TÝch	BÝ Ng©n	L«i Viªm Kim Sa	Bå §Ò
-10135	10000	100	4	1	Liªn quan viÖc t¨ng thuéc tÝnh vò khÝ, c©u nµo d­íi ®©y sai?	ChØ cÇn cã ®ñ vËt liÖu th× vò khÝ nµo còng t¨ng ®­îc	Vò khÝ d­íi cÊp 4 cÇn cã c¸c m¶nh Thiªn th¹ch ®Ó t¨ng thuéc tÝnh	Vò khÝ trªn cÊp 4 cÇn cã Thiªn th¹ch s¾t ®Ó t¨ng thuéc tÝnh	BÊt cø Vò khÝ nµo còng cã thÓ t¨ng thuéc tÝnh
-10136	10000	100	4	1	B­íc ra giang hå cÇn ph¶i cã nh÷ng së tr­êng riªng ®Ó tån t¹i. C©u nµo d­íi d©y kh«ng thuéc së tr­êng?	Song nh©n kþ m·	§óc t¹o vò khÝ	Lµm hé gi¸p	LuyÖn thuèc
-10137	10000	100	4	1	C¸c cao nh©n ë tiÖm rÌn Thµnh §« mçi lÇn truyÒn 1 kü n¨ng sèng lÊy bao nhiªu tiÒn?	2000 hµo	2000  b¹c	2000 thái vµng	2000 l­îng tiÒn
-10138	10000	100	4	1	Thµnh D« chØ cã duy nhÊt 1 ng­êi d¹y may hé gi¸p, lµ ai?	CÈm n­¬ng	M¹c NhÞ	Tè Mai	D· TÈu
-10139	10000	100	4	1	C¸c nguyªn liÖu nµo d­íi ®©y kh«ng cÇn luyÖn vÉn cã thÓ dïng ®Ó chÕ t¸c trang bÞ?	Thùc liÖu	Nguyªn méc	Nguyªn Kho¸ng th¹ch	T¬
-10140	10000	100	4	1	C¸c vËt phÈm nµo d­íi ®©y cã thÓ th«ng qua kü n¨ng sèng chÕ t¸c?	Ngo¹i trang	H¹ y	Bè phÈm	Qu¸n m·o
-10141	10000	100	4	1	KÕt hîp gi÷ kü n¨ng sèng víi 1 nguyªn liÖu sÏ chÕ t¹o ®­îc vËt phÈm nh­ ý. C©u nãi nµo d­íi ®©y sai?	§an ®Ønh vµ Thñy Háa phiÕn cã thÓ rÌn ®­îc binh khÝ dµi	¤ kim Chïy vµ lß B¸ch LuyÖn Hµnh cã thÓ rÌn ®­îc binh khÝ ng¾n	Lß Bµo §inh vµ §ång B¨ng gi¸m cã thÓ t¹o Thùc vËt	Thiªn Hµo Bót  vµ Linh phï chØ sÏ chÕ ®­îc linh phï
-10142	10000	100	4	1	ChÕ t¹o Linh phï, ngoµi Thiªn Hµo Bót  vµ Linh phï chØ cÇn cã thªm nguyªn liÖu nµo?	Linh HuyÕt vµ Chu sa	S¾t vµ Méc ®iÒu	Da thó vµ Chøc cÈm	ThÞt vµ g¹o
-10143	10000	100	4	1	Liªn quan viÖc chÕ t¹o vËt phÈm, c©u nµo d­íi ®©y sai?	ChÕ thùc vËt cã thÓ thªm qu¶ bå ®Ò	ChÕ vò khÝ cã thÓ thªm L«i DiÖm Kim sa	ChÕ Hé gi¸p cã thÓ thªm Thiªn Y V« Phong	ChÕ ®¬n ®­îc cã thÓ thªm D­îc V­¬ng ThÇn biªn
-10144	10000	100	4	1	Khi vøt c¸c vËt phÈm ra ngoµi, mçi vËt phÈm sÏ hiÖn 1 h×nh d¹ng kh¸c nhau. C©u nµo d­íi ®©y sai?	Tµng Hång Hoa  vøt ra sÏ cã h×nh d­îc th¶o	ThÞt thá vøt ra sÏ cã h×nh gãi trßn	Lang Hån vøt ra sÏ cã h×nh khèi vu«ng	Thñy Háa c«n vøt ra sÏ cã h×nh C«n dµi
-10145	10000	100	4	1	Vâ cô tõ tay TÆc ®å r¬i ra chøa nhiÒu bÝ Èn. C©u nµo d­íi ®©y sai?	Trong chøa thiªn ®Þa Ngò hµnh, Uy lùc kinh ng­êi	Trong chøa gi¸m phï, cã thÓ gi¸m ®Þnh trang bÞ	Trong cã nhiÒu lç trèng, cã thÓ kh¸m thªm B¶o Th¹ch	Trong chøa c¸c ký tù b¸t qu¸i Chu dÞch, uy lùc kinh  ng­êi
-10146	10000	100	4	1	Thµnh §« cã 1 vÞ cao nh©n chuyªn chØ dÉn cho nh÷ng ng­êi míi b­íc vµo giang hå! §ã lµ ai?	D· TÈu	TrÝ TÈu	Ngu TÈu	Qu¸i TÈu
-10147	10000	100	4	1	C¸c thao t¸c nµo d­íi ®©y kh«ng cÇn ®èi ph­¬ng ®ång ý vÉn tiÕn hµnh ®­îc?	Cõu s¸t	Giao dÞch	2 ng­êi cïng c­ìi ngùa	N¾m tay
-10148	10000	100	4	1	Giao dÞch víi ng­êi kh¸c, quan träng nhÊt lµ ®iÒu g×?	Thµnh tÝn	Giao tiÒn giao hµng	ChØ víi ng­êi quen	§óng gi¸ ®óng hµng
-10150	10000	100	4	1	4 quyÓn mËt tÞch tuyÖt ®Ønh vâ c«ng ®­îc ®ån ®¹i trong Giang hå, quyÓn nµo ®øng thø nhÊt?	T©y S¬n MËt TÞch	Cöu KiÕm MËt TÞch	Cöu D­¬ng Ch©n Kinh	Cöu ¢m Ch©n Kinh
-10151	10000	100	4	1	QuyÓn vâ c«ng thÇn phæ cña Th¸i Tæ Hoµng ®Õ truyÒn l¹i cã tªn lµ g×?	Tr­êng QuyÒn phæ	M·nh Háa ®ao ph¸p	Cµn Kh«n b¶o ®iÓn	B¾c Minh b¶o ®iÓn
+10001	10000	100	4	1	Äã¸Õ½øÈëÓÎÏ·Ê±£¬ÄÇÐ©¶Ô×ÅÄãßóßóÍáÍáÂÞàÂ¸öÃ»ÍêµÄ¼Ò»ïÊÇÊ²Ã´ÈË£¿	ÐÂÊÖÖ¸ÒýÈË	ÒìÈË	gm	ÌÆÉ®
+10002	10000	100	4	1	´«ËµÖÐµÄÓù½£ÌìÍõ¸É½«ÄªÐ°ÁôÏÂÁË´«ÈË£¬ÓÎÏ·ÖÐÕÆÎÕ½£¶ÍÔìµÄÊÇÄÇÒ»Î»´«ÈË£¿	Äª¶þ	Äª´ó	ÄªÈý	ÄªËÄ
+10003	10000	100	4	1	ÄÇÌìÍõÀÏÒ¯ÓÐ¼±ÊÂÏë´Ó³É¶¼µ½ÑïÖÝ£¬³µ·ò¾ÓÈ»²»ÓèÕÕ°ì£¬×îÓÐ¿ÉÄÜµÄÊÇÏÂÃæÄÇÖÖÔ­Òò£¿	ÍõÀÏÒ¯Ì«Ð¡Æø£¬¸øµÄÂ··Ñ²»¹»	³É¶¼³µ·òÐÄÇé²»Ë¬£¬²»Ïë×öÕâµ¥ÂòÂô	³É¶¼Ã»ÓÐµÀÂ·Á¬Í¨ÑïÖÝ	³É¶¼³µ·ò²»µ½ÑïÖÝ
+10004	10000	100	4	1	ÎÄÐ¡½ã½¼ÍâÌ¤Çà£¬Ê°µÃÊéÐÅÒ»·â£¬ÄÚÓÐÈçÏÂÓï¾ä£º¡°×Ô´ÓÏåÑôÒ»±ð£¬´Ò´ÒÒÑÊÇÈýÄê£¬Î¤¾ýÓ¢×Ë²ª·¢£¬½£µÀ¾ã³¤£¬¿ÉÏ²¿ÉºØ¡£¡±£¬ÇëÎÊÊéÐÅÖÐËùËµµÄÎ¤¾ý×îÓÐ¿ÉÄÜÊÇÄÇÃÅ¿¡½Ü£¿	Îäµ±	ÉÙÁÖ	ÌÆÃÅ	¶ëáÒ
+10005	10000	100	4	1	ÓÎÏ·ÖÐ×îÄÜ»ØÀ¡ÃñÒâ¡¢ÉÏ´ïÌìÌýµÄÊÇÄÇ¸öÈË£¿	ÍËÈÎ¹ÙÔ±	Ø©Ïà	ÎèÄï	Ò°ÛÅ
+10006	10000	100	4	1	ÄÄ¸ö¹ú¼ÒÊÇ´óËÎµÄ¼á¶¨ÃË¹ú£¿	´óÀí	ÍÂÞ¬	Î÷ÏÄ	´óÁÉ
+10007	10000	100	4	1	½õÉªÎÞ¶ËÎåÊ®ÏÒ£¬Ò»ÏÒÒ»ÖùË¼»ªÄê¡£Õâ¾äÊ«¿ÉÄÜÊÇÄÄÅÉÅ®µÜ×ÓµÄÕæÊµÐ´ÕÕ£¿	¶ëáÒ	Ø¤°ï	Îäµ±	ÌÆÃÅ
+10008	10000	100	4	1	Íæ¼Ò³öÈë½­ºþ¶¼ÊÇÓÐ¹Ì¶¨µØµãµÄ£¬ÏÂÃæÄÇ¸ö³ÇÊÐ²»ÊÇÐÂÊÖÍæ¼Ò³öÈëµÄµØ·½£¿	ÏåÑô	ÈªÖÝ	ãê¾©	³É¶¼
+10009	10000	100	4	1	ÌìÉÏÓÐ¸öÌ«Ñô£¬Ë®ÖÐÓÐ¸öÔÂÁÁ£¬ÐÄÖÐÓÐ¸öÃÎÏë£¬»³ÀïÓÐ¸ö¹ÃÄï¡£Õâ¶Î»ðÀ±À±µÄÇé¸è×îÓÐ¿ÉÄÜÃè»æµÄÊÇÊ²Ã´Ê±ºòµÄÊÂÇé£¿	Ê¹ÓÃ±íÇé¶¯×÷	Ê¹ÓÃÉú»î¼¼ÄÜ	Ê¹ÓÃÕ½¶·¼¼ÄÜ	Ê¹ÓÃÓÎÏ·µÀ¾ß
+10010	10000	100	4	1	ÀáÑÛÎÊ»¨»¨²»Óï£¬ÂÒºì·É¹ýÇïÇ§È¥£¬ÊÇ´óÏÀÕÅÏÈ¶ÔÒ»ÏîÎäÁÖ¾øÑ§µÄÃèÊö£¬¾Ý´ËÄãÈÏÎªÕÅÏÈÃèÊöµÄÊÇÄÇ¸öÃÅÅÉµÄÎä¹¦£¿	ÌÆÃÅ	Îäµ±	ÉÙÁÖ	Ø¤°ï
+10011	10000	100	4	1	ÌÆÃÅµÄ×î¸ßÈ¨Á¦ÈËÈçºÎ³Æºô£¿	ÀÑÀÑ	ÃÅÖ÷	×Ü¹Ü	ÕÆÃÅ
+10012	10000	100	4	1	Îäµ±ÅÉÀïÍçÆ¤µÄµÀÍ¯½ÐÊ²Ã´Ãû×Ö£¿	Ã÷ÔÂ	Çå·ç	Ä«Êé	ÐÄÑâ
+10013	10000	100	4	1	À´µ½ÉÙÁÖËÂÑ§Ï°ÆßÊ®¶þ¾ø¼¼µÄ·¬É®½ÐÊ²Ã´Ãû×Ö£¿	ð¯Ä¦ÂÞ	ð¯Ä¦ÖÇ	°¢¾õÂÞ	Â³ÖÇÉî
+10014	10000	100	4	1	Ø¤°ï¸ºÔð½ÓÒýÉ½¿ÍµÄµÜ×ÓÊÇ	ºéÆß	ËÕ²Ó	ÓÈÖªÎ¶	Â³²»Ñ­
+10015	10000	100	4	1	¶ëáÒ´«³ÐÖÐ£¬×îÔçÄÜ¹»×·ÊöÃû×ÖµÄÏÈÊ¦ÊÇ	ËïÊ®ÈýÄï	¹ùÏå	Ãð¾øÊ¦Ì«	Ô½Å®
+10016	10000	100	4	1	×Ç¾ÆÒ»±­¼ÒÍòÀï£¬ÑàÈ»ÎªÁË¹éÎÞ¼Æ£¬Ç¼¹ÜÓÆÓÆËªÂúµØ¡£ÈË²»ÃÂ£¬½«¾ü°×·¢Õ÷·òÀá¡£Õâ¶Î±ß¹ØÃèÊö¿ÉÄÜ·¢ÉúÔÚÄÇ¸ö³¡¾°	ÑãÃÅ¹Ø	ÁúÃÅÕò	½£ÃÅ¹Ø	ÌìÑÄº£½Ç
+10017	10000	100	4	1	ÉÙÁÖ¸ºÔð½ÓÒýÉ½¿ÍµÄµÜ×ÓÊÇ	¾»Ô²	¾»Í¨	»ï¹¤Í·	×æÎÅ´ï
+10018	10000	100	4	1	¶ëáÒ¸ºÔð½ÓÒýÉ½¿ÍµÄµÜ×ÓÊÇ	ÒÇºÍ	ÒÇÇå	»ÛÒô	»ÛÐÄ
+10019	10000	100	4	1	ÌÆÃÅ¸ºÔð½ÓÒýÉ½¿ÍµÄµÜ×ÓÊÇ	ÌÆÍñ¶ù	ÌÆÌìº£	ÌÆÔÆ	ÌÆ°½
+10020	10000	100	4	1	Îäµ±¸ºÔð½ÓÒýÉ½¿ÍµÄµÜ×ÓÊÇ	ÄªÇï·ç	Çå·ç	Ã÷ÔÂ	æÌÈã
+10021	10000	100	4	1	ÒªÁË½âÉÙÁÖÔ¨Ô´£¬Ó¦¸ÃÕÒºÎÈË	ÐþÃ÷	Ðþ»Þ	Ðþ±¯	Ðþ¿à
+10022	10000	100	4	1	ÒªÁË½âÎäµ±Ô¨Ô´£¬Ó¦¸ÃÕÒºÎÈË£¿	ÕÅÎçÑô	ÓáÕñÉú	´ú½£ÖÝ	ÄªÇï·ç
+10023	10000	100	4	1	ÒªÁË½â¶ëáÒÔ¨Ô´£¬Ó¦¸ÃÕÒºÎÈË£¿	ÒÇÇå	ÒÇºÍ	»ÛÒô	»ÛÐÄ
+10024	10000	100	4	1	ÒªÁË½âØ¤°ïÔ¨Ô´£¬Ó¦¸ÃÕÒºÎÈË£¿	³ÂÖÓº×	ÅíÂ²Íû	ËÎÔª°²	Âí¾¸Éú
+10025	10000	100	4	1	ÒªÁË½âÌÆÃÅÔ¨Ô´£¬Ó¦¸ÃÕÒºÎÈË£¿	ÌÆ°½	ÌÆ¼É	ÌÆ´º	ÌÆÔÆ
+10026	10000	100	4	1	ÄÄÒ»¸öÃÅÅÉÊÇÎ¨Ò»ÓÐÈýÌõÂ·Ïß¿É¹©Ñ¡ÔñµÄ£¿	ÉÙÁÖ	Îäµ±	Ø¤°ï	ÌÆÃÅ
+10027	10000	100	4	1	Î´Ñë½£·¨ÊÇÊ²Ã´ÊôÐÔ£¿	Ä¾	½ð	Ë®	ÍÁ
+10028	10000	100	4	1	Ä¿Ç°¿ÉÒÔÓÐ»¥Ïà¼Ó³ÉÐ§¹ûµÄÎä¹¦ÊÇÒÔÏÂÄÄÒ»¶Ô£¿	ÕýÁ½ÒÇ½£·¨¡¢·´Á½ÒÇµ¶·¨	Õ¶Ä§µ¶·¨¡¢·âÄ§¹÷·¨	ÆÆÄ§Öä¡¢ÒòÍÓÂÞÀ×Ó¡ÆÆ	¾²Ò¹Ë¼¡¢ÎÚÒ¹Ìä
+10029	10000	100	4	1	ÄÄÒ»ÃÅÅÉÄÄÒ»Á÷ÅÉµÄÎä¹¦ÊýÁ¿×î¶à£¿	Îäµ±µÀ¼Ò	ÉÙÁÖìøÉ®	ÌÆÃÅÏÀ¿Í	¶ëáÒ·ð¼Ò
+10030	10000	100	4	1	ÒÔÏÂÄÄ¸öÎä¹¦µÄ¹¥»÷Á¦×îÇ¿£¿	ÕæÎäÆß½Ø½£	´ïÄ¦Îä¾­	´ò¹·¹÷·¨	´óÁ¦½ð¸ÕÖ¸
+10031	10000	100	4	1	ÉÙÁÖË×¼ÒÎä¹¦ÖÐ£¬³ýÕòÅÉÎä¹¦Íâ×îÌåÏÖÆäÌØÉ«µÄÄÄ¼¸¸ö£¿	½ðÖÓÕÖ¡¢ÉáÉí¾÷¡¢´ó³ËÈçÀ´ÐÄ·¨	Õ¶Ä§µ¶·¨¡¢ÎÞ³£¹÷·¨¡¢´ïÄ¦Îä¾­	ÉÙÁÖµ¶·¨¡¢ÉÙÁÖ¹÷·¨¡¢´ïÄ¦Îä¾­	½ðÖÓÕÖ¡¢È¼Ä¾µ¶·¨¡¢´ïÄ¦Îä¾­
+10032	10000	100	4	1	ÌÆÃÅÒÔÊ²Ã´ÎÅÃûÌìÏÂ£¿	°µÆ÷¡¢ÓÃ¶¾¡¢ÏÝÚå	°µÆ÷¡¢»ðÆ÷¡¢ÏÝÚå	°µÆ÷¡¢ÓÃ¶¾¡¢»ðÆ÷	°µÆ÷¡¢Õì²ì¡¢ÏÝÚå
+10033	10000	100	4	1	ÒÔÏÂÄÄ¼¸ÖÖÎä¹¦ÊôÓÚ¿ÉÒÔ¶Ô¶à¸öµÐÈËÓÐÐ§µÄ£¿	ôÂôÄ·üÄ§ÉñÍ¨¡¢¹´»êÚå¡¢ÁùºÏÈ­·¨¡¢Á÷¹â½£·¨	´óÁ¦½ð¸ÕÖ¸¡¢ÇýÉß¹÷·¨¡¢´ò¹·¹÷·¨¡¢¶¾´Ì¹Ç	ÎÞ³£¹÷·¨¡¢ÎÞÏàÉñ¹¦¡¢·ð¹âÕ½Æø¡¢ÂúÌì»¨Óê	´ïÄ¦Îä¾­¡¢¾²Ò¹Ë¼¡¢·ÙÇÙÖóº×¾÷¡¢ÉÙÒõ¾÷
+10034	10000	100	4	1	ÒÔÏÂÄÄ¸öÁ÷ÅÉÊÇÎ¨Ò»Ò»¸ö¹¥»÷ÀàÎä¹¦ÖÐÄÚÍâ¹¦Ïµ¶¼ÓÐµÄ	¶ëáÒË×¼Ò	ÉÙÁÖìøÉ®	ÌÆÃÅÏÀ¿Í	Îäµ±Ë×¼Ò
+10035	10000	100	4	1	ÒÔÏÂÄÄ¸öÎä¹¦ÊÇÄ¿Ç°ËùÓÐÎä¹¦ÖÐÄÜÒ»ÕÐ·¢³ö×î¶à¹¥»÷µÄ	ÉñÃÅÊ®Èý½£	ÎÞÓ°½Å	ÆßÐÇ¾÷	ÌìÇå´¿Ñô½£
+10036	10000	100	4	1	ÉÙÁÖË×¼Ò·ÀÓù¸ß£¬ÒòÎª	ËûµÄÎä¹¦¿ÉÒÔ´ó´óÌá¸ß¾ø¶Ô·ÀÓùÖµ	ËûÄÜÊ¹ÓÃµÄ»¤¾ß½ÏºÃ	ËûÉúÃü¸ß	Ëû¸ù¹Ç±ÈÆäËûÈË¸ß
+10037	10000	100	4	1	ÉÙÁÖìøÉ®ÄÄÁ½ÖÖÎä¹¦¿ÉÒÔ°ÑµÐÈË´òÍË	ôÂôÄ·üÄ§ÉñÍ¨¡¢Ê¨×Óºð	·ü»¢Æø¹¦¡¢ÒòÍÓÂÞÀ×Ó¡ÆÆ	ÎÞÏàÉñ¹¦¡¢´óÁ¦½ð¸ÕÖ¸	ÆÆÄ§Öä¡¢²»¶¯Ã÷ÍõÖä
+10038	10000	100	4	1	ÌÆÃÅÒÔÏÂÎä¹¦ÖÐ£¬ÄÄÐ©È«²¿ºÍ¶¾ÓÐ¹Ø	º¬É³ÉäÓ°¡¢ÂúÌì»¨Óê¡¢ËøÃüÕë	½â¶¾ÃØÊõ¡¢¹´»êÚå¡¢´©ÐÄ´Ì	×·ÐÄ¼ý¡¢¶¾´Ì¹Ç¡¢´ã¶¾ÃØÊõ	±©ÓêÀæ»¨Õë¡¢¶áÆÇá¦¡¢ÐÄÑÛ
+10039	10000	100	4	1	¶ëáÒ·ð¼Ò¾È¿à¾ÈÄÑ£¬ÒÔÏÂÄÄÐ©Îä¹¦ÊÇÈ«²¿ÄÜ¹»»Ø¸´ÉúÃüµÄÄØ£¿	ÆÕ¼ÃÖÚÉú¡¢²»ÃðÐÄ·¨¡¢´ó´È´ó±¯Öä	¹ÛÒô¾÷¡¢¶ÉÔª¾÷¡¢·ð¹âÕ½Æø	¹ÛÒô¾÷¡¢ÇåÒôèó³ª¡¢ÆÕ¼ÃÖÚÉú	¹ÛÒô¾÷¡¢ÆÕ¼ÃÖÚÉú¡¢·ð¹âÆÕÕÕ
+10040	10000	100	4	1	¶ëáÒË×¼ÒµÄÇÙÉùÖÐ£¬ÄÜ¶ÔµÐÈËµÄÉúÃüÔì³ÉÓ°ÏìµÄÊÇ	ËæÒâÇú¡¢ÔÂÊ´Çú¡¢ÃÔÐÄÆ®ÏãÇú	ËæÒâÇú¡¢¾²Ò¹Ë¼¡¢Ñô¹ØÈýµþ	ËæÒâÇú¡¢·ÙÇÙÖóº×¾÷¡¢ÃÔÐÄÆ®ÏãÇú	Ñô¹ØÈýµþ¡¢ÎÚÒ¹Ìä¡¢·ÙÇÙÖóº×¾÷
+10041	10000	100	4	1	Ø¤°ï¾»ÒÂ½²¾¿¸ß¹¥»÷£¬ÒÔÏÂÄÄÏîÈ«ÊÇÎªÁËÌá¸ß¹¥»÷Ð§ÂÊ¶ø·ÅÆúÉúÃüµÄ	åÐÒ£ÓÎ¡¢×íµû	Í¨±ÛÈ­¡¢°ÔÍõÈ­	ÁùºÏÈ­·¨¡¢×íÈ­	»ìÌìÆø¹¦¡¢Ç§½ïÕ¢
+10042	10000	100	4	1	Ø¤°ïÎÛÒÂÍæ·¨±ä»¯ÎÞÇî£¬³ýÕòÅÉÍâ£¬ËûÓÐ¼¸¸öÎä¹¦µÄÐ§¹ûÊÇ±ðÈËÃ»ÓÐµÄ	5	4	3	2
+10043	10000	100	4	1	Îäµ±µÀ¼Ò½£·¨ÍþÁ¦ÎÞÇî£¬ÎÞÊôÐÔ½£·¨¹¥»÷Ê±»áÊÜµ½ÊôÐÔÐÞÕý¶øÍþÁ¦½µµÍ£¬ÒÔÏÂÄÄÏîÈ«ÊÇÃÖ²¹¸ÄÈ±ÏÝµÄ·½·¨	Ìá¸ß¹¥»÷Á¦ÌØ±ð¶à¡¢¹¥»÷»áÊ¹ÈËºóÑö	ÕÐÊ½µÄ¸½¼ÓÐ§¹û·Ç³£Ç¿¡¢·¶Î§±ÈÒ»°ãÎä¹¦´ó	¿ÉÒÔ¸úÆäËûÎä¹¦¼Ó³É¡¢¿ÉÒÔ´©Í¸Ä¿±ê	·¢ÕÐ¿ì¡¢ÄÚÁ¦ÏûºÄÉÙ
+10044	10000	100	4	1	Îäµ±Ë×¼Ò½²¾¿Áé¶¯ºÍÎä¹¦ÅäºÏ£¬ÒÔÏÂÄÄÁ½ÖÖÎä¹¦ÅäºÏÊ¹ÓÃÄÜ·¢»Ó¾Þ´óÍþÁ¦£¿	ÌÝÔÆ×Ý¡¢ÉÙÒõ¾÷	Ì«ÒÒåÐÒ£¹¦¡¢ÆßÐÇ¾÷	ÉÙÑô¾÷¡¢²ÐÓ°¾÷	Ç¬À¤¾÷¡¢ÉÏÇåÎÞ¼«¹¦
+10045	10000	100	4	1	Ò»°ãÎä¹¦¶¼ÓÐ20²ã£¬ÄÄ¼¸²ãÊÇ´ó¶àÊýÎä¹¦Éý¼¶µÄ×ªÕÛµã	10¡¢15¡¢19	8¡¢16	10¡¢16	8¡¢15¡¢19
+10046	10000	100	4	1	Ä¿Ç°µÄÃÅÅÉÎä¹¦ÖÐÓÐ¼¸¸öÎä¹¦Ãû×ÖÊÇ6¸ö×ÖµÄ	4	5	6	7
+10047	10000	100	4	1	ÒÔÏÂÄÄ¸öÊÇ»ìÂÒÐ§¹ûµÄÕýÈ·ÃèÊö	ÂÒÅÜ£¬×öÈÎºÎÊÂÇé¶¼ÎÞÐ§	²»ÄÜ×öÈÎºÎÊÂÇé	ÂÒÅÜÂÒ·¢Îä¹¦¹¥»÷	ÐÐ¶¯±ä³É·´·½Ïò
+10048	10000	100	4	1	ÕÐÊ½¡°ÔÂ°é³¿ÐÇ¡±ÊÇÄÄ¸öÎä¹¦ËùÓÐ	ÐþÎä½£Õó	¾²Ò¹Ë¼	ÔÂÊ´Çú	Ì«ÒÒÈýÇå½£
+10049	10000	100	4	1	¸ß¼¶Îä¹¦¶¼ÓÐÁ½¸öÌØÊâÕÐÊ½£¬ÒÔÏÂÄÄ×éÕÐÊ½È«²¿ÊÇ¸ß¼¶Îä¹¦µÄ¸ß¼¶ÕÐÊ½	Ð¦Óï½âÒÃ¡¢ÐþÒ»ÎÞÏó¡¢ÕýÆø°Ë·½	ÎÞÒâÎÞÄî¡¢ÈýÑ»ÈÆÊ÷¡¢°ô´òÈºÈ®	ÍþÁÝÈºÄ§¡¢ÆÆÖæËéÓî¡¢Óê´òÀæ»¨	ÎÞ¶¨ÎÞ·¨¡¢ÐëÃÖ½æ×Ó¡¢ÔÂÓ°ÅûÏ¼
+10050	10000	100	4	1	¶ÔÓÚÕÐÊ½¡°ÆßÐÇÂä³¤¿Õ¡±ÃèÊö´íÎóµÄÊÇ	¸½¼Ó¹¥»÷Á¦ÇÒÓÐÌØÊâÐ§¹û	ºÍËüÍ¬ÊôÒ»¸ö¼¼ÄÜµÄÕÐÊ½ÊÇ±±¶·×ªÌ«Ðé	ÊÇÎäµ±µÀ¼ÒµÄ½£·¨ÕÐÊ½	ÊÇÍþÁ¦×î´óÎä¹¦µÄÕÐÊ½
+10051	10000	100	4	1	¡°²ÐÓ°¾÷¡±ÊÇÒ»¸ö·Ç³£ÌØ±ðµÄÎä¹¦£¬ËûµÄÌØµã´íÎóµÄÊÇ	ÄÜ¹¥»÷´óÆ¬µÐÈË	ÄÜÈÃµÐÈËÂé±Ô	ÄÜÊ¹½ÇÉ«ÒþÉí	²»ÄÜÒÆ¶¯
+10052	10000	100	4	1	¹ØÓÚÂé±ÔÐ§¹û£¬ÃèÊö´íÎóµÄÊÇ	»á½µµÍµÐÈËµÄ·ÀÓùÐ§ÂÊ	Ö»ÓÐ1¸öÁ÷ÅÉÄÜ·¢³öÕâÖÖÐ§¹û	»á½µµÍµÐÈËµÄ¹¥»÷Ð§ÂÊ	»á½µµÍµÐÈËµÄÒÆ¶¯ËÙ¶È
+10053	10000	100	4	1	ÄÜ½â¶¾µÄÎä¹¦ÊÇÄÇÐ©	½â¶¾ÃØÊõ¡¢ÁùÆø»¯Óñ¹¦	º¬É±ÉäÓ°¡¢ÎÞÎÒÐÄ·¨	½â¶¾ÃØÊõ¡¢¹ÛÒô¾ö	½â¶¾ÃØÊõ¡¢ÇåÒôèó³ª
+10054	10000	100	4	1	ìøÉ®ÒÔµÄ¹¥»÷Îä¹¦ÒÔÎÞÊôÐÔ¹¥»÷ÎªÖ÷£¬Ö»ÓÐÒ»¸ö¹¥»÷ÊÇÓÐÎåÐÐÊôÐÔµÄ£¬ËüÊÇ	ÒòÍÓÂÞÀ×Ó¡ÆÆ	·ü»¢Æø¹¦	ôÂôÄ·üÄ§Éñ¹¦	Îå×ªÖ¸
+10055	10000	100	4	1	²Ü´óÁ¦ÊÇÄÄ¸ö°ïµÄ°ïÖ÷£¿	½ðÅ£°ï	Òø¾¨°ï	Í­»¢°ï	¸«Í·°ï
+10056	10000	100	4	1	ÑîÒµµÄ·òÈËÊÇË­£¿	ÙÜÌ«¾ý	ÉßÌ«¾ý	ÑîÌ«¾ý	ÂíÌ«¾ý
+10057	10000	100	4	1	·âÑý¶´Î»ÓÚÄÄÀï£¿	½­½ò´å	°ÍÁêÏØ	µ¾Ïã´å	ÁúÃÅÕò
+10058	10000	100	4	1	ÔÚÐÓ»¨´åÉ±¶ñÀôµÄ´óÏÀ½ÐÊ²Ã´Ãû×Ö£¿	ÕÅêÀ	ÕÅ¼¯Ô´	ÕÅöª	ÕÅÏ¼
+10059	10000	100	4	1	ÔÚ½­½ò´åÕ¶Ñý³ýÄ§µÄ´óÏÀ½ÐÊ²Ã´Ãû×Ö£¿	ÕÅöª	ÕÅêÀ	ÕÅ¼¯Ô´	ÕÅÏ¼
+10060	10000	100	4	1	ÊÇË­Ö÷ÕÅ½«ÑýÄ§·âÔÚ½­½ò´åÏÂÃæµÄ£¿	ÑôÔÂÊ¦Ì«	Íõèª	¼¯ÔµÕæÈË	ÐþÃð×ðÕß
+10061	10000	100	4	1	ÊÇË­´ò¿ªÁË·âÄ§¶´µÄ¶´¿Ú£¿	ÎâÔ½ÀÏ×æ	ÂÌÃ«ÀÏ×æ	áÀÉ½ÀÏ×æ	ÕÅË³ÀÏ×æ
+10062	10000	100	4	1	ÎâÔ½ÀÏ×æ¶ã²ØÔÚÊ²Ã´µØ·½£¿	ÌìÊ¦¶´	Áú»¢¶´	±ùÐÄ¶´	ÇåÒô¶´
+10063	10000	100	4	1	ÍêÑÕ°¢¹Ç´ò³ÆµÛµÄ¹úºÅÊÇÊ²Ã´£¿	´ó½ð	Æõµ¤	´óÁÉ	´óÏÄ
+10064	10000	100	4	1	Ò®ÂÉ°¢±£»ú³ÆµÛµÄ¹úºÅÊÇÊ²Ã´	Æõµ¤	´óÁÉ	´ó½ð	´óÏÄ
+10065	10000	100	4	1	Ôªê»³ÆµÛµÄ¹úºÅÊÇÊ²Ã´£¿	´óÏÄ	´ó½ð	´óÁÉ	Æõµ¤
+10066	10000	100	4	1	±±ËÎ±»ÄÄ¸öÊÆÁ¦ÃðÍö£¿	½ð	ÁÉ	Î÷ÏÄ	ÃÉ¹Å
+10067	10000	100	4	1	ÏÂÁÐÄÄÏî²»¿ÉÄÜÓÃÀ´×öÃÉº¹Ò©?	×ÏºÓ³µ	ÂüÍÓÂÞ»¨	Ñº²»Â®	²ÝÎÚÄ©
+10068	10000	100	4	1	Ë­½«¹úºÅ¸ÄÎª´óÁÉ£¿	ÁÉÌ«×Ú	ÁÉÌ«×æ	ÁÉÊÀ×Ú	ÁÉÊ¥×Ú
+10069	10000	100	4	1	Ë­ÊÇÆõµ¤×åµÄ¿ª¹ú»ÊµÛ£¿	Ò®ÂÉ°¢±£»ú	ÍêÑÕ°¢¹Ç´ò	Ò®ÂÉµÂ¹â	³É¼ªË¼º¹
+10070	10000	100	4	1	ÊÇË­°ÑÑàÔÆÊ®ÁùÖÝ¸îÈÃ¸øÆõµ¤µÄ£¿	Ê¯¾´è©	ÕÔ¿ïØ·	ÕÔ¹âÒå	ÅËÈÊÃÀ
+10071	10000	100	4	1	ÄÇÖÖÎÄÑ§ÐÎÊ½ÔÚËÎ³¯×îÎªÐËÊ¢£¿	´Ê	Ê«	Çú	¸³
+10072	10000	100	4	1	ËÄ´ó·¢Ã÷ÖÐÄÄÒ»Ïî²»ÊÇ³öÏÖÔÚËÎ³¯£¿	ÔìÖ½	»ðÒ©	»î×ÖÅÅ°æ	Ö¸ÄÏÕë
+10073	10000	100	4	1	ÑîÑÓ»ÔµÄÆÞ×ÓÊÇË­£¿	Ìú¾µ¹«Ö÷	ÌúÉÈ¹«Ö÷	ÌúÇÙ¹«Ö÷	ÌúÑª¹«Ö÷
+10074	10000	100	4	1	ÐÓ»¨´åµÄ¾ÓÃñÏÖÔÚÔÚÄÄÀï£¿	ÑôÖÐ¶´	½­½ò´å	µ¾Ïã´å	¹ÅÑô¶´
+10075	10000	100	4	1	Îäµ±ÄÚ¼ÒÈ­µÄ´´Ê¼ÈËÊÇË­£¿	ÕÅÈý·á	Óà²×º£	ÑîÎÄ¹ã	ÕÅÎÞ¼É
+10076	10000	100	4	1	ÏÂÁÐÄÄ¸öÈËÎï²»ÊÇËÎ³¯µÄ£¿	ÌÆ²®»¢	Íõ°²Ê¯	¿Ü×¼	°üÕü
+10077	10000	100	4	1	ËÎ³¯µÄ¿ª¹ú»ÊµÛÊÇË­£¿	ÕÔ¿ïØ·	ÕÔµÂ·¼	ÕÔ¹âÒå	ÕÔÙ¥
+10078	10000	100	4	1	ÉíÔÚÆõµ¤µÄËÎÈËæâÂíÊÇË­£¿	ÑîÑÓ»Ô	ÑîÑÓÕÑ	ÑîÑÓµÂ	ÑîÑÓÀÉ
+10079	10000	100	4	1	ÑîÑÓÕÑÊÇÑîÒµµÄ¼¸ÀÉ	ÁùÀÉ	ÎåÀÉ	ÆßÀÉ	°ËÀÉ
+10080	10000	100	4	1	½£ÏÀ·¡Íâ´«µÄÊÀ½çÀïµÄµÐÈË¹²·Ö¼¸ÖÖÊôÐÔ?	7	6	5	4
+10081	10000	100	4	1	ÍÃ×ÓµÄÍ·ÁìÊÇË­?	ºÚÍÃÍõ	°×ÍÃÍõ	»ÒÍÃÍõ	»ÆÍÃÍõ
+10082	10000	100	4	1	ÀÇµÄÍ·ÁìÊÇË­?	Ð¡²ÔÀÇ	Ð¡ÍÁÀÇ	Ð¡ÇàÀÇ	¶öÀÇ
+10083	10000	100	4	1	Ò°ÖíµÄÍ·ÁìÊÇË­?	Ò°ÖíÍõ	Ò°Öí 	»ÒÖíÍõ	ºÚÖíÍõ
+10084	10000	100	4	1	"¶ëáÒÉ½ÒÔºï×ÓÖø³Æ,ÏÂÃæ³öÏÖÔÚ¶ëáÒÉ½µÄºï×ÓÊÇ?"	Âíºï	â¨ºï	Ò°ºï 	·Éºï
+10085	10000	100	4	1	È·ÈÏÎÞÀµµÄÖ¤¾ÝÊÇ?	Ðå»¨Ð¬	¶Ç¶µ	·¢ÊÎ	¹Ù·þ
+10086	10000	100	4	1	Á÷Ã¥×î°®ºÈÊ²Ã´? 	ÉÕ¾Æ	Å®¶ùºì	Àæ»¨¾Æ	ÉÕµ¶×Ó
+10087	10000	100	4	1	ÌÆÃÅ¸½½üµÄ°ÙÈÕ¼ýÉÆÊ¹Ê²Ã´? 	¹­¼ý	·ÉïÚ	·Éµ¶	ÏÝÚå
+10088	10000	100	4	1	"Ø¤°ïÄËÁúÉß»ìÔÓÖ®µØ,¸½½üÓÐºÜ¶àÊ²Ã´?"	Ð¡Íµ	Ç¿µÁ	´óÏÀ	²¶¿ì
+10089	10000	100	4	1	²Øºì»¨ÕâÖÖÒ©²ÄÔÚÄÇÖÖ¶¯ÎïµÄÉíÉÏ»á³öÏÖÄØ?	ÍÃ×Ó	ÀÇ	ÐÜ	ÎÚÑ»
+10090	10000	100	4	1	"ÑÛ¾¦Éß¾ç¶¾ÎÞ±È,ºÅ³ÆÉßÖÐÖ®Íõ,ËüÔÚÏÂÃæÄÇ¸öµØ·½³öÃ»ÄØ?"	ÊñÖÐÌÆÃÅ	ÈûÍâ²ÝÔ­	ÉÙÁÖÃÜÊÒ	·üÅ£É½
+10091	10000	100	4	1	ÏÂÃæÄÇ¸ö²»ÊÇÍµ¶«Î÷µÄÐ¡ÔôÄØ?	É½Ôô	ÎÞÀµ	Á÷Ã¥	Ð¡Íµ
+10092	10000	100	4	1	ÏÂÃæÄÇÖÖµÐÈËÄÜ¹»ÔÚ¶Ô·½·¢¶¯ÕÐÊ½Ê±ÏÈ·¢ÖÆÈËÄØ?	½£¿Í	µ¶¾ø	½£¿ñ	Ð¡Íµ
+10093	10000	100	4	1	¶þÁúÉ½×îÇ¿µÄÊÇ?	Â³ÖÇÉî	ÎäËÉ	ËÎ½­	ÁÖ³å
+10094	10000	100	4	1	Çà³ÇÉ½ÓÐºÜ¶à?	ÎÚÑ»	·ÉÓ¥	ºï×Ó	ÀÇ
+10095	10000	100	4	1	¶Ô×Ô¼º±È½Ï°²È«µÄµÐÈËÃû×ÖÊÇ?	°×É«	ºìÉ«	»ÆÉ«	À¶É«
+10096	10000	100	4	1	¶Ô×Ô¼ºÏà¶Ô±È½ÏÎ£ÏÕµÄµÐÈËÃû×ÖÊÇ?	"ºìÉ«,»ÆÉ«ºÍÀ¶É« "	»ÆÉ«ºÍÀ¶É«	ºìÉ«ºÍÀ¶É« 	°×É«ºÍºìÉ«
+10097	10000	100	4	1	ÏÂÃæÄÇÖÖÊôÐÔµÄµÐÈËÖ»ÄÜÓÃÎåÐÐÎäÆ÷¹¥»÷?	Òõ	ÎÞ	Ä¾ 	½ð
+10098	10000	100	4	1	ÏÂÃæÄÇÖÖµÐÈË²»»áÖ÷¶¯¹¥»÷ÎÒÃÇ?	ÀÏ»¢	ÎÚÑ»	»ÒÐÜ	ºÚÍÃÍõ
+10099	10000	100	4	1	ÉÙÁÖËÂËùÔÚµÄÉÙÊÒÉ½Ê²Ã´¶¯Îï×î¶à?	ÀÏ»¢ 	ÀÇ	ºï×Ó	ÍÃ×Ó
+10100	10000	100	4	1	Á÷Ã¥µÄÎäÆ÷ÊÇ?	°ô×Ó	´óµ¶	¹­¼ý	±¦½£
+10101	10000	100	4	1	µÐÈËÉíÉÏ²»¿ÉÄÜµô?	Ç®	ÒÂ·þ	ÎäÆ÷	Ò©²Ä
+10102	10000	100	4	1	¶ÔË®ÊôÐÔµÐÈË×îºÃÓÃ?	ÍÁÊôÐÔÎäÆ÷	½ðÊôÐÔÎäÆ÷	»ðÊôÐÔÎäÆ÷	Ë®ÊôÐÔÎäÆ÷
+10103	10000	100	4	1	ÒÆ¶¯ËÙ¶È×î¿ìµÄ¶¯ÎïÊÇ?	ÎÚÑ»	ÀÇ 	ÍÃ×Ó	ÀÏ»¢
+10104	10000	100	4	1	±±ËÎ³õÄê£¬Î»ÓÚËÎ±±·½µÄ¹ú¼ÒÊÇ	ÁÉ	½ð	¶íÂÞË¹	ÃÉ¹Å
+10105	10000	100	4	1	ÑîÒµÑªÕ½½ðÉ³Ì²ºó£¬×îºó×²ËÀÔÚ	ÀîÁê±®	Àî¹ã±®	ËÕÎä±®	Ó¢ÐÛ±®
+10106	10000	100	4	1	ÑîÒµµÄ·òÈËÊÇ	ÙÜÈü»¨	·®Àæ»¨	»¨Ä¾À¼	Èü½ð»¨
+10107	10000	100	4	1	ÒÔÏÂ²»´æÔÚµÄµØÍ¼ÊÇ	ãê¾©¸®±±	ãê¾©¸®Î÷	ãê¾©¸®ÄÏ	ãê¾©¸®¶«
+10108	10000	100	4	1	±±ËÎµÄ¹ú¶¼ÊÇ	ãê¾©	³É¶¼	ÈªÖÝ	ÏåÑô
+10109	10000	100	4	1	ÒÔÏÂ²»ÄÜ±»¼ø¶¨µÄÎïÆ·ÊÇ	¼ø¶¨·û	½£	¼×	µ¶
+10110	10000	100	4	1	±»³ÆÎªÍñÔ¼ÅÉ´ÊÈËµÄÊÇ	ÁøÓÀ	ËÕ¶«ÆÂ	ÐÁÆú¼²	·¶ÖÙÑÍ
+10111	10000	100	4	1	ÌÒ»¨µººÍÏÂÁÐÄÄ¸ö³ÇÊÐÀëµÃ½Ï½ü	ÈªÖÝ	ÏåÑô	´óÀí	·ïÏè
+10112	10000	100	4	1	ÁÉ¾üÔÚÑãÃÅ¹ØÍâ°ÚÏÂµÄ´óÕóÊÇ	ÌìÃÅÕó	³¤ÉßÕó	±±¶·ÆßÐÇÕó	°ËÃÅ½ðËøÕó
+10113	10000	100	4	1	ÓÎÏ·ÖÐÓÐ¹í¹Ö³öÃ»µÄµØ·½ÊÇ	½­½ò´å	ÁúÈª´å	ÁúÃÅÕò	ÑãÃÅ¹Ø
+10114	10000	100	4	1	±±ËÎÄê¼äÉñÃØ×éÖ¯Ã÷½ÌÓÖ±»³ÆÎª	°Ý»ð½Ì	°ÝÍÁ½Ì	°Ý½ð½Ì	°ÝË®½Ì
+10115	10000	100	4	1	ÒÔÏÂ²»ÊÇ¸É½«ÄªÐ°´«ÈËµÄÊÇ	ÄªËÄ	ÄªÈý	Äª¶þ	Äª´ó
+10116	10000	100	4	1	ÏÂÁÐ³ÇÊÐÖÐ¿¿º£µÄÊÇ	ÈªÖÝ	ÏåÑô	ÑïÖÝ	·ïÏè
+10117	10000	100	4	1	ÌìÏÂÎä¹¦³ö	ÉÙÁÖ	¶ëáÒ	Îäµ±	Ò°Çò
+10118	10000	100	4	1	ºÍÁºÉ½ÊôÓÚÍ¬Ò»ÕóÓªµÄÉ½Õ¯ÊÇ	¶þÁúÉ½	ÎäÁêÉ½	»ªÉ½	·üÅ£É½
+10119	10000	100	4	1	Î»ÓÚÃç½®µÄÃÅÅÉÊÇ	Îå¶¾	ÌÆÃÅ	Ø¤°ï	À¥ÂØ
+10120	10000	100	4	1	ÇØÊ¼»ÊÁêÖÐÂñÔáµÄ»ÊµÛÊÇ	ÙøÕþ	ÜÞ¼á	ÀîÊÀÃñ	ÏîÓð
+10121	10000	100	4	1	Ò»ÄêÒ»¶ÈµÄ»ªÉ½ÂÛ½£ÊÇÔÚÏÂÁÐÄÄ×ùÉ½½øÐÐµÄ	»ªÉ½	Ì©É½	½ðÉ½	ºâÉ½
+10122	10000	100	4	1	ËÎÌ«×æÕÔ¿ïØ·µÄ¼ÌÎ»ÕßËÎÌ«×ÚÕÔ¹âÒåÊÇËûµÄ	µÜµÜ	¶ù×Ó	¸¸Ç×	Ö¶×Ó
+10123	10000	100	4	1	ËÎ³¯µÄÇ°Ò»¸ö³¯´úÊÇ	ºóÖÜ	ºó½ú	ºóÁº	ÌÆ³¯
+10124	10000	100	4	1	Ø¤°ïÀïºÍÎÛÒÂÅÉ²¢ÁÐµÄÎªÄÄÒ»ÅÉ	¾»ÒÂÅÉ	ÆÆÒÂÅÉ	ÎÞÒÂÅÉ	Ê±×°ÅÉ
+10125	10000	100	4	1	ÌÆÃÅÎ»ÓÚ	ËÄ´¨	ºþÄÏ	Õã½­	É½¶«
+10126	10000	100	4	1	ÉÙÁÖ·½ÕÉÊÇ	Ðþ´È	Ðþ±¯	ÐþÍ´	Ðþ¿à
+10127	10000	100	4	1	Çà³ÇÉ½ÉÏµÄÒþÃØ¶´Ñ¨ÊÇ	ÌìÊ¦¶´	ÆßÐÇ¶´	ÑôÖÐ¶´	Áú»¢¶´
+10128	10000	100	4	1	ÖÐ¹úµÄ´«ËµÖÐµÄ¹í³ÇÊÇ	·á¶¼	ÐÅ¶¼	´ó¶¼	³É¶¼
+10133	10000	100	4	1	Îä¾ß¿ÉÒÔÎ¯ÍÐ½³Ê¦½øÐÐÇ¿»¯£¬À´ÌáÉýÆ·ÖÊ£¬ÏÂÁÐÄÄÖÖ²ÄÁÏ ÊÇÇ¿»¯²ÄÁÏ	ÔÉÌú	°ÙÁ¶¸Ö	Ì«°×¾«½ð	ÐþÌú
+10134	10000	100	4	1	Îä¾ßÔÚÊÜµ½Ä¥Ëðºó£¬Èô³ÖÓÐÌØÊâ²ÄÁÏ½øÐÐÐÞÀí£¬ÔòÎä¾ß¿ÉÍêºÃÈç³õ£¬¸Ã²ÄÁÏÎª	½ðÎý	ÃØÒø	À×Ñ×½ðÉ³	ÆÐÌá×Ó
+10135	10000	100	4	1	ÓÐ¹ØÎä¾ßÇ¿»¯£¬ÏÂÁÐÄÄ¸öËµ·¨ÊÇ´íÎóµÄ	Ö»ÒªÅä×ã¹¤¾ß£¬×Ô¼ºÒ²ÄÜÇ¿»¯	ËÄ¼¶ÒÔÏÂµÄÎä¾ß±ØÐëÊ¹ÓÃÔÉÌúËéÆ¬Ç¿»¯	ËÄ¼¶ÒÔÉÏµÄÎä¾ß±ØÐëÊ¹ÓÃÔÉÌúÇ¿»¯	ÈÎºÎÎä¾ß¶¼¿ÉÇ¿»¯
+10136	10000	100	4	1	ÐÐµÀ½­ºþ£¬ÐèÒªÒ»¶¨µÄÄ±ÉúÖ®¼¼£¬ÏÂÁÐÄÄ¸ö²»ÊôÓÚÄ±ÉúÖ®¼¼µÄÄÚÈÝ	Ë«ÈËÆï³Ë	ÎäÆ÷¶ÍÔì	»¤¼×Ö¯Ôì	Á¶µ¤
+10137	10000	100	4	1	°´ÕÕÐÐ¹æ£¬³É¶¼³ÇÖÐµÄ¼¸Î»½³Ê¦ÐèÊÕ¶àÉÙÇ®²Å»á½«Ä±Éú¼¼ÄÜ½ÌÊÚ¸øÄã	2000ÎÄÇ®	2000Á½Òø×Ó	2000¶§½ð×Ó	2000Á½·ÉÇ®
+10138	10000	100	4	1	³É¶¼³ÇÖÐÄÜ¹»½ÌÊÚ»¤¼×Ö¯Ôì¼¼ÄÜµÄÎ¨ÓÐÒ»ÈË£¬ÊÇ	½õÄï	Äª¶þ	ËØÃ·	Ò°ÛÅ
+10139	10000	100	4	1	ÏÂÁÐÄÄÀàÔ­²ÄÁÏ²»ÐèÌáÁ¶¼´¿ÉÓÃÀ´ÖÆ×÷ÎïÆ·	Ê³²Ä	Ô­Ä¾	Ô­¿óÊ¯	Ë¿
+10140	10000	100	4	1	ÏÂÁÐÄÄÀàÎïÆ·¿ÉÍ¨¹ýÄ±Éú¼¼ÄÜÀ´ÖÆ×÷»ñµÃ	ÉÏÒÂ	ÏÂÒÂ	ÊÎÎï	¹ÚÃ±
+10141	10000	100	4	1	ÔÚÊ¹ÓÃÄ±Éú¼¼ÄÜÊ±£¬±ØÐëÅä±¸¹¤¾ß·½¿ÉÖÆ×÷ÎïÆ·£¬ÏÂÁÐÄÄ¸öËµ·¨ÊÇ´íÎóµÄ	µ¤¶¦ºÍË®»ðÉÈ¿É¶ÍÔì³¤±øÆ÷	ÎÚ½ð´¸ºÍ°ÙÁ¶ÐÐÂ¯¿É¶ÍÔì¶Ì±øÆ÷	âÒ¶¡³øµ¶ºÍ½ûÍ­±ù¼ø¿ÉÖÆ×÷Ê³Îï	ÌìºÀ±ÊºÍÁé·ûÖ½¿ÉÖÆ×÷·ûÖ½
+10142	10000	100	4	1	ÔÚÊ¹ÓÃÁé·ûÖ½ºÍÌìºÀ±ÊÖÆ×÷·ûÖ½Ê±£¬ÐèÓÃÒ»Ð©»ù±¾²ÄÁÏ£¬ÕâÐ©²ÄÁÏÊÇ	ÁéÑªºÍÖìÉ°	Ìú¶§ºÍÄ¾Ìõ	ÊÞÆ¤ºÍÖ¯½õ	Èâ¿éºÍµ¾Ã×
+10143	10000	100	4	1	ÔÚÊ¹ÓÃ¹¤¾ßºÍ»ù±¾²ÄÁÏÖÆ×÷ÎïÆ·Ê±£¬¿ÉÒÔ¼ÓÈëÒ»Ð©ÌØÊâ²ÄÁÏÀ´ÌáÉýÖÆ×÷Ð§¹û£¬ÏÂÁÐÄÄ¸öËµ·¨ÊÇ´íÎóµÄ	ÖÆ×÷Ê³Îï¿É¼ÓÈëÆÐÌá×Ó	ÖÆ×÷ÎäÆ÷Ê±¿É¼ÓÈëÀ×ìÍ½ðÉ³	ÖÆ×÷»¤¼×Ê±¿É¼ÓÈëÌìÒÂÎÞ·ì	ÖÆ×÷µ¤Ò©Ê±¿É¼ÓÈëÒ©ÍõÉñÆª
+10144	10000	100	4	1	É±ËÀÃÍÊÞ»ò´õÍ½Ê±£¬¿ÉÒÔ»ñµÃÎïÆ·£¬²»Í¬µÄÎïÆ·ÈÓÔÚµØÏÂÏÔÊ¾²»Í¬£¬ÏÂÁÐÄÄ¸öËµ·¨ÊÇ´íÎóµÄ	²Øºì»¨ÈÓÔÚµØÉÏÊÇÒ©²ÝÄ£Ñù	ÍÃÈâÈÓÔÚµØÉÏÊÇ°ü¹üÄ£Ñù	ÀÇ»êÈÓÔÚµØÉÏÊÇ·½Ï»Ä£Ñù	Ë®»ð¹÷ÈÓÔÚµØÉÏÊÇ³¤¹÷Ä£Ñù
+10145	10000	100	4	1	É±ËÀ´õÍ½ºó£¬¿É´Ó´õÍ½ÊÖÖÐ¶áµÃÎä¾ß£¬ÏÂÁÐÄÄ¸öËµ·¨ÊÇ´íÎóµÄ	Îä¾ßÄÚÔÌÎåÐÐ£¬ÍþÁ¦Ææ´ó	Îä¾ß¼øÈÏºó·½¿ÉÅä±¸	Îä¾ßÉÏ¿ÉÄÜÓÐ¿×£¬¿ÉÏâÇ¶Ø³Ê¯	Îä¾ßÄÚÔÌÖÜÒ×°ËØÔÉñÊý£¬ÍþÁ¦Ææ´ó
+10146	10000	100	4	1	³õÈë½­ºþ£¬×ÜÐèÒª¸ßÈËÖ¸µãÒ»¶þ£¬³É¶¼³ÇÖÐÓÐÎ»ÀÏÇ°±²ºÜ°®ÌáÐ¯½­ºþºó½ø£¬ËûµÄÃû×Ö½Ð	Ò°ÛÅ	ÖÇÛÅ	ÓÞÛÅ	¹ÖÛÅ
+10147	10000	100	4	1	ÏÂÁÐÄÄÖÖ¾Ù¶¯£¬²»Ðè¶Ô·½Ê×¿Ï¼´¿É½øÐÐ	É±ËÀ¶Ô·½	½»Ò×	Ë«ÈËÆï	Ð¯ÊÖÐÐ½ø
+10148	10000	100	4	1	Óë¶Ô·½½»Ò×Ê±£¬ÐèÒª±ü³ÐÒ»¸öÂÉÌõ£¬¸ÃÂÉÌõÒÑÖÆÎª½ð×ÖïÔÔÚ»áËùµÄÓñØÒÖ®ÉÏ£¬ÊÇÎª½ð¿ÆÓñÂÉ£¬ÕâÂÉÌõÊÇ	³ÏÐÅµÚÒ»	Ê®×ãÕæ½ð	Í¯ÛÅÎÞÆÛ	»õÕæ¼ÛÊµ
+10150	10000	100	4	1	½­ºþÖÐÓÐËÄ±¾¾ø¶¥Éñ¹¦ÃØÆ×£¬µÃÒ»¿É×ÝºáÌìÏÂ£¬ÆäÖÐ¹«ÈÏÅÅÃûµÚÒ»µÄÃØ¼®ÊÇ	¡¶Î÷É½ÃØ¼®¡·	¡¶¾Å½£ÃØ¼®¡·	¡¶¾ÅÒõÕæ¾­¡·	¡¶¾ÅÑôÕæ¾­¡·
+10151	10000	100	4	1	Ì«×æ»ÊµÛÒÔÒ»¸ù±¦¹÷Ò»¶ÔÈ­Í·´òÏÂ´óËÎÈýÇ§Àï½­É½£¬Ëù´´µÄÈ­·¨»ã¾Û³ÉÆ×£¬ÔÚ½ÖÍ·Ñ°³£Îä¹ÝÒ²ÓÐÊÛÂô£¬¸ÃÈ­Æ×ÃûÎª	¡¶³¤È­Æ×¡·	¡¶ÃÍ»ðµ¶·¨¡·	¡¶Ç¬À¤±¦µä¡·	¡¶±±Ú¤±¦µä¡·

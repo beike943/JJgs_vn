@@ -1,106 +1,105 @@
 Name	DetailType	MapId	RevivePosIdx	BeFightState
-Håi phï ( BiÖn Kinh )	1	200	204	0
-Håi phï ( Thµnh §« )	2	300	305	0
-Håi phï ( TuyÒn Ch©u )	3	100	105	0
-Håi phï ( T­¬ng D­¬ng )	4	350	353	0
-Håi phï ( Phông T­êng)	5	500	500	0
-Håi phï ( §¹i Lý)	6	400	400	0
-Håi phï ( T­¬ng D­¬ng)	7	150	155	0
-Håi phï (Vâ §ang )	8	312	312	0
-Håi phï (C¸i Bang)	9	209	209	0
-Håi phï (ThiÕu L©m)	10	204	204	0
-Håi phï (Nga My)	11	303	303	0
-Håi phï (§­êng M«n)	12	305	305	0
-Håi phï (Ngò §éc)	13	407	407	0
-Håi phï (Thiªn Ba D­¬ng Phñ)	14	219	219	0
-Gi¸p M· ( NhÞ Long S¬n)	21	207	207	1
-Gi¸p M· ( KiÕm M«n Quan)	22	310	310	1
-Gi¸p M· ( Miªu LÜnh)	24	408	408	1
-Gi¸p M· ( D­îc V­¬ng Cèc)	25	505	505	1
-Tèng anh hïng lÖnh (s¬)	26	806	806	0
-Tèng anh hïng lÖnh (cao)	27	808	808	0
-Liªu anh hïng lÖnh (s¬)	28	806	807	0
- Liªu anh hïng lÖnh (cao)	29	808	809	0
-Gi¸p M·_H¹nh Hoa th«n	30	202	202	1
-Gi¸p M·_TÇng 1 Ngò §éc mª cung	31	418	418	1
-Gi¸p M·_TÇng 2 Ngò §éc mª cung	32	419	419	1
-Gi¸p M·_D· Tr­ L©m	33	217	217	1
-Gi¸p M·_Long TuyÒn Th«n	34	106	106	1
-Gi¸p M·_Mé TuyÕt S¬n Trang	35	326	326	1
-Gi¸p M·_¤ M«ng Bé	36	327	327	1
-Gi¸p M·_V©n Méng Tr¹ch	37	151	151	1
-Gi¸p M·_Linh B¶o S¬n	38	218	218	1
-Gi¸p M·_Giang T©n Th«n	39	306	306	1
-Gi¸p M·_Vò L¨ng S¬n	40	406	406	1
-Gi¸p M·_Ch©n nói Vò L¨ng	41	405	405	1
-Gi¸p M·_Thanh Khª ®éng	42	111	111	1
-Gi¸p M·_TÇng 1 MËt thÊt ThiÕu L©m	43	213	213	1
-Gi¸p M·_TÇng 2 MËt thÊt ThiÕu L©m	44	214	214	1
-Gi¸p M·_T­êng V©n ®éng	45	216	216	1
-Gi¸p M·_TÇng 1 D­¬ng Trung ®éng	46	210	210	1
-Gi¸p M·_TÇng 2 D­¬ng Trung ®éng	47	211	211	1
-Gi¸p M·_TÇng 3 D­¬ng Trung ®éng	48	212	212	1
-Gi¸p M·_TÇng 1 B¨ng T©m ®éng	49	315	315	1
-Gi¸p M·_TÇng 2 B¨ng T©m ®éng	50	316	316	1
-Gi¸p M·_TÇng 1 Tróc Ty ®éng	51	317	317	1
-Gi¸p M·_TÇng 2 Tróc Ty ®éng	52	318	318	1
-Gi¸p M·_TÇng 1 ThÊt Tinh ®éng	53	324	324	1
-Gi¸p M·_TÇng 2 ThÊt Tinh ®éng	54	325	325	1
-Gi¸p M·_Nh¹n M«n Quan	55	604	604	1
-Gi¸p M·_KiÕm C¸c Thôc §¹o	56	309	309	1
-Gi¸p M·_§iÓm Th­¬ng s¬n	57	401	401	1
-Gi¸p M·_Vò Di s¬n	58	107	107	1
-Gi¸p M·_Phôc Ng­u s¬n	59	311	311	1
-Gi¸p M·_L­¬ng S¬n B¹c	60	208	208	1
-Gi¸p M·_TÇng 1 L­ìng Thñy ®éng	61	112	112	1
-Gi¸p M·_TÇng 2 L­ìng Thñy ®éng	62	113	113	1
-Gi¸p M·_Kim Quang ®éng	63	321	321	1
-Gi¸p M·_Thanh Thµnh s¬n	64	302	302	1
-Gi¸p M·_TÇng 1 Phong Ma ®éng	65	319	319	1
-Gi¸p M·_TÇng 2 Phong Ma ®éng	66	320	320	1
-Gi¸p M·_TÇng 1 YÕn Tö ®éng	67	420	420	1
-Gi¸p M·_TÇng 2 YÕn Tö ®éng	68	421	421	1
-Gi¸p M·_H¾c Phong ®éng	69	215	215	1
-Gi¸p M·_TÇng 1 Long Hæ ®éng	70	322	322	1
-Gi¸p M·_TÇng 2 Long Hæ ®éng	71	323	323	1
-Gi¸p M·_Phông Nh·n ®éng	72	414	414	1
-Gi¸p M·_TÇng 1 B¹ch Thñy ®éng	73	416	416	1
-Gi¸p M·_TÇng 2 B¹ch Thñy ®éng	74	417	417	1
-Gi¸p M·_§«ng H¶i H¶i T©n 1	75	103	103	1
-Gi¸p M·_§«ng H¶i H¶i T©n 2	76	104	104	1
-Gi¸p M·_TÇng 1 Long Nh·n ®éng	77	412	412	1
-Gi¸p M·_TÇng 2 Long Nh·n ®éng	78	413	413	1
-Gi¸p M·_TÇng 1 Thiªn S­ ®éng	79	313	313	1
-Gi¸p M·_TÇng 2 Thiªn S­ ®éng	80	314	314	1
-Gi¸p M·_Phong §«	81	307	307	1
-Gi¸p M·_§¹i Th¶o Nguyªn 1	82	601	601	1
-Gi¸p M·_§¹i Th¶o Nguyªn 2	83	602	602	1
-Gi¸p M·_V­¬ng Kú Bé L¹c	84	600	600	1
-Gi¸p M·_§µo Hoa §¶o	85	102	102	1
-Gi¸p M·_Quû M«n Håi Lang	86	328	328	1
-Gi¸p M·_TÇng 1 Thanh ¢m ®éng	87	109	109	1
-Gi¸p M·_TÇng 2 Thanh ¢m ®éng	88	110	110	1
-Gi¸p M·_T©y Song B¶n N¹p B¾c	89	402	402	1
-Gi¸p M·_T©y Song B¶n N¹p Nam	90	403	403	1
-Gi¸p M·_TÇng 1 Thiªn TÇm th¸p	91	409	409	1
-Gi¸p M·_TÇng 2 Thiªn TÇm th¸p	92	410	410	1
-Thiªn TÇm Th¸p_3_Gi¸p M·	93	411	411	1
-Gi¸p M·_TÇng 1 V­¬ng MÉu ®éng	94	114	114	1
-Gi¸p M·_TÇng 2 V­¬ng MÉu ®éng	95	115	115	1
-Gi¸p M·_TÇng 3 V­¬ng MÉu ®éng	96	116	116	1
-Gi¸p M·_Ph©n Bé S¸t Thñ §­êng	97	318	885	1
-Gi¸p M·_Thiªn S­ BÝ C¶nh	98	329	329	1
-B¾c Phông T­êng	99	504	504	1
-Nam Phông T­êng	100	501	501	1
-Long M«n trÊn	101	507	507	1
-Quang Minh ®Ønh	102	508	508	1
-TÇn L¨ng	103	503	503	1
-Hoµng L¨ng mé thÊt tÇng 1	104	513	513	1
-Hoµng L¨ng mé thÊt tÇng 2	105	514	514	1
-Cæ D­¬ng ®éng_1	106	511	511	1
-Cæ D­¬ng ®éng_2	107	512	512	1
-D­îc V­¬ng cèc	108	505	505	1
-D­îc V­¬ng ®éng	109	510	510	1
-Mª cung sa m¹c	110	506	506	1
-Dao Tiªn ®éng	111	118	118	1
-
+ÍÁµØ·û(ãê¾©¸®)	1	200	204	0
+ÍÁµØ·û£¨³É¶¼¸®£©	2	300	305	0
+ÍÁµØ·û£¨ÈªÖÝ¸®£©	3	100	105	0
+ÍÁµØ·û£¨ÏåÑô¸®£©	4	350	353	0
+ÍÁµØ·û£¨·çÏè¸®£©	5	500	500	0
+ÍÁµØ·û£¨´óÀí¸®£©	6	400	400	0
+ÍÁµØ·û£¨ÑïÖÝ¸®£©	7	150	155	0
+ÍÁµØ·û£¨Îäµ±£©	8	312	312	0
+ÍÁµØ·û£¨Ø¤°ï£©	9	209	209	0
+ÍÁµØ·û£¨ÉÙÁÖ£©	10	204	204	0
+ÍÁµØ·û£¨¶ëáÒ£©	11	303	303	0
+ÍÁµØ·û£¨ÌÆÃÅ£©	12	305	305	0
+ÍÁµØ·û£¨Îå¶¾£©	13	407	407	0
+ÍÁµØ·û£¨Ìì²¨Ñî¸®£©	14	219	219	0
+¼×Âí£¨¶þÁúÉ½£©	21	207	207	1
+¼×Âí£¨½£ÃÅ¹Ø£©	22	310	310	1
+¼×Âí£¨ÃçÁë£©	24	408	408	1
+¼×Âí£¨Ò©Íõ¹È£©	25	505	505	1
+´óËÎÓ¢ÐÛÁî£¨³õ¼¶£©	26	806	806	0
+´óËÎÓ¢ÐÛÁî£¨¸ß¼¶£©	27	808	808	0
+´óÁÉÓ¢ÐÛÁî£¨³õ¼¶£©	28	806	807	0
+´óÁÉÓ¢ÐÛÁî£¨¸ß¼¶£©	29	808	809	0
+ÐÓ»¨´å¼×Âí	30	202	202	1
+ÈëÃÅÃÔ¹¬Ò»²ã¼×Âí	31	418	418	1
+ÈëÃÅÃÔ¹¬¶þ²ã¼×Âí	32	419	419	1
+Ò°ÖíÁÖ¼×Âí	33	217	217	1
+ÁúÈª´å¼×Âí	34	106	106	1
+ÄºÑ©É½×¯¼×Âí	35	326	326	1
+ÎÚÃÉ²¿¼×Âí	36	327	327	1
+ÔÆÃÎÔó¼×Âí	37	151	151	1
+Áé±¦É½¼×Âí	38	218	218	1
+½­½ò´å¼×Âí	39	306	306	1
+ÎäÁêÉ½¼×Âí	40	406	406	1
+ÎäÁêÉ½½Å¼×Âí	41	405	405	1
+ÇåÏª¶´¼×Âí	42	111	111	1
+ÉÙÁÖÃÜÊÒÒ»²ã¼×Âí	43	213	213	1
+ÉÙÁÖÃÜÊÒ¶þ²ã¼×Âí	44	214	214	1
+ÏéÔÆ¶´¼×Âí	45	216	216	1
+ÑôÖÐ¶´Ò»²ã¼×Âí	46	210	210	1
+ÑôÖÐ¶´¶þ²ã¼×Âí	47	211	211	1
+ÑôÖÐ¶´Èý²ã¼×Âí	48	212	212	1
+±ùÐÄ¶´Ò»²ã¼×Âí	49	315	315	1
+±ùÐÄ¶´¶þ²ã¼×Âí	50	316	316	1
+ÖñË¿¶´Ò»²ã¼×Âí	51	317	317	1
+ÖñË¿¶´¶þ²ã¼×Âí	52	318	318	1
+ÆßÐÇ¶´Ò»²ã¼×Âí	53	324	324	1
+ÆßÐÇ¶´¶þ²ã¼×Âí	54	325	325	1
+ÑãÃÅ¹Ø¼×Âí	55	604	604	1
+½£¸óÊñµÀ¼×Âí	56	309	309	1
+µã²ÔÉ½¼×Âí	57	401	401	1
+ÎäÒÄÉ½¼×Âí	58	107	107	1
+·üÅ£É½¼×Âí	59	311	311	1
+ÁºÉ½²´¼×Âí	60	208	208	1
+Á½Ë®¶´Ò»²ã¼×Âí	61	112	112	1
+Á½Ë®¶´¶þ²ã¼×Âí	62	113	113	1
+½ð¹â¶´¼×Âí	63	321	321	1
+Çà³ÇÉ½¼×Âí	64	302	302	1
+·âÄ§¶´Ò»²ã¼×Âí	65	319	319	1
+·âÄ§¶´¶þ²ã¼×Âí	66	320	320	1
+Ñà×Ó¶´Ò»²ã¼×Âí	67	420	420	1
+Ñà×Ó¶´¶þ²ã¼×Âí	68	421	421	1
+ºÚ·ç¶´¼×Âí	69	215	215	1
+Áú»¢¶´Ò»²ã¼×Âí	70	322	322	1
+Áú»¢¶´¶þ²ã¼×Âí	71	323	323	1
+·ïÑÛ¶´¼×Âí	72	414	414	1
+°×Ë®¶´Ò»²ã¼×Âí	73	416	416	1
+°×Ë®¶´¶þ²ã¼×Âí	74	417	417	1
+¶«º£º£±õÒ»¼×Âí	75	103	103	1
+¶«º£º£±õ¶þ¼×Âí	76	104	104	1
+ÁúÑÛ¶´Ò»²ã¼×Âí	77	412	412	1
+ÁúÑÛ¶´¶þ²ã¼×Âí	78	413	413	1
+ÌìÊ¦¶´Ò»²ã¼×Âí	79	313	313	1
+ÌìÊ¦¶´¶þ²ã¼×Âí	80	314	314	1
+·á¶¼¼×Âí	81	307	307	1
+´ó²ÝÔ­Ò»¼×Âí	82	601	601	1
+´ó²ÝÔ­¶þ¼×Âí	83	602	602	1
+ÍõÆì²¿Âä¼×Âí	84	600	600	1
+ÌÒ»¨µº¼×Âí	85	102	102	1
+¹íÃÅ»ØÀÈ¼×Âí	86	328	328	1
+ÇåÒô¶´Ò»²ã¼×Âí	87	109	109	1
+ÇåÒô¶´¶þ²ã¼×Âí	88	110	110	1
+Î÷Ë«°æÄÉ±±¼×Âí	89	402	402	1
+Î÷Ë«°æÄÉÄÏ¼×Âí	90	403	403	1
+Ç§Ñ°ËþÒ»²ã¼×Âí	91	409	409	1
+Ç§Ñ°Ëþ¶þ²ã¼×Âí	92	410	410	1
+Ç§Ñ°ËþÈý²ã¼×Âí	93	411	411	1
+ÍõÄ¸¶´Ò»²ã¼×Âí	94	114	114	1
+ÍõÄ¸¶´¶þ²ã¼×Âí	95	115	115	1
+ÍõÄ¸¶´Èý²ã¼×Âí	96	116	116	1
+É±ÊÖÌÃ·Ö²¿¼×Âí	97	318	885	1
+ÌìÊ¦ÃØ¾³¼×Âí	98	329	329	1
+·ïÏè¸®±±	99	504	504	1
+·ïÏè¸®ÄÏ	100	501	501	1
+ÁúÃÅÕò	101	507	507	1
+¹âÃ÷¶¥	102	508	508	1
+ÇØÊ¼»ÊÁê	103	503	503	1
+»ÊÁêÄ¹ÊÒÒ»²ã	104	513	513	1
+»ÊÁêÄ¹ÊÒ¶þ²ã	105	514	514	1
+¹ÅÑô¶´Ò»²ã	106	511	511	1
+¹ÅÑô¶´¶þ²ã	107	512	512	1
+Ò©Íõ¹È	108	505	505	1
+Ò©Íõ¶´	109	510	510	1
+É³Ä®ÃÔ¹¬	110	506	506	1
+Ò£ÏÉ¶´	111	118	118	1

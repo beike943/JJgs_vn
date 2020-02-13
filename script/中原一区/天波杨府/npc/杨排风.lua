@@ -8,13 +8,13 @@
 -- ======================================================
 
 function main()
-	Say("VŞ huynh ®Ö nµy t×m ta cã viÖc g× kh«ng?",
+	Say("´óÏÀ£¬ÓĞÊ²Ã´ÊÂ?",
 		5,
-		"Ta muèn mua mét sè vËt dông./PutongBuy",
-		"Ta nghe nãi s­ m«n cã 1 bé thÇn binh b¶o gi¸p giµnh cho t©n thñ? H·y cho ta xem!/ChujitaoBuy",
-		"Ta nghe nãi s­ m«n cã 1 bé thÇn binh b¶o gi¸p giµnh cho vâ l©m cao thñ? H·y cho ta xem!/ZhongtaoBuy",
-		"Ta nghe nãi s­ m«n cã 1 bé thÇn binh b¶o gi¸p giµnh cho tuyÖt thÕ cao thñ? H·y cho ta xem!/GaotaoBuy",
-		"Rêi khái./cancel")
+		"ÎÒÏëÂòĞ©¶«Î÷/PutongBuy",
+		"¹ºÂò³õ¼¶Ê¦ÃÅÌ××°/ChujitaoBuy",
+		"¹ºÂòÖĞ¼¶Ê¦ÃÅÌ××°/ZhongtaoBuy",
+		"¹ºÂò¸ß¼¶Ì××°/GaotaoBuy",
+		"ÎÒÖ»ÊÇÀ´¿´¿´/cancel")
 end
 
 function cancel()
@@ -26,7 +26,7 @@ end
 
 function ChujitaoBuy()
 	if GetPlayerFaction() ~= 6 then
-		Say("Ng­¬i kh«ng ph¶i lµ ®Ö tö cña D­¬ng M«n sao l¹i mua vËt phÈm bİ truyÒn cña bæn m«n?",0)
+		Say("Äã²»ÊÇ±¾ÃÅµÜ×Ó",0)
 	return
 else
    Sale(81)
@@ -34,7 +34,7 @@ end
 end
 function ZhongtaoBuy()
 	if GetPlayerFaction() ~= 6 then
-		Say("Ng­¬i kh«ng ph¶i lµ ®Ö tö cña D­¬ng M«n sao l¹i mua vËt phÈm bİ truyÒn cña bæn m«n?",0)
+		Say("Äã²»ÊÇ±¾ÃÅµÜ×Ó",0)
 	return
 else
    Sale(82)
@@ -42,7 +42,7 @@ end
 end
 function GaotaoBuy()
 	if GetPlayerFaction() ~= 6 then
-		Say("Ng­¬i kh«ng ph¶i lµ ®Ö tö cña D­¬ng M«n sao l¹i mua vËt phÈm bİ truyÒn cña bæn m«n?",0)
+		Say("Äã²»ÊÇ±¾ÃÅµÜ×Ó",0)
 	return
 else
    Sale(83)
@@ -50,7 +50,7 @@ end
 end
 function ChenghaoBuy()
 	if GetPlayerFaction() ~= 6 then
-		Say("Ng­¬i kh«ng ph¶i ®Ö tö D­¬ng M«n, d¸m lõa g¹t ta µ?",0)
+		Say("Äã²»ÊÇ±¾ÃÅµÜ×Ó£¬¾¹¸ÒÆ­ÎÒ?",0)
 	return
 else
    Sale(64)
