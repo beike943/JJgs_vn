@@ -13,10 +13,10 @@ Include("\\script\\task\\faction\\faction_head.lua");
 function task_001()
 
 local strMain = {
-		"Phµm lµ ®Ö tö Vâ §ang ph¶i häc thuéc §¹o §øc Kinh, hiÓu ®­îc ngô ı, sau ®ã b¸i tÕ lŞch ®¹i Tæ s­ míi cã thÓ nhËp m«n. Ng­¬i cã thÓ ®Õn Vâ §ang hËu viÖn t×m <color=yellow>Tr­¬ng Ngä D­¬ng<color> hái râ."
+		"Òª³ÉÎªÊÇÎäµ±µÄµÜ×Ó£¬²»µÃ²»±³ËĞ¡¶µÀµÂ¾­¡·£¬ÁË½âÆäº¬Òå£¬È»ºó³ç°İ´óÊ¦µÄÈÕ³Ì£¬ÒÔ±ãÄÜ¹»¿ªÊ¼´´ÊÀ¡£ Äú¿ÉÒÔÕÒ<color=yellow>ÕÅÎçÑô<color> ÁË½âÏÂ?"
 	}
 
-TaskTip("Tö H¹c Ch©n Nh©n b¶o b¹n ®i gÆp Tr­¬ng Ngä D­¬ng xin nhËp m«n!");
+TaskTip("×ÏÑôÕæÈË¸æËßÄúÓëÕÅÎçÑô¼ûÃæ¿ªÊ¼ÈÎÎñ!");
 TE_Talk(getn(strMain), "task_002", strMain);
 
 end
@@ -34,10 +34,10 @@ end
 function task_003()
 
 local strMain = {
-		"§¹o §øc Kinh do L·o Tö viÕt, chia lµm quyÓn th­îng vµ quyÓn h¹. QuyÓn th­îng cã 37 ch­¬ng, quyÓn h¹ cã 44 ch­¬ng. Mang néi dung tinh th©m vµ lµ chi b¶o cña §¹o gia. Phµm lµ ®Ö tö Vâ §ang, tr­íc khi nhËp m«n ph¶i <color=yellow>häc thuéc §¹o §øc Kinh<color> vµ hiÓu ®­îc ı nghÜa. Ng­¬i cã muèn thö kh«ng?",
-		"§Ó ta häc thuéc §¹o §øc kinh tr­íc/task_003_read",
-		"§Ó ta ®äc thuéc §¹o §øc kinh/task_003_next",
-		"Ta cßn viÖc ph¶i lµm/task_exit"
+		"¡¶µÀµÂ¾­¡·ÊÇÀÏ×ÓĞ´µÄ£¬·ÖÎªÉÏÏÂÁ½²á¡£ÉÏ¾í¹²37ÕÂ£¬ÏÂ¾í¹²44ÕÂ£¬ÄÚÈİÉî¿Ì£¬ÊÇµÀ½ÌµÄÖ¸Ê¾¡£ÔÚ³ÉÎªÎäµ±µÜ×ÓÖ®Ç° £¬Äú±ØĞë²¢Àí½âÆäº¬Òå¡£ÊÇ·ñÒª³¢ÊÔ£¿",
+		"ÎÒÏÈ¼ÇÏÂµÀµÂ¾­/task_003_read",
+		"¿ªÊ¼±³ËĞ/task_003_next",
+		"ÎÒ»¹ÓĞÆäËûÊÂÇé/task_exit"
 	}
 
 Say(strMain[1],3,strMain[2],strMain[3],strMain[4]);
@@ -49,13 +49,13 @@ end
 function task_003_read()
 
 local strMain = {
-		"§¹o Kh¶ §¹o, Phi Th­êng §¹o. Danh Kh¶ Danh, Phi Th­êng Danh. V« Danh Thiªn §Şa Chi Khëi. H÷u Danh V¹n VËt Chi MÉu. Cè Th­êng V« Dôc DÜ Quan Kú DiÖu.",
-		"Th­êng H÷u Dôc DÜ Quan Kú DiÖu. Thö L­ìng Gi¶ §ång XuÊt Nhi DŞ Danh. §ång VŞ Chi HuyÒn. HuyÒn Chi Hùu HuyÒn, Chóng DiÖu Chi M«n.",
-		"Cèc ThÇn BÊt Tö ThŞ VŞ HuyÒn T½n. HuyÒn T½n Chi M«n ThŞ VŞ Thiªn §Şa C¨n. Miªn Miªn Nh­îc Tån, Dông Chi BÊt CÇn.",
-		"Th­îng ThiÖn Nh­îc Thñy. Thñy ThiÖn Lîi V¹n VËt Nhi BÊt Tranh, Xö Chóng Nh©n Chi Së ¸c, Cè C¬ ¤ §¹o. C­ ThiÖn §Şa, T©m ThiÖn Uyªn D­ ThiÖn Nh©n, Ng«n ThiÖn Tİn, Chİnh ThiÖn TrŞ, Sù ThiÖn N¨ng, §éng ThiÖn Thêi. Phu Duy BÊt Tranh, Cè V« V­u.",
-		"§¹i Thµnh Nh­îc KhuyÕt, Kú Dông BÊt TÖ. §¹i Doanh Nh­îc Xung, Kú Dông BÊt Cïng. §¹i Trùc Nh­îc KhuÊt. §¹i X¶o Nh­îc ChuyÕt. §¹i BiÖn Nh­îc Nét. TŞnh Th¾ng T¸o. Thanh TŞnh Vi Thiªn H¹ Ch¸nh.",
-		"H÷u VËt Hçn Thµnh tiªn thiªn ®Şa sanh. TŞch HÒ Liªu HÒ §éc LËp BÊt C¶i, Chu Hµnh Nhi BÊt §·i, Kh¶ DÜ Vi Thiªn H¹ MÉu. Ng« BÊt Tri Kú Danh, C­êng Tù Chi ViÕt §¹o. C­êng Vi Chi Danh ViÕt §¹i. §¹i ViÕt ThÖ, ThÖ ViÕt ViÔn, ViÔn ViÕt Ph¶n.",
-		"Cè §¹o §¹i, Thiªn §¹i, §Şa §¹i, Nh©n DiÖc §¹i. Vùc Trung H÷u §¹i, Nhi Nh©n C­ Kú NhÊt Yªn. Nh©n Ph¸p §Şa, §Şa Ph¸p Thiªn, Thiªn Ph¸p §¹o, §¹o Ph¸p Tù Nhiªn."
+		"§¹o Kh?§¹o, Phi Th­êng §¹o. Danh Kh?Danh, Phi Th­êng Danh. V?Danh Thiªn §Şa Chi Khëi. H÷u Danh V¹n VËt Chi MÉu. C?Th­êng V?Dôc D?Quan K?DiÖu.",
+		"Th­êng H÷u Dôc D?Quan K?DiÖu. Th?L­ìng Gi?§ång XuÊt Nhi D?Danh. §ång V?Chi HuyÒn. HuyÒn Chi Hùu HuyÒn, Chóng DiÖu Chi M«n.",
+		"Cèc ThÇn BÊt T?Th?V?HuyÒn T½n. HuyÒn T½n Chi M«n Th?V?Thiªn §Şa C¨n. Miªn Miªn Nh­îc Tån, Dông Chi BÊt CÇn.",
+		"Th­îng ThiÖn Nh­îc Thñy. Thñy ThiÖn Lîi V¹n VËt Nhi BÊt Tranh, X?Chóng Nh©n Chi S?¸c, C?C??§¹o. C?ThiÖn §Şa, T©m ThiÖn Uyªn D?ThiÖn Nh©n, Ng«n ThiÖn Tİn, Chİnh ThiÖn Tr? S?ThiÖn N¨ng, §éng ThiÖn Thêi. Phu Duy BÊt Tranh, C?V?V­u.",
+		"§¹i Thµnh Nh­îc KhuyÕt, K?Dông BÊt T? §¹i Doanh Nh­îc Xung, K?Dông BÊt Cïng. §¹i Trùc Nh­îc KhuÊt. §¹i X¶o Nh­îc ChuyÕt. §¹i BiÖn Nh­îc Nét. TŞnh Th¾ng T¸o. Thanh TŞnh Vi Thiªn H?Ch¸nh.",
+		"H÷u VËt Hçn Thµnh tiªn thiªn ®Şa sanh. TŞch H?Liªu H?§éc LËp BÊt C¶i, Chu Hµnh Nhi BÊt §·i, Kh?D?Vi Thiªn H?MÉu. Ng?BÊt Tri K?Danh, C­êng T?Chi ViÕt §¹o. C­êng Vi Chi Danh ViÕt §¹i. §¹i ViÕt Th? Th?ViÕt ViÔn, ViÔn ViÕt Ph¶n.",
+		"C?§¹o §¹i, Thiªn §¹i, §Şa §¹i, Nh©n DiÖc §¹i. Vùc Trung H÷u §¹i, Nhi Nh©n C?K?NhÊt Yªn. Nh©n Ph¸p §Şa, §Şa Ph¸p Thiªn, Thiªn Ph¸p §¹o, §¹o Ph¸p T?Nhiªn."
 	}
 	
 TE_Talk(getn(strMain), "task_003", strMain);
@@ -70,10 +70,10 @@ end
 function task_003_next()
 
 local strMain = {
-		"C©u ®Çu tiªn cña §¹o §øc Kinh lµ g×?",
-		"§¹o Sinh NhÊt, NhÊt Sinh NhŞ, NhŞ Sinh Tam, Tam Sinh V¹n VËt/task_error",
-		"Nh©n Ph¸p §Şa, §Şa Ph¸p Thiªn, Thiªn Ph¸p §¹o, §¹o Ph¸p Tù Nhiªn/task_error",
-		"§¹o Kh¶ §¹o, Phi Th­êng §¹o, Danh Kh¶ Danh, Phi Th­êng Danh/task_004_next"
+		"¡¶µÀµÂ¾­¡·µÄµÚÒ»¾ä»°ÊÇÊ²Ã´£¿",
+		"§¹o Sinh NhÊt, NhÊt Sinh Nh? Nh?Sinh Tam, Tam Sinh V¹n VËt/task_error",
+		"Nh©n Ph¸p §Şa, §Şa Ph¸p Thiªn, Thiªn Ph¸p §¹o, §¹o Ph¸p T?Nhiªn/task_error",
+		"µÀ·ÇµÀ£¬·Ç³£µÀ£¬Ãû·ÇÃû£¬·Ç³£Ãû/task_004_next"
 	}
 
 Say(strMain[1],3,strMain[2],strMain[3],strMain[4]);
@@ -83,9 +83,9 @@ end
 function task_004_next()
 
 local strMain = {
-		"Cèc thÇn bÊt tö x­ng lµ:",
-		"HuyÒn Vò/task_error",
-		"HuyÒn T½n/task_005_next",
+		"ÄÇ±­²»ĞàµÄ×ÔÎÒĞû³Æ?",
+		"HuyÒn V?task_error",
+		"Ğş/task_005_next",
 		"Hùu HuyÒn/task_error"
 	}
 
@@ -96,12 +96,12 @@ end
 function task_005_next()
 
 local strMain = {
-		"Th­îng ThiÖn Nh­îc?",
+		"Í¨Ìì?",
 		" Kim /task_error",
 		"Méc/task_error",
-		"Thñy/task_006_next",
+		"¹¯/task_006_next",
 		"Háa/task_error",
-		"Thæ/task_error"
+		"Th?task_error"
 	}
 
 Say(strMain[1],5,strMain[2],strMain[3],strMain[4],strMain[5],strMain[6]);
@@ -111,11 +111,11 @@ end
 function task_006_next()
 
 local strMain = {
-		"C¸i g× lµ vi thiªn h¹ chİnh?",
-		"V« vi/task_error",
+		"Ö÷ÒªµÄÎ¢ĞÍĞÇÏµÊÇÊ²Ã´£¿",
+		"V?vi/task_error",
 		"Sung Doanh/task_error",
 		"KhuÊt ChuyÕt/task_error",
-		"Thanh TŞnh/task_007_next"
+		"ÇåÍ¢/task_007_next"
 	}
 
 Say(strMain[1],4,strMain[2],strMain[3],strMain[4],strMain[5]);
@@ -125,11 +125,11 @@ end
 function task_007_next()
 
 local strMain = {
-		"Nh©n Ph¸p §Şa, §Şa Ph¸p Thiªn, Thiªn Ph¸p §¹o, §¹o Ph¸p?",
-		"Tù nhiªn/task_008",
+		"ÍÁµØ·¨£¬·ğ·¨¾°¹Û£¬·ğ·¨¾°¹Û£¬·ğ·¨Ö®Â·£¿",
+		"×ÔÈ»/task_008",
 		"¢m d­¬ng/task_error",
-		"V« vi/task_error",
-		"H­ thùc/task_error"
+		"V?vi/task_error",
+		"H?thùc/task_error"
 	}
 
 Say(strMain[1],4,strMain[2],strMain[3],strMain[4],strMain[5]);
@@ -141,9 +141,9 @@ function task_008()
 
 	SetTask(1002,2);
 	
-	Say("Trong thêi gian ng¾n ®· häc thuéc §¹o §øc kinh, xem ra t­ chÊt ng­¬i còng kh¸. H·y t×m <color=yellow>1 thanh HiÖp ThiÕu KiÕm<color> vµ <color=yellow>1 b×nh Thiªu töu<color> vÒ ®Ó ta b¸i tÕ Tæ s­. HiÖp ThiÕu KiÕm cã thÓ mua ë Th­¬ng ®iÕm, Thiªu töu th× ®¸nh L­u Manh ngoµi rõng ®Ó lÊy, ng­¬i cÇn g× cã thÓ t×m <color=green>Minh NguyÖt §¹o §ång (218, 208)<color>.",0);
+	Say("ÔÚºÜ¶ÌµÄÊ±¼äÄÚ¾Í¼Ç×¡ÁË¡¶µÀµÂ¾­¡·£¬¿´À´ÄãÒ²ºÜ²»´í¡£Ñ°ÕÒ<color = yellow> 1 Æ¿¾Æ <color> ºÍ <color = yellow> 1 °ÑÏÀÉÙ½£<color> £¨½£ÔÚÉÌµêÂò£¬¾ÆÔÚÁ÷Ã¥ÉíÉÏ£©",0);
 	
-	TaskTip("H·y ®i t×m 1 thanh HiÖp ThiÕu KiÕm vµ 1 b×nh Thiªu töu ®Ó b¸i s­!");
+	TaskTip("È¥ÕÒ1°ÑÏÀÉÙ½£ºÍ1Æ¿¾Æ£¡");
 	
 end
 
@@ -151,19 +151,19 @@ end
 function task_009()
 
 local strMain = {
-		"KhÈu n¹p thuÇn d­¬ng khİ, th©n luyÖn tö kim ®¬n!",
-		"§· b¸i Tæ s­! Cã thÓ quay vÒ gÆp <color=yellow>Ch­ëng m«n<color>."
+		"´¿ÕıµÄ½øÆø¿Ú£¬µ¥¸öÒ±½ğÌå£¡",
+		"§· b¸i T?s? C?th?quay v?gÆp <color=yellow>Ch­ëng m«n<color>."
 	}
 
 	if (GetItemCount(0,2,14)>=1) and (GetItemCount(2,1,12)>=1) then
 	
 		TE_Talk(getn(strMain), "task_010", strMain);
 		
-		TaskTip("B¹n ®· b¸i s­, cã thÓ quay vÒ t×m Ch­ëng m«n!");
+		TaskTip("ÄúÒÑÍê³É¿¼Ñé£¬¿ÉÒÔ·µ»ØÒÔÕÒµ½×ÏÑôÕæÈË£¡");
 		
 	else
 	
-		Say("HiÖp ThiÕu KiÕm cã thÓ mua ë Th­¬ng ®iÕm, Thiªu töu th× ®¸nh L­u Manh ngoµi rõng ®Ó lÊy.",0);
+		Say("¸Ï½ô¾ÍÕÒ£¡",0);
 	
 	end
 	
@@ -185,7 +185,7 @@ end
 function task_011()
 
 local strMain = {
-		"BÇn ®¹o sÏ nhËn ng­¬i lµm ®Ö tö ®êi thø 4 cña Vâ §ang. Sau nµy ph¶i tu©n thñ m«n quy, cè g¾ng luyÖn vâ, ®õng phô sù kú väng cña ta."
+		"×Ú½Ì½«½ÓÊÜÄú×÷ÎªÎäµ±µÄµÚËÄµÜ×Ó¡£ ½«À´£¬Äú±ØĞë×ñÊØ¹æÔò£¬³¢ÊÔÁ·Ï°ÎäÊõ£¬²»Òª±³ÅÑÎÒÃÇµÄÆÚÍû¡£"
 	}
 	
 TE_Talk(getn(strMain), "task_012", strMain);
@@ -216,7 +216,7 @@ function task_012()
 	end
 	ModifyReputation(10,0);
 	--AddGlobalNews("½­ºş´«ÑÔÍæ¼Ò"..GetName().."ÒÑÓÚ½üÈÕ¼ÓÈëÎäµ±£¡")
-	TaskTip("B¹n ®· gia nhËp Vâ §ang, cã thÓ b¸i s­ häc nghÖ!")
+	TaskTip("ÄúÒÑ¾­¼ÓÈëÁËÎäµ±£¡")
 	
 	-- Çå¿ÕÆäËüÃÅÅÉÈÎÎñµÄ×´Ì¬
 	FN_SetTaskState(FN_SL, 0);
@@ -234,12 +234,12 @@ end;
 
 function task_error()
 
-	Say("B»ng h÷u ch­a thuéc §¹o §øc Kinh, häc thuéc råi h·y quay l¹i!",0);
+	Say("ÅóÓÑ²»ÊôÓÚµÀµÂ¾­£¬±³ËĞ²¢»ØÀ´£¡",0);
 
 end
 
 
 function fix_wd()
 FN_SetTaskState(FN_WD, 0);
-Say("Cã chót vÊn ®Ò x¶y ra nh­ng ®· ®­îc gi¶i quyÕt! Ng­¬i cã thÓ gia nhËp m«n ph¸i l¹i.",0);
+Say("·¢ÉúÁËÒ»Ğ©Ğ¡ÎÊÌâ£¬µ«ÒÑ½â¾ö£¡ Äú¿ÉÒÔÔÙ´Î¼ÓÈëÊÏ×å¡£",0);
 end;
