@@ -1,19 +1,19 @@
 function main()
 	if (GetSex()==2 and GetPlayerFaction() == 6) then
-		Say("TiÓu c« n­¬ng, muèn ra ngoµi kh«ng?",2,"Lµm phiÒn qu¶n gia qu¸/outyangmen","Ta ®Õn th¨m l·o qu¶n gia th«i mµ!/no")
+		Say("Ğ¡¹ÃÄï, ÊÇÒª³öÈ¥Âğ?",2,"àÅ£¬Âé·³Ñî¹Ü¼ÒÁË/outyangmen","²»ÓÃ£¬ÎÒÊÇÀ´¿´¿´Ñî¹Ü¼Ò!/no")
 	elseif	(GetSex()==2 and GetPlayerFaction() ~= 6) then
-		Say("TiÓu c« n­¬ng, muèn ra ngoµi kh«ng?",2,"Lµm phiÒn qu¶n gia qu¸/outyangmen","Ta ®Õn th¨m D­¬ng qu¶n gia th«i mµ!/no")
+		Say("Ğ¡¹ÃÄï, ÊÇÒª³öÈ¥Âğ?",2,"àÅ£¬Âé·³Ñî¹Ü¼ÒÁË/outyangmen","²»ÓÃ£¬ÎÒÊÇÀ´¿´¿´Ñî¹Ü¼Ò!/no")
 	elseif	(GetSex()~=2 and GetPlayerFaction() == 6) then
-		Say("TiÓu huynh ®Ö, cã muèn ra ngoµi kh«ng?",2,"Lµm phiÒn qu¶n gia qu¸/outyangmen","Ta ®Õn th¨m l·o qu¶n gia th«i mµ!/no")
+		Say("Ğ¡ĞÖµÜ, ÊÇÒª³öÈ¥Âğ?",2,"àÅ£¬Âé·³Ñî¹Ü¼ÒÁË/outyangmen","²»ÓÃ£¬ÎÒÊÇÀ´¿´¿´Ñî¹Ü¼Ò!/no")
 	else
-		Say("TiÓu huynh ®Ö, cã muèn ra ngoµi kh«ng?",2,"Lµm phiÒn qu¶n gia qu¸/outyangmen","Ta ®Õn th¨m D­¬ng qu¶n gia th«i mµ!/no")
+		Say("Ğ¡ĞÖµÜ, ÊÇÒª³öÈ¥Âğ?",2,"àÅ£¬Âé·³Ñî¹Ü¼ÒÁË/outyangmen","²»ÓÃ£¬ÎÒÊÇÀ´¿´¿´Ñî¹Ü¼Ò!/no")
 	end
 end;
 
 
 function outyangmen()
 	if(GetPKValue() >3 ) then
-		Msg2Player("Ng­êi lµm viÖc ¸c cÊm ra vµo th«n trÊn.")	
+		Msg2Player("¶ñÈË²»µÃ³öÈëÌì²¨Ñî¸®.")	
 	else
     		SetFightState(0)
 		i=random(1,4)
