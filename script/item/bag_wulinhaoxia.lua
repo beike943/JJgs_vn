@@ -1,4 +1,4 @@
---ÎäÁÖºÀÏÀÀñ°ü
+--æ­¦æ—è±ªä¾ ç¤¼åŒ…
 Include("\\script\\item\\bag_wulin.lua")
 
 --nothing
