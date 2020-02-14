@@ -1,4 +1,4 @@
---ÎäÁÖÀñ°ü
+--æ­¦æ—ç¤¼åŒ…
 Include("\\script\\lib\\globalfunctions.lua")
 --Include("\\settings\\static_script\\vip_feedback_system\\yinjuan_api.lua")
 
@@ -29,8 +29,8 @@ T_HAOXIAO_IB = {
 	szConsume = "csm_2_tianjiaoling",
 }
 T_BOX={
-	[200130575] = {T_WULING_FREE, T_WULING_IB,},--ÎäÁÖÀñ°ü
-	[200130576] = {T_HAOXIA_FREE, T_HAOXIAO_IB},----ÎäÁÖºÀÏÀÀñ°ü
+	[200130575] = {T_WULING_FREE, T_WULING_IB,},--æ­¦æ—ç¤¼åŒ…
+	[200130576] = {T_HAOXIA_FREE, T_HAOXIAO_IB},----æ­¦æ—è±ªä¾ ç¤¼åŒ…
 }
 
 function OnUse(nItemIndex)
@@ -45,11 +45,11 @@ function onUse_Confirm(nItemIndex, bConfirm)
 	local tCfg = T_BOX[ID]
 	if tCfg then
 		if getn(tCfg) > 1 then
-			Say(format("[%s] cã %d c¸ch më.",GetItemName(nItemIndex),getn(tCfg)),
+			Say(format("[%s]æœ‰%dä»€ä¹ˆåŠæ³•ï¼Ÿ",GetItemName(nItemIndex),getn(tCfg)),
 				3,
-				format("\nMë miÔn phİ/#onUse_Real(%d,%d,%d)", nItemIndex, 1, 0),
-				format("\nDïng ®¹o cô më/#onUse_Real(%d,%d,%d)", nItemIndex, 2, 0),
-				"\nBá qua/nothing");
+				format("\nå…è´¹/#onUse_Real(%d,%d,%d)", nItemIndex, 1, 0),
+				format("\næ‰“å¼€/#onUse_Real(%d,%d,%d)", nItemIndex, 2, 0),
+				"\nè·³è¿‡/nothing");
 			return
 		elseif getn(tCfg) == 1 then
 			onUse_Real(nItemIndex, 1, 0)
@@ -66,15 +66,15 @@ function onUse_Real(nItemIndex, nOpenIndex, bConfirm)
 		local szConsume = tCfg[nOpenIndex].szConsume
 		if szConsume and 1~= bConfirm then
 			local szConsumeDesc = CustomAwardGroupDesc(szConsume)
-			Say(format("Më [%s] cÇn <color=yellow>[%s]<color>, ®ång ı më kh«ng?",GetItemName(nItemIndex), szConsumeDesc),
+			Say(format("åŒ[%s]æ„<color=yellow>[%s]<color>,æ‰“å¼€å—ï¼Ÿ",GetItemName(nItemIndex), szConsumeDesc),
 			2,
-			format("\n x¸c nhËn më/#onUse_Real(%d,%d,%d)", nItemIndex, nOpenIndex, 1),
-			"\nBá qua/nothing");
+			format("\nç¡®è®¤æ‰“å¼€/#onUse_Real(%d,%d,%d)", nItemIndex, nOpenIndex, 1),
+			"\nè·³è¿‡/nothing");
 			return
 		end
 		local szFunc = format("onInputNumCallBack_%d_%d",ID, nOpenIndex)
 		local nMax = GetItemCount(nG,nD,nP)
-		AskClientForNumber(szFunc, 1, nMax, "Muèn më mÊy c¸i?")
+		AskClientForNumber(szFunc, 1, nMax, "ä½ æƒ³å¼€å¤šå°‘ä¸ª?")
 	end
 end
 
