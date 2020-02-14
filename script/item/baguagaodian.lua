@@ -1,118 +1,118 @@
---¡¶°ËØÔ±¦µä¡·½Å±¾
+--ã€Šå…«å¦å®å…¸ã€‹è„šæœ¬
 --by vivi
 --08/10/2007
 
 Include("\\script\\task\\lingshi_task.lua")
 
---Ì××°ÒÂ·ştable
+--å¥—è£…è¡£æœtable
 tTaoZhuang = {
-	{"Ng­êi m¹nh","Kh«n","Kh¶m","§oµi","Ly","T¨ng Søc m¹nh vµ G©n cèt","80 trë xuèng"},                                 
-	{"Tèc Kİch","Kh¶m","§oµi","Ly","CÊn","T¨ngSøc m¹nh vµ Th©n ph¸p","80 trë xuèng"},                                 
-	{"KiÕm khİ","§oµi","Ly","CÊn","Cµn","T¨ng Néi c«ng vµ linh ho¹t","80 trë xuèng"},                                 
-	{"§éng ph¸","Ly","CÊn","Cµn","Kh«n","T¨ng linh ho¹t vµ lùc l­îng","80 trë xuèng"},                                 
-	{"Thİch kh¸ch","CÊn","Cµn","Kh«n","Kh¶m","T¨ng th©n ph¸p vµ linh ho¹t","80 trë xuèng"},                                 
-	{"Phong Tèc","Ly","§oµi","Kh¶m","CÊn","T¨ng Néi c«ng vµ Th©n ph¸p","80 trë xuèng"},
-	{"Phôc Long","Cµn","Kh«n","Kh¶m","§oµi","T¨ng Néi c«ng vµ G©n cèt","80 trë xuèng"},                                 
-	{"HuyÒn Kh©u","ChÊn","Cµn","CÊn","Ly","T¨ng phßng ngù vµ c«ng kİch Néi, ngo¹i c«ng","80 trë xuèng"},                                 
-	{"M·nh hæ","Kh«n","Tèn","Kh¶m","§oµi","S¸t th­¬ng t¨ng ","80 trë xuèng"},                                 
-	{"T­êng Ph­îng","Cµn","Kh¶m","ChÊn","§oµi","T¨ng Sinh lùc vµ Néi lùc","80 trë xuèng"},                                 
-	{"Giao Long","Kh¶m","CÊn","Ly","Tèn","T¨ng Sinh lùc vµ Néi lùc","80 trë xuèng"},                                 
-	{"Uy phong","ChÊn","ChÊn","Kh«n","Cµn","C«ng kİch + ","80 trë xuèng"},                                 
-	{"HiÖp sÜ","CÊn","Kh¶m","Tèn","Tèn","T¨ng Sinh lùc","80 trë xuèng"},      	
-	{"TiÒm long","Cµn","Kh«n","Kh¶m","§oµi","T¨ng Sinh lùc","80 hoÆc 80 trë lªn"},
-	{"Hçn ®én","Kh«n","Kh¶m","§oµi","Ly","T¨ng Søc m¹nh vµ G©n cèt","80 hoÆc 80 trë lªn"},
-	{"Ly Háa","Kh¶m","§oµi","Ly","CÊn","T¨ngSøc m¹nh vµ Th©n ph¸p","80 hoÆc 80 trë lªn"},
-	{"HuyÒn B¨ng","§oµi","Ly","CÊn","Cµn","T¨ng Néi c«ng vµ linh ho¹t","80 hoÆc 80 trë lªn"},
-	{"HuyÒn Hoµng","Ly","CÊn","Cµn","Kh«n","T¨ng linh ho¹t vµ lùc l­îng","80 hoÆc 80 trë lªn"},
-	{"C«n B»ng","CÊn","Cµn","Kh«n","Kh¶m","T¨ng th©n ph¸p vµ linh ho¹t","80 hoÆc 80 trë lªn"},
-	{"Kh¸ng Long","Ly","§oµi","Kh¶m","CÊn","T¨ng Néi c«ng vµ Th©n ph¸p","80 hoÆc 80 trë lªn"},
-	{"NiÕt Bµn","Cµn","Kh«n","Kh¶m","§oµi","T¨ng Néi c«ng vµ G©n cèt","80 hoÆc 80 trë lªn"},
-	{"HuyÒn Vò","ChÊn","Cµn","CÊn","Ly","T¨ng phßng ngù vµ c«ng kİch Néi, ngo¹i c«ng","80 hoÆc 80 trë lªn"},
-	{"Hæ tr¾ng","Kh«n","Tèn","Kh¶m","§oµi","S¸t th­¬ng t¨ng ","80 hoÆc 80 trë lªn"},
-	{"Chu T­íc","Cµn","Kh¶m","ChÊn","§oµi","T¨ng Sinh lùc vµ Néi lùc","80 hoÆc 80 trë lªn"},
-	{"Thanh Long","Kh¶m","CÊn","Ly","Tèn","T¨ng Sinh lùc vµ Néi lùc","80 hoÆc 80 trë lªn"},
-	{"V« Song","ChÊn","ChÊn","Kh«n","Cµn","C«ng kİch + ","80 hoÆc 80 trë lªn"},
-	{"Quèc SÜ","CÊn","Kh¶m","Tèn","Tèn","T¨ng Sinh lùc","80 hoÆc 80 trë lªn"}                          
+	{"Ngî…£i mç­ºh","Khç­","Khç§","îœµç¤½","Ly","Tâ•ªg Sé´† mç­ºh v? Gï¹ cé‘¤","80 tr? xué‘g"},                                 
+	{"Té‘“ Kè¼ˆh","Khç§","îœµç¤½","Ly","Cè•","Tâ•ªgSé´† mç­ºh v? Thï¹ phç«","80 tr? xué‘g"},                                 
+	{"Kièª± kh?","îœµç¤½","Ly","Cè•","Cç¥…","Tâ•ªg Né–• cç­g v? linh hoç®ƒ","80 tr? xué‘g"},                                 
+	{"Ñ‡ng ph?","Ly","Cè•","Cç¥…","Khç­","Tâ•ªg linh hoç®ƒ v? léµ¦ lî…§ng","80 tr? xué‘g"},                                 
+	{"Thè¼ˆh khç«h","Cè•","Cç¥…","Khç­","Khç§","Tâ•ªg thï¹ phç« v? linh hoç®ƒ","80 tr? xué‘g"},                                 
+	{"Phong Té‘“","Ly","îœµç¤½","Khç§","Cè•","Tâ•ªg Né–• cç­g v? Thï¹ phç«","80 tr? xué‘g"},
+	{"Phé¬° Long","Cç¥…","Khç­","Khç§","îœµç¤½","Tâ•ªg Né–• cç­g v? Gï¹ cé‘¤","80 tr? xué‘g"},                                 
+	{"Huyè¥« Khï¹—","Chè•","Cç¥…","Cè•","Ly","Tâ•ªg phéªg ng? v? cç­g kè¼ˆh Né–•, ngoç­° cç­g","80 tr? xué‘g"},                                 
+	{"Mç©˜h h?","Khç­","Té‘","Khç§","îœµç¤½","Sç«§ thî„¥ng tâ•ªg ","80 tr? xué‘g"},                                 
+	{"Tî…£ng Phî…§ng","Cç¥…","Khç§","Chè•","îœµç¤½","Tâ•ªg Sinh léµ¦ v? Né–• léµ¦","80 tr? xué‘g"},                                 
+	{"Giao Long","Khç§","Cè•","Ly","Té‘","Tâ•ªg Sinh léµ¦ v? Né–• léµ¦","80 tr? xué‘g"},                                 
+	{"Uy phong","Chè•","Chè•","Khç­","Cç¥…","Cç­g kè¼ˆh + ","80 tr? xué‘g"},                                 
+	{"Hiè¬• s?","Cè•","Khç§","Té‘","Té‘","Tâ•ªg Sinh léµ¦","80 tr? xué‘g"},      	
+	{"Tiè¥ª long","Cç¥…","Khç­","Khç§","îœµç¤½","Tâ•ªg Sinh léµ¦","80 hoèŠ» 80 tr? lçŒ²"},
+	{"Hé½ î‡€n","Khç­","Khç§","îœµç¤½","Ly","Tâ•ªg Sé´† mç­ºh v? Gï¹ cé‘¤","80 hoèŠ» 80 tr? lçŒ²"},
+	{"Ly Hé†“","Khç§","îœµç¤½","Ly","Cè•","Tâ•ªgSé´† mç­ºh v? Thï¹ phç«","80 hoèŠ» 80 tr? lçŒ²"},
+	{"Huyè¥« Bâ•ªg","îœµç¤½","Ly","Cè•","Cç¥…","Tâ•ªg Né–• cç­g v? linh hoç®ƒ","80 hoèŠ» 80 tr? lçŒ²"},
+	{"Huyè¥« Hoç¥…g","Ly","Cè•","Cç¥…","Khç­","Tâ•ªg linh hoç®ƒ v? léµ¦ lî…§ng","80 hoèŠ» 80 tr? lçŒ²"},
+	{"Cç­ Bç±²g","Cè•","Cç¥…","Khç­","Khç§","Tâ•ªg thï¹ phç« v? linh hoç®ƒ","80 hoèŠ» 80 tr? lçŒ²"},
+	{"Khç«›g Long","Ly","îœµç¤½","Khç§","Cè•","Tâ•ªg Né–• cç­g v? Thï¹ phç«","80 hoèŠ» 80 tr? lçŒ²"},
+	{"Nièª¸ Bç¥…","Cç¥…","Khç­","Khç§","îœµç¤½","Tâ•ªg Né–• cç­g v? Gï¹ cé‘¤","80 hoèŠ» 80 tr? lçŒ²"},
+	{"Huyè¥« V?","Chè•","Cç¥…","Cè•","Ly","Tâ•ªg phéªg ng? v? cç­g kè¼ˆh Né–•, ngoç­° cç­g","80 hoèŠ» 80 tr? lçŒ²"},
+	{"H? trç·‰g","Khç­","Té‘","Khç§","îœµç¤½","Sç«§ thî„¥ng tâ•ªg ","80 hoèŠ» 80 tr? lçŒ²"},
+	{"Chu Tî…¦c","Cç¥…","Khç§","Chè•","îœµç¤½","Tâ•ªg Sinh léµ¦ v? Né–• léµ¦","80 hoèŠ» 80 tr? lçŒ²"},
+	{"Thanh Long","Khç§","Cè•","Ly","Té‘","Tâ•ªg Sinh léµ¦ v? Né–• léµ¦","80 hoèŠ» 80 tr? lçŒ²"},
+	{"V? Song","Chè•","Chè•","Khç­","Cç¥…","Cç­g kè¼ˆh + ","80 hoèŠ» 80 tr? lçŒ²"},
+	{"Qué‘“ S?","Cè•","Khç§","Té‘","Té‘","Tâ•ªg Sinh léµ¦","80 hoèŠ» 80 tr? lçŒ²"}                          
 	}	
 	
 tTiandi = {
-	{"Thiªn §Şa TiÒm Long","Cµn","Kh«n","Kh¶m","§oµi","T¨ng Sinh lùc","T¨ng Sinh lùc"," tõ 119 trë lªn"},
-	{"Trêi ®Êt hçn ®én","Kh«n","Kh¶m","§oµi","Ly","T¨ng Søc m¹nh vµ G©n cèt","N©ng cao giíi h¹n néi lùc vµ sinh mÖnh"," tõ 119 trë lªn"},
-	{"Thiªn §Şa Ly Háa","Kh¶m","§oµi","Ly","CÊn","T¨ngSøc m¹nh vµ Th©n ph¸p","N©ng cao giíi h¹n néi lùc vµ sinh mÖnh"," tõ 119 trë lªn"},
-	{"Thiªn §Şa HuyÒn B¨ng","§oµi","Ly","CÊn","Cµn","T¨ng Néi c«ng vµ linh ho¹t","N©ng cao giíi h¹n néi lùc vµ sinh mÖnh"," tõ 119 trë lªn"},
-	{"Thiªn §Şa HuyÒn Hoµng","Ly","CÊn","Cµn","Kh«n","T¨ng linh ho¹t vµ lùc l­îng","N©ng cao giíi h¹n néi lùc vµ sinh mÖnh"," tõ 119 trë lªn"},
-	{"Thiªn §Şa C«n B»ng","CÊn","Cµn","Kh«n","Kh¶m","T¨ng th©n ph¸p vµ linh ho¹t","N©ng cao giíi h¹n néi lùc vµ sinh mÖnh"," tõ 119 trë lªn"},
-	{"Thiªn §Şa Kh¸ng Long","Ly","§oµi","Kh¶m","CÊn","T¨ng Néi c«ng vµ Th©n ph¸p","N©ng cao giíi h¹n néi lùc vµ sinh mÖnh"," tõ 119 trë lªn"},
-	{"Thiªn §Şa NiÕt Bµn","Cµn","Kh«n","Kh¶m","§oµi","T¨ng Néi c«ng vµ G©n cèt","N©ng cao giíi h¹n néi lùc vµ sinh mÖnh"," tõ 119 trë lªn"},
-	{"Tr­êng Sinh HuyÒn Vâ","ChÊn","Cµn","CÊn","Ly","T¨ng phßng ngù vµ c«ng kİch Néi, ngo¹i c«ng","T¨ng Sinh lùc"," tõ 119 trë lªn"},
-	{"Hung Tinh B¹ch Hæ","Kh«n","Tèn","Kh¶m","§oµi","S¸t th­¬ng t¨ng ","T¨ng Sinh lùc"," tõ 119 trë lªn"},
-	{"Chu T­íc BÊt DiÖt","Cµn","Kh¶m","ChÊn","§oµi","T¨ng Sinh lùc vµ Néi lùc","T¨ng Sinh lùc"," tõ 119 trë lªn"},
-	{"T¹i Thiªn Thanh Long","Kh¶m","CÊn","Ly","Tèn","T¨ng Sinh lùc vµ Néi lùc","T¨ng Sinh lùc"," tõ 119 trë lªn"},
-	{"Thiªn H¹ V« §Şch","ChÊn","ChÊn","Kh«n","Cµn","C«ng kİch + ","T¨ng Sinh lùc"," tõ 119 trë lªn"},
-	{"Thiªn Chi Quèc SÜ","CÊn","Kh¶m","Tèn","Tèn","T¨ng Sinh lùc","N©ng cao giíi h¹n néi lùc vµ sinh mÖnh"," tõ 119 trë lªn"} 
+	{"ThiçŒ² Ğ¼a Tiè¥ª Long","Cç¥…","Khç­","Khç§","îœµç¤½","Tâ•ªg Sinh léµ¦","Tâ•ªg Sinh léµ¦"," t? 119 tr? lçŒ²"},
+	{"Tré˜¨ î†¡t hé½ î‡€n","Khç­","Khç§","îœµç¤½","Ly","Tâ•ªg Sé´† mç­ºh v? Gï¹ cé‘¤","Nï¹g cao giéŸ hç­º né–• léµ¦ v? sinh mè¬“h"," t? 119 tr? lçŒ²"},
+	{"ThiçŒ² Ğ¼a Ly Hé†“","Khç§","îœµç¤½","Ly","Cè•","Tâ•ªgSé´† mç­ºh v? Thï¹ phç«","Nï¹g cao giéŸ hç­º né–• léµ¦ v? sinh mè¬“h"," t? 119 tr? lçŒ²"},
+	{"ThiçŒ² Ğ¼a Huyè¥« Bâ•ªg","îœµç¤½","Ly","Cè•","Cç¥…","Tâ•ªg Né–• cç­g v? linh hoç®ƒ","Nï¹g cao giéŸ hç­º né–• léµ¦ v? sinh mè¬“h"," t? 119 tr? lçŒ²"},
+	{"ThiçŒ² Ğ¼a Huyè¥« Hoç¥…g","Ly","Cè•","Cç¥…","Khç­","Tâ•ªg linh hoç®ƒ v? léµ¦ lî…§ng","Nï¹g cao giéŸ hç­º né–• léµ¦ v? sinh mè¬“h"," t? 119 tr? lçŒ²"},
+	{"ThiçŒ² Ğ¼a Cç­ Bç±²g","Cè•","Cç¥…","Khç­","Khç§","Tâ•ªg thï¹ phç« v? linh hoç®ƒ","Nï¹g cao giéŸ hç­º né–• léµ¦ v? sinh mè¬“h"," t? 119 tr? lçŒ²"},
+	{"ThiçŒ² Ğ¼a Khç«›g Long","Ly","îœµç¤½","Khç§","Cè•","Tâ•ªg Né–• cç­g v? Thï¹ phç«","Nï¹g cao giéŸ hç­º né–• léµ¦ v? sinh mè¬“h"," t? 119 tr? lçŒ²"},
+	{"ThiçŒ² Ğ¼a Nièª¸ Bç¥…","Cç¥…","Khç­","Khç§","îœµç¤½","Tâ•ªg Né–• cç­g v? Gï¹ cé‘¤","Nï¹g cao giéŸ hç­º né–• léµ¦ v? sinh mè¬“h"," t? 119 tr? lçŒ²"},
+	{"Trî…£ng Sinh Huyè¥« V?","Chè•","Cç¥…","Cè•","Ly","Tâ•ªg phéªg ng? v? cç­g kè¼ˆh Né–•, ngoç­° cç­g","Tâ•ªg Sinh léµ¦"," t? 119 tr? lçŒ²"},
+	{"Hung Tinh Bç­©h H?","Khç­","Té‘","Khç§","îœµç¤½","Sç«§ thî„¥ng tâ•ªg ","Tâ•ªg Sinh léµ¦"," t? 119 tr? lçŒ²"},
+	{"Chu Tî…¦c Bè•‹ Diè¬™","Cç¥…","Khç§","Chè•","îœµç¤½","Tâ•ªg Sinh léµ¦ v? Né–• léµ¦","Tâ•ªg Sinh léµ¦"," t? 119 tr? lçŒ²"},
+	{"Tç­° ThiçŒ² Thanh Long","Khç§","Cè•","Ly","Té‘","Tâ•ªg Sinh léµ¦ v? Né–• léµ¦","Tâ•ªg Sinh léµ¦"," t? 119 tr? lçŒ²"},
+	{"ThiçŒ² H? V? Ğ¼ch","Chè•","Chè•","Khç­","Cç¥…","Cç­g kè¼ˆh + ","Tâ•ªg Sinh léµ¦"," t? 119 tr? lçŒ²"},
+	{"ThiçŒ² Chi Qué‘“ S?","Cè•","Khç§","Té‘","Té‘","Tâ•ªg Sinh léµ¦","Nï¹g cao giéŸ hç­º né–• léµ¦ v? sinh mè¬“h"," t? 119 tr? lçŒ²"} 
 	};	
 	
---°ËØÔµÄ×é³É
-tGuaWei = {--ØÔÎ» ÈıÁéÊ¯ÆæÅ¼ ×ÜÊıÆæÅ¼
-	{"Cµn","LÎ","LÎ","LÎ","LÎ"},
-	{"Kh«n","Ch½n","Ch½n","Ch½n","Ch½n"},
-	{"Ly","LÎ","Ch½n","LÎ","Ch½n"},
-	{"Kh¶m","Ch½n","LÎ","Ch½n","LÎ"},	
-	{"ChÊn","LÎ","Ch½n","Ch½n","LÎ"},
-	{"Tèn","Ch½n","LÎ","LÎ","Ch½n"},
-	{"CÊn","Ch½n","Ch½n","LÎ","LÎ"},
-	{"§oµi","LÎ","LÎ","Ch½n","Ch½n"}
+--å…«å¦çš„ç»„æˆ
+tGuaWei = {--å¦ä½ ä¸‰çµçŸ³å¥‡å¶ æ€»æ•°å¥‡å¶
+	{"Cç¥…","L?","L?","L?","L?"},
+	{"Khç­","Chçµ¥","Chçµ¥","Chçµ¥","Chçµ¥"},
+	{"Ly","L?","Chçµ¥","L?","Chçµ¥"},
+	{"Khç§","Chçµ¥","L?","Chçµ¥","L?"},	
+	{"Chè•","L?","Chçµ¥","Chçµ¥","L?"},
+	{"Té‘","Chçµ¥","L?","L?","Chçµ¥"},
+	{"Cè•","Chçµ¥","Chçµ¥","L?","L?"},
+	{"îœµç¤½","L?","L?","Chçµ¥","Chçµ¥"}
 	}
 
 function OnUse()
 	local strtab = {
-		"C¸ch chÕ t¹o trang bŞ B¸t Qu¸i/how_make_bagua",
-		"Lµm sao lÊy Linh Th¹ch/how_get_lingshi",
-		"Lµm sao kİch ho¹t bé B¸t Qu¸i/how_jihuo_bagua",
-		"Lµm sao ®Ó cã ®­îc nguyªn th¹ch, linh th¹ch vµ linh th¹ch phèi ph­¬ng/ziyuanhuode",
-		"Yªu cÇu c¸c trang bŞ liªn quan quÎ B¸t Qu¸i/dazao_guawei",
-		"Yªu cÇu bé trang phôc B¸t Qu¸i liªn quan/bagua_taozhuang_yaoqiu",
---		"Nh©n vËt liªn quan ®Õn hÖ thèng B¸t Qu¸i/bagua_chuansong"
+		"å¦‚ä½•åˆ¶ä½œå…«å¦é¦–é¥°/how_make_bagua",
+		"æ€ä¹ˆå¾—åˆ°çµçŸ³/how_get_lingshi",
+		"å¦‚ä½•æ¿€æ´»å…«å¦è£…å¤‡ï¼Ÿ/how_jihuo_bagua",
+		"å¦‚ä½•è·å¾—èµ„æº/ziyuanhuode",
+		"æ‰“é€ å¦ä½/dazao_guawei",
+		"å’¨è¯¢å…«å¦å¥—è£…çš„è¦æ±‚bagua_taozhuang_yaoqiu",
+--		"Nhï¹ vè—… liçŒ² quan î†¬n h? thé‘g Bç«§ Quç«”/bagua_chuansong"
 		}
 --	if GetTask(TASK_LINGSHI_ID) == 8 or (GetTask(TASK_LINGSHI_ID) == 0 and GetLevel() > 20) then
---		tinsert(strtab,"Ta muèn më ra nhiÖm ra hÖ thèng B¸t Qu¸i Linh Th¹ch/talk_III");
+--		tinsert(strtab,"Ta mué‘ m? ra nhiè¬’ ra h? thé‘g Bç«§ Quç«” Linh Thç­©h/talk_III");
 --	end
-		tinsert(strtab,"T¹m thêi ch­a nghÜ ra g×!/nothing");
-	Say("B¹n muèn t×m hiÓu ph­¬ng diÖn nµo?",
+		tinsert(strtab,"æˆ‘è¿˜æ²¡æƒ³æ¸…æ¥š/nothing");
+	Say("ä½ æƒ³å­¦ä¹ å“ªæ–¹é¢çš„çŸ¥è¯†?",
 		getn(strtab),
 		strtab)
 end
 
 function how_make_bagua()
-	Talk(1,"how_make_bagua2","ChÕ t¹o trang bŞ chÕ t¹o B¸t Qu¸ cã 3 b­íc\n B­íc 1, ph¶i cã trang bŞ c¬ b¶n cã linh khİ trêi ®Êt, b¹n cã thÓ t¹o ra trang bŞ nµy qua kü n¨ng sèng. Mçi trang bŞ ®Òu cã 1 <color=red>giíi h¹n gi¸ trŞ linh khİ vµ Èn Sè<color> giíi h¹n gi¸ trŞ linh khİ sÏ quyÕt ®Şnh ­u ®iÓm cña linh th¹ch cã thÓ kh¶m n¹m vµ B¸t Qu¸i Qu¸i VŞ sÏ xuÊt hiÖn trong t­¬ng lai, cßn Èn sè sÏ quyÕt ®Şnh sè l­îng linh th¹ch cã thÓ kh¶m n¹m, nÕu muèn lµm ra trang bŞ B¸t Qu¸i, b¾t buéc ph¶i cã 3 thuéc tİnh Èn. Muèn lµm ra mét bé trang bŞ cã gi¸ trŞ linh khİ cao, ph¶i thªm nhiÒu vËt phÈm cã gi¸ trŞ trong lóc ®óc, tæng gi¸ trŞ vËt phÈm cµng cao, tØ lÖ trang bŞ giíi h¹n cña gi¸ trŞ linh th¹ch t¹o ra cµng lín.");
+	Talk(1,"how_make_bagua2","Ch? tç­¼ trang b? ch? tç­¼ Bç«§ Qu? c? 3 bî…¦c\n Bî…¦c 1, phç§ˆ c? trang b? c? bç§ c? linh kh? tré˜¨ î†¡t, bç­º c? th? tç­¼ ra trang b? nç¥” qua k? nâ•ªg sé‘g. Mé¸ trang b? î†©u c? 1 <color=red>giéŸ hç­º gi? tr? linh kh? v? èµ S?<color> giéŸ hç­º gi? tr? linh kh? s? quyèª¸ î†µnh ç’¾ ç”¶è§¤ cé¦» linh thç­©h c? th? khç§ nç­¸ v? Bç«§ Quç«” Quç«” V? s? xuè•‹ hiè¬“ trong tî„¥ng lai, céª èµ s? s? quyèª¸ î†µnh s? lî…§ng linh thç­©h c? th? khç§ nç­¸, nèª¹ mué‘ lç¥„ ra trang b? Bç«§ Quç«”, bç· bué– phç§ˆ c? 3 thué– tè¼“h èµ. Mué‘ lç¥„ ra mé–  b? trang b? c? gi? tr? linh kh? cao, phç§ˆ thçŒ° nhiè¥² vè—… phè´ c? gi? tr? trong léª³ î‡Šc, té›g gi? tr? vè—… phè´ cç¥…g cao, t? l? trang b? giéŸ hç­º cé¦» gi? tr? linh thç­©h tç­¼ ra cç¥…g léŸ“.");
 end
 
 function how_make_bagua2()
-	Talk(1,"how_make_bagua3","<color=green>B¸t Qu¸i B¶o §iÓn<color> B­íc 2, lµm xong trang bŞ c¬ b¶n råi, míi b¾t ®Çu kh¶m n¹m linh th¹ch. Trªn mçi linh th¹ch ®Òu cã 1 ®iÓm linh khİ, nÕu trŞ sè ®iÓm linh khİ lµ sè lÎ, linh th¹ch lµ D­¬ng, trŞ sè linh khİ lµ ch½n sÏlµ ©m. Toµn bé trŞ linh khİ <color=red>cña linh th¹ch<color> kh¶m trªn trang bŞ c¬ b¶n <color=red>kh«ng v­ît qu¸<color> <color=red>giíi h¹n ®iÓm linh th¹ch<color>cña trang bŞ c¬ b¶n nµy. Lóc ®iÓm linh khİ vµ linh th¹ch cña bé trang bŞ c¬ b¶n nµy <color=red>b»ng víi<color> giíi h¹n ®iÓm linh khİ, sÏ trë thµnh trang bŞ B¸t Qu¸i ch­a kİch ho¹t. NÕu muèn xem c¸ch t¹o qu¸i vŞ trªn trang bŞ cã thÓ xem thªm trong <color=red>môc thø 6<color=red>.");
+	Talk(1,"how_make_bagua3","<color=green>Bç«§ Quç«” Bç§“ îœ¯è§§<color> Bî…¦c 2, lç¥„ xong trang b? c? bç§ réŒ³, méŸ bç· î†u khç§ nç­¸ linh thç­©h. TrçŒ² mé¸ linh thç­©h î†©u c? 1 ç”¶è§¤ linh kh?, nèª¹ tr? s? ç”¶è§¤ linh kh? l? s? l?, linh thç­©h l? Dî„¥ng, tr? s? linh kh? l? chçµ¥ sèŸ£? ï¹. Toç¥… b? tr? linh kh? <color=red>cé¦» linh thç­©h<color> khç§ trçŒ² trang b? c? bç§ <color=red>khç­g vî…§t qu?<color> <color=red>giéŸ hç­º ç”¶è§¤ linh thç­©h<color>cé¦» trang b? c? bç§ nç¥”. Léª³ ç”¶è§¤ linh kh? v? linh thç­©h cé¦» b? trang b? c? bç§ nç¥” <color=red>bç±²g véŸ<color> giéŸ hç­º ç”¶è§¤ linh kh?, s? tr? thç¥…h trang b? Bç«§ Quç«” chç’¦ kè¼ˆh hoç®ƒ. Nèª¹ mué‘ xem cç«h tç­¼ quç«” v? trçŒ² trang b? c? th? xem thçŒ° trong <color=red>mé¬° th? 6<color=red>.");
 end
 
 function how_make_bagua3()
-	Talk(1,"OnUse","<color=green>B¸t Qu¸i B¶o §iÓn<color> B­íc 3, sau khi ®· cã trang bŞ B¸t Qu¸i ch­a kİch ho¹t, vÉn ch­a thÊy ®­îc trang bŞ B¸t Qu¸i kİch ho¹t, muèn tham gia kİch ho¹t trang bŞ B¸t Qu¸i ph¶i <color=red>kİch ho¹t<color> thuéc tİhh. Mang trang bŞ B¸t Qu¸i ®· kİch ho¹t, tíi c¸c thµnh phè t×m <color=red>ThÇn Du Ch©n Nh©n<color> ®Ó nhê kİch ho¹t, nh­ng ph¶i tiªu hao Th¸i H­ B¸t Qu¸i Bµi. Trang bŞ B¸t Qu¸i sau khi ®· kİch ho¹t cã thÓ mang ®Õn C«ng D· ThÕ Gia <color=red> hîp thµnh bé trang bŞ B¸t Qu¸i<color>!");
+	Talk(1,"OnUse","<color=green>Bç«§ Quç«” Bç§“ îœ¯è§§<color> Bî…¦c 3, sau khi î† c? trang b? Bç«§ Quç«” chç’¦ kè¼ˆh hoç®ƒ, vè’¼ chç’¦ thè• î†„é ² trang b? Bç«§ Quç«” kè¼ˆh hoç®ƒ, mué‘ tham gia kè¼ˆh hoç®ƒ trang b? Bç«§ Quç«” phç§ˆ <color=red>kè¼ˆh hoç®ƒ<color> thué– tè¼h. Mang trang b? Bç«§ Quç«” î† kè¼ˆh hoç®ƒ, téŸ cç« thç¥…h ph? tè­µ <color=red>Thè• Du Chï¹ Nhï¹<color> î†ª nh? kè¼ˆh hoç®ƒ, nhç’¶g phç§ˆ tiçŒ½ hao Thç«” H? Bç«§ Quç«” Bç¤½. Trang b? Bç«§ Quç«” sau khi î† kè¼ˆh hoç®ƒ c? th? mang î†¬n Cç­g D? Th? Gia <color=red> hé ¿ thç¥…h b? trang b? Bç«§ Quç«”<color>!");
 end
 
 function how_get_lingshi()
-	Talk(1,"how_get_lingshi2","<color=green>B¸t Qu¸i B¶o §iÓn<color> B­íc 1, muèn cã ®­îc linh th¹ch, ph¶i cã nguyªn th¹ch vµ trang bŞ cã hiÖu qu¶. Nguyªn th¹ch cã thÓ t¸ch ra lÊy thuéc tİnh trªn trang bŞ, sau khi t¸ch thµnh c«ng, nguyªn th¹ch nµy sÏ biÕn thµnh linh th¹ch t­¬ng øng. Nguyªn th¹ch cã t¸c dông cao thÊp kh¸c nhau, ph©n thµnh 7 cÊp, nÕu ®¼ng cÊp nguyªn th¹ch kh«ng ®ñ, còng kh«ng thÓ hÊp thu thuéc tİnh cÊp cao cña trang bŞ ®i kÌm. Nguyªn th¹ch ph©n thµnh <color=red>Thiªn, §Şa, Nh©n<color>, ph©n biÖt dùa trªn c¸c thuéc tİnh <color=red> 1, 2, 3<color> t­¬ng øng trªn trang bŞ. Muèn t¸ch ®­îc thuéc tİnh nµo th× ph¶i sö dông lo¹i nguyªn th¹ch ®ã.");
+	Talk(1,"how_get_lingshi2","<color=green>Bç«§ Quç«” Bç§“ îœ¯è§§<color> Bî…¦c 1, mué‘ c? î†„é ² linh thç­©h, phç§ˆ c? nguyçŒ² thç­©h v? trang b? c? hiè¬š qu?. NguyçŒ² thç­©h c? th? tç«h ra lè• thué– tè¼“h trçŒ² trang b?, sau khi tç«h thç¥…h cç­g, nguyçŒ² thç­©h nç¥” s? bièª² thç¥…h linh thç­©h tî„¥ng é´‘g. NguyçŒ² thç­©h c? tç« dé¬¾g cao thè•„ khç« nhau, phï¹ thç¥…h 7 cè•„, nèª¹ î†“ng cè•„ nguyçŒ² thç­©h khç­g î‡ˆ, cé¨¨g khç­g th? hè•„ thu thué– tè¼“h cè•„ cao cé¦» trang b? ç”¶ kè˜­. NguyçŒ² thç­©h phï¹ thç¥…h <color=red>ThiçŒ², Ğ¼a, Nhï¹<color>, phï¹ biè¬™ déµ¤ trçŒ² cç« thué– tè¼“h <color=red> 1, 2, 3<color> tî„¥ng é´‘g trçŒ² trang b?. Mué‘ tç«h î†„é ² thué– tè¼“h nç¥‡ th? phç§ˆ s? dé¬¾g loç­° nguyçŒ² thç­©h î†º.");
 end
 
 function how_get_lingshi2()
-	Talk(1,"OnUse","<color>: Hai, trang bŞ cã thuéc tİnh linh khİ cao cÊp rÊt İt, muèn nhËn ®­îc Linh Th¹ch cao cÊp, cßn mét c¸ch kh¸c, tù m×nh<color=red>hîp thµnh Linh Th¹ch<color>, biÕn nhiÒu Linh Th¹ch thµnh mét Linh Th¹ch, nÕu nhiÒu Linh Th¹ch cïng lo¹i, kh¶ n¨ng hîp thµnh Linh Th¹ch sÏ cao. Thêi chiÕn Th­îng cæ Phong ThÇn cã truyÒn l¹i ph­¬ng ph¸p phèi hîp hîp thµnh Linh th¹ch, nÕu lÊy ®­îc ph­¬ng ph¸p phèi hîp nµy, lµm theo ghi chĞp, bæ sung Linh Th¹ch t­¬ng øng, cã thÓ hîp thµnh Linh Th¹ch, nh­ng ch­a C¸c ng­êi thµnh c«ng...");
+	Talk(1,"OnUse","<color>: Hai, trang b? c? thué– tè¼“h linh kh? cao cè•„ rè•‹ è¼™, mué‘ nhè–¾ î†„é ² Linh Thç­©h cao cè•„, céª mé–  cç«h khç«, t? mè­¶h<color=red>hé ¿ thç¥…h Linh Thç­©h<color>, bièª² nhiè¥² Linh Thç­©h thç¥…h mé–  Linh Thç­©h, nèª¹ nhiè¥² Linh Thç­©h cé£Šg loç­°, kh? nâ•ªg hé ¿ thç¥…h Linh Thç­©h s? cao. Thé˜¨ chièª² Thî…§ng c? Phong Thè• c? truyè¥« lç­° phî„¥ng phç« phé‘™ hé ¿ hé ¿ thç¥…h Linh thç­©h, nèª¹ lè• î†„é ² phî„¥ng phç« phé‘™ hé ¿ nç¥”, lç¥„ theo ghi chè¡Ÿ, b? sung Linh Thç­©h tî„¥ng é´‘g, c? th? hé ¿ thç¥…h Linh Thç­©h, nhç’¶g chç’¦ Cç« ngî…£i thç¥…h cç­g...");
 end
 
 function how_jihuo_bagua()
-	Talk(1,"how_jihuo_bagua2","B¸t Qu¸i trong trêi ®Êt vèn cã t­¬ng t¸c lÉn nhau, thiªn biÕn v¹n hãa hãa, C«ng D· ThÕ Gia c¶ ®êi ra søc nghiªn cøu…");
+	Talk(1,"how_jihuo_bagua2","Bç«§ Quç«” trong tré˜¨ î†¡t vé‘ c? tî„¥ng tç« lè’¼ nhau, thiçŒ² bièª² vç­º hé‰§ hé‰§, Cç­g D? Th? Gia c? î‡i ra sé´† nghiçŒ² cé´˜?");
 end
 
 function how_jihuo_bagua2()
-	Talk(1,"how_jihuo_bagua3","B­íc 1, ph¶i hîp thµnh bé trang bŞ B¸t Qu¸i, tr­íc hÕt ph¶i cã <color=red>trang bŞ B¸t Qu¸i <color> t­¬ng øng. Sau khi tËp hîp ®Çy ®ñ, ®Õn C«ng D· ThÕ Gia hîp thµnh. Mçi bé trang bŞ B¸t Qu¸i cã trŞ Linh khİ kh¸c nhau, hiÖu qu¶ hîp thµnh trang bŞ B¸t Qu¸i cã liªn quan ®Õn <color=red>trŞ sè linh khİ kİch ho¹t<color>. NÕutrŞ linh khİ kİch ho¹t qu¸ thÊp, hiÖu qu¶ sau khi hîp thµnh sÏ thÊp. Lóc hîp thµnh nÕu cho thªm c¸c vËt phÈm <color=red>gi¸ trŞ<color> th× sÏ gi¶m thiÓu tæn thÊt!");
+	Talk(1,"how_jihuo_bagua3","Bî…¦c 1, phç§ˆ hé ¿ thç¥…h b? trang b? Bç«§ Quç«”, trî…¦c hèª¸ phç§ˆ c? <color=red>trang b? Bç«§ Quç«” <color> tî„¥ng é´‘g. Sau khi tè—€ hé ¿ î†y î‡ˆ, î†¬n Cç­g D? Th? Gia hé ¿ thç¥…h. Mé¸ b? trang b? Bç«§ Quç«” c? tr? Linh kh? khç« nhau, hiè¬š qu? hé ¿ thç¥…h trang b? Bç«§ Quç«” c? liçŒ² quan î†¬n <color=red>tr? s? linh kh? kè¼ˆh hoç®ƒ<color>. Nèª¹tr? linh kh? kè¼ˆh hoç®ƒ qu? thè•„, hiè¬š qu? sau khi hé ¿ thç¥…h s? thè•„. Léª³ hé ¿ thç¥…h nèª¹ cho thçŒ° cç« vè—… phè´ <color=red>gi? tr?<color> th? s? giç§ thiè§° té› thè•‹!");
 end
 
 function how_jihuo_bagua3()
-	Talk(1,"OnUse","B­íc 2, nÕu thuéc tİnh kİch ho¹t cho trang bŞ B¸t Qu¸i ®ã kh«ng ®ñ, ph¶i phôc håi l¹i tr¹ng th¸i ban ®Çu. Nh­ng nÕu thÊt b¹i th× sÏ <color=red>tæn thÊt<color> mét sè trang bŞ trong bé B¸t Qu¸i ®ã. NÕu muèn n©ng cao kh¶ n¨ng thµnh c«ng vµ gi¶m bít tæn thÊt, trong lóc phôc håi l¹i ph¶i thªm c¸c lo¹i vËt phÈm cã gi¸ trŞ");
+	Talk(1,"OnUse","Bî…¦c 2, nèª¹ thué– tè¼“h kè¼ˆh hoç®ƒ cho trang b? Bç«§ Quç«” î†º khç­g î‡ˆ, phç§ˆ phé¬° héŒ³ lç­° trç­ºg thç«” ban î†u. Nhç’¶g nèª¹ thè•‹ bç­° th? s? <color=red>té› thè•‹<color> mé–  s? trang b? trong b? Bç«§ Quç«” î†º. Nèª¹ mué‘ nï¹g cao kh? nâ•ªg thç¥…h cç­g v? giç§ béŸ™ té› thè•‹, trong léª³ phé¬° héŒ³ lç­° phç§ˆ thçŒ° cç« loç­° vè—… phè´ c? gi? tr?");
 end
 
 function bagua_taozhuang(nPage)
@@ -124,68 +124,68 @@ function bagua_taozhuang(nPage)
 		num_this_dia = nRemaidNum;
 	end
 	for i=1,num_this_dia do
-		tinsert(tDiaTab,tTaoZhuang[nPageNum*nPage+i][1].."Trang bŞ: §iÓm linh khİ ®¬n "..tTaoZhuang[nPageNum*nPage+i][7].."]["..tTaoZhuang[nPageNum*nPage+i][2]..":"..tTaoZhuang[nPageNum*nPage+i][3]..":"..tTaoZhuang[nPageNum*nPage+i][4]..":"..tTaoZhuang[nPageNum*nPage+i][5].."]["..tTaoZhuang[nPageNum*nPage+i][6].."]/#taozhuang_detail("..nPage..","..(nPageNum*nPage+i)..")");
+		tinsert(tDiaTab,tTaoZhuang[nPageNum*nPage+i][1].."Trang b?: îœ¯è§¤ linh kh? î†ƒn "..tTaoZhuang[nPageNum*nPage+i][7].."]["..tTaoZhuang[nPageNum*nPage+i][2]..":"..tTaoZhuang[nPageNum*nPage+i][3]..":"..tTaoZhuang[nPageNum*nPage+i][4]..":"..tTaoZhuang[nPageNum*nPage+i][5].."]["..tTaoZhuang[nPageNum*nPage+i][6].."]/#taozhuang_detail("..nPage..","..(nPageNum*nPage+i)..")");
 	end
 	if nPage ~= 0 then
-		tinsert(tDiaTab,"Trang tr­íc/#bagua_taozhuang("..(nPage-1)..")");
+		tinsert(tDiaTab,"ä¸Šä¸€é¡µ/#bagua_taozhuang("..(nPage-1)..")");
 	end
 	if nRemaidNum > nPageNum then
-		tinsert(tDiaTab,"Trang kÕ/#bagua_taozhuang("..(nPage+1)..")");
+		tinsert(tDiaTab,"ä¸‹ä¸€é¡µ/#bagua_taozhuang("..(nPage+1)..")");
 	end
-	tinsert(tDiaTab,"trë l¹i/OnUse");
-	Say("Trang bŞ B¸t Qu¸i cã: ",
+	tinsert(tDiaTab,"è¿”å›/OnUse");
+	Say("Trang b? Bç«§ Quç«” c?: ",
 		getn(tDiaTab),
 		tDiaTab)
 end	
 
 function taozhuang_detail(nPage,nType)
-	Talk(1,"#bagua_taozhuang("..nPage..")","\n<color=red>"..tTaoZhuang[nType][1].."<color>trang bŞ<color=red>"..tTaoZhuang[nType][2].."<color>Qu¸i §Çu Bé+<color=red>"..tTaoZhuang[nType][3].."<color>Qu¸i Y Phôc+<color=red>"..tTaoZhuang[nType][4].."<color>Qu¸i H¹ Trang+<color=red>"..tTaoZhuang[nType][5].."<color>Qu¸i Vò Khİ. Ph¹m vi ®iÓm linh khİ cÇn cho mçi trang bŞ lµ: <color=red>"..tTaoZhuang[nType][7].."<color>. Thuéc tİnh kİch ho¹t lµ: <color=red>"..tTaoZhuang[nType][6].."<color>")
+	Talk(1,"#bagua_taozhuang("..nPage..")","\n<color=red>"..tTaoZhuang[nType][1].."<color>trang b?<color=red>"..tTaoZhuang[nType][2].."<color>Quç«” î¥u B?+<color=red>"..tTaoZhuang[nType][3].."<color>Quç«” Y Phé¬°+<color=red>"..tTaoZhuang[nType][4].."<color>Quç«” H? Trang+<color=red>"..tTaoZhuang[nType][5].."<color>Quç«” V? Kh?. Phç­¸ vi ç”¶è§¤ linh kh? cè• cho mé¸ trang b? l?: <color=red>"..tTaoZhuang[nType][7].."<color>. Thué– tè¼“h kè¼ˆh hoç®ƒ l?: <color=red>"..tTaoZhuang[nType][6].."<color>")
 end
 
 function dazao_guawei()
 	local strtab = {};
 	for i=1,getn(tGuaWei) do
-		tinsert(strtab,tGuaWei[i][1]..": Tæng linh khİ ["..tGuaWei[i][5].."] Thø tù 3 khæng linh khİ ["..tGuaWei[i][2].."]["..tGuaWei[i][3].."]["..tGuaWei[i][4].."]/#guawei_detail("..i..")");
+		tinsert(strtab,tGuaWei[i][1]..":ç²¾ç¥["..tGuaWei[i][5].."] Th? t? 3 khé›g linh kh? ["..tGuaWei[i][2].."]["..tGuaWei[i][3].."]["..tGuaWei[i][4].."]/#guawei_detail("..i..")");
 	end
-	tinsert(strtab,"Ta biÕt râ c¶ råi, ta ta ph¶i hiÓu râ néi dung cña nã./OnUse");
-	Say("B¹n muèn t×m hiÓu qu¸i vŞ nµo?",
+	tinsert(strtab,"æˆ‘å·²ç»çŸ¥é“äº†/OnUse");
+	Say("ä½ çŸ¥é“è¿™ç©¶ç«Ÿæ˜¯ä»€ä¹ˆï¼Ÿ",
 		getn(strtab),
 		strtab);
 end
 
 function ziyuanhuode()
-	Say("Nh÷ng vËt liªn quan víi linh th¹ch nµy ph¶i lµm sao ®Ó cã!? Ph¶i t×m hiÓu cho kü!",
+	Say("Nhé±ªg vè—… liçŒ² quan véŸ linh thç­©h nç¥” phç§ˆ lç¥„ sao î†ª c?!? Phç§ˆ tè­µ hiè§° cho k?!",
 	5,
-	"NhËn ®­îc Nguyªn Th¹ch/yuanshihuode",
-	"NhËn ®­îc Linh Th¹ch/lingshihuode",
-	"Hîp thµnh Linh Th¹ch/hechenglingshi",	
-	"BiÕt ®­îc c¸ch phèi hîp Linh Th¹ch /lingshipeifanghuode",
-	"§Õn hái th¨m th«i mµ!/SayHello"
+	"è·å¾—åŸçŸ³/yuanshihuode",
+	"è·å¾—çµçŸ³/lingshihuode",
+	"åˆæˆçµçŸ³/hechenglingshi",	
+	"çµçŸ³é…æ–¹/lingshipeifanghuode",
+	"åªæ˜¯æ¥çœ‹çœ‹/SayHello"
 	)
 end
 
 function yuanshihuode()
-	Talk(1,"OnUse","B¹n cã thÓ mua Nguyªn th¹ch<color> ë<color=red>chñ tiÖm t¹p hãa<color>, cÇn chó ı lµ vŞ trİ thuéc tİnh linh khİ t­¬ng øng víi c¸c linh th¹ch kh¸c nhau th× kh«ng gièng nhau, thuéc tİnh cao nhÊt cña c¸c ®¼ng cÊp nguyªn th¹ch kh¸c nhau ®­îc lÊy ra còng kh«ng gièng nhau!")
+	Talk(1,"OnUse","Bç­º c? th? mua NguyçŒ² thç­©h<color> ?<color=red>ch? tiè¬’ tç­½ hé‰§<color>, cè• ch? ? l? v? tr? thué– tè¼“h linh kh? tî„¥ng é´‘g véŸ cç« linh thç­©h khç« nhau th? khç­g gié‘g nhau, thué– tè¼“h cao nhè•‹ cé¦» cç« î†“ng cè•„ nguyçŒ² thç­©h khç« nhau î†„é ² lè• ra cé¨¨g khç­g gié‘g nhau!")
 end
 
 function lingshihuode()
-	Talk(1,"OnUse","Ngoµi dïng Nguyªn Th¹ch ®Ó rót Linh khİ trang bŞ ra, nghe nãi hai n­íc Tèng Liªu ®Ó cæ vò t­íng sü, phµm ai tham gia <color=red>chiÕn tr­êng Nh¹n M«n quan<color> ®Òu ®­îc th­ëng <color=red>Linh Th¹ch<color>, nh­ng muèn cã ®­îc Linh Th¹ch ph¶i xem xĞt c«ng tr¹ng vµ biÓu hiÖn cña hä. TruyÒn r»ng bän s¸t thñ rÊt høng thó víi Linh Th¹ch, c¸c anh hïng khi gÆp bän <color=red>s¸t thñ<color> cÇn l­u t©m xem chóng cã mang theo Linh Th¹ch nµy kh«ng.")
+	Talk(1,"OnUse","Ngoç¤½ dé£Šg NguyçŒ² Thç­©h î†ª ré« Linh kh? trang b? ra, nghe né‰¯ hai nî…¦c Té‘g LiçŒ½ î†ª c? v? tî…¦ng s?, phç¥„ ai tham gia <color=red>chièª² trî…£ng Nhç­º Mç­ quan<color> î†©u î†„é ² thî…¤ng <color=red>Linh Thç­©h<color>, nhç’¶g mué‘ c? î†„é ² Linh Thç­©h phç§ˆ xem xè¡ª cç­g trç­ºg v? biè§° hiè¬“ cé¦» h?. Truyè¥« rç±²g bé‹˜ sç«§ th? rè•‹ hé´‘g th? véŸ Linh Thç­©h, cç« anh hé£Šg khi gè‹ bé‹˜ <color=red>sç«§ th?<color> cè• lç’¾ tï¹ xem ché«‡g c? mang theo Linh Thç­©h nç¥” khç­g.")
 end
 
 function hechenglingshi()
-	Talk(1,"OnUse"," Linh Th¹ch nµy thÕ gian rÊt hiÕm thÊy. C¸c vŞ tiÒn nh©n ®· v« cïng khæ cùc nghiªn cøu ra <color=red>Linh Th¹ch phèi ph­¬ng<color>, chØ cÇn <color=red>Linh Th¹ch phèi ph­¬ng<color> vµ <color=red>Linh Th¹ch<color> cïng ®Æt trªn cét hîp thµnh Linh Th¹ch ®Ó t¹o ra <color=red>Linh Th¹ch theo phèi ph­¬ng<color>. Kh«ng thªm phèi ph­¬ng, tïy ı kÕp hîp Linh Th¹ch tuy cã thÓ hîp thµnh, nh­ng thµnh c«ng hay kh«ng cßn do Trêi ®Şnh.")
+	Talk(1,"OnUse"," Linh Thç­©h nç¥” th? gian rè•‹ hièª± thè•. Cç« v? tiè¥« nhï¹ î† v? cé£Šg kh? céµ¦ nghiçŒ² cé´˜ ra <color=red>Linh Thç­©h phé‘™ phî„¥ng<color>, ch? cè• <color=red>Linh Thç­©h phé‘™ phî„¥ng<color> v? <color=red>Linh Thç­©h<color> cé£Šg î†t trçŒ² cé–  hé ¿ thç¥…h Linh Thç­©h î†ª tç­¼ ra <color=red>Linh Thç­©h theo phé‘™ phî„¥ng<color>. Khç­g thçŒ° phé‘™ phî„¥ng, té£ ? kèª´ hé ¿ Linh Thç­©h tuy c? th? hé ¿ thç¥…h, nhç’¶g thç¥…h cç­g hay khç­g céª do Tré˜¨ î†µnh.")
 end
 
 function lingshipeifanghuode()
-	Talk(1,"OnUse","Linh Th¹ch phèi ph­¬ng tõ Th­îng cæ l­u truyÒn ®Õn nay kh«ng nhiÒu...Ng­¬i cèng hiÕn cho m«n ph¸i, hoµn thµnh <color=red>nhiÖm vô s­ m«n<color> mçi ngµy, tin r»ng ch­ëng m«n sÏ hiÓu ®­îc sù nç lùc cña ng­¬i. C¸c s¸t thñ cao cÊp trong <color=red>S¸t thñ ®­êng<color> ®Òu cã mang theo phèi ph­¬ng, nh­ng cã lÊy ®­îc hay kh«ng cßn ph¶i xem vËn khİ cña ng­¬i n÷a!")
+	Talk(1,"OnUse","Linh Thç­©h phé‘™ phî„¥ng t? Thî…§ng c? lç’¾ truyè¥« î†¬n nay khç­g nhiè¥²...Ngî„¥i cé‘g hièª² cho mç­ phç«”, hoç¥… thç¥…h <color=red>nhiè¬’ v? s? mç­<color> mé¸ ngç¥”, tin rç±²g chî…¤ng mç­ s? hiè§° î†„é ² s? n? léµ¦ cé¦» ngî„¥i. Cç« sç«§ th? cao cè•„ trong <color=red>Sç«§ th? î†„é˜¯g<color> î†©u c? mang theo phé‘™ phî„¥ng, nhç’¶g c? lè• î†„é ² hay khç­g céª phç§ˆ xem vè–¾ kh? cé¦» ngî„¥i né±!")
 end
 
 function guawei_detail(nType)
 	if nType > 0 and nType <= getn(tGuaWei) then
 		local strtab = {
-			"Xem Qu¸i vŞ kh¸c/dazao_guawei",
-			"Tho¸t/nothing"};
-		Say("ChÕ t¹o 1 bé <color=yellow>"..tGuaWei[nType][1].."<color>Qu¸i trang bŞ cÇn \ntrang bŞ: giíi h¹n ®iÓm linh khİ lµ <color=yellow>"..tGuaWei[nType][5].."<color>Trang bŞ sè\nKh¶m n¹m viªn linh th¹ch thø 1: ®iÓm linh khİ kh¶m n¹m lµ <color=yellow>"..tGuaWei[nType][2].."<color>linh th¹ch sè\nKh¶m n¹m viªn linh th¹ch thø 2: ®iÓm linh khİ kh¶m n¹m lµ <color=yellow>"..tGuaWei[nType][3].."<color>linh th¹ch sè\nkh¶m n¹m viªn linh th¹ch thø 3: d®iÓm linh khİ kh¶m n¹m lµ <color=yellow>"..tGuaWei[nType][4].."<color>linh th¹ch sè\nB¸t Qu¸t trang bŞ vµ ®iÓm linh khİ cña linh th¹ch ph¶i phï hîp trªn b¶ng chØ dÉn, lóc ®iÓm cña 3 viªn linh th¹ch b»ng víi giíi h¹n ®iÓm linh khİ trang bŞ tøc lµ h×nh thµnh trang bŞ b¸t qu¸i ch­a kİch ho¹t.",
+			"æ‰“é€ å¦ä½/dazao_guawei",
+			"ç¦»å¼€/nothing"};
+		Say("Ch? tç­¼ 1 b? <color=yellow>"..tGuaWei[nType][1].."<color>Quç«” trang b? cè• \ntrang b?: giéŸ hç­º ç”¶è§¤ linh kh? l? <color=yellow>"..tGuaWei[nType][5].."<color>Trang b? sé‘ŒnKhç§ nç­¸ viçŒ² linh thç­©h th? 1: ç”¶è§¤ linh kh? khç§ nç­¸ l? <color=yellow>"..tGuaWei[nType][2].."<color>linh thç­©h sé‘ŒnKhç§ nç­¸ viçŒ² linh thç­©h th? 2: ç”¶è§¤ linh kh? khç§ nç­¸ l? <color=yellow>"..tGuaWei[nType][3].."<color>linh thç­©h sé‘Œnkhç§ nç­¸ viçŒ² linh thç­©h th? 3: dç”¶è§¤ linh kh? khç§ nç­¸ l? <color=yellow>"..tGuaWei[nType][4].."<color>linh thç­©h sé‘ŒnBç«§ Quç«§ trang b? v? ç”¶è§¤ linh kh? cé¦» linh thç­©h phç§ˆ ph? hé ¿ trçŒ² bç§g ch? dè’¼, léª³ ç”¶è§¤ cé¦» 3 viçŒ² linh thç­©h bç±²g véŸ giéŸ hç­º ç”¶è§¤ linh kh? trang b? té´† l? hè­¶h thç¥…h trang b? bç«§ quç«” chç’¦ kè¼ˆh hoç®ƒ.",
 			getn(strtab),
 			strtab)
 	end
@@ -198,61 +198,61 @@ end
 function bagua_chuansong()
 	local nPos = GetWorldPos();
 	if nPos >= 700 then
-		Talk(1,"OnUse","Khu vùc hiÖn t¹i kh«ng thÓ dïng chøc n¨ng truyÒn tèng nµy!");
+		Talk(1,"OnUse","è¯¥åŒºåŸŸç›®å‰æ— æ³•ä½¿ç”¨æ­¤ä¼ é€åŠŸèƒ½");
 		return
 	end
 	if GetFightState() == 1 then
-		Talk(1,"OnUse","Xin sö dông chøc n¨ng truyÒn tèng nµy trong khu vùc hßa b×nh.");
+		Talk(1,"OnUse","è¯·ä½¿ç”¨è¿™ä¸ªåœ¨å’Œå¹³åœ°åŒºçš„ä¼ é€åŠŸèƒ½");
 		return
 	end
-	Say("§· gäi lµ b¶o ®iÓn, ®­¬ng nhiªn ph¶i kh¸c c¸c vËt tÇm th­êng! ChØ cÇn tèn 1 chót tiÒn lµ cã thÓ ®­a ng­¬i ®Õn n¬i muèn ®Õn!",
+	Say("åªè¦èŠ±ä¸€ç‚¹é’±ï¼Œæˆ‘å°±èƒ½æŠŠä½ é€åˆ°ä½ æƒ³å»çš„åœ°æ–¹",
 	5,
-	"Ng­êi kİch ho¹t B¸t Qu¸i trang bŞ vµ lÊy linh th¹ch/gongyeshijia",
-	"Ng­êi gióp chÕ t¹o trang bŞ linh khİ vµ ®ôc lç/zhizuoxi",
-	"Ng­êi gióp kİch ho¹t trang bŞ b¸t qu¸i!/shenyouzhenren",
-	"Ng­êi gióp kh¶m n¹m linh th¹ch vµ t¨ng trang bŞ B¸t Qu¸i./liutiejiang",
-	"ChØ xem thö!/SayHello"	
+	"å·¥ä¸šä¸–å®¶gongyeshijia",
+	"åˆ¶ä½œå’Œæ‰“å­”/zhizuoxi",
+	"ç¥æ¸¸çœŸäºº/shenyouzhenren",
+	"åˆ˜é“åŒ /liutiejiang",
+	"åªæ˜¯çœ‹çœ‹/SayHello"	
 	)
 end
 
 function gongyeshijia()
-	Say("C¸c truyÒn nh©n cña C«ng §· ThÕ Gia ë ®©u còng cã. LÊy vµ hîp thµnh Linh th¹ch hä ®Òu gióp ®­îc. Ta cã thÓ ®­a ®Õn ng­¬i ®ã, thu phİ <color=red>20 b¹c<color> nhĞ!.",
+	Say("Cç« truyè¥« nhï¹ cé¦» Cç­g Ğ¥ Th? Gia ? î†€u cé¨¨g c?. Lè• v? hé ¿ thç¥…h Linh thç­©h h? î†©u gié«‰ î†„é ². Ta c? th? î†„a î†¬n ngî„¥i î†º, thu ph? <color=red>20 bç­©<color> nh?!.",
 	4,
-	"C«ng D· Binh- T­¬ng D­¬ng/gongyebing",
-	"C«ng D· Khİ- D­¬ng Ch©u./gongyeqi",
-	"C«ng D· Cô -§¹i Lı/gongyeju",
-	"Ta kh«ng muèn t×m hä./SayHello"	
+	"å…¬å†¶å…µ-è¥„é˜³/gongyebing",
+	"å…¬å†¶å™¨-æ‰¬å·/gongyeqi",
+	"å…¬å†¶å…·-å¤§ç†/gongyeju",
+	"åªæ˜¯çœ‹çœ‹/SayHello"	
 	)
 end
 
 function zhizuoxi()
-	Say("Thiªn h¹ thî rÌn khĞo tay rÊt nhiÒu, mÊy vŞ nµy ®Òu lµ cao thñ trong trong ®ã, b¸t qu¸i vµ c¸c trang bŞ cã lç nhÊt ®Şnh ph¶i t×m hä míi ®­îc. Thu phİ <color=red>101 b¹c<color> nhĞ!",
+	Say("æˆ‘å¯ä»¥é€ä½ å»è¿™äº›åœ°æ–¹ï¼Œåªè¦ä½ æ”¯ä»˜<color=red>101é“¶å¸<color>å°±å¯ä»¥",
 	7,
-	"BiÖn Kinh to lín, binh khİ ®­îc chÕ t¹o nhiÒu, chñ yÕu lµ c«n, th­¬ng, thiÒn tr­îng/moda",
-	"M¹c NhŞ ë Thµnh §«, thiªn vÒ chÕ t¹o vò khİ ng¾n dµi, chñ yÕu lµ ®ao, kiÕm, song ®ao, hé thñ./moer",
-	"M¹c Tam ë T­¬ng D­¬ng, thiªn vÒ chÕ t¹o binh khİ kú m«n, chñ yÕu ¸m khİ, ®µn, bót, tr¶o, cung/mosan",
-	"CÈm N­¬ng ë Thµnh §«, thiªn vÒ dÖt v¶i, mçi h×nh d¸ng ®Òu cã thÓ häc ®­îc tõ bµ Êy./jinniang",
-	"Tö Quyªn c« n­¬ng ë §¹i Lı, thiªn vÒ dÖt h¹ trang/zijuan",
-	"Minh s­ phô ë T­¬ng D­¬ng, chuyªn vÒ Kh«i qu¸n/mingshifu",
-	"Ta kh«ng muèn t×m hä./SayHello"	
+	"è«å¤§/moda",
+	"è«äºº/moer",
+	"è«ä¸‰/mosan",
+	"é”¦å¨˜/jinniang",
+	"ç´«é¹ƒå§‘å¨˜/zijuan",
+	"å…¬å­™ä¹¦/mingshifu",
+	"åªæ˜¯çœ‹çœ‹./SayHello"	
 	)
 end
 
 function shenyouzhenren()
-	Say("Nãi ®Õn B¸t Qu¸i, ph¶i nãi ®Õn ThÇn Du Ch©n Nh©n, kİch ho¹t trang bŞ b¸t qu¸i ch­a kİch ho¹t ph¶i dùa vµo «ng ta, thu tiÒn<color=red>10 b¹c<color> nhĞ.",
+	Say("æˆ‘å¯ä»¥é€ä½ å»è¿™äº›åœ°æ–¹ï¼Œåªè¦ä½ æ”¯ä»˜<color=red>10é“¶å¸<color>å°±å¯ä»¥ã€‚",
 	4,
-	"ThÇn Du Ch©n Nh©n ë BiÖn Kinh/bianjingshenyou",
-	"ThÇn Du Ch©n Nh©n ë Thµnh §«/chengdushenyou",
-	"ThÇn Du Ch©n Nh©n ë TuyÒn Ch©u/quanzhoushenyou",
-	"Ta kh«ng muèn t×m hä./SayHello"	
+	"æ±´äº¬ç¥æ¸¸çœŸäºº/bianjingshenyou",
+	"æˆéƒ½ç¥æ¸¸çœŸäºº/chengdushenyou",
+	"æ³‰å·ç¥æ¸¸çœŸäºº/quanzhoushenyou",
+	"åªæ˜¯çœ‹çœ‹/SayHello"	
 	)
 end
 	
 function liutiejiang()
-	Say("C­êng hãa trang bŞ, cã ai kh«ng biÕt danh tiÕng cña thî rÌn L­u! Thu tiÒn <color=red>20 b¹c<color>.",
+	Say("æˆ‘å¯ä»¥é€ä½ å»è¿™äº›åœ°æ–¹ï¼Œåªè¦ä½ æ”¯ä»˜<color=red>20é“¶å¸<color>.",
 	2,
-	"Thî rÌn L­u ë T­¬ng D­¬ng/xiangyangliutie",
-	"Ta kh«ng muèn t×m hä./SayHello"	
+	"åˆ˜é“åŒ /xiangyangliutie",
+	"åªæ˜¯çœ‹çœ‹/SayHello"	
 )
 end
 
@@ -267,9 +267,9 @@ end;
 function gongyebing()
 	n=moneygo1()
 	if n==0 then 
-		Talk(1,"","H×nh nh­ ng­¬i kh«ng ®ñ tiÒn?")
+		Talk(1,"","çœ‹èµ·æ¥ä½ å¸¦çš„é’±ä¸å¤Ÿå•Šï¼")
 	else 
-		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
+		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
 		NewWorld(350,1399,2992)
 		SetFightState(0);
 	end
@@ -278,9 +278,9 @@ end
 function gongyeqi()
 	n=moneygo1()
 	if n==0 then 
-		Talk(1,"","H×nh nh­ ng­¬i kh«ng ®ñ tiÒn?")
+		Talk(1,"","çœ‹èµ·æ¥ä½ å¸¦çš„é’±ä¸å¤Ÿå•Š")
 	else 
-		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
+		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
 			NewWorld(150,1647,3152)
 			SetFightState(0);
 	end
@@ -289,9 +289,9 @@ end
 function gongyeju()
 	n=moneygo1()
 	if n==0 then 
-		Talk(1,"","H×nh nh­ ng­¬i kh«ng ®ñ tiÒn?")
+		Talk(1,"","çœ‹èµ·æ¥ä½ å¸¦çš„é’±ä¸å¤Ÿå•Š")
 	else 
-		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
+		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
 			NewWorld(400,1493,3058)
 			SetFightState(0);
 	end
@@ -300,9 +300,9 @@ end
 function xiangyangliutie()
 	n=moneygo1()
 	if n==0 then 
-		Talk(1,"","H×nh nh­ ng­¬i kh«ng ®ñ tiÒn?")
+		Talk(1,"","çœ‹èµ·æ¥ä½ å¸¦çš„é’±ä¸å¤Ÿå•Š")
 	else 
-		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
+		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
 			NewWorld(350,1415,2930)
 			SetFightState(0);
 	end
@@ -311,9 +311,9 @@ end
 function moda()
 	n=moneygo2()
 	if n==0 then 
-		Talk(1,"","H×nh nh­ ng­¬i kh«ng ®ñ tiÒn?")
+		Talk(1,"","çœ‹èµ·æ¥ä½ å¸¦çš„é’±ä¸å¤Ÿå•Š")
 	else 
-		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
+		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
 			NewWorld(200,1426,3025)
 			SetFightState(0);
 	end
@@ -322,9 +322,9 @@ end
 function moer()
 	n=moneygo2()
 	if n==0 then 
-		Talk(1,"","H×nh nh­ ng­¬i kh«ng ®ñ tiÒn?")
+		Talk(1,"","çœ‹èµ·æ¥ä½ å¸¦çš„é’±ä¸å¤Ÿå•Š")
 	else 
-		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
+		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
 			NewWorld(300,1709,3459)
 			SetFightState(0);
 	end
@@ -333,9 +333,9 @@ end
 function mosan()
 	n=moneygo2()
 	if n==0 then 
-		Talk(1,"","H×nh nh­ ng­¬i kh«ng ®ñ tiÒn?")
+		Talk(1,"","çœ‹èµ·æ¥ä½ å¸¦çš„é’±ä¸å¤Ÿå•Š")
 	else 
-		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
+		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
 			NewWorld(350,1345,2929)
 			SetFightState(0);
 	end
@@ -344,9 +344,9 @@ end
 function jinniang()
 	n=moneygo2()
 	if n==0 then 
-		Talk(1,"","H×nh nh­ ng­¬i kh«ng ®ñ tiÒn?")
+		Talk(1,"","çœ‹èµ·æ¥ä½ å¸¦çš„é’±ä¸å¤Ÿå•Š")
 	else 
-		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
+		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
 			NewWorld(300,1862,3479)
 			SetFightState(0);
 	end
@@ -355,9 +355,9 @@ end
 function zijuan()
 	n=moneygo2()
 	if n==0 then 
-		Talk(1,"","H×nh nh­ ng­¬i kh«ng ®ñ tiÒn?")
+		Talk(1,"","çœ‹èµ·æ¥ä½ å¸¦çš„é’±ä¸å¤Ÿå•Š")
 	else 
-		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
+		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
 			NewWorld(400,1409,2985)
 			SetFightState(0);
 	end
@@ -366,9 +366,9 @@ end
 function mingshifu()
 	n=moneygo2()
 	if n==0 then 
-		Talk(1,"","H×nh nh­ ng­¬i kh«ng ®ñ tiÒn?")
+		Talk(1,"","çœ‹èµ·æ¥ä½ å¸¦çš„é’±ä¸å¤Ÿå•Š")
 	else 
-		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
+		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
 			NewWorld(350,1546,2935)
 			SetFightState(0);
 	end
@@ -377,9 +377,9 @@ end
 function bianjingshenyou()
 	n=moneygo2()
 	if n==0 then 
-		Talk(1,"","H×nh nh­ ng­¬i kh«ng ®ñ tiÒn?")
+		Talk(1,"","çœ‹èµ·æ¥ä½ å¸¦çš„é’±ä¸å¤Ÿå•Š")
 	else 
-		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
+		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
 			NewWorld(200,1151,2855)
 			SetFightState(0);
 	end
@@ -388,9 +388,9 @@ end
 function chengdushenyou()
 	n=moneygo2()
 	if n==0 then 
-		Talk(1,"","H×nh nh­ ng­¬i kh«ng ®ñ tiÒn?")
+		Talk(1,"","çœ‹èµ·æ¥ä½ å¸¦çš„é’±ä¸å¤Ÿå•Š")
 	else 
-		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
+		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
 			NewWorld(300,1975,3557)
 			SetFightState(0);
 	end
@@ -399,9 +399,9 @@ end
 function quanzhoushenyou()
 	n=moneygo2()
 	if n==0 then 
-		Talk(1,"","H×nh nh­ ng­¬i kh«ng ®ñ tiÒn?")
+		Talk(1,"","çœ‹èµ·æ¥ä½ å¸¦çš„é’±ä¸å¤Ÿå•Š")
 	else 
-		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
+		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
 			NewWorld(100,1379,2860)
 			SetFightState(0);
 	end
@@ -413,10 +413,10 @@ end
 
 function bagua_taozhuang_yaoqiu()
 	local strtab = {
-		"trang bŞ B¸t Qu¸i Phæ th«ng /#bagua_taozhuang(0)",
---		"ÌìµØĞş»ÆÌ××°/#tiandi_taozhuang(0)",
-		"trë l¹i/OnUse"};
-	Say("Ng­¬i muèn xem trang bŞ b¸t qu¸i nµo?",
+		"å…«å¦å¥—è£…/#bagua_taozhuang(0)",
+--		"å¤©åœ°ç„é»„å¥—è£…/#tiandi_taozhuang(0)",
+		"è¿”å›/OnUse"};
+	Say("ä½ æƒ³çœ‹å“ªä¸ªï¼Ÿ",
 		getn(strtab),
 		strtab)
 end
@@ -430,20 +430,20 @@ function tiandi_taozhuang(nPage)
 		num_this_dia = nRemaidNum;
 	end
 	for i=1,num_this_dia do
-		tinsert(tDiaTab,tTiandi[nPageNum*nPage+i][1].."Trang bŞ: §iÓm linh khİ ®¬n "..tTiandi[nPageNum*nPage+i][8].."]["..tTiandi[nPageNum*nPage+i][2]..":"..tTiandi[nPageNum*nPage+i][3]..":"..tTiandi[nPageNum*nPage+i][4]..":"..tTiandi[nPageNum*nPage+i][5].."]/#tiandi_detail("..nPage..","..(nPageNum*nPage+i)..")");
+		tinsert(tDiaTab,tTiandi[nPageNum*nPage+i][1].."Trang b?: îœ¯è§¤ linh kh? î†ƒn "..tTiandi[nPageNum*nPage+i][8].."]["..tTiandi[nPageNum*nPage+i][2]..":"..tTiandi[nPageNum*nPage+i][3]..":"..tTiandi[nPageNum*nPage+i][4]..":"..tTiandi[nPageNum*nPage+i][5].."]/#tiandi_detail("..nPage..","..(nPageNum*nPage+i)..")");
 	end
 	if nPage ~= 0 then
-		tinsert(tDiaTab,"Trang tr­íc/#tiandi_taozhuang("..(nPage-1)..")");
+		tinsert(tDiaTab,"ä¸Šä¸€é¡µ/#tiandi_taozhuang("..(nPage-1)..")");
 	end
 	if nRemaidNum > nPageNum then
-		tinsert(tDiaTab,"Trang kÕ/#tiandi_taozhuang("..(nPage+1)..")");
+		tinsert(tDiaTab,"ä¸‹ä¸€é¡µ/#tiandi_taozhuang("..(nPage+1)..")");
 	end
-	tinsert(tDiaTab,"trë l¹i/OnUse");
-	Say("Trang bŞ Thiªn §Şa HuyÒn hoµng bao gåm thuéc tİnh trang bŞ Phæ th«ng B¸t Qu¸i.",
+	tinsert(tDiaTab,"è¿”å›/OnUse");
+	Say("Trang b? ThiçŒ² Ğ¼a Huyè¥« hoç¥…g bao géŒ· thué– tè¼“h trang b? Ph? thç­g Bç«§ Quç«”.",
 		getn(tDiaTab),
 		tDiaTab)
 end	
 
 function tiandi_detail(nPage,nType)
-	Talk(1,"#tiandi_taozhuang("..nPage..")","\n<color=red>"..tTiandi[nType][1].."<color>trang bŞ<color=red>"..tTiandi[nType][2].."<color>Qu¸i §Çu Bé+<color=red>"..tTiandi[nType][3].."<color>Qu¸i Y Phôc+<color=red>"..tTiandi[nType][4].."<color>Qu¸i H¹ Trang+<color=red>"..tTiandi[nType][5].."<color>Qu¸i Vò Khİ. Ph¹m vi ®iÓm linh khİ cÇn cho mçi trang bŞ lµ: <color=red>"..tTiandi[nType][8].."<color>. Thuéc tİnh kİch ho¹t lµ: <color=red>"..tTiandi[nType][6].."."..tTiandi[nType][7].."<color>.")
+	Talk(1,"#tiandi_taozhuang("..nPage..")","\n<color=red>"..tTiandi[nType][1].."<color>trang b?<color=red>"..tTiandi[nType][2].."<color>Quç«” î¥u B?+<color=red>"..tTiandi[nType][3].."<color>Quç«” Y Phé¬°+<color=red>"..tTiandi[nType][4].."<color>Quç«” H? Trang+<color=red>"..tTiandi[nType][5].."<color>Quç«” V? Kh?. Phç­¸ vi ç”¶è§¤ linh kh? cè• cho mé¸ trang b? l?: <color=red>"..tTiandi[nType][8].."<color>. Thué– tè¼“h kè¼ˆh hoç®ƒ l?: <color=red>"..tTiandi[nType][6].."."..tTiandi[nType][7].."<color>.")
 end
