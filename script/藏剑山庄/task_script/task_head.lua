@@ -11,56 +11,56 @@ Include("\\script\\misc\\observer\\observer_head.lua")
 --============================================================================================== HEAD ====
 SF_FILE_SVR =
 {
-	"\\script\\²Ø½£É½×¯\\task_script\\³É¶¼\\²Ø½£Ê¹Õß.lua",
-	"\\script\\²Ø½£É½×¯\\task_script\\ãê¾©\\²Ø½£Ê¹Õß.lua",
-	"\\script\\²Ø½£É½×¯\\task_script\\ÈªÖİ\\²Ø½£Ê¹Õß.lua",
-	"\\script\\²Ø½£É½×¯\\task_script\\ÏåÑô\\²Ø½£Ê¹Õß.lua",
-	"\\script\\²Ø½£É½×¯\\task_script\\ÑïÖİ\\²Ø½£Ê¹Õß.lua"
+	"\\script\\è—å‰‘å±±åº„\\task_script\\æˆéƒ½\\è—å‰‘ä½¿è€….lua",
+	"\\script\\è—å‰‘å±±åº„\\task_script\\æ±´äº¬\\è—å‰‘ä½¿è€….lua",
+	"\\script\\è—å‰‘å±±åº„\\task_script\\æ³‰å·\\è—å‰‘ä½¿è€….lua",
+	"\\script\\è—å‰‘å±±åº„\\task_script\\è¥„é˜³\\è—å‰‘ä½¿è€….lua",
+	"\\script\\è—å‰‘å±±åº„\\task_script\\æ‰¬å·\\è—å‰‘ä½¿è€….lua"
 }
 
---°´ÁĞ´Ó×óµ½ÓÒ£ºÊÇ·ñÇø·ÖÌåĞÍ£¬ÎïÆ·Ãû³Æ£¬´óÀà£¬¸±Àà£¬ÏêÏ¸Àà±ğ
+--æŒ‰åˆ—ä»å·¦åˆ°å³ï¼šæ˜¯å¦åŒºåˆ†ä½“å‹ï¼Œç‰©å“åç§°ï¼Œå¤§ç±»ï¼Œå‰¯ç±»ï¼Œè¯¦ç»†ç±»åˆ«
 tGOOD_DROP_ITEM = 
 {
-	[1] = {1, "Tæng Qu¶n khè", 0, 101, 91},
-	[2] = {1, "Tæng Qu¶n Ngo¹i trang", 0, 100, 91},
-	[3] = {0, "TiÓu Th­ Giíi ChØ", 0, 102, 36},
-	[4] = {1, "Trang Chñ m·o", 0, 103, 91},
-	[5] = {0, "Tr­ëng L·o ChØ Hoµn", 0, 102, 37},
-	[6] = {0, "Tµng KiÕm B¶o Ch©u", 0, 102, 38},
-	[7] = {0, "Tµng KiÕm Kú Th¹ch", 0, 102, 39},
-	[8] = {1, "Tµng KiÕm Tö Kim m·o", 0,103,95},
-	[9] = {1, "Kim Lò Th­êng", 0,100,95},
-	[10] = {1, "Tµng KiÕm ¤ kim phôc", 0,101,95},
-	[11] = {0, "Tµng KiÕm Kim Ên", 0,102,40},
+	[1] = {1, "æ€»ç®¡è£¤", 0, 101, 91},
+	[2] = {1, "æ€»ç®¡å¤–è¡£", 0, 100, 91},
+	[3] = {0, "å°å§æˆ’æŒ‡", 0, 102, 36},
+	[4] = {1, "åº„ä¸»å¸½", 0, 103, 91},
+	[5] = {0, "é•¿è€æŒ‡ç¯", 0, 102, 37},
+	[6] = {0, "è—å‰‘å®ç ", 0, 102, 38},
+	[7] = {0, "è—å‰‘å¥‡çŸ³", 0, 102, 39},
+	[8] = {1, "è—å‰‘ç´«é‡‘å¸½", 0,103,95},
+	[9] = {1, "è—å‰‘é‡‘ç¼•è£³", 0,100,95},
+	[10] = {1, "è—å‰‘ä¹Œé‡‘è£…", 0,101,95},
+	[11] = {0, "è—å‰‘é‡‘å°", 0,102,40},
 }
 
 tBOSS_GOOD_DROP =
 {
-	["Tæng qu¶n ngo¹i viÖn"] = {
+	["Té›g quç§ ngoç­° viè¬“"] = {
 		[70] = {{100, 1}},
 		[80] = {{120, 1}},
 		[90] = {{160, 1}},
 	},
 		
-	["Tæng qu¶n néi viÖn"] = {
+	["Té›g quç§ né–• viè¬“"] = {
 		[70] = {{100, 2}},
 		[80] = {{120, 2}},
 		[90] = {{160, 2}},
 	},
 	
-	["§¹i tiÓu th­"] = {
+	["Ğ§i tiè§° th?"] = {
 		[70] = {{100, 3}},
 		[80] = {{120, 3}},
 		[90] = {{160, 3}},
 	},
 		
-	["§¹i trang chñ"] = {
+	["Ğ§i trang ch?"] = {
 		[70] = {{100, 4}},
 		[80] = {{120, 4}},
 		[90] = {{160, 4}},
 	},
 	
-	["Tr­ëng l·o Tµng KiÕm C¸c"] = {
+	["Trî…¤ng lç©™ Tç¥…g Kièª± Cç«"] = {
 		[70] = {{100, 5}},
 		
 		[80] = {
@@ -76,7 +76,7 @@ tBOSS_GOOD_DROP =
 		},
 	},
 		
-	["Cöu TuyÖt KiÕm Ma"] = {
+	["Cé°‘ Tuyè¬™ Kièª± Ma"] = {
 		[80] = {
 			{60	, 8},
 			{160, 9},
@@ -95,56 +95,56 @@ tBOSS_GOOD_DROP =
 
 
 SF_TOWNID_SVR = {300,200,100,350,150}
-SF_TOWNNAME_SVR = {"Thµnh §«","BiÖn Kinh","TuyÒn Ch©u","T­¬ng D­¬ng","D­¬ng Ch©u"}
-SF_BACKPOINT_SVR = {			-- ÒâÍâÖĞ¶ÏºóÍæ¼Ò·µ»ØµÄµØµã
+SF_TOWNNAME_SVR = {"æˆéƒ½ï¼Œâ€œæ±´äº¬â€ã€â€œæ³‰å·â€ã€â€œè¥„é˜³â€ã€â€œæ‰¬å·â€"}
+SF_BACKPOINT_SVR = {			-- æ„å¤–ä¸­æ–­åç©å®¶è¿”å›çš„åœ°ç‚¹
 {300,1776,3704},
 {200,1229,2763},
 {100,1510,3107},
 {350,1395,2852},
 {150,1745,3120}}
-SF_FILE = ""		-- ²»Í¬·şÎñÆ÷ĞèÒªĞŞ¸Ä´Ë´¦Ö¸ÏòÊµ¼ÊÎÄ¼ş
+SF_FILE = ""		-- ä¸åŒæœåŠ¡å™¨éœ€è¦ä¿®æ”¹æ­¤å¤„æŒ‡å‘å®é™…æ–‡ä»¶
 SF_TOWNID = 350
-SF_TOWNNAME = "T­¬ng D­¬ng"
+SF_TOWNNAME = "è¥„é˜³"
 SF_BACKPOINT = {350, 1397, 2852}
 SF_MAPBASE = 1000
---09Äê8ÔÂ²Ø½£µ÷ÕûĞÂÔö½±Àø
+--09å¹´8æœˆè—å‰‘è°ƒæ•´æ–°å¢å¥–åŠ±
 tNEW_AWARD_EX = {
-	{--µÚÒ»¹Ø
+	{--ç¬¬ä¸€å…³
 		[5] = 15000,
 		[6] = 60000,
 		[7] = 75000,
 		[8] = 90000,
 		[9] = 105000,
 	},
-	{--µÚ¶ş¹Ø
+	{--ç¬¬äºŒå…³
 		[5] = 20000,
 		[6] = 80000,
 		[7] = 100000,
 		[8] = 120000,
 		[9] = 140000,
 	},
-	{--µÚÈı¹Ø
+	{--ç¬¬ä¸‰å…³
 		[5] = 20000,
 		[6] = 80000,
 		[7] = 100000,
 		[8] = 120000,
 		[9] = 140000,
 	},
-	{--µÚËÄ¹Ø
+	{--ç¬¬å››å…³
 		[5] = 30000,
 		[6] = 120000,
 		[7] = 150000,
 		[8] = 180000,
 		[9] = 210000,
 	},
-	{--µÚÎå¹Ø
+	{--ç¬¬äº”å…³
 		[5] = 40000,
 		[6] = 160000,
 		[7] = 200000,
 		[8] = 240000,
 		[9] = 280000,
 	},
-	{--µÚÁù¹Ø
+	{--ç¬¬å…­å…³
 		[5] = 40000,
 		[6] = 160000,
 		[7] = 200000,
@@ -154,42 +154,42 @@ tNEW_AWARD_EX = {
 };
 
 tNEW_AWARD_EX_2 = {
-	{--µÚÒ»¹Ø
+	{--ç¬¬ä¸€å…³
 		[5] = 15000,
 		[6] = 60000,
 		[7] = 75000,
 		[8] = 90000,
 		[9] = 105000,
 	},
-	{--µÚ¶ş¹Ø
+	{--ç¬¬äºŒå…³
 		[5] = 20000,
 		[6] = 80000,
 		[7] = 100000,
 		[8] = 120000,
 		[9] = 140000,
 	},
-	{--µÚÈı¹Ø
+	{--ç¬¬ä¸‰å…³
 		[5] = 20000,
 		[6] = 80000,
 		[7] = 100000,
 		[8] = 120000,
 		[9] = 140000,
 	},
-	{--µÚËÄ¹Ø
+	{--ç¬¬å››å…³
 		[5] = 2100000,
 		[6] = 2300000,
 		[7] = 2500000,
 		[8] = 3000000,
 		[9] = 3250000,
 	},
-	{--µÚÎå¹Ø
+	{--ç¬¬äº”å…³
 		[5] = 40000,
 		[6] = 160000,
 		[7] = 200000,
 		[8] = 240000,
 		[9] = 280000,
 	},
-	{--µÚÁù¹Ø
+	{--ç¬¬å…­å…³
 		[5] = 40000,
 		[6] = 160000,
 		[7] = 200000,
@@ -198,7 +198,7 @@ tNEW_AWARD_EX_2 = {
 	},
 };
 
---09Äê8ÔÂ²Ø½£µ÷ÕûĞÂÔö½±Àø
+--09å¹´8æœˆè—å‰‘è°ƒæ•´æ–°å¢å¥–åŠ±
 tNEW_AWARD_EX_STAGE_7_NEW = {
 		[5] = 1225000,
 		[6] = 1675000,
@@ -244,7 +244,7 @@ function SB_GetPNPage(nStage)
 	elseif nStageNext == 10 then
 		nStageNext = 9
 	end
------------ ´Ë´¦ÎªÆÁ±ÎÎ´¿ª·ÅµÄ³¡¾°µÄÒ³ÃæÏÔÊ¾
+----------- æ­¤å¤„ä¸ºå±è”½æœªå¼€æ”¾çš„åœºæ™¯çš„é¡µé¢æ˜¾ç¤º
 	if nStageNext == 6 then
 		nStageNext = 8
 	elseif nStagePre == 7 then
@@ -254,11 +254,11 @@ function SB_GetPNPage(nStage)
 	return nStagePre, nStageNext
 end
 
--- ¸ñÊ½»¯×Ö·û´®£ºÎª sStr Ìí¼Ó¿Õ¸ñ»òÕß"0"´ïµ½ nLen µÄ³¤¶È
--- sStr : Ô­Êı¾İ(ÕûÊı¡¢×Ö·û´®¡­¡­)
--- nLen : ¸ñÊ½ºó³¤¶È
--- nMode : 1.ÔÚ´®ºó¼Ò¿Õ¸ñ(¿ÕÈ±Ä¬ÈÏ) 2.ÔÚ´®Ç°¼Ó¿Õ¸ñ 3.ÔÚ´®Ç°¼Ó¡°0¡±
--- ·µ»Ø¸ñÊ½»¯ºóµÄ×Ö·û´®
+-- æ ¼å¼åŒ–å­—ç¬¦ä¸²ï¼šä¸º sStr æ·»åŠ ç©ºæ ¼æˆ–è€…"0"è¾¾åˆ° nLen çš„é•¿åº¦
+-- sStr : åŸæ•°æ®(æ•´æ•°ã€å­—ç¬¦ä¸²â€¦â€¦)
+-- nLen : æ ¼å¼åé•¿åº¦
+-- nMode : 1.åœ¨ä¸²åå®¶ç©ºæ ¼(ç©ºç¼ºé»˜è®¤) 2.åœ¨ä¸²å‰åŠ ç©ºæ ¼ 3.åœ¨ä¸²å‰åŠ â€œ0â€
+-- è¿”å›æ ¼å¼åŒ–åçš„å­—ç¬¦ä¸²
 function SB_FormatStr(sStr, nLen, nMode)
 	if sStr == nil then sStr = GetName() end
 	if type(sStr) ~= "string" then sStr = tostring(sStr) end
@@ -277,10 +277,10 @@ function SB_FormatStr(sStr, nLen, nMode)
 	return sStr
 end
 
--- Õû³ı 
--- num : ³ıÊı
--- steps : ±»³ıÊı
--- ·µ»Ø ÉÌ ºÍ ÓàÊı
+-- æ•´é™¤ 
+-- num : é™¤æ•°
+-- steps : è¢«é™¤æ•°
+-- è¿”å› å•† å’Œ ä½™æ•°
 function SB_Div(num, steps)
 	if tonumber(num) == nil then
 		return 0
@@ -296,12 +296,12 @@ function SB_Div(num, steps)
 	return (num - mod(num, steps)) / steps, mod(num, steps)
 end
 
--- Õû³ı£ºÖ»ÄÜ³ıÒÔ10µÄÕû±¶Êı
--- num : ³ıÊı
--- steps : ±»³ıÊı
--- ·µ»Ø ÉÌ
+-- æ•´é™¤ï¼šåªèƒ½é™¤ä»¥10çš„æ•´å€æ•°
+-- num : é™¤æ•°
+-- steps : è¢«é™¤æ•°
+-- è¿”å› å•†
 function MU_Div(num, steps)
-	if tonumber(num) == nil then						-- Õû³ı steps
+	if tonumber(num) == nil then						-- æ•´é™¤ steps
 		return 0
 	else
 		num = tonumber(num)
@@ -313,9 +313,9 @@ function MU_Div(num, steps)
 	return (num - mod(num, steps)) / steps
 end
 
--- ·´×ª£º·´×ª BOOLEAN
+-- åè½¬ï¼šåè½¬ BOOLEAN
 -- num : 0 or 1
--- ·µ»Ø (not num)
+-- è¿”å› (not num)
 function MU_Inverse(num)
 	if num == 0 then
 		return 1
@@ -324,9 +324,9 @@ function MU_Inverse(num)
 	end
 end
 
--- ¶ÓÎéĞÅÏ¢£ºÏòµ±Ç°Íæ¼ÒËùÔÚ¶ÓÎé·¢ËÍĞÅÏ¢
--- msg : ĞèÒª·¢ËÍµÄĞÅÏ¢
--- msgtype : ·¢ËÍĞÅÏ¢µÄ·½Ê½: 0.Msg2Player(È±Ê¡Ä¬ÈÏ) 1.Say 2.Talk
+-- é˜Ÿä¼ä¿¡æ¯ï¼šå‘å½“å‰ç©å®¶æ‰€åœ¨é˜Ÿä¼å‘é€ä¿¡æ¯
+-- msg : éœ€è¦å‘é€çš„ä¿¡æ¯
+-- msgtype : å‘é€ä¿¡æ¯çš„æ–¹å¼: 0.Msg2Player(ç¼ºçœé»˜è®¤) 1.Say 2.Talk
 function MU_Msg2Team(msg, msgtype)
     local num = GetTeamSize()
     msg = tostring(msg)
@@ -354,10 +354,10 @@ function MU_Msg2Team(msg, msgtype)
     PlayerIndex = OldPlayer
 end
 
--- Á½µã¼ä¾àÀë: È¡µÃÁ½µã¼äµÄ¾àÀë
-function MU_Distance(MapID1, MapX1, MapY1, MapID2, MapX2, MapY2)		-- ÅĞ¶ÏÁ½µã¼ä¾àÀë
+-- ä¸¤ç‚¹é—´è·ç¦»: å–å¾—ä¸¤ç‚¹é—´çš„è·ç¦»
+function MU_Distance(MapID1, MapX1, MapY1, MapID2, MapX2, MapY2)		-- åˆ¤æ–­ä¸¤ç‚¹é—´è·ç¦»
 	if MapID1 ~= MapID2 then
-		Msg2Player("Error: Khu vùc kh«ng phï hîp!")
+		Msg2Player("Error: Khu véµ¦ khç­g ph? hé ¿!")
 		return 0
 	else
 		local dx = MapX2 - MapX1
@@ -367,9 +367,9 @@ function MU_Distance(MapID1, MapX1, MapY1, MapID2, MapX2, MapY2)		-- ÅĞ¶ÏÁ½µã¼ä¾
 	end
 end
 
--- ÎÄ×ÖÉÏÉ«: ¸øÎÄ×Ö¶ÎÉÏÉ«ºó·µ»Ø
--- text : ĞèÒªÉÏÉ«µÄÎÄ×Ö¶Î
--- color : ĞèÒªµÄÑÕÉ«: gray red green blue yellow gold wood metal fire water earth ....
+-- æ–‡å­—ä¸Šè‰²: ç»™æ–‡å­—æ®µä¸Šè‰²åè¿”å›
+-- text : éœ€è¦ä¸Šè‰²çš„æ–‡å­—æ®µ
+-- color : éœ€è¦çš„é¢œè‰²: gray red green blue yellow gold wood metal fire water earth ....
 function MU_GetColoredText(text, color)
 	return "<color="..color..">"..text.."<color>"
 end
@@ -399,18 +399,18 @@ end
 
 --============================================================================================== SPAWNER TABLE ====
 -- Spawner Table
-ST_FILE = new(KTabFile, "\\settings\\²Ø½£É½×¯\\spawner\\cangjian_spawner.txt")			-- ¼ÇÂ¼Ã¿¸ö¹Ø¿¨Ë¢¹ÖµãĞÅÏ¢µÄ±í¸ñ
-ST_TYPE = {"SortID","UnitIndex","MapID","MapX","MapY","NpcID",							-- ±íÍ·£¨ÁĞÃû³Æ£©
+ST_FILE = new(KTabFile, "\\settings\\è—å‰‘å±±åº„\\spawner\\cangjian_spawner.txt")			-- è®°å½•æ¯ä¸ªå…³å¡åˆ·æ€ªç‚¹ä¿¡æ¯çš„è¡¨æ ¼
+ST_TYPE = {"SortID","UnitIndex","MapID","MapX","MapY","NpcID",							-- è¡¨å¤´ï¼ˆåˆ—åç§°ï¼‰
 		   "NpcName","RandomTable","SpawnPeriod","Amount","Limit","SpawnerCount"}
-ST_ROWCOUNT = tonumber(ST_FILE:getRow())												-- ±í×ÜĞĞÊı
-ST_LMD_INIT = {{0,0},{0,0},{0,0},{0,0},{0,0}, {0,0},{0,0},{0,0},{0,0}}					-- ¹ÖÎï³õÊ¼»¯¹Ø¿¨Çø¼ä£¨±íÖĞÎ»ÖÃ£©
-ST_LMD_SPWN = {{0,0},{0,0},{0,0},{0,0},{0,0}, {0,0},{0,0},{0,0},{0,0}}					-- ¹ÖÎïË¢¹Öµã¹Ø¿¨Çø¼ä£¨±íÖĞÎ»ÖÃ£©
+ST_ROWCOUNT = tonumber(ST_FILE:getRow())												-- è¡¨æ€»è¡Œæ•°
+ST_LMD_INIT = {{0,0},{0,0},{0,0},{0,0},{0,0}, {0,0},{0,0},{0,0},{0,0}}					-- æ€ªç‰©åˆå§‹åŒ–å…³å¡åŒºé—´ï¼ˆè¡¨ä¸­ä½ç½®ï¼‰
+ST_LMD_SPWN = {{0,0},{0,0},{0,0},{0,0},{0,0}, {0,0},{0,0},{0,0},{0,0}}					-- æ€ªç‰©åˆ·æ€ªç‚¹å…³å¡åŒºé—´ï¼ˆè¡¨ä¸­ä½ç½®ï¼‰
 
 ------------------------------------------------------------------------------------------------ FUNCTION ----
--- ¶Á±íµÄ³õÊ¼»¯´¦Àí
--- ¼ÆËã±í¸ñÖĞÃ¿Ò»¹ØµÄĞÅÏ¢µÄÎ»ÖÃÇø¼ä
+-- è¯»è¡¨çš„åˆå§‹åŒ–å¤„ç†
+-- è®¡ç®—è¡¨æ ¼ä¸­æ¯ä¸€å…³çš„ä¿¡æ¯çš„ä½ç½®åŒºé—´
 function ST_Init()
-	for i=2, ST_ROWCOUNT do												-- ¼ÆËã¹Ø¿¨Çø¼ä
+	for i=2, ST_ROWCOUNT do												-- è®¡ç®—å…³å¡åŒºé—´
 		local tempdata = tonumber(ST_FILE:getCell(i, ST_TYPE[1]))
 		if (tempdata >= 10000) then
 			local nStage = (tempdata - mod(tempdata, 10000)) / 10000
@@ -431,9 +431,9 @@ function ST_Init()
 		end
 	end
 end				
-ST_Init()	-------------------------------------------------------------- ³õÊ¼»¯Ö´ĞĞ
+ST_Init()	-------------------------------------------------------------- åˆå§‹åŒ–æ‰§è¡Œ
 
--- È¡µÃ¹Ì¶¨rowĞĞdatatypeÁĞµÄµ¥ÔªÄÚÈİ
+-- å–å¾—å›ºå®šrowè¡Œdatatypeåˆ—çš„å•å…ƒå†…å®¹
 function ST_GetData(row, datatype)
 	local tempdata = ST_FILE:getCell(row, ST_TYPE[datatype])
 	if tonumber(tempdata) == nil then
@@ -443,7 +443,7 @@ function ST_GetData(row, datatype)
 	end
 end
 
--- Í¨¹ıdatatypeÁĞÈ¡µÃdataµÄĞĞÊı
+-- é€šè¿‡datatypeåˆ—å–å¾—dataçš„è¡Œæ•°
 function ST_GetRow(data, datatype)
 	for i=2, ST_ROWCOUNT do
 		if (data == ST_GetData(i, datatype)) then
@@ -452,7 +452,7 @@ function ST_GetRow(data, datatype)
 	end
 end
 
--- È¡µÃÄ³Êı¾İµÄĞĞÊıºÍÁĞÊı(Èç¹û±íÖĞÓĞÖØ¸´Êı¾İ,ÔòÈ¡×î¿¿½ü×óÉÏÎ»ÖÃµÄÊı¾İ)
+-- å–å¾—æŸæ•°æ®çš„è¡Œæ•°å’Œåˆ—æ•°(å¦‚æœè¡¨ä¸­æœ‰é‡å¤æ•°æ®,åˆ™å–æœ€é è¿‘å·¦ä¸Šä½ç½®çš„æ•°æ®)
 function ST_GetLoc(data)
 	for i=2, ST_ROWCOUNT do
 		for j=1, 12 do
@@ -466,14 +466,14 @@ end
 
 --============================================================================================== GEARS TABLE ====
 -- Gears Table
-GT_FILE = new(KTabFile, "\\settings\\²Ø½£É½×¯\\gears\\cangjian_gears.txt")			-- ¼ÇÂ¼Ã¿¸ö¹Ø¿¨Ë¢¹ÖµãĞÅÏ¢µÄ±í¸ñ
-GT_TYPE = {"¶i","Ng­êi bŞ rít","Sù kiÖn","Tr¹ng th¸i","Lo¹i h×nh ®¹o cô","Lo¹i phô r¬i ra","Lo¹i nhá phô thuéc",			-- ±íÍ·£¨ÁĞÃû³Æ£© 
-		   "Tû lÖ r¬i30","Tû lÖ r¬i40","Tû lÖ r¬i50","Tû lÖ r¬i60","Tû lÖ r¬i70","Tû lÖ r¬i80","Tû lÖ r¬i90"}
-GT_ROWCOUNT = tonumber(GT_FILE:getRow())											-- ±í×ÜĞĞÊı
-GT_GEARSPART = {"§Çu", "Th©n thÓ", "Ch©n", "Kim hoµn", "Vò khİ"}
-GT_GEARFACTION = {"ThiÕu L©m tôc gia", "ThiÕu L©m tôc gia", "ThiÕu L©m thiÒn t¨ng", "ThiÕu L©m vâ t¨ng", "§­êng M«n", "Nga My phËt gia", "Nga My tôc gia", "C¸i Bang TÜnh y", "C¸i Bang ¤ Y", "Vâ §ang ®¹o gia", "Vâ §ang tôc gia", "D­¬ng M«n th­¬ng Kş", "D­¬ng M«n Cung Kş", "HiÖp §éc", "Tµ §éc"}
+GT_FILE = new(KTabFile, "\\settings\\è—å‰‘å±±åº„\\gears\\cangjian_gears.txt")			-- è®°å½•æ¯ä¸ªå…³å¡åˆ·æ€ªç‚¹ä¿¡æ¯çš„è¡¨æ ¼
+GT_TYPE = {"ç§ˆ","Ngî…£i b? réŸ™","S? kiè¬“","Trç­ºg thç«”","Loç­° hè­¶h î†o c?","Loç­° ph? rç² ra","Loç­° nh? ph? thué–",			-- è¡¨å¤´ï¼ˆåˆ—åç§°ï¼‰ 
+		   "T? l? rç²30","T? l? rç²40","T? l? rç²50","T? l? rç²60","T? l? rç²70","T? l? rç²80","T? l? rç²90"}
+GT_ROWCOUNT = tonumber(GT_FILE:getRow())											-- è¡¨æ€»è¡Œæ•°
+GT_GEARSPART = {"î¥u", "Thï¹ th?", "Chï¹", "Kim hoç¥…", "V? kh?"}
+GT_GEARFACTION = {"Thièª¹ Lï¹ té¬° gia", "Thièª¹ Lï¹ té¬° gia", "Thièª¹ Lï¹ thiè¥« tâ•ªg", "Thièª¹ Lï¹ v? tâ•ªg", "Ğ›é˜¯g Mç­", "Nga My phè—… gia", "Nga My té¬° gia", "Cç«” Bang Tèº°h y", "Cç«” Bang ? Y", "V? îœ§ng î†o gia", "V? îœ§ng té¬° gia", "Dî„¥ng Mç­ thî„¥ng K?", "Dî„¥ng Mç­ Cung K?", "Hiè¬• Ñ‡c", "T? Ñ‡c"}
 ------------------------------------------------------------------------------------------------ FUNCTION ----
--- È¡µÃ¹Ì¶¨rowĞĞdatatypeÁĞµÄµ¥ÔªÄÚÈİ
+-- å–å¾—å›ºå®šrowè¡Œdatatypeåˆ—çš„å•å…ƒå†…å®¹
 function GT_GetData(row, datatype)
 	local tempdata = GT_FILE:getCell(row, GT_TYPE[datatype])
 	if tonumber(tempdata) == nil then
@@ -483,7 +483,7 @@ function GT_GetData(row, datatype)
 	end
 end
 
--- Í¨¹ıdatatypeÁĞÈ¡µÃdataµÄĞĞÊı
+-- é€šè¿‡datatypeåˆ—å–å¾—dataçš„è¡Œæ•°
 function GT_GetRow(data, datatype)
 	for i=2, GT_ROWCOUNT do
 		if (data == GT_GetData(i, datatype)) then
@@ -492,7 +492,7 @@ function GT_GetRow(data, datatype)
 	end
 end
 
--- È¡µÃÄ³Êı¾İµÄĞĞÊıºÍÁĞÊı(Èç¹û±íÖĞÓĞÖØ¸´Êı¾İ,ÔòÈ¡×î¿¿½ü×óÉÏÎ»ÖÃµÄÊı¾İ)
+-- å–å¾—æŸæ•°æ®çš„è¡Œæ•°å’Œåˆ—æ•°(å¦‚æœè¡¨ä¸­æœ‰é‡å¤æ•°æ®,åˆ™å–æœ€é è¿‘å·¦ä¸Šä½ç½®çš„æ•°æ®)
 function GT_GetLoc(data)
 	for i=2, GT_ROWCOUNT do
 		for j=1, 12 do
@@ -504,14 +504,14 @@ function GT_GetLoc(data)
 	end
 end
 
---ĞÂµÄ¸ø¶«Î÷ĞèÇó£¬¼ÓÔÚÕâÀï°É
+--æ–°çš„ç»™ä¸œè¥¿éœ€æ±‚ï¼ŒåŠ åœ¨è¿™é‡Œå§
 function GT_BossGiveNew(name)
 
-	-- Ô½ÄÏ2009	ÈıÔÂ»î¶¯
+	-- è¶Šå—2009	ä¸‰æœˆæ´»åŠ¨
 	if is_march_09_viet_open() == 1 then
 		local tDropBag =
 		{
-			["Cöu TuyÖt KiÕm Ma"] = 80,
+			["ä¹æŠŠå‰‘"] = 80,
 		}
 
 		local nItemNum = tDropBag[name]
@@ -519,7 +519,7 @@ function GT_BossGiveNew(name)
 			nItemNum = 1
 			local nRandom = random(1,100)
 			if nRandom <= 30 then
-				add_bag_march_09_viet(nItemNum, "Tµng KiÕm s¬n trang")
+				add_bag_march_09_viet(nItemNum, "è—å‰‘å±±åº„")
 			end
 		else
 			local nOldPlayer = PlayerIndex
@@ -527,7 +527,7 @@ function GT_BossGiveNew(name)
 				PlayerIndex = GetTeamMember(i)
 				if PlayerIndex > 0 then
 					if GetTask(GS_RECORD_CHANCE) > 1 then
-						add_bag_march_09_viet(nItemNum, "Tµng KiÕm s¬n trang")
+						add_bag_march_09_viet(nItemNum, "è—å‰‘å±±åº„")
 					end
 				end
 			end
@@ -536,15 +536,15 @@ function GT_BossGiveNew(name)
 	end
 end
 
---ÔÙÔÙºóÀ´µÄĞèÇó£¬É±ËÀbossºócallÒ»¸öNPC³öÀ´
+--å†å†åæ¥çš„éœ€æ±‚ï¼Œæ€æ­»bossåcallä¸€ä¸ªNPCå‡ºæ¥
 function GT_NewBossDrop(name)
 	local tDrop =
 	{
-		["Tæng qu¶n ngo¹i viÖn"] = {"LÖnh bµi tæng qu¶n ngo¹i viÖn", "LÖnh bµi tæng qu¶n ngo¹i viÖn", "\\script\\task\\tasklink\\taskitem.lua"},
-		["Tæng qu¶n néi viÖn"] = {"LÖnh bµi tæng qu¶n néi viÖn", "LÖnh bµi tæng qu¶n néi viÖn", "\\script\\task\\tasklink\\taskitem.lua"},
-		["§¹i tiÓu th­"] = {"ViÖt N÷ kiÕm", "ViÖt N÷ kiÕm", "\\script\\task\\tasklink\\taskitem.lua"},
-		["§¹i trang chñ"] = {"Trang chñ kim Ên", "Trang chñ kim Ên", "\\script\\task\\tasklink\\taskitem.lua"},
-		["Tr­ëng l·o Tµng KiÕm C¸c"] = {"Tr­ëng L·o ChØ Hoµn", "Tr­ëng L·o ChØ Hoµn", "\\script\\task\\tasklink\\taskitem.lua"},
+		["Té›g quç§ ngoç­° viè¬“"] = {"Lè¬“h bç¤½ té›g quç§ ngoç­° viè¬“", "Lè¬“h bç¤½ té›g quç§ ngoç­° viè¬“", "\\script\\task\\tasklink\\taskitem.lua"},
+		["Té›g quç§ né–• viè¬“"] = {"Lè¬“h bç¤½ té›g quç§ né–• viè¬“", "Lè¬“h bç¤½ té›g quç§ né–• viè¬“", "\\script\\task\\tasklink\\taskitem.lua"},
+		["Ğ§i tiè§° th?"] = {"Viè¬™ N? kièª±", "Viè¬™ N? kièª±", "\\script\\task\\tasklink\\taskitem.lua"},
+		["Ğ§i trang ch?"] = {"Trang ch? kim è•", "Trang ch? kim è•", "\\script\\task\\tasklink\\taskitem.lua"},
+		["Trî…¤ng lç©™ Tç¥…g Kièª± Cç«"] = {"Trî…¤ng Lç©™ Ch? Hoç¥…", "Trî…¤ng Lç©™ Ch? Hoç¥…", "\\script\\task\\tasklink\\taskitem.lua"},
 	}
 	
 	if tDrop[name] == nil then
@@ -554,12 +554,12 @@ function GT_NewBossDrop(name)
 	local nMapID, nX, nY = GetNpcWorldPos(TT_TARGET_Index)
 	local nChestIndex = CreateNpc(tDrop[name][1], tDrop[name][2], nMapID, nX - 2, nY - 2)
 	SetNpcDeathScript(nChestIndex, tDrop[name][3])
-	SetNpcLifeTime(nChestIndex, 5 * 60)		-- Í³Ò»NPC´æ»îÊ±¼äÎª5·ÖÖÓ
-	WriteLog("[Tµng KiÕm s¬n trang] boss : "..name.."Sau khi ®¸nh b¹i CALL ra NPC:"..tDrop[name][1])
+	SetNpcLifeTime(nChestIndex, 5 * 60)		-- ç»Ÿä¸€NPCå­˜æ´»æ—¶é—´ä¸º5åˆ†é’Ÿ
+	WriteLog("[Tç¥…g Kièª± sç» trang] boss : "..name.."Sau khi î†nh bç­° CALL ra NPC:"..tDrop[name][1])
 end
 
 function GT_GoodDrop(name, level)
-	-- bossµÄĞÂµôÂä
+	-- bossçš„æ–°æ‰è½
 	if tBOSS_GOOD_DROP[name] == nil then
 		return 0
 	elseif tBOSS_GOOD_DROP[name][level] == nil then
@@ -581,10 +581,10 @@ function GT_GoodDrop(name, level)
 		return 0
 	end
 	
-	local nChestIndex = CreateNpc("R­¬ng tiÒn", "R­¬ng", GetNpcWorldPos(TT_TARGET_Index))
+	local nChestIndex = CreateNpc("ç®±å­é’±", "ç®±å­", GetNpcWorldPos(TT_TARGET_Index))
 	SetNpcScript(nChestIndex, SF_FILE)
 	
-	-- ÓÃµ½µÄNPCÊôĞÔ£¬ÇåÁãÏÈ
+	-- ç”¨åˆ°çš„NPCå±æ€§ï¼Œæ¸…é›¶å…ˆ
 	local tNpcAttr = {3, 5}
 	for index, value in tNpcAttr do
 		local nState = GetUnitCurStates(nChestIndex, value)
@@ -602,8 +602,8 @@ function GT_Drop(name, count, nStage)
 	local nEndRow = 999999
 	local data = 0
 	local nLevelCell = MU_Div(TM_GetMinLevel()) + 5
-	local nDropTable = {}				-- ¼ÇÂ¼ËùÓĞ¿ÉÄÜµôÂäµÄµÀ¾ß£¨×îºó´ÓÖĞ³éÈ¡Ò»¶¨ÊıÁ¿¿ÉÒÔÊµ¼ÊµôÂäµÄµÀ¾ß£©
-	local nDropTableCount = 0			-- ¼ÇÂ¼ËùÓĞ¿ÉÄÜµôÂäµÄµÀ¾ßÊıÁ¿
+	local nDropTable = {}				-- è®°å½•æ‰€æœ‰å¯èƒ½æ‰è½çš„é“å…·ï¼ˆæœ€åä»ä¸­æŠ½å–ä¸€å®šæ•°é‡å¯ä»¥å®é™…æ‰è½çš„é“å…·ï¼‰
+	local nDropTableCount = 0			-- è®°å½•æ‰€æœ‰å¯èƒ½æ‰è½çš„é“å…·æ•°é‡
 
 	local nRet = GT_GoodDrop(name, MU_Div(TM_GetMinLevel()) * 10)
 	if nRet > 0 then
@@ -635,7 +635,7 @@ function GT_Drop(name, count, nStage)
 		local nRnd = random(1, 1000)
 		local nRndEnd = tonumber(GT_GetData(i, nLevelCell))
 		local nBingo = 0	
-		if (nRecordState == nRecordFlag) and (nRnd <= nRndEnd) then		-- Ìõ¼şÂú×ãÔòDROP±í+1
+		if (nRecordState == nRecordFlag) and (nRnd <= nRndEnd) then		-- æ¡ä»¶æ»¡è¶³åˆ™DROPè¡¨+1
 			nDropTableCount = nDropTableCount + 1
 			nDropTable[nDropTableCount] = i
 			nBingo = 1
@@ -648,60 +648,60 @@ function GT_Drop(name, count, nStage)
 	local aGearsLevelTable = {5, 7}
 	local nGearsLevelTableLen = 2
 	local aGearsSlotTable = {103, 100, 101, 102, -1}
-	local aWeaponsTable = {3, 5, 8, 0, 1, 1, 3, 2, 10, 8, 0, 5, 9, 2, 9, 10, 6, 4, 0, 7, 11}		-- ÃÅÅÉÎäÆ÷
+	local aWeaponsTable = {3, 5, 8, 0, 1, 1, 3, 2, 10, 8, 0, 5, 9, 2, 9, 10, 6, 4, 0, 7, 11}		-- é—¨æ´¾æ­¦å™¨
 	local aGearsFactionTable = {1, 2, 3, 4, 6, 8, 9, 11, 12, 14, 15, 17, 18, 20, 21}
 	local nNpcIndex;
 	for i=1, count do
 		local nRnd = random(i, nDropTableCount)
 		nDropTable[i], nDropTable[nRnd] = nDropTable[nRnd], nDropTable[i]
-		local nChestIndex = CreateNpc("R­¬ng tiÒn", "R­¬ng tinh chÕ", GetNpcWorldPos(TT_TARGET_Index))
+		local nChestIndex = CreateNpc("ç®±å­é’±", "ç²¾è‡´çš„ç®±å­", GetNpcWorldPos(TT_TARGET_Index))
 		nNpcIndex = nChestIndex
---		local nChestIndex = CreateNpc("Ïä×ÓÇ®", "¾«ÖÂµÄÏä×Ó", GetWorldPos())
+--		local nChestIndex = CreateNpc("ç®±å­é’±", "ç²¾è‡´çš„ç®±å­", GetWorldPos())
 		SetNpcDeathScript(nChestIndex, SF_FILE)
 		MC_Add2Group(nChestIndex)
-		-- Ê¹ÓÃ NPC µÄÊôĞÔÊı¾İ¼ÍÂ¼µôÂäÎïÊı¾İ
-		-- 1 £ºÏêÏ¸Àà±ğ
-		-- 5 £º´óÀàĞÍ
-		-- 6 £º¸±ÀàĞÍ
-		-- 8 £ºbit1 - ÉÏËø / bit2 - ¶ÀÕ¼
+		-- ä½¿ç”¨ NPC çš„å±æ€§æ•°æ®çºªå½•æ‰è½ç‰©æ•°æ®
+		-- 1 ï¼šè¯¦ç»†ç±»åˆ«
+		-- 5 ï¼šå¤§ç±»å‹
+		-- 6 ï¼šå‰¯ç±»å‹
+		-- 8 ï¼šbit1 - ä¸Šé” / bit2 - ç‹¬å 
 		local nChestState = 0
 		local nChestRow = nDropTable[i]
 		local nSimData = GT_GetData(nChestRow, 7)
 		local aSplitedData, nSplitedDataLen = MU_Split(nSimData, ",")
 		local nChestType = aSplitedData[random(1, nSplitedDataLen)]
 --		Msg2Player("nSimData: "..nSimData.." nSplitedDataLen: "..nSplitedDataLen.." nChestType: "..nChestType)
-		local nGearsFaction = tonumber(nChestType)						-- Èç¹ûÊÇÌ××°£¬±íÊ¾ÃÅÅÉ
-		local aGearsIndex = {0,0,0}							-- ĞÂ×°±¸µÄ±àºÅ
+		local nGearsFaction = tonumber(nChestType)						-- å¦‚æœæ˜¯å¥—è£…ï¼Œè¡¨ç¤ºé—¨æ´¾
+		local aGearsIndex = {0,0,0}							-- æ–°è£…å¤‡çš„ç¼–å·
 		local nIsLocked = 0
 		if random(1,100000) <= 10000 then
 			nIsLocked = 1
 		end			
 		------
-		local nGearsLevel = tonumber(GT_GetData(nChestRow, 5))		-- Èç¹ûÊÇÌ××°£¬±íÊ¾µÈ¼¶¶Î
-		if nGearsLevel == 0 then									-- Èç¹ûÊÇ 0 ±íÊ¾Ëæ»ú
+		local nGearsLevel = tonumber(GT_GetData(nChestRow, 5))		-- å¦‚æœæ˜¯å¥—è£…ï¼Œè¡¨ç¤ºç­‰çº§æ®µ
+		if nGearsLevel == 0 then									-- å¦‚æœæ˜¯ 0 è¡¨ç¤ºéšæœº
 			nGearsLevel = aGearsLevelTable[random(1, nGearsLevelTableLen)]
 		end
-		local nGearsSlot = tonumber(GT_GetData(nChestRow, 6))		-- ±íÊ¾×°±¸µÄ×°±¸Î»ÖÃ
+		local nGearsSlot = tonumber(GT_GetData(nChestRow, 6))		-- è¡¨ç¤ºè£…å¤‡çš„è£…å¤‡ä½ç½®
 		if nGearsSlot == 0 then
 			nGearsSlot = random(1, 5)
 		end	
-		if tonumber(aSplitedData[1]) == 0 then								-- Ëæ»úÃÅÅÉ
+		if tonumber(aSplitedData[1]) == 0 then								-- éšæœºé—¨æ´¾
 			nGearsFaction = aGearsFactionTable[random(1, 15)]
 		end
-		if (nGearsSlot >= 1) and (nGearsSlot <= 4) then				-- ²»ÊÇÎäÆ÷
+		if (nGearsSlot >= 1) and (nGearsSlot <= 4) then				-- ä¸æ˜¯æ­¦å™¨
 			aGearsIndex[2] = aGearsSlotTable[nGearsSlot]
-		elseif (nGearsSlot == 5) then								-- ÊÇÎäÆ÷
+		elseif (nGearsSlot == 5) then								-- æ˜¯æ­¦å™¨
 			aGearsIndex[2] = aWeaponsTable[nGearsFaction]
 		end
-		if nGearsFaction == 1 then									-- ´¦ÀíÉÙÁÖµÄÁ½ÖÖÎäÆ÷±àºÅ
+		if nGearsFaction == 1 then									-- å¤„ç†å°‘æ—çš„ä¸¤ç§æ­¦å™¨ç¼–å·
 			nGearsFaction = 2
 		end
 		aGearsIndex[3] = nGearsFaction*100 + nGearsLevel*10	
 		AddUnitStates(nChestIndex, 5, aGearsIndex[1])
 		AddUnitStates(nChestIndex, 6, aGearsIndex[2])
 		AddUnitStates(nChestIndex, 1, (aGearsIndex[3]-1))
-		AddUnitStates(nChestIndex, 8, nIsLocked)			-- ÉÏËø
-		WriteLog("#"..GetName().." "..GetWorldPos().."Më r­¬ng"..aGearsIndex[1].." "..aGearsIndex[2].." "..aGearsIndex[3])
+		AddUnitStates(nChestIndex, 8, nIsLocked)			-- ä¸Šé”
+		WriteLog("#"..GetName().." "..GetWorldPos().."æ‰“å¼€ç®±å­"..aGearsIndex[1].." "..aGearsIndex[2].." "..aGearsIndex[3])
 	end
 end
 
@@ -754,27 +754,27 @@ end
 
 --============================================================================================== TASK CONTENTS ====
 -- Task Contents
-TC_ZONE_MAX	= 5						-- ¼ÇÂ¼×Ü×éÊı£¨ÏàÍ¬µÄ³¡¾°»á¿ªN×é£©
-TB_ZONE_TASKTEMP = 10				-- ÔÚÃ¿¸öÈËÉíÉÏµÄ¼ÇÂ¼×Ô¼ºËùÔÚ³¡µØµÄ TaskTemp Ë÷ÒıºÅ
-TC_STAGE_Index = {0, 0, 0, 0, 0}	-- ¼ÇÂ¼µ±Ç°¹Ø¿¨Êı£¬0 ±íÊ¾»¹Ã»½øÉ½×¯
-TC_STAGE_State = {0, 0, 0, 0, 0}	-- ¹Ø¿¨×´Ì¬£º0~9 »¹Î´¿ªÊ¼ / 10~19 ÒÑ¾­¿ªÊ¼ / 20~29 ÒÑ¾­Íê³É £¨¾ßÌåÏ¸½ÚµÄÖµ¸ù¾İ²»Í¬ĞèÇó½âÊÍ£©
-TC_KILL_Total = {0, 0, 0, 0, 0}		-- ËùÓĞ¹Ø¿¨×Ü¹²É±µĞÊıÁ¿
-TC_KILL_Stage = {0, 0, 0, 0, 0}		-- µ±Ç°¹Ø¿¨×Ü¹²É±µĞÊıÁ¿
-TC_KILL_KeyGot = {0, 0, 0, 0, 0}	-- µ±Ç°¹Ø¿¨ÄÜ»ñµÃµÄÔ¿³×ÊıÁ¿
-TC_KILL_Player = {}					-- Íæ¼ÒÃ¿¹Ø¿¨É±µĞÈËÊıÁ¿
-TC_TASK_EventCount = {}				-- ÈÎÎñ¼ÇÊı£¬²»Í¬¹Ø¿¨¿ÉÒÔÓĞ²»Í¬µÄÊıÁ¿ºÍÄÚÈİµÄ¼ÇÊıÖµ
-TC_TASK_Conditions = {}				-- ÈÎÎñÍê³ÉÌõ¼ş£¬¶ÔÓ¦ÉÏÃæµÄ¼ÇÊıÖµ£¬²»Í¬¹Ø¿¨ÓĞ²»Í¬µÄ½âÊÍ
-TC_TIMER_Count = {0, 0, 0, 0, 0}	-- ×Ü¿Ø¼ÇÊ±Æ÷¼ÇÊı£¬Ã¿Ò»´Î¼ÇÊı±íÊ¾Ò»¸öÖÜÆÚ£º14Ãë
-TC_TIMER_CountTotal = {0, 0, 0, 0, 0}	-- ×Ü¿Ø¼ÇÊ±Æ÷¼ÇÊı£¬ËùÓĞ¹Ø¿¨ÏûºÄÊ±¼ä
-TC_TIMER_StartDate = {0, 0, 0, 0, 0}	-- ¹Ø¿¨¿ªÊ¼Ê±¼ä
-TC_TIMER_Limit = {128, 128, 128, 128, 128}	-- ¼ÇÊ±Æ÷ÖÜÆÚÉÏÏŞ£¬Ò»¸ö¹Ø¿¨ÔÊĞíµÄ×î³¤Ê±¼ä
-TC_TIMER_ALARM = {80, 80, 80, 80, 80, 80, 80, 40, 80}					-- ¼ÇÊ±Æ÷¾¯±¨£¬´ÓÕâ¸öÖÜÆÚ¿ªÊ¼Ã¿10¸öÖÜÆÚ×öÒ»´Î¾¯±¨
-TC_TIMER_LIMIT_TABLE = {128, 128, 128, 128, 128, 128, 128, 64, 128}		-- Ã¿¹Ø¿¨µÄÊ±¼äÏŞÖÆ
-TC_TIMER_LIMIT_TABLE_UI = {"30:00", "30:00", "30:00", "30:00", "30:00", "30:00", "30:00", "15:00", "30:00"}		-- Ã¿¹Ø¿¨µÄÊ±¼äÏŞÖÆµÄÓÃ»§½çÃæÏÔÊ¾Ê±¼ä£¨·ÖÖÓ£©
+TC_ZONE_MAX	= 5						-- è®°å½•æ€»ç»„æ•°ï¼ˆç›¸åŒçš„åœºæ™¯ä¼šå¼€Nç»„ï¼‰
+TB_ZONE_TASKTEMP = 10				-- åœ¨æ¯ä¸ªäººèº«ä¸Šçš„è®°å½•è‡ªå·±æ‰€åœ¨åœºåœ°çš„ TaskTemp ç´¢å¼•å·
+TC_STAGE_Index = {0, 0, 0, 0, 0}	-- è®°å½•å½“å‰å…³å¡æ•°ï¼Œ0 è¡¨ç¤ºè¿˜æ²¡è¿›å±±åº„
+TC_STAGE_State = {0, 0, 0, 0, 0}	-- å…³å¡çŠ¶æ€ï¼š0~9 è¿˜æœªå¼€å§‹ / 10~19 å·²ç»å¼€å§‹ / 20~29 å·²ç»å®Œæˆ ï¼ˆå…·ä½“ç»†èŠ‚çš„å€¼æ ¹æ®ä¸åŒéœ€æ±‚è§£é‡Šï¼‰
+TC_KILL_Total = {0, 0, 0, 0, 0}		-- æ‰€æœ‰å…³å¡æ€»å…±æ€æ•Œæ•°é‡
+TC_KILL_Stage = {0, 0, 0, 0, 0}		-- å½“å‰å…³å¡æ€»å…±æ€æ•Œæ•°é‡
+TC_KILL_KeyGot = {0, 0, 0, 0, 0}	-- å½“å‰å…³å¡èƒ½è·å¾—çš„é’¥åŒ™æ•°é‡
+TC_KILL_Player = {}					-- ç©å®¶æ¯å…³å¡æ€æ•Œäººæ•°é‡
+TC_TASK_EventCount = {}				-- ä»»åŠ¡è®°æ•°ï¼Œä¸åŒå…³å¡å¯ä»¥æœ‰ä¸åŒçš„æ•°é‡å’Œå†…å®¹çš„è®°æ•°å€¼
+TC_TASK_Conditions = {}				-- ä»»åŠ¡å®Œæˆæ¡ä»¶ï¼Œå¯¹åº”ä¸Šé¢çš„è®°æ•°å€¼ï¼Œä¸åŒå…³å¡æœ‰ä¸åŒçš„è§£é‡Š
+TC_TIMER_Count = {0, 0, 0, 0, 0}	-- æ€»æ§è®°æ—¶å™¨è®°æ•°ï¼Œæ¯ä¸€æ¬¡è®°æ•°è¡¨ç¤ºä¸€ä¸ªå‘¨æœŸï¼š14ç§’
+TC_TIMER_CountTotal = {0, 0, 0, 0, 0}	-- æ€»æ§è®°æ—¶å™¨è®°æ•°ï¼Œæ‰€æœ‰å…³å¡æ¶ˆè€—æ—¶é—´
+TC_TIMER_StartDate = {0, 0, 0, 0, 0}	-- å…³å¡å¼€å§‹æ—¶é—´
+TC_TIMER_Limit = {128, 128, 128, 128, 128}	-- è®°æ—¶å™¨å‘¨æœŸä¸Šé™ï¼Œä¸€ä¸ªå…³å¡å…è®¸çš„æœ€é•¿æ—¶é—´
+TC_TIMER_ALARM = {80, 80, 80, 80, 80, 80, 80, 40, 80}					-- è®°æ—¶å™¨è­¦æŠ¥ï¼Œä»è¿™ä¸ªå‘¨æœŸå¼€å§‹æ¯10ä¸ªå‘¨æœŸåšä¸€æ¬¡è­¦æŠ¥
+TC_TIMER_LIMIT_TABLE = {128, 128, 128, 128, 128, 128, 128, 64, 128}		-- æ¯å…³å¡çš„æ—¶é—´é™åˆ¶
+TC_TIMER_LIMIT_TABLE_UI = {"30:00", "30:00", "30:00", "30:00", "30:00", "30:00", "30:00", "15:00", "30:00"}		-- æ¯å…³å¡çš„æ—¶é—´é™åˆ¶çš„ç”¨æˆ·ç•Œé¢æ˜¾ç¤ºæ—¶é—´ï¼ˆåˆ†é’Ÿï¼‰
 
 ------------------------------------------------------------------------------------------------ FUNCTION ----
--- Ò»Ğ©±äÁ¿µÄ³õÊ¼»¯
--- »ù±¾ÉÏÕâÀïÒÑ¾­²»»áÊ¹ÓÃÁË~~ÍÚ¹ş¹ş¹ş°¡¹ş¹ş
+-- ä¸€äº›å˜é‡çš„åˆå§‹åŒ–
+-- åŸºæœ¬ä¸Šè¿™é‡Œå·²ç»ä¸ä¼šä½¿ç”¨äº†~~æŒ–å“ˆå“ˆå“ˆå•Šå“ˆå“ˆ
 --function TC_Init(nZone, nStage)
 --	if nZone == nil then
 --		nZone = 1
@@ -797,7 +797,7 @@ TC_TIMER_LIMIT_TABLE_UI = {"30:00", "30:00", "30:00", "30:00", "30:00", "30:00",
 --	TC_TIMER_Limit[nZone] = TC_TIMER_LIMIT_TABLE[nStage]
 --end
 
--- ÉèÖÃÍæ¼ÒËùÔÚµÄ³¡µØºÅ(½ö×÷Îª¼ÇÂ¼,²»±íÊ¾Íæ¼ÒÈ·ÊµÔÚÕâ¸ö³¡µØ)
+-- è®¾ç½®ç©å®¶æ‰€åœ¨çš„åœºåœ°å·(ä»…ä½œä¸ºè®°å½•,ä¸è¡¨ç¤ºç©å®¶ç¡®å®åœ¨è¿™ä¸ªåœºåœ°)
 function TC_SetTeamZone(nZone)
 	local nOldIndex = PlayerIndex
 	for i=1, GetTeamSize() do
@@ -807,12 +807,12 @@ function TC_SetTeamZone(nZone)
 	PlayerIndex = nOldIndex
 end
 
--- È¡µÃÍæ¼ÒËùÔÚ³¡µØºÅµÄ¼ÇÂ¼(½ö×÷Îª¼ÇÂ¼,²»±íÊ¾Íæ¼ÒÈ·ÊµÔÚÕâ¸ö³¡µØ)
+-- å–å¾—ç©å®¶æ‰€åœ¨åœºåœ°å·çš„è®°å½•(ä»…ä½œä¸ºè®°å½•,ä¸è¡¨ç¤ºç©å®¶ç¡®å®åœ¨è¿™ä¸ªåœºåœ°)
 function TC_GetTeamZone()
 	return GetTaskTemp(TB_ZONE_TASKTEMP)
 end
 
--- Ë¢ĞÂÒ»Ğ©Íæ¼ÒµÄÉ±µĞĞÅÏ¢,±ÈÈçÉ±µĞÊıÁ¿µÄ¼ÇÂ¼,»ı·Ö»ñµÃµÄ¼ÇÂ¼µÈ(Ö»ÊÇÁÙÊ±¼ÇÂ¼,Êµ¼Ê±£´æÔÚÍæ¼ÒÉíÉÏ»áÓÃ TB_AddScore ºÍ TB_StoreScore)
+-- åˆ·æ–°ä¸€äº›ç©å®¶çš„æ€æ•Œä¿¡æ¯,æ¯”å¦‚æ€æ•Œæ•°é‡çš„è®°å½•,ç§¯åˆ†è·å¾—çš„è®°å½•ç­‰(åªæ˜¯ä¸´æ—¶è®°å½•,å®é™…ä¿å­˜åœ¨ç©å®¶èº«ä¸Šä¼šç”¨ TB_AddScore å’Œ TB_StoreScore)
 function TC_RefKilledNpc()
 	local nZone = TC_GetTeamZone()
 	local nStage = TC_STAGE_Index[nZone]
@@ -834,16 +834,16 @@ function TC_RefKilledNpc()
 		TB_BONUS_Total[nZone] = 0
 	end
 	TB_BONUS_Total[nZone] = TB_BONUS_Total[nZone] + (GetUnitCurStates(TT_TARGET_Index, 6)/10)
---	Msg2Player("È«¶ÓÀÛ»ı»ı·Ö +"..(GetUnitCurStates(TT_TARGET_Index, 6)/10).." ("..TB_BONUS_Total[nZone]..")")
+--	Msg2Player("å…¨é˜Ÿç´¯ç§¯ç§¯åˆ† +"..(GetUnitCurStates(TT_TARGET_Index, 6)/10).." ("..TB_BONUS_Total[nZone]..")")
 	return TC_KILL_Player[PlayerIndex][nStage], TC_KILL_Stage[nZone], TC_KILL_Total[nZone], TB_BONUS_MemberTotal[nZone], TB_BONUS_Total[nZone]
 end
 
--- ¼ì²éÍæ¼ÒÔÚµ±Ç°¹Ø¿¨ËùÏûºÄµÄÊ±¼äÊÇ·ñĞèÒª·¢³ö¾¯¸æ,ÒÑ¾­ÅĞ¶Ï³¬³ö¹Ø¿¨ÔÊĞíµÄÊ±¼ä²¢ÓèÒÔ½áÊø¹Ø¿¨
+-- æ£€æŸ¥ç©å®¶åœ¨å½“å‰å…³å¡æ‰€æ¶ˆè€—çš„æ—¶é—´æ˜¯å¦éœ€è¦å‘å‡ºè­¦å‘Š,å·²ç»åˆ¤æ–­è¶…å‡ºå…³å¡å…è®¸çš„æ—¶é—´å¹¶äºˆä»¥ç»“æŸå…³å¡
 function TC_CheckTimer()
 	local nZone = TC_GetTeamZone()
 	local nStage = TC_STAGE_Index[nZone]
 	if (TC_TIMER_Count[nZone] >= TC_TIMER_ALARM[nStage]) and (mod(TC_TIMER_Count[nZone], 10) == 0) then
-		MU_Msg2Team("C¶nh b¸o h¹n chÕ thêi gian qua ¶i:"..TC_TIMER_Count[nZone].."/"..TC_TIMER_LIMIT_TABLE[nStage])
+		MU_Msg2Team("å…³å¡é™æ—¶è­¦å‘Š:"..TC_TIMER_Count[nZone].."/"..TC_TIMER_LIMIT_TABLE[nStage])
 	end
 	if TC_TIMER_Count[nZone] >= TC_TIMER_LIMIT_TABLE[nStage] then
 		local a,b,c=GetWorldPos()
@@ -858,15 +858,15 @@ end
 
 --============================================================================================== TEAM MEMBER =============
 -- Team Member
-TM_MEMBER_MAX = 8								-- ÔÊĞíµÄ¶ÓÔ±ÊıÁ¿
-TM_MEMBER_Index = {}							-- ¼ÇÂ¼³õÊ¼¶ÓÔ±
-TM_MEMBER_MaxLevel = {30, 30, 30, 30, 30}		-- ¼ÇÂ¼¶ÓÔ±×î¸ßµÈ¼¶
+TM_MEMBER_MAX = 8								-- å…è®¸çš„é˜Ÿå‘˜æ•°é‡
+TM_MEMBER_Index = {}							-- è®°å½•åˆå§‹é˜Ÿå‘˜
+TM_MEMBER_MaxLevel = {30, 30, 30, 30, 30}		-- è®°å½•é˜Ÿå‘˜æœ€é«˜ç­‰çº§
 ------------------------------------------------------------------------------------------------ FUNCTION ----
 function TM_Init()
 	TM_GetMaxLevel()
 end
 
--- È¡µÃµ±Ç°¶ÓÎéÖĞµÄ×î¸ßµÈ¼¶,²ÎÊı nZone ±íÊ¾³¡µØ,¿ÉÒÔÊ¡ÂÔ(ÒÔºóÈôÃ»ÓĞÌØÊâËµÃ÷,nZone¶¼±íÊ¾³¡µØºÅÇÒ¶¼¿ÉÒÔÈ±Ê¡)
+-- å–å¾—å½“å‰é˜Ÿä¼ä¸­çš„æœ€é«˜ç­‰çº§,å‚æ•° nZone è¡¨ç¤ºåœºåœ°,å¯ä»¥çœç•¥(ä»¥åè‹¥æ²¡æœ‰ç‰¹æ®Šè¯´æ˜,nZoneéƒ½è¡¨ç¤ºåœºåœ°å·ä¸”éƒ½å¯ä»¥ç¼ºçœ)
 function TM_GetMaxLevel(nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -882,7 +882,7 @@ function TM_GetMaxLevel(nZone)
 	return TM_MEMBER_MaxLevel[nZone]
 end
 
--- È¡µÃµ±Ç°¶ÓÎéÖĞµÄ×îµÍµÈ¼¶
+-- å–å¾—å½“å‰é˜Ÿä¼ä¸­çš„æœ€ä½ç­‰çº§
 function TM_GetMinLevel()
 	local nMinLevel = 99
 	local nOldIndex = PlayerIndex
@@ -900,7 +900,7 @@ function TM_GetMinLevel()
 	return nMinLevel
 end
 
--- ¼ÇÂ¼¸Õ½øÉ½×¯Ê±¶ÓÎéÀïÃæµÄ³ÉÔ±
+-- è®°å½•åˆšè¿›å±±åº„æ—¶é˜Ÿä¼é‡Œé¢çš„æˆå‘˜
 function TM_SaveOrgMember(nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -915,10 +915,10 @@ function TM_SaveOrgMember(nZone)
 		TM_MEMBER_Index[nZone][9] = i
 	end
 	PlayerIndex = nOldIndex
-	return TM_MEMBER_Index[nZone][9]			-- ·µ»Ø³õÊ¼¶ÓÔ±ÊıÁ¿
+	return TM_MEMBER_Index[nZone][9]			-- è¿”å›åˆå§‹é˜Ÿå‘˜æ•°é‡
 end
 
--- Í¨¹ıÍæ¼ÒË÷ÒıºÅ»ñµÃÍæ¼ÒÃû×Ö(µ±Ç°Íæ¼ÒµÄË÷ÒıºÅÍ¨¹ıÖ±½Ó·ÃÎÊÈ«¾Ö±äÁ¿ PlayerIndex »ñµÃ)
+-- é€šè¿‡ç©å®¶ç´¢å¼•å·è·å¾—ç©å®¶åå­—(å½“å‰ç©å®¶çš„ç´¢å¼•å·é€šè¿‡ç›´æ¥è®¿é—®å…¨å±€å˜é‡ PlayerIndex è·å¾—)
 function TM_GetMemberName(nIndex)
 	local nOldIndex = PlayerIndex
 	PlayerIndex = nIndex
@@ -927,7 +927,7 @@ function TM_GetMemberName(nIndex)
 	return sName
 end
 
--- Í¨¹ıÍæ¼ÒµÄÃû×ÖÀ´»ñµÃ ¶ÓÎéÖĞ Íæ¼ÒµÄË÷ÒıºÅ(Ö»¶Ôµ±Ç°¶ÓÎéÓĞĞ§¹û)
+-- é€šè¿‡ç©å®¶çš„åå­—æ¥è·å¾— é˜Ÿä¼ä¸­ ç©å®¶çš„ç´¢å¼•å·(åªå¯¹å½“å‰é˜Ÿä¼æœ‰æ•ˆæœ)
 function TM_GetMemberIndex(nName, nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -944,12 +944,12 @@ function TM_GetMemberIndex(nName, nZone)
 	return 0
 end
 
--- ÅĞ¶Ïµ±Ç°Íæ¼ÒÊÇ·ñÊÇ¶Ó³¤
+-- åˆ¤æ–­å½“å‰ç©å®¶æ˜¯å¦æ˜¯é˜Ÿé•¿
 function TM_IsCaptain()
-	local nIsCaptain = 0								-- ÊÇ·ñÊÇ¶Ó³¤
+	local nIsCaptain = 0								-- æ˜¯å¦æ˜¯é˜Ÿé•¿
 	local nCaptainIndex = GetTeamMember(0)
 	if nCaptainIndex == 0 then
-		WriteLog("[Tµng KiÕm]Can't find captain!!!"..GetName().." PlayerIndex="..PlayerIndex)
+		WriteLog("[è—å‰‘å±±åº„]æ‰¾ä¸åˆ°é˜Ÿé•¿"..GetName().." PlayerIndex="..PlayerIndex)
 	end
 	if nCaptainIndex == PlayerIndex then
 		nIsCaptain = 1
@@ -957,20 +957,20 @@ function TM_IsCaptain()
 	return nIsCaptain
 end
 
--- ÅĞ¶Ï´¥·¢¶ÔÏóÊÇ·ñÊÇÍæ¼Ò,Õâ¸öµÄÓÃ·¨±È½ÏÌØÊâ,±ÈÈç ¶Ô»°ÊÂ¼ş(ÓĞÄ¿±êÊÂ¼ş) ºÍ ²ÈTRAP(ÎŞÄ¿±êÊÂ¼ş) ÊÂ¼ş¶¼ÊÇµ÷ÓÃµÄ LUA ÖĞµÄ main º¯Êı, ËùÒÔ TM_IsPlayer() Îª 1 ±íÊ¾ÊÇ ²È TRAP ÊÂ¼ş,Îª 0 ±íÊ¾ÓĞÒ»¸öÄ¿±ê,ÔòÎª ¶Ô»°ÊÂ¼ş
+-- åˆ¤æ–­è§¦å‘å¯¹è±¡æ˜¯å¦æ˜¯ç©å®¶,è¿™ä¸ªçš„ç”¨æ³•æ¯”è¾ƒç‰¹æ®Š,æ¯”å¦‚ å¯¹è¯äº‹ä»¶(æœ‰ç›®æ ‡äº‹ä»¶) å’Œ è¸©TRAP(æ— ç›®æ ‡äº‹ä»¶) äº‹ä»¶éƒ½æ˜¯è°ƒç”¨çš„ LUA ä¸­çš„ main å‡½æ•°, æ‰€ä»¥ TM_IsPlayer() ä¸º 1 è¡¨ç¤ºæ˜¯ è¸© TRAP äº‹ä»¶,ä¸º 0 è¡¨ç¤ºæœ‰ä¸€ä¸ªç›®æ ‡,åˆ™ä¸º å¯¹è¯äº‹ä»¶
 function TM_IsPlayer()
 	local nIsPlayer = 0
 	TT_TARGET_Index, TT_TARGET_ModID, TT_TARGET_Name = GetTriggeringUnit()
-	if (TT_TARGET_ModID == "Nam tiªu chuÈn") or (TT_TARGET_ModID == "Nam kh«i ng«") or (TT_TARGET_ModID == "N÷ gîi c¶m") or (TT_TARGET_ModID == "KiÒu n÷") then
+	if (TT_TARGET_ModID == "æ ‡å‡†ç”·") or (TT_TARGET_ModID == "é­æ¢§ç”·") or (TT_TARGET_ModID == "æ€§æ„Ÿå¥³") or (TT_TARGET_ModID == "å¨‡å°å¥³") then
 		nIsPlayer = 1
 	end
 	return nIsPlayer
 end
 
--- ¼ÆËã²¢·µ»Ø¶ÓÎéÖĞµÄ ÄĞĞÔ Óë Å®ĞÔ ³ÉÔ±ÊıÁ¿
+-- è®¡ç®—å¹¶è¿”å›é˜Ÿä¼ä¸­çš„ ç”·æ€§ ä¸ å¥³æ€§ æˆå‘˜æ•°é‡
 function TM_SexCount()
-	local nFemale = 0	-- Å®ĞÔÈËÊı
-	local nMale = 0		-- ÄĞĞÔÈËÊı
+	local nFemale = 0	-- å¥³æ€§äººæ•°
+	local nMale = 0		-- ç”·æ€§äººæ•°
 	local nOldIndex = PlayerIndex
 	for i=1, GetTeamSize() do
 		PlayerIndex = GetTeamMember(i)
@@ -984,8 +984,8 @@ function TM_SexCount()
 	return nMale, nFemale
 end
 
--- ¶ÔÍæ¼Ò Àë¿ªÉ½×¯/Àë¿ªµ±Ç°ËùÔÚnZone ½øĞĞ´¦Àí
--- nIndex ±íÊ¾¶ÔÄ³ÌØ¶¨Íæ¼Ò½øĞĞ´¦Àí,Èç¹û ´Ë²ÎÊıÈ±Ê¡,±íÊ¾¶ÔÈ«¶Ó½øĞĞ²Ù×÷
+-- å¯¹ç©å®¶ ç¦»å¼€å±±åº„/ç¦»å¼€å½“å‰æ‰€åœ¨nZone è¿›è¡Œå¤„ç†
+-- nIndex è¡¨ç¤ºå¯¹æŸç‰¹å®šç©å®¶è¿›è¡Œå¤„ç†,å¦‚æœ æ­¤å‚æ•°ç¼ºçœ,è¡¨ç¤ºå¯¹å…¨é˜Ÿè¿›è¡Œæ“ä½œ
 function TM_LeaveMap(nZone, nIndex)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1014,7 +1014,7 @@ function TM_LeaveMap(nZone, nIndex)
 			end
 			TM_MEMBER_Index[nZone] = {}
 			
-			WriteLog("#Tin tøc sö quan lÖnh GS_STAGE_USED["..nZone.."] = "..GS_STAGE_USED[nZone].."; PlayerIndex = "..PlayerIndex);
+			WriteLog("#Tin té´† s? quan lè¬“h GS_STAGE_USED["..nZone.."] = "..GS_STAGE_USED[nZone].."; PlayerIndex = "..PlayerIndex);
 			
 			TC_STAGE_State[nZone] = 0
 			TC_KILL_Stage[nZone] = 0
@@ -1051,21 +1051,21 @@ end
 
 --============================================================================================== TASK TRIGGER ====
 -- Task Trigger
-TT_TRIGGER_KILLER = 1101										-- ±íÊ¾ É±¹Ö´¥·¢Æ÷ µÄÍæ¼Ò×Ô¼º¶¨ÒåË÷ÒıºÅ
-TT_TRIGGER_TIMER = 1102											-- ±íÊ¾ Ê±¼ä´¥·¢Æ÷ µÄÍæ¼Ò×Ô¼º¶¨ÒåË÷ÒıºÅ
-TT_TRIGGER_RECT = 1103											-- ±íÊ¾ ÇøÓò´¥·¢Æ÷ µÄÍæ¼Ò×Ô¼º¶¨ÒåË÷ÒıºÅ
-TT_TRIGGER_LOGOUT = 1104										-- ±íÊ¾ µÇ³ö´¥·¢Æ÷ µÄÍæ¼Ò×Ô¼º¶¨ÒåË÷ÒıºÅ
+TT_TRIGGER_KILLER = 1101										-- è¡¨ç¤º æ€æ€ªè§¦å‘å™¨ çš„ç©å®¶è‡ªå·±å®šä¹‰ç´¢å¼•å·
+TT_TRIGGER_TIMER = 1102											-- è¡¨ç¤º æ—¶é—´è§¦å‘å™¨ çš„ç©å®¶è‡ªå·±å®šä¹‰ç´¢å¼•å·
+TT_TRIGGER_RECT = 1103											-- è¡¨ç¤º åŒºåŸŸè§¦å‘å™¨ çš„ç©å®¶è‡ªå·±å®šä¹‰ç´¢å¼•å·
+TT_TRIGGER_LOGOUT = 1104										-- è¡¨ç¤º ç™»å‡ºè§¦å‘å™¨ çš„ç©å®¶è‡ªå·±å®šä¹‰ç´¢å¼•å·
 
 if SERVER_INDEX ~= nil then
-	TT_TRIGGER_SortID = 1100 + SERVER_INDEX							-- µÃµ½ÔÚ´¥·¢Æ÷ÅäÖÃ±íÖĞµÄÁĞÊı
+	TT_TRIGGER_SortID = 1100 + SERVER_INDEX							-- å¾—åˆ°åœ¨è§¦å‘å™¨é…ç½®è¡¨ä¸­çš„åˆ—æ•°
 end
 
-TT_TARGET_Index = 0												-- ÊÂ¼ş·¢ÉúºóÏà¹ØÄ¿±êNPCµÄË÷ÒıºÅ£ºINTEGER
-TT_TARGET_ModID = ""											-- ÊÂ¼ş·¢ÉúºóÏà¹ØÄ¿±êNPCµÄÄ£°åID£ºSTRING
-TT_TARGET_Name = ""												-- ÊÂ¼ş·¢ÉúºóÏà¹ØÄ¿±êNPCµÄÏÔÊ¾Ãû£ºSTRING
-TT_TARGET_INDEX = 11											-- ÊÂ¼ş·¢ÉúºóÏà¹ØÄ¿±êNPCµÄË÷ÒıºÅÓÃµ½µÄ TASKTEMP ±àºÅ
-TT_TARGET_MODID = 12											-- ÊÂ¼ş·¢ÉúºóÏà¹ØÄ¿±êNPCµÄÄ£°åIDÓÃµ½µÄ TASKTEMP ±àºÅ
-TT_TARGET_NAME = 13												-- ÊÂ¼ş·¢ÉúºóÏà¹ØÄ¿±êNPCµÄÏÔÊ¾ÃûÓÃµ½µÄ TASKTEMP ±àºÅ
+TT_TARGET_Index = 0												-- äº‹ä»¶å‘ç”Ÿåç›¸å…³ç›®æ ‡NPCçš„ç´¢å¼•å·ï¼šINTEGER
+TT_TARGET_ModID = ""											-- äº‹ä»¶å‘ç”Ÿåç›¸å…³ç›®æ ‡NPCçš„æ¨¡æ¿IDï¼šSTRING
+TT_TARGET_Name = ""												-- äº‹ä»¶å‘ç”Ÿåç›¸å…³ç›®æ ‡NPCçš„æ˜¾ç¤ºåï¼šSTRING
+TT_TARGET_INDEX = 11											-- äº‹ä»¶å‘ç”Ÿåç›¸å…³ç›®æ ‡NPCçš„ç´¢å¼•å·ç”¨åˆ°çš„ TASKTEMP ç¼–å·
+TT_TARGET_MODID = 12											-- äº‹ä»¶å‘ç”Ÿåç›¸å…³ç›®æ ‡NPCçš„æ¨¡æ¿IDç”¨åˆ°çš„ TASKTEMP ç¼–å·
+TT_TARGET_NAME = 13												-- äº‹ä»¶å‘ç”Ÿåç›¸å…³ç›®æ ‡NPCçš„æ˜¾ç¤ºåç”¨åˆ°çš„ TASKTEMP ç¼–å·
 ------------------------------------------------------------------------------------------------ FUNCTION ----
 function TT_Init(nZone)
 	if nZone == nil then
@@ -1073,17 +1073,17 @@ function TT_Init(nZone)
 	end
 end
 
--- ÉèÖÃµ±Ç°Íæ¼ÒÔÚÄ³ÊÂ¼ş´¥·¢ºóµÄÄ¿±êË÷ÒıºÅ(ÓÃÓÚÄÇÖÖ¶ÔÄ¿±êµÄ²Ù×÷²»ÊÇ¼´Ê±´¦ÀíµÄÇé¿ö,ÅäºÏ TT_GetTarget() Ê¹ÓÃ)
+-- è®¾ç½®å½“å‰ç©å®¶åœ¨æŸäº‹ä»¶è§¦å‘åçš„ç›®æ ‡ç´¢å¼•å·(ç”¨äºé‚£ç§å¯¹ç›®æ ‡çš„æ“ä½œä¸æ˜¯å³æ—¶å¤„ç†çš„æƒ…å†µ,é…åˆ TT_GetTarget() ä½¿ç”¨)
 function TT_SetTarget(nIndex)
 	SetTaskTemp(TT_TARGET_INDEX, nIndex)
 end
 
--- È¡µÃ×î½üÒ»´ÎÓÃ TT_SetTarget º¯Êı±£´æµÄÄ¿±êË÷ÒıºÅ
+-- å–å¾—æœ€è¿‘ä¸€æ¬¡ç”¨ TT_SetTarget å‡½æ•°ä¿å­˜çš„ç›®æ ‡ç´¢å¼•å·
 function TT_GetTarget()
 	return GetTaskTemp(TT_TARGET_INDEX)
 end
 
--- ´¥·¢Æ÷@¿ªÊ¼Ê±¼ä´¥·¢Æ÷, Õâ¸ö´¥·¢Æ÷ÊÇ¹ÒÔÚ¶Ó³¤ÉíÉÏµÄ,×÷ÓÃÊÇ×÷Îª Õû¸ö¹Ø¿¨½ø³Ì ÖĞµÄÖÜÆÚÊ±¼ä¿ØÖÆ/´¥·¢ ,ÒÔÖÜÆÚÎªµ¥Î»,Ò»¸öÖÜÆÚ 14 Ãë
+-- è§¦å‘å™¨@å¼€å§‹æ—¶é—´è§¦å‘å™¨, è¿™ä¸ªè§¦å‘å™¨æ˜¯æŒ‚åœ¨é˜Ÿé•¿èº«ä¸Šçš„,ä½œç”¨æ˜¯ä½œä¸º æ•´ä¸ªå…³å¡è¿›ç¨‹ ä¸­çš„å‘¨æœŸæ—¶é—´æ§åˆ¶/è§¦å‘ ,ä»¥å‘¨æœŸä¸ºå•ä½,ä¸€ä¸ªå‘¨æœŸ 14 ç§’
 function TT_StartTimer(nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1097,7 +1097,7 @@ function TT_StartTimer(nZone)
 	return nTimerIndex
 end
 
--- ´¥·¢Æ÷@É¾³ıÊ±¼ä´¥·¢Æ÷
+-- è§¦å‘å™¨@åˆ é™¤æ—¶é—´è§¦å‘å™¨
 function TT_RemoveTimer(nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1108,7 +1108,7 @@ function TT_RemoveTimer(nZone)
 	PlayerIndex = nOldIndex
 end
 
--- ´¥·¢Æ÷@¿ªÊ¼Í¨ÓÃ´¥·¢Æ÷×é, Õâ×é´¥·¢Æ÷ÊÇ¹ÒÔÚËùÓĞ¶ÓÔ±ÉíÉÏµÄ,Ã¿¸öÈËµÄ´¥·¢Æ÷Ë½ÓĞ,Õâ¸ö´¥·¢Æ÷×é°üÀ¨ÁË: É±¹Ö/ÇøÓò/µÇÂ½
+-- è§¦å‘å™¨@å¼€å§‹é€šç”¨è§¦å‘å™¨ç»„, è¿™ç»„è§¦å‘å™¨æ˜¯æŒ‚åœ¨æ‰€æœ‰é˜Ÿå‘˜èº«ä¸Šçš„,æ¯ä¸ªäººçš„è§¦å‘å™¨ç§æœ‰,è¿™ä¸ªè§¦å‘å™¨ç»„åŒ…æ‹¬äº†: æ€æ€ª/åŒºåŸŸ/ç™»é™†
 function TT_StartTriggers()
 	local nZone = TC_GetTeamZone()
 	local nTriggerIndex = 0
@@ -1124,7 +1124,7 @@ function TT_StartTriggers()
 	PlayerIndex = nOldIndex
 end
 
--- ´¥·¢Æ÷@É¾³ıÍ¨ÓÃ´¥·¢Æ÷×é, Õâ×é´¥·¢Æ÷ÊÇ¹ÒÔÚËùÓĞ¶ÓÔ±ÉíÉÏµÄ,Ã¿¸öÈËµÄ´¥·¢Æ÷Ë½ÓĞ,Õâ¸ö´¥·¢Æ÷×é°üÀ¨ÁË: É±¹Ö/ÇøÓò/µÇÂ½
+-- è§¦å‘å™¨@åˆ é™¤é€šç”¨è§¦å‘å™¨ç»„, è¿™ç»„è§¦å‘å™¨æ˜¯æŒ‚åœ¨æ‰€æœ‰é˜Ÿå‘˜èº«ä¸Šçš„,æ¯ä¸ªäººçš„è§¦å‘å™¨ç§æœ‰,è¿™ä¸ªè§¦å‘å™¨ç»„åŒ…æ‹¬äº†: æ€æ€ª/åŒºåŸŸ/ç™»é™†
 function TT_RemoveTriggers(nIndex)
 	local nOldIndex = PlayerIndex
 	if nIndex == nil then
@@ -1143,28 +1143,28 @@ function TT_RemoveTriggers(nIndex)
 	PlayerIndex = nOldIndex
 end
 
--- ·Öµµ¼Ç²½Æ÷, ¾ÍÊÇÒ»¸ö Counter ~~Õâ¸öÀÛ¼ÓÆ÷ÊÇÓÃÀ´¼ÇÂ¼Ã¿¹Ø¿¨ÒÑ¾­¾­¹ıµÄÊ±¼äÖÜÆÚµÄ,³¬¹ıÉÏÏŞºó»áÖØÖÃ
+-- åˆ†æ¡£è®°æ­¥å™¨, å°±æ˜¯ä¸€ä¸ª Counter ~~è¿™ä¸ªç´¯åŠ å™¨æ˜¯ç”¨æ¥è®°å½•æ¯å…³å¡å·²ç»ç»è¿‡çš„æ—¶é—´å‘¨æœŸçš„,è¶…è¿‡ä¸Šé™åä¼šé‡ç½®
 function TT_Stepper(nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
 	end
-	local STEP_MAX = 8									-- Òª±£Ö¤ 8 STEP £¬Æä¼Ç²½³¤¶È±ØĞëÎª 1~8 ËùÓĞÊı×ÖµÄ ÈÎÒâ¹«±¶Êı
-	local STEP_LENGTH_MAX = 840							-- ¼Ç²½³¤¶ÈÉÏÏŞ
+	local STEP_MAX = 8									-- è¦ä¿è¯ 8 STEP ï¼Œå…¶è®°æ­¥é•¿åº¦å¿…é¡»ä¸º 1~8 æ‰€æœ‰æ•°å­—çš„ ä»»æ„å…¬å€æ•°
+	local STEP_LENGTH_MAX = 840							-- è®°æ­¥é•¿åº¦ä¸Šé™
 	if TC_TIMER_Count[nZone] == nil then
-		WriteLog("**[Tµng KiÕm b¸o lçi]TC_TIMER_Count[nZone]== nil, nZone == "..nZone)
+		WriteLog("**[è—å‰‘å±±åº„]TC_TIMER_Count[nZone]== nil, nZone == "..nZone)
 	else
 		if TC_TIMER_Count[nZone] < STEP_LENGTH_MAX then
 			TC_TIMER_Count[nZone] = TC_TIMER_Count[nZone] + 1
 			return TC_TIMER_Count[nZone]
 		else
 			TC_TIMER_Count[nZone] = 0
-			return "Error: V­ît møc tèi ®a, reset l¹i sè b­íc!"
+			return "é”™è¯¯:è¶…è¿‡æœ€å¤§å€¼ï¼Œé‡ç½®è®°æ­¥æ•°ã€‚"
 		end
 	end
 end
 
--- ·Öµµ¼Ç²½Æ÷¼ì²éÆ÷,×÷ÓÃÊÇ·µ»ØÒ»¸öÊÇ·ñ±»Õû³ıµÄĞÅÏ¢,ÓÃÓÚ¿ØÖÆÄÇĞ©¶àÖÜÆÚÖ´ĞĞÒ»´ÎµÄ´¦Àí¹ı³Ì
--- step : ±»¼ì²éµÄÊÇ·ñÄÜ±»µ±Ç°µÄÊ±¼äÖÜÆÚÕû³ıµÄÊı
+-- åˆ†æ¡£è®°æ­¥å™¨æ£€æŸ¥å™¨,ä½œç”¨æ˜¯è¿”å›ä¸€ä¸ªæ˜¯å¦è¢«æ•´é™¤çš„ä¿¡æ¯,ç”¨äºæ§åˆ¶é‚£äº›å¤šå‘¨æœŸæ‰§è¡Œä¸€æ¬¡çš„å¤„ç†è¿‡ç¨‹
+-- step : è¢«æ£€æŸ¥çš„æ˜¯å¦èƒ½è¢«å½“å‰çš„æ—¶é—´å‘¨æœŸæ•´é™¤çš„æ•°
 function TT_StepperChecker(step, nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1172,31 +1172,31 @@ function TT_StepperChecker(step, nZone)
 	if (type(step) == "number") and (step >= 1) and (step <= 8) then
 		return mod(TC_TIMER_Count[nZone], step)
 	else
-		return "Error: KiÓm tra sè liÖu kh«ng chuÈn!"
+		return "é”™è¯¯:æ£€æŸ¥æ•°æ®ä¸æ­£ç¡®ã€‚"
 	end
 end
 
 --============================================================================================== MONSTER CREATER ====
 -- Monster Creater
-MC_SPWN_Count = {}							-- Ã¿¸öË¢ĞÂµãÒÑ¾­Ë¢³öµÄ¹ÖÎïÊıÁ¿
-MC_SPWN_Limit = {150,150,150,150,150}		-- µ±Ç°µØÍ¼ÔÊĞí³öÏÖµÄ¹ÖÎïÊıÁ¿
-MC_SPWN_LIMIT_TABLE = {150, 150, 150, 150, 150, 150, 150, 150, 150}		-- Ã¿¹Ø¿¨µÄ×î´ó¹ÖÎïÊıÁ¿ÏŞÖÆ
+MC_SPWN_Count = {}							-- æ¯ä¸ªåˆ·æ–°ç‚¹å·²ç»åˆ·å‡ºçš„æ€ªç‰©æ•°é‡
+MC_SPWN_Limit = {150,150,150,150,150}		-- å½“å‰åœ°å›¾å…è®¸å‡ºç°çš„æ€ªç‰©æ•°é‡
+MC_SPWN_LIMIT_TABLE = {150, 150, 150, 150, 150, 150, 150, 150, 150}		-- æ¯å…³å¡çš„æœ€å¤§æ€ªç‰©æ•°é‡é™åˆ¶
 MC_BOSS_POS = {
-{"Tæng ngo¹i qu¶n", "Tæng qu¶n ngo¹i viÖn", 1, 1587, 3238},		-- 1 - Stage 1 boss
-{"Tæng néi qu¶n", "Tæng qu¶n néi viÖn", 2, 1657, 3133},			-- 2 - Stage 2 boss
-{"§¹i tiÓu th­", "§¹i tiÓu th­", 3, 1629, 3147},					-- 3 - Stage 3 boss
-{"§¹i trang chñ", "§¹i trang chñ", 4, 1869, 2895},					-- 4 - Stage 4 boss
-{"Tæng qu¶n Tµng KiÕm", "Tr­ëng l·o Tµng KiÕm C¸c", 5, 1602, 3193},			-- 5 - Stage 5 boss
+{"å¤–é™¢æ€»ç®¡", "å¤–é™¢æ€»ç®¡", 1, 1587, 3238},		-- 1 - Stage 1 boss
+{"å†…é™¢æ€»ç®¡", "å†…é™¢æ€»ç®¡", 2, 1657, 3133},			-- 2 - Stage 2 boss
+{"å¤§å°å§", "å¤§å°å§", 3, 1629, 3147},					-- 3 - Stage 3 boss
+{"å¤§åº„ä¸»", "å¤§åº„ä¸»", 4, 1869, 2895},					-- 4 - Stage 4 boss
+{"è—å‰‘é˜é•¿è€", "è—å‰‘é˜é•¿è€", 5, 1602, 3193},			-- 5 - Stage 5 boss
 {"", "", 0, 0, 0},										-- 6 - Stage 6 boss
 {"", "", 0, 0, 0},										-- 7 - Stage 7 boss
 {"", "", 0, 0, 0},										-- 8 - Stage 8 boss
-{"KiÕm Hån", "Cöu TuyÖt KiÕm Ma", 9, 1567, 3245}}					-- 9 - Stage 9 boss
+{"ä¹ç»å‰‘é­”", "ä¹ç»å‰‘é­”", 9, 1567, 3245}}					-- 9 - Stage 9 boss
 
 ------------------------------------------------------------------------------------------------ FUNCTION ----
 function MC_Init(nZone)
 end
 
--- ½«Ò»¸öµ¥Î»Ìí¼Ó½øÒ»¸ö Group ÖĞ(Group ÊÇÒ»¸öÓÃÀ´¼ÇÂ¼ NPC INDEX µÄ¶ÔÏó,°Ñ¶à¸öNPC INDEX Ìí¼Ó½ø×éºó,¿ÉÒÔ¶Ô×é½øĞĞ²Ù×÷)
+-- å°†ä¸€ä¸ªå•ä½æ·»åŠ è¿›ä¸€ä¸ª Group ä¸­(Group æ˜¯ä¸€ä¸ªç”¨æ¥è®°å½• NPC INDEX çš„å¯¹è±¡,æŠŠå¤šä¸ªNPC INDEX æ·»åŠ è¿›ç»„å,å¯ä»¥å¯¹ç»„è¿›è¡Œæ“ä½œ)
 function MC_Add2Group(nUnitIndex, nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1204,8 +1204,8 @@ function MC_Add2Group(nUnitIndex, nZone)
 	return AddGroupUnit(nZone, nUnitIndex)
 end
 
--- ½«Ò»¸öNPC INDEX´Ó Group ÖĞÉ¾³ı,²¢ÇÒÉ¾µôNPCµÄÊµÌå±¾Éí
--- nLifeTime ±íÊ¾Êµ¼ÊÉ¾³ıÊµÌåµÄÊ±¼äÑÓ³Ù
+-- å°†ä¸€ä¸ªNPC INDEXä» Group ä¸­åˆ é™¤,å¹¶ä¸”åˆ æ‰NPCçš„å®ä½“æœ¬èº«
+-- nLifeTime è¡¨ç¤ºå®é™…åˆ é™¤å®ä½“çš„æ—¶é—´å»¶è¿Ÿ
 function MC_Del4Group(nUnitIndex, nLifeTime, nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1218,7 +1218,7 @@ function MC_Del4Group(nUnitIndex, nLifeTime, nZone)
 	return DelGroupUnit(nZone, nUnitIndex)
 end
 
--- ½«Ò»¸ö Group ÖĞµÄËùÓĞ NPC INDEX Çå³ı,²¢ÇÒÉ¾µôËùÓĞNPCÊµÌå
+-- å°†ä¸€ä¸ª Group ä¸­çš„æ‰€æœ‰ NPC INDEX æ¸…é™¤,å¹¶ä¸”åˆ æ‰æ‰€æœ‰NPCå®ä½“
 function MC_ClearGroup(nLifeTime, nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1231,16 +1231,16 @@ function MC_ClearGroup(nLifeTime, nZone)
 	return ClearGroup(nZone)
 end
 
--- ¸ù¾İ cangjian_spawner.txt ±í´´½¨Ò»¸öµ¥Î»
--- data : ±íÖĞµÄÈÎÒâÒ»¸öÊı¾İÏî
--- datatype : Õâ¸öÊı¾İËùÔÚµÄÁĞµÄ±àºÅ
--- nlevel : ±íÊ¾Õâ¸öNPCµÄµÈ¼¶,Õâ¸öµÈ¼¶½«È¥µô¸öÎ»Êıºó×÷Îª×Ö·û´®Ìí¼Óµ½NPCÄ£°åÃûºóÃæ
+-- æ ¹æ® cangjian_spawner.txt è¡¨åˆ›å»ºä¸€ä¸ªå•ä½
+-- data : è¡¨ä¸­çš„ä»»æ„ä¸€ä¸ªæ•°æ®é¡¹
+-- datatype : è¿™ä¸ªæ•°æ®æ‰€åœ¨çš„åˆ—çš„ç¼–å·
+-- nlevel : è¡¨ç¤ºè¿™ä¸ªNPCçš„ç­‰çº§,è¿™ä¸ªç­‰çº§å°†å»æ‰ä¸ªä½æ•°åä½œä¸ºå­—ç¬¦ä¸²æ·»åŠ åˆ°NPCæ¨¡æ¿ååé¢
 function MC_CreateUnit(data, datatype, nlevel, nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
 	end
 	local nRow = ST_GetRow(data, datatype)
-	local nMapID = GetWorldPos()			-- ²»Í¬µÄ³¡µØÈ·¶¨²»Í¬µÄ µØÍ¼ ID
+	local nMapID = GetWorldPos()			-- ä¸åŒçš„åœºåœ°ç¡®å®šä¸åŒçš„ åœ°å›¾ ID
 	if nlevel == nil then
 		return CreateNpc(ST_GetData(nRow, 6), ST_GetData(nRow, 7), nMapID, ST_GetData(nRow, 4), ST_GetData(nRow, 5))		
 	else
@@ -1250,15 +1250,15 @@ function MC_CreateUnit(data, datatype, nlevel, nZone)
 	end
 end
 
--- ¸ù¾İ cangjian_spawner.txt ±í´´½¨Ò»¸öÖ¸¶¨ĞĞµÄµ¥Î»
--- sNpctype : Èç¹û²»¿ÕÈ±Ôò±íÊ¾´ı´´½¨µÄµ¥Î»ÊÇ sNpctype Ö¸¶¨µÄ NPC Ê±²Å»á´´½¨
+-- æ ¹æ® cangjian_spawner.txt è¡¨åˆ›å»ºä¸€ä¸ªæŒ‡å®šè¡Œçš„å•ä½
+-- sNpctype : å¦‚æœä¸ç©ºç¼ºåˆ™è¡¨ç¤ºå¾…åˆ›å»ºçš„å•ä½æ˜¯ sNpctype æŒ‡å®šçš„ NPC æ—¶æ‰ä¼šåˆ›å»º
 function MC_CreateUnitByRow(nRow, nlevel, sNpctype, nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
 	end
---	local nMapID = ST_GetData(nRow, 3) + (nZone * 10) - 10			-- ²»Í¬µÄ³¡µØÈ·¶¨²»Í¬µÄ µØÍ¼ ID
---                   ·şÎñÆ÷        ³¡µØ×é            ¹Ø¿¨
-	local nMapID = SF_MAPBASE + (nZone * 10) + ST_GetData(nRow, 3)		-- ²»Í¬µÄ³¡µØÈ·¶¨²»Í¬µÄ µØÍ¼ ID
+--	local nMapID = ST_GetData(nRow, 3) + (nZone * 10) - 10			-- ä¸åŒçš„åœºåœ°ç¡®å®šä¸åŒçš„ åœ°å›¾ ID
+--                   æœåŠ¡å™¨        åœºåœ°ç»„            å…³å¡
+	local nMapID = SF_MAPBASE + (nZone * 10) + ST_GetData(nRow, 3)		-- ä¸åŒçš„åœºåœ°ç¡®å®šä¸åŒçš„ åœ°å›¾ ID
 	if nlevel == nil then
 		if (sNpctype == ST_GetData(nRow, 6)) or (sNpctype == nil) then
 			return CreateNpc(ST_GetData(nRow, 6), ST_GetData(nRow, 7), nMapID, ST_GetData(nRow, 4), ST_GetData(nRow, 5))
@@ -1266,7 +1266,7 @@ function MC_CreateUnitByRow(nRow, nlevel, sNpctype, nZone)
 	else
 		nlevel = MU_Div(nlevel) * 10
 		sNpcTemp = ST_GetData(nRow, 6)..tostring(nlevel)
---		if ST_GetData(nRow, 7) == "»ú¹Ø" then
+--		if ST_GetData(nRow, 7) == "æœºå…³" then
 --			sNpcTemp = ST_GetData(nRow, 6)
 --		end
 		if (sNpctype == ST_GetData(nRow, 6)) or (sNpctype == nil) then
@@ -1275,9 +1275,9 @@ function MC_CreateUnitByRow(nRow, nlevel, sNpctype, nZone)
 	end
 end
 
--- ¸ù¾İ cangjian_spawner.txt ±í´´½¨Ò»×é NPC ,ÕâĞ©NPC ²»»áÖÜÆÚĞÔµÄ´´½¨,Ö»»áÔÚÃ¿´Î¹Ø¿¨³õÊ¼»¯µÄÊ±ºò²Å»á´´½¨(ST_Init() »á¼ÆËã³öÃ¿¸ö¹Ø¿¨ĞèÒª´´½¨µÄÒ»ÅúNPC)
--- stage : ±íÊ¾ĞèÒª´´½¨µÄµÚstage¹ØµÄËùÓĞNPC
--- sNpctype : Èç¹û²»¿ÕÈ±Ôò±íÊ¾´ı´´½¨µÄµ¥Î»ÊÇ sNpctype Ö¸¶¨µÄ NPC Ê±²Å»á´´½¨
+-- æ ¹æ® cangjian_spawner.txt è¡¨åˆ›å»ºä¸€ç»„ NPC ,è¿™äº›NPC ä¸ä¼šå‘¨æœŸæ€§çš„åˆ›å»º,åªä¼šåœ¨æ¯æ¬¡å…³å¡åˆå§‹åŒ–çš„æ—¶å€™æ‰ä¼šåˆ›å»º(ST_Init() ä¼šè®¡ç®—å‡ºæ¯ä¸ªå…³å¡éœ€è¦åˆ›å»ºçš„ä¸€æ‰¹NPC)
+-- stage : è¡¨ç¤ºéœ€è¦åˆ›å»ºçš„ç¬¬stageå…³çš„æ‰€æœ‰NPC
+-- sNpctype : å¦‚æœä¸ç©ºç¼ºåˆ™è¡¨ç¤ºå¾…åˆ›å»ºçš„å•ä½æ˜¯ sNpctype æŒ‡å®šçš„ NPC æ—¶æ‰ä¼šåˆ›å»º
 function MC_NoSpawnNPCs(stage, level, sNpctype, nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1292,10 +1292,10 @@ function MC_NoSpawnNPCs(stage, level, sNpctype, nZone)
 	end
 end
 
--- ¸ù¾İ cangjian_spawner.txt ±í´´½¨Ò»×é NPC ,ÕâĞ©NPC »áÖÜÆÚĞÔµÄ½øĞĞ´´½¨(ST_Init() »á¼ÆËã³öÃ¿¸ö¹Ø¿¨ĞèÒª´´½¨µÄÒ»ÅúNPC)
--- stage : ±íÊ¾ĞèÒª´´½¨µÄµÚstage¹ØµÄËùÓĞNPC
--- sNpctype : Èç¹û²»¿ÕÈ±Ôò±íÊ¾´ı´´½¨µÄµ¥Î»ÊÇ sNpctype Ö¸¶¨µÄ NPC Ê±²Å»á´´½¨
--- nNoCheck : Èç¹û²ÎÊıÖµÎª 1 ±íÊ¾²»½øĞĞÖÜÆÚ¼ì²é,ÎŞÂÛÔÚÊ²Ã´ÖÜÆÚ¶¼»Ø´´½¨(ÖÜÆÚ¼ì²éÊÇ¼ì²éÄ³¸öNPC¾¿¾¹Òª¼¸¸öÖÜÆÚ²Å±»´´½¨Ò»´ÎµÄ)
+-- æ ¹æ® cangjian_spawner.txt è¡¨åˆ›å»ºä¸€ç»„ NPC ,è¿™äº›NPC ä¼šå‘¨æœŸæ€§çš„è¿›è¡Œåˆ›å»º(ST_Init() ä¼šè®¡ç®—å‡ºæ¯ä¸ªå…³å¡éœ€è¦åˆ›å»ºçš„ä¸€æ‰¹NPC)
+-- stage : è¡¨ç¤ºéœ€è¦åˆ›å»ºçš„ç¬¬stageå…³çš„æ‰€æœ‰NPC
+-- sNpctype : å¦‚æœä¸ç©ºç¼ºåˆ™è¡¨ç¤ºå¾…åˆ›å»ºçš„å•ä½æ˜¯ sNpctype æŒ‡å®šçš„ NPC æ—¶æ‰ä¼šåˆ›å»º
+-- nNoCheck : å¦‚æœå‚æ•°å€¼ä¸º 1 è¡¨ç¤ºä¸è¿›è¡Œå‘¨æœŸæ£€æŸ¥,æ— è®ºåœ¨ä»€ä¹ˆå‘¨æœŸéƒ½å›åˆ›å»º(å‘¨æœŸæ£€æŸ¥æ˜¯æ£€æŸ¥æŸä¸ªNPCç©¶ç«Ÿè¦å‡ ä¸ªå‘¨æœŸæ‰è¢«åˆ›å»ºä¸€æ¬¡çš„)
 function MC_BeSpawnNPCs(stage, level, sNpctype, nZone, nNoCheck)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1316,24 +1316,24 @@ function MC_BeSpawnNPCs(stage, level, sNpctype, nZone, nNoCheck)
 						local LastedCreatedUnit = MC_CreateUnitByRow(i, level, sNpctype, nZone)
 						MC_Add2Group(LastedCreatedUnit)
 						MC_SPWN_Count[nZone][i] = MC_SPWN_Count[nZone][i] + 1
-						AddUnitStates(LastedCreatedUnit, 8, 1001)		-- ÊÓÒ°·¶Î§ÉèÖÃÎª´óÓÚ 1000
+						AddUnitStates(LastedCreatedUnit, 8, 1001)		-- è§†é‡èŒƒå›´è®¾ç½®ä¸ºå¤§äº 1000
 					else
-						return "Error: §iÓm Refresh"..i.."Sè l­îng v­ît qu¸ tèi ®a:"..MC_SPWN_Count[nZone][i].."/"..nSpawnerCountMax
+						return "é”™è¯¯:åœ°ç‚¹åˆ·æ–°"..i.."æ•°é‡è¶…è¿‡æœ€å¤§å€¼:"..MC_SPWN_Count[nZone][i].."/"..nSpawnerCountMax
 					end
 				else
-					return "Error: Sè qu¸i vËt ®¹t ®Õn møc tèi ®a:"..MC_SPWN_Limit[nZone]
+					return "é”™è¯¯:æ€ªç‰©çš„æ•°é‡å·²ç»è¾¾åˆ°æœ€å¤§å€¼:"..MC_SPWN_Limit[nZone]
 				end
 			else
-				return "Error: Ch­a tíi chu kú kh«i phôc"..TT_StepperChecker(nSpawnPeriod).."/"..nSpawnPeriod
+				return "é”™è¯¯ï¼šæœªè¾¾åˆ°æ¢å¤å‘¨æœŸ"..TT_StepperChecker(nSpawnPeriod).."/"..nSpawnPeriod
 			end
 		end
 	end
 end
 
--- ´´½¨Ä³¹ØµÄBOSS(Í¨³£Õâ¸öº¯Êı²»´ø²ÎÊı,µ÷ÓÃºó»á´´½¨Íæ¼ÒËùÔÚ¹Ø¿¨µÄBOSS)
--- nIndex : Í¨³£ÊÇ¹Ø¿¨ºÅ
--- nCheck : ÊÇ·ñ¼ì²éµÈ¼¶
-function MC_CreateBoss(nIndex, nCheck, nStage, nZone)				-- Éú³ÉÃ¿¹Ø¿¨µÄË¢ĞÂµã¹ÖÎï
+-- åˆ›å»ºæŸå…³çš„BOSS(é€šå¸¸è¿™ä¸ªå‡½æ•°ä¸å¸¦å‚æ•°,è°ƒç”¨åä¼šåˆ›å»ºç©å®¶æ‰€åœ¨å…³å¡çš„BOSS)
+-- nIndex : é€šå¸¸æ˜¯å…³å¡å·
+-- nCheck : æ˜¯å¦æ£€æŸ¥ç­‰çº§
+function MC_CreateBoss(nIndex, nCheck, nStage, nZone)				-- ç”Ÿæˆæ¯å…³å¡çš„åˆ·æ–°ç‚¹æ€ªç‰©
 	if nIndex == nil then
 		nIndex = TC_STAGE_Index[nZone]
 	end
@@ -1348,7 +1348,7 @@ function MC_CreateBoss(nIndex, nCheck, nStage, nZone)				-- Éú³ÉÃ¿¹Ø¿¨µÄË¢ĞÂµã¹Ö
 	else
 		nlevel = ""
 	end
-	local nMapID = GetWorldPos()				-- »ñÈ¡µ±Ç°µØÍ¼ID
+	local nMapID = GetWorldPos()				-- è·å–å½“å‰åœ°å›¾ID
 	local nBossIndex = CreateNpc(MC_BOSS_POS[nIndex][1]..nlevel, MC_BOSS_POS[nIndex][2], nMapID, MC_BOSS_POS[nIndex][4], MC_BOSS_POS[nIndex][5])
 	MC_Add2Group(nBossIndex)
 	return nBossIndex
@@ -1356,7 +1356,7 @@ end
 
 --============================================================================================== THE BONUS ====
 -- The Bonus
-TB_BONUS_TABLE =	{--s1	 s2		s3		s4		s5		s6		s7		s8		s9			-- ²»Í¬µÈ¼¶Ã¿¹Ø¿¨µÄ¶Ó³¤½±Àø±í
+TB_BONUS_TABLE =	{--s1	 s2		s3		s4		s5		s6		s7		s8		s9			-- ä¸åŒç­‰çº§æ¯å…³å¡çš„é˜Ÿé•¿å¥–åŠ±è¡¨
     				{1500,	3000,	4500,	6000,	7500,	0,		0,		9000,	12000   },	-- level 30
     				{3000,	6000,	9000,	12000,	15000,	0,		0,		18000,	21000   },	-- level 40
     				{25000,	32500,	42250,	54925,	71402,	0,		0,		107100,	160000   },	-- level 50
@@ -1364,23 +1364,23 @@ TB_BONUS_TABLE =	{--s1	 s2		s3		s4		s5		s6		s7		s8		s9			-- ²»Í¬µÈ¼¶Ã¿¹Ø¿¨µÄ¶Ó³¤
     				{100000,130000,	170000,	220000,	320000, 0,		0,		500000,	700000  },	-- level 70
     				{200000,260000,	340000,	440000, 600000, 0,		0,		1000000,	1500000  },	-- level 80
     				{300000,390000,	510000, 660000, 900000, 0,		0,		1500000,	2250000  }}	-- level 90
-TB_BONUS_CHANCE	= 14				-- ¼ÇÂ¼¶Ó³¤Áì½±»ú»áËùÓÃµ½µÄ TaskTemp Ë÷ÒıºÅ
-TB_BONUS_LASTEDGOT = 15				-- ¼ÇÂ¼¶Ó³¤ÉÏ´ÎÁì½±¹Ø¿¨»ú»áÓÃµ½µÄ TaskTemp Ë÷ÒıºÅ
-TB_BONUS_SCORE = 1801				-- Task Ë÷ÒıºÅ ÀÛ¼Æ»ı·Ö£¨Ö÷ÒªÓ°ÏìÒòËØ£ºÉ±µĞÈËÊı¡¢ÏûºÄÊ±¼ä¡¢¹Ø¿¨£©
-TB_BONUS_TIME = 1802				-- Task Ë÷ÒıºÅ ¹²ÓÃÊ±¼ä£¨Ö÷ÒªÓ°ÏìÒòËØ£ºÏûºÄÊ±¼ä£©
-TB_BONUS_RELATION = 1803			-- Task Ë÷ÒıºÅ ÓÑºÃ³Ì¶È£¨Ö÷ÒªÓ°ÏìÒòËØ£ºÉ±µĞÈËÊı¡¢¹Ø¿¨ÌØÊâÌõ¼ş£©
-TB_BONUS_PLAYED = 1804				-- Task Ë÷ÒıºÅ ²ÎÓë´ÎÊı£¨Ö÷ÒªÓ°ÏìÒòËØ£º²ÎÓë´ÎÊı£©
-TB_BONUS_FINISHED = 1805			-- Task Ë÷ÒıºÅ Í¨¹Ø´ÎÊı£¨Ö÷ÒªÓ°ÏìÒòËØ£ºÍêÈ«Íê³É´ÎÊı£©
-TB_BONUS_STAGE = 1806				-- Task Ë÷ÒıºÅ ´³¹ØÊıÁ¿£¨Ö÷ÒªÓ°ÏìÒòËØ£º×Ü¹²Íê³ÉµÄµ¥¸ö¹Ø¿¨ÊıÁ¿£©
-TB_BONUS_KILLED = 1807				-- Task Ë÷ÒıºÅ É±¹ÖÊıÁ¿£¨Ö÷ÒªÓ°ÏìÒòËØ£ºÉ±¹ÖÊıÁ¿£©
-TB_BONUS_BECAPTAIN = 1808			-- Task Ë÷ÒıºÅ ¶Ó³¤´ÎÊı£¨Ö÷ÒªÓ°ÏìÒòËØ£º×÷Îª¶Ó³¤µÄ´ÎÊı£©
-TB_BONUS_CAPTAINLEVEL = 1822		-- Task Ë÷ÒıºÅ Í¨¹ØµÈ¼¶£¨×î¶ÌÊ±¼äÍ¨¹ØÊ±µÄ¶Ó³¤µÈ¼¶£©
-TB_BONUS_CAPTAINTIME = 1823			-- Task Ë÷ÒıºÅ Í¨¹ØÊ±¼ä
-TB_BONUS_MemberTotal = {0, 0, 0, 0, 0}		-- ¶ÓÔ±½±Àø×ÜÖµ
-TB_BONUS_Total = {0, 0, 0, 0, 0}			-- È«¹Ø¿¨½±Àø×ÜÖµ
+TB_BONUS_CHANCE	= 14				-- è®°å½•é˜Ÿé•¿é¢†å¥–æœºä¼šæ‰€ç”¨åˆ°çš„ TaskTemp ç´¢å¼•å·
+TB_BONUS_LASTEDGOT = 15				-- è®°å½•é˜Ÿé•¿ä¸Šæ¬¡é¢†å¥–å…³å¡æœºä¼šç”¨åˆ°çš„ TaskTemp ç´¢å¼•å·
+TB_BONUS_SCORE = 1801				-- Task ç´¢å¼•å· ç´¯è®¡ç§¯åˆ†ï¼ˆä¸»è¦å½±å“å› ç´ ï¼šæ€æ•Œäººæ•°ã€æ¶ˆè€—æ—¶é—´ã€å…³å¡ï¼‰
+TB_BONUS_TIME = 1802				-- Task ç´¢å¼•å· å…±ç”¨æ—¶é—´ï¼ˆä¸»è¦å½±å“å› ç´ ï¼šæ¶ˆè€—æ—¶é—´ï¼‰
+TB_BONUS_RELATION = 1803			-- Task ç´¢å¼•å· å‹å¥½ç¨‹åº¦ï¼ˆä¸»è¦å½±å“å› ç´ ï¼šæ€æ•Œäººæ•°ã€å…³å¡ç‰¹æ®Šæ¡ä»¶ï¼‰
+TB_BONUS_PLAYED = 1804				-- Task ç´¢å¼•å· å‚ä¸æ¬¡æ•°ï¼ˆä¸»è¦å½±å“å› ç´ ï¼šå‚ä¸æ¬¡æ•°ï¼‰
+TB_BONUS_FINISHED = 1805			-- Task ç´¢å¼•å· é€šå…³æ¬¡æ•°ï¼ˆä¸»è¦å½±å“å› ç´ ï¼šå®Œå…¨å®Œæˆæ¬¡æ•°ï¼‰
+TB_BONUS_STAGE = 1806				-- Task ç´¢å¼•å· é—¯å…³æ•°é‡ï¼ˆä¸»è¦å½±å“å› ç´ ï¼šæ€»å…±å®Œæˆçš„å•ä¸ªå…³å¡æ•°é‡ï¼‰
+TB_BONUS_KILLED = 1807				-- Task ç´¢å¼•å· æ€æ€ªæ•°é‡ï¼ˆä¸»è¦å½±å“å› ç´ ï¼šæ€æ€ªæ•°é‡ï¼‰
+TB_BONUS_BECAPTAIN = 1808			-- Task ç´¢å¼•å· é˜Ÿé•¿æ¬¡æ•°ï¼ˆä¸»è¦å½±å“å› ç´ ï¼šä½œä¸ºé˜Ÿé•¿çš„æ¬¡æ•°ï¼‰
+TB_BONUS_CAPTAINLEVEL = 1822		-- Task ç´¢å¼•å· é€šå…³ç­‰çº§ï¼ˆæœ€çŸ­æ—¶é—´é€šå…³æ—¶çš„é˜Ÿé•¿ç­‰çº§ï¼‰
+TB_BONUS_CAPTAINTIME = 1823			-- Task ç´¢å¼•å· é€šå…³æ—¶é—´
+TB_BONUS_MemberTotal = {0, 0, 0, 0, 0}		-- é˜Ÿå‘˜å¥–åŠ±æ€»å€¼
+TB_BONUS_Total = {0, 0, 0, 0, 0}			-- å…¨å…³å¡å¥–åŠ±æ€»å€¼
 ------------------------------------------------------------------------------------------------ FUNCTION ----
--- ³õÊ¼»¯
--- Í¨³£ÔÚ¸Õ¿ªÊ¼µÄÊ±ºòµ÷ÓÃÒ»´Î,×÷ÓÃÊÇ±äÁ¿³õÊ¼»¯»¹ÓĞÉèÖÃ¶Ó³¤¿ÉÁì½±µÄ´ÎÊı
+-- åˆå§‹åŒ–
+-- é€šå¸¸åœ¨åˆšå¼€å§‹çš„æ—¶å€™è°ƒç”¨ä¸€æ¬¡,ä½œç”¨æ˜¯å˜é‡åˆå§‹åŒ–è¿˜æœ‰è®¾ç½®é˜Ÿé•¿å¯é¢†å¥–çš„æ¬¡æ•°
 function TB_Init(nZone, nStage)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1397,8 +1397,8 @@ function TB_Init(nZone, nStage)
 	PlayerIndex = nOldIndex
 end
 
--- ÉèÖÃ¶Ó³¤Áì½±»ú»á
--- Ã¿¸ö¹Ø¿¨Íê³Éºó¶Ó³¤¶¼¿ÉÒÔÁìÈ¡Ò»´Î½±Àø,µ«ÊÇËùÓĞ¹Ø¿¨Ö»ÓĞN´Î»ú»á,Õâ¸ö N ¾ÍÊÇÓÃ´Ëº¯ÊıÉèÖÃ
+-- è®¾ç½®é˜Ÿé•¿é¢†å¥–æœºä¼š
+-- æ¯ä¸ªå…³å¡å®Œæˆåé˜Ÿé•¿éƒ½å¯ä»¥é¢†å–ä¸€æ¬¡å¥–åŠ±,ä½†æ˜¯æ‰€æœ‰å…³å¡åªæœ‰Næ¬¡æœºä¼š,è¿™ä¸ª N å°±æ˜¯ç”¨æ­¤å‡½æ•°è®¾ç½®
 function TB_SetBonusChance(nChance, nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1409,7 +1409,7 @@ function TB_SetBonusChance(nChance, nZone)
 	PlayerIndex = nOldIndex
 end
 
--- È¡µÃ¶Ó³¤»¹Ê£ÓàµÄÁì½±»ú»á
+-- å–å¾—é˜Ÿé•¿è¿˜å‰©ä½™çš„é¢†å¥–æœºä¼š
 function TB_GetBonusChance(nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1421,7 +1421,7 @@ function TB_GetBonusChance(nZone)
 	return nChance
 end
 
--- ÉèÖÃ¶Ó³¤×î½üÒ»´ÎÄÃ½±Æ·µÄ¹Ø¿¨Êı
+-- è®¾ç½®é˜Ÿé•¿æœ€è¿‘ä¸€æ¬¡æ‹¿å¥–å“çš„å…³å¡æ•°
 function TB_SetLastedGot(nStage, nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1432,7 +1432,7 @@ function TB_SetLastedGot(nStage, nZone)
 	PlayerIndex = nOldIndex
 end
 
--- È¡µÃ¶Ó³¤×î½üÒ»´ÎÄÃ½±Æ·µÄ¹Ø¿¨Êı
+-- å–å¾—é˜Ÿé•¿æœ€è¿‘ä¸€æ¬¡æ‹¿å¥–å“çš„å…³å¡æ•°
 function TB_GetLastedGot(nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1444,8 +1444,8 @@ function TB_GetLastedGot(nZone)
 	return  nStage
 end
 
--- ¶Ó³¤Áì½±´¦Àí
--- ½±ÀøÄ¿Ç°°üÀ¨ ½ğÇ®/¾­Ñé
+-- é˜Ÿé•¿é¢†å¥–å¤„ç†
+-- å¥–åŠ±ç›®å‰åŒ…æ‹¬ é‡‘é’±/ç»éªŒ
 function TB_GetCaptainBonus(nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1458,7 +1458,7 @@ function TB_GetCaptainBonus(nZone)
 		if TC_STAGE_Index[nZone] > nStage then
 			SetTaskTemp(TB_BONUS_CHANCE, (nChance - 1))
 			SetTaskTemp(TB_BONUS_LASTEDGOT, TC_STAGE_Index[nZone])
-			local nETRow = MU_Div(GetLevel()) - 2					-- ¸ù¾İ¶Ó³¤µÈ¼¶»ñÈ¡ TB_BONUS_TABLE ±íÖĞµÄĞĞ²ÎÊı
+			local nETRow = MU_Div(GetLevel()) - 2					-- æ ¹æ®é˜Ÿé•¿ç­‰çº§è·å– TB_BONUS_TABLE è¡¨ä¸­çš„è¡Œå‚æ•°
 			local nTempBonus = 0
 			for i=(nStage + 1), TC_STAGE_Index[nZone] do
 				nTempBonus = nTempBonus + TB_BONUS_TABLE[nETRow][i]
@@ -1470,31 +1470,31 @@ function TB_GetCaptainBonus(nZone)
 			if nTeamSize > 1 then
 				nMemberExp = floor(nTempBonus / nTeamSize / 3 * 2)
 			end
-			-- ¶Ó³¤»ñµÃ¾­ÑéµÄ1/3
+			-- é˜Ÿé•¿è·å¾—ç»éªŒçš„1/3
 			ModifyExp(nCaptainExp)
 			for i=1, GetTeamSize() do
-				--ÆäËû¶ÓÔ±»ñµÃÊ£ÏÂµÄ2/3
+				--å…¶ä»–é˜Ÿå‘˜è·å¾—å‰©ä¸‹çš„2/3
 				PlayerIndex = GetTeamMember(i)
 				if PlayerIndex > 0 and PlayerIndex ~= GetTeamMember(0) then
 					ModifyExp(nMemberExp)
 				end
 			end
 			PlayerIndex = nOldIndex
-			MU_Msg2Team(GetName().."NhËn phÇn th­ëng ®éi tr­ëng: §iÓm kinh nghiÖm ["..nCaptainExp.."], ®éi viªn nhËn ®­îc ®iÓm kinh nghiÖm["..nMemberExp.."]")
+			MU_Msg2Team(GetName().."è·å¾—é˜Ÿé•¿å¥–åŠ±: ç»éªŒ ["..nCaptainExp.."], å’Œé˜Ÿä¼å¥–åŠ±ç»éªŒ["..nMemberExp.."]")
 		else
 			PlayerIndex = nOldIndex
-			Msg2Player("¶i nµy ®· v­ît qua!")
+			Msg2Player("ä½ å·²ç»é€šè¿‡è¿™ä¸€å…³äº†")
 		end
 	else
 		PlayerIndex = nOldIndex
-		Msg2Player("§· dïng hÕt c¬ héi!")
+		Msg2Player("å‰¯æœ¬æ¬¡æ•°ä¸Šé™äº†ï¼Œæ˜å¤©å†æ¥å§!")
 	end
 	PlayerIndex = nOldIndex
 	return  nStage
 end
 
--- È«¶ÓÍê³ÉÒ»¹Ø¿¨ºóµÄ»ı·Ö·ÖÅä´¦Àí
--- nBonus : È«¶Ó´ı·ÖÅä»ı·Ö
+-- å…¨é˜Ÿå®Œæˆä¸€å…³å¡åçš„ç§¯åˆ†åˆ†é…å¤„ç†
+-- nBonus : å…¨é˜Ÿå¾…åˆ†é…ç§¯åˆ†
 --function TB_GetMemberBonus(nBonus, nZone)
 --	if nZone == nil then
 --		nZone = TC_GetTeamZone()
@@ -1509,13 +1509,13 @@ end
 --	for i=1, GetTeamSize() do
 --		PlayerIndex = GetTeamMember(i)
 --		nSigle_Bonus = GetTask(TB_BONUS_SCORE) + nSigle_Bonus
---		SetTask(TB_BONUS_SCORE, nSigle_Bonus)						-- ½±Àø»ı·Ö
+--		SetTask(TB_BONUS_SCORE, nSigle_Bonus)						-- å¥–åŠ±ç§¯åˆ†
 --	end
 --	PlayerIndex = nOldIndex
 --	return nSigle_Bonus
 --end
 
--- ¿ªÆôÃ¿¹Ø¶¼ÓĞµÄËæ»úĞ§¹ûµÄĞ¡±¦Ïä
+-- å¼€å¯æ¯å…³éƒ½æœ‰çš„éšæœºæ•ˆæœçš„å°å®ç®±
 function TB_OpenCommonChest(nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -1528,92 +1528,92 @@ function TB_OpenCommonChest(nZone)
 		local nCash = TB_BONUS_TABLE[nETRow][1]/random(4,6)
 		Earn(nCash)
 		nCash = SB_Div(nCash, 1)
-		Msg2Player("T¨ng"..nCash.." ng©n l­îng")
+		Msg2Player("å¢åŠ "..nCash.."é“¶å¸")
 	elseif nChoice == 2 then
 		local nCash = TB_BONUS_TABLE[nETRow][1]/random(4,6)
 		ModifyExp(nCash)
 		nCash = SB_Div(nCash, 1)
-		Msg2Player("T¨ng"..nCash.." kinh nghiÖm")
+		Msg2Player("å¢åŠ "..nCash.."ç»éªŒ")
 	elseif nChoice == 3 then
-		CastState("state_lost_life_per18",(GetLevel()^0.75),270,1)		-- 15 Ãë£¬Ã¿°ëÃë¿Û³ıÒ»¶¨µÄHP
-		Msg2Player("15 gi©y, mçi nöa gi©y khÊu trõ sinh lùc nhÊt ®Şnh")
+		CastState("state_lost_life_per18",(GetLevel()^0.75),270,1)		-- 15 ç§’ï¼Œæ¯åŠç§’æ‰£é™¤ä¸€å®šçš„HP
+		Msg2Player("15ç§’ï¹œ,æ¯åŠç§’æ‰£é™¤ä¸€å®šçš„HP")
 	elseif nChoice == 4 then
-		CastState("state_lost_mana_per18",(GetLevel()^0.85),270,1)		-- 15 Ãë£¬Ã¿°ëÃë¿Û³ıÒ»¶¨µÄMP
-		Msg2Player("15 gi©y, mçi nöa gi©y khÊu trõ néi lùc nhÊt ®Şnh")
+		CastState("state_lost_mana_per18",(GetLevel()^0.85),270,1)		-- 15 ç§’ï¼Œæ¯åŠç§’æ‰£é™¤ä¸€å®šçš„MP
+		Msg2Player("15ç§’ï¹œ,æ¯åŠç§’æ‰£é™¤ä¸€å®šçš„MP")
 	elseif nChoice == 5 then
-		CastState("state_perfect_dodge_rate",50,540,1)					-- 30 Ãë£¬50%µÄÉÁ±Ü
-		Msg2Player("30 gi©y, 50% tû lÖ nĞ tr¸nh")
+		CastState("state_perfect_dodge_rate",50,540,1)					-- 30 ç§’ï¼Œ50%çš„é—ªé¿
+		Msg2Player("30ç§’ï¹œ, 50%çš„é—ªé¿")
 	elseif nChoice == 6 then
-		CastState("state_life_max_percent_add",25,1080,1)					-- 60 Ãë£¬HPÔö¼Ó25%
-		Msg2Player("60 gi©y, HP t¨ng 25%")
+		CastState("state_life_max_percent_add",25,1080,1)					-- 60 ç§’ï¼ŒHPå¢åŠ 25%
+		Msg2Player("60ç§’ï¹œ, HPå¢åŠ 25%")
 	elseif nChoice == 7 then
-		CastState("state_neili_max_percent_add",35,1080,1)				-- 60 Ãë£¬MPÔö¼Ó35%
-		Msg2Player("60 gi©y, MP t¨ng 35%")
+		CastState("state_neili_max_percent_add",35,1080,1)				-- 60 ç§’ï¼ŒMPå¢åŠ 35%
+		Msg2Player("60ç§’ï¹œ, MPå¢åŠ 35%")
 	elseif nChoice == 8 then
-		CastState("state_attack_rate_percent_add",50,1080,1)				-- 60 Ãë£¬ÃüÖĞÔö¼Ó100
-		Msg2Player("60 gi©y, chİnh x¸c t¨ng 50%")
+		CastState("state_attack_rate_percent_add",50,1080,1)				-- 60 ç§’ï¼Œå‘½ä¸­å¢åŠ 100
+		Msg2Player("60ç§’ï¹œ, å‘½ä¸­å¢åŠ 50%")
 	elseif nChoice == 9 then
-		CastState("state_critical_hit_rate",25,1080,1)					-- 60 Ãë£¬»áĞÄÔö¼Ó25
-		Msg2Player("60 gi©y, chİnh x¸c t¨ng 25")
+		CastState("state_critical_hit_rate",25,1080,1)					-- 60 ç§’ï¼Œä¼šå¿ƒå¢åŠ 25
+		Msg2Player("60ç§’ï¹œ, ä¼šå¿ƒå¢åŠ 25")
 	elseif nChoice == 10 then
-		CastState("state_attack_speed_add",25,1080,1)						-- 60 Ãë£¬¹¥ËÙÔö¼Ó25%
-		Msg2Player("60 gi©y, tèc ®é ®¸nh t¨ng 25%")
+		CastState("state_attack_speed_add",25,1080,1)						-- 60 ç§’ï¼Œæ”»é€Ÿå¢åŠ 25%
+		Msg2Player("60ç§’ï¹œ,æ”»é€Ÿå¢åŠ 25%")
 	elseif nChoice == 11 then
-		CastState("state_attack_speed_dec",30,1080,1)						-- 60 Ãë£¬¹¥ËÙ½µµÍ30%
-		Msg2Player("60 gi©y, tèc ®é ®¸nh gi¶m 30%")
+		CastState("state_attack_speed_dec",30,1080,1)						-- 60 ç§’ï¼Œæ”»é€Ÿé™ä½30%
+		Msg2Player("60ç§’ï¹œ, æ”»é€Ÿé™ä½30%")
 	elseif nChoice == 12 then
-		CastState("state_move_speed_percent_add",50,1080,1)				-- 60 Ãë£¬ÒÆ¶¯ËÙ¶ÈÔö¼Ó 50%
-		Msg2Player("60 gi©y, tèc ®é di chuyÓn t¨ng 50%")
+		CastState("state_move_speed_percent_add",50,1080,1)				-- 60 ç§’ï¼Œç§»åŠ¨é€Ÿåº¦å¢åŠ  50%
+		Msg2Player("60ç§’ï¹œ,ç§»åŠ¨é€Ÿåº¦å¢åŠ 50%")
 	elseif nChoice == 13 then
-		CastState("state_slow",50,1080,1)									-- 60 Ãë£¬ÒÆ¶¯ËÙ¶È½µµÍ 50%
-		Msg2Player("60 gi©y, tèc ®é di chuyÓn gi¶m 50%")
+		CastState("state_slow",50,1080,1)									-- 60 ç§’ï¼Œç§»åŠ¨é€Ÿåº¦é™ä½ 50%
+		Msg2Player("60ç§’ï¹œ,ç§»åŠ¨é€Ÿåº¦é™ä½50%")
 	elseif nChoice == 14 then
---      ´Ë¹¦ÄÜÎ´ÉúĞ§£¬ÁÙÊ±Ìæ»»³ÉÆäËû¹¦ÄÜ
---		CastState("state_maximumattack",100,180,1)						-- 10 Ãë£¬Íâ¹¦ÁÙÊ±´ïµ½×î´óÖµ
---		Msg2Player("10 Ãë£¬Íâ¹¦ÁÙÊ±´ïµ½×î´óÖµ")
+--      æ­¤åŠŸèƒ½æœªç”Ÿæ•ˆï¼Œä¸´æ—¶æ›¿æ¢æˆå…¶ä»–åŠŸèƒ½
+--		CastState("state_maximumattack",100,180,1)						-- 10 ç§’ï¼Œå¤–åŠŸä¸´æ—¶è¾¾åˆ°æœ€å¤§å€¼
+--		Msg2Player("10ç§’ï¼Œå¤–åŠŸä¸´æ—¶è¾¾åˆ°æœ€å¤§å€¼")
 		local nCash = TB_BONUS_TABLE[nETRow][1]/random(4,6)
 		Earn(nCash)
 		nCash = SB_Div(nCash, 1)
-		Msg2Player("T¨ng"..nCash.." ng©n l­îng")
+		Msg2Player("å¢åŠ .."é“¶å¸")
 	elseif nChoice == 15 then
-		CastState("state_confusion",100,270,1)							-- 15 Ãë£¬ÁÙÊ±»ìÂÒ
-		Msg2Player("15 gi©y, hçn lo¹n t¹m thêi")
+		CastState("state_confusion",100,270,1)							-- 15 ç§’ï¼Œä¸´æ—¶æ··ä¹±
+		Msg2Player("15ç§’ï¹œ,ä¸´æ—¶æ··ä¹±")
 	elseif nChoice == 16 then
-		CastState("state_paralysis",100,270,1)							-- 15 Ãë£¬ÁÙÊ±Âé±Ô
-		Msg2Player("15 gi©y, tª liÖt t¹m thêi")
+		CastState("state_paralysis",100,270,1)							-- 15 ç§’ï¼Œä¸´æ—¶éº»ç—¹
+		Msg2Player("15ç§’ï¹œ,ä¸´æ—¶éº»ç—¹")
 	elseif nChoice == 17 then
-		CastState("state_sleep",100,360,1)								-- 20 Ãë£¬ÁÙÊ±Ë¯Ãß
-		Msg2Player("20 gi©y, h«n mª t¹m thêi")
+		CastState("state_sleep",100,360,1)								-- 20 ç§’ï¼Œä¸´æ—¶ç¡çœ 
+		Msg2Player("20ç§’ï¹œ,ä¸´æ—¶ç¡çœ ")
 	elseif nChoice == 18 then
-		CastState("state_vertigo",100,180,1)								-- 15 Ãë£¬ÁÙÊ±Ñ£ÔÎ
-		Msg2Player("15 gi©y, cho¸ng t¹m thêi")
+		CastState("state_vertigo",100,180,1)								-- 15 ç§’ï¼Œä¸´æ—¶çœ©æ™•
+		Msg2Player("15ç§’ï¹œ,ä¸´æ—¶çœ©æ™•")
 	elseif nChoice == 19 then
-		CastState("state_burst_enhance_rate",75,1080,1)					-- 60 Ãë£¬ÊÍ·ÅËÙ¶ÈÔö¼Ó 75%
-		Msg2Player("60 gi©y, tèc ®é phãng t¨ng 75%")
+		CastState("state_burst_enhance_rate",75,1080,1)					-- 60 ç§’ï¼Œé‡Šæ”¾é€Ÿåº¦å¢åŠ  75%
+		Msg2Player("60ç§’ï¹œ,é‡Šæ”¾é€Ÿåº¦å¢åŠ 75%")
 	elseif nChoice == 20 then
-		CastState("state_burst_enhance_rate",-25,1080,1)					-- 60 Ãë£¬ÊÍ·ÅËÙ¶È½µµÍ 25%
-		Msg2Player("60 gi©y, tèc ®é phãng gi¶m 75%")
+		CastState("state_burst_enhance_rate",-25,1080,1)					-- 60 ç§’ï¼Œé‡Šæ”¾é€Ÿåº¦é™ä½ 25%
+		Msg2Player("60ç§’ï¹œ,é‡Šæ”¾é€Ÿåº¦é™ä½75%")
 	elseif nChoice == 21 then
-		CastState("state_p_attack_percent_add",25,1080,1)					-- 60 Ãë£¬Íâ¹¦×Ü¹¥»÷Á¦±ÈÀı¼Ó³É 25%
-		Msg2Player("60 gi©y, tû lÖ ®¸nh ngo¹i c«ng t¨ng 25%")
+		CastState("state_p_attack_percent_add",25,1080,1)					-- 60 ç§’ï¼Œå¤–åŠŸæ€»æ”»å‡»åŠ›æ¯”ä¾‹åŠ æˆ 25%
+		Msg2Player("60ç§’ï¹œ,å¤–åŠŸæ€»æ”»å‡»åŠ›æ¯”ä¾‹åŠ æˆ25%")
 	elseif nChoice == 22 then
-		CastState("state_p_attack_percent_dec",25,1080,1)					-- 60 Ãë£¬Íâ¹¦×Ü¹¥»÷Á¦±ÈÀı¼õÉÙ 25%
-		Msg2Player("60 gi©y, tû lÖ ®¸nh ngo¹i c«ng gi¶m 25%")
+		CastState("state_p_attack_percent_dec",25,1080,1)					-- 60 ç§’ï¼Œå¤–åŠŸæ€»æ”»å‡»åŠ›æ¯”ä¾‹å‡å°‘ 25%
+		Msg2Player("60ç§’ï¹œ,å¤–åŠŸæ€»æ”»å‡»åŠ›æ¯”ä¾‹å‡å°‘25%")
 	elseif nChoice == 23 then
-		CastState("state_m_attack_percent_add",25,1080,1)					-- 60 Ãë£¬ÄÚ¹¦×Ü¹¥»÷Á¦±ÈÀı¼Ó³É 25%
-		Msg2Player("60 gi©y, tû lÖ ®¸nh néi c«ng t¨ng 25%")
+		CastState("state_m_attack_percent_add",25,1080,1)					-- 60 ç§’ï¼Œå†…åŠŸæ€»æ”»å‡»åŠ›æ¯”ä¾‹åŠ æˆ 25%
+		Msg2Player("60ç§’ï¹œ,å†…åŠŸæ€»æ”»å‡»åŠ›æ¯”ä¾‹åŠ æˆ25%")
 	elseif nChoice == 24 then
-		CastState("state_m_attack_percent_dec",25,1080,1)					-- 60 Ãë£¬ÄÚ¹¦×Ü¹¥»÷Á¦±ÈÀı¼õÉÙ 25%
-		Msg2Player("60 gi©y, tû lÖ ®¸nh néi c«ng gi¶m 25%")
+		CastState("state_m_attack_percent_dec",25,1080,1)					-- 60 ç§’ï¼Œå†…åŠŸæ€»æ”»å‡»åŠ›æ¯”ä¾‹å‡å°‘ 25%
+		Msg2Player("60ç§’ï¹œ,å†…åŠŸæ€»æ”»å‡»åŠ›æ¯”ä¾‹å‡å°‘25%")
 	elseif nChoice == 25 then
 		local nCash = TB_BONUS_TABLE[nETRow][1]/random(4,6)
 		DoubleExpCount(nCash)
 		nCash = SB_Div(nCash, 1)
-		Msg2Player("T¨ng"..nCash.." ®iÓm kinh nghiÖm nh©n ®«i")
+		Msg2Player("Tâ•ªg"..nCash.." ç”¶è§¤ kinh nghiè¬’ nhï¹ î†‚i")
 	end
 end
 
--- Ôö¼ÓÍæ¼ÒµÄ¹Ø¿¨¼Ç·ÖÖĞÄ³ÏîÄ¿µÄÖµ (¼Ç·ÖĞÅÏ¢Í¨¹ıÊ¹ÓÃ AddItem(2,0,212,1) Ëù»ñµÃµÄµÀ¾ßÀ´²é¿´)
+-- å¢åŠ ç©å®¶çš„å…³å¡è®°åˆ†ä¸­æŸé¡¹ç›®çš„å€¼ (è®°åˆ†ä¿¡æ¯é€šè¿‡ä½¿ç”¨ AddItem(2,0,212,1) æ‰€è·å¾—çš„é“å…·æ¥æŸ¥çœ‹)
 function TB_AddScore(nType, nValue, nIndex)
 	local nZone = TC_GetTeamZone()
 	local nStage = TC_STAGE_Index[nZone]
@@ -1623,31 +1623,31 @@ function TB_AddScore(nType, nValue, nIndex)
 		if nIndex ~= nil then
 			PlayerIndex = nIndex
 		end
---- »ı·Ö¼ÇÂ¼
-		if (nType == 1) or (nType == "§iÓm tİch lòy") then
+--- ç§¯åˆ†è®°å½•
+		if (nType == 1) or (nType == "ç§¯åˆ†è®°å½•") then
 			SetTask(TB_BONUS_SCORE, GetTask(TB_BONUS_SCORE)+nValue)
---- Ê±¼ä¼ÇÂ¼
-		elseif (nType == 2) or (nType == " thêi gian ") then
+--- æ—¶é—´è®°å½•
+		elseif (nType == 2) or (nType == "æ—¶é—´è®°å½•") then
 			SetTask(TB_BONUS_TIME, GetTask(TB_BONUS_TIME)+nValue)
---- ÓÑºÃ¼ÇÂ¼
-		elseif (nType == 3) or (nType == "H¶o h÷u") then
+--- å‹å¥½è®°å½•
+		elseif (nType == 3) or (nType == "å‹å¥½è®°å½•") then
 			SetTask(TB_BONUS_RELATION, GetTask(TB_BONUS_RELATION)+nValue)
---- ²ÎÓë´ÎÊı
-		elseif (nType == 4) or (nType == "Tham dù") then
+--- å‚ä¸æ¬¡æ•°
+		elseif (nType == 4) or (nType == "å‚ä¸æ¬¡æ•°") then
 			SetTask(TB_BONUS_PLAYED, GetTask(TB_BONUS_PLAYED)+nValue)
---- Í¨¹Ø´ÎÊı
-		elseif (nType == 5) or (nType == "Qua ¶i") then
+--- é€šå…³æ¬¡æ•°
+		elseif (nType == 5) or (nType == "é€šå…³æ¬¡æ•°") then
 			SetTask(TB_BONUS_FINISHED, GetTask(TB_BONUS_FINISHED)+nValue)
---- ´³¹Ø´ÎÊı
-		elseif (nType == 6) or (nType == "V­ît ¶i") then
+--- é—¯å…³æ¬¡æ•°
+		elseif (nType == 6) or (nType == "é—¯å…³æ¬¡æ•°") then
 			SetTask(TB_BONUS_STAGE, GetTask(TB_BONUS_STAGE)+nValue)
---- É±¹Ö×ÜÊı
-		elseif (nType == 7) or (nType == "GiÕt qu¸i") then
+--- æ€æ€ªæ€»æ•°
+		elseif (nType == 7) or (nType == "æ€æ€ªæ€»æ•°") then
 			SetTask(TB_BONUS_KILLED, GetTask(TB_BONUS_KILLED)+nValue)
---- ¶Ó³¤´ÎÊı
-		elseif (nType == 8) or (nType == "§éi tr­ëng") then
+--- é˜Ÿé•¿æ¬¡æ•°
+		elseif (nType == 8) or (nType == "é˜Ÿé•¿æ¬¡æ•°") then
 			SetTask(TB_BONUS_BECAPTAIN, GetTask(TB_BONUS_BECAPTAIN)+nValue)
---- ´¦ÀíÍê³É
+--- å¤„ç†å®Œæˆ
 		end
 		if nIndex ~= nil then
 			PlayerIndex = nOldIndex
@@ -1657,40 +1657,40 @@ function TB_AddScore(nType, nValue, nIndex)
 	PlayerIndex = nOldIndex
 end
 
--- ±£´æÃ¿¹ØÍæ¼ÒµÄ¼Ç·ÖĞÅÏ¢
-function TB_StoreScore()									-- È«¶Ó»ñµÃ¹Ø¿¨½±Àø
+-- ä¿å­˜æ¯å…³ç©å®¶çš„è®°åˆ†ä¿¡æ¯
+function TB_StoreScore()									-- å…¨é˜Ÿè·å¾—å…³å¡å¥–åŠ±
 	local nZone = TC_GetTeamZone()
 	local nStage = TC_STAGE_Index[nZone]
 	local nRanInt = random(0,14)
 	local nOldIndex = PlayerIndex
-	local nCaptain = {"", "§éi tr­ëng"}
+	local nCaptain = {"", "Ñ‡i trî…¤ng"}
 	for i=1, GetTeamSize() do
 		PlayerIndex = GetTeamMember(i)
---- »ı·Ö¼ÇÂ¼
+--- ç§¯åˆ†è®°å½•
 		local nBonus = TB_BONUS_Total[nZone]
 		local nSigle_Bonus = (nBonus / (GetTeamSize() * nStage)) * (1.2 - (TC_TIMER_Count[nZone] / TC_TIMER_LIMIT_TABLE[nStage]))
 		nSigle_Bonus = (nSigle_Bonus * (15 + nStage * 1.5)) / 10
 		nSigle_Bonus = GetTask(TB_BONUS_SCORE) + nSigle_Bonus
-		SetTask(TB_BONUS_SCORE, nSigle_Bonus)						-- ½±Àø»ı·Ö
---- Ê±¼ä¼ÇÂ¼
+		SetTask(TB_BONUS_SCORE, nSigle_Bonus)						-- å¥–åŠ±ç§¯åˆ†
+--- æ—¶é—´è®°å½•
 		local nSigle_Time = GetTask(TB_BONUS_TIME) + (TC_TIMER_Count[nZone]) * 14 - 7 + nRanInt
 		SetTask(TB_BONUS_TIME, nSigle_Time)
---- ²ÎÓë´ÎÊı
+--- å‚ä¸æ¬¡æ•°
 		if nStage == 1 then
 			local nSigle_Played = GetTask(TB_BONUS_PLAYED) + 1
 			SetTask(TB_BONUS_PLAYED, nSigle_Played)
 		end
---- Í¨¹Ø´ÎÊı
+--- é€šå…³æ¬¡æ•°
 		if nStage == 2 then
 			local nSigle_Finished = GetTask(TB_BONUS_FINISHED) + 1
 			SetTask(TB_BONUS_FINISHED, nSigle_Finished)
 		end
---- ´³¹Ø´ÎÊı
+--- é—¯å…³æ¬¡æ•°
 		if (nStage >= 1) and (nStage <= 9) then
 			local nSigle_Stage = GetTask(TB_BONUS_STAGE) + 1
 			SetTask(TB_BONUS_STAGE, nSigle_Stage)
 		end
---- É±¹Ö×ÜÊı
+--- æ€æ€ªæ€»æ•°
 		if TC_KILL_Player[PlayerIndex] == nil then
 			TC_KILL_Player[PlayerIndex] = {}
 		end
@@ -1699,67 +1699,67 @@ function TB_StoreScore()									-- È«¶Ó»ñµÃ¹Ø¿¨½±Àø
 		end
 		local nSigle_Killed = GetTask(TB_BONUS_KILLED) + TC_KILL_Player[PlayerIndex][nStage]
 		SetTask(TB_BONUS_KILLED, nSigle_Killed)
---- ¶Ó³¤´ÎÊı
+--- é˜Ÿé•¿æ¬¡æ•°
 		if (nStage == 1) and (TM_IsCaptain() == 1) then
 			local nSigle_Becaptain = GetTask(TB_BONUS_BECAPTAIN) + 1
 			SetTask(TB_BONUS_BECAPTAIN, nSigle_Becaptain)
 		end
---- ´¦ÀíÍê³É
+--- å¤„ç†å®Œæˆ
 	end
 	PlayerIndex = nOldIndex
 end
 
 --============================================================================================== GAME STAGES ====
 -- Game Stages
-GS_STAGE_START = {					-- ²Ø½£Ê¹Õß¿ªÊ¼¶Ô»°µÄÄÚÈİ
-	MU_GetColoredText("Tµng KiÕm s¬n trang. S¬n M«n", "gold").."\n §Õn Tµng KiÕm s¬n trang ®Òu lµ nh÷ng anh tµi kú n÷ trong giang hå, cã g× thÊt lÔ xin l­îng thø. \n Trang chñ muèn thö tµi c¸c vŞ. \n §¸nh b¹i 25"..MU_GetColoredText("Gia ®inh", "green").."\n. §¸nh b¹i"..MU_GetColoredText("Tæng qu¶n ngo¹i viÖn", "green"),
-	MU_GetColoredText("§¹i ViÖn. Tµng KiÕm s¬n trang", "gold").."\n §¹i viÖn do Tæng qu¶n néi viÖn phô tr¸ch, cã g× cÇn xin ch­ vŞ cø tù nhiªn. \n. "..MU_GetColoredText("????", "green").."\n. §¸nh b¹i"..MU_GetColoredText("Tæng qu¶n néi viÖn", "green"),
-	MU_GetColoredText("HËu Hoa Viªn. Tµng KiÕm s¬n trang", "gold").."\n HËu Hoa viªn kh«ng cho phĞp ng­êi ngoµi ra vµo. C¸c vŞ ®õng chäc giËn §¹i TiÓu Th­. \n §¹i tiÓu th­ xinh ®Ñp nh­ng do tõ nhá ®· theo cha häc vâ nªn tİnh khİ h¬i ngç ng­îc. \n. §¸nh b¹i 8"..MU_GetColoredText("L·o béc", "green").."\n. §¸nh b¹i"..MU_GetColoredText("§¹i tiÓu th­", "green"),
-	MU_GetColoredText("Liªn Hoµn Sµo. Tµng KiÕm s¬n trang", "gold").."\n Trong Cöu Cung ®Æt 9 ®Ønh l­ h­¬ng cã ch¹m træ Tam s¾c kú th¹ch, tr·i qua nhiÒu ®êi ®­îc ng­ng kÕt bëi tia löa vµ khãi ®óc kiÕm ë s¬n trang. §õng nh×n vÎ ngoµi mµ xem th­êng! ChØ cÇn cã ng­êi ngang nhiªn ®ét nhËp vµo, Tam s¾c kú th¹ch sÏ ph¸t huy ma lùc. \n . Lµm bÓ"..MU_GetColoredText("L­ h­¬ng", "green").."\n. §¸nh b¹i"..MU_GetColoredText("???", "green"),
-	MU_GetColoredText("Tµng KiÕm C¸c. Tµng KiÕm s¬n trang", "gold").."\n N¬i ®©y ®· tµng gi÷ v« sè ®ao kiÕm cã gi¸ trŞ liªn thµnh. \n §Æc biÖt lµ c¸c lo¹i vò khİ thuéc hÖ ngò hµnh. \n Rót vò khİ ra ®¸nh b¹i"..MU_GetColoredText("B¶o vÖ ngò hµnh", "green").."\n VŞ huynh ®Ö nµo cã thÓ thö søc \n ®¸nh b¹i"..MU_GetColoredText("Tr­ëng l·o Tµng KiÕm C¸c", "green"),
-	MU_GetColoredText("Tµng KiÕm s¬n trang. Tö Tróc L©m", "gold").."\n Nghe nãi chèn nµy vèn lµ n¬i tró ngô cña mét vŞ tiªn nh©n, tæng céng 16 ph­¬ng vŞ, ®Òu cã Kh¾c Ên phï, dÔ vµo khã ra. \n NÕu c¸c vŞ cã thÓ ra ®­îc, l·o phu sÏ dÉn ®­êng ®Õn KiÕm Trñng. \n ®i t×m vµ"..MU_GetColoredText("Sø gi¶ Tµng KiÕm", "green").." ®èi tho¹i .",
-	MU_GetColoredText("Tµng KiÕm s¬n trang. Tö Tróc L©m", "gold").."\n Nghe nãi chèn nµy vèn lµ n¬i tró ngô cña mét vŞ tiªn nh©n, tæng céng 16 ph­¬ng vŞ, ®Òu cã Kh¾c Ên phï, dÔ vµo khã ra. \n NÕu c¸c vŞ cã thÓ ra ®­îc, l·o phu sÏ dÉn ®­êng ®Õn KiÕm Trñng. \n ®i t×m vµ"..MU_GetColoredText("Sø gi¶ Tµng KiÕm", "green").." ®èi tho¹i .",
-	MU_GetColoredText("Tµng KiÕm s¬n trang. Tö Tróc L©m", "gold").."\n Nghe nãi chèn nµy vèn lµ n¬i tró ngô cña mét vŞ tiªn nh©n, tæng céng 16 ph­¬ng vŞ, ®Òu cã Kh¾c Ên phï, dÔ vµo khã ra. \n NÕu c¸c vŞ cã thÓ ra ®­îc, l·o phu sÏ dÉn ®­êng ®Õn KiÕm Trñng. \n ®i t×m vµ"..MU_GetColoredText("Sø gi¶ Tµng KiÕm", "green").." ®èi tho¹i .",
-	MU_GetColoredText("Tµng KiÕm s¬n trang. KiÕm Chñng", "gold").."\n KiÕm Chñng ®­îc xem lµ vïng cÊm mËt cña Tµng KiÕm S¬n Trang, bëi n¬i ®©y ®­îc cÊt nhiÒu thanh kiÕm quı. \n . Th¸o 5 c©y"..MU_GetColoredText("Ngò Hµnh kiÕm", "green").."\n. §¸nh b¹i"..MU_GetColoredText("Cöu TuyÖt KiÕm Ma", "green")}
-GS_STAGE_END = {					-- ²Ø½£Ê¹Õß½áÊø¶Ô»°µÄÄÚÈİ
-	MU_GetColoredText("Tµng KiÕm s¬n trang. S¬n M«n", "gold").."\n Chóc mõng c¸c vŞ ®· v­ît qua thö th¸ch ®Çu tiªn, xin chuÈn bŞ cho thö th¸ch tiÕp theo!",
-	MU_GetColoredText("§¹i ViÖn. Tµng KiÕm s¬n trang", "gold").."\n Chóc mõng c¸c vŞ ®· v­ît qua thö th¸ch thø 2, xin chuÈn bŞ cho thö th¸ch tiÕp theo!",
-	MU_GetColoredText("HËu Hoa Viªn. Tµng KiÕm s¬n trang", "gold").."\n Chóc mõng c¸c vŞ ®· v­ît qua thö th¸ch thø 3, xin chuÈn bŞ cho thö th¸ch tiÕp theo!",
-	MU_GetColoredText("Liªn Hoµn Sµo. Tµng KiÕm s¬n trang", "gold").."\n Chóc mõng c¸c vŞ ®· v­ît qua thö th¸ch thø 4, xin chuÈn bŞ cho thö th¸ch tiÕp theo!",
-	MU_GetColoredText("Tµng KiÕm C¸c. Tµng KiÕm s¬n trang", "gold").."\n Chóc mõng c¸c vŞ ®· v­ît qua thö th¸ch thø 5, xin chuÈn bŞ cho thö th¸ch tiÕp theo!",
-	MU_GetColoredText("Tµng KiÕm s¬n trang. Tö Tróc L©m", "gold").."\n Chóc mõng c¸c vŞ ®· v­ît qua thö th¸ch thø 6, xin chuÈn bŞ cho thö th¸ch tiÕp theo!",
-	MU_GetColoredText("Tµng KiÕm s¬n trang. Tö Tróc L©m", "gold").."\n Chóc mõng c¸c vŞ ®· v­ît qua thö th¸ch thø 7, xin chuÈn bŞ cho thö th¸ch tiÕp theo!",
-	MU_GetColoredText("Tµng KiÕm s¬n trang. Tö Tróc L©m", "gold").."\n Chóc mõng c¸c vŞ ®· v­ît qua thö th¸ch thø 8, xin chuÈn bŞ cho thö th¸ch tiÕp theo!",
-	MU_GetColoredText("Tµng KiÕm s¬n trang. KiÕm Chñng", "gold").."\n Chóc mõng c¸c anh hïng v­ît ¶i thµnh c«ng! X­a nay, nhiÒu anh hïng h¶o h¸n còng khã lßng qua næi. C¸c vŞ xuÊt s¾c v­ît ¶i, lËp nªn ®¹i nghiÖp, danh chÊn giang hå! L·o phu hÕt lßng kİnh phôc!!!"}
-GS_FORSELECT = {					-- Óë²Ø½£Ê¹Õß¶Ô»°µÄÑ¡Ïî
-"b¾t ®Çu thö th¸ch/GS_StartStage",
-"vµo ¶i kÕ tiÕp./GS_NextStage",
-"nhËn phÇn th­ëng ®éi tr­ëng.",
-"§iÒu chØnh mua b¸n. (CÇn 1 anh hïng thiÕp cho c¶ ®éi cïng mua b¸n)/GS_Trade",
-"§iÒu kiÖn mua b¸n./GS_Trade",
-"nghØ ng¬i mét l¸t./GS_ExitSay",
-"më r­¬ng chøa ®å. ( cÇn 1 Anh Hïng thiÕp)/GS_OpenBox"}
+GS_STAGE_START = {					-- è—å‰‘ä½¿è€…å¼€å§‹å¯¹è¯çš„å†…å®¹
+	MU_GetColoredText("Tç¥…g Kièª± sç» trang. Sç» Mç­", "gold").."\n Ğ´n Tç¥…g Kièª± sç» trang î†©u l? nhé±ªg anh tç¤½ k? n? trong giang h?, c? g? thè•‹ l? xin lî…§ng th?. \n Trang ch? mué‘ th? tç¤½ cç« v?. \n Ğ¦nh bç­° 25"..MU_GetColoredText("Gia ç”¶nh", "green").."\n. Ğ¦nh bç­°"..MU_GetColoredText("Té›g quç§ ngoç­° viè¬“", "green"),
+	MU_GetColoredText("Ğ§i Viè¬“. Tç¥…g Kièª± sç» trang", "gold").."\n Ğ§i viè¬“ do Té›g quç§ né–• viè¬“ ph? trç«h, c? g? cè• xin ch? v? c? t? nhiçŒ². \n. "..MU_GetColoredText("????", "green").."\n. Ğ¦nh bç­°"..MU_GetColoredText("Té›g quç§ né–• viè¬“", "green"),
+	MU_GetColoredText("Hè—† Hoa ViçŒ². Tç¥…g Kièª± sç» trang", "gold").."\n Hè—† Hoa viçŒ² khç­g cho phè¡Ÿ ngî…£i ngoç¤½ ra vç¥‡. Cç« v? î‡Œng ché‹ giè–¾ Ğ§i Tiè§° Th?. \n Ğ§i tiè§° th? xinh î†¨p nhç’¶g do t? nh? î† theo cha hé‹ v? nçŒ² tè¼“h kh? hç² ng? ngî…§c. \n. Ğ¦nh bç­° 8"..MU_GetColoredText("Lç©™ bé–", "green").."\n. Ğ¦nh bç­°"..MU_GetColoredText("Ğ§i tiè§° th?", "green"),
+	MU_GetColoredText("LiçŒ² Hoç¥… Sç¥‡. Tç¥…g Kièª± sç» trang", "gold").."\n Trong Cé°‘ Cung î†t 9 î†¯nh l? hî„¥ng c? chç­¸ tr? Tam sç¶¾ k? thç­©h, trç©’ qua nhiè¥² î‡i î†„é ² ngç’¶g kèª¸ bé› tia lé¯½ v? khé‰¯ î‡Šc kièª± ? sç» trang. î²ng nhè­¶ v? ngoç¤½ m? xem thî…£ng! Ch? cè• c? ngî…£i ngang nhiçŒ² î‡€t nhè—€ vç¥‡, Tam sç¶¾ k? thç­©h s? phç«§ huy ma léµ¦. \n . Lç¥„ b?"..MU_GetColoredText("L? hî„¥ng", "green").."\n. Ğ¦nh bç­°"..MU_GetColoredText("???", "green"),
+	MU_GetColoredText("Tç¥…g Kièª± Cç«. Tç¥…g Kièª± sç» trang", "gold").."\n Nç² î†€y î† tç¥…g gi? v? s? ç”¢o kièª± c? gi? tr? liçŒ² thç¥…h. \n î¤c biè¬™ l? cç« loç­° v? kh? thué– h? ng? hç¥…h. \n Ré« v? kh? ra î†nh bç­°"..MU_GetColoredText("Bç§“ v? ng? hç¥…h", "green").."\n V? huynh î†­ nç¥‡ c? th? th? sé´† \n î†nh bç­°"..MU_GetColoredText("Trî…¤ng lç©™ Tç¥…g Kièª± Cç«", "green"),
+	MU_GetColoredText("Tç¥…g Kièª± sç» trang. T? Tréª³ Lï¹", "gold").."\n Nghe né‰¯ ché‘ nç¥” vé‘ l? nç² tr? ng? cé¦» mé–  v? tiçŒ² nhï¹, té›g cé–šg 16 phî„¥ng v?, î†©u c? Khç¶¾ è• ph?, d? vç¥‡ kh? ra. \n Nèª¹ cç« v? c? th? ra î†„é ², lç©™ phu s? dè’¼ î†„é˜¯g î†¬n Kièª± Tré§ˆg. \n ç”¶ tè­µ v?"..MU_GetColoredText("S? gi? Tç¥…g Kièª±", "green").." î†¿i thoç­° .",
+	MU_GetColoredText("Tç¥…g Kièª± sç» trang. T? Tréª³ Lï¹", "gold").."\n Nghe né‰¯ ché‘ nç¥” vé‘ l? nç² tr? ng? cé¦» mé–  v? tiçŒ² nhï¹, té›g cé–šg 16 phî„¥ng v?, î†©u c? Khç¶¾ è• ph?, d? vç¥‡ kh? ra. \n Nèª¹ cç« v? c? th? ra î†„é ², lç©™ phu s? dè’¼ î†„é˜¯g î†¬n Kièª± Tré§ˆg. \n ç”¶ tè­µ v?"..MU_GetColoredText("S? gi? Tç¥…g Kièª±", "green").." î†¿i thoç­° .",
+	MU_GetColoredText("Tç¥…g Kièª± sç» trang. T? Tréª³ Lï¹", "gold").."\n Nghe né‰¯ ché‘ nç¥” vé‘ l? nç² tr? ng? cé¦» mé–  v? tiçŒ² nhï¹, té›g cé–šg 16 phî„¥ng v?, î†©u c? Khç¶¾ è• ph?, d? vç¥‡ kh? ra. \n Nèª¹ cç« v? c? th? ra î†„é ², lç©™ phu s? dè’¼ î†„é˜¯g î†¬n Kièª± Tré§ˆg. \n ç”¶ tè­µ v?"..MU_GetColoredText("S? gi? Tç¥…g Kièª±", "green").." î†¿i thoç­° .",
+	MU_GetColoredText("Tç¥…g Kièª± sç» trang. Kièª± Ché§ˆg", "gold").."\n Kièª± Ché§ˆg î†„é ² xem l? vé£Šg cè•€ mè—… cé¦» Tç¥…g Kièª± Sç» Trang, bé› nç² î†€y î†„é ² cè•‹ nhiè¥² thanh kièª± qu?. \n . Thç«œ 5 cï¹œ"..MU_GetColoredText("Ng? Hç¥…h kièª±", "green").."\n. Ğ¦nh bç­°"..MU_GetColoredText("Cé°‘ Tuyè¬™ Kièª± Ma", "green")}
+GS_STAGE_END = {					-- è—å‰‘ä½¿è€…ç»“æŸå¯¹è¯çš„å†…å®¹
+	MU_GetColoredText("Tç¥…g Kièª± sç» trang. Sç» Mç­", "gold").."\n Chéª³ mé®ªg cç« v? î† vî…§t qua th? thç«h î†u tiçŒ², xin chuèµ b? cho th? thç«h tièª´ theo!",
+	MU_GetColoredText("Ğ§i Viè¬“. Tç¥…g Kièª± sç» trang", "gold").."\n Chéª³ mé®ªg cç« v? î† vî…§t qua th? thç«h th? 2, xin chuèµ b? cho th? thç«h tièª´ theo!",
+	MU_GetColoredText("Hè—† Hoa ViçŒ². Tç¥…g Kièª± sç» trang", "gold").."\n Chéª³ mé®ªg cç« v? î† vî…§t qua th? thç«h th? 3, xin chuèµ b? cho th? thç«h tièª´ theo!",
+	MU_GetColoredText("LiçŒ² Hoç¥… Sç¥‡. Tç¥…g Kièª± sç» trang", "gold").."\n Chéª³ mé®ªg cç« v? î† vî…§t qua th? thç«h th? 4, xin chuèµ b? cho th? thç«h tièª´ theo!",
+	MU_GetColoredText("Tç¥…g Kièª± Cç«. Tç¥…g Kièª± sç» trang", "gold").."\n Chéª³ mé®ªg cç« v? î† vî…§t qua th? thç«h th? 5, xin chuèµ b? cho th? thç«h tièª´ theo!",
+	MU_GetColoredText("Tç¥…g Kièª± sç» trang. T? Tréª³ Lï¹", "gold").."\n Chéª³ mé®ªg cç« v? î† vî…§t qua th? thç«h th? 6, xin chuèµ b? cho th? thç«h tièª´ theo!",
+	MU_GetColoredText("Tç¥…g Kièª± sç» trang. T? Tréª³ Lï¹", "gold").."\n Chéª³ mé®ªg cç« v? î† vî…§t qua th? thç«h th? 7, xin chuèµ b? cho th? thç«h tièª´ theo!",
+	MU_GetColoredText("Tç¥…g Kièª± sç» trang. T? Tréª³ Lï¹", "gold").."\n Chéª³ mé®ªg cç« v? î† vî…§t qua th? thç«h th? 8, xin chuèµ b? cho th? thç«h tièª´ theo!",
+	MU_GetColoredText("Tç¥…g Kièª± sç» trang. Kièª± Ché§ˆg", "gold").."\n Chéª³ mé®ªg cç« anh hé£Šg vî…§t ç§ˆ thç¥…h cç­g! Xç’¦ nay, nhiè¥² anh hé£Šg hç§“ hç«› cé¨¨g kh? léªg qua né–. Cç« v? xuè•‹ sç¶¾ vî…§t ç§ˆ, lè—€ nçŒ² î†i nghiè¬•, danh chè• giang h?! Lç©™ phu hèª¸ léªg kè¼“h phé¬°!!!"}
+GS_FORSELECT = {					-- ä¸è—å‰‘ä½¿è€…å¯¹è¯çš„é€‰é¡¹
+"å¼€å§‹è¿›æ”»/GS_StartStage",
+"è¿›å…¥ä¸‹ä¸€ä¸ªå…³èŠ‚/GS_NextStage",
+"è·å¾—é˜Ÿé•¿å¥–åŠ±",
+"è´­ä¹°ç‰©èµ„/GS_Trade",
+"è´­ä¹°æ¡ä»¶/GS_Trade",
+"ä¼‘æ¯ä¸€ä¸‹/GS_ExitSay",
+"æ‰“å¼€ä»“åº“/GS_OpenBox"}
 GS_ERRORMSG = {
-"Ch­a ®ñ Anh Hïng thiÕp!",
+"ä½ çš„èº«ä¸Šæ²¡æœ‰è‹±é›„å¸–ï¼Œæ˜¯ä¸æ˜¯å¿˜è®°å¸¦äº†ï¼Ÿ",
 ""}
 
-GS_RECORD_DATE = 1820				-- Task Ë÷ÒıºÅ Ã¿ÌìÄÜ½øÈë²Ø½£µÄÊ±¼ä¼ÇÂ¼ 
-GS_RECORD_CHANCE = 1821				-- Task Ë÷ÒıºÅ Ã¿ÌìÄÜ½øÈë²Ø½£µÄ´ÎÊı¼ÇÂ¼
-GS_STAGE_USED = {0,0,0,0,0}			-- ¼ÇÂ¼Ä³×é¹Ø¿¨ÊÇ·ñÒÑ¾­ÔÚÊ¹ÓÃÁË
+GS_RECORD_DATE = 1820				-- Task ç´¢å¼•å· æ¯å¤©èƒ½è¿›å…¥è—å‰‘çš„æ—¶é—´è®°å½• 
+GS_RECORD_CHANCE = 1821				-- Task ç´¢å¼•å· æ¯å¤©èƒ½è¿›å…¥è—å‰‘çš„æ¬¡æ•°è®°å½•
+GS_STAGE_USED = {0,0,0,0,0}			-- è®°å½•æŸç»„å…³å¡æ˜¯å¦å·²ç»åœ¨ä½¿ç”¨äº†
 GS_USEDNOTE_IMG = {"<color=green>0<color>", "<color=red>X<color>"}
-GS_USEDNOTE_TXT = {" (ch­a sö dông, nhÊp chän vµo ¶i)", " (®ang sö dông, nhÊp chän kiÓm tra tr¹ng th¸i)"}
-GS_ENTERTALK = "VŞ anh hïng nµy muèn vµo trËn ®Şa nµo? \n".."[TrËn ®Şa] TrËn ®Şa 1 TrËn ®Şa 2 TrËn ®Şa 3 TrËn ®Şa 4 TrËn ®Şa 5 \n".."[Tr¹ng th¸i]       "..GS_USEDNOTE_IMG[GS_STAGE_USED[1]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[2]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[3]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[4]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[5]+1]..""
-GS_MESSENGER_MID = {"V­¬ng An Th¹ch", "Sø gi¶ Tµng KiÕm"}
-GS_MESSENGER_STARTPOS = {			-- ²Ø½£Ê¹ÕßÔÚÃ¿¹Ø¿ªÊ¼µÄÊ±ºò³öÏÖµÄÎ»ÖÃ
+GS_USEDNOTE_TXT = {" (ä»æœªä½¿ç”¨è¿‡ï¼Œç‚¹å‡»æ•æ·åº¦)", " (ä½¿ç”¨ä¸­ï¼Œå•å‡»æ£€æŸ¥çŠ¶æ€)"}
+GS_ENTERTALK = "è¿™ä½è‹±é›„æƒ³å»å“ªé‡Œï¼Ÿ \n".."[å‰¯æœ¬] ç¬¬ä¸€å…³ ç¬¬äºŒå…³ ç¬¬ä¸‰å…³ ç¬¬å››å…³ ç¬¬äº”å…³ \n".."[çŠ¶æ€]       "..GS_USEDNOTE_IMG[GS_STAGE_USED[1]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[2]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[3]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[4]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[5]+1]..""
+GS_MESSENGER_MID = {"Vî„¥ng An Thç­©h", "è—å‰‘ä½¿è€…"}
+GS_MESSENGER_STARTPOS = {			-- è—å‰‘ä½¿è€…åœ¨æ¯å…³å¼€å§‹çš„æ—¶å€™å‡ºç°çš„ä½ç½®
 {1529, 3476}, {1613, 3182}, {1605, 3170}, {1697, 3067}, {1698, 3441}, {1,1}, {1,1}, {1477, 3170}, {1567, 3236}}
-GS_MESSENGER_ENDPOS = {				-- ²Ø½£Ê¹ÕßÔÚÃ¿¹Ø½áÊøµÄÊ±ºò³öÏÖµÄÎ»ÖÃ
+GS_MESSENGER_ENDPOS = {				-- è—å‰‘ä½¿è€…åœ¨æ¯å…³ç»“æŸçš„æ—¶å€™å‡ºç°çš„ä½ç½®
 {1597, 3216}, {1659, 3128}, {1667, 3104}, {1860, 2899}, {1592, 3180}, {1,1}, {1,1}, {9999, 9999}, {1567, 3236}}
-GS_PLAYER_STARTPOS = {				-- Íæ¼ÒÔÚÃ¿¹Ø¿ªÊ¼µÄÊ±ºò³öÏÖµÄÎ»ÖÃ
+GS_PLAYER_STARTPOS = {				-- ç©å®¶åœ¨æ¯å…³å¼€å§‹çš„æ—¶å€™å‡ºç°çš„ä½ç½®
 {1523, 3481}, {1609, 3188}, {1600, 3177}, {1690, 3073}, {1698, 3451}, {1,1}, {1,1}, {1487, 3169}, {1567, 3246}}
 
-GS_IsAllowTrade = {0, 0, 0, 0, 0}			-- ÊÇ·ñÔÊĞí¹ºÂòµÀ¾ßµÄ±ê¼Ç
-GS_HERO_TOKEN = {2, 0, 31}					-- Ó¢ĞÛÌû
-GS_SALE_INDEX = {1,1,1,1,1,1,1,1,1}			-- Ã¿¹Ø¿¨µÄÉÌµê±àºÅ
+GS_IsAllowTrade = {0, 0, 0, 0, 0}			-- æ˜¯å¦å…è®¸è´­ä¹°é“å…·çš„æ ‡è®°
+GS_HERO_TOKEN = {2, 0, 31}					-- è‹±é›„å¸–
+GS_SALE_INDEX = {1,1,1,1,1,1,1,1,1}			-- æ¯å…³å¡çš„å•†åº—ç¼–å·
 GS_StartFlag = 0
 ------------------------------------------------------------------------------------------------ FUNCTION ----
 function GS_Init(nZone, nStage)
@@ -1792,7 +1792,7 @@ function GS_CheckRoute()
 end;
 		
 
--- ÔÚ½øÈëÉ½×¯Ç°ÅĞ¶ÏËùÓĞ¶ÓÔ±ÊÇ·ñÔÚ ÏåÑô³ÇÀï
+-- åœ¨è¿›å…¥å±±åº„å‰åˆ¤æ–­æ‰€æœ‰é˜Ÿå‘˜æ˜¯å¦åœ¨ è¥„é˜³åŸé‡Œ
 function GS_AreaCheck()
 	local nTeamSize = 0
 	local nOldIndex = PlayerIndex
@@ -1813,7 +1813,7 @@ end
 function GS_DateCheck()
 	local nTeamSize = 0
 	local nDateDay = tonumber(date("%m%d"))
-	local nChance = 5	--½øÈë´ÎÊıÏŞÖÆ
+	local nChance = 500	--è¿›å…¥æ¬¡æ•°é™åˆ¶
 	local nOldIndex = PlayerIndex
 	for i=1, GetTeamSize() do
 		PlayerIndex = GetTeamMember(i)
@@ -1833,7 +1833,7 @@ function GS_DateCheck()
 			end
 		end
 		if (GetTask(GS_RECORD_DATE) ~= nDateDay) or (GetTask(GS_RECORD_CHANCE) >= nChance) then
-			MU_Msg2Team(GetName().."Kh«ng thÓ vµo Tµng KiÕm s¬n trang (H«m nay ®· vµo 5 lÇn råi ). ["..GetTask(GS_RECORD_CHANCE).."/5]")
+			MU_Msg2Team(GetName().."å‰¯æœ¬è¿›å…¥æ¬¡æ•°è¾¾åˆ°ä¸Šé™ï¼Œæ˜å¤©å†æ¥å§ï¼). ["..GetTask(GS_RECORD_CHANCE).."/5]")
 		end
 	end
 	PlayerIndex = nOldIndex
@@ -1869,7 +1869,7 @@ function CalcYingXiongTie(nShowMsg)
 		end
 		if (GetTask(GS_RECORD_DATE) ~= nDateDay) or (GetTask(GS_RECORD_CHANCE) >= MaxCount) then
 			if nShowMsg == 1 then
-				MU_Msg2Team(GetName().."H«m nay ®· vµo S¬n Trang ["..GetTask(GS_RECORD_CHANCE).."] lÇn")
+				MU_Msg2Team(GetName().."ä»Šå¤©å¼€æ”¾è¿›å…¥çš„["..GetTask(GS_RECORD_CHANCE).."]æ—¶é—´")
 			end
 		end
 	end
@@ -1883,7 +1883,7 @@ function GS_SleepCheck()
 	for i=1, GetTeamSize() do
 		PlayerIndex = GetTeamMember(i)
 		if IsSleeping() == 1 then
-			MU_Msg2Team(GetName().."Kh«ng thÓ vµo Tµng KiÕm s¬n trang (§ang nghØ ng¬i).")
+			MU_Msg2Team(GetName().."ä¸èƒ½è¿›å…¥è—å‰‘å±±åº„(æ­£åœ¨ä¼‘æ¯ä¸­).")
 		else
 			nTeamSize = nTeamSize + 1
 		end
@@ -1896,7 +1896,7 @@ function GS_SleepCheck()
 	end
 end
 
--- ÕâÀïÊÇÅĞ¶ÏÍæ¼ÒÊÇ·ñÂú×ã½øÈëÉ½×¯µÄÌõ¼ş
+-- è¿™é‡Œæ˜¯åˆ¤æ–­ç©å®¶æ˜¯å¦æ»¡è¶³è¿›å…¥å±±åº„çš„æ¡ä»¶
 function GS_EnterCheck()
 	local GS_TeamLeaderTxt = ""
 	local GS_TeamSizeTxt = ""
@@ -1906,104 +1906,46 @@ function GS_EnterCheck()
 	local nCheckPoint = {0, 0, 0, 0, 0, 0, 0}
 -------------------------------------
 	if TM_IsCaptain() == 1 then
-		nCheckPoint[1] = 1
-		GS_TeamLeaderTxt = "<color=green>§éi tr­ëng<color>"
-	else
-		GS_TeamLeaderTxt = "<color=red>§éi tr­ëng<color>"
-	end
--------------------------------------
-	local nTeamSize = GetTeamSize()
-	if ((nTeamSize >= 5) and (GS_AreaCheck() == 1)) and (GS_CheckRoute() >= 5) then
-		nCheckPoint[2] = 1
-		GS_TeamSizeTxt = "<color=green>5 ng­êi trë lªn (®éi viªn ë"..SF_TOWNNAME..")<color> "
-	else
-		GS_TeamSizeTxt = "<color=red>Tèi thiÓu cã 5 hÖ ph¸i kh¸c nhau cïng ë ("..SF_TOWNNAME..")<color>"
-	end
--------------------------------------
-	local nLowestLevel = 50
-	local nOldIndex = PlayerIndex
-	for i=1, nTeamSize do
-		PlayerIndex = GetTeamMember(i)
-		if GetLevel() <= nLowestLevel then
-			nLowestLevel = GetLevel()
-		end
-	end
-	PlayerIndex = nOldIndex
-	if (nLowestLevel >= 50) and (nTeamSize > 0) then
-		nCheckPoint[3] = 1
-		GS_TeamLevelTxt = "<color=green>§¼ng cÊp lín h¬n hoÆc b»ng cÊp 50<color>"
-	else
-		GS_TeamLevelTxt = "<color=red>§¼ng cÊp lín h¬n hoÆc b»ng cÊp 50<color>"
-	end
--------------------------------------
-	local nItemCount = GetItemCount(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3])
-	-- ¼ÆËãÒªÊÕÈ¡¶àÉÙÕÅÓ¢ĞÛÌû
-	local nNeedCount = CalcYingXiongTie(1)
-
-	if (nItemCount >= nNeedCount) then
-		nCheckPoint[4] = 1
-		GS_TeamItemTxt = "<color=green>"..nNeedCount.."Anh hïng thiÕp <color>"
-	else
-		GS_TeamItemTxt = "<color=red>"..nNeedCount.."Anh hïng thiÕp <color>"
-	end
--------------------------------------
---	if GS_DateCheck() == 1 then
---		nCheckPoint[5] = 1
---		GS_TeamDateTxt = "<color=green>Ã¿ÌìÎå´Î<color>"
---	else
---		GS_TeamDateTxt = "<color=red>Ã¿ÌìÎå´Î<color>"
---	end
--------------------------------------
-	if GS_SleepCheck() == 1 then
-		nCheckPoint[6] = 1
-	end
--------------------------------------
-
-	if (nCheckPoint[1] == 1) and (nCheckPoint[2] == 1) and (nCheckPoint[3] == 1) and (nCheckPoint[4] == 1) then
 		return 2
-	else
-		local GS_COMMONTALK = "ChØ cã tæ chøc"..GS_TeamSizeTxt.."Th¶"..GS_TeamLevelTxt.." (cÊp) ®· lËp tæ ®éi, do "..GS_TeamLeaderTxt.."Gîi ı"..GS_TeamItemTxt.."míi gÆp ®­îc trang chñ"..GS_TeamDateTxt..". \n \n<color=gray>(Ch÷ ®á biÓu thŞ ®éi ch­a ®ñ ®iÒu kiÖn, ch÷ xanh biÓu thŞ ®éi ®· ®ñ ®iÒu kiÖn)<color>"
-		Talk(1, "", GS_COMMONTALK)
-		return nCheckPoint[1], nCheckPoint[2], nCheckPoint[3], nCheckPoint[4], nCheckPoint[5]
 	end
 end
 
 function GS_EnterTaskTalk()
-	local GS_ENTERTASKTALK = "Ta theo lÖnh trang chñ ®Õn ®©y nghªnh tiÕp c¸c vŞ anh hïng, xin hái cã cÇn trî gióp g× kh«ng?"
+	local GS_ENTERTASKTALK = "Ta theo lè¬“h trang ch? î†¬n î†€y nghçŒ²h tièª´ cç« v? anh hé£Šg, xin hé† c? cè• tr? gié«‰ g? khç­g?"
 	if (GetItemCount(2,0,333) == 0) then
-		GS_ENTERTASKTALK = GS_ENTERTASKTALK.."Ta cã 1 quyÓn <Tµng KiÕm Chİ>."
-		Msg2Player("NhËn ®­îc 1 quyÓn <Tµng KiÕm Chİ>")
+		GS_ENTERTASKTALK = GS_ENTERTASKTALK.."Ta c? 1 quyè§§ <Tç¥…g Kièª± Ch?>."
+		Msg2Player("Nhè–¾ î†„é ² 1 quyè§§ <Tç¥…g Kièª± Ch?>")
 		AddItem(2,0,333,1)
 	end
-	Say(GS_ENTERTASKTALK, 8, "Liªn quan Tµng KiÕm s¬n trang/GS_EnterTaskTalk_1", 
-				 			 "Liªn quan Anh Hïng thiÕp/GS_EnterTaskTalk_2", 
-							 "Liªn quan Tµng KiÕm thÊt ¶i/GS_EnterTaskTalk_3", 
-							 "Liªn quan §iÒu kiÖn v­ît ¶i/GS_EnterTaskTalk_4", 
-							 "\nTa muèn ®­a ng­êi v­ît ¶i \n /GS_EnterTaskTalk_5",  -- DongTinhNang
-							 "NhËn thuëng tham gia 7 lÇn/get_Award7", 
-							 "Ta muèn mua 1  Tµng KiÕm Anh Hïng ThiÕp ( 20 xu vËt phÈm )/GS_ChangeAHL",
-							 "Ta muèn ®æi ®iÓm tİch lòy Tµng KiÕm lÊy phÇn th­ëng/GS_EnterTaskTalk_6",
-							 "V·n sinh nghe uy danh cña Sø gi¶ Tµng KiÕm nªn ®Æc biÖt ®Õn th¨m!/GS_EnterTaskTalk_7")	
+	Say(GS_ENTERTASKTALK, 8, "å…³äºè—å‰‘å±±åº„/GS_EnterTaskTalk_1", 
+				 			 "å…³äºè‹±é›„å¸–/GS_EnterTaskTalk_2", 
+							 "--è¿™ä¸ªæ— æ³•ç¿»è¯‘--/GS_EnterTaskTalk_3", 
+							 "å…³äºXXX/GS_EnterTaskTalk_4", 
+							 "\nè¿›å…¥ä»»åŠ¡\n /GS_EnterTaskTalk_5",  -- DongTinhNang
+							 "è·å¾—XXX/get_Award7", 
+							 "ä¹°ä»€ä¹ˆï¼Ÿ/GS_ChangeAHL",
+							 "ç§¯åˆ†å…‘æ¢/GS_EnterTaskTalk_6",
+							 "å¬è¯´è¿™é‡Œæœ‰å¥½ä¸œè¥¿ï¼Œæ‰€ä»¥æˆ‘æ¥çœ‹çœ‹ã€‚/GS_EnterTaskTalk_7")	
 end
 	function DongTinhNang()
-		Talk(1,"","Tİnh n¨ng V­ît ¶i Tµng KiÕm ®ang t¹m ®ãng, ®¹i hiÖp h·y quay l¹i sau !!!")
+		Talk(1,"","å‰¯æœ¬æš‚æ—¶å…³é—­ï¼Œå¤§ä¾ ç¨åå†æ¥ï¼")
 	end
 	function GS_EnterTaskTalk_1()
-		Say("Tµng KiÕm s¬n trang næi tiÕng víi nghÒ ®óc kiÕm nh­ng trong gian hå İt ai biÕt ®Õn. GÇn ®©y cã quyÓn <ThÕ Gia Phæ> cña B¸ch HiÓu Sinh cã nãi ®Õn kü n¨ng ®óc kiÕm cña bæn trang, nhiÒu vŞ anh hïng còng muèn ®Õn t×m hiÓu. Nh­ng ®Ó ®­îc vµo s¬n trang cÇn ph¶i v­ît qua 7 cöa ¶i. Xin hái ®¹i hiÖp cã cÇn ta gióp g× kh«ng?",2,"Ta muèn hái th¨m c¸i kh¸c/GS_EnterTaskTalk","KÕt thóc ®èi tho¹i/GS_EnterTaskTalk_7")
+		Say("è¯·é—®ä½ æœ‰ä»€ä¹ˆéœ€è¦å¸®åŠ©å—ï¼Ÿ",2,"æˆ‘æƒ³é—®äº›åˆ«çš„äº‹/GS_EnterTaskTalk","ç»“æŸå¯¹è¯/GS_EnterTaskTalk_7")
 	end
 	function GS_EnterTaskTalk_2()
-		Say("Anh hïng thiÕp cã thÓ mua ë c¸c tiÖm t¹p hãa trong c¸c ®¹i thµnh thŞ",2,"Ta muèn hái th¨m c¸i kh¸c/GS_EnterTaskTalk","KÕt thóc ®èi tho¹i/GS_EnterTaskTalk_7")
+		Say("è‹±é›„è´´å¯ä»¥ä»åŸé‡Œçš„æ‚è´§åº—ä¹°åˆ°",2,"æˆ‘æƒ³é—®äº›åˆ«çš„äº‹/GS_EnterTaskTalk","ç»“æŸå¯¹è¯/GS_EnterTaskTalk_7")
 	end
 	function GS_EnterTaskTalk_3()
-		Say("Tµng KiÕm ThÊt ¶i lµ 7 ¶i lín ®­îc x©y theo ®Şa h×nh cña S¬n Trang, néi hîp b¸t qu¸i, ©m chøa ngò hµnh, c¹m bÉy trïng trïng. Ng­êi ngoµi r¬i vµo cÇm ch¾c cöu tö nhÊt sinh. Ta thÊy ng­¬i hîp nh·n nªn cã chót høng thó. CÇn ta gióp g× n÷a kh«ng?",2,"Ta muèn hái th¨m c¸i kh¸c/GS_EnterTaskTalk","KÕt thóc ®èi tho¹i/GS_EnterTaskTalk_7")
+		Say("è¯·é—®ä½ æœ‰ä»€ä¹ˆéœ€è¦å¸®åŠ©å—ï¼Ÿ",2,"æˆ‘æƒ³é—®äº›åˆ«çš„äº‹/GS_EnterTaskTalk","ç»“æŸå¯¹è¯/GS_EnterTaskTalk_7")
 	end
 	function GS_EnterTaskTalk_4()
-		Say("X©m nhËp Tµng KiÕm s¬n trang cÇn 5 chiÕn h÷u ®¼ng cÊp"..SF_TOWNNAME.."lín h¬n hoÆc b»ng cÊp 50, ®­îc ®éi tr­ëng xuÊt tr×nh Anh Hïng thiÕp. Mçi ngµy, chØ nhËn ®­îc 5 lÇn lêi mêi cña Tµng KiÕm s¬n trang trang chñ!",2,"Ta muèn hái th¨m c¸i kh¸c/GS_EnterTaskTalk","KÕt thóc ®èi tho¹i/GS_EnterTaskTalk_7")
+		Say("è¿›å…¥è—å‰‘å±±åº„è‡³å°‘éœ€è¦5ä¸ª"..SF_TOWNNAME.."50çº§ä»¥ä¸Šçš„äººå¹¶ä¸”ç”±é˜Ÿé•¿å¸¦é˜Ÿæ‰èƒ½è¿›å»ï¼Œæ¯å¤©åªæœ‰äº”æ¬¡æœºä¼šã€‚",2,"æˆ‘æƒ³é—®äº›åˆ«çš„äº‹/GS_EnterTaskTalk","ç»“æŸå¯¹è¯/GS_EnterTaskTalk_7")
 	end
 	function GS_EnterTaskTalk_5()
 	--	local nMap = GetWorldPos()
 --		if nMap ~= 350 and nMap ~= 100 then
---			Talk(1,"","C¸c h¹ chØ cã thÓ vµo Tµng KiÕm S¬n Trang tõ T­¬ng D­¬ng vµ TuyÒn Ch©u!")
+--			Talk(1,"","Cç« h? ch? c? th? vç¥‡ Tç¥…g Kièª± Sç» Trang t? Tî„¥ng Dî„¥ng v? Tuyè¥« Chï¹—!")
 --			return
 --		end
 		local nCurDate = tonumber(date("%m%d"))
@@ -2017,7 +1959,7 @@ end
 			end
 			
 			if GetTask(GS_RECORD_CHANCE) >= 7 then
-				gf_Msg2Team("H«m nay "..GetName().." ®· ®i 7 lÇn.")
+				gf_Msg2Team("ä»Šå¤©"..GetName().."å»äº†7æ¬¡")
 				return
 			end
 		end
@@ -2027,29 +1969,29 @@ end
 	function GS_EnterTaskTalk_6()
 		local nScore = GetTask(TB_BONUS_SCORE)
 		if nScore < 0 then
-			Talk(1,"","§iÓm tİch lòy kh¸c th­êng, kh«ng thÓ ®æi phÇn th­ëng")
-			WriteLog("[Tµng KiÕm]"..GetName().."®iÓm tİch lòy kh¸c th­êng")
+			Talk(1,"","å¼‚å¸¸ç§¯åˆ†ï¼Œæ— æ³•æ”¹å˜å¥–åŠ±ï¼")
+			WriteLog("[è—å‰‘ä½¿è€…]"..GetName().."å¼‚å¸¸ç§¯åˆ†")
 			return
 		end
 		
-		local sTalk = "§iÓm tİch lòy cña ng­¬i hiÖn lµ <color=gold>"..nScore.."<color> ®iÓm. Xin hái muèn ®æi phÇn th­ëng nµo?"
-		Say(sTalk,9,SB_FormatStr("      Trang phôc cÊp 50",30).." 100000 ®iÓm tİch lòy/GS_TaskReward_1", 
-			    SB_FormatStr("      Trang phôc cÊp 70",30).."500000 ®iÓm tİch lòy/GS_TaskReward_2", 
-			    --SB_FormatStr("      ÑªÆÇ",30).."7500»ı·Ö/GS_TaskReward_3", 
-			    --SB_FormatStr("      ±ù¾§",30).."8500»ı·Ö/GS_TaskReward_4", 
-			    SB_FormatStr("       10000 ®iÓm kinh nghiÖm",30).." 1000 ®iÓm tİch lòy/#GS_TaskReward_5(1000)",
-			    SB_FormatStr("      50000 ®iÓm kinh nghiÖm",30).."5000 ®iÓm tİch lòy/#GS_TaskReward_5(5000)",
-			    SB_FormatStr("      100000 ®iÓm kinh nghiÖm",30).." 10000 ®iÓm tİch lòy/#GS_TaskReward_5(10000)",
-			    SB_FormatStr("     500000 ®iÓm kinh nghiÖm",30).."50000 ®iÓm tİch lòy/#GS_TaskReward_5(50000)",
-			    SB_FormatStr("®æi kinh nghiÖm 1 lÇn",30).."§iÓm tİch lòy/#GS_TaskReward_5(-1)", 
-			    "\nTa muèn hái th¨m c¸i kh¸c/GS_EnterTaskTalk",
-			    "KÕt thóc ®èi tho¹i/GS_EnterTaskTalk_7")
+		local sTalk = "ä½ ç°åœ¨çš„ç§¯åˆ†æ˜¯<color=gold>"..nScore.."<color>ä½ æƒ³è¦ä»€ä¹ˆå¥–åŠ±ï¼Ÿ"
+		Say(sTalk,9,SB_FormatStr("50çº§å¥—è£…",30).."100000ç§¯åˆ†/GS_TaskReward_1", 
+			    SB_FormatStr("70çº§å¥—è£…",30).."500000ç§¯åˆ†/GS_TaskReward_2", 
+			    --SB_FormatStr("      è¡€é­„",30).."7500ç§¯åˆ†/GS_TaskReward_3", 
+			    --SB_FormatStr("      å†°æ™¶",30).."8500ç§¯åˆ†/GS_TaskReward_4", 
+			    SB_FormatStr("10000ç»éªŒç‚¹",30).."1000ç‚¹ç§¯ç‚¹/#GS_TaskReward_5(1000)",
+			    SB_FormatStr("50000ç»éªŒ",30).."5000ç‚¹ç§¯ç‚¹/#GS_TaskReward_5(5000)",
+			    SB_FormatStr("100000ç»éªŒ",30).." 10000ç‚¹ç§¯ç‚¹/#GS_TaskReward_5(10000)",
+			    SB_FormatStr("500000ç»éªŒ",30).."50000ç‚¹ç§¯ç‚¹/#GS_TaskReward_5(50000)",
+			    SB_FormatStr("æ¢ä¸€æ¬¡ç»éªŒ",30).."ç§¯åˆ†/#GS_TaskReward_5(-1)", 
+			    "\næˆ‘æƒ³é—®äº›åˆ«çš„äº‹/GS_EnterTaskTalk",
+			    "ç»“æŸå¯¹è¯/GS_EnterTaskTalk_7")
 	end
 	
 --	local aGearsLevelTable = {3, 5, 7, 10}
 --	local nGearsLevelTableLen = 4
 --	local aGearsSlotTable = {103, 100, 101, 102, -1}
---	local aWeaponsTable = {3, 5, 8, 0, 1, 1, 3, 2, 10, 8, 0, 5, 9, 2, 9, 10}		-- ÃÅÅÉÎäÆ÷
+--	local aWeaponsTable = {3, 5, 8, 0, 1, 1, 3, 2, 10, 8, 0, 5, 9, 2, 9, 10}		-- é—¨æ´¾æ­¦å™¨
 --	local aGearsFactionTable = {1, 2, 3, 4, 6, 8, 9, 11, 12, 14, 15}	
 
 		function GS_TaskReward_1()
@@ -2058,20 +2000,20 @@ end
 			local nBody = GetBody()
 			nGearIndex[3] = nFaction*100 + 50 + nBody
 			local nScore = GetTask(TB_BONUS_SCORE)
-			--Äê¾ÃÊ§ĞŞÆÁ±ÎµôÅ¼Ò²¸ÉµÃºÃ
+			--å¹´ä¹…å¤±ä¿®å±è”½æ‰å¶ä¹Ÿå¹²å¾—å¥½
 			if nFaction == 23 or nFaction == 29 or nFaction == 30 then
-				Talk(1,"","T¹i h¹ h×nh nh­ kh«ng thÊy l­u ph¸i c¸c h¹ ®· häc, nªn kh«ng cã trang bŞ nµo danh cho c¸c h¹ ®æi");
+				Talk(1,"","Tç­° h? hè­¶h nh? khç­g thè• lç’¾ phç«” cç« h? î† hé‹, nçŒ² khç­g c? trang b? nç¥‡ danh cho cç« h? î†½i");
 				return 0;
 			end
 			if nFaction == 0 then
-				Talk(1,"","Ng­¬ich­a gia nhËp m«n ph¸i, kh«ng thÓ nhËn phÇn th­ëng!")
+				Talk(1,"","ä½ è¿˜æ²¡æœ‰åŠ å…¥é—¨æ´¾ï¼Œæ— æ³•è·å¾—å¥–åŠ±ï¼")
 			else
 				if nScore >= 100000 then
 					SetTask(TB_BONUS_SCORE, (nScore-100000))
 					AddItem(nGearIndex[1], nGearIndex[2], nGearIndex[3], 1, 1, -1, -1, -1, -1, -1, -1)
-					WriteLog("[Tµng KiÕm] "..GetAccount().. " / "..GetName().." : Trang phôc cÊp 50:"..nGearIndex[1]..nGearIndex[2]..nGearIndex[3]);
+					WriteLog("[è—å‰‘ä½¿è€…] "..GetAccount().. " / "..GetName().." :50çº§å¥—è£…:"..nGearIndex[1]..nGearIndex[2]..nGearIndex[3]);
 				else
-					Talk(1,"","§iÓm tİch lòy cña b¹n kh«ng ®ñ")
+					Talk(1,"","ä½ çš„ç§¯åˆ†ä¸å¤Ÿ")
 				end
 			end
 		end
@@ -2081,20 +2023,20 @@ end
 			local nBody = GetBody()
 			nGearIndex[3] = nFaction*100 + 70 + nBody
 			local nScore = GetTask(TB_BONUS_SCORE)
-			--Äê¾ÃÊ§ĞŞÆÁ±ÎµôÅ¼Ò²¸ÉµÃºÃ
+			--å¹´ä¹…å¤±ä¿®å±è”½æ‰å¶ä¹Ÿå¹²å¾—å¥½
 			if nFaction == 23 or nFaction == 29 or nFaction == 30 then
-				Talk(1,"","T¹i h¹ h×nh nh­ kh«ng thÊy l­u ph¸i c¸c h¹ ®· häc, nªn kh«ng cã trang bŞ nµo danh cho c¸c h¹ ®æi");
+				Talk(1,"","Tç­° h? hè­¶h nh? khç­g thè• lç’¾ phç«” cç« h? î† hé‹, nçŒ² khç­g c? trang b? nç¥‡ danh cho cç« h? î†½i");
 				return 0;
 			end
 			if nFaction == 0 then
-				Talk(1,"","Ng­¬ich­a gia nhËp m«n ph¸i, kh«ng thÓ nhËn phÇn th­ëng!")
+				Talk(1,"","Ngî„¥ichç’¦ gia nhè—€ mç­ phç«”, khç­g th? nhè–¾ phè• thî…¤ng!")
 			else
 				if nScore >= 500000 then
 					SetTask(TB_BONUS_SCORE, (nScore-500000))
 					AddItem(nGearIndex[1], nGearIndex[2], nGearIndex[3], 1, 1, -1, -1, -1, -1, -1, -1)
-					WriteLog("[Tµng KiÕm] "..GetAccount().. " / "..GetName().." : Trang phôc cÊp 70:"..nGearIndex[1]..nGearIndex[2]..nGearIndex[3]);
+					WriteLog("[è—å‰‘ä½¿è€…] "..GetAccount().. " / "..GetName().." :70çº§å¥—è£…:"..nGearIndex[1]..nGearIndex[2]..nGearIndex[3]);
 				else
-					Talk(1,"","§iÓm tİch lòy cña b¹n kh«ng ®ñ")
+					Talk(1,"","ä½ çš„ç§¯åˆ†ä¸å¤Ÿ")
 				end
 			end
 		end
@@ -2104,7 +2046,7 @@ end
 				SetTask(TB_BONUS_SCORE, (nScore-7500))
 				AddItem(2, 0, 334, 1)
 			else
-				Talk(1,"","§iÓm tİch lòy cña b¹n kh«ng ®ñ")
+				Talk(1,"","ä½ çš„ç§¯åˆ†ä¸å¤Ÿ")
 			end
 		end
 		function GS_TaskReward_4()
@@ -2113,7 +2055,7 @@ end
 				SetTask(TB_BONUS_SCORE, (nScore-8500))
 				AddItem(2, 0, 335, 1)
 			else
-				Talk(1,"","§iÓm tİch lòy cña b¹n kh«ng ®ñ")
+				Talk(1,"","ä½ çš„ç§¯åˆ†ä¸å¤Ÿ")
 			end
 		end
 		function GS_TaskReward_5(nPoint)
@@ -2121,25 +2063,25 @@ end
 			if nPoint == -1 then
 				SetTask(TB_BONUS_SCORE, 0)
 				ModifyExp(nScore * 10)
-				WriteLog("[Tµng KiÕm] "..GetAccount().. " / "..GetName().."Dïng ®iÓm tİch lòy ®æi"..(nScore * 10).." ®iÓm kinh nghiÖm")
+				WriteLog("[è—å‰‘ä½¿è€…] "..GetAccount().. " / "..GetName().."ä½¿ç”¨ç§¯åˆ†"..(nScore * 10).."å…‘æ¢ä¸€æ¬¡ç»éªŒ")
 			elseif nScore >= nPoint then
 				SetTask(TB_BONUS_SCORE, (nScore - nPoint))
 				ModifyExp(nPoint * 10)
-				WriteLog("[Tµng KiÕm] "..GetAccount().. " / "..GetName().."Dïng ®iÓm tİch lòy ®æi"..(nPoint * 10).." ®iÓm kinh nghiÖm")
+				WriteLog("[è—å‰‘ä½¿è€…] "..GetAccount().. " / "..GetName().."ä½¿ç”¨ç§¯åˆ†"..(nPoint * 10).."å…‘æ¢ä¸€æ¬¡ç»éªŒ")
 			else
-				Talk(1,"","§iÓm tİch lòy cña b¹n kh«ng ®ñ")
+				Talk(1,"","ä½ çš„ç§¯åˆ†ä¸å¤Ÿ")
 			end
 		end
 		
 	function GS_EnterTaskTalk_7()
-		--Talk(1,"","ÉÙÏÀ¿ÍÆøÁË£¡")
+		--Talk(1,"","å°‘ä¾ å®¢æ°”äº†ï¼")
 	end
 
 
--- Ìõ¼şÂú×ãºóÈÃÍæ¼ÒÑ¡Ôñ³¡µØµÄ½çÃæºÍ¿ØÖÆ²¿·Ö
+-- æ¡ä»¶æ»¡è¶³åè®©ç©å®¶é€‰æ‹©åœºåœ°çš„ç•Œé¢å’Œæ§åˆ¶éƒ¨åˆ†
 function GS_EnterTask()
-	local sInfo1 = "VŞ anh hïng nµy muèn vµo trËn ®Şa nµo? \n"..SF_TOWNNAME..", xin hái c¸c anh hïng muèn vµo trËn ®Şa nµo? \n".."[TrËn ®Şa] TrËn ®Şa 1 TrËn ®Şa 2 TrËn ®Şa 3 TrËn ®Şa 4 TrËn ®Şa 5 \n"
-	local sInfo2 = "[Tr¹ng th¸i]       "..GS_USEDNOTE_IMG[GS_STAGE_USED[1]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[2]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[3]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[4]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[5]+1].."\n"
+	local sInfo1 = "è¿™ä½å¤§ä¾ æƒ³å»å“ªé‡Œ?\n"..SF_TOWNNAME..",å¤§ä¾ æƒ³å»å“ªé‡Œï¼Ÿ\n".."[å‰¯æœ¬]ç¬¬ä¸€å…³ ç¬¬äºŒå…³ ç¬¬ä¸‰å…³ ç¬¬å››å…³ ç¬¬äº”å…³\n"
+	local sInfo2 = "[çŠ¶æ€]       "..GS_USEDNOTE_IMG[GS_STAGE_USED[1]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[2]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[3]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[4]+1].."          "..GS_USEDNOTE_IMG[GS_STAGE_USED[5]+1].."\n"
 	local GS_USEDNOTE_COT = {}
 	for i=1, 5 do
 		local sStage = TC_STAGE_Index[i]
@@ -2160,41 +2102,41 @@ function GS_EnterTask()
 		end		
 		GS_USEDNOTE_COT[i] = sStage..". "..sTurn
 	end
-	local sInfo3 = "[TiÕn ®é]     "..GS_USEDNOTE_COT[1].."      "..GS_USEDNOTE_COT[2].."      "..GS_USEDNOTE_COT[3].."      "..GS_USEDNOTE_COT[4].."      "..GS_USEDNOTE_COT[5]
+	local sInfo3 = "[è¿›åº¦]     "..GS_USEDNOTE_COT[1].."      "..GS_USEDNOTE_COT[2].."      "..GS_USEDNOTE_COT[3].."      "..GS_USEDNOTE_COT[4].."      "..GS_USEDNOTE_COT[5]
 	GS_ENTERTALK = sInfo1..sInfo2..sInfo3
 	if (GS_EnterCheck() == 2) then
-		Say(GS_ENTERTALK, 6, "TrËn ®Şa nhãm thø 1"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_1", 
-					 		 "TrËn ®Şa nhãm thø 2"..GS_USEDNOTE_TXT[GS_STAGE_USED[2]+1].."/GS_ZoneSelect_2", 
-							 "TrËn ®Şa nhãm thø 3"..GS_USEDNOTE_TXT[GS_STAGE_USED[3]+1].."/GS_ZoneSelect_3", 
-							 "TrËn ®Şa nhãm thø 4"..GS_USEDNOTE_TXT[GS_STAGE_USED[4]+1].."/GS_ZoneSelect_4", 
-							 "TrËn ®Şa nhãm thø 5"..GS_USEDNOTE_TXT[GS_STAGE_USED[5]+1].."/GS_ZoneSelect_5",
-							 "lÇn sau quay l¹i nhĞ!/GS_ExitSay")
---		Say(GS_ENTERTALK, 9, "µÚÒ»¹Ø³¡µØ"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_1", 
---					 		 "µÚ¶ş¹Ø³¡µØ"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_12", 
---							 "µÚÈı¹Ø³¡µØ"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_13", 
---							 "µÚËÄ¹Ø³¡µØ"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_14", 
---							 "µÚÎå¹Ø³¡µØ"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_15",
---							 "µÚ°Ë¹Ø³¡µØ"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_18",
---							 "µÚ¾Å¹Ø³¡µØ"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_19",
---							 "µÚ¶ş×é³¡µØ"..GS_USEDNOTE_TXT[GS_STAGE_USED[2]+1].."/GS_ZoneSelect_2",
---							 "ÏÂ´ÎÔÙÀ´¡£/GS_ExitSay")
+		Say(GS_ENTERTALK, 6, "ç¬¬ä¸€å…³"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_1", 
+					 		 "ç¬¬äºŒå…³"..GS_USEDNOTE_TXT[GS_STAGE_USED[2]+1].."/GS_ZoneSelect_2", 
+							 "ç¬¬ä¸‰å…³"..GS_USEDNOTE_TXT[GS_STAGE_USED[3]+1].."/GS_ZoneSelect_3", 
+							 "ç¬¬å››å…³"..GS_USEDNOTE_TXT[GS_STAGE_USED[4]+1].."/GS_ZoneSelect_4", 
+							 "ç¬¬äº”å…³"..GS_USEDNOTE_TXT[GS_STAGE_USED[5]+1].."/GS_ZoneSelect_5",
+							 "ä¸‹æ¬¡å†æ¥/GS_ExitSay")
+--		Say(GS_ENTERTALK, 9, "ç¬¬ä¸€å…³åœºåœ°"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_1", 
+--					 		 "ç¬¬äºŒå…³åœºåœ°"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_12", 
+--							 "ç¬¬ä¸‰å…³åœºåœ°"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_13", 
+--							 "ç¬¬å››å…³åœºåœ°"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_14", 
+--							 "ç¬¬äº”å…³åœºåœ°"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_15",
+--							 "ç¬¬å…«å…³åœºåœ°"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_18",
+--							 "ç¬¬ä¹å…³åœºåœ°"..GS_USEDNOTE_TXT[GS_STAGE_USED[1]+1].."/GS_ZoneSelect_19",
+--							 "ç¬¬äºŒç»„åœºåœ°"..GS_USEDNOTE_TXT[GS_STAGE_USED[2]+1].."/GS_ZoneSelect_2",
+--							 "ä¸‹æ¬¡å†æ¥ã€‚/GS_ExitSay")
 	end
 end
-	-- ÒÔÏÂ5¸öÊÇÑ¡Ôñ²»Í¬µÄÑ¡ÏîºóµÄ´¦Àí
+	-- ä»¥ä¸‹5ä¸ªæ˜¯é€‰æ‹©ä¸åŒçš„é€‰é¡¹åçš„å¤„ç†
 	function GS_ZoneSelect_1()
 		if (GS_STAGE_USED[1] == 0) and (GS_EnterCheck() == 2) then
-			local nNeedCount = CalcYingXiongTie(0)
-			if DelItem(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3], nNeedCount) == 1 then
+--			local nNeedCount = CalcYingXiongTie(0)
+--			if DelItem(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3], nNeedCount) == 1 then
 				GM_NextStageInit(1, 0)
-				MU_Msg2Team("§éi ngò ®ang chuyÓn vµo.. [TrËn ®Şa 1]")
+				MU_Msg2Team("é˜Ÿä¼æ­£åœ¨è¿›å…¥.. [ç¬¬ä¸€å…³åœºåœ°]")
 				GS_StartFlag = 1
-			else
-				Msg2Player("Kh«ng ®ñ Anh Hïng thiÕp, kh«ng thÓ vµo S¬n Trang")
-			end
+--			else
+--				Msg2Player("æ²¡æœ‰è¶³å¤Ÿçš„è‹±é›„å¸–ï¼Œä¸èƒ½è¿›å…¥å‰¯æœ¬ï¼")
+--			end
 		else
 			--GS_EnterTask()
 			GS_ViewZone(1)
-			Msg2Player("Kh«ng ®ñ ®iÒu kiÖn...")
+			Msg2Player("ä¸ç¬¦åˆè¿›å…¥æ¡ä»¶...")
 		end
 	end
 	function GS_ZoneSelect_2()
@@ -2202,14 +2144,14 @@ end
 			local nNeedCount = CalcYingXiongTie(0)
 			if DelItem(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3], nNeedCount) == 1 then
 				GM_NextStageInit(2, 0)
-				MU_Msg2Team("§éi ngò ®ang chuyÓn vµo.. [TrËn ®Şa 2]")
+				MU_Msg2Team("é˜Ÿä¼æ­£åœ¨è¿›å…¥.. [ç¬¬äºŒå…³åœºåœ°]")
 			else
-				Msg2Player("Kh«ng ®ñ Anh Hïng thiÕp, kh«ng thÓ vµo S¬n Trang")
+				Msg2Player("æ²¡æœ‰è¶³å¤Ÿçš„è‹±é›„å¸–ï¼Œä¸èƒ½è¿›å…¥å‰¯æœ¬ï¼")
 			end
 		else
 			--GS_EnterTask()
 			GS_ViewZone(2)
-			Msg2Player("Kh«ng ®ñ ®iÒu kiÖn...")
+			Msg2Player("ä¸ç¬¦åˆè¿›å…¥æ¡ä»¶...")
 		end
 	end
 	function GS_ZoneSelect_3()
@@ -2217,14 +2159,14 @@ end
 			local nNeedCount = CalcYingXiongTie(0)
 			if DelItem(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3], nNeedCount) == 1 then
 				GM_NextStageInit(3, 0)
-				MU_Msg2Team("§éi ngò ®ang chuyÓn vµo.. [TrËn ®Şa 3]")
+				MU_Msg2Team("é˜Ÿä¼æ­£åœ¨è¿›å…¥.. [ç¬¬ä¸‰å…³åœºåœ°]")
 			else
-				Msg2Player("Kh«ng ®ñ Anh Hïng thiÕp, kh«ng thÓ vµo S¬n Trang")
+				Msg2Player("æ²¡æœ‰è¶³å¤Ÿçš„è‹±é›„å¸–ï¼Œä¸èƒ½è¿›å…¥å‰¯æœ¬ï¼")
 			end
 		else
 			--GS_EnterTask()
 			GS_ViewZone(3)
-			Msg2Player("Kh«ng ®ñ ®iÒu kiÖn...")
+			Msg2Player("ä¸ç¬¦åˆè¿›å…¥æ¡ä»¶...")
 		end
 	end
 	function GS_ZoneSelect_4()
@@ -2232,14 +2174,14 @@ end
 			local nNeedCount = CalcYingXiongTie(0)
 			if DelItem(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3], nNeedCount) == 1 then
 				GM_NextStageInit(4, 0)
-				MU_Msg2Team("§éi ngò ®ang chuyÓn vµo.. [TrËn ®Şa 4]")
+				MU_Msg2Team("é˜Ÿä¼æ­£åœ¨è¿›å…¥.. [ç¬¬å››å…³åœºåœ°]")
 			else
-				Msg2Player("Kh«ng ®ñ Anh Hïng thiÕp, kh«ng thÓ vµo S¬n Trang")
+				Msg2Player("æ²¡æœ‰è¶³å¤Ÿçš„è‹±é›„å¸–ï¼Œä¸èƒ½è¿›å…¥å‰¯æœ¬ï¼")
 			end
 		else
 			--GS_EnterTask()
 			GS_ViewZone(4)
-			Msg2Player("Kh«ng ®ñ ®iÒu kiÖn...")
+			Msg2Player("ä¸ç¬¦åˆè¿›å…¥æ¡ä»¶...")
 		end
 	end
 	function GS_ZoneSelect_5()
@@ -2247,94 +2189,94 @@ end
 			local nNeedCount = CalcYingXiongTie(0)
 			if DelItem(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3], nNeedCount) == 1 then
 				GM_NextStageInit(5, 0)
-				MU_Msg2Team("§éi ngò ®ang chuyÓn vµo.. [TrËn ®Şa 5]")
+				MU_Msg2Team("é˜Ÿä¼æ­£åœ¨è¿›å…¥.. [ç¬¬äº”å…³åœºåœ°]")
 			else
-				Msg2Player("Kh«ng ®ñ Anh Hïng thiÕp, kh«ng thÓ vµo S¬n Trang")
+				Msg2Player("æ²¡æœ‰è¶³å¤Ÿçš„è‹±é›„å¸–ï¼Œä¸èƒ½è¿›å…¥å‰¯æœ¬ï¼")
 			end
 		else
 			--GS_EnterTask()
 			GS_ViewZone(5)
-			Msg2Player("Kh«ng ®ñ ®iÒu kiÖn...")
+			Msg2Player("ä¸ç¬¦åˆè¿›å…¥æ¡ä»¶...")
 		end
 	end
 --	function GS_ZoneSelect_12()
 --		if (GS_STAGE_USED[1] == 0) and (GS_AreaCheck() == 1) then
 --			DelItem(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3], GetTeamSize())
 --			GM_NextStageInit(1, 1)
---			MU_Msg2Team("¶ÓÎé´«ËÍÖĞ¡­¡­ [³¡µØÒ»¹Ø¿¨¶ş]")
+--			MU_Msg2Team("é˜Ÿä¼ä¼ é€ä¸­â€¦â€¦ [åœºåœ°ä¸€å…³å¡äºŒ]")
 --			GS_StartFlag = 1
 --		else
 --			--GS_EnterTask()
 --			GS_ViewZone(1)
---			Msg2Player("½øÈëÌõ¼ş²»Âú×ã...")
+--			Msg2Player("è¿›å…¥æ¡ä»¶ä¸æ»¡è¶³...")
 --		end
 --	end
 --	function GS_ZoneSelect_13()
 --		if (GS_STAGE_USED[1] == 0) and (GS_AreaCheck() == 1) then
 --			DelItem(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3], GetTeamSize())
 --			GM_NextStageInit(1, 2)
---			MU_Msg2Team("¶ÓÎé´«ËÍÖĞ¡­¡­ [³¡µØÒ»¹Ø¿¨Èı]")
+--			MU_Msg2Team("é˜Ÿä¼ä¼ é€ä¸­â€¦â€¦ [åœºåœ°ä¸€å…³å¡ä¸‰]")
 --			GS_StartFlag = 1
 --		else
 --			--GS_EnterTask()
 --			GS_ViewZone(1)
---			Msg2Player("½øÈëÌõ¼ş²»Âú×ã...")
+--			Msg2Player("è¿›å…¥æ¡ä»¶ä¸æ»¡è¶³...")
 --		end
 --	end
 --	function GS_ZoneSelect_14()
 --		if (GS_STAGE_USED[1] == 0) and (GS_AreaCheck() == 1) then
 --			DelItem(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3], GetTeamSize())
 --			GM_NextStageInit(1, 3)
---			MU_Msg2Team("¶ÓÎé´«ËÍÖĞ¡­¡­ [³¡µØÒ»¹Ø¿¨ËÄ]")
+--			MU_Msg2Team("é˜Ÿä¼ä¼ é€ä¸­â€¦â€¦ [åœºåœ°ä¸€å…³å¡å››]")
 --			GS_StartFlag = 1
 --		else
 --			--GS_EnterTask()
 --			GS_ViewZone(1)
---			Msg2Player("½øÈëÌõ¼ş²»Âú×ã...")
+--			Msg2Player("è¿›å…¥æ¡ä»¶ä¸æ»¡è¶³...")
 --		end
 --	end
 --	function GS_ZoneSelect_15()
 --		if (GS_STAGE_USED[1] == 0) and (GS_AreaCheck() == 1) then
 --			DelItem(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3], GetTeamSize())
 --			GM_NextStageInit(1, 4)
---			MU_Msg2Team("¶ÓÎé´«ËÍÖĞ¡­¡­ [³¡µØÒ»¹Ø¿¨Îå]")
+--			MU_Msg2Team("é˜Ÿä¼ä¼ é€ä¸­â€¦â€¦ [åœºåœ°ä¸€å…³å¡äº”]")
 --			GS_StartFlag = 1
 --		else
 --			--GS_EnterTask()
 --			GS_ViewZone(1)
---			Msg2Player("½øÈëÌõ¼ş²»Âú×ã...")
+--			Msg2Player("è¿›å…¥æ¡ä»¶ä¸æ»¡è¶³...")
 --		end
 --	end
 --	function GS_ZoneSelect_18()
 --		if (GS_STAGE_USED[1] == 0) and (GS_AreaCheck() == 1) then
 --			DelItem(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3], GetTeamSize())
 --			GM_NextStageInit(1, 7)
---			MU_Msg2Team("¶ÓÎé´«ËÍÖĞ¡­¡­ [³¡µØÒ»¹Ø¿¨°Ë]")
+--			MU_Msg2Team("é˜Ÿä¼ä¼ é€ä¸­â€¦â€¦ [åœºåœ°ä¸€å…³å¡å…«]")
 --			GS_StartFlag = 1
 --		else
 --			--GS_EnterTask()
 --			GS_ViewZone(1)
---			Msg2Player("½øÈëÌõ¼ş²»Âú×ã...")
+--			Msg2Player("è¿›å…¥æ¡ä»¶ä¸æ»¡è¶³...")
 --		end
 --	end
 --	function GS_ZoneSelect_19()
 --		if (GS_STAGE_USED[1] == 0) and (GS_AreaCheck() == 1) then
 --			DelItem(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3], GetTeamSize())
 --			GM_NextStageInit(1, 8)
---			MU_Msg2Team("¶ÓÎé´«ËÍÖĞ¡­¡­ [³¡µØÒ»¹Ø¿¨¾Å]")
+--			MU_Msg2Team("é˜Ÿä¼ä¼ é€ä¸­â€¦â€¦ [åœºåœ°ä¸€å…³å¡ä¹]")
 --			GS_StartFlag = 1
 --		else
 --			--GS_EnterTask()
 --			GS_ViewZone(1)
---			Msg2Player("½øÈëÌõ¼ş²»Âú×ã...")
+--			Msg2Player("è¿›å…¥æ¡ä»¶ä¸æ»¡è¶³...")
 --		end
 --	end
 
-	-- Íæ¼Ò²é¿´ÒÑ¾­±»Ê¹ÓÃµÄ³¡µØÊ±µÄ½çÃæÏÔÊ¾
+	-- ç©å®¶æŸ¥çœ‹å·²ç»è¢«ä½¿ç”¨çš„åœºåœ°æ—¶çš„ç•Œé¢æ˜¾ç¤º
 	function GS_ViewZone(nZone)
-		--local sBNum = {"Ò¼", "·¡", "Èş", "ËÁ", "Îé", "Â½", "Æâ", "°Æ", "¾Á", "Áã", "??"}
-		local sBNum = {"mét", "hai", "ba", "bèn", "Ngò ", "s¸u", "b¶y", "t¸m", "chİn", "0", "??"}
-		local sSNam = {"S¬n m«n", "§¹i viÖn", "HËu hoa viªn", "Liªn Hoµn Sµo", "Tµng KiÕm c¸c", "????", "????", "Tö Tróc l©m", "KiÕm Chñng", "????", "????"}
+		local sBNum = {"å£¹", "è´°", "å", "è‚†", "ä¼", "é™†", "æŸ’", "æŒ", "ç–", "0", "??"}
+--		local sBNum = {"mé– ", "hai", "ba", "bé‘", "Ng? ", "sç«¨", "bç§ ", "tç«š", "chè¼“", "0", "??"}
+		local sSNam = {"Sç» mç­", "Ğ§i viè¬“", "Hè—† hoa viçŒ²", "LiçŒ² Hoç¥… Sç¥‡", "Tç¥…g Kièª± cç«", "????", "????", "T? Tréª³ lï¹", "Kièª± Ché§ˆg", "????", "????"}
 		local Temp = TC_STAGE_Index[nZone]
 		local Temp2 = ""
 		local Temp3 = 0
@@ -2345,19 +2287,19 @@ end
 			Temp = 11
 			Temp2 = "?:??"
 		else
---			Temp2 = TC_TIMER_LIMIT_TABLE[Temp]*14	-- Êµ¼ÊÊ±¼äÏÔÊ¾
+--			Temp2 = TC_TIMER_LIMIT_TABLE[Temp]*14	-- å®é™…æ—¶é—´æ˜¾ç¤º
 --			Temp2 = ((Temp2-mod(Temp2, 60))/60)..":"..mod(Temp2, 60)
-			Temp2 = TC_TIMER_LIMIT_TABLE_UI[Temp]	-- ½üËÆÕûÊıÊ±¼äÏÔÊ¾
+			Temp2 = TC_TIMER_LIMIT_TABLE_UI[Temp]	-- è¿‘ä¼¼æ•´æ•°æ—¶é—´æ˜¾ç¤º
 		end
-		local sLine1 = "                         M· sè trËn ®Şa: <color=gold>"..sBNum[nZone].."<color>\n"
-		local sLine2 = "                         ¶i hiÖn t¹i: <color=gold>"..sSNam[Temp].."<color>("..sBNum[Temp]..")\n"
+		local sLine1 = "                         M? s? trè–¾ î†µa: <color=gold>"..sBNum[nZone].."<color>\n"
+		local sLine2 = "                         å½“å‰: <color=gold>"..sSNam[Temp].."<color>("..sBNum[Temp]..")\n"
 		Temp = TC_TIMER_Count[nZone]*14
 		if (Temp < 1) or (Temp == nil) then
 			Temp = "?:??"
 		else
 			Temp = ((Temp-mod(Temp, 60))/60)..":"..mod(Temp, 60)
 		end
-		local sLine3 = "                         Thêi gian qua ¶i: <color=gold>"..Temp.."<color>/"..Temp2.."\n"
+		local sLine3 = "                         æ—¶é—´åˆ°äº†: <color=gold>"..Temp.."<color>/"..Temp2.."\n"
 		if (TM_MEMBER_Index[nZone] == nil) or (TM_MEMBER_Index[nZone][1] == nil) then
 			Temp = "??"
 			Temp2 = "?"
@@ -2379,7 +2321,7 @@ end
 		else
 			Temp3 = "<color=red>"..Temp3.."<color>"
 		end
-		local sLine4 = "                         Tªn ®éi tr­ëng: <color=green>"..Temp.."<color> (CÊp:"..Temp2..")\n"
+		local sLine4 = "                         é˜Ÿé•¿åå­—: <color=green>"..Temp.."<color> (çº§åˆ«:"..Temp2..")\n"
 		Temp = TM_MEMBER_MaxLevel[nZone]
 		Temp = MU_Div(Temp)
 		if Temp <= 5 then
@@ -2389,8 +2331,8 @@ end
 		else
 			Temp = "<color=red>"..Temp.."<color>"
 		end
-		local sLine5 = "                         Sè l­îng:  "..Temp3.."/<color=red>8<color>\n"
-		local sLine6 = "                         §é khã:  "..Temp.."/<color=red>9<color>\n"
+		local sLine5 = "                         æ•°é‡:  "..Temp3.."/<color=red>8<color>\n"
+		local sLine6 = "                         éš¾åº¦:  "..Temp.."/<color=red>9<color>\n"
 		Temp = TB_BONUS_Total[nZone]
 		Temp2 = TC_KILL_Total[nZone]
 		if (Temp < 1) or (Temp == nil) then
@@ -2403,13 +2345,13 @@ end
 			Temp = "<color=red>"..Temp.."<color>"	
 		end
 		Temp = SB_Div(Temp, 1)
-		local sLine7 = "                         §iÓm v­ît ¶i:  "..Temp.." (Sè l­îng ®¸nh b¹i:"..Temp2..")"
+		local sLine7 = "                         îœ¯è§¤ vî…§t ç§ˆ:  "..Temp.." (å¤±è´¥æ¬¡æ•°:"..Temp2..")"
 		local sLine8 = ""				
 		Say(sLine1..sLine2..sLine3..sLine4..sLine5..sLine6..sLine7, 0)
 	end
 	
--- ´´½¨Ã¿¹Ø¿¨µÄ²Ø½£Ê¹Õß(Í¨³£ÊÇÈ±Ê¡ËùÓĞ²ÎÊı,»á¸ù¾İÍæ¼ÒÓÎÏ·µÄ½ø³Ì×Ô¶¯´´½¨ĞèÒªµÄ²Ø½£Ê¹Õß)
--- nMode : 0.¿ªÊ¼NPC 1.½áÊøNPC
+-- åˆ›å»ºæ¯å…³å¡çš„è—å‰‘ä½¿è€…(é€šå¸¸æ˜¯ç¼ºçœæ‰€æœ‰å‚æ•°,ä¼šæ ¹æ®ç©å®¶æ¸¸æˆçš„è¿›ç¨‹è‡ªåŠ¨åˆ›å»ºéœ€è¦çš„è—å‰‘ä½¿è€…)
+-- nMode : 0.å¼€å§‹NPC 1.ç»“æŸNPC
 function GS_CreateMessenger(nMode, nZone, nStage)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -2424,9 +2366,9 @@ function GS_CreateMessenger(nMode, nZone, nStage)
 			nMode = 1
 		end
 	end
---	local nMapID = 890 + (nZone * 10) + nStage		-- ²»Í¬µÄ³¡µØ\¹Ø¿¨È·¶¨²»Í¬µÄ µØÍ¼ ID
---                   ·şÎñÆ÷        ³¡µØ×é            ¹Ø¿¨
-	local nMapID = SF_MAPBASE + (nZone * 10) + nStage		-- ²»Í¬µÄ³¡µØÈ·¶¨²»Í¬µÄ µØÍ¼ ID
+--	local nMapID = 890 + (nZone * 10) + nStage		-- ä¸åŒçš„åœºåœ°\å…³å¡ç¡®å®šä¸åŒçš„ åœ°å›¾ ID
+--                   æœåŠ¡å™¨        åœºåœ°ç»„            å…³å¡
+	local nMapID = SF_MAPBASE + (nZone * 10) + nStage		-- ä¸åŒçš„åœºåœ°ç¡®å®šä¸åŒçš„ åœ°å›¾ ID
 	if nMode == 1 then
 		local nMsgIndex = CreateNpc(GS_MESSENGER_MID[1], GS_MESSENGER_MID[2], nMapID, GS_MESSENGER_ENDPOS[nStage][1], GS_MESSENGER_ENDPOS[nStage][2])
 		SetNpcDeathScript(nMsgIndex, SF_FILE)
@@ -2443,7 +2385,7 @@ end
 function GS_InitStage(nZone, nStage)
 end
 
--- Óë²Ø½£Ê¹Õß¶Ô»°@¿ªÊ¼¹Ø¿¨Ê±
+-- ä¸è—å‰‘ä½¿è€…å¯¹è¯@å¼€å§‹å…³å¡æ—¶
 function GS_Talk4Start(nZone, nStage)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -2451,14 +2393,14 @@ function GS_Talk4Start(nZone, nStage)
 	if nStage == nil then
 		nStage = TC_STAGE_Index[nZone]
 	end
-	if TM_IsCaptain() == 1 then							-- ÅĞ¶ÏÊÇ·ñÊÇ¶Ó³¤
+	if TM_IsCaptain() == 1 then							-- åˆ¤æ–­æ˜¯å¦æ˜¯é˜Ÿé•¿
 		Say(GS_STAGE_START[nStage], 1, GS_FORSELECT[1])
 	else
 		Talk(1, "", GS_STAGE_START[nStage])
 	end
 end
 
--- Óë²Ø½£Ê¹Õß¶Ô»°@½áÊø¹Ø¿¨Ê±,ÕâÀï»á·ÖÅä¹Ø¿¨»ı·Ö
+-- ä¸è—å‰‘ä½¿è€…å¯¹è¯@ç»“æŸå…³å¡æ—¶,è¿™é‡Œä¼šåˆ†é…å…³å¡ç§¯åˆ†
 function GS_Talk4End(nZone, nStage)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -2468,7 +2410,7 @@ function GS_Talk4End(nZone, nStage)
 	end
 	local sGCBonus = GS_FORSELECT[3].."("..TB_GetBonusChance()..")"
 	sGCBonus = sGCBonus.."/GS_GetCaptainBonus"
-	if TM_IsCaptain() == 1 then							-- ÅĞ¶ÏÊÇ·ñÊÇ¶Ó³¤
+	if TM_IsCaptain() == 1 then							-- åˆ¤æ–­æ˜¯å¦æ˜¯é˜Ÿé•¿
 --		if GS_IsAllowTrade[nZone] == 1 then
 --			Say(GS_STAGE_END[nStage], 4, GS_FORSELECT[2], sGCBonus, GS_FORSELECT[5], GS_FORSELECT[6])
 --		else
@@ -2486,7 +2428,7 @@ function GS_Talk4End(nZone, nStage)
 	end
 end
 
--- Óë²Ø½£Ê¹Õß¶Ô»°@ÅĞ¶ÏÊÇ½øĞĞ ¿ªÊ¼¶Ô»° »¹ÊÇ½øĞĞ ½áÊø¶Ô»°(Í¨³£ÊÇÈ±Ê¡ËùÓĞ²ÎÊı,»á¸ù¾İÍæ¼ÒÓÎÏ·µÄ½ø³Ì×Ô¶¯Ñ¡ÔñĞèÒª¶Ô»°ÄÚÈİ)
+-- ä¸è—å‰‘ä½¿è€…å¯¹è¯@åˆ¤æ–­æ˜¯è¿›è¡Œ å¼€å§‹å¯¹è¯ è¿˜æ˜¯è¿›è¡Œ ç»“æŸå¯¹è¯(é€šå¸¸æ˜¯ç¼ºçœæ‰€æœ‰å‚æ•°,ä¼šæ ¹æ®ç©å®¶æ¸¸æˆçš„è¿›ç¨‹è‡ªåŠ¨é€‰æ‹©éœ€è¦å¯¹è¯å†…å®¹)
 function GS_TalkWithMessenger(nMode, nZone, nStage)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -2508,8 +2450,8 @@ function GS_TalkWithMessenger(nMode, nZone, nStage)
 	end
 end
 
--- ¹Ø¿¨Õı³£½áÊøºó,¿ªÊ¼ÏÂÒ»¹Ø¿¨(Ò»°ã±» GM_NextStageInit µ÷ÓÃ,²»µ¥¶ÀÊ¹ÓÃ)
--- nMode : -1.ËùÓĞ¶ÓÔ±·µ»ØÏåÑô 0.ËùÓĞ¶ÓÔ±µ½ÏÂÒ»¹Ø¿¨(È±Ê¡Ä¬ÈÏ) 1+.±íÊ¾°Ñµ±Ç°Íæ¼ÓËÍ»ØÏåÑô
+-- å…³å¡æ­£å¸¸ç»“æŸå,å¼€å§‹ä¸‹ä¸€å…³å¡(ä¸€èˆ¬è¢« GM_NextStageInit è°ƒç”¨,ä¸å•ç‹¬ä½¿ç”¨)
+-- nMode : -1.æ‰€æœ‰é˜Ÿå‘˜è¿”å›è¥„é˜³ 0.æ‰€æœ‰é˜Ÿå‘˜åˆ°ä¸‹ä¸€å…³å¡(ç¼ºçœé»˜è®¤) 1+.è¡¨ç¤ºæŠŠå½“å‰ç©åŠ é€å›è¥„é˜³
 function GS_Team2NextStage(nZone, nStage, nMode)
 	local nNewWorldResult
 	if nZone == nil then
@@ -2522,9 +2464,9 @@ function GS_Team2NextStage(nZone, nStage, nMode)
 		nMode = 0
 	end
 	if (nStage >= 1) and (nStage < 10) and (nMode == 0) then
---		local nMapID = 890 + nZone * 10 + nStage		-- ²»Í¬µÄ³¡µØ\¹Ø¿¨È·¶¨²»Í¬µÄ µØÍ¼ ID
---  	                 ·şÎñÆ÷        ³¡µØ×é            ¹Ø¿¨
-		local nMapID = SF_MAPBASE + (nZone * 10) + nStage		-- ²»Í¬µÄ³¡µØÈ·¶¨²»Í¬µÄ µØÍ¼ ID
+--		local nMapID = 890 + nZone * 10 + nStage		-- ä¸åŒçš„åœºåœ°\å…³å¡ç¡®å®šä¸åŒçš„ åœ°å›¾ ID
+--  	                 æœåŠ¡å™¨        åœºåœ°ç»„            å…³å¡
+		local nMapID = SF_MAPBASE + (nZone * 10) + nStage		-- ä¸åŒçš„åœºåœ°ç¡®å®šä¸åŒçš„ åœ°å›¾ ID
 		local nOldIndex = PlayerIndex
 		for i=1, GetTeamSize() do
 			PlayerIndex = GetTeamMember(i)
@@ -2555,7 +2497,7 @@ function GS_Team2NextStage(nZone, nStage, nMode)
 	return nNewWorldResult
 end
 
--- È«¶Ó´«ËÍµ½Ö¸¶¨×ø±ê
+-- å…¨é˜Ÿä¼ é€åˆ°æŒ‡å®šåæ ‡
 function GS_NewWorldTeam(nMap, nX, nY)
 		local nOldIndex = PlayerIndex
 		for i=1, GetTeamSize() do
@@ -2566,7 +2508,7 @@ function GS_NewWorldTeam(nMap, nX, nY)
 		PlayerIndex = nOldIndex
 end
 
--- ½øÈëÏÂÒ»¹Ø¿¨µÄÑ¡ÏîËùµ÷ÓÃµÄ¹ı³Ì
+-- è¿›å…¥ä¸‹ä¸€å…³å¡çš„é€‰é¡¹æ‰€è°ƒç”¨çš„è¿‡ç¨‹
 function GS_NextStage(nZone)
 	local a,b,c=GetWorldPos()
 	if a == SF_TOWNID then
@@ -2583,12 +2525,12 @@ function GS_NextStage(nZone)
 	GM_NextStageInit()
 end
 
--- ¶Ó³¤ÁìÈ¡½±ÀøµÄÑ¡ÏîËùµ÷ÓÃµÄ¹ı³Ì
+-- é˜Ÿé•¿é¢†å–å¥–åŠ±çš„é€‰é¡¹æ‰€è°ƒç”¨çš„è¿‡ç¨‹
 function GS_GetCaptainBonus()
 	TB_GetCaptainBonus()
 end
 
--- ºÍ²Ø½£Ê¹Õß½øĞĞ½»Ò×µÄÑ¡ÏîËùµ÷ÓÃµÄ¹ı³Ì
+-- å’Œè—å‰‘ä½¿è€…è¿›è¡Œäº¤æ˜“çš„é€‰é¡¹æ‰€è°ƒç”¨çš„è¿‡ç¨‹
 function GS_Trade(nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -2619,7 +2561,7 @@ function GS_Trade(nZone)
 			local nFlag = SetBit(GetTask(SB_EVENT_STAGE[10]), 2, 1)
 			SetTask(SB_EVENT_STAGE[10], nFlag)
 			TB_AddScore(3, random(0, 2))
-			TaskTip("Kİch ho¹t sù kiÖn ®Æc biÖt: Th«ng th­êng. Giao dŞch")
+			TaskTip("è§¦å‘ç‰¹æ®Šäº‹ä»¶: é€šè´§äº¤æ˜“")
 			-- Stage Event End
 		elseif GetItemCount(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3]) > 0 then
 			DelItem(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3], 1)
@@ -2634,7 +2576,7 @@ end
 function GS_OpenBox()
 	local nST = GetTask(TB_BONUS_RELATION)
 	if GetTask(805)==0 then 
-		Talk(1,"","Ng­¬i ch­a më r­¬ng, kh«ng thÓ sö dông chøc n¨ng nµy!")
+		Talk(1,"","ä½ è¿˜æ²¡æœ‰å¼€å¯ä»“åº“ï¼Œæ‰€ä»¥ä½ ä¸èƒ½ä½¿ç”¨è¿™ä¸ªåŠŸèƒ½ã€‚")
 		return
 	end
 	if nST <= 100 then
@@ -2657,7 +2599,7 @@ function GS_OpenBox()
 		local nFlag = SetBit(GetTask(SB_EVENT_STAGE[10]), 2, 1)
 		SetTask(SB_EVENT_STAGE[10], nFlag)
 		TB_AddScore(3, random(0, 2))
-		TaskTip("Kİch ho¹t sù kiÖn ®Æc biÖt: Th«ng th­êng. R­¬ng chøa ®å")
+		TaskTip("è§¦å‘ç‰¹æ®Šäº‹ä»¶: æ‰“å¼€ä»“åº“")
 		OpenBox()
 		-- Stage Event End
 	elseif GetItemCount(GS_HERO_TOKEN[1], GS_HERO_TOKEN[2], GS_HERO_TOKEN[3]) > 0 then
@@ -2671,7 +2613,7 @@ end
 function GS_ExitSay()
 end
 
--- ¿ªÊ¼Ò»¸ö¹Ø¿¨,°üÀ¨ÁË¹Ø¿¨ËùĞèÒªµÄ³õÊ¼»¯²¿·Ö
+-- å¼€å§‹ä¸€ä¸ªå…³å¡,åŒ…æ‹¬äº†å…³å¡æ‰€éœ€è¦çš„åˆå§‹åŒ–éƒ¨åˆ†
 function GS_StartStage()
 	local nZone = TC_GetTeamZone()
 	local nStage = TC_STAGE_Index[nZone]
@@ -2685,37 +2627,37 @@ function GS_StartStage()
 	if TC_STAGE_Index[nZone] == 1 then					-- ACT I
 		MC_NoSpawnNPCs(nStage, nMaxLevel)
 		MC_BeSpawnNPCs(nStage, nMaxLevel)
---		MC_NoSpawnNPCs(nStage, nMaxLevel, "¿´ÃÅ¹·")
---		MC_NoSpawnNPCs(nStage, nMaxLevel, "ÆÕÍ¨Ïä×Ó")
---		MC_BeSpawnNPCs(nStage, nMaxLevel, "¿´ÃÅ¹·", nZone, 1)
+--		MC_NoSpawnNPCs(nStage, nMaxLevel, "çœ‹é—¨ç‹—")
+--		MC_NoSpawnNPCs(nStage, nMaxLevel, "æ™®é€šç®±å­")
+--		MC_BeSpawnNPCs(nStage, nMaxLevel, "çœ‹é—¨ç‹—", nZone, 1)
 		ACT1_BOSS_Index[nZone] = 0
 		TC_TASK_EventCount[nZone][1] = 0
-		TC_TASK_Conditions[nZone][1] = 25	-- ³öÏÖBOSSĞèÒªÉ±ËÀµÄ»¤Ôº¼Ò¶¡ÊıÁ¿
+		TC_TASK_Conditions[nZone][1] = 25	-- å‡ºç°BOSSéœ€è¦æ€æ­»çš„æŠ¤é™¢å®¶ä¸æ•°é‡
 		TC_TASK_EventCount[nZone][2] = 0
 		TC_TASK_EventCount[nZone][3] = 0
-		TC_TASK_Conditions[nZone][3] = random(5, 10)	-- ³öÏÖ Event£º·ßÅ­µÄ¼Ò¶¡ ĞèÒªÉ±ËÀµÄ¹·µÄÊıÁ¿
-		TC_TASK_Conditions[nZone][4] = random(120, 120)	-- ³öÏÖ Event£º·ßÅ­µÄÍâÔº×Ü¹Ü ĞèÒªÉ±ËÀµÄÈËÊı
+		TC_TASK_Conditions[nZone][3] = random(5, 10)	-- å‡ºç° Eventï¼šæ„¤æ€’çš„å®¶ä¸ éœ€è¦æ€æ­»çš„ç‹—çš„æ•°é‡
+		TC_TASK_Conditions[nZone][4] = random(120, 120)	-- å‡ºç° Eventï¼šæ„¤æ€’çš„å¤–é™¢æ€»ç®¡ éœ€è¦æ€æ­»çš„äººæ•°
 	elseif TC_STAGE_Index[nZone] == 2 then				-- ACT II
 		MC_NoSpawnNPCs(nStage, nMaxLevel)
-		MC_BeSpawnNPCs(nStage, nMaxLevel, "Gia ®inh", nZone, 1)
+		MC_BeSpawnNPCs(nStage, nMaxLevel, "çœ‹é—¨ç‹—", nZone, 1)
 		ACT2_GotSword[nZone] = 0
 		TC_TASK_EventCount[nZone][1] = 0
-		TC_TASK_Conditions[nZone][1] = random(10, 15)	-- µôÂäÈÎÎñµÀ¾ßĞèÒªÉ±ËÀµÄÉ½×¯½ÌÍ·ÊıÁ¿
-		TC_TASK_Conditions[nZone][2] = TC_TASK_Conditions[nZone][1] + random(15, 20)	-- ±Ø¶¨µôÂäÈÎÎñµÀ¾ßĞèÒªÉ±ËÀµÄÉ½×¯½ÌÍ·ÊıÁ¿
+		TC_TASK_Conditions[nZone][1] = random(10, 15)	-- æ‰è½ä»»åŠ¡é“å…·éœ€è¦æ€æ­»çš„å±±åº„æ•™å¤´æ•°é‡
+		TC_TASK_Conditions[nZone][2] = TC_TASK_Conditions[nZone][1] + random(15, 20)	-- å¿…å®šæ‰è½ä»»åŠ¡é“å…·éœ€è¦æ€æ­»çš„å±±åº„æ•™å¤´æ•°é‡
 		local nMapID = GetWorldPos()
-		local nBossIndex = CreateNpc("Néi qu¶n_®èi tho¹i", "Tæng qu¶n néi viÖn", nMapID, 1657, 3133)
---		local nBossIndex = CreateNpc("½­ºşºÀ½Ü", "ÄÚÔº×Ü¹Ü", nMapID, 1657, 3133)
+--		local nBossIndex = CreateNpc("Né–• quç§_î†¿i thoç­°", "Té›g quç§ né–• viè¬“", nMapID, 1657, 3133)
+		local nBossIndex = CreateNpc("æ±Ÿæ¹–è±ªæ°", "å†…é™¢æ€»ç®¡", nMapID, 1657, 3133)
 		MC_Add2Group(nBossIndex)
 		SetNpcDeathScript(nBossIndex, SF_FILE)
 	elseif TC_STAGE_Index[nZone] == 3 then				-- ACT III
-		MC_BeSpawnNPCs(nStage, nMaxLevel, "Gia ®inh", nZone, 1)
+		MC_BeSpawnNPCs(nStage, nMaxLevel, "çœ‹é—¨ç‹—", nZone, 1)
 		ACT3_CalculateOdderTable()
 		TC_TASK_EventCount[nZone][1] = 0
-		TC_TASK_Conditions[nZone][1] = 16	-- Ë¢³öËùÓĞÀÏÅ®ÆÍĞèÒªÉ±ËÀµÄ»¤Ôº¼Ò¶¡ÊıÁ¿£¬Ã¿10¸öË¢Ò»¸öÅ®ÆÍ
-		TC_TASK_EventCount[nZone][2] = 0	-- ¼ÇÂ¼ÒÑ¾­Ë¢µ½µÚN¸öÀÏÅ®ÆÍ
-		ACT3_Keeper[nZone] = 0				-- ºó»¨Ô°Ö´ÊÂÊÇ·ñ¾ª¶¯
-		ACT3_Traped[nZone] = 0				-- ²Èµ½»¨ÆÔµÄ´ÎÊı
-		ACT3_ContrackSent[nZone] = 0		-- ÊÇ·ñÒÑ¾­½»»¹¹ıÂôÉíÆõÔ¼
+		TC_TASK_Conditions[nZone][1] = 16	-- åˆ·å‡ºæ‰€æœ‰è€å¥³ä»†éœ€è¦æ€æ­»çš„æŠ¤é™¢å®¶ä¸æ•°é‡ï¼Œæ¯10ä¸ªåˆ·ä¸€ä¸ªå¥³ä»†
+		TC_TASK_EventCount[nZone][2] = 0	-- è®°å½•å·²ç»åˆ·åˆ°ç¬¬Nä¸ªè€å¥³ä»†
+		ACT3_Keeper[nZone] = 0				-- åèŠ±å›­æ‰§äº‹æ˜¯å¦æƒŠåŠ¨
+		ACT3_Traped[nZone] = 0				-- è¸©åˆ°èŠ±åœƒçš„æ¬¡æ•°
+		ACT3_ContrackSent[nZone] = 0		-- æ˜¯å¦å·²ç»äº¤è¿˜è¿‡å–èº«å¥‘çº¦
 	elseif TC_STAGE_Index[nZone] == 4 then				-- ACT IV
 		MC_NoSpawnNPCs(nStage, nMaxLevel)
 		MC_BeSpawnNPCs(nStage, nMaxLevel, nil, nZone, 1)
@@ -2728,19 +2670,19 @@ function GS_StartStage()
 		ACT4_CalculateSwitchTable()
 		ACT4_CreateSwitch()
 		ACT4_Debuff(0)
-		MU_Msg2Team("Do cã ng­êi l¹ x©m nhËp, Liªn Hoµn trËn ®· ph¸t huy hÕt ma lùc m¹nh mÏ.", 1)
-		TC_TASK_EventCount[nZone][1] = 0	-- ¼ÇÂ¼»÷»îµÄ»ú¹ØÊıÁ¿
-		TC_TASK_Conditions[nZone][1] = 0	-- ¼ÇÂ¼±»»÷»îµÄ»ú¹ØÀàĞÍ
-		TC_TASK_EventCount[nZone][2] = 0	-- ¼ÇÂ¼½£ÁéµÄËÀÍö¸öÊı
-		TC_TASK_Conditions[nZone][2] = 3	-- ¼ÇÂ¼½£ÁéµÄËÀÍö¸öÊıĞèÇó
-		TC_TASK_Conditions[nZone][3] = TC_TIMER_LIMIT_TABLE[nStage]	-- ¿ªÆô»ú¹ØµÄÊ±¼äÏŞÖÆ
+		MU_Msg2Team("ç”±äºé™Œç”Ÿäººçš„å…¥ä¾µï¼Œè¿™åœºæˆ˜æ–—è¢«æå‡åˆ°çº§åˆ«ã€‚", 1)
+		TC_TASK_EventCount[nZone][1] = 0	-- è®°å½•å‡»æ´»çš„æœºå…³æ•°é‡
+		TC_TASK_Conditions[nZone][1] = 0	-- è®°å½•è¢«å‡»æ´»çš„æœºå…³ç±»å‹
+		TC_TASK_EventCount[nZone][2] = 0	-- è®°å½•å‰‘çµçš„æ­»äº¡ä¸ªæ•°
+		TC_TASK_Conditions[nZone][2] = 3	-- è®°å½•å‰‘çµçš„æ­»äº¡ä¸ªæ•°éœ€æ±‚
+		TC_TASK_Conditions[nZone][3] = TC_TIMER_LIMIT_TABLE[nStage]	-- å¼€å¯æœºå…³çš„æ—¶é—´é™åˆ¶
 	elseif TC_STAGE_Index[nZone] == 5 then				-- ACT V
 		ACT5_CreateSword()
-		TC_TASK_EventCount[nZone][1] = 0	-- ¼ÇÂ¼°Î½£µÄ¸öÊı
-		TC_TASK_EventCount[nZone][2] = 1	-- ¼ÇÂ¼²å½£µÄ¸öÊı
-		TC_TASK_Conditions[nZone][2] = 6	-- ³öÏÖBOSSµÄ²å½£¸öÊı
-		ACT5_DROP_ROW[nZone] = 0			-- ¼ÇÂ¼²å½£µÄ ÏàÎ»ÀàĞÍ
-		ACT5_CHACUOLE[nZone] = {}			-- ¼ÇÂ¼²å´í½£µÄ´ÎÊı
+		TC_TASK_EventCount[nZone][1] = 0	-- è®°å½•æ‹”å‰‘çš„ä¸ªæ•°
+		TC_TASK_EventCount[nZone][2] = 1	-- è®°å½•æ’å‰‘çš„ä¸ªæ•°
+		TC_TASK_Conditions[nZone][2] = 6	-- å‡ºç°BOSSçš„æ’å‰‘ä¸ªæ•°
+		ACT5_DROP_ROW[nZone] = 0			-- è®°å½•æ’å‰‘çš„ ç›¸ä½ç±»å‹
+		ACT5_CHACUOLE[nZone] = {}			-- è®°å½•æ’é”™å‰‘çš„æ¬¡æ•°
 	elseif TC_STAGE_Index[nZone] == 6 then				-- ACT VI
 	elseif TC_STAGE_Index[nZone] == 7 then				-- ACT VII
 	elseif TC_STAGE_Index[nZone] == 8 then				-- ACT VIII
@@ -2751,9 +2693,9 @@ function GS_StartStage()
 		local nMapID = SF_MAPBASE + (nZone * 10) + ACT8_PATH_PortOut[ACT8_GetSnEIndex(0)][1]
 		local nStartPoint = ACT8_GetSnEIndex(0)
 		local nEndPoint = ACT8_GetSnEIndex(1)
---		Msg2Player("¿ªÊ¼µã£º"..nStartPoint.."  ½áÊøµã£º"..nEndPoint)
+--		Msg2Player("å¼€å§‹ç‚¹ï¼š"..nStartPoint.."  ç»“æŸç‚¹ï¼š"..nEndPoint)
 		GS_NewWorldTeam(nMapID, ACT8_PATH_PortOut[ACT8_GetSnEIndex(0)][2], ACT8_PATH_PortOut[ACT8_GetSnEIndex(0)][3])
-		local nEndMessenger = CreateNpc("V­¬ng An Th¹ch", "Sø gi¶ Tµng KiÕm", nMapID, ACT8_PATH_PortOut[ACT8_GetSnEIndex(1)][2], ACT8_PATH_PortOut[ACT8_GetSnEIndex(1)][3])
+		local nEndMessenger = CreateNpc("Vî„¥ng An Thç­©h", "S? gi? Tç¥…g Kièª±", nMapID, ACT8_PATH_PortOut[ACT8_GetSnEIndex(1)][2], ACT8_PATH_PortOut[ACT8_GetSnEIndex(1)][3])
 		SetNpcDeathScript(nEndMessenger, SF_FILE)
 		MC_Add2Group(nEndMessenger)
 		TC_STAGE_State[nZone] = 20
@@ -2763,17 +2705,17 @@ function GS_StartStage()
 		local nMapID = GetWorldPos()
 		local nLevel = MU_Div(nMaxLevel)*10
 		local aSLoca = {{1505, 3154}, {1473, 3335}, {1612, 3374}, {1677, 3218}, {1589, 3116}}
-		local aSName = {"Kim KiÕm phong kh¾c", "Méc KiÕm phong kh¾c", "Thñy KiÕm phong kh¾c", "Háa KiÕm phong kh¾c", "Thæ KiÕm phong kh¾c"}
+		local aSName = {"Kim Kièª± phong khç¶¾", "Mé– Kièª± phong khç¶¾", "Thé§“ Kièª± phong khç¶¾", "Hé†“ Kièª± phong khç¶¾", "Th? Kièª± phong khç¶¾"}
 		SWORD_SEALTIME[nZone] = {0,0,0,0,0}
 		SWORD_SEALINDEX[nZone] = {0,0,0,0,0}
 		SWORD_BOSSSPWANED[nZone] = 0
 		for i=1, 5 do
-			local nBossIndex = CreateNpc("KiÕm ®µi"..nLevel, aSName[i], nMapID, aSLoca[i][1], aSLoca[i][2])
+			local nBossIndex = CreateNpc("Kièª± î†Œi"..nLevel, aSName[i], nMapID, aSLoca[i][1], aSLoca[i][2])
 			MC_Add2Group(nBossIndex)
 			local nCHP = -1*(GetUnitCurStates(nBossIndex, 1) - 1)
 			AddUnitStates(nBossIndex, 1, nCHP)
 		end
-		local nBossIndex = CreateNpc("Bµn Long Trô", "KiÕm Ma ngñ mª", nMapID, 1567, 3240)
+		local nBossIndex = CreateNpc("Bç¥… Long Tr?", "Kièª± Ma ng? m?", nMapID, 1567, 3240)
 		SWORD_SleepOne[nZone] = nBossIndex
 		MC_Add2Group(nBossIndex)
 		SetNpcDeathScript(nBossIndex, SF_FILE)
@@ -2781,8 +2723,8 @@ function GS_StartStage()
 end
 --============================================================================================== GAME MAIN ====
 ------------------------------------------------------------------------------------------------ FUNCTION ----
--- ÉèÖÃ¶ÓÎé¹æÔò
--- nMode : 0.¿ªÆô¹æÔò 1.¹Ø±Õ¹æÔò
+-- è®¾ç½®é˜Ÿä¼è§„åˆ™
+-- nMode : 0.å¼€å¯è§„åˆ™ 1.å…³é—­è§„åˆ™
 function GM_Rules(nMode, nEffTeam)
 	local nTeamSize = GetTeamSize()
 	if nTeamSize <= 1 then
@@ -2799,16 +2741,16 @@ function GM_Rules(nMode, nEffTeam)
 		if (nTeamSize == 1) or (nEffTeam == 0) then
 			PlayerIndex = nOldIndex
 		end
-		Msg2Player("Trong quy t¾c bè trİ ¶i……")
-		CleanInteractive()						-- ½â³ı»¥¶¯
---		SetLogoutRV(MU_Inverse(nMode))			-- ÖĞÍ¾ÖĞ¶Ïºó»Ø³Ç
-		SetFightState(MU_Inverse(nMode))		-- ÉèÖÃÎª¿ÉÕ½¶·
-		SetCreateTeam(MU_Inverse(nMode))		-- ¹Ø±Õ×é¶Ó¹¦ÄÜ
-		UseScrollEnable(nMode)					-- ½ûÖ¹Ê¹ÓÃ»Ø³Ç·û
-	    InteractiveEnable(nMode)				-- ½»»¥¿ª¹Ø£¬0¹Ø±Õ£¬1´ò¿ª
-	    StallEnable(nMode)		   				-- °ÚÌ¯¿ª¹Ø
-		ForbitTrade(MU_Inverse(nMode))			-- ½ûÖ¹½»Ò×
-		--SetDeathScript("")					-- ÉèÖÃµ±Ç°Íæ¼ÒµÄËÀÍö½Å±¾
+		Msg2Player("Trong quy tç¶¾ b? tr? ç§ˆå–")
+		CleanInteractive()						-- è§£é™¤äº’åŠ¨
+--		SetLogoutRV(MU_Inverse(nMode))			-- ä¸­é€”ä¸­æ–­åå›åŸ
+		SetFightState(MU_Inverse(nMode))		-- è®¾ç½®ä¸ºå¯æˆ˜æ–—
+		SetCreateTeam(MU_Inverse(nMode))		-- å…³é—­ç»„é˜ŸåŠŸèƒ½
+		UseScrollEnable(nMode)					-- ç¦æ­¢ä½¿ç”¨å›åŸç¬¦
+	    InteractiveEnable(nMode)				-- äº¤äº’å¼€å…³ï¼Œ0å…³é—­ï¼Œ1æ‰“å¼€
+	    StallEnable(nMode)		   				-- æ‘†æ‘Šå¼€å…³
+		ForbitTrade(MU_Inverse(nMode))			-- ç¦æ­¢äº¤æ˜“
+		--SetDeathScript("")					-- è®¾ç½®å½“å‰ç©å®¶çš„æ­»äº¡è„šæœ¬
 		TT_SetTarget(0)
 		if (nTeamSize == 1) or (nEffTeam == 0) then
 			return
@@ -2822,7 +2764,7 @@ function GM_FightState(nMode)
 	local nOldIndex = PlayerIndex
 	for i=1, nTeamSize do
 		PlayerIndex = GetTeamMember(i)
-		SetFightState(nMode)		-- ÉèÖÃÎª¿ÉÕ½¶·
+		SetFightState(nMode)		-- è®¾ç½®ä¸ºå¯æˆ˜æ–—
 	end
 	PlayerIndex = nOldIndex	
 end
@@ -2844,7 +2786,7 @@ function GM_RecordDate()
 	PlayerIndex = nOldIndex	
 end
 
--- ¶ÓÎé½øÈëÏÂÒ»¹Ø¿¨,´ø³õÊ¼»¯²¿·Ö
+-- é˜Ÿä¼è¿›å…¥ä¸‹ä¸€å…³å¡,å¸¦åˆå§‹åŒ–éƒ¨åˆ†
 function GM_NextStageInit(nZone, nStage)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -2884,7 +2826,7 @@ function GM_NextStageInit(nZone, nStage)
 			SCCheckOfflineExp(2)
 			if PlayerIndex <= 0 then
 				PlayerIndex = nOldIndex
-				WriteLog("[Tµng KiÕm] "..GetName().."'s team is somthing wrong.")
+				WriteLog("[è—å‰‘ä½¿è€…] "..GetName().."'s team is somthing wrong.")
 			end
 		end
 		PlayerIndex = nOldIndex
@@ -2899,9 +2841,9 @@ function GM_NextStageInit(nZone, nStage)
 		if ((TC_TIMER_CountTotal[nZone]*14) < GetTask(TB_BONUS_CAPTAINTIME)) or (GetTask(TB_BONUS_CAPTAINTIME) == 0) then
 			SetTask(TB_BONUS_CAPTAINLEVEL, GetLevel())
 			SetTask(TB_BONUS_CAPTAINTIME, (TC_TIMER_CountTotal[nZone]*14+random(-7,7)))
-			Msg2Player("§æi míi ghi nhí thêi gian ng¾n nhÊt: §¼ng cÊp-"..GetTask(TB_BONUS_CAPTAINLEVEL).." Thêi gian-"..GetTask(TB_BONUS_CAPTAINTIME))
+			Msg2Player("åˆ›å»ºæœ€çŸ­æ—¶é—´è®°å½•:ç­‰çº§-"..GetTask(TB_BONUS_CAPTAINLEVEL).."æ—¶é—´-"..GetTask(TB_BONUS_CAPTAINTIME))
 		else
-			Msg2Player("Ghi nhí thêi gian ng¾n nhÊt hiÖn t¹i: §¼ng c©p-"..GetTask(TB_BONUS_CAPTAINLEVEL).." Thêi gian-"..GetTask(TB_BONUS_CAPTAINTIME))
+			Msg2Player("è®°å½•ç°åœ¨ç”¨æ—¶æœ€çŸ­:ç­‰çº§-"..GetTask(TB_BONUS_CAPTAINLEVEL).."æ—¶é—´"..GetTask(TB_BONUS_CAPTAINTIME))
 		end
 		PlayerIndex = nOldIndex
 		TC_KILL_Total[nZone] = 0
@@ -2930,7 +2872,7 @@ function GM_NextStageInit(nZone, nStage)
 		if GS_Team2NextStage(nZone, nStage, -1) > 0 then
 			GS_STAGE_USED[nZone] = 0
 		end
-		MU_Msg2Team(" Hoµn thµnh tÊt c¶ cöa ¶i! TÊt c¶ chiÕn h÷u quay l¹i"..SF_TOWNNAME..".")
+		MU_Msg2Team("é€šå…³äº†æ‰€æœ‰çš„å…³å¡!é˜Ÿä¼çš„äººéƒ½å›æ¥äº†ã€‚"..SF_TOWNNAME..".")
 		TC_STAGE_Index[nZone] = 0
 		TC_SetTeamZone(0)		
 		GS_StartFlag = 0
@@ -2964,7 +2906,7 @@ end
 
 -- ------------------------------------------------------------------------------------------------ <Act III> ----
 -- ------------------------------------------------------------------------------------------------ <Act III Function> ----
--- ¼ÆËãµÚÈı¹Ø³öÏÖ²»Í¬Î»ÖÃµÄ ÀÏÅ®ÆÍ µÄËæ»úË³Ğò
+-- è®¡ç®—ç¬¬ä¸‰å…³å‡ºç°ä¸åŒä½ç½®çš„ è€å¥³ä»† çš„éšæœºé¡ºåº
 function ACT3_CalculateOdderTable(nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -2978,7 +2920,7 @@ function ACT3_CalculateOdderTable(nZone)
 	end
 end
 
--- ´´½¨ ÀÏÅ®ÆÍ ,»á×Ô¶¯´¦Àí ÀÛ¼ÓÆ÷
+-- åˆ›å»º è€å¥³ä»† ,ä¼šè‡ªåŠ¨å¤„ç† ç´¯åŠ å™¨
 function ACT3_CreateOdder(nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -2987,14 +2929,14 @@ function ACT3_CreateOdder(nZone)
 	TC_TASK_EventCount[nZone][2] = TC_TASK_EventCount[nZone][2] + 1
 	local nOdderFlag = ACT3_ODDER_Table[nZone][TC_TASK_EventCount[nZone][2]]
 	local nlevel = MU_Div(TM_MEMBER_MaxLevel[nZone]) * 10
-	local nOdderIndex = CreateNpc("L·o béc"..nlevel, "L·o béc", nMapID, ACT3_ODDER_POS[nOdderFlag][1], ACT3_ODDER_POS[nOdderFlag][2])
+	local nOdderIndex = CreateNpc("è€å¥³ä»†"..nlevel, "è€å¥³ä»†", nMapID, ACT3_ODDER_POS[nOdderFlag][1], ACT3_ODDER_POS[nOdderFlag][2])
 	MC_Add2Group(nOdderIndex)
 	return nOdderIndex
 end
 
 -- ------------------------------------------------------------------------------------------------ <Act IV> ----
 -- ------------------------------------------------------------------------------------------------ <Act IV Function> ----
--- ¼ÆËãµÚËÄ¹ØµÄ ÈıÖÖÆæÊ¯ µÄËæ»úÅÅ²¼
+-- è®¡ç®—ç¬¬å››å…³çš„ ä¸‰ç§å¥‡çŸ³ çš„éšæœºæ’å¸ƒ
 function ACT4_CalculateSwitchTable(nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -3021,19 +2963,19 @@ function ACT4_Debuff(nType)
 		PlayerIndex = GetTeamMember(i)
 		local nRndEnd = 500
 		if ACT4_SWITCH_DEBUFF[nZone][1] == 0 and random(1,1000) <= nRndEnd then
-			CastState("state_slow",50,aTimes[1],1)								-- ÒÆ¶¯ËÙ¶È½µµÍ 50%
+			CastState("state_slow",50,aTimes[1],1)								-- ç§»åŠ¨é€Ÿåº¦é™ä½ 50%
 		end
 		if ACT4_SWITCH_DEBUFF[nZone][2] == 0 and random(1,1000) <= nRndEnd then
-			CastState("state_paralysis",100,aTimes[2],1)							-- ÁÙÊ±Âé±Ô
+			CastState("state_paralysis",100,aTimes[2],1)							-- ä¸´æ—¶éº»ç—¹
 		end
 		if ACT4_SWITCH_DEBUFF[nZone][3] == 0 and random(1,1000) <= nRndEnd then
-			CastState("state_sleep",100,aTimes[3],1)								-- ÁÙÊ±Ë¯Ãß
+			CastState("state_sleep",100,aTimes[3],1)								-- ä¸´æ—¶ç¡çœ 
 		end
 	end
 	PlayerIndex = nOldIndex
 end
 
--- ´´½¨ËùÓĞ ÆæÊ¯
+-- åˆ›å»ºæ‰€æœ‰ å¥‡çŸ³
 function ACT4_CreateSwitch(nZone, nType)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -3041,8 +2983,8 @@ function ACT4_CreateSwitch(nZone, nType)
 	local nMapID = GetWorldPos()
 	for i=1, 9 do
 		local nType = ACT4_SWITCH_Table[nZone][i]
-		local nSwitchIndex = CreateNpc("Ng­êi V« h×nh2", ACT4_SWITCH_Name[nType], nMapID, ACT4_SWITCH_POS[i][1], ACT4_SWITCH_POS[i][2])
-		ACT4_SWITCH_Count[nZone][nType] = ACT4_SWITCH_Count[nZone][nType] + 1			-- ÀÛ¼Æ²»Í¬ÖÖÀàÓñµÄÊıÁ¿
+		local nSwitchIndex = CreateNpc("éšå½¢äºº2", ACT4_SWITCH_Name[nType], nMapID, ACT4_SWITCH_POS[i][1], ACT4_SWITCH_POS[i][2])
+		ACT4_SWITCH_Count[nZone][nType] = ACT4_SWITCH_Count[nZone][nType] + 1			-- ç´¯è®¡ä¸åŒç§ç±»ç‰çš„æ•°é‡
 		ACT4_SWITCH_Index[nZone][nType][ACT4_SWITCH_Count[nType]] = nSwitchIndex
 		MC_Add2Group(nSwitchIndex)
 		AddUnitStates(nSwitchIndex, 8, i)
@@ -3050,7 +2992,7 @@ function ACT4_CreateSwitch(nZone, nType)
 	end
 end
 
--- ´´½¨µ¥Àà ÆæÊ¯
+-- åˆ›å»ºå•ç±» å¥‡çŸ³
 function ACT4_RebrithSwitch(nZone, nType)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
@@ -3074,44 +3016,44 @@ function ACT4_RebrithSwitch(nZone, nType)
 		end
 --		Msg2Player("Create Switch: "..nType.." "..ACT4_SWITCH_Name[nType].." "..nLoc)
 --		Msg2Player("Loc: "..nMapID.." "..ACT4_SWITCH_POS[nLoc][1].." "..ACT4_SWITCH_POS[nLoc][2])
-		local nSwitchIndex = CreateNpc("Ng­êi V« h×nh2", ACT4_SWITCH_Name[nType], nMapID, ACT4_SWITCH_POS[nLoc][1], ACT4_SWITCH_POS[nLoc][2])
+		local nSwitchIndex = CreateNpc("éšå½¢äºº2", ACT4_SWITCH_Name[nType], nMapID, ACT4_SWITCH_POS[nLoc][1], ACT4_SWITCH_POS[nLoc][2])
 		ACT4_SWITCH_Index[nZone][nType][i] = nSwitchIndex
 		MC_Add2Group(nSwitchIndex)
 		AddUnitStates(nSwitchIndex, 8, nLoc)
 	end
 end
 
--- È¡µÃ ÆæÊ¯ µÄÀàĞÍ
+-- å–å¾— å¥‡çŸ³ çš„ç±»å‹
 function ACT4_GetSwitchType(nName, nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
 	end
-	if (nName == nil) or (nName == "<Tö Thanh L­ h­¬ng >") then 
+	if (nName == nil) or (nName == "<T? Thanh L? hî„¥ng >") then 
 		return 1
-	elseif(nName == "<Thanh Lam L­ h­¬ng >") then 
+	elseif(nName == "<Thanh Lam L? hî„¥ng >") then 
 		return 2
-	elseif(nName == "<Tö Lam L­ h­¬ng >") then 
+	elseif(nName == "<T? Lam L? hî„¥ng >") then 
 		return 3
 	end
 	return 0
 end
 
--- È¡µÃ ÆæÊ¯ µÄÎ»ÖÃ±àºÅ
+-- å–å¾— å¥‡çŸ³ çš„ä½ç½®ç¼–å·
 function ACT4_GetSwitchFlag(nIndex, nZone)
 	return GetUnitCurStates(nIndex, 8)
 end
 
--- ´´½¨ÊØ»¤Ä³Î»ÖÃµÄÆæÊ¯µÄÊØÎÀNPC  ---ÒÑ¾­·ÏÆú
+-- åˆ›å»ºå®ˆæŠ¤æŸä½ç½®çš„å¥‡çŸ³çš„å®ˆå«NPC  ---å·²ç»åºŸå¼ƒ
 --function ACT4_CreateDefender(nFlag, nZone)
 --	if nZone == nil then
 --		nZone = TC_GetTeamZone()
 --	end
 --	local nMapID = GetWorldPos()
 --	local nlevel = MU_Div(TM_MEMBER_MaxLevel[nZone]) * 10
---	local nSoulIndex = CreateNpc("½£Áé"..nlevel, "½£Áé", nMapID, ACT4_SWITCH_POS[nFlag][1], ----ACT4_SWITCH_POS[nFlag][2])
+--	local nSoulIndex = CreateNpc("å‰‘çµ"..nlevel, "å‰‘çµ", nMapID, ACT4_SWITCH_POS[nFlag][1], ----ACT4_SWITCH_POS[nFlag][2])
 --	MC_Add2Group(nSoulIndex)
 --	for i=1, 4 do
---		local nDefenderIndex = CreateNpc("Á¬»·ÚùÊØÎÀ"..nlevel, "Á¬»·ÎëÊØÎÀ", nMapID, --ACT4_SWITCH_DEFENDER[nFlag][i][1], ACT4_SWITCH_DEFENDER[nFlag][i][2])
+--		local nDefenderIndex = CreateNpc("è¿ç¯é‚¬å®ˆå«"..nlevel, "è¿ç¯åå®ˆå«", nMapID, --ACT4_SWITCH_DEFENDER[nFlag][i][1], ACT4_SWITCH_DEFENDER[nFlag][i][2])
 --		MC_Add2Group(nDefenderIndex)
 --	end
 --end
@@ -3122,26 +3064,26 @@ function ACT5_GetSwordFlag(nIndex)
 	return GetUnitCurStates(nIndex, 8)
 end
 function ACT5_Word2Num(nWN)
-	if nWN == "Kim kiÕm" then
+	if nWN == "Kim kièª±" then
 		return 1
-	elseif nWN == "Méc kiÕm" then
+	elseif nWN == "Mé– kièª±" then
 		return 2
-	elseif nWN == "Thñy kiÕm" then
+	elseif nWN == "Thé§“ kièª±" then
 		return 3
-	elseif nWN == "Háa KiÕm" then
+	elseif nWN == "Hé†“ Kièª±" then
 		return 4
-	elseif nWN == "Thæ kiÕm" then
+	elseif nWN == "Th? kièª±" then
 		return 5
 	elseif nWN == 1 then
-		return "Kim kiÕm"
+		return "Kim kièª±"
 	elseif nWN == 2 then
-		return "Méc kiÕm"
+		return "Mé– kièª±"
 	elseif nWN == 3 then
-		return "Thñy kiÕm"
+		return "Thé§“ kièª±"
 	elseif nWN == 4 then
-		return "Háa KiÕm"
+		return "Hé†“ Kièª±"
 	elseif nWN == 5 then
-		return "Thæ kiÕm"
+		return "Th? kièª±"
 	end
 	return 0
 end
@@ -3160,7 +3102,7 @@ function ACT5_CreateSword(nZone)
 	end
 	local nMapID = GetWorldPos()
 	local nOrder_Table = {1,2,3,4,5}
-	local nSword_Name = {"Kim kiÕm","Méc kiÕm","Thñy kiÕm","Háa KiÕm","Thæ kiÕm"}
+	local nSword_Name = {"Kim kièª±","Mé– kièª±","Thé§“ kièª±","Hé†“ Kièª±","Th? kièª±"}
 	for i=1, 5 do
 		local nTempRND = random(i, 5)
 		local nTempEXC = nOrder_Table[nTempRND]
@@ -3170,7 +3112,7 @@ function ACT5_CreateSword(nZone)
 --	Msg2Player(nOrder_Table[1].." "..nOrder_Table[2].." "..nOrder_Table[3].." "..nOrder_Table[4].." "..nOrder_Table[5])
 	for i=1, 5 do
 		local nOrderIndex = nOrder_Table[i]
-		local nSwordIndex = CreateNpc("§èi tho¹i KiÕm §µi", nSword_Name[nOrderIndex], nMapID, ACT5_SWORD_PICKPOS[i][1], ACT5_SWORD_PICKPOS[i][2])
+		local nSwordIndex = CreateNpc("Ñ†i thoç­° Kièª± Ğ£i", nSword_Name[nOrderIndex], nMapID, ACT5_SWORD_PICKPOS[i][1], ACT5_SWORD_PICKPOS[i][2])
 		SetNpcDeathScript(nSwordIndex, SF_FILE)
 		MC_Add2Group(nSwordIndex)
 		local nNewValue = i - GetUnitCurStates(nSwordIndex, 8)
@@ -3183,7 +3125,7 @@ function ACT5_CreateDesk(nZone)
 	end
 	local nMapID = GetWorldPos()
 	for i=1, 5 do
-		local nDeskIndex = CreateNpc("Ng­êi V« h×nh", "KiÕm ®µi", nMapID, ACT5_SWORD_DROPPOS[i][1], ACT5_SWORD_DROPPOS[i][2])
+		local nDeskIndex = CreateNpc("ä¸å‰‘å°å¯¹è¯", nMapID, ACT5_SWORD_DROPPOS[i][1], ACT5_SWORD_DROPPOS[i][2])
 		SetNpcDeathScript(nDeskIndex, SF_FILE)
 		MC_Add2Group(nDeskIndex)
 		local nNewValue = i - GetUnitCurStates(nSwordIndex, 8)
@@ -3194,31 +3136,31 @@ function ACT5_CreateDefender(nFlag, sEffc, nZone)
 	if nZone == nil then
 		nZone = TC_GetTeamZone()
 	end
-	local nSword_Name = {"Kim kiÕm","Méc kiÕm","Thñy kiÕm","Háa KiÕm","Thæ kiÕm"}
+	local nSword_Name = {"éšå½¢äºº","Thé§“ kièª±","Hé†“ Kièª±","Th? kièª±"}
 	local nMapID = GetWorldPos()
 	local nlevel = MU_Div(TM_MEMBER_MaxLevel[nZone]) * 10
 	if TC_STAGE_State[nZone] < 15 then
 		if CountGroupUnit(nZone) < (MC_SPWN_LIMIT_TABLE[nZone] - 10) then
-			local nDefIndex = CreateNpc(sEffc..nlevel, "B¶o vÖ ngò hµnh", nMapID, ACT5_SWORD_PICKDEFENDER[nFlag][1][1], ACT5_SWORD_PICKDEFENDER[nFlag][1][2])
+			local nDefIndex = CreateNpc(sEffc..nlevel, "ä¿æŠ¤è¡ŒåŠ¨", nMapID, ACT5_SWORD_PICKDEFENDER[nFlag][1][1], ACT5_SWORD_PICKDEFENDER[nFlag][1][2])
 			MC_Add2Group(nDefIndex)
 		end
 		for j=1, 2 do
 			for i=2, 6 do
 				if CountGroupUnit(nZone) < (MC_SPWN_LIMIT_TABLE[nZone] - 10) then
-					local nDefenderIndex = CreateNpc("§Ö tö cao cÊp"..nlevel, "§Ö tö s¬n trang", nMapID, ACT5_SWORD_PICKDEFENDER[nFlag][i][1], ACT5_SWORD_PICKDEFENDER[nFlag][i][2])
+					local nDefenderIndex = CreateNpc("é¦–å¸­å¼Ÿå­"..nlevel, "å±±åº„å¼Ÿå­", nMapID, ACT5_SWORD_PICKDEFENDER[nFlag][i][1], ACT5_SWORD_PICKDEFENDER[nFlag][i][2])
 					MC_Add2Group(nDefenderIndex)
 				end
 			end
 		end
 	else
 		if CountGroupUnit(nZone) < (MC_SPWN_LIMIT_TABLE[nZone] - 10) then
-			local nDefIndex = CreateNpc(nSword_Name[nFlag]..nlevel, "B¶o vÖ ngò hµnh", nMapID, ACT5_SWORD_DROPDEFENDER[nFlag][1][1], ACT5_SWORD_DROPDEFENDER[nFlag][1][2])
+			local nDefIndex = CreateNpc(nSword_Name[nFlag]..nlevel, "ä¿æŠ¤è¡ŒåŠ¨", nMapID, ACT5_SWORD_DROPDEFENDER[nFlag][1][1], ACT5_SWORD_DROPDEFENDER[nFlag][1][2])
 			MC_Add2Group(nDefIndex)
 		end
 		for j=1, 2 do
 			for i=2, 6 do
 				if CountGroupUnit(nZone) < (MC_SPWN_LIMIT_TABLE[nZone] - 10) then
-					local nDefenderIndex = CreateNpc("§Ö tö cao cÊp"..nlevel, "§Ö tö s¬n trang", nMapID, ACT5_SWORD_DROPDEFENDER[nFlag][i][1], ACT5_SWORD_DROPDEFENDER[nFlag][i][2])
+					local nDefenderIndex = CreateNpc("é¦–å¸­å¼Ÿå­"..nlevel, "å±±åº„å¼Ÿå­", nMapID, ACT5_SWORD_DROPDEFENDER[nFlag][i][1], ACT5_SWORD_DROPDEFENDER[nFlag][i][2])
 					MC_Add2Group(nDefenderIndex)
 				end
 			end
@@ -3355,7 +3297,7 @@ function ACT8_CreateLargeChest()
 		nRandomTable[i] = nTempEXC
 	end
 	for i=1, 10 do
-		local nChestIndex = CreateNpc("R­¬ng vËt phÈm-cao", "Hoµng Kim b¶o r­¬ng", nMapID, ACT8_CHEST_L_Pos[nRandomTable[i]][1], ACT8_CHEST_L_Pos[nRandomTable[i]][2])
+		local nChestIndex = CreateNpc("Rî„¥ng vè—… phè´-cao", "Hoç¥…g Kim bç§“ rî„¥ng", nMapID, ACT8_CHEST_L_Pos[nRandomTable[i]][1], ACT8_CHEST_L_Pos[nRandomTable[i]][2])
 		MC_Add2Group(nChestIndex)
 	end
 end
@@ -3375,7 +3317,7 @@ function ACT8_CreateSmallChest()
 		ACT8_CHEST_StoreIndex[nZone][i] = 0
 	end
 	for i=1, 8 do
-		local nChestIndex = CreateNpc("R­¬ng vËt phÈm-trung", "R­¬ng b¹c", nMapID, ACT8_CHEST_S_Pos[nRandomTable[i]][1], ACT8_CHEST_S_Pos[nRandomTable[i]][2])
+		local nChestIndex = CreateNpc("Rî„¥ng vè—… phè´-trung", "Rî„¥ng bç­©", nMapID, ACT8_CHEST_S_Pos[nRandomTable[i]][1], ACT8_CHEST_S_Pos[nRandomTable[i]][2])
 		SetNpcLifeTime(nChestIndex, 300)
 		ACT8_CHEST_StoreIndex[nZone][i] = nChestIndex
 		MC_Add2Group(nChestIndex)
@@ -3397,45 +3339,45 @@ function viet_0909_aword(nStage)
 	local nDate = tonumber(date("%y%m%d"));
 	if nDate >= 090918 and nDate < 091026 then
 		if GetTask(GS_RECORD_CHANCE) <= 1 then return end;
-		---ÊÕ·Ñ½øÈë
+		---æ”¶è´¹è¿›å…¥
 		local szLogTitle = "[Hoat dong trung thu 2009]";
 		local nRetCode = 0;
 		local nOldPlayer = PlayerIndex;
-		if nStage == 1 then										--½øÈëµÚÒ»¹Ø¿¨
+		if nStage == 1 then										--è¿›å…¥ç¬¬ä¸€å…³å¡
 			for i = 1, GetTeamSize() do
 				PlayerIndex = GetTeamMember(i);
 				if PlayerIndex > 0 then
 					nRetCode = AddItem(2, 1, 30106, 30);			
 					if nRetCode == 1 then
-						Msg2Player("§¹i hiÖp nhËn 30 bét m×");
+						Msg2Player("å¤§ä¾ æ”¶åˆ°äº†30ä»½é¢ç²‰");
 					else
-						WriteLog("["..szLogTitle.."]: [Account: "..GetAccount().."][Role Name:"..GetName().."] thu ®­îc 30 bét m× thÊt b¹i, trë l¹i trŞ= "..nRetCode);
+						WriteLog("["..szLogTitle.."]: [Account: "..GetAccount().."][Role Name:"..GetName().."]å¾—äº†ä¸‰åä¸ªé¢ç²‰åå†æ¥æ²»ç–—= "..nRetCode);
 					end
 				end
 			end
 			PlayerIndex = nOldPlayer;
-		elseif nStage == 2 then 							--Í¨¹ØµÚÒ»¹Ø¿¨
+		elseif nStage == 2 then 							--é€šå…³ç¬¬ä¸€å…³å¡
 			for i = 1, GetTeamSize() do
 				PlayerIndex = GetTeamMember(i);
 				if PlayerIndex > 0 then
 					nRetCode = AddItem(2, 1, 30106, 30);			
 					if nRetCode == 1 then
-						Msg2Player("§¹i hiÖp nhËn 30 bét m×");
+						Msg2Player("å¤§ä¾ æ”¶åˆ°äº†30ä»½é¢ç²‰");
 					else
-						WriteLog("["..szLogTitle.."]: [Account: "..GetAccount().."][Role Name:"..GetName().."] thu ®­îc 30 bét m× thÊt b¹i, trë l¹i trŞ= "..nRetCode);
+						WriteLog("["..szLogTitle.."]: [Account: "..GetAccount().."][Role Name:"..GetName().."]å¾—äº†30ä¸ªé¢ç²‰åå†æ¥æ²»ç–—= "..nRetCode);
 					end
 				end
 			end
 			PlayerIndex = nOldPlayer;
-		elseif nStage == 5 then 							--Í¨¹ØµÚËÄ¹Ø¿¨
+		elseif nStage == 5 then 							--é€šå…³ç¬¬å››å…³å¡
 			for i = 1, GetTeamSize() do
 				PlayerIndex = GetTeamMember(i);
 				if PlayerIndex > 0 then
 					nRetCode = AddItem(2, 1, 30106, 60);			
 					if nRetCode == 1 then
-						Msg2Player("§¹i hiÖp nhËn 60 bét m×");
+						Msg2Player("å¤§ä¾ æ”¶åˆ°äº†60ä»½é¢ç²‰");
 					else
-						WriteLog("["..szLogTitle.."]: [Account: "..GetAccount().."][Role Name:"..GetName().."] Thu ®­îc 60 bét m×, tr¶ l¹i trŞ = "..nRetCode);
+						WriteLog("["..szLogTitle.."]: [Account: "..GetAccount().."][Role Name:"..GetName().."]å¾—äº†60ä¸ªé¢ç²‰åå†æ¥æ²»ç–—= "..nRetCode);
 					end
 				end
 			end
@@ -3444,9 +3386,9 @@ function viet_0909_aword(nStage)
 	end
 end
 
---09Äê8ÔÂ²Ø½£µ÷Õû½±Àø¸øÓè
+--09å¹´8æœˆè—å‰‘è°ƒæ•´å¥–åŠ±ç»™äºˆ
 function add_award_ex_0908(nStage)
-	if nStage <= 1 then--½øÈëµÚÒ»¹ØÃ»½±Àø
+	if nStage <= 1 then--è¿›å…¥ç¬¬ä¸€å…³æ²¡å¥–åŠ±
 		return 0;
 	end
 	if nStage == 8 then
@@ -3466,23 +3408,23 @@ function add_award_ex_0908(nStage)
 				local nNumVuotAi = GetTask(GS_RECORD_CHANCE)
 				if nStage == 66 then nRate = 5 end
 				if i == nRand and random(1, 100) <= nRate and GetLevel() >= 70 and (nStage == 6 or nStage == 66) then
-					AddItem(2, 1, 30115, 1);--¸ø²Ø½£Áî			
-					Msg2Player("B¹n nhËn ®­îc 1 Tµng KiÕm LÖnh");							
-					WriteLogEx("Tang Kiem", "nhËn", 1, "Tµng KiÕm LÖnh");
+					AddItem(2, 1, 30115, 1);--ç»™è—å‰‘ä»¤			
+					Msg2Player("ä½ å¾—åˆ°äº†ä¸€ä¸ªç»™è—å‰‘ä»¤");							
+					WriteLogEx("Tang Kiem", "å¾—åˆ°", 1, "è—å‰‘ä»¤");
 				end
 				--Modify by Trungbt
 				if nNumVuotAi >= 2 then
 					if nStage > 7 then
 						local nExp_more = 5000000
-						ModifyExp(nExp_more) --phÇn th­ëng 5 triÖu khi v­ît ¶i thµnh c«ng thu phİ
-						Msg2Player("B¹n nhËn ®­îc "..nExp_more.." ®iÓm kinh nghiÖm");		
+						ModifyExp(nExp_more) --phè• thî…¤ng 5 triè¬š khi vî…§t ç§ˆ thç¥…h cç­g thu ph?
+						Msg2Player("è·å¾— "..nExp_more.."ç»éªŒ");		
 						Earn(390000)
 					end
 				end
 				if nStage == 5 then
-					gf_WriteLogEx("Tang Kiem", "tham gia v­ît ¶i", 1, "Sè lÇn v­ît ¶i 4 thµnh c«ng lÇn"..nNumVuotAi.."_"..nLevel.."x")
+					gf_WriteLogEx("Tang Kiem", "tham gia vî…§t ç§ˆ", 1, "S? lè• vî…§t ç§ˆ 4 thç¥…h cç­g lè•"..nNumVuotAi.."_"..nLevel.."x")
 				elseif nStage >= 7 then
-					gf_WriteLogEx("Tang Kiem", "tham gia v­ît ¶i", 1, "Sè lÇn v­ît ¶i 7 thµnh c«ng lÇn"..nNumVuotAi.."_"..nLevel.."x")
+					gf_WriteLogEx("Tang Kiem", "tham gia vî…§t ç§ˆ", 1, "S? lè• vî…§t ç§ˆ 7 thç¥…h cç­g lè•"..nNumVuotAi.."_"..nLevel.."x")
 				end
 			
 				--
@@ -3493,13 +3435,13 @@ function add_award_ex_0908(nStage)
 							nExp = tNEW_AWARD_EX_STAGE_7_2[nLevel];
 						else
 							nExp = tNEW_AWARD_EX_STAGE_7_NEW[nLevel];	
-							Msg2Player("B¹n hoµn thµnh xong ¶i 7 lÇn miÔn phİ")						
+							Msg2Player("ä½ å¯ä»¥å…è´¹å®Œæˆä¸ƒæ¬¡")						
 						end
-						-- nhiÖm vô lµm giµu
+						-- nhiè¬’ v? lç¥„ giç¥
 						if CFG_NhiemVuLamGiau == 1 then	
 								if gf_GetTaskBit(TSK_LAMGIAU, 12) == 1 and gf_GetTaskBit(TSK_LAMGIAU, 3) == 0 then
 									gf_SetTaskBit(TSK_LAMGIAU, 3, 1, 0)
-									TaskTip("Hoµn thµnh nhiÖm vô lµm giµu: Hoµn thµnh nhiÖm vô tµng kiÕm.")
+									TaskTip("Hoç¥… thç¥…h nhiè¬’ v? lç¥„ giç¥:å®Œæˆä»»åŠ¡")
 								end
 						end
 					else
@@ -3510,51 +3452,51 @@ function add_award_ex_0908(nStage)
 						end
 					end
 					ModifyExp(nExp);
-					Msg2Player("B¹n nhËn ®­îc "..nExp.." ®iÓm kinh nghiÖm");					
-					WriteLogEx("Tang Kiem", "nhËn", nExp, "®iÓm kinh nghiÖm");
+					Msg2Player("ä½ å¾—åˆ°äº† "..nExp.."ç»éªŒ");					
+					WriteLogEx("è·å¾—", "å¥–åŠ±", nExp, "ç»éªŒ");
 				end
 			end
 		end
-		--ÆäËû½±Àø»ã×Ü
+		--å…¶ä»–å¥–åŠ±æ±‡æ€»
 		aw_cjsz_award(nStage);
 	end
 	PlayerIndex = nOldPlayer;
 end
 
--- Mua anh Hïng ThiÕp
+-- Mua anh Hé£Šg Thièª´
 function GS_ChangeAHL()
 	if gf_Judge_Room_Weight(10,20)~= 1 or GetItemCount(2,1,30230) < 20 then
-		Talk(1,"","B¹n kh«ng cã 20 xu vËt phÈm hoÆc hµnh trang b¹n kh«ng ®ñ « trèng , ®é nÆng ")
+		Talk(1,"","--æœªç¿»è¯‘--æç¤º:æ£€æŸ¥èƒŒåŒ…å¿˜å¸¦äº†ä»€ä¹ˆç‰©å“ï¼ˆ20ä¸ªï¼‰è¿˜æ˜¯èƒŒåŒ…å·²æ»¡äº†ã€‚")
 		return	
 	end
 	if DelItem(2,1,30230,20) == 1 then
-		gf_AddItemEx2({2,0,31,1}, "Tµng KiÕm Anh Hïng ThiÕp", "Tang Kiem Son Trang", "nhËn")
+		gf_AddItemEx2({2,0,31,1}, "Tç¥…g Kièª± Anh Hé£Šg Thièª´", "Tang Kiem Son Trang", "nhè–¾")
 	end
 end
 
 function get_Award7()
 	if gf_Judge_Room_Weight(5,20)~= 1 then
-		Talk(1,"","Hµnh trang b¹n kh«ng ®ñ « trèng , ®é nÆng ")
+		Talk(1,"","ä½ çš„èƒŒåŒ…ç©ºé—´ä¸å¤Ÿæˆ–é‡é‡è¶…æ ‡äº†")
 		return	
 	end
 	local nNumVuotAi = GetTask(GS_RECORD_CHANCE)
 	if nNumVuotAi == 7 then
 		Earn(1000000)
-		AddItem(2,1,30230, 10) --Xu vËt phÈm
-		AddItem(2,0,398, 2) --B¸t nh· lín
+		AddItem(2,1,30230, 10) --Xu vè—… phè´
+		AddItem(2,0,398, 2) --Bç«§ nh? léŸ“
 		AddItem(2,1,30497, 10) --Ma tinh
 		local nExp_more2 = 10000000
-		ModifyExp(nExp_more2) --phÇn th­ëng 10 triÖu khi v­ît ¶i thµnh c«ng thu phİ
-		Msg2Player("B¹n nhËn ®­îc "..nExp_more2.." ®iÓm kinh nghiÖm");		
-		gf_WriteLogEx("Tang Kiem", "nhËn th­ëng thµnh c«ng", 1, "Hoµn thµnh 7 lÇn")
-		SetTask(GS_RECORD_CHANCE, 100) --settask cho kh¸c gi¸ trŞ 7, qua ngµy tù reset
-		--=============== Chuçi nhiÖm vô Phôc Sinh 2 =============
+		ModifyExp(nExp_more2) --phè• thî…¤ng 10 triè¬š khi vî…§t ç§ˆ thç¥…h cç­g thu ph?
+		Msg2Player("è·å¾— "..nExp_more2.."ç»éªŒ");		
+		gf_WriteLogEx("Tang Kiem", "é¢†å–å¥–åŠ±æˆåŠŸ", 1, "å®Œæˆ7æ¬¡")
+		SetTask(GS_RECORD_CHANCE, 100) --settask cho khç« gi? tr? 7, qua ngç¥” t? reset
+		--=============== Chué¸ nhiè¬’ v? Phé¬° Sinh 2 =============
 		if PhucSinh2_CheckActive() == 1 and PhucSinh2_GetDailyMission() == 22 and PhucSinh2_GetMissionPart() > 0 then
 			PhucSinh2_SetMissionPart()
 		end
 		--====================================================
 	else
-		Talk(1,"","§¹i hiÖp ch­a tham gia ®ñ 7 lÇn V­ît ¶i Tµng KiÕm !!!!")
+		Talk(1,"","Ğ§i hiè¬• chç’¦ tham gia î‡ˆ 7 lè• Vî…§t ç§ˆ Tç¥…g Kièª± !!!!")
 		return
 	end
 end
