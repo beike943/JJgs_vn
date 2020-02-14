@@ -1,9 +1,9 @@
---Õ³ÌùĞÄµÃ
+--ç²˜è´´å¿ƒå¾—
 function OnUse(id)
-	local nRet = InsertAddenda(id)--Õ³Ìù¸½Â¼
+	local nRet = InsertAddenda(id)--ç²˜è´´é™„å½•
 	if nRet == -2 then
-		Msg2Player("MËt tŞch cña b¹n ®· khãa, kh«ng thÓ thªm bİ kiÕp vµo!")
+		Msg2Player("ä½ çš„å¯†ç é”ä¸Šäº†ï¼Œä¸èƒ½æ·»åŠ ç§˜å¯†ï¼")
 	elseif nRet == -3 then
-		Msg2Player("Bİ kiÕp ®· khãa! Kh«ng thÓ thªm mËt tŞch vµo!")
+		Msg2Player("é”ä¸Šäº†!ä¸èƒ½æ·»åŠ å¯†ç ã€‚")
 	end
 end
