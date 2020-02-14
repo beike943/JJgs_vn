@@ -1,13 +1,13 @@
-TASKVAL_BAIJUWAN	= 2501		-- ¸ÃÈÎÎñ±äÁ¿±£´æ°×¾ÔÍèµÄÊ£ÓàÊ±¼ä£¨·ÖÖÓ£©
-TASKVAL_BAIJUWAN1 	= 2507		-- ´ó°×¾ÔÍèµÄÊ±¼ä
-TASKVAL_BAIJUWAN2 	= 2508		-- °×¾ÔÏÉµ¤µÄÊ±¼ä
-BAIJUWAN_TIME		= 8 * 60	-- Ò»¸ö°×¾ÔÍèµÄÊ±¼äÊÇ8¸öĞ¡Ê±£¨µ¥Î»ÊÇ·ÖÖÓ£©
+TASKVAL_BAIJUWAN	= 2501		-- è¯¥ä»»åŠ¡å˜é‡ä¿å­˜ç™½é©¹ä¸¸çš„å‰©ä½™æ—¶é—´ï¼ˆåˆ†é’Ÿï¼‰
+TASKVAL_BAIJUWAN1 	= 2507		-- å¤§ç™½é©¹ä¸¸çš„æ—¶é—´
+TASKVAL_BAIJUWAN2 	= 2508		-- ç™½é©¹ä»™ä¸¹çš„æ—¶é—´
+BAIJUWAN_TIME		= 8 * 60	-- ä¸€ä¸ªç™½é©¹ä¸¸çš„æ—¶é—´æ˜¯8ä¸ªå°æ—¶ï¼ˆå•ä½æ˜¯åˆ†é’Ÿï¼‰
 
 tTab =
 {
-	{2, 1, 270, "B¹ch C©u Hoµn", 2501},
-	{2, 1, 1007, "§¹i B¹ch C©u hoµn", 2507},
-	{2, 1, 1008, "B¹ch C©u Tiªn ®¬n", 2508},
+	{2, 1, 270, "ç™½é©¹ä¸¸", 2501},
+	{2, 1, 1007, "å¤§ç™½é©¹ä¸¸", 2507},
+	{2, 1, 1008, "ç™½é©¹ä»™ä¸¹", 2508},
 }
 
 function OnUse(idx)
@@ -28,10 +28,10 @@ function OnUse(idx)
 	SetTaskTemp(25, nTabIndex)
 	local val = tTab[nTabIndex][5]
 	local UseBaiju = {
-		"Sö dông 1 "..tTab[nTabIndex][4]..". Cã thÓ nhËn ®­îc 8 giê "..tTab[nTabIndex][4]..". ñy th¸c rêi m¹ng t¨ng kinh nghiÖm.",
-		" HiÖn b¹n cßn ".. GetTask(val) .." phót "..tTab[nTabIndex][4]..". B¹n muèn sö dông"..tTab[nTabIndex][4].."?",
-		"Sö dông "..tTab[nTabIndex][4].."/UseBaiJuWan",
-		"§Ó ta nghÜ l¹i/no"
+		"ä½¿ç”¨ 1"..tTab[nTabIndex][4].."å¯è·å¾—å§”æ‰˜8å°æ—¶"..tTab[nTabIndex][4].."çš„ç¦»çº¿ç»éªŒã€‚",
+		"ä½ ç°åœ¨æœ‰".. GetTask(val) .."åˆ†é’Ÿ"..tTab[nTabIndex][4].."ä½ æƒ³ç”¨å—"..tTab[nTabIndex][4].."?",
+		"ä½¿ç”¨"..tTab[nTabIndex][4].."/UseBaiJuWan",
+		"è®©æˆ‘æƒ³æƒ³/no"
 	}
 	Say(UseBaiju[1]..UseBaiju[2],2,UseBaiju[3],UseBaiju[4])
 end
@@ -39,7 +39,7 @@ end
 function UseBaiJuWan()
 	local nTabIndex = GetTaskTemp(25)
 	local nHave = GetItemCount(tTab[nTabIndex][1], tTab[nTabIndex][2], tTab[nTabIndex][3])
-	AskClientForNumber("use_bj_cb", 1, tonumber(nHave), "Sö dông bao nhiªu"..tTab[nTabIndex][4].."?")
+	AskClientForNumber("use_bj_cb", 1, tonumber(nHave), "ä½¿ç”¨å¤šå°‘ä¸ª"..tTab[nTabIndex][4].."?")
 end
 
 function use_bj_cb(nCount)
@@ -47,7 +47,7 @@ function use_bj_cb(nCount)
 	if DelItem(tTab[nTabIndex][1], tTab[nTabIndex][2], tTab[nTabIndex][3], nCount) == 1 then
 		local value = GetTask(tTab[nTabIndex][5]) + BAIJUWAN_TIME * nCount
 		SetTask(tTab[nTabIndex][5], value)
-		Say("Thêi gian sö dông"..tTab[nTabIndex][4].."cña b¹n cßn <color=yellow>" .. value .. "<color> phót !", 0)
+		Say("ä½¿ç”¨æ—¶é—´"..tTab[nTabIndex][4].."ä½ çš„<color=yellow>" .. value .. "<color>åˆ†é’Ÿ", 0)
 		--cdkey
 		if 1 == nTabIndex then
 			SendScript2VM("\\script\\function\\cdkey\\ck_head.lua", "_ck_UseItemBaiJu()");
