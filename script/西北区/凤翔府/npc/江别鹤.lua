@@ -1,4 +1,4 @@
 function main()
 	local tDialog = {};
-	Say("<color=green>Giang BiÖt H¹c:<color>BÊt luËn c¸c h¹ lµm g×, muèn thµnh c«ng th× ph¶i khæ luyÖn.",getn(tDialog),tDialog);
+	Say("<color=green>æ±Ÿåˆ«é¹¤:<color>æ— è®ºä½ åšä»€ä¹ˆï¼Œä½ éƒ½å¿…é¡»åŠªåŠ›å·¥ä½œæ‰èƒ½æˆåŠŸã€‚",getn(tDialog),tDialog);
 end
