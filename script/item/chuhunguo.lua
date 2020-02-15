@@ -2,17 +2,17 @@ Include("\\script\\global\\mate_head.lua");
 
 tChuHunGuo = 
 {
-	[1] = {2, 1, 555,"XuÊt hån qu¶"},
-	[2] = {2, 1, 545,"§¹i xuÊt hån qu¶"},
+	[1] = {2, 1, 555,"å‡ºé­‚æœ"},
+	[2] = {2, 1, 545,"å¤§å‡ºé­‚æœ"},
 }
 
 function OnUse(item)
-	if GetFollower() ~= 0 then	--Èç¹ûÉíºóÓĞ¸úËæNPC£¬ÏÈÈ·ÈÏÉ¾³ı
+	if GetFollower() ~= 0 then	--å¦‚æœèº«åæœ‰è·ŸéšNPCï¼Œå…ˆç¡®è®¤åˆ é™¤
 		local selTab = {
-					"§ång ı/#confirm_use("..item..")",
-					"Hñy bá/nothing",
+					"åŒæ„/#confirm_use("..item..")",
+					"å–æ¶ˆ/nothing",
 					}
-		Say("Tr­íc khi dïng XuÊt Hån Qu¶,<color=red>ngoµi thi thÓ ra th× nh÷ng kÎ ®i theo sÏ bŞ biÕn mÊt<color>. QuyÕt ®Şnh dïng XuÊt Hån Qu¶ chø?",getn(selTab),selTab);
+		Say("åœ¨ä½¿ç”¨ç‰©å“ä¹‹å‰,<color=red>é™¤äº†å°¸ä½“ï¼Œè·Ÿéšçš„NPCä¹Ÿä¼šæ¶ˆå¤±ã€‚<color>ä½ ç¡®å®šä½¿ç”¨å—ï¼Ÿ",getn(selTab),selTab);
 	else
 		confirm_use(item);
 	end;
@@ -24,15 +24,15 @@ function confirm_use(item)
 	end;
 	local nType = get_type(item);
 	if nType == 0 then
-		Talk(1,"","B¹n sö dông kh«ng thuéc bÊt cø lo¹i XuÊt Hån Qu¶ nµo.");
+		Talk(1,"","ä½ ä½¿ç”¨çš„ä¸æ˜¯ä»»ä½•ä¸€ç§äº§å“");
 		return 0;
 	end;
 	KillFollower();
 	local selTab = {
-				"§ång ı/#confirm_use_final("..item..")",
-				"Hñy bá/nothing",
+				"åŒæ„/#confirm_use_final("..item..")",
+				"å–æ¶ˆ/nothing",
 				}
-	Say("    Khi phèi ngÉu kh«ng ë trªn m¹ng cã thÓ dïng <color=yellow>"..tChuHunGuo[nType][4].."<color> ®Ó tİch lòy kinh nghiÖm cho ®èi ph­¬ng, cã t¸c dông trong vßng <color=yellow>2<color> tiÕng. Trong vßng 2 tiÕng ®ã toµn bé kinh nghiÖm ®· ®­îc tİch lòy sÏ chuyÓn hãa thµnh Liªn Lı Qu¶, nÕu tÆng Liªn Lı Qu¶ cho b»ng h÷u , hä sÏ céng h­ëng kinh nghiÖm khi cïng ®¸mh qu¸i, nh­ng <color=red>nÕu b»ng h÷u cña b¹n ®¨ng nhËp trß ch¬i trong lóc b¹n dïng XuÊt Hån Qu¶, th× XuÊt Hån Qu¶ sÏ lËp tøc mÊt t¸c dông, kinh nghiÖm tİch lòy ®­îc sÏ biÕn thµnh Liªn Lı Qu¶<color>.<enter> NÕu ®¨ng nhËp l¹i cã thÓ sÏ bŞ mÊt céng h­ëng, nh­ng kh«ng lµm ¶nh h­ëng ®Õn kinh nghiÖm tİch lòy.<enter> "..tChuHunGuo[nType][4].."Trong qu¸ tr×nh ph¸t huy t¸c dông nªn chõa <color=green>1 « trèng vµ 1 ®iÓm søc lùc<color> ®Ó ®Æt Liªn Lı qu¶ vµo. B¹n muèn sö dông kh«ng?",getn(selTab),selTab);
+	Say("å½“é…å¶ä¸åœ¨çº¿æ—¶å¯ä»¥ä½¿ç”¨<color=yellow>"..tChuHunGuo[nType][4].."<color>ä¸ºå¯¹æ–¹ç§¯ç´¯ç»éªŒ,åœ¨<color=yellow>2<color>å°æ—¶å†…ç”Ÿæ•ˆ.ã€‚åœ¨è¿™ä¸¤ä¸ªå°æ—¶å†…ï¼Œæ‰€æœ‰ç§¯ç´¯çš„ç»éªŒéƒ½å°†è½¬åŒ–ä¸ºç›¸äº’å…³ç³»,å¦‚æœä½ æŠŠè¿™ä¸ªé€ç»™ä½ çš„æœ‹å‹,ä»–ä»¬ä¼šäº§ç”Ÿå…±é¸£çš„ç»éªŒ, ä½†æ˜¯<color=red>å¦‚æœä½ çš„æœ‹å‹åœ¨ä½ ä½¿ç”¨çš„æ—¶å€™ç™»å½•æ¸¸æˆ,å®ƒä¼šç«‹å³å¤±æ•ˆã€‚ç§¯ç´¯çš„ç»éªŒå°†æ˜¯ç›¸äº’å…³è”çš„ï¼Œ<color>.<enter>å¦‚æœé‡æ–°ç™»å½•ï¼Œå¯èƒ½ä¼šå¤±å»å…±æŒ¯, ä½†ä¸å½±å“ç§¯ç´¯çš„ç»éªŒã€‚<enter> "..tChuHunGuo[nType][4].."åœ¨ä½¿ç”¨è¿‡ç¨‹ä¸­<color=green>åº”è¯¥ç•™å‡ºä¸€ä¸ªç©ºä½<color>ä»¥ä¾¿å°†ç»“æœè”ç³»èµ·æ¥ï¼Œä½ ç¡®å®šè¦ä½¿ç”¨å®ƒå—ï¼Ÿ",getn(selTab),selTab);
 end;
 
 function confirm_use_final(item)
@@ -42,40 +42,40 @@ function confirm_use_final(item)
 	end;
 	local nType = get_type(item);
 	if nType == 0 then
-		Talk(1,"","B¹n sö dông kh«ng thuéc bÊt cø lo¹i XuÊt Hån Qu¶ nµo.");
+		Talk(1,"","ä½ ä½¿ç”¨çš„ä¸æ˜¯ä»»ä½•ä¸€ç§äº§å“");
 		return 0;
 	end;
 	
 	if DelItemByIndex(item, 1) == 1 then
-		-- Ê¹ÓÃÌæÉíÍŞÍŞ
-		local npc = SummonNpc("Ho¹t ®éng Ng­êi V« h×nh", mate)
-		npc = GetFollower();	--¾ÍËãÉÏÃæ´´½¨Ê§°ÜÁËÒ²¸øµ±Ç°¸úËæNPCÌí¼ÓÒ»¸öĞ§¹û
+		-- ä½¿ç”¨æ›¿èº«å¨ƒå¨ƒ
+		local npc = SummonNpc("ä½¿ç”¨æ›¿èº«å¨ƒå¨ƒ", mate)
+		npc = GetFollower();	--å°±ç®—ä¸Šé¢åˆ›å»ºå¤±è´¥äº†ä¹Ÿç»™å½“å‰è·ŸéšNPCæ·»åŠ ä¸€ä¸ªæ•ˆæœ
 		SetCurrentNpcSFX(npc, SFX_DOLL, 1, 1)
 		ActivateDoll(1)
-		-- ÉèÖÃÊ¹ÓÃÊ±¼äºÍ³ö»ê¹ûÀàĞÍ
+		-- è®¾ç½®ä½¿ç”¨æ—¶é—´å’Œå‡ºé­‚æœç±»å‹
 		SetTask(TASKVAR_DOLLTIME, DOLL_TIME + DOLL_TIME_LIMIT * nType)
-		SetTask(TASKVAR_DOLLEXP, 0);	--¾­ÑéÇå0
+		SetTask(TASKVAR_DOLLEXP, 0);	--ç»éªŒæ¸…0
 		SetTask(TASK_DOLL_ACTIVE,GetTime());
-		WriteLog("[KÕt h«n]:"..GetName().."§· sö dông mét XuÊt hån qu¶ ");
+		WriteLog("[æç¤º]:"..GetName().."ä½ ä½¿ç”¨äº†ä¸€ä¸ªå‡ºé­‚æœ");
 	end;
 end;
 
 function check_state()
 	if GetTask(TASK_LOVEGRADE) < 300 then
-		Talk(1,"","TrŞ ®ång t©m cña b¹n qu¸ thÊp, t¹m thêi kh«ng thÓ dïng XuÊt hån qu¶. Lín h¬n <color=yellow>300<color> ®iÓm míi sö dông ®­îc.");
+		Talk(1,"","ä½ çš„ä¼´ä¾£ç§¯åˆ†å¤ªä½äº†,æš‚æ—¶ä¸èƒ½é‡Šæ”¾çµé­‚æœ.è¶…è¿‡<color=yellow>300<color>ä¸ªç‚¹å°±å¯ä»¥ä½¿ç”¨äº†ã€‚");
 		return 0;
 	end;
 	local mate = GetMateName()
 	if (mate == "") then
-		Talk(1, "", "B¹n ch­a kÕt h«n kh«ng thÓ dïng XuÊt hån qu¶")
+		Talk(1, "", "ä½ è¿˜æ²¡ç»“å©šï¼Œä¸èƒ½ä½¿ç”¨å‡ºé­‚æœã€‚")
 		return 0;
 	end;
 	if (GetMateOnlineStatus() == 1) then
-		Talk(1, "", format("Phèi ngÉu <color=red>%s<color> trªn m¹ng, kh«ng thÓ dïng XuÊt hån qu¶", mate))
+		Talk(1, "", format("ä½ çš„é…å¶<color=red>%s<color>è¿˜åœ¨çº¿,ä¸èƒ½ä½¿ç”¨å‡ºé­‚æœã€‚", mate))
 		return 0;
 	end;
 	if (IsDollActive() == 1) then
-		Talk(1, "", "XuÊt hån qu¶ cña b¹n ch­a hÕt t¸c dông kh«ng thÓ tiÕp tôc sö dông")
+		Talk(1, "", "ä½ çš„é‡Šæ”¾æ•ˆæœè¿˜æ²¡æœ‰ç»“æŸï¼Œä¸èƒ½ç»§ç»­ä½¿ç”¨ã€‚")
 		return 0;
 	end;
 end;
