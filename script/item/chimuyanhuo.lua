@@ -1,7 +1,7 @@
---³àÄ»Ñæ»ğ
+--èµ¤å¹•ç„°ç«
 
 Include("\\script\\item\\yanhuo.lua");
 
 function OnUse()
-	use_yanhuo("Xİch M¹c Háa DiÖm");
+	use_yanhuo("èµ¤å¹•ç„°ç«");
 end;
