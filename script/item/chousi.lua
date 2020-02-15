@@ -1,10 +1,10 @@
---³éË¿
+--æŠ½ä¸
 
 function OnUse()
 	local n = GetWorldPos()
 	if n == 712 or n == 717 or n == 722 then
 		OpenNewGatherWindow()
 	else
-		Msg2Player("Kh«ng thÓ sö dông c«ng cô thu thËp nµy ë ®©y.")
+		Msg2Player("ä½ ä¸èƒ½åœ¨è¿™é‡Œä½¿ç”¨è¿™ä¸ªé‡‡é›†å·¥å…·")
 	end
 end
