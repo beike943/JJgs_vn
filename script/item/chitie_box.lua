@@ -3,7 +3,7 @@ function OnUse(nItemIdx)
 	if gf_JudgeRoomWeight(2,30,"") == 1 then
 		if DelItemByIndex(nItemIdx,1) == 1 then
 			AddItem(2,1,2652,20,5);
-			Msg2Player("B¹n nhËn ®­îc 20 Xİch ThiÕt Tinh");
+			Msg2Player("ä½ è·å¾—20ä¸ªèµ¤é“ç²¾");
 		end;
 	end;
 end;
