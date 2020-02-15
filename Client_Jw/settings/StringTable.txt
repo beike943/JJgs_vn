@@ -1,0 +1,2746 @@
+enum_core	string		
+LOC_G_MAN_STD	STR_G_MAN_STD		
+LOC_G_MAN_STRONG	STR_G_MAN_STRONG		
+LOC_G_WOMAN_SEXY	STR_G_WOMAN_SEXY		
+LOC_G_WOMAN_AMORETTO	STR_G_WOMAN_AMORETTO		
+LOC_G_THIEFSKILL_0	%s 从你身上偷到%d两银子捐给前线!		
+LOC_G_THIEFSKILL_1	你成功的从%s 那里偷到%d两银子捐给前线!		
+LOC_G_THIEFSKILL_2	被偷成功 		
+LOC_G_THIEFSKILL_3	偷窃成功 		
+LOC_G_THIEFSKILL_4	"%s 试图偷你的钱,但未成功!"		
+LOC_G_THIEFSKILL_5	你偷%s 失败!		
+LOC_G_THIEFSKILL_6	被偷未遂		
+LOC_G_THIEFSKILL_7	偷窃未遂		
+LOC_G_THIEFSKILL_8	%s 当前生命值情况: %d / %d 		
+LOC_G_THIEFSKILL_9	对方情报		
+LOC_G_THIEFSKILL_10	%s 当前内力值情况: %d / %d 		
+LOC_G_THIEFSKILL_11	%s 当前现金情况: %d 两 		
+LOC_G_FACTION_0	少林派		
+LOC_G_WEIGHT_OUTOF	你的负重已经到极限了。		
+LOC_G_CITYWARDATA_0	<最新一轮擂台对阵>\n		
+LOC_G_CITYWARDATA_1	 决赛双方: 		
+LOC_G_CITYWARDATA_2	 半决赛对阵: 		
+LOC_G_CITYWARDATA_3	 第 %u 轮对阵: 		
+LOC_G_CITYWARDATA_4	%s 对 %s		
+LOC_G_CITYWARDATA_5	%s 胜 %s		
+LOC_G_CITYWARDATA_6	<< %s 城区 >>\n		
+LOC_G_CITYWARDATA_7	、		
+LOC_G_CITYWARDATA_8	比赛尚未进行....		
+LOC_G_CITYWARDATA_9	<挑战 %s 城区 - 擂台大战>\n  		
+LOC_G_CITYWARDATA_10	  目前是和平时期\n		
+LOC_G_CITYWARDATA_11	  城区擂台赛正在报名\n		
+LOC_G_CITYWARDATA_12	  城区擂台赛程已公布\n		
+LOC_G_CITYWARDATA_13	  城区擂台赛正在进行\n		
+LOC_G_CITYWARDATA_14	"  已经决出挑战者帮会 %s, 城市攻防战一触即发\n"		
+LOC_G_CITYWARDATA_15	  攻城战已经开始\n		
+LOC_G_CITYWARDATA_16	  混沌时期\n		
+LOC_G_CITYWARDATA_17	"  本城区太守为 %s, 统领帮会 %s\n"		
+LOC_G_CITYWARDATA_18	"  交易税率设定为 %u, 物价指数为 %u\n"		
+LOC_G_CITYWARDATA_19	  新税率尚未发布\n		
+LOC_G_CITYWARDATA_20	  占领时间: %ld 天\n		
+LOC_G_CITYWARDATA_21	  占领时间: ？\n		
+LOC_G_CITYWARDATA_22	  本城仍没有太守\n		
+LOC_G_S_GOLD	金系		
+LOC_G_S_WOOD	木系		
+LOC_G_S_WATER	水系		
+LOC_G_S_FIRE	火系		
+LOC_G_S_EARTH	土系		
+LOC_G_S_NONE	无系		
+LOC_G_LUCKSTAR	AddGlobalNews([[恭喜！恭喜！玩家:%s 成为本日的幸运之星!]]);		
+LOC_G_MASKED_MAN1	无名氏		
+LOC_G_MASKED_MAN2	神秘人		
+LOC_G_MASKED_MAN3	黑衣侠		
+LOC_G_MASKED_MAN4	江湖客		
+LOC_G_FACTION_NEW	初入江湖		
+LOC_G_FACTION_OLD	江湖游侠		
+LOC_G_PLAYERTONG_0	擂台赛期间帮会踢人操作被锁定！		
+LOC_G_PLAYERTONG_1	攻城战期间帮会踢人操作被锁定！		
+LOC_G_PLAYERTONG_2	帮会传位操作被锁定！		
+LOC_G_PLAYERTONG_3	您被踢出帮会！		
+LOC_G_PLAYERTONG_4	您在帮会中的职位发生了变化！		
+LOC_G_PLAYERTONG_5	帮会联盟中，不能修改阵营！		
+LOC_G_PLAYERTONG_6	每次最多只能存 %d 万两！		
+LOC_G_PLAYERTONG_7	每次最多只能取 %d 万两！		
+LOC_G_PLAYERTONG_8	取太多钱了，放不下！		
+LOC_G_PLAYERTONG_9	帮会操作被锁定，不能创建联盟！		
+LOC_G_PLAYERTONG_10	盟主		
+LOC_G_PLAYERTONG_11	帮主才能申请加入帮会联盟！		
+LOC_G_PLAYERTONG_12	帮会联盟成员不能加入别的帮会联盟！		
+LOC_G_PLAYERTONG_13	您向 %s 申请加入帮会联盟！		
+LOC_G_PLAYERTONG_14	帮会发钱数量错误！		
+LOC_G_PLAYERTONG_15	每人每次最多只能发 1 亿！		
+LOC_G_PLAYERTONG_16	帮主才能发钱！		
+LOC_G_NPC_0	男主角		
+LOC_G_NPC_1	女主角		
+LOC_G_NPC_2	冰		
+LOC_G_NPC_3	毒		
+LOC_G_NPC_4	乱		
+LOC_G_NPC_5	晕		
+LOC_G_TEAM_1	队伍		
+LOC_G_PLAYER_0	WriteLog([[PlayerIndex Error:%s:%s]])		
+LOC_G_PLAYER_1	您的%s技能无法使用技能点升级。		
+LOC_G_PLAYER_2	技能升级消息		
+LOC_G_PLAYER_3	您的%s技能等级已经达到极限，不能再升级了。		
+LOC_G_PLAYER_4	您的战斗技能必须达到%d级才能升级%s技能。		
+LOC_G_PLAYER_5	金元宝转为点数成功!		
+LOC_G_PLAYER_6	金元宝将在下次停机维护时转为点数!		
+LOC_G_PLAYER_7	金元宝转为包月成功!		
+LOC_G_PLAYER_8	金元宝将在下次停机维护时转为包月!		
+LOC_G_PLAYER_9	银元宝转为点数成功!		
+LOC_G_PLAYER_10	银元宝将在下次停机维护时转为点数		
+LOC_G_PLAYER_11	银元宝转为包周成功!		
+LOC_G_PLAYER_12	银元宝将在下次停机维护时转为包周!		
+LOC_G_PLAYER_13	系统消息		
+LOC_G_PLAYER_14	继续		
+LOC_G_PLAYER_15	完成		
+LOC_G_PLAYER_16	恭喜您！得了%d子对，赢得奖励%d两！		
+LOC_G_PLAYER_17	恭喜您！得了%d子刻，恭喜你，赢得大奖，并获得部分积累彩金，共计%d两！		
+LOC_G_PLAYER_18	恭喜您！得了%d %d %d 的顺子，赢得奖励%d两!		
+LOC_G_PLAYER_19	恭喜你，你获得了奖励!		
+LOC_G_PLAYERSET_0	我<color=green>%s<color=restore>来也，你等快来朝拜。		
+LOC_G_PLAYERSET_1	<color=green>%s<color=restore>脚踏凌波微步，飘然而至。		
+LOC_G_PLAYERSET_2	一道闪光，<color=green>%s<color=restore>从天而降。		
+LOC_G_PLAYERSET_3	吴府管家		
+LOC_G_PlayerStall_0	买东西		
+LOC_G_PlayerStall_2	以后再来		
+LOC_G_ITEM_0	<color=White>临时物品：		
+LOC_G_ITEM_1	等级:		
+LOC_G_ITEM_2	铜钱		
+LOC_G_ITEM_3	<color=White>五行属性：<color=Metal>金		
+LOC_G_ITEM_4	<color=White>五行属性：<color=Wood>木		
+LOC_G_ITEM_5	<color=White>五行属性：<color=Water>水		
+LOC_G_ITEM_6	<color=White>五行属性：<color=Fire>火		
+LOC_G_ITEM_7	<color=White>五行属性：<color=Earth>土		
+LOC_G_ITEM_8	<color=Yellow>永不磨损<color>		
+LOC_G_ITEM_9	耐久:		
+LOC_G_ITEM_10	帽子		
+LOC_G_ITEM_11	衣服		
+LOC_G_ITEM_12	腰带		
+LOC_G_ITEM_13	武器		
+LOC_G_ITEM_14	鞋子		
+LOC_G_ITEM_15	护腕		
+LOC_G_ITEM_16	项链		
+LOC_G_ITEM_17	右手戒指（上）		
+LOC_G_ITEM_18	左手戒指（下）		
+LOC_G_ITEM_19	腰坠		
+LOC_G_ITEM_20	坐骑		
+LOC_G_ITEM_21	需%s的%s和%s激活暗属性		
+LOC_G_ITEM_22	外攻:		
+LOC_G_ITEM_23	内攻:		
+LOC_G_ITEM_24	未鉴定		
+LOC_G_ITEM_25	外防:		
+LOC_G_ITEM_26	内防:		
+LOC_G_ITEM_27	需要等级:		
+LOC_G_ITEM_28	%s仅%s穿戴%s		
+LOC_G_ITEM_29	价格:		
+LOC_G_ITEM_30	重量:		
+LOC_G_ITEM_31	用途:		
+LOC_G_ITEM_32	五行:		
+LOC_G_ITEM_33	锋利:		
+LOC_G_ITEM_34	药效时间:		
+LOC_G_ITEM_35	秒		
+LOC_G_ITEM_36	卦位:		
+LOC_G_ITEM_37	类型:		
+LOC_G_ITEM_41	爻石的级数不能比装备级数高		
+LOC_G_ITEM_57	爻石的级数不能比装备级数低		
+LOC_G_ITEM_58	这个爻石不能镶嵌在这种装备上		
+LOC_G_ITEM_42	武功心法<color=Gold>%s<color>领悟<color=HBlue>%d<color>成.\n		
+LOC_G_ITEM_43	修为:		
+LOC_G_ITEM_44	附录页:		
+LOC_G_ITEM_45	主动外功攻击系加成		
+LOC_G_ITEM_46	主动内功攻击系加成		
+LOC_G_ITEM_47	攻击性辅助功法加成		
+LOC_G_ITEM_48	防御性辅助功法加成		
+LOC_G_ITEM_49	只能镶嵌在		
+LOC_G_ITEM_50	不能镶嵌在		
+LOC_G_ITEM_51	禁用\n		
+LOC_G_ITEM_52	一些		
+LOC_G_ITEM_53	修理价格:		
+LOC_G_ITEM_54	鉴定价格:		
+LOC_G_ITEM_55	装束		
+LOC_G_ITEM_56	不能卖店		
+LOC_G_ITEM_59	%s[%d级]\n		
+LOC_G_ITEM_60	鉴定等级不够。		
+LOC_G_ITEM_61	标价:		
+LOC_G_ITEM_62	不能交易		
+LOC_G_ITEM_63	秘笈上已有同样附录，不能再粘贴！		
+LOC_G_ITEM_64	系列装备：		
+LOC_G_ITEM_65	专用		
+LOC_G_ITEM_66	物品被冻结		
+LOC_G_ITEM_67	请使用右键点击进行骑乘操作。		
+LOC_G_ITEM_68	疲劳度:		
+LOC_G_ITEM_69	寿命:		
+LOC_G_ITEM_70	饥饿度:		
+LOC_G_ITEM_71	毒系:		
+LOC_G_ITEM_72	血系:		
+LOC_G_ITEM_73	灵系:		
+LOC_G_ITEM_74	魔系:		
+LOC_G_ITEM_75	师门贡献度:		
+LOC_G_ITEM_76	此物品不能在PK状态下使用。		
+LOC_G_ITEM_77	使用间隔:		
+LOC_G_ITEM_78	灵气:		
+LOC_G_ITEM_79	经验:		
+LOC_G_ITEM_80	生活技能:		
+LOC_G_ITEM_81	镶嵌孔数:		
+LOC_G_ITEM_82	阴		
+LOC_G_ITEM_83	阳		
+LOC_G_ITEM_84	%-2d-%-2d %5d%%\n		
+LOC_G_ITEM_85	此物品被禁用中		
+LOC_G_ITEM_86	PK模式:		
+LOC_G_ITEM_87	和平模式:		
+LOC_G_ITEM_88	此物品不能在和平状态下使用。		
+LOC_G_ITEM_89	有效期到%d-%d-%d %d时		
+LOC_G_ITEM_90	"定魂陨铁神石效果:+7以上强化时,失败只回归到+7"		
+LOC_G_ITEM_91	未激活		
+LOC_G_ITEM_92	第%s条属性提取成功。		
+LOC_G_ITEM_93	第%s条属性提取失败。		
+LOC_G_ITEM_94	这条属性提取后，将会得到属性：		
+LOC_G_ITEM_95	可能的位置：		
+LOC_G_ITEM_96	可以抽取出灵石\n		
+LOC_G_ITEM_97	不可抽取出灵石\n		
+LOC_G_ITEM_98	归属:		
+LOC_G_ITEM_99	此物品不能拆分		
+LOC_G_ITEM_101	不能丢弃		
+LOC_G_ITEM_102	可以卖店		
+LOC_G_ITEM_103	可以交易		
+LOC_G_ITEM_104	可以丢弃		
+LOC_G_ITEM_105	五行抗性:		
+LOC_G_ITEM_106	品质:		
+LOC_G_ITEM_107	强化点数:		
+LOC_G_WEAPON_EFFECT_0	灵魄名称:%s		
+LOC_G_WEAPON_EFFECT_1	灵魄等级:%d		
+LOC_G_WEAPON_EFFECT_2	唤灵已结束		
+LOC_G_WEAPON_EFFECT_3	唤灵条件:%s		
+LOC_G_WEAPON_EFFECT_4	灵能爆发:		
+LOC_G_WEAPON_EFFECT_5	唤灵技能:%s		
+LOC_G_WEAPON_EFFECT_6	灵魄时效:%d-%d-%d		
+LOC_G_WEAPON_EFFECT_7	当前状态下不能唤灵		
+LOC_G_WEAPON_EFFECT_8	您还需要%d秒才能唤灵		
+LOC_G_WEAPON_EFFECT_9	使用武功技能时不能唤灵		
+LOC_G_WEAPON_EFFECT_10	回城或上马时不能唤灵		
+LOC_G_WEAPON_EFFECT_11	你正在和其他玩家进行交互，不能唤灵		
+LOC_G_WEAPON_EFFECT_12	死亡或重生时不能唤灵		
+LOC_G_WEAPON_EFFECT_13	"后仰,击退或击倒时不能唤灵"		
+LOC_G_WEAPON_EFFECT_14	轻功过程中不能唤灵		
+LOC_G_WEAPON_EFFECT_15	残影状态下不能唤灵		
+LOC_G_WEAPON_EFFECT_16	迷惑或隐身状态下不能唤灵		
+LOC_G_WEAPON_EFFECT_17	"眩晕,睡眠或乱的状态下不能唤灵"		
+LOC_G_WEAPON_EFFECT_18	摆摊时不能唤灵		
+LOC_G_WEAPON_EFFECT_19	杨门只能在骑马时唤灵		
+LOC_G_WEAPON_EFFECT_20	您在骑马时不能唤灵		
+LOC_G_WEAPON_EFFECT_21	%s的灵魄已经被移除		
+LOC_G_LIFE_SKILL_0_1	伐木		
+LOC_G_LIFE_SKILL_0_2	制皮		
+LOC_G_LIFE_SKILL_0_3	收耕		
+LOC_G_LIFE_SKILL_0_4	采药		
+LOC_G_LIFE_SKILL_0_5	挖矿		
+LOC_G_LIFE_SKILL_0_6	抽丝		
+LOC_G_LIFE_SKILL_0_7	集灵		
+LOC_G_LIFE_SKILL_1_1	家传技艺		
+LOC_G_LIFE_SKILL_1_2	长兵器锻造		
+LOC_G_LIFE_SKILL_1_3	短兵器锻造		
+LOC_G_LIFE_SKILL_1_4	奇门兵器锻造		
+LOC_G_LIFE_SKILL_1_5	护甲织造		
+LOC_G_LIFE_SKILL_1_6	制药		
+LOC_G_LIFE_SKILL_1_7	烹饪		
+LOC_G_LIFE_SKILL_1_8	制符		
+LOC_G_LIFE_SKILL_1_9	下装织造		
+LOC_G_LIFE_SKILL_1_10	头冠织造		
+LOC_G_STALL_ITEM_CANNOT_DROP	此物品不能放入摆摊栏！		
+LOC_G_STORE_ITEM_CANNOT_DROP	此物品不能放入商店中！		
+LOC_G_ENHANCE_ITEM_1	强化度\t%d\n		
+LOC_G_ENHANCE_ITEM_2	%s%s\n		
+LOC_G_ENHANCE_ITEM_3	成功率\t%d\n		
+LOC_G_ENHANCE_ITEM_6	外攻+%d%% 内攻+%d%%\n		
+LOC_G_ENHANCE_ITEM_7	外防+%d 内防+%d\n		
+LOC_G_ENHANCE_ITEM_8	不可能失败\n		
+LOC_G_ENHANCE_ITEM_9	所有强化效果将清除\n		
+LOC_G_ENHANCE_ITEM_10	装备消失\n		
+LOC_G_ENHANCE_ITEM_11	不会失败\n		
+LOC_G_ENHANCE_ITEM_12	镶嵌成功了。\n		
+LOC_G_ENHANCE_ITEM_13	镶嵌成功了，灵气充盈。\n		
+LOC_G_ENHANCE_ITEM_14	镶嵌成功了，灵气充盈，突飞猛进。\n		
+LOC_G_ENHANCE_ITEM_15	"+7以上强化时,失败只回归到+7"		
+LOC_G_TONG_CREATE_ERROR1	您已经是帮会成员了！		
+LOC_G_TONG_CREATE_ERROR2	您还没有达到建立帮会的等级！		
+LOC_G_TONG_CREATE_ERROR3	您的声望还不足以建立帮会！		
+LOC_G_TONG_CREATE_ERROR4	您缺少建立帮会所必须的金钱！		
+LOC_G_TONG_CREATE_ERROR5	您缺少建立帮会的信物！		
+LOC_G_TONG_CREATE_ERROR6	您现在还不能够建立帮会！		
+LOC_G_TONG_FAIL_NOTIFY_TONG_NAME_ERR	您要建立的帮会名字不合法！		
+LOC_G_TONG_FAIL_NOTIFY_TITLE_ERR	您设置的职务名称不合法！		
+LOC_G_TONG_FAIL_NOTIFY_TONG_NAME_EXIST	您要建立的帮会名字已经存在！		
+LOC_G_TONG_FAIL_NOTIFY_TONG_NUM_LIMIT	当前帮会数量过多，暂时不能建立帮会！		
+LOC_G_TONG_FAIL_NOTIFY_TONG_DESTROYED	您的帮会已经解散了！		
+LOC_G_TONG_FAIL_NOTIFY_TONG_NOT_EXIST	您要加入的帮会当前不存在！		
+LOC_G_TONG_FAIL_NOTIFY_MEMBER_NUM_LIMIT	您要加入的帮会人数已经达到上限了！		
+LOC_G_TONG_FAIL_NOTIFY_ALREADY_MEMBER	您已经是帮会成员了！		
+LOC_G_TONG_FAIL_NOTIFY_CANNOT_JOIN_NOW	您当前不能加入帮会！		
+LOC_G_TONG_NOTIFY_NEED_REFRESH	当前帮会结构已经更新，请重新操作！		
+LOC_G_TONG_FAIL_NOTIFY_DEL_NOT_EXIST	您要删除的成员已经不在帮会中了！		
+LOC_G_TONG_FAIL_NOTIFY_DEL_RANK_LIMIT	您没有权限删除这个成员！		
+LOC_G_TONG_DEFAULT_KING_TITLE	帮主		
+LOC_G_TONG_NOTIFY_CREATED	恭喜您建立了自己的帮会！		
+LOC_G_TONG_NOTIFY_NEED_BLOOD_FELLOW	请您在24小时内使帮会成员达到10人，否则帮会将自动解散！		
+LOC_G_TONG_JUST_JOIN_OTHERS_TONG	恭喜您加入了帮会！		
+LOC_G_TONG_ADD_OTHERS_IN	您刚刚将玩家 %s 加入了本帮会！		
+LOC_G_TONG_KICK_OTHERS_OUT	您刚刚将玩家 %s 开除出了本帮会！		
+LOC_G_TONG_BEEN_KICKED_OUT	您刚刚被开除出了帮会！		
+LOC_G_TONG_APPOINT_NEW_JOB_TO_ONE	您刚刚给玩家 %s 任命了一个新职位！		
+LOC_G_TONG_APPOINT_NEW_JOB_TO_TWO	您刚刚将帮会中两个玩家的职位进行了交换！		
+LOC_G_TONG_LEAVE_TONG_SELF	您已经决定脱离了自己的帮会！		
+LOC_G_TONG_MASTER_DEMISE	您已经将帮主之位传与他人，退隐江湖了！		
+LOC_G_TONG_MASTER_DEMISE_NOTIFY	您的帮会已经更换了新的帮主！		
+LOC_G_TONG_DUTY_BEEN_UP	您的帮会职务被提升了！		
+LOC_G_TONG_DUTY_BEEN_DOWN	您的帮会职务被降低了！		
+LOC_G_TONG_DUTY_BEEN_EXCHANGE	您的帮会职务被调动了！		
+LOC_G_TONG_SLOGAN_MODIFYED	帮会口号已经被更新了！		
+LOC_G_TONG_MESSAGE_MODIFYED	帮会留言已经被更新了！		
+LOC_G_TONG_DISAGREE_ADD_TONG	%s 拒绝了你加入帮会[%s]的请求！		
+LOC_G_TONG_SET_UP_NORMALLY	您的帮会已经达到正式成立的人数，当前级别为1级帮会！		
+LOC_G_TONG_LEVEL_UP	您的帮会等级上升到了 %d 级！		
+LOC_G_TONG_TITLE_MODIFY	您已经成功修改了帮会成员的称号！		
+LOC_G_TONG_NOIFY_TITLE_MODIFIED	您的称号刚刚被修改了！		
+LOC_G_TONG_POPULATION_UP	您的帮会人气上升了！		
+LOC_G_TONG_POPULATION_DOWN	您的帮会人气下降了！		
+LOC_G_TONG_POPU_RANK_UP	您的帮会人气排名上升了！		
+LOC_G_TONG_POPU_RANK_DOWN	您的帮会人气排名下降了！		
+LOC_G_TONG_NOTIFY_MEMBER_LOGIN	帮会成员 %s 上线了！		
+LOC_G_TONG_NOTIFY_MEMBER_LOGOUT	帮会成员 %s 下线了！		
+LOC_G_NO_POINT_PROMPT	您的储值使用时间只剩下十分钟，请您尽快进行充值，否则将无法游戏！		
+LOC_G_ZF_ONE_HOUR_REMIND	您累计在线时间已满一小时。		
+LOC_G_ZF_THREE_HOUR_REMIND	您累计在线时间已满三小时，请您下线休息，做适当身体活动。		
+LOC_G_ZF_TIRED_RESULT1	您已经进入疲劳游戏时间。		
+LOC_G_ZF_TIRED_RESULT2	你的游戏收益降为正常值的一半，且部分游戏功能将受到限制。		
+LOC_G_ZF_TIRED_REMIND1	为了您的健康，请尽快下线休息。		
+LOC_G_ZF_TIRED_REMIND2	做适当身体活动，合理安排学习生活。		
+LOC_G_ZF_FORBID_RESULT1	您已进入不健康游戏时间。		
+LOC_G_ZF_FORBID_RESULT2	为了您的健康，请您立即下线休息。		
+LOC_G_ZF_FORBID_REMIND1	您的收益已降为零，且绝大部分游戏功能已受限制。		
+LOC_G_ZF_FORBID_REMIND2	直到您的累计下线时间满5小时后，才能恢复正常。		
+LOC_G_ZF_ITEM_HALF	因为您的在线时间超过3小时，获得的物品数量可能已经减半了。		
+LOC_G_ZF_ITEM_NONE	因为您的在线时间超过3小时，可能已经无法获得物品了。		
+LOC_G_ZF_CANNOT_OFFLINE_LIVE	您的在线时间超过3小时，无法进行离线托管操作。		
+LOC_G_ItemList_0	无法在这里使用土地符！		
+LOC_G_ItemList_1	储物箱处于锁定状态，不能取钱！		
+LOC_G_ItemList_2	储物箱锁定中，不能调整装备！		
+LOC_G_ItemList_3	储物箱锁定中！		
+LOC_G_ItemList_4	密码设定成功！		
+LOC_G_ItemList_5	密码设定失败：密码已设定！		
+LOC_G_ItemList_6	密码取消成功！		
+LOC_G_ItemList_7	密码取消失败：未曾设定密码！		
+LOC_G_ItemList_8	密码取消失败：密码验证失败！		
+LOC_G_ItemList_9	密码修改成功！		
+LOC_G_ItemList_10	密码修改失败：未曾设定密码，无法修改！		
+LOC_G_ItemList_11	密码修改失败：密码验证失败！		
+LOC_G_ItemList_12	锁定成功！		
+LOC_G_ItemList_13	锁定失败：未曾设定密码！		
+LOC_G_ItemList_14	解锁成功！		
+LOC_G_ItemList_15	解锁失败：未曾设定密码！		
+LOC_G_ItemList_16	解锁失败：密码验证失败！		
+LOC_G_ItemList_17	还没有能力使用储物箱锁定功能！		
+LOC_G_ItemList_18	强制解锁成功！		
+LOC_G_ItemList_19	强制解锁失败：未曾设定密码！		
+LOC_G_ItemList_20	强制解锁失败：金钱不足！		
+LOC_G_ItemList_21	锁定失败：未曾选中需要锁定的箱子！		
+LOC_G_ItemList_22	锁定失败：密码验证失败！		
+LOC_G_ItemList_23	密码修改失败：金钱不足，无法修改！		
+LOC_G_ItemList_24	密码取消失败：金钱不足，无法修改！		
+LOC_G_ItemList_25	锁定失败：金钱不足，无法修改！		
+LOC_G_ItemList_26	您放入储物箱的金钱超过了金钱存储上限！		
+LOC_G_ItemList_27	"您背包中的金钱已达到上限,不能再放入分文！"		
+LOC_G_ItemList_28	恶贯满盈之人禁止进入城镇！		
+LOC_G_ItemList_29	密码设定失败：金钱不足		
+LOC_G_ItemList_30	您申请解锁储物箱，7天后会进行解锁操作。		
+LOC_G_ItemList_31	您取消了解锁储物箱的申请。		
+LOC_G_ItemList_32	储物箱锁定中，无法进行当前操作！请解锁后再试！		
+LOC_G_SkillList_0	您的%s技能熟练级别提升了！		
+LOC_G_SkillList_1	您当前装备的武器不适合您想使用的武功！		
+LOC_G_SkillList_2	您使用这项武功时不能骑马！		
+LOC_G_SkillList_3	您使用这项武功时必须骑乘专门的战马！		
+LOC_G_SkillList_4	佣兵数量已达到上限，还能再雇佣了！		
+LOC_G_SkillList_5	必须选定技能施放的目标！		
+LOC_G_SkillList_6	不能对%s使用该武功！		
+LOC_G_SkillList_7	当前内力不够！		
+LOC_G_SkillList_8	当前生命不够！		
+LOC_G_SkillList_9	身上的%s不够！		
+LOC_G_SkillList_10	当前聚气值不够！		
+LOC_G_SkillList_11	不能对%s施放该技能！		
+LOC_G_SkillList_12	您不能空手使用该武功！		
+LOC_G_SkillList_13	施放的陷阱超过同时施放上限数量%d		
+LOC_G_SkillList_14	"此招阴险毒辣,只适宜背后攻击！"		
+LOC_G_SkillList_15	"此功尚欠火候,不足以止琴断曲！"		
+LOC_G_SkillList_16	"您身上带的东西过多,无法使用武功！"		
+LOC_G_SkillList_17	本武功不能在此地使用！		
+LOC_G_SkillList_18	请先发动:%s		
+LOC_G_SkillList_19	"已过连招允许时间,无法使用该武功！"		
+LOC_G_SkillList_20	"正在发功中,无法使用该武功！"		
+LOC_G_SkillList_21	在攻击范围之外		
+LOC_G_SkillList_22	尚未装备暗器		
+LOC_G_SkillList_23	攻击方向不对		
+LOC_G_SkillList_24	当前状态下不能使用任何武功！		
+LOC_G_SkillList_25	只能对%s使用该武功！		
+LOC_G_SkillList_26	只能在站立时施放！		
+LOC_G_SkillList_27	尚未装备箭矢		
+LOC_G_SkillList_28	尚未装备蛊母		
+LOC_G_SkillList_29	不能对目标使用该武功！		
+LOC_G_SkillList_30	无效尸体目标！		
+LOC_G_SkillList_31	当前体力不够！		
+LOC_G_SkillList_32	无法接近目标点！		
+LOC_G_SkillList_33	锁定物品无法喂养		
+LOC_G_SkillList_34	"当前装备武器已损坏,无法使用该武功!"		
+LOC_G_SkillList_35	无效复活目标！		
+LOC_G_SkillList_36	"此功尚欠火候,不足以续琴复曲！"		
+LOC_G_SkillList_37	非战斗状态下不能施放光环武功		
+LOC_G_SkillList_38	"同心值不足%d,无法使用该武功！"		
+LOC_G_SkillList_39	"目标超出有效范围,无法使用该武功！"		
+LOC_G_SkillList_40	当前杀气值不够！		
+LOC_G_SkillList_41	你需要处于相应的天气状态才可以使用该武功！		
+LOC_G_SkillList_42	"此功尚欠火候,不足以中止舞蹈！"		
+LOC_G_SkillList_43	"此功尚欠火候,不足以续复舞步！"		
+LOC_G_SkillList_44	你需要处于相应的舞蹈状态才可以使用该武功！		
+LOC_G_SkillList_45	尚未装备灵狐		
+LOC_G_SkillList_46	你的灵狐离你太远了，不能接收到你的指令		
+LOC_G_SkillList_47	这不是你的灵狐，无法喂养		
+LOC_G_WAR_HORSE_DESC	杨门战马		
+LOC_G_PROGRESS_DESC_1	聚气		
+LOC_G_PROGRESS_DESC_2	研读		
+LOC_G_PROGRESS_DESC_3	强化		
+LOC_G_PROGRESS_DESC_4	采集		
+LOC_G_PROGRESS_DESC_5	传送		
+LOC_G_PROGRESS_DESC_6	坐骑		
+LOC_G_PROGRESS_DESC_7	进度		
+LOC_G_PROGRESS_DESC_8	修炼		
+LOC_G_PROGRESS_DESC_9	怒气		
+LOC_G_PROGRESS_DESC_10	杀意		
+LOC_G_STATE_DESC_1	(晕)		
+LOC_G_STATE_DESC_2	(乱)		
+LOC_G_STATE_DESC_3	(睡)		
+LOC_G_STATE_DESC_4	(痹)		
+LOC_G_STATE_DESC_5	(定)		
+LOC_G_STATE_DESC_6	(毒)		
+LOC_G_STATE_DESC_7	(慢)		
+LOC_G_STATE_DESC_8	(缓)		
+LOC_G_STATE_DESC_9	(血)		
+LOC_G_STATE_DESC_10	(惑)		
+LOC_G_STATE_DESC_11	(封)		
+LOC_G_STATE_DESC_12	(禁)		
+LOC_G_STATE_DESC_13	(狂)		
+LOC_G_NPC_KIND_1	(尸)		
+LOC_G_NPC_RIDE_1	骑马中不能使用轻功！		
+LOC_G_NPC_RIDE_2	"骑马中不能打坐,请先下马！"		
+LOC_G_NPC_RIDE_3	"您太累了,刚上马不能下马,请稍息片刻！"		
+LOC_G_NPC_RIDE_4	"您太累了,刚下马不能上马,请稍息片刻！"		
+LOC_G_NPC_SIT_1	打坐中无法上马！		
+LOC_G_NPC_JUMP_1	您不能到达该点！		
+LOC_G_NPC_GATHER_1	您当前所在的地方不适合采集！		
+LOC_G_NPC_GATHER_2	您缺少%s必备的工具！		
+LOC_G_NPC_GATHER_3	"您不能在马上采集,请先下马！"		
+LOC_G_NPC_GATHER_4	"您身上带的物品太多,已无法继续劳动！"		
+LOC_G_NPC_GATHER_5	您当前所在的地图无法进行%s！		
+LOC_G_NPC_GATHER_6	您的%s技能等级不够！		
+LOC_G_NPC_GATHER_7	您采集到一件物品！		
+LOC_G_NPC_GATHER_8	您这次没采集到物品！		
+LOC_G_NPC_GATHER_9	请使用神农丹进行采集！		
+LOC_G_HOME_COMING_1	您当前状态下不能使用传送符！		
+LOC_G_HOME_COMING_2	您已经正在使用土地符中！		
+LOC_G_PLAYER_INTERACTIVE_1	互动中不能使用武功！		
+LOC_G_PLAYER_INTERACTIVE_2	互动中不能上下马！		
+LOC_G_PLAYER_INTERACTIVE_3	互动中不能施放！		
+LOC_G_NPC_SIT_2	"您身上带的东西过多,影响打坐时的生命和内力回复！"		
+LOC_G_LifeSkillList_1	"恭贺大侠您的%s技艺又精进一步,更加炉火纯青了!"		
+LOC_G_LifeSkillList_2	您现在可以制作%s了!		
+LOC_G_Skills_0	子弹技\n		
+LOC_G_Skills_1	墙形 数量%d\n		
+LOC_G_Skills_2	线形 数量%d\n		
+LOC_G_Skills_3	散形 数量%d\n		
+LOC_G_Skills_4	圆形发散 数量%d\n		
+LOC_G_Skills_5	圆形区域 数量%d\n		
+LOC_G_Skills_6	方形区域 数量%d\n		
+LOC_G_Skills_7	定点圆形区域 数量%d\n		
+LOC_G_Skills_8	定点方形区域 数量%d\n		
+LOC_G_Skills_11	格斗技\n		
+LOC_G_Skills_12	主动辅助武功\n		
+LOC_G_Skills_13	状态持续时间:%d\n		
+LOC_G_Skills_14	被动辅助武功\n		
+LOC_G_Skills_15	区域伤害 		
+LOC_G_Skills_16	原地 		
+LOC_G_Skills_17	直线飞行 		
+LOC_G_Skills_18	环形飞行 		
+LOC_G_Skills_20	抛物飞行 		
+LOC_G_Skills_21	穿透 		
+LOC_G_Skills_22	伤害范围:%d 		
+LOC_G_Skills_23	震退距离:%d 		
+LOC_G_Skills_24	消亡自爆 		
+LOC_G_Skills_25	光环 		
+LOC_G_Skills_26	物理 		
+LOC_G_Skills_27	近身 		
+LOC_G_Skills_28	必中 		
+LOC_G_Skills_29	队友		
+LOC_G_Skills_30	敌人		
+LOC_G_Skills_31	物体		
+LOC_G_Skills_32	自己		
+LOC_G_Skills_33	考虑命中率 		
+LOC_G_Skills_34	技能属性：		
+LOC_G_Skills_35	(近身攻击)\n		
+LOC_G_Skills_36	(远程攻击)\n		
+LOC_G_Skills_37	当前等级：%d		
+LOC_G_Skills_38	当前等级：%d (%d+%d)		
+LOC_G_Skills_39	受技能加成：%d%%\n		
+LOC_G_Skills_40	修炼度：%d%%\n		
+LOC_G_Skills_41	武器限制：		
+LOC_G_Skills_42	骑马中不能施展\n		
+LOC_G_Skills_43	必须骑马施展\n		
+LOC_G_Skills_44	\n<color=Red>下一级\n		
+LOC_G_Skills_45	内力消耗：%d\n		
+LOC_G_Skills_46	体力消耗：%d\n		
+LOC_G_Skills_47	生命消耗：%d\n		
+LOC_G_Skills_48	有效距离：%d\n		
+LOC_G_Skills_49	对「%s」技能加成 %d%%\n		
+LOC_G_Skills_50	第一招 		
+LOC_G_Skills_51	第二招 		
+LOC_G_Skills_52	出现概率		
+LOC_G_Skills_53	\n效果持续时间:%d秒		
+LOC_G_Skills_54	\n连招允许时间:%d秒		
+LOC_G_Skills_55	\n前提武功:		
+LOC_G_Skills_56	\n武功使用间隔:%d秒		
+LOC_G_Skills_57	\n聚气上限:%d		
+LOC_G_Skills_58	\n有效范围: %d		
+LOC_G_Skills_59	\n当前等级: %d 级		
+LOC_G_Skills_60	\n\n使用等级 %d 级		
+LOC_G_Skills_61	 空手		
+LOC_G_Skills_62	 无限制		
+LOC_G_Skills_63	\n 武器限制:		
+LOC_G_Skills_64	\n五行属性:		
+LOC_G_Skills_65	\n武功类别:		
+LOC_G_Skills_66	\n\n武功流派:		
+LOC_G_Skills_67	<color=Blue>第十八式:<color>		
+LOC_G_Skills_68	<color=Blue>第十九式:<color>		
+LOC_G_Skills_69	<color=Blue>第二十式:<color>		
+LOC_G_Skills_70	属性：金系 %d\n		
+LOC_G_Skills_71	属性：木系 %d\n		
+LOC_G_Skills_72	属性：水系 %d\n		
+LOC_G_Skills_73	属性：火系 %d\n		
+LOC_G_Skills_74	属性：土系 %d\n		
+LOC_G_Skills_75	点		
+LOC_G_Skills_76	玩家敌人		
+LOC_G_Skills_77	npc敌人		
+LOC_G_Skills_78	阴属性敌人		
+LOC_G_Skills_79	人		
+LOC_G_Skills_80	陷阱		
+LOC_G_Skills_81	\n武功使用对象:		
+LOC_G_Skills_82	 轻功		
+LOC_G_Skills_83	 打坐		
+LOC_G_Skills_84	\n<color=Blue>效果: 施展轻功		
+LOC_G_Skills_85	\n<color=Blue>效果: 加快气血回复		
+LOC_G_Skills_86	被击时使用%s反击\n		
+LOC_G_Skills_87	你经脉不畅，无法使用该武功！		
+LOC_G_Skills_88	你还需要休息%d秒才能使用该武功！		
+LOC_G_Skills_89	你正在收招，无法动弹！		
+LOC_G_Skills_90	弹琴者		
+LOC_G_Skills_91	"您当前正处于某种特殊状态,无法移动,请稍安勿躁！"		
+LOC_G_Skills_92	最多埋设%d个陷阱		
+LOC_G_Skills_93	您暂时无法移动！		
+LOC_G_Skills_94	"\n陷阱被触发后,产生一团持续%d秒的毒雾"		
+LOC_G_Skills_95	攻击力%d		
+LOC_G_Skills_96	生命恢复%d点\n并对阴属性造成同样伤害		
+LOC_G_Skills_97	\n攻击力%d		
+LOC_G_Skills_98	\n连击概率:%d%%		
+LOC_G_Skills_99	你无法再聚集更多的内气		
+LOC_G_Skills_100	下一级		
+LOC_G_Skills_101	招式 		
+LOC_G_Skills_102	最高等级		
+LOC_G_Skills_103	您偷取到了%d级的%s		
+LOC_G_Skills_104	"无止琴音,何来续琴！"		
+LOC_G_Skills_105	尚未学会		
+LOC_G_Skills_106	熟练度		
+LOC_G_Skills_107	%d级 “%s”		
+LOC_G_Skills_108	此武功被限制使用		
+LOC_G_Skills_109	NPC Tr脣n K煤		
+LOC_G_Skills_110	NPC th贸 c颅ng		
+LOC_G_Skills_111	只能对正在跳舞的玩家使用此技能		
+LOC_G_Skills_112	无止舞步，何来续舞		
+LOC_G_Player_AutoMove_NotSupport	此地图不支持自动寻路		
+LOC_G_Player_AutoMove_UnReachable	该点不可到达		
+LOC_G_Player_AutoMove_NotifyPlayerPos	"玩家“%s”在：%s(%d, %d)"		
+LOC_G_Player_AutoMove_NotifyPlayerPos_Failed	找不到玩家“%s”		
+LOC_G_Player_AutoMove_NotifyPlayerPos_Go_SameMap	"玩家“%s”在：%s(%d, %d)。是否自动走到该点？"		
+LOC_G_Player_AutoMove_NotifyPlayerPos_Go_OtherMap	"玩家“%s”在：%s(%d, %d)。是否使用“神行秘本”或“神行宝典”自动走到该点？"		
+LOC_G_PlayerPK_0	您的负经验太多，只允许练功模式！		
+LOC_G_PlayerPK_1	您的负经验太多，不允许切磋！		
+LOC_G_PlayerPK_2	对方拒绝了您的切磋申请！		
+LOC_G_ProtocolProcess_0	某人		
+LOC_G_ProtocolProcess_1	两		
+LOC_G_ProtocolProcess_2	银两		
+LOC_G_ProtocolProcess_3	有人		
+LOC_G_ProtocolProcess_4	您的帮主给您发钱了：%d！		
+LOC_G_ProtocolProcess_5	未启动离线时转发消息！		
+LOC_G_ProtocolProcess_6	离线时消息转发目标是%s！		
+LOC_G_ProtocolProcess_7	设置了消息转发目标为%s。		
+LOC_G_ProtocolProcess_8	您现在不能接受私聊消息！\n输入 /OfflineTrans 可以取消设置。		
+LOC_G_ProtocolProcess_9	帮会创建失败！		
+LOC_G_ProtocolProcess_10	%s申请加入帮会！		
+LOC_G_ProtocolProcess_11	帮会操作被锁定，不能任命！		
+LOC_G_ProtocolProcess_12	传位失败，对方不在线！		
+LOC_G_ProtocolProcess_13	传位失败，对方能力不够！		
+LOC_G_ProtocolProcess_14	传位失败，本帮中无此人！		
+LOC_G_ProtocolProcess_15	帮会操作被锁定！		
+LOC_G_ProtocolProcess_16	%s申请加入联盟！		
+LOC_G_ProtocolProcess_17	%s 拒绝接受本帮加入联盟！		
+LOC_G_ProtocolProcess_18	帮会钱不够！		
+LOC_G_ScriptFuns_0	无		
+LOC_G_ScriptFuns_1	<非辖区>		
+LOC_G_ScriptFuns_2	本城现在擂台赛没有进行。		
+LOC_G_ScriptFuns_3	本城区最近无擂台战事。		
+LOC_G_ScriptFuns_4	组队消息		
+LOC_G_ScriptFuns_5	[Script]使用AddItem参数数量不符!		
+LOC_G_ScriptFuns_6	[Script]使用AddGoldItem参数数量不符!		
+LOC_G_ScriptFuns_7	[Script]GoldItem-目前只支持黄金装备!		
+LOC_G_ScriptFuns_8	GetItem 参数不够!		
+LOC_G_ScriptFuns_9	HaveItem 参数不够!		
+LOC_G_ScriptFuns_10	DelCommonItem 参数不够!		
+LOC_G_ScriptFuns_11	ExistCommonItem 参数不够!		
+LOC_G_ScriptFuns_12	GetItemLife 参数不够!		
+LOC_G_ScriptFuns_13	无名城		
+LOC_G_ScriptFuns_14	未记录		
+LOC_G_ScriptFuns_15	未知码头		
+LOC_G_ScriptFuns_16	您的声望减少了%d点!		
+LOC_G_ScriptFuns_17	您的声望增加了%d点!		
+LOC_G_MagicDesc_0	内力		
+LOC_G_MagicDesc_1	生命		
+LOC_G_MagicDesc_2	体力		
+LOC_G_MagicDesc_3	金钱		
+LOC_G_MagicDesc_4	增加		
+LOC_G_MagicDesc_5	减少		
+LOC_G_MagicDesc_6	女性		
+LOC_G_MagicDesc_7	男性		
+LOC_G_MagicDesc_8	剑		
+LOC_G_MagicDesc_9	单刀		
+LOC_G_MagicDesc_10	棍棒		
+LOC_G_MagicDesc_11	枪		
+LOC_G_MagicDesc_12	锤		
+LOC_G_MagicDesc_13	双刀		
+LOC_G_MagicDesc_14	所有		
+LOC_G_MagicDesc_15	暗器		
+LOC_G_MagicDesc_16	近身 		
+LOC_G_MagicDesc_17	空手		
+LOC_G_MagicDesc_18	未知		
+LOC_G_KDiceGame_0	你没有足够银两继续游戏了！		
+LOC_G_KDiceGame_1	游戏		
+LOC_G_KDiceGame_2	AddGlobalNews([[热烈庆贺！%s 中了大奖，得到积累彩金，共计%d两！]])		
+LOC_G_KDiceGame_3	"%d:%d 游乐机:%s 摸到 %d|%d|%d ,赌注: %d 奖金:%d 彩金:%d\n"		
+LOC_G_STRING_AUTOHANGMSG_1	你的功力太低，无法吸收腊八粥的神奇功效。等%d级之后再来试试吧。		
+LOC_G_STRING_AUTOHANGMSG_2	只有腊八粥能够吸收此处地气帮助你增长功力，请找 桃花隐士 购买一些腊八粥。		
+LOC_G_STRING_AUTOHANGMSG_3	腊八粥的最后一丝效力都已经被你全部吸收，你必须到 桃花隐士 那里购买喝下更多的腊八粥才能在此地继续增长功力。		
+LOC_G_STRING_AUTOHANGMSG_4	你的经验增加了%d点。		
+LOC_G_TONG_FIGURE_CALL_MARSHAL	帮主		
+LOC_G_TONG_FIGURE_CALL_QUEEN	副帮主		
+LOC_G_TONG_FIGURE_CALL_GENERAL	长老		
+LOC_G_TONG_FIGURE_CALL_CAPTAIN	堂主		
+LOC_G_TONG_FIGURE_CALL_SERGEANT	香主		
+LOC_G_TONG_FIGURE_CALL_SOLDIER	帮众		
+LOC_G_CORESHELL_0	\n<color=White>标价：<color=Yellow>		
+LOC_G_CORESHELL_1	骑马时无法打坐！		
+LOC_G_CORESHELL_STALL_0	\n<color=White>标价(收入)：<color=Green>		
+LOC_G_CORESHELL_STALL_1	\n<color=White>卖价(含税)：<color=Yellow>		
+LOC_G_CORESHELL_STALL_2	\n<color=White>卖价：<color=Yellow>		
+LOC_G_CORESHELL_STALL_3	\n<color=DBlue>本地税率：%d%%\n		
+LOC_G_STRING_ALLSKILLS	所有武功		
+LOC_G_STRING_BRACKET_BEGIN	「		
+LOC_G_STRING_BRACKET_END	」		
+LOC_G_CITYWAR_WARNING_SETTAXTIME	当前不允许设置税率。每天可设置税率时段为：%d点 ~ %d点		
+LOC_G_CITYWAR_WARNING_TAXALREADYSET1	你已经设置过今天的税率了！！		
+LOC_G_CITYWAR_WARNING_TAXALREADYSET	你已经设置过本周的税率了！！		
+LOC_G_CITYWAR_WARNING_NOTTONGLEADER	你不是帮会帮主！！		
+LOC_G_STRING_DISABLED_CHAT	你目前所在地可能属于特殊区域，不能使用此聊天频道		
+LOC_G_STRING_ENTER_CHANNEL	你加入了%s频道		
+LOC_G_STRING_LEAVE_CHANNEL	你离开了%s频道		
+LOC_K_C_BEGIN	新手		
+LOC_K_C_JUSTICE	正派		
+LOC_K_C_EVIL	邪派		
+LOC_K_C_BALANCE	中立		
+LOC_K_C_FREE	杀手		
+LOC_K_C_ANIMAL	野兽		
+LOC_K_C_EVENT	路人		
+LOC_K_NPCRESNODE_0	头顶		
+LOC_K_NPCRESNODE_1	脚底		
+LOC_K_NPCRESNODE_2	循环		
+LOC_K_NPC_0	人物名称		
+LOC_K_CHAT_TEAM_DEFAULT_NAME	我的好友		
+LOC_K_MATE_UNITNAME	Spouse\n		
+LOC_K_BROTHER_UNITNAME	亲人\n		
+LOC_K_ENEMY_UNITNAME	仇人\n		
+LOC_K_WEAPON_DETAILTYPE	具体类别		
+LOC_K_KIND_FILE_SECT1	部件说明文件名		
+LOC_K_KIND_FILE_SECT2	武器行为关联表1		
+LOC_K_KIND_FILE_SECT3	武器行为关联表2		
+LOC_K_KIND_FILE_SECT4	动作贴图顺序表		
+LOC_K_KIND_FILE_SECT5	资源文件路经		
+LOC_K_WEAPON_PARTICULARTYPE	详细类别		
+LOC_K_WEAPON_SKILLID	对应物理技能编号		
+LOC_K_MESSAGE_SYSTEM_ANNOUCE_HEAD	公告		
+LOC_K_KIND_NAME_SECT	人物类型		
+LOC_K_KIND_NAME_SPECIAL	特殊npc		
+LOC_K_KIND_NAME_NORMAL	普通npc		
+LOC_L_CANT_OPEN	无法打开%s		
+LOC_L_TONG_TAX	<%s>城区税收金额: %u\r\n		
+LOC_L_SHAREDATABASE_0	"产生了一个宝物 %d, %d,%d\n"		
+LOC_L_SHAREDATABASE_1	"产生了一个幸运之星 %s  %d, %d,%d\n"		
+LOC_L_SHAREDATABASE_2	"产生了一个黄金怪物 %s  index = %d Sid=%d  %d, %d,%d\n"		
+LOC_L_NPC_0	[数值]%s受到%d点原始毒伤害		
+LOC_L_NPC_1	[数值]%s受到%d点原始魔法伤害		
+LOC_L_NPC_2	[数值]%s实际伤害：%d		
+LOC_L_NPC_3	[数值]%s返回伤害%d		
+LOC_L_NPC_4	[数值]%s魔法盾吸收比例：%d		
+LOC_L_NPC_5	[数值]%s闪过攻击		
+LOC_L_NPC_14	"[数值]AttackRating %d : Defense %d: RandomPercent (%d, %d)"		
+LOC_L_NPC_15	"[error]致命错误,无法正确读取%s"		
+LOC_L_NPC_16	载入Npc%d模板请求非法！		
+LOC_L_NPCATTRIBM_0	[数值]%s冰伤害增加(%d)		
+LOC_L_NPCATTRIBM_1	[数值]%s火伤害增加(%d)		
+LOC_L_NPCATTRIBM_2	[数值]%s电伤害增加(%d)		
+LOC_L_NPCATTRIBM_3	[数值]%s所有物理攻击力增加百分之%d		
+LOC_L_NPCATTRIBM_4	[数值]%s远程物理攻击力增加百分之%d		
+LOC_L_NPCATTRIBM_5	[数值]%s空手物理攻击力增加百分之%d		
+LOC_L_NPCATTRIBM_6	[数值]%s近程物理攻击力增加百分之%d		
+LOC_L_NPCATTRIBM_7	[数值]%s近程武器%d物理攻击力增加百分之%d		
+LOC_L_NPCATTRIBM_8	[数值]%s毒状态变为：间隔%d帧发作一次%d伤害，共持续%d帧		
+LOC_L_NPCATTRIBM_9	[数值]%s物理伤害力增加(%d)		
+LOC_L_NPCATTRIBM_10	[数值]%s五防抗性增加%d		
+LOC_L_NPCATTRIBM_11	[数值]%s所有技能加%d级，未完成		
+LOC_L_NPCATTRIBM_12	[数值]%s命中率增加百分之%d(%d点)		
+LOC_L_NPCATTRIBM_13	[数值]%s攻击速度增加%d		
+LOC_L_NPCATTRIBM_14	[数值]%s施法速度增加%d		
+LOC_L_NPCATTRIBM_15	[数值]%s当前阵营变为%d		
+LOC_L_NPCATTRIBM_16	[数值]%s冰抗性增加了%d点		
+LOC_L_NPCATTRIBM_17	[数值]%s致命一击百分比增加%d		
+LOC_L_NPCATTRIBM_18	[数值]%s当前敏捷增加了%d点		
+LOC_L_NPCATTRIBM_19	[数值]%s土系技能加%d级		
+LOC_L_NPCATTRIBM_20	[数值]%s当前精力增加了%d点		
+LOC_L_NPCATTRIBM_21	[数值]%s快速命中回复增加%d		
+LOC_L_NPCATTRIBM_22	[数值]%s移动速度增加%d		
+LOC_L_NPCATTRIBM_23	[数值]%s火系技能加%d级		
+LOC_L_NPCATTRIBM_24	[数值]%s冰冻时间减少百分之%d		
+LOC_L_NPCATTRIBM_25	[数值]%s震退百分比增加%d		
+LOC_L_NPCATTRIBM_26	[数值]%s生命上限增加了百分之%d(%d点)		
+LOC_L_NPCATTRIBM_27	[数值]%s生命上限增加了%d点		
+LOC_L_NPCATTRIBM_28	[数值]%s生命回复速度增加了%d点		
+LOC_L_NPCATTRIBM_29	[数值]%s生命增加了%d点		
+LOC_L_NPCATTRIBM_30	[数值]%s电抗性增加了%d点		
+LOC_L_NPCATTRIBM_31	"[数值]%sMF值增加了%d,未完成"		
+LOC_L_NPCATTRIBM_32	[数值]%s内力上限增加了百分之%d(%d点)		
+LOC_L_NPCATTRIBM_33	[数值]%s内力上限增加了%d点		
+LOC_L_NPCATTRIBM_34	[数值]%s内力回复速度增加了%d点		
+LOC_L_NPCATTRIBM_35	[数值]%s内力增加了%d点		
+LOC_L_NPCATTRIBM_36	[数值]%s吸收伤害百分比为%d，持续%d帧		
+LOC_L_NPCATTRIBM_37	[数值]%s近程物理伤害反弹百分比增加%d		
+LOC_L_NPCATTRIBM_38	[数值]%s近程物理伤害反弹增加%d		
+LOC_L_NPCATTRIBM_39	"[数值]%s金系技能加%d级, 未完成"		
+LOC_L_NPCATTRIBM_40	[数值]%s物理抗性增加了%d点		
+LOC_L_NPCATTRIBM_41	[数值]%s伤害转内力百分比增加了%d		
+LOC_L_NPCATTRIBM_42	[数值]%s中毒伤害减少%d		
+LOC_L_NPCATTRIBM_43	[数值]%s毒抗性增加了%d点		
+LOC_L_NPCATTRIBM_44	[数值]%s中毒时间减少百分之%d		
+LOC_L_NPCATTRIBM_45	[数值]%s远程伤害反弹增加%d		
+LOC_L_NPCATTRIBM_46	[数值]%s远程伤害反弹百分比增加%d		
+LOC_L_NPCATTRIBM_47	[数值]%s子弹减速状态变为%d		
+LOC_L_NPCATTRIBM_48	[数值]%s体力上限增加了百分之%d(%d点)		
+LOC_L_NPCATTRIBM_49	[数值]%s体力上限增加了%d点		
+LOC_L_NPCATTRIBM_50	[数值]%s体力回复速度增加了%d点		
+LOC_L_NPCATTRIBM_51	[数值]%s体力增加了%d点		
+LOC_L_NPCATTRIBM_52	[数值]%s偷生命百分比为%d(比原本上升了%d点)		
+LOC_L_NPCATTRIBM_53	[数值]%s偷内力百分比为%d(比原本上升了%d点)		
+LOC_L_NPCATTRIBM_54	[数值]%s偷体力百分比为%d(比原本上升了%d点)		
+LOC_L_NPCATTRIBM_55	[数值]%s当前力量增加了%d点		
+LOC_L_NPCATTRIBM_56	[数值]%s眩晕时间减少%d		
+LOC_L_NPCATTRIBM_57	[数值]%s视野范围增加%d		
+LOC_L_NPCATTRIBM_58	[数值]%s当前活力增加了%d点		
+LOC_L_NPCATTRIBM_59	[数值]%s水系技能加%d级，未完成		
+LOC_L_NPCATTRIBM_60	[数值]%s木系技能加%d级，未完成		
+LOC_L_NPCATTRIBM_61	[数值]%s火抗性增加了%d点		
+LOC_L_NPCATTRIBM_62	[数值]%s防御增加了%d点		
+LOC_L_NPCATTRIBM_63	[数值]%s冰增强增加了%d点		
+LOC_L_NPCATTRIBM_64	[数值]%s火增强增加了%d点		
+LOC_L_NPCATTRIBM_65	[数值]%s电增强增加了%d点		
+LOC_L_NPCATTRIBM_66	[数值]%s毒增强增加了%d点		
+LOC_L_NPCATTRIBM_67	[数值]%s喝了补血药，获得%d帧内每10帧回复%d点生命的效果		
+LOC_L_NPCATTRIBM_68	[数值]%s喝了补内力药，获得%d帧内每10帧回复%d点内力的效果		
+LOC_L_NPCATTRIBM_69	[数值]%s物理抗性上限增加了%d点		
+LOC_L_NPCATTRIBM_70	[数值]%s冰抗性上限增加了%d点		
+LOC_L_NPCATTRIBM_71	[数值]%s火抗性上限增加了%d点		
+LOC_L_NPCATTRIBM_72	[数值]%s电抗性上限增加了%d点		
+LOC_L_NPCATTRIBM_73	[数值]%s毒抗性上限增加了%d点		
+LOC_L_NPCATTRIBM_74	[数值]%s五防抗性上限增加%d		
+LOC_L_NPCATTRIBM_75	[数值]%s眩晕百分比增加%d		
+LOC_L_NPCATTRIBM_76	[数值]%s致命一击抗性增加%d		
+LOC_L_NPCATTRIBM_77	[数值]%s物理伤害增加(%d)		
+LOC_L_NPCATTRIBM_78	[数值]%s状态免疫状态变为%d		
+LOC_L_NPCSET_0	文件载入失败：%s，请通知研发人员进行处理！		
+LOC_L_NPCSET_1	文件载入失败：%s		
+LOC_L_NPCTEMPLATE_0	无法找到%s\n		
+LOC_L_NPCTEMPLATE_1	[%s]调用GetNpcLevelData函数的 传入参数[%s]有误，请检查\n		
+LOC_L_NPCTEMPLATE_2	调用GetNpcLevelData函数的 传入参数[%s]有误，请检查\n		
+LOC_L_NPCTEMPLATE_3	"无找到该[%s]魔法的Id,请检查！"		
+LOC_L_PLAYER_9	[数值]%s实际增加经验%d点		
+LOC_L_PLAYER_10	%s(%s)在%d循环捡了%d两银子\n		
+LOC_L_PLAYER_12	[%s][%s]把 %s 卖给了 %s，物品生成时间：%d\r\n		
+LOC_L_PLAYER_13	交易时间：%d月%d日%d时%d分%d秒！\r\n\r\n		
+LOC_L_PLAYER_18	[trade]trade 与%s交易开始！		
+LOC_L_PLAYER_19	[trade]trade 得到交易对方钱信息：%d		
+LOC_L_PLAYER_20	[trade]trade 交易完成！		
+LOC_L_PLAYER_21	[trade]trade 交易取消！		
+LOC_L_PLAYER_22	您的银票数据异常，请联系客服。		
+LOC_L_PLAYER_23	对方的银票数据异常。		
+LOC_L_PLAYER_24	您的储物箱当前状态为锁定，请解锁之后才能进行银票交易！		
+LOC_L_PLAYER_25	RECEIVER:%s T_CONTENT:%d-您序号为%s的密码是：\n%s		
+LOC_L_PLAYERCHAT_0	[chat]聊天数据包错误！		
+LOC_L_PLAYERSET_4	%s 脚本无法加载，可能文件不存在或语法错误		
+LOC_L_PlayerSet_AutohangItem	%s 获得了 %s\n		
+LOC_L_PLAYERSTALL_30	[%02d:%02d:%02d]: %s<%s> 从 %s<%s> 处以 %d 的价格买走了 [%s]\r\n		
+LOC_L_PLAYERSTALL_31	[Unknown Time]: %s<%s> 从 %s<%s> 处以 %d 的价格买走了 [%s]\r\n		
+LOC_L_PLAYERSTALL_32	[%s]的生成时间是(%u)\r\n\r\n		
+LOC_L_PlayerTrade_0	[trade]trade 得到交易状态信息：己方锁定 %d ，对方锁定 %d，己方确定 %d，对方确定 %d		
+LOC_L_BuySell_1	%s(%s)在%d循环卖了%s得到%d两银子\n		
+LOC_L_ITEM_0	%s(%s)的装备被非正常清除\n		
+LOC_L_ItemList_0	%s(%s)获取%s(%s)的装备%d\n		
+LOC_L_ItemList_1	"[ITEM]ItemListIdx:%d, Item:%d, ItemId:%d"		
+LOC_L_ItemList_2	%s(%s)的装备%d清除时已经是%d所属的装备\n		
+LOC_L_ItemList_3	[trade]trade 对方减少物品 id:%d  PosX:%d  PosY:%d  Width:%d  Height:%d		
+LOC_L_ItemList_4	[trade]trade 此物品属性1 Genre:%d  Detail:%d  Particur:%d  Series:%d		
+LOC_L_ItemList_5	[trade]trade 此物品属性2 Level:%d  Luck:%d  RandomSeed:%d  Version:%d  Durability:%d		
+LOC_L_ItemList_6	[trade]trade 此物品属性3 MagicLevel: %d %d %d %d %d %d		
+LOC_L_ItemList_7	[%s]设定储物箱密码！		
+LOC_L_ItemList_8	GM设定[%s]的储物箱密码！		
+LOC_L_ItemList_9	[%s]取消储物箱密码！		
+LOC_L_ItemList_10	GM取消[%s]的储物箱密码！		
+LOC_L_ItemList_11	[%s]修改储物箱密码！		
+LOC_L_ItemList_12	GM锁定[%s]的储物箱！		
+LOC_L_ItemList_13	GM解锁[%s]的储物箱！		
+LOC_L_ItemSet_0	%s 载入失败，请检查设定文件并通知研发人员！		
+LOC_L_KLibOfBPT_0	[魔法属性]%s五防抗性上限增加%d		
+LOC_L_KLibOfBPT_1	[魔法属性]m_CMAIT[前缀后缀][类型][五行][级别]\n		
+LOC_L_KLibOfBPT_2	"[魔法属性]m_CMAIT[%d][%d][%d][%d]: Count = %3d, %s  \n"		
+LOC_L_Core_0	无法打开\\settings\\game_setting.ini文件 ，请检查!!\n		
+LOC_L_Core_1	[Math]初始化数学函数失败!		
+LOC_L_Core_2	[Script]脚本占空间为%d		
+LOC_L_Core_3	无法打开%s文件!!!\n		
+LOC_L_Core_4	人物模板数量%d		
+LOC_L_Core_7	%sNpc等级设定脚本无法加载，可能文件不存在或语法错误		
+LOC_L_ProtocolProcess_0	[trade]trade 对方增加物品客户端添加失败!!!		
+LOC_L_ProtocolProcess_1	[trade]trade 对方增加物品 id:%d  PosX:%d  PosY:%d		
+LOC_L_ProtocolProcess_2	[trade]trade 此物品属性1 Genre:%d  quality:%d Detail:%d  Particur:%d  Series:%d		
+LOC_L_ProtocolProcess_3	[trade]trade 此物品属性2 Level:%d  Luck:%d  RandomSeed:%d  Version:%d  Durability:%d		
+LOC_L_Missle_0	从子弹配置文件\\settings\\skill\\missles.txt中读取ID为%d的子弹出错		
+LOC_L_SkillList_0	Npc的技能数量超过了限制50！！！，请检查!!!		
+LOC_L_SkillList_1	"Param2PCoordinate函数获得参数违法！nParam1 ,nParam2 [%d,%d], nPX,nPY"		
+LOC_L_SkillList_4	创建子弹贴图失败！！！%s		
+LOC_L_Skills_0	无法读取技能设定脚本文件%s，请确认是否文件存在或脚本语法有误！		
+LOC_L_Skills_1	致命错误！无法获得技能[%s]的设定脚本，请检查是否存在或语法有误！\n		
+LOC_L_Skills_2	"当获得该技能等级为%d（%s,%s）时，出错，请检查脚本!,"		
+LOC_L_Skills_3	从技能配置文件\\settings\\skill\\skills.txt中读取ID为%d的技能出错		
+LOC_L_Skills_4	无法读取技能树脚本: %s		
+LOC_L_ScriptFuns_0	Error!Say脚本对话过长，请更正。%s		
+LOC_L_LuaFuns_0	无法找到指定的脚本对象		
+LOC_L_SortScript_0	[脚本]加载脚本%s，出错，该脚本无法加载！！请检查！！		
+LOC_L_SortScript_1	[脚本]严重错误!脚本数量超限制%d！请立即解决！！		
+LOC_L_SortScript_2	"[Script]脚本总容量超过%d,严重错误请检查!"		
+LOC_L_SortScript_3	加载%s文件出错		
+LOC_L_CoreServerShell_0	[error]网络接收协议大小不匹配		
+LOC_L_CoreServerShell_1	"[error]网络接收协议大小不匹配<%d>, should %d, but %d\n"		
+LOC_L_GMCOMMAND_0	"执行GM指令,发生异常!\n"		
+LOC_MSG_GET_EXP	您获得%d点经验值。		
+LOC_MSG_DEC_EXP	您损失了%d点经验值。		
+LOC_MSG_LEVEL_UP	您的等级提升至%d。		
+LOC_MSG_LEADER_LEVEL_UP	您的统率等级提升至%d！		
+LOC_MSG_GET_ATTRIBUTE_POINT	您获得%d点潜能！		
+LOC_MSG_GET_SKILL_POINT	您获得%d个技能点！		
+LOC_MSG_GET_ATTRIBUTE_SKILL_POINT	您获得%d点潜能和%d个技能点！		
+LOC_MSG_SKILL_BEYOND_ATTACKRADIUS	您离目标点太远，当前使用武功的有效距离不够。		
+LOC_MSG_TEAM_AUTO_REFUSE_INVITE	自动拒绝他人对您的组队邀请。		
+LOC_MSG_TEAM_NOT_AUTO_REFUSE_INVITE	显示他人对您的组队邀请。		
+LOC_MSG_TEAM_SEND_INVITE	你向%.32s发出组队邀请！		
+LOC_MSG_TEAM_SEND_CREATE	你创建了一支队伍。		
+LOC_MSG_TEAM_CANT_CREATE	当前地图不能创建队伍!		
+LOC_MSG_TEAM_CANT_INVITE	新手不能邀请其它阵营的人组队。		
+LOC_MSG_TEAM_GET_INVITE	%.32s邀请您组队！		
+LOC_MSG_TEAM_REFUSE_INVITE	您向%.32s的组队邀请未得到同意。		
+LOC_MSG_TEAM_REFUSE_APPLY_JOIN	您向%.32s的入队申请未得到同意。		
+LOC_MSG_TEAM_CREATE	您创建了一支队伍。		
+LOC_MSG_TEAM_CREATE_FAIL	队伍创建失败。		
+LOC_MSG_TEAM_CANNOT_CREATE	您现在不能组队！		
+LOC_MSG_TEAM_TARGET_CANNOT_ADD_TEAM	对方现在不能组队！		
+LOC_MSG_TEAM_TARGET_NOT_CAPTAIN	对方不是队长！		
+LOC_MSG_TEAM_OPEN	您的队伍现在允许接收新队员。		
+LOC_MSG_TEAM_CLOSE	您的队伍现在不允许接收新队员。		
+LOC_MSG_TEAM_ADD_MEMBER	%.32s成为您的队友了。		
+LOC_MSG_TEAM_SELF_ADD	您加入%.32s的队伍。		
+LOC_MSG_TEAM_DISMISS_CAPTAIN	您解散了自己的队伍！		
+LOC_MSG_TEAM_DISMISS_MEMBER	%.32s解散了队伍！		
+LOC_MSG_TEAM_DISMISS	你的队伍解散了。		
+LOC_MSG_TEAM_KICK_ONE	%.32s被开除出队伍！		
+LOC_MSG_TEAM_BE_KICKEN	您被开除出队伍！		
+LOC_MSG_TEAM_APPLY_ADD	%.32s申请加入队伍！		
+LOC_MSG_TEAM_APPLY_ADD_SELF_MSG	您申请加入%.32s的队伍！		
+LOC_MSG_TEAM_LEAVE	%.32s离开队伍。		
+LOC_MSG_TEAM_LEAVE_SELF_MSG	您离开%s的队伍。		
+LOC_MSG_TEAM_CHANGE_CAPTAIN_FAIL1	队长任命失败！		
+LOC_MSG_TEAM_CHANGE_CAPTAIN_FAIL2	%.32s统帅力不够！		
+LOC_MSG_TEAM_CHANGE_CAPTAIN_FAIL3	您的队伍不能移交给新手！		
+LOC_MSG_TEAM_CHANGE_CAPTAIN	%.32s被任命为队长！		
+LOC_MSG_TEAM_CHANGE_CAPTAIN_SELF	您被%.32s任命为队长！		
+LOC_MSG_TEAM_AUTO_CAPTAIN_SELF	您被系统指定为队长！		
+LOC_MSG_TEAM_AUTO_CAPTAIN	%.32s被系统指定为队长！		
+LOC_MSG_TEAM_ERROR01	系统指定的队长，不能增加队伍成员！		
+LOC_MSG_TEAM_ERROR02	系统指定的队长，不能踢人出队伍！		
+LOC_MSG_TEAM_ERROR03	系统指定的队长，不能任命新队长！		
+LOC_MSG_TEAM_ERROR04	系统指定的队长，不能邀请他人加入队伍！		
+LOC_MSG_TEAM_ERROR05	系统指定的队长，不能开放队伍！		
+LOC_MSG_TEAM_OPP_REJECT_INVITE	%.32s现在不接受组队邀请。		
+LOC_MSG_TEAM_OPP_REJECT_JOIN	%.32s现在不接受入队申请。		
+LOC_MSG_TEAM_OPP_PK_STATUS_NOT_SAME	%.32s和您的PK状态不一样。		
+LOC_MSG_TEAM_PICK_TEAMMATE	队长将物品分配方式设置为自由拣取。		
+LOC_MSG_TEAM_PICK_LEADER	队长将物品分配方式设置为队长拣取。		
+LOC_MSG_TEAM_PICK_ORDER	队长将物品分配方式设置为轮流拣取。		
+LOC_MSG_TEAM_PICK_SELF	队长将物品分配方式设置为个人拣取。		
+LOC_MSG_CHAT_APPLY_ADD_FRIEND	您向%.32s申请好友。		
+LOC_MSG_CHAT_FRIEND_HAD_IN	%.32s已被加为好友。		
+LOC_MSG_CHAT_GET_FRIEND_APPLY	%.32s申请加为好友！		
+LOC_MSG_CHAT_REFUSE_FRIEND	您向%.32s的好友申请未得到同意。		
+LOC_MSG_CHAT_ADD_FRIEND_FAIL	添加%.32s为好友失败！		
+LOC_MSG_CHAT_ADD_FRIEND_SUCCESS	您与%.32s成为好友！		
+LOC_MSG_CHAT_ADD_COUPLE_SUCCESS	您与%.32s成为夫妻！		
+LOC_MSG_CHAT_CREATE_TEAM_FAIL1	好友分组创建失败！		
+LOC_MSG_CHAT_CREATE_TEAM_FAIL2	已存在同名组！		
+LOC_MSG_CHAT_CREATE_TEAM_FAIL3	已达最大分组数！		
+LOC_MSG_CHAT_RENAME_TEAM_FAIL	组名修改失败！		
+LOC_MSG_CHAT_DELETE_TEAM_FAIL1	组删除失败！		
+LOC_MSG_CHAT_DELETE_TEAM_FAIL2	这个组不允许删除！		
+LOC_MSG_CHAT_FRIEND_ONLINE	%.32s上线了！		
+LOC_MSG_CHAT_FRIEND_OFFLINE	%.32s下线了！		
+LOC_MSG_CHAT_FRIEND_DELETE	%.32s被删除了！		
+LOC_MSG_CHAT_DELETE_FRIEND	您与%.32s解除了好友关系！		
+LOC_MSG_CHAT_DISMISS_FRIEND	%.32s与您解除了好友关系！		
+LOC_MSG_CHAT_DISMISS_BROTHER	%.32s与您解除了亲人关系！		
+LOC_MSG_CHAT_DISMISS_MATE	%.32s与您解除了夫妻关系！		
+LOC_MSG_CHAT_DISMISS_RELATION	%.32s与您解除了关系！		
+LOC_MSG_CHAT_MSG_FROM_FRIEND	%.32s发来消息！		
+LOC_MSG_CHAT_FRIEND_NOT_NEAR	%.32s不在附近！		
+LOC_MSG_CHAT_FRIEND_NOT_ONLINE	%.32s不在线！		
+LOC_MSG_CHAT_TAR_REFUSE_SINGLE_TALK	%.32s没有订阅私聊频道！		
+LOC_MSG_SHOP_NO_ROOM	背包空间不足！		
+LOC_MSG_SHOP_NO_MONEY	金钱不足！		
+LOC_MSG_CAN_NOT_REPAIR	这个物品不能修理！		
+LOC_MSG_NPC_NO_MANA	内力不足！		
+LOC_MSG_NPC_NO_STAMINA	体力不足！		
+LOC_MSG_NPC_NO_LIFE	生命不足！		
+LOC_MSG_NPC_DEATH	%s气绝身亡！！		
+LOC_MSG_COUPLE_REVIVAL	你感觉'%s'给你带来了新的勇气，要接受这爱情的神奇力量么？ %d 秒		
+LOC_MSG_NPC_ASK_REVIVAL	"\%s\ 仗义相救,是否接受？ %d 秒"		
+LOC_MSG_USE_DUMMY_REVIVAL	"你使用了替身符,没有死亡惩罚,是否原地复活 %d 秒"		
+LOC_MSG_OBJ_CANNOT_PICKUP	您不能拾取别人的物品！		
+LOC_MSG_MONEY_CANNOT_PICKUP	您不能拾取别人的钱！		
+LOC_MSG_OBJ_TOO_FAR	物品太远，无法拾取！		
+LOC_MSG_DEC_MONEY	您失去了		
+LOC_MSG_EARN_MONEY	您获得了		
+LOC_MSG_PUT_MONEY	您存进了		
+LOC_MSG_GET_MONEY	您取出了		
+LOC_MSG_MONEY_TO_LIMIT	"金钱超出背包上限,请及时处理,否则下线或传送后会被扣除超出部分"		
+LOC_MSG_MONEY_TO_LIMIT_SHORT	金钱超出背包上限！		
+LOC_MSG_DEATH_LOSE_ITEM	您丢失了物品%s！		
+LOC_MSG_ADD_ITEM	您获得了%s！		
+LOC_MSG_ITEM_SAME_DETAIL_IN_IMMEDIATE	快捷栏已经有同类型的物品了！		
+LOC_MSG_CAN_NOT_VIEW_ITEM	现在不能察看他人装备！		
+LOC_MSG_ITEM_DAMAGED	您装备的%s长期磨损，已经彻底损坏！		
+LOC_MSG_ITEM_NEARLY_DAMAGED	您装备的%s已经接近损坏，请及时修理！		
+LOC_MSG_EQUIP_NOT_IDENTIFY	装备还没鉴定。		
+LOC_MSG_EQUIP_NOT_NEWBIE	新手不能装备。		
+LOC_MSG_EQUIP_NOT_FACTION	你不能使用这件装备。		
+LOC_MSG_EQUIP_NOT_LEVEL	等级不够。		
+LOC_MSG_EQUIP_NOT_SKILL_LEVEL	武功等级不够，无法装备。		
+LOC_MSG_THROW_POPUR_NOT_ENOUGH	投入的修为不够。		
+LOC_MSG_CANNOT_READ	不能修书		
+LOC_MSG_FACTION_CONTRIBUTE_LIMIT	当前师门声望不够，无法装备！		
+LOC_MSG_TRADE_STATE_OPEN	您现在可以交易。		
+LOC_MSG_TRADE_STATE_CLOSE	您现在不能交易。		
+LOC_MSG_TRADE_SELF_LOCK	您交易物品已经锁定。		
+LOC_MSG_TRADE_SELF_UNLOCK	您交易物品解除锁定。		
+LOC_MSG_TRADE_DEST_LOCK	%s交易物品已经锁定。		
+LOC_MSG_TRADE_DEST_UNLOCK	%s交易物品解除锁定。		
+LOC_MSG_TRADE_SUCCESS	您与%s交易成功。		
+LOC_MSG_TRADE_FAIL	您与%s交易失败。		
+LOC_MSG_TRADE_SELF_ROOM_FULL	您的背包空间不足！		
+LOC_MSG_TRADE_DEST_ROOM_FULL	%s的背包空间不足！		
+LOC_MSG_TRADE_SEND_APPLY	您向%s申请交易！		
+LOC_MSG_TRADE_GET_APPLY	%s申请与您交易！		
+LOC_MSG_TRADE_REFUSE_APPLY	您向%.32s的交易请求未得到同意。		
+LOC_MSG_TRADE_TASK_ITEM	这个物品不能被交易或卖出！		
+LOC_MSG_TRADE_ABRASION_HIGH	您的装备磨损严重，请修理后再来。		
+LOC_MSG_TRADE_ABRASION_MIDDEL	您的装备有所磨损，请修理后再来。		
+LOC_MSG_TRADE_ABRASION_LOW	您的装备有轻微瑕疵，请修理后再来。		
+LOC_MSG_TRADE_EXPORT_LOCK	您当前处于交易锁定状态中，无法交易。		
+LOC_MSG_INTERACTION_APPLY	您向%s申请%s！		
+LOC_MSG_INTERACTION_ARRIVAL	%s向您申请%s！		
+LOC_MSG_INTERACTION_REPLY_NO	%s现在不能接受您的请求！		
+LOC_MSG_INTERACTION_ACCEPT	您接受了%s申请%s的请求！		
+LOC_MSG_INTERACTION_BE_ACCEPT	您向%s申请%s的请求被接受！		
+LOC_MSG_INTERACTION_SELFDENIE	您不能对自己发送这个请求！		
+LOC_MSG_INTERACTION_OUTRANGE	您离目标玩家的距离太远了！		
+LOC_MSG_INTERACTION_APPLY_NO	您现在不能申请和其他玩家交互！		
+LOC_MSG_INTERACTION_RIDING	骑马时不能和其他玩家进行这个互动！		
+LOC_MSG_INTERACTION_BE_RIDING	对方正在骑马，不能进行这个互动！		
+LOC_MSG_INTERACTION_NOT_RIDING	您没有骑马，不能申请双人同骑！		
+LOC_MSG_INTERACTION_RIDING_SPECIAL	Th贸 c颅虂i n碌y kh芦ng th脫 c颅虂i chung!		
+LOC_MSG_INTERACTION_SAME_SEX	对不起，不能邀请和您性别相同的玩家！		
+LOC_MSG_INTERACTION_STATUS_WRONG	对不起，当前状态不能做情绪动作！		
+LOC_MSG_INTERACTION_SELF_PKING	您当前处于PK状态，不能做情绪动作！		
+LOC_MSG_INTERACTION_OTHER_PKING	对方当前正处于PK状态，不能接受您的申请！		
+LOC_MSG_INTERACTION_NO_STAMIA	您当前体力不足，现在不能做情绪动作！		
+LOC_MSG_INTERACTION_IN_STALL	您当前正在摆摊，不能做情绪动作！		
+LOC_MSG_INTERACTION_TARGET_IN_STALL	对方当前正在摆摊，不能做情绪动作！		
+LOC_MSG_INTERACTION_LEVEL_LIMITED	您当前等级不够，不能做情绪动作！		
+LOC_MSG_HORSE_IS_TOO_TIRED	您的马匹太累了，要喂养休息才能继续驰聘。		
+LOC_MSG_HORSE_IS_TOO_OLD	您的马匹已经到了退役的年龄，你还是让他告老还乡吧。		
+LOC_MSG_PK_NORMAL_FLAG_0	PK状态变为练功模式！		
+LOC_MSG_PK_NORMAL_FLAG_1	PK状态变为战斗模式！		
+LOC_MSG_PK_NORMAL_FLAG_2	PK状态变为屠杀模式！		
+LOC_MSG_PK_NORMAL_FLAG_3	Tr鹿ng th赂i PK tr毛 th碌nh chi茽n 庐脢u bang h茅i!		
+LOC_MSG_PK_FIGHT_FLAG	PK开关战斗模式打开		
+LOC_MSG_PK_KILL_ALL_FLAG	PK开关屠杀模式打开		
+LOC_MSG_PK_VALUE	您目前的PK值是%d！		
+LOC_MSG_PK_ERROR_1	您现在处于非战斗状态！		
+LOC_MSG_PK_ERROR_2	新手不能参与PK！		
+LOC_MSG_PK_ERROR_3	您正与他人切磋！		
+LOC_MSG_PK_ERROR_4	您正与他人切磋！		
+LOC_MSG_PK_ERROR_5	您不能切磋新手！		
+LOC_MSG_PK_ERROR_6	对方正处于非战斗状态！		
+LOC_MSG_PK_ERROR_7	对方正与他人切磋！		
+LOC_MSG_PK_ERROR_8	PK非练功模式转换为练功模式需经过三分钟！		
+LOC_MSG_PK_ERROR_9	您不能切磋队友！		
+LOC_MSG_PK_ERROR_10	您现在是重伤状态，不能与人PK！		
+LOC_MSG_PK_ERROR_11	您现在是重伤状态，不能切磋他人！		
+LOC_MSG_PK_ERROR_12	Th碌nh vi陋n bang h茅i m铆i c膬 th脫 m毛 chi茽n 庐脢u bang h茅i!		
+LOC_MSG_PK_ENMITY_APPLY	%s申请与您切磋！		
+LOC_MSG_PK_ENMITY_SUCCESS_1	%s与您建立切磋关系！		
+LOC_MSG_PK_ENMITY_SUCCESS_2	您与%s建立切磋关系！		
+LOC_MSG_PK_ENMITY_SUCCESS_3	10秒钟后切磋开始执行！		
+LOC_MSG_PK_ENMITY_CLOSE	您的切磋关系结束！		
+LOC_MSG_PK_ENMITY_WIN_CLOSE	恭喜您的切磋大获全胜，请再接再厉！		
+LOC_MSG_PK_ENMITY_LOSE_CLOSE	您的这次切磋失败了，请不要气馁！		
+LOC_MSG_PK_ENMITY_OPEN	切磋现在开始执行！		
+LOC_MSG_PK_TOO_HIGH_TO_ENTER_CITY	您的PK值太高了，进城恐有危险。		
+LOC_MSG_PK_IN_TEAM_SELF	您已经在队伍中不可以切磋		
+LOC_MSG_PK_IN_TEAM_OTHER	对方正在队伍中不可以申请切磋		
+LOC_MSG_TEAM_PKING_LEADER	队长正在切磋中不可以组队		
+LOC_MSG_TEAM_PKING_ADDER	切磋中的玩家不可以组队		
+LOC_MSG_TONG_CREATE_ERROR01	帮会名过长！		
+LOC_MSG_TONG_CREATE_ERROR02	帮会阵营错误！		
+LOC_MSG_TONG_CREATE_ERROR03	帮会成员不能另外建立帮会！		
+LOC_MSG_TONG_CREATE_ERROR04	杀手才能建立帮会！		
+LOC_MSG_TONG_CREATE_ERROR05	建立帮会的等级不够！		
+LOC_MSG_TONG_CREATE_ERROR06	建立帮会的统帅等级不够！		
+LOC_MSG_TONG_CREATE_ERROR07	建立帮会需要 %d 金钱！		
+LOC_MSG_TONG_CREATE_ERROR08	组队中，不能建立帮会！		
+LOC_MSG_TONG_CREATE_ERROR09	帮会名错误！		
+LOC_MSG_TONG_CREATE_ERROR10	建立帮会需要的金钱不够！		
+LOC_MSG_TONG_CREATE_ERROR11	帮会名不合法或与别的帮会重名！		
+LOC_MSG_TONG_APPLY_CREATE	您申请创建帮会！		
+LOC_MSG_TONG_CREATE_SUCCESS1	帮会创建成功！		
+LOC_MSG_TONG_CREATE_SUCCESS2	%s进入考验期！		
+LOC_MSG_TONG_CREATE_SUCCESS3	请尽快扩大规模！		
+LOC_MSG_TONG_INSTATE_FAIL_ID2	%s不在线，无法任命！		
+LOC_MSG_TONG_INSTATE_FAIL_ID3	%s能力不够，无法担当新职位！		
+LOC_MSG_TONG_CHANGE_JOB_CALL_ERROR1	称呼名过长！		
+LOC_MSG_TONG_CHANGE_JOB_CALL_ERROR2	帮主才能修改称呼！		
+LOC_MSG_TONG_CHANGE_JOB_CALL_ERROR3	帮主才能修改阵营！		
+LOC_MSG_TONG_APPLY_ADD	您申请加入帮会！		
+LOC_MSG_TONG_APPLY_ADD_ERROR1	帮会成员不能另外加入帮会！		
+LOC_MSG_TONG_APPLY_ADD_ERROR2	杀手才能加入帮会！		
+LOC_MSG_TONG_APPLY_ADD_ERROR3	组队中，不能加入帮会！		
+LOC_MSG_TONG_REFUSE_ADD	您向%.32s加入帮会的申请未得到同意。		
+LOC_MSG_TONG_ADD_SUCCESS	您加入帮会！		
+LOC_MSG_TONG_CANNOT_LEAVE1	帮主不能离开帮会！		
+LOC_MSG_TONG_CANNOT_LEAVE2	长老不能离开帮会！		
+LOC_MSG_TONG_BE_KICKED	您被踢出帮会！		
+LOC_MSG_TONG_LEAVE_SUCCESS	您主动离开帮会成功！		
+LOC_MSG_TONG_LEAVE_FAIL	您主动离开帮会失败！		
+LOC_MSG_TONG_CHANGE_AS_MASTER	您被任命为帮主！		
+LOC_MSG_TONG_CHANGE_AS_MEMBER	您现在成为普通帮众！		
+LOC_MSG_TONG_DISMISS	您的帮会未通过考验期，被解散！		
+LOC_MSG_TONG_CHANGE_CAMP_NO_MONEY	更改帮会阵营需交纳%d万手续费！		
+LOC_MSG_TONG_CREATE_UNION_ERROR2	已处在联盟中，不能再建立联盟！		
+LOC_MSG_TONG_CREATE_UNION_ERROR4	指定帮会不存在！		
+LOC_MSG_TONG_CREATE_UNION_ERROR5	存在同名帮会或帮会联盟！		
+LOC_MSG_TONG_CREATE_UNION_SUCCESS	您创建了一个空的帮会联盟！		
+LOC_MSG_TONG_REQUEST_ADD	%s申请加入您的帮会！		
+LOC_MSG_CANT_SWITCH_HORSE	您太累了，还不能再次上下马。		
+LOC_MSG_CANT_SWITCH_HORSE_WHEN_SIT	您坐下了，不能够上马。		
+LOC_MSG_SOMEONE_GIVE_YOU_MONEY	%s给了你一些钱。		
+LOC_MSG_YOU_GIVE_SOMEONE_MONEY	你给了%s一些钱。		
+LOC_MSG_ENCHASER_SUCCESS	宝石镶嵌操作成功！		
+LOC_MSG_ENCHASER_MAGICATTRIBISFULL	宝石镶嵌操作失败！		
+LOC_MSG_ENCHASER_SERIESISSAME	宝石镶嵌操作失败！		
+LOC_MSG_ENCHASER_LEVELISFULL	宝石镶嵌操作失败！		
+LOC_MSG_ENCHASER_ITEMISINVALID	宝石镶嵌操作失败！		
+LOC_MSG_ENCHASER_CONDITIONISVALID	宝石镶嵌操作失败！		
+LOC_MSG_ENCHASER_UNCONDITION	宝石镶嵌操作失败！		
+LOC_MSG_STALL_SELL_ERR_GENERIC	摆摊失败！		
+LOC_MSG_STALL_SELL_ERR_PLAYER_LEVEL	%d 级以下民众不能摆摊！		
+LOC_MSG_STALL_SELL_ERR_PLAYER_POSITION	只能在城镇里摆摊！		
+LOC_MSG_STALL_SELL_ERR_PLAYER_STATUS	组队或者交易时不能摆摊！		
+LOC_MSG_STALL_SELL_ERR_ITEM_COUNT	您还没有在摆摊栏放入任何商品！		
+LOC_MSG_STALL_SELL_ERR_ITEM_MARKPRICE	您还没有对 %s 进行标价！		
+LOC_MSG_STALL_SELL_ERR_NO_ADV	您还没有设置广告标语！		
+LOC_MSG_STALL_SELL_START	您失去了所有金钱，忽悠你的，您已经切换成第%d级摆摊状态！-----汉化by象牙塔，QQ群118017134		
+LOC_MSG_STALL_SELL_STOP	您决定收摊了		
+LOC_MSG_STALL_BUY_ERR_NOT_SELLING	摊主已经收摊了！		
+LOC_MSG_STALL_BUY_ERR_ITEM_UNEXISTED	该物品已经被买走或者摊主已经不想卖了！		
+LOC_MSG_STALL_BUY_ERR_ITEM_PRICE_CHANGED	摊主已经改变了该物品的标价！		
+LOC_MSG_STALL_BUY_ERR_NO_SPACE	您的物品栏没有空间了！		
+LOC_MSG_STALL_BUY_ERR_NO_MONEY	您带的钱不够！		
+LOC_MSG_STALL_BUY_ERR_OVER_CARRY	您的负重已经太大了！		
+LOC_MSG_STALL_TRADE_SUCCESS	%s 买走了您摊位上的 %s		
+LOC_MSG_STALL_MARK_PRICE_OVER_LIMIT	请注意，您摊上物品的总标价和身上的钱总和超过了金钱上限！		
+LOC_MSG_REPUTATION_REACH_LEVEL_LIMIT	您的声望已经达到当前等级的上限。		
+LOC_MSG_KILLER_NO_TASK	目前没有通缉任务可以领取！		
+LOC_MSG_KILLER_NO_CANCEL	请遵守杀手的职业道德。		
+LOC_MSG_BOX_MUST_UNLOCK	此物品栏已锁定，请先打开储物箱解锁。		
+LOC_G_COMPOSE_CLEW_1	您缺少必需的生活材料。		
+LOC_G_COMPOSE_CLEW_2	您缺少必需的制作工具。		
+LOC_G_COMPOSE_CLEW_3	您当前的体力不足以制作物品！		
+LOC_G_COMPOSE_CLEW_4	您现在可以合成了！		
+LOC_G_COMPOSE_CLEW_5	没有记录的地点可供制符！		
+LOC_G_COMPOSE_CLEW_6	您当前的背包负重不足以放下制作出来的物品！		
+LOC_G_COMPOSE_CLEW_7	您当前的背包空间不足以放下制作出来的物品！		
+LOC_G_COMPOSE_CLEW_8	您当前选择的配方不允许添加物！		
+LOC_G_COMPOSE_CLEW_9	您所在的地方不能使用该技能。		
+LOC_MSG_COMPOSE_CLEW_1	请稍候...		
+LOC_MSG_COMPOSE_CLEW_2	恭喜您合成成功！		
+LOC_MSG_COMPOSE_CLEW_3	"合成失败,继续努力！"		
+LOC_MSG_COMPOSE_CLEW_4	您已经成功终止合成。		
+LOC_MSG_MULTY_COMPOSE_CLEW	批量制作完成！		
+LOC_MSG_GOLD	金		
+LOC_MSG_SILVER	银		
+LOC_MSG_COPPER	铜		
+LOC_MSG_CANCEL_DELETE_WAIT	这个角色的删除申请已取消了。		
+LOC_MSG_LAST_LOGIN_TIME	您上次进入游戏的时间是%d月%d日%d时%d分，离开时间是%d月%d日%d时%d分，总用时%d小时%d分		
+LOC_MSG_LAST_LOGIN_IP	您上次进入游戏的IP是%s		
+LOC_G_ANTI_PLUG_CLEW	"  请您在下列八个选项中选出与左图第<color=red>%d<color>行第<color=red>%d<color>个字符相同的选项,然后按确认键回答."		
+LOC_G_ANTI_PLUG_CLEW2	"  您现在还有<color=red>%d<color>次机会回答反外挂有奖问答,请在<color=red>%d<color>秒内回答下面问题,谢谢配合!"		
+LOC_G_ANTI_PLUG_CLEW3	"  请您在下列八个选项中选出与左图中的汉字相同的选项,然后按确认键回答."		
+LOC_G_FRIENDLINESS	好感度 %d		
+LOC_G_CONFIRM_WORD	确定		
+LOC_G_CANCEL_WORD	取消		
+LOC_G_NO_WORD	无		
+LOC_G_ACCEPT_WORD	同意		
+LOC_G_ACCEPT1_WORD	接受		
+LOC_G_REFUSE_WORD	拒绝		
+LOC_G_EXIT_GAME_NOW	立刻退出		
+LOC_G_CANCEL_EXIT_GAME	返回游戏		
+LOC_G_EXIT_GAME_LEFT_TIME	             还剩余%2d秒退出游戏...		
+LOC_G_MSG_EXCHANGE_FAIL	前方路途不太通畅，还是过会再来吧。		
+LOC_G_BLACKLIST_UNITNAME	黑名单		
+LOC_G_GSCHANGEDNOTIFY_0	请输入对方名字:		
+LOC_G_GSCHANGEDNOTIFY_1	%s 被加入黑名单。		
+LOC_G_GSCHANGEDNOTIFY_2	"抱歉, 频道还未开放,消息无法发到!"		
+LOC_G_GSCHANGEDNOTIFY_3	%s不在游戏中，他(/她)在下次上线时才会收到您刚才发送的消息。		
+LOC_G_GSCHANGEDNOTIFY_4	"抱歉, %s 不在游戏中,消息无法发到!"		
+LOC_G_GSCHANGEDNOTIFY_5	发送于%d月%d日%d:%02d: 		
+LOC_G_GSCHANGEDNOTIFY_6	GM频道说话，请在前面输入\[gm]\		
+LOC_G_SHORTCUTKEY_0	取消离线时消息转发。		
+LOC_G_SHORTCUTKEY_1	设置离线时转发消息给%s！		
+LOC_G_SHORTCUTKEY_2	设置把消息转发给%s！\n输入 /OfflineTrans 可以取消设置。		
+LOC_G_SHORTCUTKEY_3	游戏设为3D模式，重新启动游戏后生效。		
+LOC_G_SHORTCUTKEY_4	游戏设为2D模式，重新启动游戏后生效。		
+LOC_G_SHORTCUTKEY_5	游戏设定改变为全屏运行，将在下次启动游戏的时候生效。		
+LOC_G_SHORTCUTKEY_6	游戏设定改变为窗口运行，将在下次启动游戏的时候生效。		
+LOC_G_CHATPHRASE_0	可能此刻我正离开，无法回复你！		
+LOC_G_CHATPHRASE_1	练功中，请勿打扰！		
+LOC_G_CHATPHRASE_2	我吃饭去了，一会儿再联系！		
+LOC_G_CHATPHRASE_3	我有事离开一会儿，过会儿再找我！		
+LOC_G_UiChatPhrase_0	请勿使用不合适的词语!		
+LOC_G_UiChatPhrase_1	启用自动回复。		
+LOC_G_UiChatPhrase_2	取消自动回复。		
+LOC_G_UiChatPhrase_3	经验 %d/%d		
+LOC_G_UiChatPhrase_4	练功		
+LOC_G_UiChatPhrase_5	战斗		
+LOC_G_UiChatPhrase_6	屠杀		
+LOC_G_Ui_INTERACTION_APPLY_NO	您现在不能申请和其他玩家交互！		
+LOC_G_Ui_INTERACTION_END	您和对方的玩家交互解散了！		
+LOC_G_TEAM_SELF_NOT_CAPTAIN	您不是队长，不能邀请对方入队！		
+LOC_G_TEAM_OTHER_NOT_CAPTAIN	对方不是队长，请向对方的队长申请加入！		
+LOC_G_TEAM_ALL_IN_TEAM	对方已经在队伍中！		
+LOC_G_DEFAULT_FORMAT_STRING	XXXXXXXX万XXXX两		
+LOC_G_UiChatCentre_0	新建组		
+LOC_G_UiChatCentre_1	重命名组		
+LOC_G_UiChatCentre_2	删除组		
+LOC_G_UiChatCentre_3	发送消息		
+LOC_G_UiChatCentre_4	删除		
+LOC_G_UiChatCentre_5	移动到其它组		
+LOC_G_UiChatCentre_6	其它		
+LOC_G_UiChatCentre_7	输入新的组名称		
+LOC_G_UiChatCentre_8	输入新组的名称		
+LOC_G_UIGAME_0	密聊		
+LOC_G_UIGAME_1	好友		
+LOC_G_UIGAME_2	交易		
+LOC_G_UIGAME_3	申请入队		
+LOC_G_UIGAME_4	组队		
+LOC_G_UIGAME_5	跟随		
+LOC_G_UIGAME_6	信息		
+LOC_G_UIGAME_7	帮会		
+LOC_G_UIGAME_8	切磋		
+LOC_G_UIGAME_9	送钱		
+LOC_G_UIGAME_10	公频关键字		
+LOC_G_UIGAME_11	举报		
+LOC_G_UIGAME_12	World		
+LOC_G_TIME_0	夜半		
+LOC_G_TIME_1	鸡鸣		
+LOC_G_TIME_2	平旦		
+LOC_G_TIME_3	日出		
+LOC_G_TIME_4	食时		
+LOC_G_TIME_5	隅中		
+LOC_G_TIME_6	日中		
+LOC_G_TIME_7	日昳		
+LOC_G_TIME_8	晡时		
+LOC_G_TIME_9	日入		
+LOC_G_TIME_10	黄昏		
+LOC_G_TIME_11	人定		
+LOC_G_TIME_12	子		
+LOC_G_TIME_13	丑		
+LOC_G_TIME_14	寅		
+LOC_G_TIME_15	卯		
+LOC_G_TIME_16	辰		
+LOC_G_TIME_17	巳		
+LOC_G_TIME_18	午		
+LOC_G_TIME_19	未		
+LOC_G_TIME_20	申		
+LOC_G_TIME_21	酉		
+LOC_G_TIME_22	戌		
+LOC_G_TIME_23	亥		
+LOC_G_NUMBER_1	一		
+LOC_G_NUMBER_2	二		
+LOC_G_NUMBER_3	三		
+LOC_G_NUMBER_4	四		
+LOC_G_PLAYERBAR_0	%s%s时%s刻		
+LOC_G_PLAYERBAR_1	%d月%d日 %d:%02d		
+LOC_G_PLAYERBAR_2	请您不要在消息中使用不合适的词语!		
+LOC_G_PLAYERBAR_3	消息将在%d秒后尝试发出!		
+LOC_G_PLAYERBAR_4	千里传音无法连续使用，请您先休息片刻。		
+LOC_G_PLAYERBAR_5	给GM发送消息，请保持一定的时间间隔。		
+LOC_G_PLAYERBAR_6	消息发送失败。		
+LOC_G_PLAYERBAR_7	您的等级不足%d级，无法使用千里传音发送消息。		
+LOC_G_PLAYERBAR_8	您的银两不足%d两，无法使用千里传音发送消息。		
+LOC_G_PLAYERBAR_9	您的内力不足%d点，无法使用千里传音发送消息。		
+LOC_G_PLAYERBAR_10	"您使用千里传音, 花费银两%d两。"		
+LOC_G_PLAYERBAR_11	"您使用千里传音, 消耗内力%d点。"		
+LOC_G_PLAYERBAR_12	10级以下说话每句不能超过7个汉字。		
+LOG_G_PLAYERBAR_13	您的体力不足%d点，无法使用千里传音发送消息。		
+LOG_G_PLAYERBAR_14	"您使用千里传音, 消耗体力%d点。"		
+LOC_G_CONNECTINFO_0	角色名字：%s		
+LOC_G_CONNECTINFO_1	"此账号正在使用中,请输入二级密码"		
+LOC_G_FRIEND_UNITNAME	好友		
+LOC_G_BROTHER_UNITNAME	亲人		
+LOC_G_ENEMY_UNITNAME	仇人		
+LOC_G_MATE_UNITNAME	Spouse 		
+LOC_G_DEFAULT_GROUPNAME	我的		
+LOC_G_STRANGER	陌生人		
+LOC_G_DiceWeaveBingo_0	嘿嘿，这位客官可要下注吗？这可是滚滚的财源喔		
+LOC_G_DiceWeaveBingo_1	没钱可别进来！		
+LOC_G_DiceWeaveBingo_2	哟，这位客官，你可以投色子了		
+LOC_G_DiceWeaveBingo_3	嘿嘿，可惜，客官你输了！		
+LOC_G_DiceWeaveBingo_4	你赢了一些钱		
+LOC_G_DiceWeaveBingo_5	你赢了一笔钱		
+LOC_G_DiceWeaveBingo_6	你中了累积大奖！		
+LOC_G_DiceWeaveBingo_7	这位客官，可想再来一次？		
+LOC_G_EquipRepairAlert_0	你的 %s 看样子马上就要坏了。		
+LOC_G_EquipRepairAlert_1	你感到你的 %s 有了一些裂痕。		
+LOC_G_UiGetString_0	输入的数字太小！		
+LOC_G_UiGetString_1	输入的字串太少！		
+LOC_G_UiGetString_2	输入的字数超过允许的最大长度！		
+LOC_G_UiGetString_3	输入的字串中不可以包含空格		
+LOC_G_ACTIVE_TIME_FORMAT	%d 小时		
+LOC_G_KillerAllTask_0	负		
+LOC_G_KillerAllTask_1	%d万		
+LOC_G_KillerAllTask_2	%04d两		
+LOC_G_KillerAllTask_3	两		
+LOC_G_KillerAllTask_5	%d两		
+LOC_G_KillerAllTask_6	对不起，您没有足够的现金，建立一个通缉任务至少需要纹银		
+LOC_G_KillerAllTask_7	！！		
+LOC_G_KillerAllTask_8	哦，知道了.....		
+LOC_G_MSGCENTREPAD_0	系统		
+LOC_G_MSGCENTREPAD_1	打开		
+LOC_G_MSGCENTREPAD_2	关闭		
+LOC_G_SYSTEM_TASK_ROOT_NAME	世界任务		
+LOC_G_FINISH_TASK_ROOT_NAME	已完成任务		
+LOC_G_CHAIN_TASK_ROOT_NAME	可重复任务		
+LOC_G_UiMsgSel_0	结束对话		
+LOC_G_UiMsgSel_1	[--脚本或脚本处理有错！--]		
+LOC_G_UiMsgSel_2	越子跟你说：		
+LOC_G_MSG_RECONNECTING	正在帮助您进行第 <color=red>%d<color> 次断线重连。\n%s...		
+LOC_G_MSG_WAIT_TO_RECONNECT	%d 秒钟之后将进行第 <color=red>%d<color> 次断线重连。		
+LOC_G_MSG_WAIT_NEXT_GROUP_RECONNECT	%d 秒钟之后将进行下一组断线重连。		
+LOC_G_RECONNECT_QUIT_BTN_LABEL	退出游戏		
+LOC_G_RECONNECT_START_AT_ONCE	立即重连		
+LOC_G_RECONNETMSG_0	此次重连失败		
+LOC_G_RECONNETMSG_1	正在进行账号与密码验证		
+LOC_G_RECONNETMSG_2	正在接收角色列表数据		
+LOC_G_RECONNETMSG_3	正在连接游戏服务器		
+LOC_G_RECONNETMSG_4	正在进入游戏		
+LOC_G_RECONNETMSG_5	点卡不足，请充值后再继续游戏。		
+LOC_G_C_S_GOLD	金		
+LOC_G_C_S_WOOD	木		
+LOC_G_C_S_WATER	水		
+LOC_G_C_S_FIRE	火		
+LOC_G_C_S_EARTH	土		
+LOC_G_SEX_MALE	男		
+LOC_G_SEX_FEMALE	女		
+LOC_G_STALL_0	"您的广告包含不合适的文字,请修改!"		
+LOC_G_MSG_RENASCENCE	你已经身受重伤！		
+LOC_G_MSG_BACK_TO_TOWN	回城休养		
+LOC_G_MSG_KILL_BY_TIXIA	你被提辖杀死，%d秒后才能回城修养！		
+LOC_G_SysMsgCentre_0	%s邀请您加入队伍		
+LOC_G_SysMsgCentre_1	%s申请加入你的队伍		
+LOC_G_SysMsgCentre_2	%s希望与你成为好友		
+LOC_G_SysMsgCentre_3	%s邀请您进行物品交易		
+LOC_G_SysMsgCentre_4	%s希望申请加入你的帮会		
+LOC_G_SysMsgCentre_5	%s代表帮会申请加入你的联盟		
+LOC_G_SysMsgCentre_6	忽略		
+LOC_G_SysMsgCentre_7	接受%s向您发出的互动申请吗？		
+LOC_G_SysMsgCentre_8	"%s[等级:%d,授业等级:%d,带有徒弟:%d名,最多可带徒弟:%d名]愿收你为徒,是否接受?"		
+LOC_G_SysMsgCentre_9	接受%s向您发出的切磋申请吗？		
+LOC_G_TONG_0	长老		
+LOC_G_TONG_1	队长		
+LOC_G_TONG_2	帮众		
+LOC_G_TONG_3	请选择职位		
+LOC_G_TONG_4	请选择详细职位		
+LOC_G_TONG_5	那个位置已经有人了		
+LOC_G_TONG_6	你真的要离开帮会？你需要付出%d两为代价。		
+LOC_G_TONG_7	你真的要解散联盟？		
+LOC_G_TONG_8	你真的要剔除这个帮会吗？		
+LOC_G_TONG_9	你的帮会真的要离开联盟？		
+LOC_G_TONG_10	帮主		
+LOC_G_TONG_11	请输入联盟名字		
+LOC_G_TONG_12	阁下所起的名字，似乎不太恰当吧。		
+LOC_G_TONG_13	%s盟主		
+LOC_G_TONG_14	%s成员		
+LOC_G_TONG_15	  《空缺》         		
+LOC_G_TONG_16	男性		
+LOC_G_TONG_17	女性		
+LOC_G_TONG_18	只发给在线的属下		
+LOC_G_TONG_19	长老:%d人 队长:%d人 帮众:%d人 发放金额总额:%d两		
+LOC_G_TONG_20	(帮会资金不足)		
+LOC_G_TONG_21	发给所有我的属下		
+LOC_G_TONG_22	您真的要离开帮主之位		
+LOC_G_TONG_23	您真的要将此人开除		
+LOC_G_TONG_24	您真的要退出帮会？		
+LOC_G_EXP_UP	恭喜！您的等级已提升，现在可以分配新潜能点		
+LOC_G_NAME_NOT_CORRECT	名字不合法。		
+LOC_G_STALL_ADV_NOT_CORRECT	摆摊广告含有非法字符！		
+LOC_G_TREMBLEITEM_0	请放上至少一颗爻石。		
+LOC_G_TREMBLEITEM_1	请放上想镶嵌爻石的物品。		
+LOC_G_TREMBLEITEM_2	五行宝石只可以放一颗。		
+LOC_G_TREMBLEITEM_3	请放上装备		
+LOC_G_TREMBLEITEM_4	请放上阴爻石		
+LOC_G_TREMBLEITEM_5	请放上阳爻石		
+LOC_G_TREMBLEITEM_6	请放上阴或阳爻石		
+LOC_G_TREMBLEITEM_7	点击确定开始镶嵌		
+LOC_G_TREMBLEITEM_8	或		
+LOC_G_TREMBLEITEM_9	这个物品不能镶嵌了		
+LOC_G_TREMBLEITEM_10	您的%s在打散时损毁了		
+LOC_G_TREMBLEITEM_11	您已经完成套装打散		
+LOC_G_TREMBLEITEM_12	您已经完成灵石提取		
+LOC_G_STR_WAIT_TRADING	等待交易执袆1?		
+LOC_G_STR_OTHER_OK	对方已锁定		
+LOC_G_STR_OTHER_NOT_OK	等待对方锁定		
+LOC_G_STR_OPP_DROP_ITEM	对方新放下一个物品		
+LOC_G_STR_OPP_DROP_SIGN_ITEM	对方放下一个锁魂物品		
+LOC_G_STR_OPP_PICK_ITEM	对方拿走了一个物品		
+LOC_G_STR_OPP_EXCHANGE_ITEM	对方交换了一个物品		
+LOC_G_STR_OPP_EXCHANGE_SIGN_ITEM	对方交换了一个锁魂物品		
+LOC_G_STR_OPP_CHANGE_MONEY	对方改变了金钱数量，现在是%s		
+LOC_G_STR_OPP_CHANGE_LOW_YINPIAO	对方改变了小银票数量，现在是%s		
+LOC_G_STR_OPP_CHANGE_HIGH_YINPIAO	对方改变了大银票数量，现在是%s		
+LOC_G_STR_OPP_LOCK	对方锁定交易		
+LOC_G_STR_MONEY_DESC	%d金%d银%d铜钱		
+LOC_G_STR_PUT_MONEY	您存进了%d个铜钱！		
+LOC_G_STR_GET_MONEY	您取出了%d个铜钱！		
+LOC_G_STR_CANNOT_PUT_QUICKBAR	请先将物品装备在身上或者放入道具栏！		
+LOC_G_STR_STOREBOX_LOCKED	储物箱锁定中，无法进行当前操作！请解锁后再试！		
+LOC_G_STR_BANK_CLOSE	钱庄临时打烊%d分钟，请稍后再来。		
+LOC_G_STR_NORMAL_LOCK	普通锁定		
+LOC_G_STR_SIGN_ITEM	物品锁魂		
+LOC_G_UI_PASSWORD_NOT_MATCH	两次输入的密码不匹配。		
+LOC_G_UI_PASSWORD_CANT_NULL	密码不能为空。		
+LOC_G_UI_BOX_WITHOUT	你还没有额外的箱子。		
+LOC_G_UI_NPC_TRADE_SHIFT	请按Shift加右键卖东西。		
+LOC_G_UI_NPC_TRADE_SHIFT_BIND	绑定物品只能点击卖出按钮才能卖出。		
+LOC_G_UI_PASSWORD_INVALID	密码长度只能为3-8个字符		
+LOC_G_UI_KILLER_NO_TASK	目前没有通缉任务可以领取！		
+LOC_G_UI_KILLER_NO_CANCEL	请遵守杀手的职业道德。		
+LOC_G_UI_DONT_SHOW_TITLE	<  默认  >		
+LOC_G_UI_SHOW_MOOD_PHRASE	<显示绰号>		
+LOC_G_UI_BOTH_WOUND	受了%d级外伤%d级内伤		
+LOC_G_UI_INNER_WOUND	受了%d级内伤		
+LOC_G_UI_OUTER_WOUND	受了%d级外伤		
+LOC_G_UI_NORMAL_TIME_TIP	您现在处于健康游戏时段内\n		
+LOC_G_UI_TIRED_TIME_TIP	您现在处于疲劳游戏时段内，请注意休息\n		
+LOC_G_UI_FORBID_TIME_TIP	您现在处于非健康游戏时段内，请立即下线休息\n		
+LOC_G_UI_ANTI_ENTHRALLMENT	在线时间：%d小时%d分\n离线时间：%d小时%d分		
+LOC_G_UI_STALL_TITLE	%s 的商铺		
+LOC_G_UI_ERROR_POS	坐标不在此地图中		
+LOC_G_UI_ADD_PRACTICE	投入修为数		
+LOC_G_UI_NET_RELAY	网络延迟%d毫秒(越小越好)		
+LOC_G_UI_HOUR	小时		
+LOC_G_UI_MINITUE	分钟		
+LOC_G_UI_STORE_NAME	店名		
+LOC_G_UI_STORE_OWNER	店主		
+LOC_G_UI_STORE_CURPAGE	当前页		
+LOC_G_UI_STORE_INPUT_STORE_NAME_TITLE	创建店铺		
+LOC_G_UI_STORE_BRIEF_NOT_CORRECT	店铺简介含有非法字符！		
+LOC_G_UI_STORE_BRIEF_NOT_ALLOW_EMPTY	店铺简介不可以为空！		
+LOC_G_UI_STORE_CONFIRM_REMOVE_ORDER_TITLE	店铺管理		
+LOC_G_UI_STORE_CONFIRM_REMOVE_ORDER_INFO	您确认取消该订单？		
+LOC_G_UI_STORE_CONFIRM_BUY_BOX_TITLE	增加柜台		
+LOC_G_UI_STORE_CONFIRM_BUY_BOX_INFO	您确认使用%d买第%d个箱子？		
+LOC_G_UI_STORE_CONFIRM_CREATE_SHOP_TITLE	创建店铺		
+LOC_G_UI_STORE_CONFIRM_CREATE_SHOP_INFO	您确认创建店铺: %s？		
+LOC_G_UI_STORE_SELF_ORDER_NOT_EMPTY	请先把订单物品取出。		
+LOC_G_UI_STORE_SELF_ITEM_NOT_FIND	您输入的物品不存在。		
+LOC_G_UI_STORE_SELF_ITEM_NOT_SUPPORT	对不起，您不能收购装备。		
+LOC_G_UI_STORE_OTHER_SELL_NOT_ENOUGH_ITEM	您没有足够物品。		
+LOC_G_UI_STORE_SELF_RENT_FMT	%s/天		
+LOC_G_UI_STORE_SELF_TAX_FMT	%.2f%%		
+LOC_G_UI_STORE_BUY_UNSALEABLE_ITEM	此物品为非卖品。		
+LOC_G_UI_STORE_BUY_UNBUYABLE_ITEM	此物品不能被收购！		
+LOC_G_UI_COMMON_CONFIRM_INVALID_WORD	您的输入含有不合法的字符或者不适合的词汇！		
+LOC_G_UI_DEPOSE_PUTIN_BAGUA_SUIT	请放入八卦套装		
+LOC_G_UI_DEPOSE_PUTIN_BAGUA_ERR	只有八卦套装才可以放入并进行打散操作！		
+LOC_G_UI_DEPOSE_PUTIN_BAGUA_ERR2	八卦套装不能整套进行强化。		
+LOC_G_UI_DEPOSE_PUTIN_ADDON	请放入添加物		
+LOC_G_UI_DEPOSE_LOSS_TITLE	根据您当前放入添加物的价值量，如果进行打散操作：		
+LOC_G_UI_DEPOSE_LOSS_ODD	消失%d件装备的几率是%d%%		
+LOC_G_UI_DEPOSE_NOT_ENOUGH	投入价值量不足10000点，无法进行打散		
+LOC_G_UI_DEPOSE_FINISH	您对装备的打散操作已经完成，请查看随身背包。		
+LOC_G_UI_DEPOSING	套装打散		
+LOC_G_UI_DEPOSE_PRICE	套装打散需金钱：%d\n		
+LOC_G_UI_CURBOOK	当前装备主秘籍：%s，副秘籍：%s。		
+LOC_G_UI_SRD_FREQUENCY_ONCE_A_WEEK	每周一次		
+LOC_G_UI_SRD_FREQUENCY_ONCE_A_DAY	每天一次		
+LOC_G_UI_SRD_FREQUENCY_BEFORE_LOGIN	每次登陆前		
+LOC_G_UI_SRD_FREQUENCY_MANUAL	手动		
+LOC_G_UI_SRD_MUTEX	已经有一个安全模块的实例正在运行		
+LOC_G_UI_SRD_UPDATING	安全模块正在更新...		
+LOC_G_UI_SRD_UPDATE_CANCELING	正在取消安全模块更新...		
+LOC_G_UI_SRD_UPDATE_OVER	安全模块更新结束		
+LOC_G_UI_SRD_UPDATE_SUCCEEDED	安全模块更新成功		
+LOC_G_UI_SRD_UPDATE_FAILED	安全模块更新失败		
+LOC_G_UI_SRD_UPDATE_FAILED_NO_EXE	安全模块更新失败：找不到更新程序		
+LOC_G_UI_SRD_DETECT_FAILED_NO_DLL	安全模块查杀失败：找不到查杀模块		
+LOC_K_SERVER_NAME_PRIFIX	剑侠贰		
+LOC_K_AUTO_UPDATE_EXE	jxonline2.exe		
+LOC_K_UIGAME_0	关键字(空格分隔)		
+LOC_K_SHOT_FOLDER	\\剑网2截图\\		
+LOC_K_CHANNEL_TEAM	队伍		
+LOC_K_CHANNEL_NEARBY	附近		
+LOC_K_SYSTEM_MSG_SENDER_NAME	公告		
+LOC_U_ERR_CODE_0	未知的错误(错误号: %d)		
+LOC_G_SKILLSTATE_LEFTTIME_1	%s\n剩余:%d秒		
+LOC_G_SKILLSTATE_LEFTTIME_2	%s\n剩余:N/A秒		
+LOC_G_DATE_TIME	%d月%d日%d时%d分		
+LOC_G_BOX_UNLOCK_LAPSE_END	您的解锁申请取消了。		
+LOC_G_COMPOSE_LINGSHI_END	灵石合成完毕。		
+LOC_G_THIS_PLACE_CANT_OL	您不能在这里进行离线托管的操作		
+LOC_G_BROKEN_ITEM_NO_USE	完全损坏的物品不能使用		
+LOC_G_ANTI_PLUG_ANNOUNCE	"%s因被判定为使用外挂已被关入天牢,请大家珍爱剑网II,远离外挂!"		
+LOC_G_SAY_TOO_FAST	"您当前无法连续传音,请稍事休息!"		
+LOC_G_K_MESSAGE_SYSTEM_HEAD	系统		
+LOC_G_REPORT_MESSAGE	您被%s举报使用外挂!		
+LOC_REFUND_SCROLL	"使用回程符失败,已经将您消耗的回程符还给您了."		
+LOC_G_FACTIONLEVEL	%s %d级		
+LOC_G_ROLE_STATE_LEFT_TIME1	%s\n剩余:%d小时%d分钟%d秒		
+LOC_G_ROLE_STATE_LEFT_TIME2	%s\n剩余:N/A秒		
+LOC_G_ROLE_STATE_LEFT_TIME3	%s\n剩余:%d分钟%d秒		
+LOC_G_ROLE_STATE_LEFT_TIME4	%s\n剩余:%d秒		
+LOC_G_LOST_REPUTATION	您的声望在%d天内衰减了%d点		
+LOC_G_LOST_FACTION_REPUTATION	您的师门贡献度在%d天内衰减了%d点		
+LOC_G_IB_CLOSE_SHOP	"现在是御街打烊时间,打烊时间为00:30~3:00"		
+LOC_G_CITYWAR_CESS	"当前城市的买卖税为%.1f%%, 摆摊税为%.1f%%"		
+LOC_G_WANT2TAKEONAMASTERROLELIST	准备拜师的玩家列表		
+LOC_G_NOT_GET_FINAL_FUND_ROLE	还未领取最终俸禄的玩家列表		
+LOC_G_INVITE_PRENTICE	%.32s愿收你为徒		
+LOC_G_CHANGE_2_TRUE_P	%s成为正式弟子		
+LOC_G_CHANGE_2_TEMP_P	%s成为临时弟子		
+LOC_G_PRENTICE_BETRAY	%s叛离师门！		
+LOC_G_KICKOUT_PRENTICE	%s被逐出师门！		
+LOC_G_PRENTICE_GRADUATE	%s顺利出师了。		
+LOC_G_MASTER_CREATE_TASK	%s发布了一个师徒任务。		
+LOC_G_COMPLETE_TASK	%s完成了本次师徒任务。		
+LOC_G_MASTER_CHANGE_WORDS	%s修改了师训！		
+LOC_G_CANNOT_CHANGE_WORDS	只有师傅才能修改师训！		
+LOC_G_ALREADY_GET_FINAL	你已经领取过此红利！		
+LOC_G_TIME_NOT_REACH	%d天%d小时%d分后才能领取此红利！		
+LOC_G_MP_LESS_LEVEL	%s等级比你高，不能收其为徒		
+LOC_G_MP_PRENTICE_FULL	您不能收取更多的徒弟		
+LOC_G_MP_ALRADY_RELATION	%s曾与你有师徒关系，不能收其为徒		
+LOC_G_MP_ALRADY_RELATION1	%s已经是你的弟子，不能收其为徒		
+LOC_G_MP_ALRADY_RELATION2	%s已有师徒关系，不能收其为徒		
+LOC_G_MP_MASTER_NOT_GET_TASK	只能接受自己师傅发布的师徒任务		
+LOC_G_MP_SUCESS_SEND_INVITE	您已经向%s发送收徒信息		
+LOC_G_MP_REFUSE_INVITE	%s拒绝拜入你的门下		
+LOC_G_LEVEL_NOT_ENOUGH_GATHER	"您的等级不足10级,不能进行采集"		
+LOC_G_MASTER_CREATE_TASK1	请在师徒面板中点击“领取任务”按钮来接受师徒任务		
+LOC_G_MASTER_CREATE_TASK2	您成功发布了一个师徒任务。		
+LOG_G_FORBID_EQUIP_SOLT_STATE	现在不能更换装备		
+LOC_G_AUTOMOVE_START	前往：		
+LOC_G_AUTOMOVE_END	到达：		
+LOC_G_AUTOMOVE_CANCEL	自动寻路中止		
+LOC_G_AUTOMOVE_FAIL_STATUS	当前状态不能开始自动寻路		
+LOC_CHANGE_PHRASE	这是您今天第%d次改变心情语言，每天最多能改变%d次。		
+LOC_MORE_THAN_MAX_CHANGE_PHRASE_CHANCE	今天您已经改变了%d次心情语言了，不能再改变了。		
+LOC_DEATH_PUNISH_DROP_EXPERIENCE	死亡掉经验		
+LOC_DEATH_PUNISH_DROP_MONEY	死亡掉金钱		
+LOC_IDENTIFY_ITEM	鉴定物品		
+LOC_PRE_PAY	预付金钱		
+LOC_COMMON_REPAIR	普通修理		
+LOC_SUIT_NO_DAMAGE_REPAIR	套装无损修理		
+LOC_NONSUIT_NO_DAMAGE_REPAIR	非套装无损修理		
+LOC_ENHANCE_REPAIR	提升修理		
+LOC_AUTODROP_ITEM	自动爆物品		
+LOC_RIDE_HORSE	上马		
+LOC_SEND_BACK_PREPAY	归还预付金钱		
+LOC_ITEM_COMPOSE_RESULT	物品合成结果		
+LOC_GET_ITEM_FROM_SCRIPT	任务或活动奖励物品		
+LOC_BUY_ITEM	从商店购买物品		
+LOC_SELL_ITEM	向商店出售物品		
+LOC_ITEM_USE	物品使用		
+LOC_TAKE_ITEM_FROM_STOREBOX	从储物箱取出物品		
+LOC_PUT_ITEM_INTO_STOREBOX	放入物品到储物箱		
+LOC_ITEM_DAMAGE	物品损坏		
+LOC_ITEM_ENHANCE_COST	装备强化消耗材料		
+LOC_MONEY_ENHANCE_COST	装备强化消耗金钱		
+LOC_DING_ITEM_ENHANCE_COST	定装备强化度消耗材料		
+LOC_ITEM_ENHANCE_FAIL	装备强化失败		
+LOC_ITEM_ENHANCE_SUCCESS	装备强化成功		
+LOC_GET_EXP_FROM_SCRIPT	任务奖励经验		
+LOC_LOST_EXP_FROM_SCRIPT	任务损失经验		
+LOC_PICK_UP_ITEM	捡取物品		
+LOC_DROP_ITEM	丢弃物品		
+LOC_PUSH_ITEM_TO_BOX	将物品放入玩家的箱子中		
+LOC_PUSH_ITEM_TO_HAND	将物品放入玩家手上		
+LOC_LOG_ACCOUNT_NAME	帐号名		
+LOC_LOG_ROLE_NAME	角色名		
+LOC_LOG_ITEM_NAME	物品名称		
+LOC_LOG_ITEM_G	物品大类		
+LOC_LOG_ITEM_D	物品副类		
+LOC_LOG_ITEM_P	物品详细类型		
+LOC_LOG_ITEM_PRICE	物品价格		
+LOC_LOG_ITEM_GENE_TIME	物品产生时间		
+LOC_LOG_ITEM_SOCKATTRIBUTE	属性编号		
+LOC_LOG_ITEM_SOCKLEVEL	属性等级		
+LOC_LOG_ITEM_SERIES	五行		
+LOC_LOG_ITEM_CURDUR	当前耐久		
+LOC_LOG_ITEM_ENHANSE	强化度		
+LOC_LOG_DROP_EXPERIENCE	损失经验		
+LOC_LOG_EXPERIENCE_AFTER_DROP	剩余经验		
+LOC_LOG_DROP_MONEY	损失金钱		
+LOC_LOG_COST_MONEY	消耗金钱		
+LOC_LOG_RAND_SEED	随机种子		
+LOC_LOG_PREPAY_MONEY	预付金额		
+LOC_LOG_DURABILITY_BEFORE_REPAIR	修理前的耐久		
+LOC_LOG_DURABILITY_AFTER_REPAIR	修理后的耐久		
+LOC_LOG_HORSE_WEARINESS	马的疲劳度		
+LOC_LOG_MAPID	地图		
+LOC_LOG_EXPERIENCE_AWORD	奖励经验		
+LOC_LOG_COST_NUM	消耗数量		
+LOC_LOG_ENHANCETIMES_BEFORE	物品的强化度		
+LOC_OBJ_NONE	 该目标 		
+LOC_OBJ_SELF	 自己 		
+LOC_OBJ_ALLY	 非敌对玩家 		
+LOC_OBJ_ENEMY	 敌人 		
+LOC_OBJ_CORPSE_NONENEMY	 非敌人尸体 		
+LOC_OBJ_CORPSE_ENEMY	 敌人尸体 		
+LOC_OBJ_PLAYER_ENEMY	 玩家敌人 		
+LOC_OBJ_NPC_ENEMY	 怪物 		
+LOC_OBJ_YIN_ENEMY	 妖魔 		
+LOC_ROUTE_NONE	无门无派		
+LOC_ROUTE_SL	少林		
+LOC_ROUTE_SLS	少林俗家		
+LOC_ROUTE_SLC	少林禅宗		
+LOC_ROUTE_SLW	少林武宗		
+LOC_ROUTE_TM_NO	唐门		
+LOC_ROUTE_TM_YES	唐门		
+LOC_ROUTE_EM	峨嵋		
+LOC_ROUTE_EMF	峨嵋佛家		
+LOC_ROUTE_EMS	峨嵋俗家		
+LOC_ROUTE_GB	丐帮		
+LOC_ROUTE_GBJ	丐帮净衣		
+LOC_ROUTE_GBW	丐帮污衣		
+LOC_ROUTE_WD	武当		
+LOC_ROUTE_WDD	武当道家		
+LOC_ROUTE_WDS	武当俗家		
+LOC_ROUTE_YM	杨门		
+LOC_ROUTE_YMQ	杨门枪骑		
+LOC_ROUTE_YMG	杨门弓骑		
+LOC_ROUTE_WUDU	五毒		
+LOC_ROUTE_WUDU_XIE	五毒邪侠		
+LOC_ROUTE_WUDU_GU	五毒蛊师		
+LOC_ROUTE_KUNLUN	昆仑		
+LOC_ROUTE_KUNLUN_TIANSHI	昆仑天师		
+LOC_ROUTE_MINGJIAO	明教		
+LOC_ROUTE_MINGJIAO_SHENGZHAN	明教圣战		
+LOC_ROUTE_MINGJIAO_ZHENBING	明教阵兵		
+LOC_ROUTE_MINGJIAO_XUEREN	明教血人		
+LOC_ROUTE_CUIYAN	翠烟		
+LOC_ROUTE_CUIYAN_DANCER	翠烟舞仙		
+LOC_ROUTE_CUIYAN_LINGNV	翠烟灵女		
+LOC_ROUTE_TANGMEN_RENXIA	唐门贱侠		
+LOC_ROUTE_KUNLUN_JIANZUN	昆仑贱尊		
+LOC_ROUTE_END			
+LOC_SM_BEGIN			
+LOC_SM_HP_HALF_SEC	每半秒回复%d点生命		
+LOC_SM_MP_HALF_SEC	每半秒回复%d点内力		
+LOC_SM_SP_HALF_SEC	每半秒回复%d点体力		
+LOC_SM_HP_10_SEC	每10秒恢复%d点生命		
+LOC_SM_MP_10_SEC	每10秒恢复%d点内力		
+LOC_SM_HP_10_SEC_PER	每10秒恢复%d%%生命		
+LOC_SM_MP_10_SEC_PER	每10秒恢复%d%%内力		
+LOC_SM_HP_HALF_SEC_PER	每半秒回生命%.2f%%		
+LOC_SM_MP_HALF_SEC_PER	每半秒回内力%.2f%%		
+LOC_SM_SP_HALF_SEC_PER	每半秒回体力%.2f%%		
+LOC_SM_LOSSHP_HALF_SEC	每秒生命伤害%d		
+LOC_SM_LOSSMP_HALF_SEC	每秒内力伤害%d		
+LOC_SM_LOSSSP_HALF_SEC	每秒体力伤害%d		
+LOC_SM_HP_SIT	增加打坐生命回复%d点		
+LOC_SM_MP_SIT	增加打坐内力回复%d点		
+LOC_SM_SP_SIT	增加打坐体力回复%d点		
+LOC_SM_CHANGE_DEF	转换目标防御属性为%s属性		
+LOC_SM_INS_ALLDODGE_PER	完全闪避加成%d%%		
+LOC_SM_INS_WEIGHT_POINT	最大负重点数加成%d		
+LOC_SM_INS_WEIGHT_PER	最大负重比例加成%d%%		
+LOC_SM_INS_MP_EXPEND_PER	MP消耗增加%d%%		
+LOC_SM_INS_HP_EXPEND_PER	HP消耗增加%d%%		
+LOC_SM_INS_DMG_BY_STR_PER	力量对攻击力的影响提高%d%%		
+LOC_SM_INS_WEIGHT_BY_STR_PER	力量对负重影响提高%d%%		
+LOC_SM_INS_DEF_BY_VIT_PER	根骨对防御力影响提高%d%%		
+LOC_SM_INS_HP_BY_VIT_PER	根骨对生命值影响提高%d%%		
+LOC_SM_INS_DMG_BY_ENG_PER	内功对内功攻击力影响提高%d%%		
+LOC_SM_INS_MP_BY_ENG_PER	内功对内力值影响提高%d%%		
+LOC_SM_INS_DEF_BY_ENG_PER	内功对内功防御影响提高%d%%		
+LOC_SM_INS_AS_BY_DEX_PER	身法对攻击频率影响提高%d%%		
+LOC_SM_INS_DODGE_BY_DEX_PER	身法对闪避率影响提高%d%%		
+LOC_SM_INT_HIT_BY_DEX_PER	身法对命中值影响提高%d%%		
+LOC_SM_INS_ALLDODGE_BY_OBS_PER	洞察对完全闪避影响提高%d%%		
+LOC_SM_INS_CRIT_BY_OBS_PER	洞察对会心一击率影响提高%d%%		
+LOC_SM_INS_MAXHP	生命最大值增加%d点		
+LOC_SM_INS_MAXHP_PER	生命最大值增加%d%%		
+LOC_SM_INS_MAXMP	内力最大值增加%d点		
+LOC_SM_INS_MAXMP_PER	内力最大值增加%d%%		
+LOC_SM_INS_MAXSP	体力最大值增加%d点		
+LOC_SM_INS_MAXSP_PER	体力最大值增加%d%%		
+LOC_SM_INS_HIT	命中值增加%d点		
+LOC_SM_INS_DODGE	闪避值增加%d点		
+LOC_SM_INS_HIT_PER	命中值增加%d%%		
+LOC_SM_INS_DODGE_PER	闪避值增加%d%%		
+LOC_SM_INS_CRIT	会心一击率增加%d点		
+LOC_SM_INS_SKILLSTART_PER	武功施展速度提高%d%%		
+LOC_SM_INS_SKILLSTOP_PER	武功收招速度提高%d%%		
+LOC_SM_DEC_CD_PER	武功施展间隔削减%d%%		
+LOC_SM_DEC_DOT_TIME_PER	效果发作时间削减%d%%		
+LOC_SM_INS_DU_TIME_PER	中毒时间延长%d%%		
+LOC_SM_INS_SKILLTIME_PER	武功效果持续时间延长%d%%		
+LOC_SM_ABSORB_DMG_PER	内力抵消伤害%d%%		
+LOC_SM_ABSORB_DMG_1_PER	内力抵消伤害比例1:%.2f		
+LOC_SM_INS_MDE_EFFECT_PER	药品效果加成%d%%		
+LOC_SM_RES_WEAPON_DUR	每%d秒自动回复1点武器持久度		
+LOC_SM_RES_CLOTH_DUR	每%d秒自动回复1点衣服持久度		
+LOC_SM_INS_DEF_NEI	装备内功防御加成%d%%		
+LOC_SM_DEC_DEF_NEI	装备内功防御削减%d%%		
+LOC_SM_INS_DEF_NEI_PER	内功比例防御增加%d%%		
+LOC_SM_DEC_DEF_NEI_PER	内功比例防御减少%d%%		
+LOC_SM_INS_DEF_NEI_POINT	内功点数防御增加%d点		
+LOC_SM_INS_DEF_WAI	装备外功防御加成%d%%		
+LOC_SM_DEC_DEF_WAI	装备外功防御削减%d%%		
+LOC_SM_INS_DEF_WAI_PER	外功比例防御增加%d%%		
+LOC_SM_DEC_DEF_WAI_PER	外功比例防御减少%d%%		
+LOC_SM_INS_DEF_WAI_POINT	外功点数防御增加%d点		
+LOC_SM_INS_MOVESPEED_PER	移动速度提高%d%%		
+LOC_SM_DEC_MOVESPEED_PER	移动速度降低%d%%		
+LOC_SM_NO_CHANGE_MOVESPEED	不受减速影响%d%%		
+LOC_SM_NO_CHANGE_ATTACKSPEED	不受迟缓影响%d%%		
+LOC_SM_DEC_DEF_SLEEP	睡眠状态防御降低%d%%		
+LOC_SM_DMG_BY_LEVEL	伤害比例加成%d%%每等级		
+LOC_SM_RES_PK_POINT_PER	pk值回复速度加快%d%%		
+LOC_SM_INS_ATTACKSPEED_PER	攻击速度提高%d%%		
+LOC_SM_DEC_ATTACKSPEED_PER	攻击速度降低%d%%		
+LOC_SM_CANNOT_USESKILL	封招		
+LOC_SM_77			
+LOC_SM_SUPER	超级状态		
+LOC_SM_79			
+LOC_SM_DEC_INJURY_PER	%d次受伤削减%d%%		
+LOC_SM_ADD_DAMAGE_NUM	S赂t th颅卢ng t篓ng %d l脟n		
+LOC_SM_ADD_DAMAGE_PERCENT	S赂t th颅卢ng t篓ng %d %%		
+LOC_SM_INS_RES_INJURY_NEI	加快内伤回复		
+LOC_SM_INS_RES_INJURY_WAI	加快外伤回复		
+LOC_SM_85	允许回复%d级内伤		
+LOC_SM_86	允许回复%d级外伤		
+LOC_SM_INS_DMG_WAI_PER	外功攻击力提高%d%%		
+LOC_SM_INS_DMG_NEI_PER	内功攻击力提高%d%%		
+LOC_SM_DEC_DMG_WAI_PER	外功攻击力减少%d%%		
+LOC_SM_DEC_DMG_NEI_PER	内功攻击力减少%d%%		
+LOC_SM_INS_DMG_WAI_POINT	外功攻击力增加%d点		
+LOC_SM_INS_DMG_NEI_POINT	内功攻击力增加%d点		
+LOC_SM_91			
+LOC_SM_INS_ATTDMG_PER	提高%s属性攻击%d%%		
+LOC_SM_INS_DMG_BY_LOSSHP	每损失1%%生命攻击力提高%.1f%%		
+LOC_SM_94			
+LOC_SM_INS_DMG_WEAPON_PER	%s类武器攻击力加成%d%%		
+LOC_SM_INS_DMG_WEAPON_POINT	%s类武器攻击力增加%d		
+LOC_SM_CAST	发动%s		
+LOC_SM_SLEEP_ENEMY_PER	%d%%的概率致敌睡眠		
+LOC_SM_PALSY_ENEMY_PER	%d%%的概率致敌麻痹		
+LOC_SM_CONFUSE_ENEMY_PER	%d%%的概率致敌混乱		
+LOC_SM_STOP_ENEMY_PER	%d%%的概率致敌定身		
+LOC_SM_STUN_ENEMY_PER	%d%%的概率致敌眩晕		
+LOC_SM_DEC_HP_PER	生命上限降低%d%%		
+LOC_SM_DEC_MP_PER	内力上限降低%d%%		
+LOC_SM_DEC_SP_PER	体力上限降低%d%%		
+LOC_SM_CANNOT_USE_WEAPON	限制武器使用%s		
+LOC_SM_INS_ATTACK_RANGE	提高攻击距离%d 		
+LOC_SM_CHANGE_DMG_2_MP	%d%%伤害转化为内力		
+LOC_SM_2_MAX_DMG	攻击上升到最大值		
+LOC_SM_110			
+LOC_SM_111			
+LOC_SM_WEAPON_EFFECT	%s类武器辅助效果加成%d%%		
+LOC_SM_INS_WEAPON_EFFECT	%s类武器辅助效果成功概率提高%d%%		
+LOC_SM_REMOVE_MOVEABLE	移动除去		
+LOC_SM_DEC_INJURY_TIME	受伤动作时间削减%d%%		
+LOC_SM_REDMG_NEI_PER	内功攻击反弹%d%%		
+LOC_SM_REDMG_WAI_PER	外功攻击反弹%d%%		
+LOC_SM_REDMG_NEI_POINT	内功伤害反弹%d点		
+LOC_SM_REDMG_WAI_POINT	外功伤害反弹%d点		
+LOC_SM_DEC_BREAK_SKILL	降低武功打断概率%d%%		
+LOC_SM_DEC_EFFECT_STEALED	偷取攻击技能效果削减%d级		
+LOC_SM_REATTACK	%d%%概率反击		
+LOC_SM_DMG_REATTACK	反击攻击力%d		
+LOC_SM_CANNOT_USE_SKILL	武功不能施展		
+LOC_SM_NO_STEALHP	抵御吸取生命武功		
+LOC_SM_NO_STEALMP	抵御吸取内力武功		
+LOC_SM_CONSTDMG_PER	%d%%概率稳定伤害		
+LOC_SM_LET_ESCAPE	影响心智开始逃走		
+LOC_SM_NO_RES_HP	破坏体质不能恢复生命		
+LOC_SM_NO_RES_MP	破坏体质不能恢复内力		
+LOC_SM_NO_LOSS_DUR	一定技巧让武器攻击时不磨损		
+LOC_SM_RENEW_ANQI_10_SEC	每10秒补充暗器%d个		
+LOC_SM_USE_MP_10_SEC	每10秒消耗内力%d点		
+LOC_SM_USE_HP_10_SEC	每10秒消耗生命%d点		
+LOC_SM_IGNORE_DODGE	%d%%概率无视对方闪避		
+LOC_SM_IGNORE_DEF	%d%%概率无视对方防御		
+LOC_SM_RES_INJURY_NEI	恢复内伤%d点		
+LOC_SM_RES_INJURY_WAI	恢复外伤%d点		
+LOC_SM_MAX_DMG_PER	%d%%几率打出最高伤害		
+LOC_SM_INS_HP	增加生命%d点		
+LOC_SM_INS_MP	增加内力%d点		
+LOC_SM_INS_STR	增加力量%d点		
+LOC_SM_INS_ENERGY	增加内功%d点		
+LOC_SM_INS_VIT	增加根骨%d点		
+LOC_SM_INS_DEX	增加身法%d点		
+LOC_SM_INS_OBS	增加洞察%d点		
+LOC_SM_INS_ATTACK_BUFFTIME_PER	主动攻击辅助时间增加%d%%		
+LOC_SM_INS_DEF_BUFFTIME_PER	主动防御辅助时间增加%d%%		
+LOC_SM_INS_DMG_2_GHOST	对阴系对手伤害增加%d点		
+LOC_SM_INS_HIT_2_GHOST	对阴系对手命中增加%d点		
+LOC_SM_151			
+LOC_SM_152			
+LOC_SM_153			
+LOC_SM_154			
+LOC_SM_155			
+LOC_SM_156			
+LOC_SM_157			
+LOC_SM_158			
+LOC_SM_159			
+LOC_SM_160			
+LOC_SM_161			
+LOC_SM_162			
+LOC_SM_163			
+LOC_SM_164			
+LOC_SM_165			
+LOC_SM_166			
+LOC_SM_167			
+LOC_SM_168			
+LOC_SM_169			
+LOC_SM_170			
+LOC_SM_171			
+LOC_SM_172			
+LOC_SM_173			
+LOC_SM_174			
+LOC_SM_175			
+LOC_SM_176			
+LOC_SM_177			
+LOC_SM_178			
+LOC_SM_179			
+LOC_SM_180			
+LOC_SM_181			
+LOC_SM_FIND_TRAP_AREA	侦察陷阱范围%d		
+LOC_SM_FIND_TRAP	侦察陷阱:%s		
+LOC_SM_185			
+LOC_SM_FAZHAO_INC	武功发招概率提高%d%%		
+LOC_SM_187			
+LOC_SM_DEC_MP_BY_USE	武功消耗内力削减%d%%		
+LOC_SM_DEC_HP_BY_USE	武功消耗生命削减%d%%		
+LOC_SM_190			
+LOC_SM_191			
+LOC_SM_192			
+LOC_SM_PHYSICAL_DEFENCE_POINT_DEC	Ngo鹿i ph脽ng gi露m %d 		
+LOC_SM_INS_STR_PER	力量增加%d%%		
+LOC_SM_INS_VIT_PER	根骨增加%d%%		
+LOC_SM_INS_ENERGY_PER	内功增加%d%%		
+LOC_SM_196			
+LOC_SM_INS_DEX_PER	身法增加%d%%		
+LOC_SM_198			
+LOC_SM_199			
+LOC_SM_200			
+LOC_SM_201			
+LOC_SM_202			
+LOC_SM_203			
+LOC_SM_204			
+LOC_SM_205			
+LOC_SM_206			
+LOC_SM_207			
+LOC_SM_IDENTIFY_MONSTER_LV	怪物识别等级: %d		
+LOC_SM_INS_EFFECT_ATTACK	攻击性辅助武功效果加成%d%%		
+LOC_SM_INS_EFFECT_DEF	防御性辅助武功效果加成%d%%		
+LOC_SM_POISON_POINT	淬毒%d点		
+LOC_SM_212			
+LOC_SM_223			
+LOC_SM_INS_ATTACK_WEAPON_PER	%s类武器攻击力加成%d%%		
+LOC_SM_INS_ATTACK_WEAPON	%s类武器攻击力增加%d		
+LOC_SM_DEC_TIME_QIN	减少琴类武功后延时%.1f秒		
+LOC_SM_RES_HP_PER	生命点数恢复加成%d%%		
+LOC_SM_INS_PROBABILITY_ZHANG	禅杖辅助类武功成功概率加成%d%%		
+LOC_SM_BE_HIT_LOSS_HP_PER	被击中者武功施放掉血%d%%		
+LOC_SM_CURE_INJURY_NEI_LV	治疗%d级及其以下内伤		
+LOC_SM_CURE_INJURY_WAI_LV	治疗%d级及其以下外伤		
+LOC_SM_DOT_DEMON_1_SEC	对妖魔每秒伤害%d点		
+LOC_SM_INS_BUFFTIME_QIN	延长琴的效果时间%d%%		
+LOC_SM_INS_DODGE_BY_OBS_PER	洞察对闪避的影响提高%d%%		
+LOC_SM_225			
+LOC_SM_DEC_DMG_BY_POISON	减轻毒伤害%d点		
+LOC_SM_227			
+LOC_SM_228			
+LOC_SM_229			
+LOC_SM_230			
+LOC_SM_231			
+LOC_SM_232			
+LOC_SM_233			
+LOC_SM_234			
+LOC_SM_235			
+LOC_SM_236			
+LOC_SM_MABI_IMMU	麻痹免疫		
+LOC_SM_XUANYUN_IMMU	眩晕免疫		
+LOC_SM_DINGSHEN_IMMU	定身免疫		
+LOC_SM_HUNLUAN_IMMU	混乱免疫		
+LOC_SM_HUNSHUI_IMMU	昏睡免疫		
+LOC_SM_CHIHUAN_IMMU	迟缓免疫		
+LOC_SM_JIANSU_IMMU	减速免疫		
+LOC_SM_JIDAO_IMMU	击倒免疫		
+LOC_SM_JITUI_IMMU	击退免疫		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+LOC_SM_DISPEAR	回避所有技能效果		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+LOC_SM_INS_ALL_STATUS	所有属性增加%d点		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+LOC_SM_JINENG_RANGE_ADD	技能使用范围扩大%d%%		
+LOC_SM_JINENG_INTERVAL_IGN	技能使用没有间隔		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+LOC_SM_LIFE_PERCENT_ADD	生命回复%d%%		
+LOC_SM_NEILI_PERCENT_ADD	内力回复%d%%		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+LOC_SM_CLEAR_SKILL_INTERVAL	技能间隔立即消除		
+LOC_SERIES_NONE	无		
+LOC_SERIES_GOLD	金		
+LOC_SERIES_WOOD	木		
+LOC_SERIES_WATER	水		
+LOC_SERIES_FIRE	火		
+LOC_SERIES_EARTH	土		
+LOC_SERIES_GHOST	阴		
+LOC_SERIES_BY_WEAPON	依赖武器		
+LOC_FACTION_NONE			
+LOC_FACTION_SL	少林		
+LOC_FACTION_WD	武当		
+LOC_FACTION_EM	峨嵋		
+LOC_FACTION_GB	丐帮		
+LOC_FACTION_TM	唐门		
+LOC_FACTION_YM	杨门		
+LOC_FACTION_WUDU	五毒		
+LOC_FACTION_KUNLUN	昆仑		
+LOC_FACTION_MINGJIAO	明教		
+LOC_FACTION_CUIYAN	翠烟		
+LOC_ED_NONE	无		
+LOC_ED_KAN	坎		
+LOC_ED_KUN	坤		
+LOC_ED_ZHEN	震		
+LOC_ED_XUN	巽		
+LOC_ED_CENTER	极		
+LOC_ED_QIAN	乾		
+LOC_ED_DUI	兑		
+LOC_ED_GEN	艮		
+LOC_ED_LI	离		
+LOC_ED_TIAN	天		
+LOC_ED_DI	地		
+LOC_ITEM_PART_HEAD	帽子		
+LOC_ITEM_PART_CLOTH	衣服		
+LOC_ITEM_PART_WEAPON	武器		
+LOC_ITEM_PART_SHOES	下衣		
+LOC_GATHER_1	采集1		
+LOC_GATHER_2	采集2		
+LOC_COMPOSE_JH	江湖		
+LOC_COMPOSE_CHANG	长武器锻造		
+LOC_COMPOSE_DUAN	短武器锻造		
+LOC_COMPOSE_QIMEN	奇门武器锻造		
+LOC_COMPOSE_ZHI	织造		
+LOC_COMPOSE_DAN	炼丹		
+LOC_COMPOSE_COOK	烹饪		
+LOC_COMPOSE_FU	画符		
+LOC_BODY_MALE_STANDARD	标准男体型		
+LOC_BODY_MALE_STRONG	魁梧男体型		
+LOC_BODY_FEMALE_SEXY	性感女体型		
+LOC_BODY_FEMALE_STANDARD	娇小女体型		
+LOC_SS_01	非法		
+LOC_SS_02	未分配		
+LOC_SS_03	创建中		
+LOC_SS_04	营业中		
+LOC_SS_05	关闭		
+LOC_SS_06	待售		
+LOC_SS_07	封闭		
+LOC_SST_01	收藏的店铺		
+LOC_SST_02	所有分类		
+LOC_SST_03	武器防具		
+LOC_SST_04	生活材料		
+LOC_SST_05	收集品		
+LOC_SST_06	其他		
+LOC_LST_01	江湖技艺		
+LOC_LST_02	制造技能		
+LOC_LST_03	采集技能		
+LOC_CS_01	江湖技艺		
+LOC_CS_02	长武器锻造		
+LOC_CS_03	短武器锻造		
+LOC_CS_04	奇门武器锻造		
+LOC_CS_05	织  造		
+LOC_CS_06	炼  丹		
+LOC_CS_07	烹  饪		
+LOC_CS_08	制  符		
+LOC_GS_01	伐 木		
+LOC_GS_02	制 皮		
+LOC_GS_03	收 耕		
+LOC_GS_04	采 药		
+LOC_GS_05	挖 矿		
+LOC_GS_06	抽 丝		
+LOC_SSP_01	眩晕		
+LOC_SSP_02	混乱		
+LOC_SSP_03	睡眠		
+LOC_SSP_04	麻痹		
+LOC_SSP_05	定身		
+LOC_SSP_06	中毒		
+LOC_SSP_07	减速		
+LOC_SSP_08	迟缓		
+LOC_SSP_09	明查秋毫		
+LOC_SSP_10	金钟罩		
+LOC_SSP_11	慧眼咒		
+LOC_SSP_12	罗汉阵		
+LOC_SSP_13	五转指		
+LOC_SSP_14	破魔咒		
+LOC_SSP_15	金刚不坏		
+LOC_SSP_16	无相神功		
+LOC_SSP_17	不动明王咒		
+LOC_SSP_18	心眼		
+LOC_SSP_19	淬毒秘术		
+LOC_SSP_20	含沙射影		
+LOC_SSP_21	观音诀		
+LOC_SSP_22	渡元诀		
+LOC_SSP_23	佛光普照		
+LOC_SSP_24	莲华心经		
+LOC_SSP_25	流水诀		
+LOC_SSP_26	不灭心法		
+LOC_SSP_27	佛光战气		
+LOC_SSP_28	佛音战意		
+LOC_SSP_29	通臂拳		
+LOC_SSP_30	千斤闸		
+LOC_SSP_31	锁喉擒拿手		
+LOC_SSP_32	逍遥游		
+LOC_SSP_33	醉蝶		
+LOC_SSP_34	醉拳		
+LOC_SSP_35	泥鳅功		
+LOC_SSP_36	偷天换日		
+LOC_SSP_37	无我心法		
+LOC_SSP_38	太乙逍遥功		
+LOC_SSP_39	北斗七星阵		
+LOC_SSP_40	霸王卸甲		
+LOC_SSP_41	缠梦剑意		
+LOC_SSP_42	落霜剑意		
+LOC_SSP_43	月蚀曲		
+LOC_SSP_44	静夜思		
+LOC_SSP_45	阳关三叠		
+LOC_SSP_46	乌夜啼		
+LOC_SSP_47	少林龙爪手		
+LOC_SSP_48	迷惑		
+LOC_SSP_49	金蝉功		
+LOC_SSP_50	潜龙神功		
+LOC_SSP_51	如意锁元功		
+LOC_SSP_52	镇军三啸诀		
+LOC_SSP_53	天霞神功		
+LOC_SSP_54	无尘神功		
+LOC_SSP_55	修罗功		
+LOC_SSP_56	沾衣十八跌		
+LOC_SSP_57	紫霞神功		
+LOC_SSP_58	杨家幻神诀		
+LOC_SSP_59	杨家奇门盾		
+LOC_SSP_60	杨家续命诀		
+LOC_SSP_61	杨家英雄气		
+LOC_SSP_62	杨家战定诀		
+LOC_SSP_63	蠶蛊		
+LOC_SSP_64	毒蛊		
+LOC_SSP_65	幻蛊		
+LOC_SSP_66	灵蛊		
+LOC_SSP_67	魔蛊		
+LOC_SSP_68	尸蛊		
+LOC_SSP_69	香蛊		
+LOC_SSP_70	心蛊		
+LOC_SSP_71	血蛊		
+LOC_SSP_72	妖蛊		
+LOC_SSP_73	封招		
+LOC_SSP_74	禁物		
+LOC_SSP_75	替身符		
+LOC_SSP_76	蓬莱仙水		
+LOC_SSP_77	蓬莱仙露		
+LOC_SSP_78	蓬莱仙丹		
+LOC_SSP_79	蓬莱露水		
+LOC_SSP_80	蝶恋		
+LOC_SSP_81	Custom0		
+LOC_SSP_82	Custom1		
+LOC_SSP_83	Custom2		
+LOC_SSP_84	Custom3		
+LOC_SSP_85	Custom4		
+LOC_SSP_86	Custom5		
+LOC_SSP_87	Custom6		
+LOC_SSP_88	Custom7		
+LOC_SSP_89	Custom8		
+LOC_SSP_90	Custom9		
+LOC_SSP_91	Kim T谩a Tr脣n		
+LOC_SSP_92	Hu峄穘 Th帽y Tr脣n		
+LOC_SSP_93	Phong Binh L脰nh		
+LOC_SSP_94	B碌n M茅c Tr脣n		
+LOC_SSP_95	T脢n 露nh L脰nh		
+LOC_SSP_96	C碌n Kh芦n Ngh虄ch Chuy脫n		
+LOC_SSP_97	Nghi脰p H谩a Tr脣n		
+LOC_SSP_98	Th忙 Lao Tr脣n		
+LOC_SSP_99	Ng蹋 Linh Quy Nguy陋n		
+LOC_SSP_100	Quang Minh Ng蹋 H碌nh Tr脣n		
+LOC_SSP_101	搂o鹿n C猫t Tr露o		
+LOC_SSP_102	H帽 Th颅卢ng 脢n		
+LOC_SSP_103	B篓ng Huy茽t 脢n		
+LOC_SSP_104	H脢p Huy茽t 脢n		
+LOC_SSP_105	H碌n Huy茽t 脢n		
+LOC_SSP_106	Th漂ch C猫t 脢n		
+LOC_SSP_107	Truy H氓n 脢n		
+LOC_SSP_108	Th漂 C露nh Tr露o		
+LOC_SSP_109	H碌n B篓ng Huy茽t Ch颅铆ng		
+LOC_SSP_110	H膬a Huy茽t 脢n		
+LOC_SSP_111	V脡n Th颅卢ng 脢n		
+LOC_SSP_112	H碌n B篓ng Mi陋n Ch颅毛ng		
+LOC_SSP_113	H碌n B篓ng Ng颅ng Huy茽t 脢n		
+LOC_SSP_114	Kh毛i 峁?		
+LOC_SSP_115	Linh Mi陋u V脣n		
+LOC_SSP_116	M虄 Hoa		
+LOC_SSP_117	搂o鹿n V漏n Quy茽t 		
+LOC_SSP_118	Thu Nguy脰t Ph贸		
+LOC_SSP_119	搂i脰p O赂n		
+LOC_SSP_120	Thi陋n H谩a Di脭m D颅卢ng		
+LOC_SSP_121	M茅ng X碌		
+LOC_SSP_122	Loan Ph么ng C枚u Thi陋n		
+LOC_SSP_123	T贸y M茅ng Ng漏m		
+LOC_SSP_124	L鹿c Hoa Quy茽t		
+LOC_SSP_125	搂碌o hoa ch颅卢ng		
+LOC_SSP_126	T谩a T漏m Quy茽t		
+LOC_SSP_127	Linh 搂茅ng Quy茽t		
+LOC_SSP_128	M陋 X露o Quy茽t		
+LOC_SSP_129	Ti陋n L颅 H颅卢ng		
+LOC_SSP_130	搂i脰p Luy茽n Hoa		
+LOC_SSP_131	C枚u V眉 Hoa Ti陋n Quy茽t		
+LOC_SSP_132	Ph氓n Hoa M脣u		
+LOC_SSP_133	T篓ng s酶c m鹿nh		
+LOC_SSP_134	T篓ng th漏n ph赂p		
+LOC_SSP_135	T篓ng n茅i c芦ng		
+LOC_SSP_136	T篓ng linh ho鹿t		
+LOC_SSP_137	T篓ng g漏n c猫t		
+LOC_SSP_138	S赂t 瓢		
+LOC_SSP_139	H莽n 搂茅n 搂脢u Ph赂ch		
+LOC_SSP_140	Luy脰n Ki茽m-S漂 H碌n		
+LOC_SSP_141	Luy脰n Ki茽m-Thi陋n Minh		
+LOC_SSP_142	Luy脰n Ki茽m-Phong C脣n		
+LOC_SSP_143	Ki茽m Th帽 Kh芦ng Minh-Ch漂nh		
+LOC_SSP_144	Ki茽m Th帽 Kh芦ng Minh-Ph么		
+LOC_SSP_145	Thi陋n Phong Tr么y		
+LOC_SSP_146	Ki茽m 瓢 Ph露n X鹿		
+LOC_SSP_147	Ph氓n Hoa-H颅 Nh颅卯c		
+LOC_SSP_148	赂p ch茽		
+LOC_SSP_149	C脢m v脣t		
+LOC_SSP_150	Th茽 Th漏n ph茂		
+LOC_SSP_151	B氓ng Lai Ti陋n Th帽y		
+LOC_SSP_152	B氓ng Lai Ti陋n L茅		
+LOC_SSP_153	B氓ng Lai Ti陋n 搂卢n		
+LOC_SSP_154	B氓ng Lai L茅 Th帽y		
+LOC_SSP_155	搂i脰p Luy茽n		
+LOC_SSP_156	Custom0		
+LOC_SSP_157	Custom1		
+LOC_SSP_158	Custom2		
+LOC_SSP_159	Custom3		
+LOC_SSP_160	Custom4		
+LOC_SSP_161	Custom5		
+LOC_SSP_162	Custom6		
+LOC_SSP_163	Custom7		
+LOC_SSP_164	Custom8		
+LOC_SSP_165	Custom9		
+LOC_SAR_01	无效返回值		
+LOC_SAR_02	操作成功		
+LOC_SAR_03	操作失败		
+LOC_SAR_04	错误的商店编号		
+LOC_SAR_05	没有操作权限		
+LOC_SAR_06	身上里的钱不够		
+LOC_SAR_07	商店中的钱不够		
+LOC_SAR_08	错误的商店类型		
+LOC_SAR_09	获取箱子里的道具信息失败		
+LOC_SAR_10	获取商店信息失败		
+LOC_SAR_11	获取商店列表失败		
+LOC_SAR_12	删除商店失败		
+LOC_SAR_13	打开商店失败		
+LOC_SAR_14	关闭商店失败		
+LOC_SAR_15	设置物品状态失败		
+LOC_SAR_16	设置物品价格失败		
+LOC_SAR_17	手上没有物品		
+LOC_SAR_18	不是出售箱		
+LOC_SAR_19	不是收购箱		
+LOC_SAR_20	错误的物品状态		
+LOC_SAR_21	商店中的当前箱子的物品已满		
+LOC_SAR_22	商店中的金钱已满		
+LOC_SAR_23	道具栏中的物品已满		
+LOC_SAR_24	道具栏中的金钱已满		
+LOC_SAR_25	还没收购到物品		
+LOC_SAR_26	要购买的物品和店里的不匹配		
+LOC_SAR_27	错误的物品数量		
+LOC_SAR_28	要出售的物品和店里的不匹配		
+LOC_SAR_29	"已收购到物品,不能取消收购"		
+LOC_SAR_30	要出售的物品数量超过了店里收购的数量		
+LOC_SAR_31	商店未打开		
+LOC_SAR_32	没有新的商店列表		
+LOC_SAR_33	没有新的商店信息		
+LOC_SAR_34	没有新的箱子数据		
+LOC_SAR_35	没有对应的商店道具		
+LOC_SAR_36	暂时不能使用这种商店道具		
+LOC_SAR_37	因为商店被诅咒而使正面道具失效		
+LOC_SAR_38	因为商店被保护而使负面道具失效		
+LOC_SAR_39	已经有了正面道具的效果了		
+LOC_SAR_40	已经有了负面道具的效果了		
+LOC_SAR_41	已经达到上升排名的最大值		
+LOC_SAR_42	已经达到下降排名的最大值		
+LOC_SAR_43	您的等级太低		
+LOC_SAR_44	不能再购买更多的箱子了		
+LOC_SAR_45	您要创建的商店名字已经存在！		
+LOC_A_G_UIGAME_QUERY_POS	获取坐标（消耗神行%d点）		
+LOC_A_G_UIGAME_0	密聊		
+LOC_A_G_UIGAME_1	好友		
+LOC_A_G_UIGAME_2	交易		
+LOC_A_G_UIGAME_3	申请入队		
+LOC_A_G_UIGAME_4	组队		
+LOC_A_G_UIGAME_5	跟随		
+LOC_A_G_UIGAME_6	信息		
+LOC_A_G_UIGAME_7	帮会		
+LOC_A_G_BLACKLIST_UNITNAME	黑名单		
+LOC_A_G_UIGAME_8	切磋		
+LOC_A_G_UIGAME_9	送钱		
+LOC_A_G_UIGAME_10	公频关键字		
+LOC_A_G_UIGAME_11	报告		
+LOC_A_G_UIGAME_12	通缉名单		
+LOC_A_G_UIGAME_13	无效项		
+LOC_C_CHANNEL_TEAM	队伍		
+LOC_C_FACTION	Faction#		
+LOC_C_TONG	帮会		
+LOC_C_CHANNEL_NEARBY	附近		
+LOC_C_GM	GM		
+LOC_C_TONG_UNION	TongUnion#		
+LOC_FAVORITE_NPC_MENU_COLLECT	收藏		
+LOC_FAVORITE_NPC_MENU_DELETE	删除		
+LOC_SKILL_VALID_ENEMY_PLAYER	玩家敌人		
+LOC_SKILL_VALID_ENEMY_NPC	怪物		
+LOC_SKILL_VALID_ENEMY_YIN	妖魔		
+LOC_SKILL_VALID_CORPSE_KIND_0	动物尸体		
+LOC_SKILL_VALID_CORPSE_KIND_1	人型尸体		
+LOC_SKILL_VALID_CORPSE_KIND_2	阴属性尸体		
+LOC_SKILL_VALID_CORPSE_KIND_PLAYER	玩家尸体		
+LOC_SKILL_VALID_REVIVAL_OWN	自己的召唤对象		
+LOC_SKILL_VALID_REVIVAL_ALLY	友方的召唤对象		
+LOC_SKILL_VALID_REVIVAL_ENEMY	敌方的召唤对象		
+LOC_RELATION_NONE			
+LOC_RELATION_SELF	自己		
+LOC_RELATION_ALLY	友方		
+LOC_RELATION_ENEMY	敌人		
+LOC_RELATION_CORPSE_NONENEMY	非敌人尸体 		
+LOC_RELATION_CORPSE_ENEMY	敌人尸体 		
+LOC_RELATION_DIALOG			
+LOC_RELATION_OBJECT			
+LOC_RELATION_HORSE			
+LOC_RELATION_NONENEMY	非敌方		
+LOC_RELATION_SAMECAMP	同阵营		
+LOC_RELATION_RESERVED_1			
+LOC_RELATION_RESERVED_2			
+LOC_RELATION_REVIVAL	复活尸体		
+LOC_TRUSTEESHIP_1			
+LOC_TRUSTEESHIP_2	白驹丸		
+LOC_TRUSTEESHIP_3	神农丹		
+LOC_TRUSTEESHIP_4			
+LOC_TRUSTEESHIP_5	太白金丹		
+LOC_ACTION_NAME_1	双人共骑		
+LOC_ACTION_NAME_2	双人携手		
+LOC_ACTION_NAME_3	背负		
+LOC_ACTION_NAME_4	怀抱		
+LOC_ACTION_NAME_5	亲吻		
+LOC_ACTION_NAME_6	安慰		
+LOC_TM_TITLE_LEADER	帮主		
+LOC_TM_TITLE_VICE_LEADER	副帮主		
+LOC_TM_TITLE_ELDER_LEADER	长老		
+LOC_TM_TITLE_SECTION_LEADER	堂主		
+LOC_TM_TITLE_CHILD_SECTION_LEADER	香主		
+LOC_TM_TITLE_NORMAL_MEMBER	帮众		
+LOC_DEF_REPLAY_1	可能此刻我正离开，无法回复你！		
+LOC_DEF_REPLAY_2	练功中，请勿打扰！		
+LOC_DEF_REPLAY_3	我吃饭去了，一会儿再联系！		
+LOC_DEF_REPLAY_4	我有事离开一会儿，过会儿再找我！		
+LOC_GRUP_MENU_1	新建组		
+LOC_GRUP_MENU_2	重命名组		
+LOC_GRUP_MENU_3	删除组		
+LOC_FRIEND_MENU_1	获取坐标（消耗神行%d点）		
+LOC_FRIEND_MENU_2	发送消息		
+LOC_FRIEND_MENU_3	移动到其它组		
+LOC_FRIEND_MENU_4	删除		
+LOC_SAY_TOO_FAST	Kh芦ng th脫 ph赂t tin li陋n t么c! Xin 庐卯i gi漏y l赂t!		
+LOC_CANNOT_ADDPROPERTY	"B鹿n 庐路 r脢t m脰t m谩i, kh芦ng th脫 th霉c hi脰n thao t赂c n碌y!"		
+LOC_CANNOT_OFFLINE	"Hi脰n t鹿i ng颅锚i ch卢i qu赂 庐芦ng, h路y 庐卯i l贸c kh赂c m铆i c膬 th脫 帽y th赂c r锚i m鹿ng.!"		
+LOC_A_TREASURE_DESC_BAGUA_ITEM	八卦套		
+LOC_A_TREASURE_DESC_MONEY	游戏币		
+LOC_A_TREASURE_DESC_BIG_YINGPIAO	金币		
+LOC_A_TREASURE_DESC_SMALL_YINPIAO	金币		
+LOC_A_TREASURE_DESC_SCRIPT	脚本		
+LOC_A_TREASURE_DESC_GOLDCOIN	金币		
+LOC_TRADE_GOLD_COIN_WITH_BOX_LOCK	储物箱锁定时不能交易金币!		
+LOC_K_MESSAGE_USE_EXCHAGE_FAIL	您刚才在钱庄老板处使用%d个金币充%d小时的操作失败，请重新操作！		
+LOC_K_MESSAGE_USE_EXCHAGE_SUCCESS	您刚才在钱庄老板处成功使用%d个金币充%d小时！		
+LOC_TRADE_GOLD_COIN_MSG	"交易带有金币,处理需要一定时间,请稍后到xxx处领取交易物品"		
+LOC_ITEM_EXPIRE	您的%s已到过期时间。		
+LOC_TRADE_SERVER_BUSY	"Khi m赂y ch帽 b脣n, 庐脫 tr赂nh t忙n th脢t ngo碌i 瓢 mu猫n, xin 庐卯i l贸c kh赂c h路y giao d虄ch."		
+LOC_G_AUTOPATH_SEARCH_MAP	搜索地图		
+LOG_G_AUTOPATH_SEARCH_NPC	搜索NPC		
+LOG_G_AUTOPATH_NAME	名字		
+LOG_G_AUTOPATH_TIP	Hint		
+LOG_G_AUTOPATH_WORLDMAP	世界地图		
+LOG_G_AUTOPATH_IS_OBSTACLE	障碍位置！		
+LOG_G_AUTOPATH_CANNOT_TOUTH	不能到达目标位置		
+LOG_G_AUTOPATH_CANNOT_START	不能打开自动寻路		
+LOG_G_AUTOPATH_FAIL	自动寻路失败		
+LOG_G_AUTOPATH_RIGHTCLICK	点击右键移动		
+LOC_TONG_MSG_PROMOTION	帮会公告		
+LOC_REBORN_MENHUI_0	Ch颅a		
+LOC_REBORN_MENHUI_1	Long		
+LOC_REBORN_MENHUI_2	H忙		
+LOC_REBORN_MENHUI_3	娄ng		
+LOC_REBORN_MENHUI_4	Ph么ng		
+LOC_PET_BOOK_FINISH	"B鹿n 庐氓ng h路nh 庐路 luy脰n m脣t t虄ch th碌nh c芦ng, hi脰n t鹿i c膬 th脫 nh脣n l鹿i ho脝c ti茽p t么c luy脰n s赂ch"		
+LOC_PET_BOOK_NOT_FIT	ch脴 c膬 th脫 庐颅a v碌o m脣t t虄ch c膬 th脫 luy脰n		
+LOC_PET_BOOK_TO_MUCH_ITEM	"V脣t ph脠m b谩 v碌o 庐路 庐帽 nh峄塽 r氓i, kh芦ng th脫 b谩 th陋m"		
+LOC_PET_BOOK_IN_READING	"Hi脰n 庐ang luy脰n s赂ch, kh芦ng th脫 l脢y l鹿i m脣t t虄ch ho脝c th陋m nguy陋n li脰u v碌o"		
+LOC_PET_BOOK_ITEM_ERROR	Ch脴 c膬 th脫 庐脝t v碌o 搂鹿i Nh漏n S漏m ho脝c ti脫u Nh漏n S漏m		
+LOC_PET_BOOK_NO_BOOK	"V脡n ch颅a 庐脝t m脣t t虄ch ho脝c m脣t t漂ch 庐路 庐脟y, kh芦ng th脫 luy脰n "		
+LOC_PET_BOOK_NO_ITEM	"V脡n ch颅a 庐脝t nguy陋n li脰u, kh芦ng th脫 luy脰n"		
+LOC_PET_BOOK_NO_FEED_SKILL	"C赂c h鹿 v脡n ch颅a h盲c 庐颅卯c Thu脟n Th贸 Thu脣t, kh芦ng th脫 luy脰n s赂ch"		
+LOC_PET_STATUS_RETIRE	ngh脴 ng卢i		
+LOC_PET_STATUS_FIGHT	xu脢t chi茽n		
+LOC_PET_COMPOSE_LACK_CONSUME	"Ph漂 luy脰n y陋u kh芦ng 庐帽, luy脰n y陋u th脢t b鹿i"		
+LOC_PET_SEL_2_PET_COMPOSE	H路y ch盲n 2 b鹿n 庐氓ng h碌nh ti茽n h碌nh Luy脰n Y陋u.		
+LOC_PET_SEL_PET_TO_OPERATE	H路y ch盲n b鹿n 庐氓ng h碌nh		
+LOC_TEXT_FILT_NOPASS	Vui l脽ng kh芦ng s枚 d么ng ng芦n ng梅 b脢t h卯p l脰		
+LOC_PET_NOT_ENOUGH_LINGLI	"Linh l霉c kh芦ng 庐帽 [%d], thao t赂c th脢t b鹿i"		
+LOC_PET_FEED_SKILL_LV_TOO_LOW	C脢p 庐茅 Thu脟n Th贸 Th脣t kh芦ng 庐帽 庐脫 s毛 h梅u b鹿n 庐氓ng h碌nh c脢p 庐茅 n碌y		
+LOC_PET_ONLY_FIGHT_ONE_CAN_CALL_OUT	Ch脴 c膬 th脫 tri脰u g盲i b鹿n 庐氓ng h碌nh 庐路 xu脢t chi茽n!		
+LOC_PET_COMPOSE_NO_WORKING	B鹿n 庐氓ng h碌nh trong tr鹿ng th赂i xu脢t chi茽n kh芦ng th脫 tham gia luy脰n y陋u.		
+LOC_PET_BOOK_NO_PET	"C赂c h鹿 v脡n ch颅a c膬 b鹿n 庐氓ng h碌nh, kh芦ng th脫 luy脰n s赂ch."		
+LOC_PET_NO_DEL_WORKING	"B鹿n 庐氓ng h碌nh 庐ang xu脢t chi茽n, kh芦ng th脫 gi露i b谩."		
+LOC_PET_NO_SET_WORKING_WHEN_READ	"Hi脰n 庐ang luy脰n s赂ch, kh芦ng th脫 thay 庐忙i tr鹿ng th赂i xu脢t chi茽n c帽a b鹿n 庐氓ng h碌nh"		
+LOC_PET_BOOK_NOBOOK_OR_FULL	V脡n ch颅a 庐脝t m脣t t虄ch c脟n luy脰n ho脝c m脣t t虄ch 庐脝t v碌o 庐路 庐脟y		
+LOC_PET_BOOK_PETCH_ITEM_FIRST	H路y r贸t l鹿i nguy陋n v脣t li脰u tr颅铆c m铆i c膬 th脫 nh脣n l鹿i m脣t t虄ch		
+LOC_PET_LACK_OF_TIANZI	T颅 ch脢t c脽n l鹿i kh芦ng 庐帽		
+LOC_PET_LEVEL_TO_LOW	C脢p 庐茅 b鹿n 庐氓ng h碌nh c帽a c赂c h鹿 kh芦ng 庐帽 庐脫 luy脰n s赂ch k眉 n篓ng n碌y!		
+LOC_PET_EXISTS_UPLEVEL_SKILL	B鹿n 庐氓ng h碌nh c帽a c赂c h鹿 庐路 c膬 k眉 n篓ng cao c脢p h卢n r氓i!		
+LOC_NEED_TIANZI	T颅 ch脢t y陋u c脟u:		
+LOC_TAKE_WITH_SKILL	K眉 n篓ng 庐路 c膬:		
+LOC_PET_LEVEL	C脢p 庐茅: %d		
+LOC_PET_COMPOSE_NEWS	"%s th芦ng qua luy脰n y陋u nh脣n 庐颅卯c b鹿n 庐氓ng h碌nh c脢p %d-%s, qu露 th脣t may m戮n."		
+LOC_HOLD_TIANZI	Chi茽m t颅 ch脢t:		
+LOC_TIANZI	T颅 ch脢t		
+LOC_MERIDIAN_SYSTEM_UPDATE	"N漏ng c脢p h脰 th猫ng kinh m鹿ch, 庐i脫m s猫 k漂nh m鹿ch c帽a c赂c h鹿 庐路 庐颅卯c 庐脝t l鹿i"		
+LOC_MERIDIAN_NODE_IS_MAX_LV	"Huy脰t 峁?n碌y 庐路 庐鹿t t脟ng cao nh脢t, 庐i脫m huy脰t th脢t b鹿i"		
+LOC_MERIDIAN_NODE_NOT_CONNECT	"Huy脰t 峁?t峄塶 庐虊 v脡n ch颅a 庐露 th芦ng, 庐i脫m huy脰t th脢t b鹿i"		
+LOC_MERIDIAN_LEVEL_NOT_ENOUGH	"C露nh gi铆i ban 庐脟u c帽a c赂c h鹿 kh芦ng 庐帽, 庐i脫m huy脰t th脢t b鹿i"		
+LOC_MERIDIAN_QIHAI_NOT_ENOUGH	Ch漏n kh漂 c脽n l鹿i trong Kh漂 H露i kh芦ng 庐帽		
+LOC_MERIDIAN_LEVEL_NOT_OPEN	C露nh gi铆i ch颅a khai th芦ng		
+LOC_MERIDIAN_DANTIAN_FULL	"Ch漏n kh漂 t鹿i 搂an 搂峄塶 庐路 庐鹿t gi铆i h鹿n, 庐i脫m huy脰t th脢t b鹿i"		
+LOC_MERIDIAN_QIHAI_FULL	"Ch漏n kh漂 t鹿i Kh漂 H露i 庐路 庐鹿t gi铆i h鹿n, ch漏n kh漂 kh芦ng th脫 nh脣n th陋m"		
+LOC_MERIDIAN_GAIN_ZHENQI	Nh脣n 庐颅卯c %d 庐i脫m ch漏n kh漂		
+LOC_MERIDIAN_LOSE_ZHENQI	Ti陋u hao %d 庐i脫m ch漏n kh漂		
+LOC_MERIDIAN_NODE_LEVEL	T脟ng s猫		
+LOC_MERIDIAN_TYPE_ZHENQI	搂路 nh脣p v碌o ch漏n kh漂		
+LOC_MERIDIAN_CUR_EFFECT	Hi脰u qu露 hi脰n t鹿i		
+LOC_MERIDIAN_WITH_SKILL	Hi脰u qu露 k眉 n篓ng		
+LOC_MERIDIAN_NODE_NOT_ACTIVE	Ch颅a k漂ch ho鹿t		
+LOC_MERIDIAN_NODE_MAX_LEVEL	搂路 庐鹿t t脟ng cao nh脢t		
+LOC_MERIDIAN_NODE_NEXT_LEVEL	T脟ng k茽 ti茽p		
+LOC_MERIDIAN_NODE_CONDITION	搂峄塽 ki脰n k漂ch ho鹿t		
+LOC_MERIDIAN_NODE_NEED_ZHENQI	C脟n ti陋u hao ch漏n kh漂		
+LOC_MERIDIAN_NODE_NEED_JINGJIE	Y陋u c脟u c露nh gi铆i		
+LOC_MERIDIAN_NODE_NEED_PRE_LEVEL	Y陋u c脟u t脟ng s猫 huy脰t 峁?tr颅铆c		
+LOC_MERIDIAN_NODE_NEED_OTHER	Y陋u c脟u kh赂c		
+LOC_MERIDIAN_NODE_NEXT_EFFECT	K漂ch ho鹿t hi脰u qu露		
+LOC_MERIDIAN_NODE_CAN_ACTIVE	C膬 th脫 k漂ch ho鹿t		
+LOC_MERIDIAN_NODE_CANNOT_ACTIVE	Ch颅a 庐鹿t 庐颅卯c		
+LOC_MERIDIAN_NODE_CUR_LEVEL	T脟ng s猫 hi脰n t鹿i		
+LOC_MERIDIAN_NODE_NO_EFFECT	Kh芦ng hi脰u qu露		
+LOC_MERIDIAN_MAX_ZHENQI	Gi铆i h鹿n ch漏n kh漂		
+LOC_MERIDIAN_LEVEL_CONDITION	搂峄塽 ki脰n k漂ch ho鹿t		
+LOC_MERIDIAN_LEVEL_OPENED	C露nh gi铆i 庐路 k漂ch ho鹿t		
+LOC_MERIDIAN_INPUT_EXCHG_CNT	Nh脣p s猫 l脟n luy脰n h膬a		
+LOC_MERIDIAN_NODE_UPDATED	"Ch贸c m啤ng, c赂c h鹿 th碌nh c芦ng 庐露 th芦ng huy脰t 峁?[%s-%s] t脟ng th酶 [%d]"		
+LOC_MERIDIAN_LEVEL_UPDATED	"Ch贸c m啤ng, c赂c h鹿 庐路 庐鹿t 庐茽n c露nh gi铆i [%s]"		
+LOC_MERIDIAN_CALL_BACK_CANNOT_BREAK	搂ang tu luy脰n kh芦ng th脫 gi赂n 庐o鹿n		
+LOC_MERIDIAN_CALL_BACK_CANNOT_START	Hi脰n 庐ang tu luy脰n kh芦ng th脫 b戮t 庐脟u l鹿i		
+LOC_MERIDIAN_CALL_BACK_NOT_PEACE_AREA	Khu v霉c hi脰n t鹿i kh芦ng th脫 ti茽n h碌nh tu luy脰n		
+LOC_MERIDIAN_CALL_BACK_IN_INTERACTIVE	Hi脰n kh芦ng th脫 tu luy脰n		
+LOC_MERIDIAN_CALL_BACK_DEAD	"C赂c h鹿 庐路 tr盲ng th颅卢ng, kh芦ng th脫 tu luy脰n"		
+LOC_MERIDIAN_CALL_BACK_FIGHT	"Hi脰n 庐ang chi茽n 庐脢u, kh芦ng th脫 tu luy脰n"		
+LOC_MERIDIAN_NOT_OPEN_EXPCHG	C露nh gi铆i hi脰n t鹿i v脡n ch颅a khai th芦ng ch漏n kh漂 luy脰n h膬a		
+LOC_MERIDIAN_EXPCHG_LEVEL_ERR	"C脢p 庐茅 ch颅a 庐鹿t 庐茽n 99, kh芦ng th脫 luy脰n h膬a ch漏n kh漂"		
+LOC_MERIDIAN_MKZHENQI_NO_CAPACITY	"Ch漏n kh漂 庐路 庐鹿t gi铆i h鹿n, kh芦ng th脫 tu luy脰n"		
+LOC_MERIDIAN_MKZHENQI_SELLING	Hi脰n 庐ang b碌y b赂n kh芦ng th脫 tu luy脰n		
+LOC_MERIDIAN_MKZHENQI_TRADE	Hi脰n 庐ang giao d虄ch kh芦ng th脫 tu luy脰n		
+LOC_MERIDIAN_MKZHENQI_QUIT	Hi脰n 庐ang r锚i kh谩i tr脽 ch卢i kh芦ng th脫 tu luy脰n		
+LOC_MERIDIAN_MKZHENQI_PK	Tr鹿ng th赂i chi茽n 庐脢u kh芦ng th脫 tu luy脰n		
+LOC_MERIDIAN_SYSTEM_CLOSE	H脰 th猫ng kinh m鹿ch v脡n ch颅a khai th芦ng		
+LOC_MERIDIAN_SYSTEM_NO_EFFECT	"H脰 th猫ng kinh m鹿ch v脡n ch颅a khai th芦ng, thu茅c t漂nh huy脰t 峁?kh芦ng c膬 hi脰u l霉c"		
+LOC_MERIDIAN_SELECT_SKILL_OP	Nh脢p chu茅t ph露i l陋n k眉 n篓ng l霉a ch盲n Huy脰t 峁?		
+LOC_EQUIP_THEN_BIND	b虄 kh膬a sau khi trang b虄 xong		
+LOC_CONFIRM_EQUIP_WILL_BIND	"V脣t ph脠m n碌y 庐颅卯c trang b虄 xong s脧 b虄 kh膬a, X赂c 庐虄nh c膬 mu猫n trang b虄 kh芦ng??"		
+LOC_G_DING10_STONE_EFFECT	搂鹿i 搂虄nh H氓n:+10		
+LOC_G_EMBROIDERY_TITLE	Th陋u		
+LOC_G_EMBROIDERY_PART	峁?tr漂 ngo鹿i trang:    %s		
+LOC_G_EMBROIDERY_EFFECT	Hi脰u qu露 th陋u:      %s		
+LOC_G_EMBROIDERY_COST	Th陋u:    %d v碌ng		
+LOC_G_EMBROIDERY_COMFIRM	"Ngo鹿i trang 庐路 庐颅卯c th陋u, th陋u l脟n n梅a s脧 b虄 tr茂ng, c膬 mu猫n th陋u n梅a kh芦ng??"		
+LOC_G_EMBROIDERY_PUTIN	H路y b谩 ngo鹿i trang v碌o		
+LOC_G_EMBROIDERY_SUCCESS	Thao t赂c th碌nh c芦ng		
+LOC_G_EMBROIDERY_FAIL	Thao t赂c th脢t b鹿i		
+LOC_G_EMBROIDERY_PUTINWENSHI	H路y b谩 hoa v篓n v碌o		
+LOC_G_EMBROIDERY_CANSTART	B戮t 庐脟u th陋u		
+LOC_G_EMBROIDERY_WILL_BIND	Ngo鹿i trang sau khi th陋u s脧 b虄 kh膬a l鹿i		
+LOC_G_EQUIP_UNBIND	Gi露i kh膬a trang b虄		
+LOC_G_PUTIN_STUFF	Kh芦ng 庐帽 nguy陋n li脰u c脟n thi茽t		
+LOC_G_UNBINDEQUIP_DESC	Gi露i kh膬a gi贸p trang b虄 b虄 kh膬a c膬 thu茅c t漂nh t霉 kh膬a sau khi 庐颅卯c trang b虄		
+LOC_G_UNBINDEQUIP_CAN_START	B戮t 庐脟u gi露i kh膬a		
+LOC_G_UNBINDEQUIP_CANNOT_START	Trang b虄 n碌y kh芦ng th脫 gi露i kh膬a		
+LOC_G_UNBINDEQUIP_PUTIN	H路y cho trang b虄 kh膬a v碌o		
+LOC_ENHANCE_SAFE_DETAIL	Sau khi c颅锚ng h膬a th脢t b鹿i s脧 kh芦ng r铆t c脢p		
+LOC_ENHANCE_ITEM_DINGHUN	搂虄nh H氓n +%d		
+LOC_ENHANCE_ITEM_MSG2PLAYER	Msg2Global(GetName()..'庐路 c颅锚ng h膬a th碌nh c芦ng %s 庐茽n c脢p %d')		
+LOC_KNIFE_STONNE_ITEM_COST	M碌i trang b虄 c脟n ti陋u hao nguy陋n li脰u 		
+LOC_KNIFE_STONE_MONEY_COST	M碌i trang b虄 c脟n ti陋u hao v碌ng		
+LOC_MSG_USE_DUMMY_REVIVAL_OTHER	"C赂c h鹿 庐路 s枚 d么ng Th茽 Th漏n Ph茂, c膬 mu猫n h氓i sinh t鹿i ch莽   %d  gi漏y"		
+LOC_TRANSLIFE_LEVEL	      %d/%d级 	
+LOC_MERIDIAN_LEVEL_0	Ch颅a		
+LOC_MERIDIAN_LEVEL_1	V芒 H峄塶		
+LOC_MERIDIAN_LEVEL_2	V芒 T颅铆ng		
+LOC_MERIDIAN_LEVEL_3	V芒 V颅卢ng		
+LOC_MERIDIAN_LEVEL_4	V芒 T芦n		
+LOC_MERIDIAN_LEVEL_5	V芒 Ho碌ng		
+LOC_MERIDIAN_LEVEL_6	V芒 Th赂nh		
+LOC_ARMY_LEVEL_0	Ch颅a		
+LOC_ARMY_LEVEL_1	Binh s脺		
+LOC_ARMY_LEVEL_2	Hi脰u 贸y		
+LOC_ARMY_LEVEL_3	搂芦 th猫ng		
+LOC_ARMY_LEVEL_4	Ti陋n phong		
+LOC_ARMY_LEVEL_5	T颅铆ng qu漏n		
+LOC_ARMY_LEVEL_6	Nguy陋n So赂i		
+LOC_ARMY_LEVEL_7	Nguy陋n so赂i v脺nh vi脭n		
+LOC_NEWTASK_MERIDIAN_STTRING	Ch漏n khi: %d		
+LOC_COLLECTION_T_UNKNOWN	未知收藏		
+LOC_COLLECTION_T_COAT	外装收藏		
+LOC_COLLECTION_T_COAT_ENCHANTS	外装蕴灵收藏		
+LOC_COLLECTION_T_HORSE	坐骑收藏		
+LOC_COLLECTION_T_FOLLOWER	跟宠收藏		
+LOC_COLLECTION_T_ORNAMENT	挂件收藏	
+LOC_COLLECTION_OT_SELL	售卖		
+LOC_COLLECTION_OT_GIFT	赠送		
+LOC_COLLECTION_OT_POP	取出		
+LOC_COLLECTION_OT_PUSH	录入		
+LOC_MSG_COLLECTIONCOIN_NOT_ENOUGH	您的千变点数不够%u		
+LOC_MSG_COLLECTIONCOIN_ADD	您获得了%u点千变点数		
+LOC_MSG_COLLECTIONCOIN_DEC	您消耗了%u点千变点数		
+LOC_LOG_COST_COLLECTION_COIN	消耗收藏点券		
+LOC_STR_COLLECTION	L颅u u脠n linh:		
+LOC_STR_COLLECTION_HAVE	搂路 l颅u tr梅		
+LOC_STR_COLLECTION_HAVENT	Ch颅a l颅u tr梅		
+LOC_STR_COLLECTION_NOT_SALE	[Kh芦ng b赂n]		
+LOC_STR_CAN_SEPERATE_ONLY_BAG	Ch脴 c膬 th脫 t赂ch v脣t ph脠m trong h碌nh trang v碌 r颅卢ng gi梅 庐氓		
+LOC_STR_EQUIP_IN_CD	sau khi s枚 d么ng k眉 n篓ng mang c芦ng k漂ch trong vong 18 gi漏y kh芦ng th脫 thay 庐忙i trang b虄		
+LOC_STR_EXCHG_EQUIP_FAIL	Trang b虄 ch锚 h氓i ph么c s枚 d么ng		
+LOC_G_ITEM_PET_LINGXING	Linh t漂nh:		
+LOC_G_ITEM_PET_XUNLD	搂茅 hu脢n luy脰n:		
+LOC_G_ITEM_PET_SKILL	K眉 n篓ng:		
+LOC_STR_EXCHANGE_SERVER_LIMIT	变更服务器能力		
+LOC_G_EQUIP_FEED_RESET_GROW	Tr茂ng luy脰n trang b虄		
+LOC_G_EQUIP_FEED_RESET_GROW_DESC	Tr茂ng luy脰n trang b虄 c膬 th脫 thi茽t l脣p l鹿i ph赂t tri脫n thu茅c t漂nh c帽a trang b虄		
+LOC_G_EQUIP_FEED_RESET_UNLOCK	Tinh luy脰n trang b虄		
+LOC_G_EQUIP_FEED_RESET_UNLOCK_DESC	Tinh luy脰n trang b虄 c膬 th脫 thi茽t l脣p l鹿i thu茅c t漂nh m毛 kh膬a c帽a trang b虄		
+LOC_G_EQUIP_FEED_RESET_GROW_CAN_START	C膬 th脫 b戮t 庐脟u tr茂ng luy脰n		
+LOC_G_EQUIP_FEED_RESET_UNLOCK_CAN_START	C膬 th脫 b戮t 庐脟u tinh luy脰n		
+LOC_G_EQUIP_FEED	D颅虂ng th碌nh trang b虄		
+LOC_G_EQUIP_FEED_DESC	Trang b虄 nu芦i d颅虂ng c膬 th脫 t篓ng th陋m d颅虂ng th碌nh 庐录ng c脢p thu茅c t漂nh v碌 m毛 kh膬a thu茅c t漂nh m铆i		
+LOC_G_EQUIP_FEED_CAN_START	C膬 th脫 b戮t 庐脟u nu芦i d颅虂ng		
+LOC_G_EQUIP_FEED_FOOD_EXP	Nh脣n 庐i脫m		
+LOC_G_EQUIP_FEED_CUR_EXP	Hi脰n t鹿i 		
+LOC_G_EQUIP_FEED_NEW_EXP	Sau khi d颅虂ng th碌nh		
+LOC_G_EQUIP_FEED_LEVEL	装备供给能力	
+LOC_G_EQUIP_FEED_UNLOCK	装备供给解锁		
+LOC_G_COMM_ENHANCE_CANNOT_START	通信增强无法启动		
+LOC_G_COMM_ENHANCE_PUTIN_MAIN	通信增强		
+LOC_G_STAR_LEVEL	星级:		
+LOC_G_SHOP_VIP_LEVEL	商城 Vip级别:  ViP%d		
+LOC_G_SHOP_VIP_EXP	商城 Vip经验: %d/%d		
+LOC_G_ADD_YINJUAN	增加银券		
+LOC_G_DEC_YINJUAN	减少银券		
+LOC_G_ADD_JINJUAN	增加金券		
+LOC_G_DEC_JINJUAN	减少金券	
+LOC_G_ADD_ENERGY	增加精力		
+LOC_G_DEC_ENERGY	减少精力	
+LOC_KNIFE_STONE_NOTICE	 战场开启通知		
+LOC_KNIFE_STONE_WEAPON_ATK	战场攻击开始: <enter> ngo鹿i c芦ng: %d-%d<enter> n茅i c芦ng: %d-%d		
+LOC_KNIFE_STONE_NOTICE2	战场关闭		
+LOC_3V3_MSG1	"欢迎来到剑侠情缘2网络版，仅供单机内部测试！"		
+LOC_3V3_MSG2	祝大家游戏愉快，祝大家2020年新年快乐.		
+LOC_3V3_UI_INFO1	%d 胜利		
+LOC_3V3_UI_INFO2	%d 失败		
+LOC_3V3_UI_INFO3	%d 平局		
+LOC_3V3_UI_INFO4	"天下英雄出我辈，一入江湖岁月催，欢迎来到『剑侠情缘2网络版』，祝您游戏愉快...."		
+LOC_3V3_UI_INFO5	系统开启 [3V3]%s 模式大家快来啊。		
+LOC_3V3_UI_INFO6	[3V3] 是一场公平的决斗模式。		
+LOC_3V3_INFO_BASE1	服务器开启		
+LOC_3V3_INFO_BASE2	关闭服务器	
+LOC_FIGHTTEAM_MSG_HEAD	队伍		
+LOC_FIGHTTEAM_MSG_CUSTOM	%s		
+LOC_FIGHTTEAM_MSG_CREATE	%s 队伍创建成功		
+LOC_FIGHTTEAM_MSG_DISBAND	%s 解散了您的队伍		
+LOC_FIGHTTEAM_MSG_RENAME	您的队伍已改名为 %s		
+LOC_FIGHTTEAM_MSG_ADD_MEMBER	%s 成为了您的队友		
+LOC_FIGHTTEAM_MSG_DEL_MEMBER	%s 离开了队伍	
+LOC_FIGHTTEAM_MSG_DISMISS_MEMBER	%s 将您踢出了队伍	
+LOC_FIGHTTEAM_MSG_LEFT_TEAM	你已离开了队伍		
+LOC_FIGHTTEAM_MSG_JOIN_REQUEST_SRC	您申请加入 %s 的队伍，等待对方处理		
+LOC_FIGHTTEAM_MSG_JOIN_REQUEST_DST	%s 申请加入您的队伍，请去组队界面处理		
+LOC_FIGHTTEAM_MSG_APPLY_REFUSE	对方拒绝了您的入队申请		
+LOC_FIGHTTEAM_MSG_NAME_CAN_USE	可以使用该名字		
+LOC_FIGHTTEAM_MSG_OPERATION_FAILED	操作失败		
+LOC_FIGHTTEAM_MSG_OPERATION_FORBIT	操作失败，该操作被禁止		
+LOC_FIGHTTEAM_MSG_SRC_TEAM_IS_FULL	操作失败，您的队伍人数已满	
+LOC_FIGHTTEAM_MSG_DST_TEAM_IS_FULL	操作失败，对方组队人数已满		
+LOC_FIGHTTEAM_MSG_SRC_IN_TEAM	操作失败，您已经在队伍中了	
+LOC_FIGHTTEAM_MSG_DST_IN_TEAM	操作失败，对方已经有队伍了		
+LOC_FIGHTTEAM_MSG_SRC_NO_TEAM	操作失败，您当前还没有队伍	
+LOC_FIGHTTEAM_MSG_DST_NO_TEAM	操作失败，对方当前没有队伍		
+LOC_FIGHTTEAM_CANNOT_BE_RENAMED	操作失败，您的队伍不能改名		
+LOC_FIGHTTEAM_NAME_IS_INVALID	操作失败，队伍名非法	
+LOC_FIGHTTEAM_NAME_IS_EXIST	操作失败，队伍名已存在		
+LOC_FIGHTTEAM_NAME_IS_NOT_EXIST	操作失败，队伍名不存在		
+LOC_FIGHTTEAM_NAME_ILLEGAL_CHARACTERS	操作失败，队伍名包含禁用字符		
+LOC_FIGHTTEAM_NAME_TOO_SHORT	操作失败，队伍名不得少于2个汉字		
+LOC_FIGHTTEAM_NOT_YOUR_MEMBER	操作失败，%s 不是您的队员		
+LOC_FIGHTTEAM_MULTIPLE_JOIN_REQUEST	操作失败，您已经申请过此队伍，请等待对方处理		
+LOC_FIGHTTEAM_CONFIRM_QUIT_TEAM	你确定要离开队伍么？		
+LOC_FIGHTTEAM_CONFIRM_DISBAND_TEAM	你确定要解散队伍么？	
+LOC_FIGHTTEAM_CONFIRM_DISMISS_MEMBER	你确定要将 %s 踢出队伍么？		
+LOC_FIGHTTEAM_CONFIRM_JOIN	你确定要申请加入 %s 队伍么？	
+LOC_FIGHTTEAM_ENTER_NEW_TEAM_NAME	请输入你新的队伍名称		
+LOC_TEAM_OPERATION_CHAGE_PK_INFO	改变队伍的PK模式		
+LOC_EQUIP_SHOP_INPUT_NUM	请输入商店的编号		
+LOC_QUEUING_ERROR_MSG_1	"排队等待错误信息1号"		
+LOC_QUEUING_ERROR_MSG_2	"排队等待错误信息2号!"		
+LOC_QUEUING_ERROR_MSG_3	"排队等待错误信息3号"		
+LOC_QUEUING_ERROR_MSG_4	"排队等待错误信息4号 [%s] r氓i h路y 庐茽n 庐漏y [%s]!"		
+LOC_QUEUING_ERROR_MSG_5	"排队等待错误信息5号 [%s]!"		
+LOC_QUEUING_ERROR_MSG_6	"排队等待错误信息6号 [%s] 庐茅i ng蹋 x茽p h碌ng n碌y!"		
+LOC_QUEUING_ERROR_MSG_7	"排队等待错误信息7号"		
+LOC_QUEUING_ERROR_MSG_8	"排队等待错误信息8号!"		
+LOC_QUEUING_MSG_1	"排队信息1号, [%s] v碌o l贸c %s s脧 m毛!"		
+LOC_QUEUING_MSG_2	"排队信息2号[%s] x茽p h碌ng!"		
+LOC_MSG_DEL_COPY_ITEM	"系统删除复制物品."		
+LOC_SORT_OUT_ITEM_CONFIRM	你确定使用物品自动整理么？		
+LOC_SORT_OUT_ITEM_BEGIN	"物品整理开始，整理过程中请勿进行物品操作。"		
+LOC_SORT_OUT_ITEM_END	物品整理结束。		
+LOC_DAILY_REGISTRATION	注册时间.		
+LOC_STATE_CHESS_MSG1	%d 获得的经验 EXP + %d%%		
+LOC_STATE_CHESS_MSG2	%d 取得的:		
+LOC_VMONEY_COIN = _LOC_VMONEY_BEGIN	铜币		
+LOC_VMONEY_YINQUAN	银券		
+LOC_VMONEY_JINQUAN	金券		
+LOC_EQUIP_RECYCLE_MSG	"Trang b虄 n碌y s脧 b虄 ti陋u h帽y, 庐氓ng 瓢 t赂ch [%s] kh芦ng?"		
+LOC_EQUIP_RECYCLE_MSG1	[%s] 小=空=制=作		
+LOC_EQUIP_RECYCLE_MSG2	"T赂ch trang b虄 nh脣n v脣t ph脠m c脟n %d 芦 tr猫ng, t贸i kh芦ng 庐帽 ch莽"		
+LOC_EQUIP_RECYCLE_MSG3	"S猫 t峄塶 c脟n ti陋u hao kh芦ng 庐帽, kh芦ng th茽 t赂ch trang b虄"		
+LOC_EQUIP_RECYCLE_MSG4	"S猫 l颅卯ng 庐鹿o c么 [%s] c脟n ti陋u hao kh芦ng 庐帽 %d c赂i, kh芦ng th茽 t赂ch trang b虄"		
+LOC_EQUIP_RECYCLE_MSG5	Kh芦ng th脫 ti陋u h帽y trang b虄 [%s] 庐路 b虄 t赂ch		
+LOC_EQUIP_RECYCLE_MSG6	[%s] 庐路 b虄 t赂ch		
+LOC_EQUIP_RECYCLE_MSG7	T赂ch c脟n ti陋u hao 庐鹿o c么 [%s]*%d		
+LOC_EQUIP_RECYCLE_MSG8	T赂ch trang b虄 nh脣n 庐颅卯c [%s]*%d		
+LOC_G_EQUIP_GEM_HOLE_IDX	宝石插槽索引		
+LOC_G_EQUIP_GEM_HOLE	宝石插槽		
+LOC_G_EQUIP_GEM_INSERT	宝石镶嵌		
+LOC_G_EQUIP_GEM_REMOVE	宝石移除		
+LOC_G_EQUIP_GEM_HOLE_DESC	宝石插槽说明		
+LOC_G_EQUIP_GEM_INSERT_DESC	宝石镶嵌说明		
+LOC_G_EQUIP_GEM_REMOVE_DESC	宝石移除说明		
+LOC_G_EQUIP_GEM_SUCCESS	宝石镶嵌成功		
+LOC_G_EQUIP_GEM_HOLE_NOT_OPEN	宝石插槽未开启		
+LOC_G_EQUIP_GEM_HOLE_NOT_INSERT	宝石未能镶嵌		
+LOC_G_EQUIP_GEM_HOLE_INSERT	宝石镶嵌	
+LOC_G_EQUIP_GEM_HEAD	头部宝石镶嵌		
+LOC_G_EQUIP_GEM_CLOTH	衣服宝石镶嵌		
+LOC_G_EQUIP_GEM_RING	戒指宝石镶嵌		
+LOC_G_EQUIP_GEM_WEAPON	武器宝石镶嵌		
+LOC_G_EQUIP_ANY_GEM	 其他宝石镶嵌		
+LOC_G_EQUIP_GEM	宝石镶嵌		
+LOC_G_PLAYER_TRANS	传送		
+LOC_G_INSERT_GEM_WILL_BIND	插入宝石后将绑定装备		
+LOC_G_GEM_WILL_REPLACED	宝石已经替换		
+LOC_G_ARE_YOU_SURE	你确定嘛？		
+LOC_ITEM_TIPS_1	卖店		
+LOC_ITEM_TIPS_2	摆摊		
+LOC_ITEM_TIPS_3	丢弃		
+LOC_ITEM_TIPS_4	交易		
+LOC_G_ROOM_OR_WEIGHT_LACK	空间不足 %d, 重量不足 %d"		
+LOC_G_SOMETHING_LACK	需要的物品不足		
+LOC_G_CUSTOM_AWARD_GBL_MSG	自定义 [%s] 奖励 [%s] 物品 [%d %s]		
+LOC_PLAYER_DEATH_TIME	玩家死亡时间		
+LOC_MERIDIAN_NODE_UPDATE_INFO	系统更新信息		
+LOC_MERIDIAN_NODE_UPDATE_FAIL	系统更新失败		
+LOC_G_CUSTOM_AWARD_GET_FAIL	玩家 [%s] 领取自定义奖励 [%d %s] 失败	
+LOC_G_LACK_LINGLI	灵力不足		
+LOC_G_GEM_STATUS	宝石状态		
+LOC_G_GEM_KEEP	保留宝石		
+LOC_G_GEM_REMOVE	移除宝石		
+LOC_G_GEM_CONSUME	消耗宝石 		
+LOC_G_GEM_SEL_REMOVE	请选择要移除的宝石		
+LOC_G_CANNOT_DO_WHEN_CHANGEING_MODEL	更换模式时无法执行此项操作		
+LOC_G_FORBIT_CHANGE_MODEL	现在不能改变模式		
+LOC_STR_ITEM_LOCK_PASS_SET_OK_PET	"请设置锁定宠物的密码"		
+LOC_STR_ITEM_LOCK_PASS_ASK_OK_PET	"请设置解锁宠物的问题"		
+LOC_STR_PET_NO_DEL_LOCK	"目前宠物已锁定不能做其他操作"		
+LOC_STR_LOCK	您交易物品已经锁定		
+LOC_STR_UNLOCK	您交易物品解除锁定。		

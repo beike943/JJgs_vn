@@ -1,0 +1,3 @@
+;名称	名称	提示
+bianjing	铁塔迷宫
+quanzhou	地牢迷宫

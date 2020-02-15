@@ -1,0 +1,3 @@
+;名称	名称
+bianjing	汴京
+quanzhou	泉州
