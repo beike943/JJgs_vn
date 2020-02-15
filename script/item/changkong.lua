@@ -33,7 +33,7 @@ function chongk_att_route(conf_diff)
 		body_dialog[3] = "重新选择/#OnUse(0)"
 		body_dialog[4] = "让我想想/end_dialog"	
 	end
-	Say("你选择的派别是: <color=yellow>"..way_name[conf_diff].."<color>,下一个是<color=yellow>体型<color>:",
+	Say("你选择的派别是: <color=yellow>"..way_name[conf_diff].."<color>,后面是<color=yellow>体型<color>:",
 		getn(body_dialog),
 		body_dialog
 	)
