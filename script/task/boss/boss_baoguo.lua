@@ -19,19 +19,19 @@ function main()
 	end
 	
 	if gf_GetTaskByte(TSK_GET_ITEM_TIME, TSK_GET_ITEM_COUNT_BYTE) >= 4 then
-		Talk(1,"","Mçi ngµy chØ cã thÓ nhÆt tèi ®a 4 tói")
+		Talk(1,"","²»ÄÜÊ°È¡")
 		return 0
 	end
 	
 	local nWait = 300 - (GetTime() - GetUnitCurStates(npcIndex, 6))
 	if nWait > 0 then
-		Talk(1,"","Cßn "..nWait.." gi©y míi cã thÓ nhÆt tói!")
+		Talk(1,"","Õâ¸ö°ü¹ü "..nWait.." ÕýÔÚ±»±ðÈË²Ù×÷!")
 		return 0
 	end
 	
 	local nDelay = 5 - (GetTime() - GetTask(2278))
 	if nDelay > 0 then
-		Talk(1,"","Sau "..nDelay.." gi©y míi cã thÓ nhÆt tói tiÕp theo!")
+		Talk(1,"","Õâ¸ö°ü¹ü"..nDelay.." ²»ÄÜ±»Ê°È¡!")
 		return 0
 	end
 	
@@ -47,7 +47,7 @@ function main()
 	local nLv = GetLevel();
 	local nExp = nLv^3*2;
 	ModifyExp(nExp);
-	Msg2Player("B¹n nhËn ®­îc "..nExp.."Kinh nghiÖm");
+	Msg2Player("»ñµÃ "..nExp.."¾­Ñé");
 	local nRand = random(1,10000);
 	if nRand <= 5 then
 		AddItem(0,102,15,1,1,2,24,3,14,0,0);
@@ -55,9 +55,9 @@ function main()
 		AddItem(0,102,20,1,1,2,24,3,14,0,0);
 	end
 	if nRand <= 9975 then
-		gf_EventGiveCustomAward(3, 10, "Tui boss The Gioi")
+		gf_EventGiveCustomAward(3, 10, "»ñµÃBOSS¶îÍâ½±Àø")
 	else
-		gf_AddItemEx2({2, 1, 30071, 1}, "Nh©n S©m V¹n N¨m", "Tui boss The Gioi")
+		gf_AddItemEx2({2, 1, 30071, 1}, "Ã¿ÈÕÏÞÖÆÒ»´Î", "»ñµÃBOSS¶îÍâ½±Àø")
 	end
 
 end
