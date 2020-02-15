@@ -108,7 +108,7 @@ function kill10or1(nGTaskID, nTaskID, nKillTriggerID, nKillTriggerCustomID, szTa
 			if nOver == 1 then
 				if szTalk == nil then
 					szTalk= {
-						"§· t×m ®­îc vËt yªu cÇu, cã thÓ ®i tr¶ nhiÖm vô råi!",
+						"ÉÙÏÀ»¹Ã»ÓĞ½ÓÈÎÎñ!",
 					};
 				end
 				Talk(1, "", szTalk);
@@ -128,7 +128,7 @@ function kill10or1(nGTaskID, nTaskID, nKillTriggerID, nKillTriggerCustomID, szTa
 				CreateTrigger(0, nKillTriggerID, nKillTriggerCustomID);
 			end
 		else
-			Talk(1, "", "ThiÕu hiÖp ®· t×m ®­îc vËt yªu cÇu chø? Nh÷ng thø nµy cÇn t×m thªm vµi lÇn míi ®ñ, h·y mau t×m ®i!")
+			Talk(1, "", "ÕÙ»½¹ÖÒÑ¾­ÏûÊ§£¬»òÕß±»±ğÈË´òËÀ!")
 		end
 	end
 	--2011ĞÂÊÖ¸Ä½øÖ®Ç°
