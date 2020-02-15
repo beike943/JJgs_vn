@@ -31,13 +31,13 @@ Include("\\script\\½á»é\\marriage_head.lua");
 Include("\\script\\online\\zgc_public_fun.lua")		--´å³¤µÄ¹«¹²º¯Êı
 Include("\\script\\online\\callbackplayer\\callbackplayer_head.lua");--ÕÙ»ØÀÏÍæ¼Ò»î¶¯
 Include("\\script\\online\\chuyen_sinh\\translife_npc.lua");
-szNpcName = "<color=green>Ngò §éc Gi¸o Chñ <color>: "
+szNpcName = "<color=green>Ng? §éc Gi¸o Ch? <color>: "
 function main()
 
 local nTaskValue = GetTask(FN_WP);
 
 	if ((nTaskValue >= 1) and (nTaskValue <= 6)) then
-		Say("Ng­¬i muèn nhËp m«n ­? H·y gÆp <color=yellow>bèn vŞ quû s­<color> th­¬ng l­îng.",0);
+		Say("Ng­¬i muèn nhËp m«n ?? H·y gÆp <color=yellow>bèn v? qu? s?<color> th­¬ng l­îng.",0);
 		return
 	elseif (nTaskValue == 7) then
 		task_011();
@@ -52,37 +52,37 @@ end;
 
 -- Ê¦ÃÅÈÎÎñÏà¹Ø
 function about_faction_task()
-	Say("Ha ha! Ng­¬i kiÕm ta cã viÖc g×?",
+	Say("Ïë×öÊ²Ã´?",
 		3,
-		"Ta muèn cèng hiÕn cho s­ m«n (nhiÖm vô s­ m«n)/start_faction_tasklink",
-		"Ta muèn tra xem ®é cèng hiÕn./check_query_faction_contri",
-		"Ta muèn t×m hiÓu ®é cèng hiÕn s­ m«n./shimenshuoming")
+		"¿ªÊ¼Ê¦ÃÅÈÎÎñ/start_faction_tasklink",
+		"Ê¦ÃÅ¹±Ï×¶È²éÑ¯/check_query_faction_contri",
+		"Ê¦ÃÅÈÎÎñËµÃ÷/shimenshuoming")
 --		"ÎÒÒªĞŞ¸´Ê¦ÃÅÈÎÎñÎŞ·¨Íê³ÉµÄÎÊÌâ/repair_faction_bug")
 end;
 
 -- ĞŞ¸´É±¹ÖÈÎÎñÎŞ·¨Íê³ÉµÄbug
 function repair_faction_bug()
-	Say("GÇn ®©y ta nhiÒu viÖc bËn nªn ®· quªn nhiÖm vô cña ng­¬i. §©y xem nh­ lµ sù rÌn luyÖn cña bæn gi¸o giµnh cho ng­¬i. Giê ta sÏ gióp ng­¬i hñy bá nhiÖm vô tr­íc kia nh­ng ph¶i trõ ®i 5 ®iÓm cèng hiÕn s­ m«n, ng­¬i cã hñy kh«ng?", 
+	Say("×î½üºÜÃ¦, ÎÒÍü¼ÇÍê³ÉÈÎÎñÁË. Õâ´ÎÎÒ¾Í°ïÄãÈ¡Ïû,µ«ÊÇÄãÒª¿Û³ı5µãÊ¦ÃÅ¹±Ï×¶È£¬ÄãÈ·¶¨Âğ?", 
 		2,
-		"§­îc, ta ®ång ı/confirm_repair_bug",
-		"§Ó ta nghÜ c¸ch kh¸c/no")
+		"ÊÇµÄ£¬ÎÒÍ¬Òâ/confirm_repair_bug",
+		"ÎÒÔÙÏëÏë/no")
 end;
 
 function confirm_repair_bug()
 	RepairAllChainTask()
-	Say("Xong råi, ta ®· hñy bá gióp ng­¬i.", 0)
+	Say("ÒÑ¾­È¡ÏûÁË!", 0)
 end;
 
 --¼ÓÈëÃÅÅÉ
 function interwudu()		
 	if (GetTask(1001)>0) or (GetTask(1002)>0) or (GetTask(1003)>0) or (GetTask(1004)>0) or (GetTask(1005)>0) or (GetTask(1031)>0) or (GetTask(1032)>0) then
-		Say("B»ng h÷u ®· gia nhËp m«n ph¸i kh¸c, kh«ng thÓ gia nhËp Ngò §éc Gi¸o!",0)
+		Say("B»ng h÷u ®· gia nhËp m«n ph¸i kh¸c, kh«ng th? gia nhËp Ng? §éc Gi¸o!",0)
 	elseif GetLevel() < 10 then	--µÈ¼¶¼ì²â
-		Say("Ngò §éc Gi¸o ta ®èi víi nh©n tµi kh«ng c©u nÖ, nh­ng còng kh«ng thÓ qua loa, b»ng h÷u ®¹t <color=yellow>cÊp 10<color> råi quay l¹i nhĞ!",0)
+		Say("Ng? §éc Gi¸o ta ®èi víi nh©n tµi kh«ng c©u n?, nh­ng còng kh«ng th? qua loa, b»ng h÷u ®¹t <color=yellow>cÊp 10<color> råi quay l¹i nh?!",0)
 	elseif GetPlayerFaction() == 7 then	--ÃÅÅÉ¼ì²â
-		Say("B»ng h÷u kh«ng ph¶i ®· gia nhËp Ngò §éc gi¸o råi sao? Sao mau quªn thÕ.",0)
+		Say("B»ng h÷u kh«ng ph¶i ®· gia nhËp Ng? §éc gi¸o råi sao? Sao mau quªn th?.",0)
 	elseif GetPlayerFaction() > 0 then	--ÃÅÅÉ¼ì²â
-		Say("Phµm ®Ö tö Ngò §éc Gi¸o rÊt trung thµnh, B»ng h÷u ®· lµ ng­êi cña m«n ph¸i kh¸c, xin thø lçi cho bæn gi¸o kh«ng thÓ thu gi÷.",0)
+		Say("Phµm ®Ö t? Ng? §éc Gi¸o rÊt trung thµnh, B»ng h÷u ®· l? ng­êi cña m«n ph¸i kh¸c, xin th? lçi cho bæn gi¸o kh«ng th? thu gi?.",0)
 	else
 		task_000();
 	end
@@ -91,13 +91,13 @@ end;
 --Ñ§Ï°Îä¹¦
 function skilllearn()
 	if GetPlayerFaction() ~= 7 then
-		Say("B»ng h÷u kh«ng ph¶i lµ ®Ö tö bæn gi¸o, thËt kh«ng tiÖn nãi chuyÖn.",0)
+		Say("B»ng h÷u kh«ng ph¶i l? ®Ö t? bæn gi¸o, thËt kh«ng tiÖn nãi chuyÖn.",0)
 	elseif  GetPlayerRoute() == 19 then 
-		Say("§Ö tö bæn gi¸o ph©n lµm 2 lo¹i: tµ hiÖp vµ cæ s­, ®Ö tö <color=yellow>tµ hiÖp<color> do Thi Th­¬ng Th­¬ng Chñ <color=yellow>Ng« Ng«n<color> truyÒn thô vâ c«ng, ®Ö tö <color=yellow>cæ s­<color> do Cæ Th­¬ng Th­¬ng Chñ <color=yellow>LiÔu T©n Tróc<color> truyÒn thô vâ c«ng. Ngu¬i cã thÓ gÆp hä b¸i s­ häc nghÖ, nh­ng mçi ng­êi chØ cã thÓ häc 1 tr­êng ph¸i.",0)
+		Say("§Ö t? bæn gi¸o ph©n lµm 2 lo¹i: t? hiÖp v? c? s?, ®Ö t? <color=yellow>t? hiÖp<color> do Thi Th­¬ng Th­¬ng Ch? <color=yellow>Ng? Ng«n<color> truyÒn th? v? c«ng, ®Ö t? <color=yellow>c? s?<color> do C? Th­¬ng Th­¬ng Ch? <color=yellow>LiÔu T©n Tróc<color> truyÒn th? v? c«ng. Ngu¬i c? th? gÆp h? b¸i s? häc ngh?, nh­ng mçi ng­êi ch? c? th? häc 1 tr­êng ph¸i.",0)
 	elseif  GetPlayerRoute() == 20 then
-		Say("Ngu¬i lµ ®Ö tö <color=yellow>tµ hiÖp<color> Ngò §éc Gi¸o, muèn häc vâ c«ng ph¶i kiÕm <color=yellow>Ng« Ng«n<color> míi ®óng chø!",0)
+		Say("Ngu¬i l? ®Ö t? <color=yellow>t? hiÖp<color> Ng? §éc Gi¸o, muèn häc v? c«ng ph¶i kiÕm <color=yellow>Ng? Ng«n<color> míi ®óng ch?!",0)
 	else 
-		Say("Ngu¬i lµ ®Ö tö <color=yellow>cæ s­<color> Ngò §éc Gi¸o, muèn häc vâ c«ng ph¶i kiÕm <color=yellow>LiÔu T©n Tróc<color> míi ®óng chø!",0)
+		Say("Ngu¬i l? ®Ö t? <color=yellow>c? s?<color> Ng? §éc Gi¸o, muèn häc v? c«ng ph¶i kiÕm <color=yellow>LiÔu T©n Tróc<color> míi ®óng ch?!",0)
 	end
 end;
 
@@ -159,12 +159,12 @@ end
 --±Õ¹ØĞŞÁ¶
 function practice()
     if GetPlayerFaction() ~= 7 then
-       Talk(1,"","Ngu¬i kh«ng ph¶i lµ ®Ö tö bæn gi¸o, kh«ng thÓ tu luyÖn ë ®©y.");
+       Talk(1,"","Ngu¬i kh«ng ph¶i l? ®Ö t? bæn gi¸o, kh«ng th? tu luyÖn ? ®©y.");
     else
         if GetItemCount(2, 0, 390) >= 1 then  --Ê¦ÃÅÁîÅÆ
-            Say("Muèn tu luyÖn hay kh«ng?",2,"§óng/practice_start","Sai/no");
+            Say("ÄãÏë±Õ¹ØĞŞÁ¶?",2,"ÊÇ/practice_start","²»ÊÇ/no");
         else
-            Talk(1,"","Ngu¬i kh«ng cã <color=yellow>lÖnh bµi s­ m«n Ngò §éc<color>, kh«ng thÓ bÕ quan tu luyÖn.");
+            Talk(1,"","ÄãÃ»ÓĞ<color=yellow>Ê¦ÃÅÁîÅÆ<color>,ÎŞ·¨ĞŞÁ¶.");
         end;
     end;
 end;
@@ -172,9 +172,9 @@ end;
 -- Îå¶¾½ÌÊ¦ÃÅÖØ¸´ÈÎÎñÈë¿Ú
 function start_faction_tasklink()
 	if (GetPlayerFaction() ~= 7) then
-		Say("Ngu¬i kh«ng ph¶i lµ ®Ö tö bæn gi¸o, viÖc bæn gi¸o kh«ng can hÖ g× ®Õn ng­¬i!", 0)
+		Say("Ngu¬i kh«ng ph¶i l? ®Ö t? bæn gi¸o, viÖc bæn gi¸o kh«ng can h? g? ®Õn ng­¬i!", 0)
 	elseif (GetPlayerRoute() == 19) then 
-		Say("§Ö tö bæn gi¸o ph©n lµm tµ hiÖp, cæ s­, chØ cã ®Ö tö ®· b¸i s­ míi cã thÓ tiÕp nhËn nhiÖm vô cña ta!", 0)
+		Say("§Ö t? bæn gi¸o ph©n lµm t? hiÖp, c? s?, ch? c? ®Ö t? ®· b¸i s? míi c? th? tiÕp nhËn nhiÖm v? cña ta!", 0)
 	elseif (GetPlayerRoute() == 20) then
 		task_main_entrance(TASK_ID_WUDU_XIEXIA);		-- Ğ°ÏÀ
 	else 
@@ -183,24 +183,24 @@ function start_faction_tasklink()
 end;
 
 function shimenshuoming()
-		Say("<color=green>ThuyÕt minh ®é cèng hiÕn s­ m«n<color>: \n <color=yellow>§é cèng hiÕn s­ m«n<color>: Th«ng qua viÖc hoµn thµnh nhiÖm vô S­ M«n ®¹t ®Õn mét ®¼ng cÊp nhÊt ®Şnh, b¹n cã thÓ nhËn ®­îc trang phôc hoÆc vò khİ cña S­ M«n. \n <color=yellow>Giíi h¹n ®é cèng hiÕn s­ m«n<color>: HiÖn nay ®é cèng hiÕn S­ M«n kh«ng bŞ h¹n chÕ, chØ cÇn hoµn thµnh nhiÖm vô th× cã thÓ n©ng cao ®é cèng hiÕn. \n <color=yellow>Sù kiÖn Vâ L©m<color>: Lµm xong nhiÖm vô cè ®Şnh sÏ nhËn thªm mét nhiÖm vô ngÉu nhiªn, hoµn thµnh sÏ nhËn ®­îc 50 ®iÓm cèng hiÕn S­ m«n vµ cã kh¶ n¨ng nhËn ®­îc mËt tŞch s­ m«n.", 
+		Say("<color=green>ThuyÕt minh ®é cèng hiÕn s? m«n<color>: \n <color=yellow>§é cèng hiÕn s? m«n<color>: Th«ng qua viÖc hoµn thµnh nhiÖm v? S? M«n ®¹t ®Õn mét ®¼ng cÊp nhÊt ®Şnh, b¹n c? th? nhËn ®­îc trang phôc hoÆc v? kh? cña S? M«n. \n <color=yellow>Giíi h¹n ®é cèng hiÕn s? m«n<color>: HiÖn nay ®é cèng hiÕn S? M«n kh«ng b? h¹n ch?, ch? cÇn hoµn thµnh nhiÖm v? th? c? th? n©ng cao ®é cèng hiÕn. \n <color=yellow>S? kiÖn V? L©m<color>: Lµm xong nhiÖm v? c? ®Şnh s? nhËn thªm mét nhiÖm v? ngÉu nhiªn, hoµn thµnh s? nhËn ®­îc 50 ®iÓm cèng hiÕn S? m«n v? c? kh? n¨ng nhËn ®­îc mËt tŞch s? m«n.", 
 			1,
-			"Trang kÕ/shuoming2")		
+			"Trang k?/shuoming2")		
 end;
 
 function shuoming2()
-		Say("<color=green>ThuyÕt minh ®é cèng hiÕn s­ m«n<color>: \n <color=yellow>Giíi h¹n ®¼ng cÊp ®é cèng hiÕn S­ M«n<color>: §¼ng cÊp kh¸c nhau th× ®iÓm tİch lòy ®é cèng hiÕn còng kh«ng gièng nhau. §é cèng hiÕn S­ M«n cµng cao cµng n©ng cao ®¼ng cÊp cña m×nh, tõ sau cÊp 75 th× kh«ng cßn giíi h¹n ®é cèng hiÕn n÷a. \n <color=yellow>§iÓm kinh nghiÖm ngÉu nhiªn<color>. Lµm nhiÒu nhiÖm vô s­ m«n ®é cèng hiÕn cµng cao ®iÓm kinh nghiÖm cµng nhiÒu. §iÓm cèng hiÕn <3000 <color=yellow>§iÓm kinh nghiÖm t­¬ng ®èi<color>, >3000 <color=yellow>®iÓm kinh nghiÖm cµng nhiÒu<color>.", 0);
+		Say("<color=green>ThuyÕt minh ®é cèng hiÕn s? m«n<color>: \n <color=yellow>Giíi h¹n ®¼ng cÊp ®é cèng hiÕn S? M«n<color>: §¼ng cÊp kh¸c nhau th? ®iÓm tİch lòy ®é cèng hiÕn còng kh«ng gièng nhau. §é cèng hiÕn S? M«n cµng cao cµng n©ng cao ®¼ng cÊp cña m×nh, t? sau cÊp 75 th? kh«ng cßn giíi h¹n ®é cèng hiÕn n÷a. \n <color=yellow>§iÓm kinh nghiÖm ngÉu nhiªn<color>. Lµm nhiÒu nhiÖm v? s? m«n ®é cèng hiÕn cµng cao ®iÓm kinh nghiÖm cµng nhiÒu. §iÓm cèng hiÕn <3000 <color=yellow>§iÓm kinh nghiÖm t­¬ng ®èi<color>, >3000 <color=yellow>®iÓm kinh nghiÖm cµng nhiÒu<color>.", 0);
 end
 
 function check_query_faction_contri()
 
 	if (GetPlayerFaction() == 0) then	-- Ã»ÓĞ¼ÓÈëÃÅÅÉ
-		Say("Muèn lµm nhiÖm vô s­ m«n tr­íc tiªn ph¶i gia nhËp bæn gi¸o. Sau ®ã h·y gia nhËp tr­êng ph¸i, råi quay l¹i chç ta nhËn nhiÖm vô. Sau khi hoµn thµnh nhiÖm vô s­ m«n sÏ nhËn ®­îc ®é cèng hiÕn s­ m«n, tİch lòy ®é cèng hiÕn nhÊt ®Şnh cã thÓ mua vËt phÈm bİ truyÒn bæn m«n.", 0)
+		Say("Muèn lµm nhiÖm v? s? m«n tr­íc tiªn ph¶i gia nhËp bæn gi¸o. Sau ®ã h·y gia nhËp tr­êng ph¸i, råi quay l¹i ch? ta nhËn nhiÖm v?. Sau khi hoµn thµnh nhiÖm v? s? m«n s? nhËn ®­îc ®é cèng hiÕn s? m«n, tİch lòy ®é cèng hiÕn nhÊt ®Şnh c? th? mua vËt phÈm b? truyÒn bæn m«n.", 0)
 		return
 	end
 	
 	if (GetPlayerFaction() ~= 7) then	-- ²»ÊÇ±¾ÃÅµÜ×Ó
-		Say("Ng­¬i kh«ng ph¶i lµ ®Ö tö cña bæn gi¸o, h·y vÒ m«n ph¸i cña ng­¬i mµ tra xem ®é cèng hiÕn s­ m«n nhĞ. Giao diÖn F3 còng cã thÓ tra xem ®é cèng hiÕn s­ m«n.", 0)
+		Say("Ng­¬i kh«ng ph¶i l? ®Ö t? cña bæn gi¸o, h·y v? m«n ph¸i cña ng­¬i m? tra xem ®é cèng hiÕn s? m«n nh?. Giao diÖn F3 còng c? th? tra xem ®é cèng hiÕn s? m«n.", 0)
 		return
 	end
 	
@@ -216,34 +216,34 @@ g_tbColorInfo =
 --ĞÂµÄÈë¿Ú
 function main_new()
 	local selTab = {
-				"Nguån gèc Ngò §éc gi¸o/know_qiyuan",
-				"Vâ c«ng Ngò §éc gi¸o/know_wugong",
-				"§iÒu kiÖn nhËp m«n/know_rumentiaojian",
-				"Ta muèn gia nhËp Ngò §éc/interwudu",
-				"Ta muèn lµm nhiÖm vô S­ M«n/about_faction_task",
-				"Liªn quan tu luyÖn./practice",
-				"Ta s¾p thµnh th©n nªn ph¶i xuÊt s­/#faction_graduate(7)",
-				"B¸i kiÕn gi¸o chñ/task_xn",
+				"Îå¶¾ÆğÔ´/know_qiyuan",
+				"Îå¶¾¹¦·¨/know_wugong",
+				"ÈëÃÅÌõ¼ş/know_rumentiaojian",
+				"¼ÓÈëÎå¶¾ÅÉ/interwudu",
+				"Ê¦ÃÅÈÎÎñËµÃ÷/about_faction_task",
+				"±Õ¹ØĞŞÁ¶/practice",
+				"ÎÒ´òËã³ÉÇ×£¬ÎÒÏë³öÊ¦/#faction_graduate(7)",
+				"´ò¸öÕĞºô/task_xn",
 				}
 	if GetPlayerRoute() == 20 or GetPlayerRoute() == 21  then
-		tinsert(selTab, 1, "NhiÖm vô ChuyÓn Sinh - C¶i L·o Hoµn §ång/trans_talk_32");
+		tinsert(selTab, 1, "NhiÖm v? ChuyÓn Sinh - C¶i L·o Hoµn §ång/trans_talk_32");
 	end
 	local nDate = tonumber(date("%y%m%d"));
 	if nDate >= 091106 and nDate <= 091112 then
-		tinsert(selTab, 1, "§Ö tö xin kİnh d©ng s­ phô trµ hoa cóc vµ b¸nh b¸ch hoa!/#GiveItemToMaster(\""..g_szInfoHead.."\", 7)");
+		tinsert(selTab, 1, "§Ö t? xin kİnh d©ng s? ph? tr? hoa cóc v? b¸nh b¸ch hoa!/#GiveItemToMaster(\""..g_szInfoHead.."\", 7)");
 	end
 --	tinsert(selTab,8,"ÎäÁÖÕù°ÔÕ½Ïà¹Ø/wulin_zhengba");
-	Say(g_szInfoHead.."§õng tr¸ch ta kh«ng nãi tr­íc, nÕu ng­êi gÆp chuyÖn g× kú l¹ th× ®õng cã mµ tĞ xØu ®ã",getn(selTab),selTab);
+	Say(g_szInfoHead.."§õng tr¸ch ta kh«ng nãi tr­íc, nÕu ng­êi gÆp chuyÖn g? k? l? th? ®õng c? m? t? xØu ®ã",getn(selTab),selTab);
 end;
 
 function know_qiyuan()
-	Talk(1,"main_new",g_szInfoHead.."§Êt Miªu C­¬ng nguy hiÓm v« cïng, cã nhiÒu m·nh thó ®éc trïng, ng­êi Miªu biÕt c¸ch chÕ ngù ®éc trïng cßn gäi lµ Cæ thuËt, ngoµi ra cßn cã thÓ gi÷ tö thi vµ dïng kú ®éc khèng chÕ cßn gäi lµ Phong thi thuËt. Sau nµy cã ng­êi sèng ë Miªu C­¬ng h¬n m­ên n¨m häc ®­îc tÊt c¶ bİ thuËt tù x­ng lµ Kim Tµm L·o Tiªn, ®Ö tö cña «ng ta lµ B¹ch DiÖn Lang Qu©n ng­êi s¸ng lËp Ngò ®éc gi¸o vµ t«n L·o tiªn lµ Ngò §éc tæ s­.");
+	Talk(1,"main_new",g_szInfoHead.."§Êt Miªu C­¬ng nguy hiÓm v? cïng, c? nhiÒu m·nh th? ®éc trïng, ng­êi Miªu biÕt c¸ch ch? ng? ®éc trïng cßn gäi l? C? thuËt, ngoµi ra cßn c? th? gi? t? thi v? dïng k? ®éc khèng ch? cßn gäi l? Phong thi thuËt. Sau nµy c? ng­êi sèng ? Miªu C­¬ng h¬n m­ên n¨m häc ®­îc tÊt c? b? thuËt t? x­ng l? Kim Tµm L·o Tiªn, ®Ö t? cña «ng ta l? B¹ch DiÖn Lang Qu©n ng­êi s¸ng lËp Ng? ®éc gi¸o v? t«n L·o tiªn l? Ng? §éc t? s?.");
 end;
 
 function know_wugong()
-	Talk(2,"main_new",g_szInfoHead..sf_ConvertColorString("Miªu C­¬ng kú thuËt chia lµm Cæ thuËt vµ Khèng thi thuËt, Ngò §éc gi¸o chia thµnh 2 hÖ ph¸i Cæ s­ vµ Tµ hiÖp. Cæ S­ chuyªn nghiªn cøu Ngò §éc Cæ ThuËt, dïng ®éc tÊn c«ng kÎ ®Şch, sau khi tr­ëng thµnh cã thÓ häc vâ c«ng trÊn ph¸i {V« ¶nh Ma Cæ}. Tµ hiÖp dùa vµo sù nhanh nhÑn cña th©n ph¸p ®Ó khèng chÕ tö thi, sö dông song ®ao tÊn c«ng kÎ ®Şch, sau khi tr­ëng thµnh cã thÓ häc vâ c«ng trÊn ph¸i {V« Thiªn Ma C«ng}."),g_szInfoHead..sf_ConvertColorString("S­ phô truyÒn thô Cæ s­ lµ Cæ Th­¬ng Th­¬ng Chñ {LiÔu T©n Tróc}, truyÒn thô Tµ hiÖp lµ Thi Th­¬ng Th­¬ng Chñ {Ng« Ng«n}."));
+	Talk(2,"main_new",g_szInfoHead..sf_ConvertColorString("Miªu C­¬ng k? thuËt chia lµm C? thuËt v? Khèng thi thuËt, Ng? §éc gi¸o chia thµnh 2 h? ph¸i C? s? v? T? hiÖp. C? S? chuyªn nghiªn cøu Ng? §éc C? ThuËt, dïng ®éc tÊn c«ng k? ®Şch, sau khi tr­ëng thµnh c? th? häc v? c«ng trÊn ph¸i {V? ¶nh Ma Cæ}. T? hiÖp dùa vµo s? nhanh nhÑn cña th©n ph¸p ®Ó khèng ch? t? thi, s? dông song ®ao tÊn c«ng k? ®Şch, sau khi tr­ëng thµnh c? th? häc v? c«ng trÊn ph¸i {V? Thiªn Ma C«ng}."),g_szInfoHead..sf_ConvertColorString("S? ph? truyÒn th? C? s? l? C? Th­¬ng Th­¬ng Ch? {LiÔu T©n Tróc}, truyÒn th? T? hiÖp l? Thi Th­¬ng Th­¬ng Ch? {Ng? Ng«n}."));
 end;
 
 function know_rumentiaojian()
-	Talk(1,"main_new",g_szInfoHead.."Kh«ng giíi h¹n nam n÷, ch­a gia nhËp m«n ph¸i kh¸c, kh«ng ph¶i lµ ph¶n ®å bæn m«n th× cã thÓ nhËp m«n. Ngò §éc gi¸o kh«ng xem träng chİnh tµ, giÕt ng­êi phãng háa còng kh«ng sao nh­ng nÕu m­u h¹i ®ång m«n sÏ bŞ v¹n cæ thùc t©m mµ chÕt.");
+	Talk(1,"main_new",g_szInfoHead.."Kh«ng giíi h¹n nam n?, ch­a gia nhËp m«n ph¸i kh¸c, kh«ng ph¶i l? ph¶n ®å bæn m«n th? c? th? nhËp m«n. Ng? §éc gi¸o kh«ng xem träng chİnh t?, giÕt ng­êi phãng háa còng kh«ng sao nh­ng nÕu m­u h¹i ®ång m«n s? b? v¹n c? thùc t©m m? chÕt.");
 end;

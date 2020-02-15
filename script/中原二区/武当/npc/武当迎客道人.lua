@@ -1,19 +1,19 @@
 function main()
 	if (GetSex()==2 and GetPlayerFaction() == 2) then
-		Say("S­ muéi muèn h¹ s¬n?",2,"PhiÒn M¹c s­ ca/outwudang","Ta ®Õn th¨m S­ ca th«i mµ!/no")
+		Say("ÊÇÒªÏÂÉ½Âğ?",2,"àÅ,Âé·³Ê¦ĞÖÁË/outwudang","²»ÓÃ,ÎÒÀ´¿´¿´Ê¦ĞÖ!/no")
 	elseif	(GetSex()==2 and GetPlayerFaction() ~= 2) then
-		Say("C« n­¬ng t×m ta cã viÖc g×?",2,"PhiÒn ®¹o tr­ëng ®­a t¹i h¹ xuèng nói/outwudang","Kh«ng cã viÖc g×!/no")
+		Say("ÊÇÒªÏÂÉ½Âğ?",2,"àÅ,Âé·³Ê¦ĞÖÁË/outwudang","²»ÓÃ,ÎÒÀ´¿´¿´Ê¦ĞÖ!/no")
 	elseif	(GetSex()~=2 and GetPlayerFaction() == 2) then
-		Say("S­ ®Ö muèn lÎn ra ngoµi ch¬i?",2,"§Ö phông mÖnh h¹ s¬n/outwudang","Kh«ng cã viÖc g×!/no")
+		Say("ÊÇÒªÏÂÉ½Âğ?",2,"àÅ,Âé·³Ê¦ĞÖÁË/outwudang","²»ÓÃ,ÎÒÀ´¿´¿´Ê¦ĞÖ!/no")
 	else
-		Say("§¹i hiÖp! BÇn ®¹o cã thÓ gióp g×?",2,"PhiÒn ®¹o tr­ëng ®­a t¹i h¹ xuèng nói/outwudang","Kh«ng cã viÖc g×!/no")
+		Say("ÊÇÒªÏÂÉ½Âğ?",2,"àÅ,Âé·³Ê¦ĞÖÁË/outwudang","²»ÓÃ,ÎÒÀ´¿´¿´Ê¦ĞÖ!/no")
 	end
 end;
 
 
 function outwudang()
 	if(GetPKValue() >3 ) then
-		Msg2Player("Ng­êi lµm viÖc ¸c cÊm ra vµo th«n trÊn.")	
+		Msg2Player("¶ñÈË²»µÃ³öÈëÎäµ±ÅÉ.")	
 	else
     SetFightState(0)
 		i=random(1,4)

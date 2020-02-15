@@ -14,11 +14,11 @@ function main()
 
 	if GetTask(ID_ITEMBOX)==0 then
 	
-		Say("<color=yellow>R­¬ng chøa ®å<color> lµ vËt kh«ng thÓ thiÕu khi hµnh tÈu giang hå. H·y ra ngoµi thµnh b¾t <color=yellow>Thá x¸m<color> lÊy vÒ <color=yellow>10 c¸i ®u«i<color>! Ta sÏ gióp ng­¬i lµm r­¬ng!",
-			3,
-			"Ta muèn lµm r­¬ng./yes_box",
-			"Kh«ng cÇn ®©u./no_box",
-			"T×m hiÓu lîi İch r­¬ng chøa ®å./intro_box");
+		Say("<color=yellow>´¢ÎïÏä<color>ÊÇ¼ÓÈë½­ºş±Ø²»¿ÉÉÙµÄ. È¥Ò°ÍâÕÒ<color=yellow>»ÒÉ«µÄÍÃ×Ó<color> ´ø»Ø <color=yellow>10¸öÍÃÎ²<color>! ¿ªÆôÄãµÄ´¢ÎïÏä!",
+				3,
+				"ÎÒÏë¿ªÆô´¢ÎïÏä/yes_box",
+				"²»ÓÃÁË/no_box",
+				"ÁË½â´¢ÎïÏäµÄºÃ´¦/intro_box");
 		return
 	elseif GetTask(ID_ITEMBOX)==1 then
 		check_box();
@@ -36,18 +36,18 @@ end;
 function yes_box()
 
 	SetTask(ID_ITEMBOX,1);
-	Say("H·y t×m <color=yellow>10 ®u«i Thá x¸m<color> vÒ cho ta!",1,"Ta ®i ngay ®©y!/box_no");
-	TaskTip("Ra ngoµi thµnh thu thËp 10 ®u«i Thá x¸m ®Ó lµm r­¬ng chøa ®å!")
+	Say("ÇëÕÒÑ° <color=yellow>10¸ö»ÒÍÃÍÃÎ²<color>´ø»ØÀ´!",1,"ÎÒÏÖÔÚ¾ÍÈ¥!/box_no");
+	TaskTip("³ö³ÇÊÕ¼¯10¸ö»ÒÉ«ÍÃÎ²¿ªÆô´¢ÎïÏä!")
 end;
 
 function check_box()
 	if GetItemCount(2,1,2)<10 then 
-		Say("Ng­¬i ch­a t×m ®­îc <color=yellow>10 ®u«i Thá x¸m<color> ta cÇn, ta kh«ng thÓ gióp ng­¬i lµm r­¬ng chøa ®å!",1,"Ta ®i t×m ngay ®©y!/box_no")
+		Say("Äã»¹Ã»ÕÒµ½ÎÒĞèÒªµÄ<color=yellow>10¸ö»ÒÍÃÍÃÎ²<color> , ÎÒ°ï²»ÁËÄã!",1,"ÎÒÏÖÔÚ¾ÍÈ¥!/box_no")
 	else
 		DelItem(2,1,2,10)
 		SetTask(ID_ITEMBOX,2) --¿ª·Å´¢ÎïÏä±ê¼Ç
-		Say("R­¬ng chøa ®å ®· lµm xong! Yªn t©m sö dông nhĞ!",1,"Tèt l¾m! Xin ®a t¹!/box_no")
-		Msg2Player("R­¬ng chøa ®å ®· lµm xong! Yªn t©m sö dông nhĞ!");
+		Say("´¢ÎïÏäÒÑ¾­Íê³ÉÁË!Çë·ÅĞÄÊ¹ÓÃ°É!",1,"ºÜºÃ!·Ç³£¸ĞĞ»!/box_no")
+		Msg2Player("´¢ÎïÏäÍê³ÉÁË!Çë·ÅĞÄÊ¹ÓÃ!");
 	end;
 end;
 
@@ -56,7 +56,7 @@ end;
 
 function intro_box()
 
-	Say("Cã thÓ më réng kho¶ng trèng trong r­¬ng chøa ®å ®Ó cÊt gi÷ ®å vËt kh«ng th­êng dïng vµ c¸c vËt phÈm quı. Khi më r­¬ng ë mét thµnh thŞ nµo ®ã, cã nghÜa lµ ng­¬i ®· cµi ®Æt ®iÓm vÒ thµnh t¹i thµnh thŞ ®ã. Ngoµi ra, ng­¬i cÇn bá ra <color=yellow>20 l­îng<color> sö dông <color=yellow>chøc n¨ng khãa r­¬ng<color> ®Ó ®¶m b¶o an toµn cho r­¬ng chøa ®å. R­¬ng chøa ®å sÏ ®­îc hÖ thèng <color=yellow>tù ®éng khãa chÆt<color> mçi khi ng­¬i rêi m¹ng. NÕu muèn <color=yellow>cµi ®Æt l¹i mËt m·<color>, cÇn tr¶ <color=yellow>thªm<color> <color=yellow>2 l­îng<color> n÷a!",1,"§a t¹!/no_box");
+	Say("¿ÉÒÔÀ©´ó´¢ÎïÏä´æ·ÅÎ´Ê¹ÓÃµÄ¹óÖØÎïÆ·. µ±ÄúÔÚÄ³¸ö³ÇÊĞ´ò¿ª´¢ÎïÏäÊ±,¿ÉÒÔËæÊ±È¡³ö. ´ËÍâ, ÄãĞèÒª»¨·Ñ<color=yellow>20Á½<color>Ê¹ÓÃ<color=yellow>Ïä×ÓËø¶¨¹¦ÄÜ<color>È·±£ÄúµÄ´¢ÎïÏä°²È«.Ã¿µ±ÄãÏÂÏßÊ±´¢ÎïÏä½« <color=yellow>×Ô¶¯Ëø¶¨<color> .Èç¹ûÄãĞèÒª<color=yellow>ÖØÖÃÃÜÂë<color>,ĞèÒªÖ§¸¶<color=yellow>¶îÍâ<color> <color=yellow>2Á½<color> ½ğ×Ó!",1,"Ğ»Ğ»!/no_box");
 end;
 
 

@@ -1,8 +1,8 @@
-enum_core	string		
-LOC_G_MAN_STD	STR_G_MAN_STD		
-LOC_G_MAN_STRONG	STR_G_MAN_STRONG		
-LOC_G_WOMAN_SEXY	STR_G_WOMAN_SEXY		
-LOC_G_WOMAN_AMORETTO	STR_G_WOMAN_AMORETTO		
+enum_core	string
+LOC_G_MAN_STD	STR_G_MAN_STD
+LOC_G_MAN_STRONG	STR_G_MAN_STRONG
+LOC_G_WOMAN_SEXY	STR_G_WOMAN_SEXY
+LOC_G_WOMAN_AMORETTO	STR_G_WOMAN_AMORETTO
 LOC_G_THIEFSKILL_0	%s ´ÓÄãÉíÉÏÍµµ½%dÁ½Òø×Ó¾è¸øÇ°Ïß!		
 LOC_G_THIEFSKILL_1	Äã³É¹¦µÄ´Ó%s ÄÇÀïÍµµ½%dÁ½Òø×Ó¾è¸øÇ°Ïß!		
 LOC_G_THIEFSKILL_2	±»Íµ³É¹¦ 		
@@ -24,7 +24,7 @@ LOC_G_CITYWARDATA_3	 µÚ %u ÂÖ¶ÔÕó:
 LOC_G_CITYWARDATA_4	%s ¶Ô %s		
 LOC_G_CITYWARDATA_5	%s Ê¤ %s		
 LOC_G_CITYWARDATA_6	<< %s ³ÇÇø >>\n		
-LOC_G_CITYWARDATA_7	¡¢		
+LOC_G_CITYWARDATA_7	,		
 LOC_G_CITYWARDATA_8	±ÈÈüÉÐÎ´½øÐÐ....		
 LOC_G_CITYWARDATA_9	<ÌôÕ½ %s ³ÇÇø - ÀÞÌ¨´óÕ½>\n  		
 LOC_G_CITYWARDATA_10	  Ä¿Ç°ÊÇºÍÆ½Ê±ÆÚ\n		
@@ -153,8 +153,8 @@ LOC_G_ITEM_47	¹¥»÷ÐÔ¸¨Öú¹¦·¨¼Ó³É
 LOC_G_ITEM_48	·ÀÓùÐÔ¸¨Öú¹¦·¨¼Ó³É		
 LOC_G_ITEM_49	Ö»ÄÜÏâÇ¶ÔÚ		
 LOC_G_ITEM_50	²»ÄÜÏâÇ¶ÔÚ		
-LOC_G_ITEM_51	½ûÓÃ\n		
-LOC_G_ITEM_52	Ò»Ð©		
+LOC_G_ITEM_51	½ûÓÃ\n	
+LOC_G_ITEM_52	*
 LOC_G_ITEM_53	ÐÞÀí¼Û¸ñ:		
 LOC_G_ITEM_54	¼ø¶¨¼Û¸ñ:		
 LOC_G_ITEM_55	×°Êø		
@@ -190,7 +190,7 @@ LOC_G_ITEM_86	PKÄ£Ê½:
 LOC_G_ITEM_87	ºÍÆ½Ä£Ê½:		
 LOC_G_ITEM_88	´ËÎïÆ·²»ÄÜÔÚºÍÆ½×´Ì¬ÏÂÊ¹ÓÃ¡£		
 LOC_G_ITEM_89	ÓÐÐ§ÆÚµ½%d-%d-%d %dÊ±		
-LOC_G_ITEM_90	"¶¨»êÔÉÌúÉñÊ¯Ð§¹û:+7ÒÔÉÏÇ¿»¯Ê±,Ê§°ÜÖ»»Ø¹éµ½+7"		
+LOC_G_ITEM_90	"¶¨»êÔÉÌúÉñÊ¯Ð§¹û:¿ÉÒÔ¶Ô×°±¸½øÐÐ%d-%d¼¶µÄÇ¿»¯"		
 LOC_G_ITEM_91	Î´¼¤»î		
 LOC_G_ITEM_92	µÚ%sÌõÊôÐÔÌáÈ¡³É¹¦¡£		
 LOC_G_ITEM_93	µÚ%sÌõÊôÐÔÌáÈ¡Ê§°Ü¡£		
@@ -251,16 +251,16 @@ LOC_G_STORE_ITEM_CANNOT_DROP	´ËÎïÆ·²»ÄÜ·ÅÈëÉÌµêÖÐ£¡
 LOC_G_ENHANCE_ITEM_1	Ç¿»¯¶È\t%d\n		
 LOC_G_ENHANCE_ITEM_2	%s%s\n		
 LOC_G_ENHANCE_ITEM_3	³É¹¦ÂÊ\t%d\n		
-LOC_G_ENHANCE_ITEM_6	Íâ¹¥+%d%% ÄÚ¹¥+%d%%\n		
-LOC_G_ENHANCE_ITEM_7	Íâ·À+%d ÄÚ·À+%d\n		
+LOC_G_ENHANCE_ITEM_6	Íâ¹¥+%d%% ÄÚ¹¥+%d%%\n Ç¿»¯µãÊýÇå0\n		
+LOC_G_ENHANCE_ITEM_7	Íâ·À+%d ÄÚ·À+%d\n Ç¿»¯µãÊýÇå0\n		
 LOC_G_ENHANCE_ITEM_8	²»¿ÉÄÜÊ§°Ü\n		
-LOC_G_ENHANCE_ITEM_9	ËùÓÐÇ¿»¯Ð§¹û½«Çå³ý\n		
+LOC_G_ENHANCE_ITEM_9	Ç¿»¯¶È²»±ä£¬Ç¿»¯µãÊý+%d\n		
 LOC_G_ENHANCE_ITEM_10	×°±¸ÏûÊ§\n		
 LOC_G_ENHANCE_ITEM_11	²»»áÊ§°Ü\n		
 LOC_G_ENHANCE_ITEM_12	ÏâÇ¶³É¹¦ÁË¡£\n		
 LOC_G_ENHANCE_ITEM_13	ÏâÇ¶³É¹¦ÁË£¬ÁéÆø³äÓ¯¡£\n		
 LOC_G_ENHANCE_ITEM_14	ÏâÇ¶³É¹¦ÁË£¬ÁéÆø³äÓ¯£¬Í»·ÉÃÍ½ø¡£\n		
-LOC_G_ENHANCE_ITEM_15	"+7ÒÔÉÏÇ¿»¯Ê±,Ê§°ÜÖ»»Ø¹éµ½+7"		
+LOC_G_ENHANCE_ITEM_15	"¿ÉÒÔ¶Ô×°±¸½øÐÐ%d-%d¼¶µÄÇ¿»¯"		
 LOC_G_TONG_CREATE_ERROR1	ÄúÒÑ¾­ÊÇ°ï»á³ÉÔ±ÁË£¡		
 LOC_G_TONG_CREATE_ERROR2	Äú»¹Ã»ÓÐ´ïµ½½¨Á¢°ï»áµÄµÈ¼¶£¡		
 LOC_G_TONG_CREATE_ERROR3	ÄúµÄÉùÍû»¹²»×ãÒÔ½¨Á¢°ï»á£¡		
@@ -399,9 +399,9 @@ LOC_G_SkillList_41	ÄãÐèÒª´¦ÓÚÏàÓ¦µÄÌìÆø×´Ì¬²Å¿ÉÒÔÊ¹ÓÃ¸ÃÎä¹¦£¡
 LOC_G_SkillList_42	"´Ë¹¦ÉÐÇ·»ðºò,²»×ãÒÔÖÐÖ¹Îèµ¸£¡"		
 LOC_G_SkillList_43	"´Ë¹¦ÉÐÇ·»ðºò,²»×ãÒÔÐø¸´Îè²½£¡"		
 LOC_G_SkillList_44	ÄãÐèÒª´¦ÓÚÏàÓ¦µÄÎèµ¸×´Ì¬²Å¿ÉÒÔÊ¹ÓÃ¸ÃÎä¹¦£¡		
-LOC_G_SkillList_45	ÉÐÎ´×°±¸Áéºü		
-LOC_G_SkillList_46	ÄãµÄÁéºüÀëÄãÌ«Ô¶ÁË£¬²»ÄÜ½ÓÊÕµ½ÄãµÄÖ¸Áî		
-LOC_G_SkillList_47	Õâ²»ÊÇÄãµÄÁéºü£¬ÎÞ·¨Î¹Ñø		
+LOC_G_SkillList_45	ÉÐÎ´×°±¸³èÎï		
+LOC_G_SkillList_46	ÄúµÄ³èÎïÀëÄãÌ«Ô¶ÁË£¬²»ÄÜ½ÓÊÕµ½ÄãµÄÖ¸Áî		
+LOC_G_SkillList_47	Õâ²»ÊÇÄãµÄ³èÎï£¬ÎÞ·¨Î¹Ñø		
 LOC_G_WAR_HORSE_DESC	ÑîÃÅÕ½Âí		
 LOC_G_PROGRESS_DESC_1	¾ÛÆø		
 LOC_G_PROGRESS_DESC_2	ÑÐ¶Á		
@@ -548,7 +548,7 @@ LOC_G_Skills_97	\n¹¥»÷Á¦%d
 LOC_G_Skills_98	\nÁ¬»÷¸ÅÂÊ:%d%%		
 LOC_G_Skills_99	ÄãÎÞ·¨ÔÙ¾Û¼¯¸ü¶àµÄÄÚÆø		
 LOC_G_Skills_100	ÏÂÒ»¼¶		
-LOC_G_Skills_101	ÕÐÊ½ 		
+LOC_G_Skills_101	* 		
 LOC_G_Skills_102	×î¸ßµÈ¼¶		
 LOC_G_Skills_103	ÄúÍµÈ¡µ½ÁË%d¼¶µÄ%s		
 LOC_G_Skills_104	"ÎÞÖ¹ÇÙÒô,ºÎÀ´ÐøÇÙ£¡"		
@@ -556,8 +556,8 @@ LOC_G_Skills_105	ÉÐÎ´Ñ§»á
 LOC_G_Skills_106	ÊìÁ·¶È		
 LOC_G_Skills_107	%d¼¶ ¡°%s¡±		
 LOC_G_Skills_108	´ËÎä¹¦±»ÏÞÖÆÊ¹ÓÃ		
-LOC_G_Skills_109	NPC TrÃ‹n KÃº		
-LOC_G_Skills_110	NPC thÃ³ cÂ­ng		
+LOC_G_Skills_109	ÕóÆìNPC		
+LOC_G_Skills_110	³èÎïNPC	
 LOC_G_Skills_111	Ö»ÄÜ¶ÔÕýÔÚÌøÎèµÄÍæ¼ÒÊ¹ÓÃ´Ë¼¼ÄÜ		
 LOC_G_Skills_112	ÎÞÖ¹Îè²½£¬ºÎÀ´ÐøÎè		
 LOC_G_Player_AutoMove_NotSupport	´ËµØÍ¼²»Ö§³Ö×Ô¶¯Ñ°Â·		
@@ -667,7 +667,7 @@ LOC_K_NPCRESNODE_1	½Åµ×
 LOC_K_NPCRESNODE_2	Ñ­»·		
 LOC_K_NPC_0	ÈËÎïÃû³Æ		
 LOC_K_CHAT_TEAM_DEFAULT_NAME	ÎÒµÄºÃÓÑ		
-LOC_K_MATE_UNITNAME	Spouse\n		
+LOC_K_MATE_UNITNAME	ÅäÅ¼\n		
 LOC_K_BROTHER_UNITNAME	Ç×ÈË\n		
 LOC_K_ENEMY_UNITNAME	³ðÈË\n		
 LOC_K_WEAPON_DETAILTYPE	¾ßÌåÀà±ð		
@@ -936,7 +936,7 @@ LOC_MSG_NPC_NO_LIFE	ÉúÃü²»×ã£¡
 LOC_MSG_NPC_DEATH	%sÆø¾øÉíÍö£¡£¡		
 LOC_MSG_COUPLE_REVIVAL	Äã¸Ð¾õ'%s'¸øÄã´øÀ´ÁËÐÂµÄÓÂÆø£¬Òª½ÓÊÜÕâ°®ÇéµÄÉñÆæÁ¦Á¿Ã´£¿ %d Ãë		
 LOC_MSG_NPC_ASK_REVIVAL	"\%s\ ÕÌÒåÏà¾È,ÊÇ·ñ½ÓÊÜ£¿ %d Ãë"		
-LOC_MSG_USE_DUMMY_REVIVAL	"ÄãÊ¹ÓÃÁËÌæÉí·û,Ã»ÓÐËÀÍö³Í·£,ÊÇ·ñÔ­µØ¸´»î %d Ãë"		
+LOC_MSG_USE_DUMMY_REVIVAL	"ÄãÊÇ·ñÒªÊ¹ÓÃÌæÉí·û,Ã»ÓÐËÀÍö³Í·£,Ô­µØ¸´»î %d Ãë"		
 LOC_MSG_OBJ_CANNOT_PICKUP	Äú²»ÄÜÊ°È¡±ðÈËµÄÎïÆ·£¡		
 LOC_MSG_MONEY_CANNOT_PICKUP	Äú²»ÄÜÊ°È¡±ðÈËµÄÇ®£¡		
 LOC_MSG_OBJ_TOO_FAR	ÎïÆ·Ì«Ô¶£¬ÎÞ·¨Ê°È¡£¡		
@@ -1003,7 +1003,7 @@ LOC_MSG_HORSE_IS_TOO_OLD	ÄúµÄÂíÆ¥ÒÑ¾­µ½ÁËÍËÒÛµÄÄêÁä£¬Äã»¹ÊÇÈÃËû¸æÀÏ»¹Ïç°É¡£
 LOC_MSG_PK_NORMAL_FLAG_0	PK×´Ì¬±äÎªÁ·¹¦Ä£Ê½£¡		
 LOC_MSG_PK_NORMAL_FLAG_1	PK×´Ì¬±äÎªÕ½¶·Ä£Ê½£¡		
 LOC_MSG_PK_NORMAL_FLAG_2	PK×´Ì¬±äÎªÍÀÉ±Ä£Ê½£¡		
-LOC_MSG_PK_NORMAL_FLAG_3	TrÂ¹ng thÂ¸i PK trÃ« thÂµnh chiÆ n Â®ÃŠu bang hÃ©i!		
+LOC_MSG_PK_NORMAL_FLAG_3	PK×´Ì¬±äÎª°ïÅÉÄ£Ê½£¡		
 LOC_MSG_PK_FIGHT_FLAG	PK¿ª¹ØÕ½¶·Ä£Ê½´ò¿ª		
 LOC_MSG_PK_KILL_ALL_FLAG	PK¿ª¹ØÍÀÉ±Ä£Ê½´ò¿ª		
 LOC_MSG_PK_VALUE	ÄúÄ¿Ç°µÄPKÖµÊÇ%d£¡		
@@ -1090,7 +1090,7 @@ LOC_MSG_STALL_SELL_ERR_PLAYER_STATUS	×é¶Ó»òÕß½»Ò×Ê±²»ÄÜ°ÚÌ¯£¡
 LOC_MSG_STALL_SELL_ERR_ITEM_COUNT	Äú»¹Ã»ÓÐÔÚ°ÚÌ¯À¸·ÅÈëÈÎºÎÉÌÆ·£¡		
 LOC_MSG_STALL_SELL_ERR_ITEM_MARKPRICE	Äú»¹Ã»ÓÐ¶Ô %s ½øÐÐ±ê¼Û£¡		
 LOC_MSG_STALL_SELL_ERR_NO_ADV	Äú»¹Ã»ÓÐÉèÖÃ¹ã¸æ±êÓï£¡		
-LOC_MSG_STALL_SELL_START	ÄúÊ§È¥ÁËËùÓÐ½ðÇ®£¬ºöÓÆÄãµÄ£¬ÄúÒÑ¾­ÇÐ»»³ÉµÚ%d¼¶°ÚÌ¯×´Ì¬£¡-----ºº»¯byÏóÑÀËþ£¬QQÈº118017134		
+LOC_MSG_STALL_SELL_START	ÄúÒÑ¾­ÇÐ»»³É°ÚÌ¯×´Ì¬£¡		
 LOC_MSG_STALL_SELL_STOP	Äú¾ö¶¨ÊÕÌ¯ÁË		
 LOC_MSG_STALL_BUY_ERR_NOT_SELLING	Ì¯Ö÷ÒÑ¾­ÊÕÌ¯ÁË£¡		
 LOC_MSG_STALL_BUY_ERR_ITEM_UNEXISTED	¸ÃÎïÆ·ÒÑ¾­±»Âò×ß»òÕßÌ¯Ö÷ÒÑ¾­²»ÏëÂôÁË£¡		
@@ -1169,7 +1169,7 @@ LOC_G_Ui_INTERACTION_END	ÄúºÍ¶Ô·½µÄÍæ¼Ò½»»¥½âÉ¢ÁË£¡
 LOC_G_TEAM_SELF_NOT_CAPTAIN	Äú²»ÊÇ¶Ó³¤£¬²»ÄÜÑûÇë¶Ô·½Èë¶Ó£¡		
 LOC_G_TEAM_OTHER_NOT_CAPTAIN	¶Ô·½²»ÊÇ¶Ó³¤£¬ÇëÏò¶Ô·½µÄ¶Ó³¤ÉêÇë¼ÓÈë£¡		
 LOC_G_TEAM_ALL_IN_TEAM	¶Ô·½ÒÑ¾­ÔÚ¶ÓÎéÖÐ£¡		
-LOC_G_DEFAULT_FORMAT_STRING	XXXXXXXXÍòXXXXÁ½		
+LOC_G_DEFAULT_FORMAT_STRING	XXXXXXXXÍòXXXXÁ½	
 LOC_G_UiChatCentre_0	ÐÂ½¨×é		
 LOC_G_UiChatCentre_1	ÖØÃüÃû×é		
 LOC_G_UiChatCentre_2	É¾³ý×é		
@@ -1191,7 +1191,7 @@ LOC_G_UIGAME_8	ÇÐ´è
 LOC_G_UIGAME_9	ËÍÇ®		
 LOC_G_UIGAME_10	¹«Æµ¹Ø¼ü×Ö		
 LOC_G_UIGAME_11	¾Ù±¨		
-LOC_G_UIGAME_12	World		
+LOC_G_UIGAME_12	ÊÀ½ç		
 LOC_G_TIME_0	Ò¹°ë		
 LOC_G_TIME_1	¼¦Ãù		
 LOC_G_TIME_2	Æ½µ©		
@@ -1240,7 +1240,7 @@ LOC_G_CONNECTINFO_1	"´ËÕËºÅÕýÔÚÊ¹ÓÃÖÐ,ÇëÊäÈë¶þ¼¶ÃÜÂë"
 LOC_G_FRIEND_UNITNAME	ºÃÓÑ		
 LOC_G_BROTHER_UNITNAME	Ç×ÈË		
 LOC_G_ENEMY_UNITNAME	³ðÈË		
-LOC_G_MATE_UNITNAME	Spouse 		
+LOC_G_MATE_UNITNAME	ÅäÅ¼ 		
 LOC_G_DEFAULT_GROUPNAME	ÎÒµÄ		
 LOC_G_STRANGER	Ä°ÉúÈË		
 LOC_G_DiceWeaveBingo_0	ºÙºÙ£¬ÕâÎ»¿Í¹Ù¿ÉÒªÏÂ×¢Âð£¿Õâ¿ÉÊÇ¹ö¹öµÄ²ÆÔ´à¸		
@@ -1348,7 +1348,7 @@ LOC_G_TREMBLEITEM_9	Õâ¸öÎïÆ·²»ÄÜÏâÇ¶ÁË
 LOC_G_TREMBLEITEM_10	ÄúµÄ%sÔÚ´òÉ¢Ê±Ëð»ÙÁË		
 LOC_G_TREMBLEITEM_11	ÄúÒÑ¾­Íê³ÉÌ××°´òÉ¢		
 LOC_G_TREMBLEITEM_12	ÄúÒÑ¾­Íê³ÉÁéÊ¯ÌáÈ¡		
-LOC_G_STR_WAIT_TRADING	µÈ´ý½»Ò×Ö´Ð„1?		
+LOC_G_STR_WAIT_TRADING	µÈ´ý½»Ò×Ö´ÐÐ		
 LOC_G_STR_OTHER_OK	¶Ô·½ÒÑËø¶¨		
 LOC_G_STR_OTHER_NOT_OK	µÈ´ý¶Ô·½Ëø¶¨		
 LOC_G_STR_OPP_DROP_ITEM	¶Ô·½ÐÂ·ÅÏÂÒ»¸öÎïÆ·		
@@ -1748,37 +1748,37 @@ LOC_SM_INS_ATTACK_BUFFTIME_PER	Ö÷¶¯¹¥»÷¸¨ÖúÊ±¼äÔö¼Ó%d%%
 LOC_SM_INS_DEF_BUFFTIME_PER	Ö÷¶¯·ÀÓù¸¨ÖúÊ±¼äÔö¼Ó%d%%		
 LOC_SM_INS_DMG_2_GHOST	¶ÔÒõÏµ¶ÔÊÖÉËº¦Ôö¼Ó%dµã		
 LOC_SM_INS_HIT_2_GHOST	¶ÔÒõÏµ¶ÔÊÖÃüÖÐÔö¼Ó%dµã		
-LOC_SM_151			
-LOC_SM_152			
-LOC_SM_153			
-LOC_SM_154			
-LOC_SM_155			
-LOC_SM_156			
-LOC_SM_157			
-LOC_SM_158			
-LOC_SM_159			
-LOC_SM_160			
-LOC_SM_161			
-LOC_SM_162			
-LOC_SM_163			
-LOC_SM_164			
-LOC_SM_165			
-LOC_SM_166			
-LOC_SM_167			
-LOC_SM_168			
-LOC_SM_169			
-LOC_SM_170			
-LOC_SM_171			
-LOC_SM_172			
-LOC_SM_173			
-LOC_SM_174			
-LOC_SM_175			
-LOC_SM_176			
-LOC_SM_177			
-LOC_SM_178			
-LOC_SM_179			
-LOC_SM_180			
-LOC_SM_181			
+LOC_SM_151	
+LOC_SM_152	
+LOC_SM_153	
+LOC_SM_154	
+LOC_SM_155	
+LOC_SM_156	
+LOC_SM_157	
+LOC_SM_158	
+LOC_SM_159	
+LOC_SM_160	
+LOC_SM_161	
+LOC_SM_162	
+LOC_SM_163	
+LOC_SM_164	
+LOC_SM_165	
+LOC_SM_166	
+LOC_SM_167	
+LOC_SM_168	
+LOC_SM_169	
+LOC_SM_170	
+LOC_SM_171	
+LOC_SM_172	
+LOC_SM_173	
+LOC_SM_174	
+LOC_SM_175	
+LOC_SM_176	
+LOC_SM_177	
+LOC_SM_178	
+LOC_SM_179	
+LOC_SM_180	
+LOC_SM_181	
 LOC_SM_FIND_TRAP_AREA	Õì²ìÏÝÚå·¶Î§%d		
 LOC_SM_FIND_TRAP	Õì²ìÏÝÚå:%s		
 LOC_SM_185			
@@ -1843,213 +1843,213 @@ LOC_SM_CHIHUAN_IMMU	³Ù»ºÃâÒß
 LOC_SM_JIANSU_IMMU	¼õËÙÃâÒß		
 LOC_SM_JIDAO_IMMU	»÷µ¹ÃâÒß		
 LOC_SM_JITUI_IMMU	»÷ÍËÃâÒß		
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-LOC_SM_DISPEAR	»Ø±ÜËùÓÐ¼¼ÄÜÐ§¹û		
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-LOC_SM_INS_ALL_STATUS	ËùÓÐÊôÐÔÔö¼Ó%dµã		
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-LOC_SM_JINENG_RANGE_ADD	¼¼ÄÜÊ¹ÓÃ·¶Î§À©´ó%d%%		
-LOC_SM_JINENG_INTERVAL_IGN	¼¼ÄÜÊ¹ÓÃÃ»ÓÐ¼ä¸ô		
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-LOC_SM_LIFE_PERCENT_ADD	ÉúÃü»Ø¸´%d%%		
-LOC_SM_NEILI_PERCENT_ADD	ÄÚÁ¦»Ø¸´%d%%		
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOC_SM_DISPEAR	»Ø±ÜËùÓÐ¼¼ÄÜÐ§¹û	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOC_SM_INS_ALL_STATUS	ËùÓÐÊôÐÔÔö¼Ó%dµã	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOC_SM_JINENG_RANGE_ADD	¼¼ÄÜÊ¹ÓÃ·¶Î§À©´ó%d%%
+LOC_SM_JINENG_INTERVAL_IGN	¼¼ÄÜÊ¹ÓÃÃ»ÓÐ¼ä¸ô
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOC_SM_LIFE_PERCENT_ADD	ÉúÃü»Ø¸´%d%%
+LOC_SM_NEILI_PERCENT_ADD	ÄÚÁ¦»Ø¸´%d%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 LOC_SM_CLEAR_SKILL_INTERVAL	¼¼ÄÜ¼ä¸ôÁ¢¼´Ïû³ý		
 LOC_SERIES_NONE	ÎÞ		
 LOC_SERIES_GOLD	½ð		
@@ -2209,92 +2209,92 @@ LOC_SSP_76	ÅîÀ³ÏÉË®
 LOC_SSP_77	ÅîÀ³ÏÉÂ¶		
 LOC_SSP_78	ÅîÀ³ÏÉµ¤		
 LOC_SSP_79	ÅîÀ³Â¶Ë®		
-LOC_SSP_80	µûÁµ		
-LOC_SSP_81	Custom0		
-LOC_SSP_82	Custom1		
-LOC_SSP_83	Custom2		
-LOC_SSP_84	Custom3		
-LOC_SSP_85	Custom4		
-LOC_SSP_86	Custom5		
-LOC_SSP_87	Custom6		
-LOC_SSP_88	Custom7		
-LOC_SSP_89	Custom8		
-LOC_SSP_90	Custom9		
-LOC_SSP_91	Kim TÃ¡a TrÃ‹n		
-LOC_SSP_92	Huá»·n ThÃ±y TrÃ‹n		
-LOC_SSP_93	Phong Binh LÃ–nh		
-LOC_SSP_94	BÂµn MÃ©c TrÃ‹n		
-LOC_SSP_95	TÃŠn Â¶nh LÃ–nh		
-LOC_SSP_96	CÂµn KhÂ«n NghÌƒch ChuyÃ“n		
-LOC_SSP_97	NghiÃ–p HÃ¡a TrÃ‹n		
-LOC_SSP_98	ThÃ¦ Lao TrÃ‹n		
-LOC_SSP_99	NgÌ£ Linh Quy NguyÂªn		
-LOC_SSP_100	Quang Minh NgÌ£ HÂµnh TrÃ‹n		
-LOC_SSP_101	Â§oÂ¹n CÃ¨t TrÂ¶o		
-LOC_SSP_102	HÃ± ThÂ­Â¬ng ÃŠn		
-LOC_SSP_103	BÂ¨ng HuyÆ t ÃŠn		
-LOC_SSP_104	HÃŠp HuyÆ t ÃŠn		
-LOC_SSP_105	HÂµn HuyÆ t ÃŠn		
-LOC_SSP_106	ThÆ¯ch CÃ¨t ÃŠn		
-LOC_SSP_107	Truy HÃ¥n ÃŠn		
-LOC_SSP_108	ThÆ¯ CÂ¶nh TrÂ¶o		
-LOC_SSP_109	HÂµn BÂ¨ng HuyÆ t ChÂ­Ã­ng		
-LOC_SSP_110	HÄƒa HuyÆ t ÃŠn		
-LOC_SSP_111	VÃ‰n ThÂ­Â¬ng ÃŠn		
-LOC_SSP_112	HÂµn BÂ¨ng MiÂªn ChÂ­Ã«ng		
-LOC_SSP_113	HÂµn BÂ¨ng NgÂ­ng HuyÆ t ÃŠn		
-LOC_SSP_114	KhÃ«i á¹?		
-LOC_SSP_115	Linh MiÂªu VÃ‹n		
-LOC_SSP_116	MÌƒ Hoa		
-LOC_SSP_117	Â§oÂ¹n VÂ©n QuyÆ t 		
-LOC_SSP_118	Thu NguyÃ–t PhÃ³		
-LOC_SSP_119	Â§iÃ–p OÂ¸n		
-LOC_SSP_120	ThiÂªn HÃ¡a DiÃ”m DÂ­Â¬ng		
-LOC_SSP_121	MÃ©ng XÂµ		
-LOC_SSP_122	Loan PhÃ´ng CÃ¶u ThiÂªn		
-LOC_SSP_123	TÃ³y MÃ©ng NgÂ©m		
-LOC_SSP_124	LÂ¹c Hoa QuyÆ t		
-LOC_SSP_125	Â§Âµo hoa chÂ­Â¬ng		
-LOC_SSP_126	TÃ¡a TÂ©m QuyÆ t		
-LOC_SSP_127	Linh Â§Ã©ng QuyÆ t		
-LOC_SSP_128	MÂª XÂ¶o QuyÆ t		
-LOC_SSP_129	TiÂªn LÂ­ HÂ­Â¬ng		
-LOC_SSP_130	Â§iÃ–p LuyÆ n Hoa		
-LOC_SSP_131	CÃ¶u VÃ¼ Hoa TiÂªn QuyÆ t		
-LOC_SSP_132	PhÃ¥n Hoa MÃ‹u		
-LOC_SSP_133	TÂ¨ng sÃ¸c mÂ¹nh		
-LOC_SSP_134	TÂ¨ng thÂ©n phÂ¸p		
-LOC_SSP_135	TÂ¨ng nÃ©i cÂ«ng		
-LOC_SSP_136	TÂ¨ng linh hoÂ¹t		
-LOC_SSP_137	TÂ¨ng gÂ©n cÃ¨t		
-LOC_SSP_138	SÂ¸t Æ°		
-LOC_SSP_139	HÃ§n Â§Ã©n Â§ÃŠu PhÂ¸ch		
-LOC_SSP_140	LuyÃ–n KiÆ m-SÆ¯ HÂµn		
-LOC_SSP_141	LuyÃ–n KiÆ m-ThiÂªn Minh		
-LOC_SSP_142	LuyÃ–n KiÆ m-Phong CÃ‹n		
-LOC_SSP_143	KiÆ m ThÃ± KhÂ«ng Minh-ChÆ¯nh		
-LOC_SSP_144	KiÆ m ThÃ± KhÂ«ng Minh-PhÃ´		
-LOC_SSP_145	ThiÂªn Phong TrÃ´y		
-LOC_SSP_146	KiÆ m Æ° PhÂ¶n XÂ¹		
-LOC_SSP_147	PhÃ¥n Hoa-HÂ­ NhÂ­Ã®c		
-LOC_SSP_148	Â¸p chÆ 		
-LOC_SSP_149	CÃŠm vÃ‹t		
-LOC_SSP_150	ThÆ  ThÂ©n phÃ¯		
-LOC_SSP_151	BÃ¥ng Lai TiÂªn ThÃ±y		
-LOC_SSP_152	BÃ¥ng Lai TiÂªn LÃ©		
-LOC_SSP_153	BÃ¥ng Lai TiÂªn Â§Â¬n		
-LOC_SSP_154	BÃ¥ng Lai LÃ© ThÃ±y		
-LOC_SSP_155	Â§iÃ–p LuyÆ n		
-LOC_SSP_156	Custom0		
-LOC_SSP_157	Custom1		
-LOC_SSP_158	Custom2		
-LOC_SSP_159	Custom3		
-LOC_SSP_160	Custom4		
-LOC_SSP_161	Custom5		
-LOC_SSP_162	Custom6		
-LOC_SSP_163	Custom7		
-LOC_SSP_164	Custom8		
-LOC_SSP_165	Custom9		
+LOC_SSP_80	µûÁµ
+LOC_SSP_81	D­¬ng Sa QuyÕt
+LOC_SSP_82	Ng?Phong QuyÕt
+LOC_SSP_83	Kim L?H?Th?
+LOC_SSP_84	Thiªn KiÕp PhÇn
+LOC_SSP_85	Ng­ng Háa BÝch
+LOC_SSP_86	Kh?Hãa Du Long
+LOC_SSP_87	B¹o S¸t K×nh
+LOC_SSP_88	Cµn Kh«n §¹i Na Di
+LOC_SSP_89	Håi Phong LiÖt DiÖm
+LOC_SSP_90	Quang Minh Bót Ph¸p
+LOC_SSP_91	Kim Táa TrËn
+LOC_SSP_92	HuyÒn Thñy TrËn
+LOC_SSP_93	Phong Binh LÖnh
+LOC_SSP_94	Bµn Méc TrËn
+LOC_SSP_95	TÊn ¶nh LÖnh
+LOC_SSP_96	Cµn Kh«n NghÞch ChuyÓn
+LOC_SSP_97	NghiÖp Háa TrËn
+LOC_SSP_98	Th?Lao TrËn
+LOC_SSP_99	Ng?Linh Quy Nguyªn
+LOC_SSP_100	Quang Minh Ng?Hµnh TrËn
+LOC_SSP_101	§o¹n Cèt Tr¶o
+LOC_SSP_102	H?Th­¬ng Ên
+LOC_SSP_103	B¨ng HuyÕt Ên
+LOC_SSP_104	HÊp HuyÕt Ên
+LOC_SSP_105	Hµn HuyÕt Ên
+LOC_SSP_106	ThÝch Cèt Ên
+LOC_SSP_107	Truy Hån Ên
+LOC_SSP_108	Th?C¶nh Tr¶o
+LOC_SSP_109	Hµn B¨ng HuyÕt Ch­íng
+LOC_SSP_110	Hãa HuyÕt Ên
+LOC_SSP_111	VÉn Th­¬ng Ên
+LOC_SSP_112	Hµn B¨ng Miªn Ch­ëng
+LOC_SSP_113	Hµn B¨ng Ng­ng HuyÕt Ên
+LOC_SSP_114	Khëi V?
+LOC_SSP_115	Linh Miªu VËn
+LOC_SSP_116	M?Hoa
+LOC_SSP_117	§o¹n V©n QuyÕt 
+LOC_SSP_118	Thu NguyÖt Ph?
+LOC_SSP_119	§iÖp O¸n
+LOC_SSP_120	Thiªn Háa DiÔm D­¬ng
+LOC_SSP_121	Méng X?
+LOC_SSP_122	Loan Phông Cöu Thiªn
+LOC_SSP_123	Tóy Méng Ng©m
+LOC_SSP_124	L¹c Hoa QuyÕt
+LOC_SSP_125	§µo hoa ch­¬ng
+LOC_SSP_126	Táa T©m QuyÕt
+LOC_SSP_127	Linh §éng QuyÕt
+LOC_SSP_128	M?X¶o QuyÕt
+LOC_SSP_129	Tiªn L?H­¬ng
+LOC_SSP_130	§iÖp LuyÕn Hoa
+LOC_SSP_131	Cöu V?Hoa Tiªn QuyÕt
+LOC_SSP_132	Phån Hoa MËu
+LOC_SSP_133	T¨ng søc m¹nh
+LOC_SSP_134	T¨ng th©n ph¸p
+LOC_SSP_135	T¨ng néi c«ng
+LOC_SSP_136	T¨ng linh ho¹t
+LOC_SSP_137	T¨ng g©n cèt
+LOC_SSP_138	S¸t ?
+LOC_SSP_139	Hçn §én §Êu Ph¸ch
+LOC_SSP_140	LuyÖn KiÕm-S?Hµn
+LOC_SSP_141	LuyÖn KiÕm-Thiªn Minh
+LOC_SSP_142	LuyÖn KiÕm-Phong CËn
+LOC_SSP_143	KiÕm Th?Kh«ng Minh-ChÝnh
+LOC_SSP_144	KiÕm Th?Kh«ng Minh-Ph?
+LOC_SSP_145	Thiªn Phong Trôy
+LOC_SSP_146	KiÕm ?Ph¶n X?
+LOC_SSP_147	Phån Hoa-H?Nh­îc
+LOC_SSP_148	¸p ch?
+LOC_SSP_149	CÊm vËt
+LOC_SSP_150	Th?Th©n ph?
+LOC_SSP_151	Bång Lai Tiªn Thñy
+LOC_SSP_152	Bång Lai Tiªn L?
+LOC_SSP_153	Bång Lai Tiªn §¬n
+LOC_SSP_154	Bång Lai L?Thñy
+LOC_SSP_155	§iÖp LuyÕn
+LOC_SSP_156	Custom0
+LOC_SSP_157	Custom1
+LOC_SSP_158	Custom2
+LOC_SSP_159	Custom3
+LOC_SSP_160	Custom4
+LOC_SSP_161	Custom5
+LOC_SSP_162	Custom6
+LOC_SSP_163	Custom7
+LOC_SSP_164	Custom8
+LOC_SSP_165	Custom9
 LOC_SAR_01	ÎÞÐ§·µ»ØÖµ		
 LOC_SAR_02	²Ù×÷³É¹¦		
 LOC_SAR_03	²Ù×÷Ê§°Ü		
@@ -2340,29 +2340,29 @@ LOC_SAR_42	ÒÑ¾­´ïµ½ÏÂ½µÅÅÃûµÄ×î´óÖµ
 LOC_SAR_43	ÄúµÄµÈ¼¶Ì«µÍ		
 LOC_SAR_44	²»ÄÜÔÙ¹ºÂò¸ü¶àµÄÏä×ÓÁË		
 LOC_SAR_45	ÄúÒª´´½¨µÄÉÌµêÃû×ÖÒÑ¾­´æÔÚ£¡		
-LOC_A_G_UIGAME_QUERY_POS	»ñÈ¡×ø±ê£¨ÏûºÄÉñÐÐ%dµã£©		
+LOC_A_G_UIGAME_QUERY_POS	»ñÈ¡×ø±ê£¨ÏûºÄÉñÐÐ%dµã£©	
 LOC_A_G_UIGAME_0	ÃÜÁÄ		
 LOC_A_G_UIGAME_1	ºÃÓÑ		
 LOC_A_G_UIGAME_2	½»Ò×		
 LOC_A_G_UIGAME_3	ÉêÇëÈë¶Ó		
 LOC_A_G_UIGAME_4	×é¶Ó		
-LOC_A_G_UIGAME_5	¸úËæ		
+LOC_A_G_UIGAME_5	¸úËæ
 LOC_A_G_UIGAME_6	ÐÅÏ¢		
 LOC_A_G_UIGAME_7	°ï»á		
 LOC_A_G_BLACKLIST_UNITNAME	ºÚÃûµ¥		
 LOC_A_G_UIGAME_8	ÇÐ´è		
-LOC_A_G_UIGAME_9	ËÍÇ®		
+LOC_A_G_UIGAME_9	ËÍÇ®
 LOC_A_G_UIGAME_10	¹«Æµ¹Ø¼ü×Ö		
-LOC_A_G_UIGAME_11	±¨¸æ		
-LOC_A_G_UIGAME_12	Í¨¼©Ãûµ¥		
-LOC_A_G_UIGAME_13	ÎÞÐ§Ïî		
-LOC_C_CHANNEL_TEAM	¶ÓÎé		
+LOC_A_G_UIGAME_11	¾Ù±¨		
+LOC_A_G_UIGAME_12	¼©ÄÃ		
+LOC_A_G_UIGAME_13	°ÝÊ¦		
+LOC_C_CHANNEL_TEAM	T?		
 LOC_C_FACTION	Faction#		
-LOC_C_TONG	°ï»á		
-LOC_C_CHANNEL_NEARBY	¸½½ü		
-LOC_C_GM	GM		
-LOC_C_TONG_UNION	TongUnion#		
-LOC_FAVORITE_NPC_MENU_COLLECT	ÊÕ²Ø		
+LOC_C_TONG	°ï»á
+LOC_C_CHANNEL_NEARBY	CËn
+LOC_C_GM	GM
+LOC_C_TONG_UNION	TongUnion#
+OC_FAVORITE_NPC_MENU_COLLECT	ÊÕ²Ø		
 LOC_FAVORITE_NPC_MENU_DELETE	É¾³ý		
 LOC_SKILL_VALID_ENEMY_PLAYER	Íæ¼ÒµÐÈË		
 LOC_SKILL_VALID_ENEMY_NPC	¹ÖÎï		
@@ -2416,9 +2416,9 @@ LOC_FRIEND_MENU_1	»ñÈ¡×ø±ê£¨ÏûºÄÉñÐÐ%dµã£©
 LOC_FRIEND_MENU_2	·¢ËÍÏûÏ¢		
 LOC_FRIEND_MENU_3	ÒÆ¶¯µ½ÆäËü×é		
 LOC_FRIEND_MENU_4	É¾³ý		
-LOC_SAY_TOO_FAST	KhÂ«ng thÃ“ phÂ¸t tin liÂªn tÃ´c! Xin Â®Ã®i giÂ©y lÂ¸t!		
-LOC_CANNOT_ADDPROPERTY	"BÂ¹n Â®Â· rÃŠt mÃ–t mÃ¡i, khÂ«ng thÃ“ thÃ¹c hiÃ–n thao tÂ¸c nÂµy!"		
-LOC_CANNOT_OFFLINE	"HiÃ–n tÂ¹i ngÂ­Ãªi chÂ¬i quÂ¸ Â®Â«ng, hÂ·y Â®Ã®i lÃ³c khÂ¸c mÃ­i cÄƒ thÃ“ Ã±y thÂ¸c rÃªi mÂ¹ng.!"		
+LOC_SAY_TOO_FAST	Äúµ±Ç°ÎÞ·¨Á¬Ðø´«Òô,ÇëÉÔÊÂÐÝÏ¢!		
+LOC_CANNOT_ADDPROPERTY	"ÄúÏÖÔÚ¹ýÓÚÀÍÀÛ£¬²»ÄÜÔö¼ÓÄúµÄÇ±ÄÜµã£¡"		
+LOC_CANNOT_OFFLINE	"µ±Ç°ÔÚÏßÍæ¼Ò¹ý¶à,ÇëÄãÉÔºóÔÙ³¢ÊÔ½øÐÐÀëÏßÍÐ¹Ü!"		
 LOC_A_TREASURE_DESC_BAGUA_ITEM	°ËØÔÌ×		
 LOC_A_TREASURE_DESC_MONEY	ÓÎÏ·±Ò		
 LOC_A_TREASURE_DESC_BIG_YINGPIAO	½ð±Ò		
@@ -2430,7 +2430,7 @@ LOC_K_MESSAGE_USE_EXCHAGE_FAIL	Äú¸Õ²ÅÔÚÇ®×¯ÀÏ°å´¦Ê¹ÓÃ%d¸ö½ð±Ò³ä%dÐ¡Ê±µÄ²Ù×÷Ê§°Ü£
 LOC_K_MESSAGE_USE_EXCHAGE_SUCCESS	Äú¸Õ²ÅÔÚÇ®×¯ÀÏ°å´¦³É¹¦Ê¹ÓÃ%d¸ö½ð±Ò³ä%dÐ¡Ê±£¡		
 LOC_TRADE_GOLD_COIN_MSG	"½»Ò×´øÓÐ½ð±Ò,´¦ÀíÐèÒªÒ»¶¨Ê±¼ä,ÇëÉÔºóµ½xxx´¦ÁìÈ¡½»Ò×ÎïÆ·"		
 LOC_ITEM_EXPIRE	ÄúµÄ%sÒÑµ½¹ýÆÚÊ±¼ä¡£		
-LOC_TRADE_SERVER_BUSY	"Khi mÂ¸y chÃ± bÃ‹n, Â®Ã“ trÂ¸nh tÃ¦n thÃŠt ngoÂµi Æ° muÃ¨n, xin Â®Ã®i lÃ³c khÂ¸c hÂ·y giao dÌƒch."		
+LOC_TRADE_SERVER_BUSY	"µ±Ç°·þÎñÆ÷·±Ã¦£¬ÎªÁËÈ·±£ÄúµÄÀûÒæ²»ÊÜËðÊ§£¬ÇëÉÔºòÔÙ×ö½»Ò×£¡"		
 LOC_G_AUTOPATH_SEARCH_MAP	ËÑË÷µØÍ¼		
 LOG_G_AUTOPATH_SEARCH_NPC	ËÑË÷NPC		
 LOG_G_AUTOPATH_NAME	Ãû×Ö		
@@ -2442,126 +2442,126 @@ LOG_G_AUTOPATH_CANNOT_START	²»ÄÜ´ò¿ª×Ô¶¯Ñ°Â·
 LOG_G_AUTOPATH_FAIL	×Ô¶¯Ñ°Â·Ê§°Ü		
 LOG_G_AUTOPATH_RIGHTCLICK	µã»÷ÓÒ¼üÒÆ¶¯		
 LOC_TONG_MSG_PROMOTION	°ï»á¹«¸æ		
-LOC_REBORN_MENHUI_0	ChÂ­a		
-LOC_REBORN_MENHUI_1	Long		
-LOC_REBORN_MENHUI_2	HÃ¦		
-LOC_REBORN_MENHUI_3	Â¦ng		
-LOC_REBORN_MENHUI_4	PhÃ´ng		
-LOC_PET_BOOK_FINISH	"BÂ¹n Â®Ã¥ng hÂ·nh Â®Â· luyÃ–n mÃ‹t tÌƒch thÂµnh cÂ«ng, hiÃ–n tÂ¹i cÄƒ thÃ“ nhÃ‹n lÂ¹i hoÃ†c tiÆ p tÃ´c luyÃ–n sÂ¸ch"		
-LOC_PET_BOOK_NOT_FIT	chÃ˜ cÄƒ thÃ“ Â®Â­a vÂµo mÃ‹t tÌƒch cÄƒ thÃ“ luyÃ–n		
-LOC_PET_BOOK_TO_MUCH_ITEM	"VÃ‹t phÃˆm bÃ¡ vÂµo Â®Â· Â®Ã± nhá»‰u rÃ¥i, khÂ«ng thÃ“ bÃ¡ thÂªm"		
-LOC_PET_BOOK_IN_READING	"HiÃ–n Â®ang luyÃ–n sÂ¸ch, khÂ«ng thÃ“ lÃŠy lÂ¹i mÃ‹t tÌƒch hoÃ†c thÂªm nguyÂªn liÃ–u vÂµo"		
-LOC_PET_BOOK_ITEM_ERROR	ChÃ˜ cÄƒ thÃ“ Â®Ã†t vÂµo Â§Â¹i NhÂ©n SÂ©m hoÃ†c tiÃ“u NhÂ©n SÂ©m		
-LOC_PET_BOOK_NO_BOOK	"VÃ‰n chÂ­a Â®Ã†t mÃ‹t tÌƒch hoÃ†c mÃ‹t tÆ¯ch Â®Â· Â®Ã‡y, khÂ«ng thÃ“ luyÃ–n "		
-LOC_PET_BOOK_NO_ITEM	"VÃ‰n chÂ­a Â®Ã†t nguyÂªn liÃ–u, khÂ«ng thÃ“ luyÃ–n"		
-LOC_PET_BOOK_NO_FEED_SKILL	"CÂ¸c hÂ¹ vÃ‰n chÂ­a hÃ¤c Â®Â­Ã®c ThuÃ‡n ThÃ³ ThuÃ‹t, khÂ«ng thÃ“ luyÃ–n sÂ¸ch"		
-LOC_PET_STATUS_RETIRE	nghÃ˜ ngÂ¬i		
-LOC_PET_STATUS_FIGHT	xuÃŠt chiÆ n		
-LOC_PET_COMPOSE_LACK_CONSUME	"PhÆ¯ luyÃ–n yÂªu khÂ«ng Â®Ã±, luyÃ–n yÂªu thÃŠt bÂ¹i"		
-LOC_PET_SEL_2_PET_COMPOSE	HÂ·y chÃ¤n 2 bÂ¹n Â®Ã¥ng hÂµnh tiÆ n hÂµnh LuyÃ–n YÂªu.		
-LOC_PET_SEL_PET_TO_OPERATE	HÂ·y chÃ¤n bÂ¹n Â®Ã¥ng hÂµnh		
-LOC_TEXT_FILT_NOPASS	Vui lÃŸng khÂ«ng sÃ¶ dÃ´ng ngÂ«n ngÃ· bÃŠt hÃ®p lÃ–		
-LOC_PET_NOT_ENOUGH_LINGLI	"Linh lÃ¹c khÂ«ng Â®Ã± [%d], thao tÂ¸c thÃŠt bÂ¹i"		
-LOC_PET_FEED_SKILL_LV_TOO_LOW	CÃŠp Â®Ã© ThuÃ‡n ThÃ³ ThÃ‹t khÂ«ng Â®Ã± Â®Ã“ sÃ« hÃ·u bÂ¹n Â®Ã¥ng hÂµnh cÃŠp Â®Ã© nÂµy		
-LOC_PET_ONLY_FIGHT_ONE_CAN_CALL_OUT	ChÃ˜ cÄƒ thÃ“ triÃ–u gÃ¤i bÂ¹n Â®Ã¥ng hÂµnh Â®Â· xuÃŠt chiÆ n!		
-LOC_PET_COMPOSE_NO_WORKING	BÂ¹n Â®Ã¥ng hÂµnh trong trÂ¹ng thÂ¸i xuÃŠt chiÆ n khÂ«ng thÃ“ tham gia luyÃ–n yÂªu.		
-LOC_PET_BOOK_NO_PET	"CÂ¸c hÂ¹ vÃ‰n chÂ­a cÄƒ bÂ¹n Â®Ã¥ng hÂµnh, khÂ«ng thÃ“ luyÃ–n sÂ¸ch."		
-LOC_PET_NO_DEL_WORKING	"BÂ¹n Â®Ã¥ng hÂµnh Â®ang xuÃŠt chiÆ n, khÂ«ng thÃ“ giÂ¶i bÃ¡."		
-LOC_PET_NO_SET_WORKING_WHEN_READ	"HiÃ–n Â®ang luyÃ–n sÂ¸ch, khÂ«ng thÃ“ thay Â®Ã¦i trÂ¹ng thÂ¸i xuÃŠt chiÆ n cÃ±a bÂ¹n Â®Ã¥ng hÂµnh"		
-LOC_PET_BOOK_NOBOOK_OR_FULL	VÃ‰n chÂ­a Â®Ã†t mÃ‹t tÌƒch cÃ‡n luyÃ–n hoÃ†c mÃ‹t tÌƒch Â®Ã†t vÂµo Â®Â· Â®Ã‡y		
-LOC_PET_BOOK_PETCH_ITEM_FIRST	HÂ·y rÃ³t lÂ¹i nguyÂªn vÃ‹t liÃ–u trÂ­Ã­c mÃ­i cÄƒ thÃ“ nhÃ‹n lÂ¹i mÃ‹t tÌƒch		
-LOC_PET_LACK_OF_TIANZI	TÂ­ chÃŠt cÃŸn lÂ¹i khÂ«ng Â®Ã±		
-LOC_PET_LEVEL_TO_LOW	CÃŠp Â®Ã© bÂ¹n Â®Ã¥ng hÂµnh cÃ±a cÂ¸c hÂ¹ khÂ«ng Â®Ã± Â®Ã“ luyÃ–n sÂ¸ch kÃ¼ nÂ¨ng nÂµy!		
-LOC_PET_EXISTS_UPLEVEL_SKILL	BÂ¹n Â®Ã¥ng hÂµnh cÃ±a cÂ¸c hÂ¹ Â®Â· cÄƒ kÃ¼ nÂ¨ng cao cÃŠp hÂ¬n rÃ¥i!		
-LOC_NEED_TIANZI	TÂ­ chÃŠt yÂªu cÃ‡u:		
-LOC_TAKE_WITH_SKILL	KÃ¼ nÂ¨ng Â®Â· cÄƒ:		
-LOC_PET_LEVEL	CÃŠp Â®Ã©: %d		
-LOC_PET_COMPOSE_NEWS	"%s thÂ«ng qua luyÃ–n yÂªu nhÃ‹n Â®Â­Ã®c bÂ¹n Â®Ã¥ng hÂµnh cÃŠp %d-%s, quÂ¶ thÃ‹t may mÂ¾n."		
-LOC_HOLD_TIANZI	ChiÆ m tÂ­ chÃŠt:		
-LOC_TIANZI	TÂ­ chÃŠt		
-LOC_MERIDIAN_SYSTEM_UPDATE	"NÂ©ng cÃŠp hÃ– thÃ¨ng kinh mÂ¹ch, Â®iÃ“m sÃ¨ kÆ¯nh mÂ¹ch cÃ±a cÂ¸c hÂ¹ Â®Â· Â®Â­Ã®c Â®Ã†t lÂ¹i"		
-LOC_MERIDIAN_NODE_IS_MAX_LV	"HuyÃ–t á¹?nÂµy Â®Â· Â®Â¹t tÃ‡ng cao nhÃŠt, Â®iÃ“m huyÃ–t thÃŠt bÂ¹i"		
-LOC_MERIDIAN_NODE_NOT_CONNECT	"HuyÃ–t á¹?tá»‰n Â®Ì‰ vÃ‰n chÂ­a Â®Â¶ thÂ«ng, Â®iÃ“m huyÃ–t thÃŠt bÂ¹i"		
-LOC_MERIDIAN_LEVEL_NOT_ENOUGH	"CÂ¶nh giÃ­i ban Â®Ã‡u cÃ±a cÂ¸c hÂ¹ khÂ«ng Â®Ã±, Â®iÃ“m huyÃ–t thÃŠt bÂ¹i"		
-LOC_MERIDIAN_QIHAI_NOT_ENOUGH	ChÂ©n khÆ¯ cÃŸn lÂ¹i trong KhÆ¯ HÂ¶i khÂ«ng Â®Ã±		
-LOC_MERIDIAN_LEVEL_NOT_OPEN	CÂ¶nh giÃ­i chÂ­a khai thÂ«ng		
-LOC_MERIDIAN_DANTIAN_FULL	"ChÂ©n khÆ¯ tÂ¹i Â§an Â§á»‰n Â®Â· Â®Â¹t giÃ­i hÂ¹n, Â®iÃ“m huyÃ–t thÃŠt bÂ¹i"		
-LOC_MERIDIAN_QIHAI_FULL	"ChÂ©n khÆ¯ tÂ¹i KhÆ¯ HÂ¶i Â®Â· Â®Â¹t giÃ­i hÂ¹n, chÂ©n khÆ¯ khÂ«ng thÃ“ nhÃ‹n thÂªm"		
-LOC_MERIDIAN_GAIN_ZHENQI	NhÃ‹n Â®Â­Ã®c %d Â®iÃ“m chÂ©n khÆ¯		
-LOC_MERIDIAN_LOSE_ZHENQI	TiÂªu hao %d Â®iÃ“m chÂ©n khÆ¯		
-LOC_MERIDIAN_NODE_LEVEL	TÃ‡ng sÃ¨		
-LOC_MERIDIAN_TYPE_ZHENQI	Â§Â· nhÃ‹p vÂµo chÂ©n khÆ¯		
-LOC_MERIDIAN_CUR_EFFECT	HiÃ–u quÂ¶ hiÃ–n tÂ¹i		
-LOC_MERIDIAN_WITH_SKILL	HiÃ–u quÂ¶ kÃ¼ nÂ¨ng		
-LOC_MERIDIAN_NODE_NOT_ACTIVE	ChÂ­a kÆ¯ch hoÂ¹t		
-LOC_MERIDIAN_NODE_MAX_LEVEL	Â§Â· Â®Â¹t tÃ‡ng cao nhÃŠt		
-LOC_MERIDIAN_NODE_NEXT_LEVEL	TÃ‡ng kÆ  tiÆ p		
-LOC_MERIDIAN_NODE_CONDITION	Â§á»‰u kiÃ–n kÆ¯ch hoÂ¹t		
-LOC_MERIDIAN_NODE_NEED_ZHENQI	CÃ‡n tiÂªu hao chÂ©n khÆ¯		
-LOC_MERIDIAN_NODE_NEED_JINGJIE	YÂªu cÃ‡u cÂ¶nh giÃ­i		
-LOC_MERIDIAN_NODE_NEED_PRE_LEVEL	YÂªu cÃ‡u tÃ‡ng sÃ¨ huyÃ–t á¹?trÂ­Ã­c		
-LOC_MERIDIAN_NODE_NEED_OTHER	YÂªu cÃ‡u khÂ¸c		
-LOC_MERIDIAN_NODE_NEXT_EFFECT	KÆ¯ch hoÂ¹t hiÃ–u quÂ¶		
-LOC_MERIDIAN_NODE_CAN_ACTIVE	CÄƒ thÃ“ kÆ¯ch hoÂ¹t		
-LOC_MERIDIAN_NODE_CANNOT_ACTIVE	ChÂ­a Â®Â¹t Â®Â­Ã®c		
-LOC_MERIDIAN_NODE_CUR_LEVEL	TÃ‡ng sÃ¨ hiÃ–n tÂ¹i		
-LOC_MERIDIAN_NODE_NO_EFFECT	KhÂ«ng hiÃ–u quÂ¶		
-LOC_MERIDIAN_MAX_ZHENQI	GiÃ­i hÂ¹n chÂ©n khÆ¯		
-LOC_MERIDIAN_LEVEL_CONDITION	Â§á»‰u kiÃ–n kÆ¯ch hoÂ¹t		
-LOC_MERIDIAN_LEVEL_OPENED	CÂ¶nh giÃ­i Â®Â· kÆ¯ch hoÂ¹t		
-LOC_MERIDIAN_INPUT_EXCHG_CNT	NhÃ‹p sÃ¨ lÃ‡n luyÃ–n hÄƒa		
-LOC_MERIDIAN_NODE_UPDATED	"ChÃ³c mÆ¡ng, cÂ¸c hÂ¹ thÂµnh cÂ«ng Â®Â¶ thÂ«ng huyÃ–t á¹?[%s-%s] tÃ‡ng thÃ¸ [%d]"		
-LOC_MERIDIAN_LEVEL_UPDATED	"ChÃ³c mÆ¡ng, cÂ¸c hÂ¹ Â®Â· Â®Â¹t Â®Æ n cÂ¶nh giÃ­i [%s]"		
-LOC_MERIDIAN_CALL_BACK_CANNOT_BREAK	Â§ang tu luyÃ–n khÂ«ng thÃ“ giÂ¸n Â®oÂ¹n		
-LOC_MERIDIAN_CALL_BACK_CANNOT_START	HiÃ–n Â®ang tu luyÃ–n khÂ«ng thÃ“ bÂ¾t Â®Ã‡u lÂ¹i		
-LOC_MERIDIAN_CALL_BACK_NOT_PEACE_AREA	Khu vÃ¹c hiÃ–n tÂ¹i khÂ«ng thÃ“ tiÆ n hÂµnh tu luyÃ–n		
-LOC_MERIDIAN_CALL_BACK_IN_INTERACTIVE	HiÃ–n khÂ«ng thÃ“ tu luyÃ–n		
-LOC_MERIDIAN_CALL_BACK_DEAD	"CÂ¸c hÂ¹ Â®Â· trÃ¤ng thÂ­Â¬ng, khÂ«ng thÃ“ tu luyÃ–n"		
-LOC_MERIDIAN_CALL_BACK_FIGHT	"HiÃ–n Â®ang chiÆ n Â®ÃŠu, khÂ«ng thÃ“ tu luyÃ–n"		
-LOC_MERIDIAN_NOT_OPEN_EXPCHG	CÂ¶nh giÃ­i hiÃ–n tÂ¹i vÃ‰n chÂ­a khai thÂ«ng chÂ©n khÆ¯ luyÃ–n hÄƒa		
-LOC_MERIDIAN_EXPCHG_LEVEL_ERR	"CÃŠp Â®Ã© chÂ­a Â®Â¹t Â®Æ n 99, khÂ«ng thÃ“ luyÃ–n hÄƒa chÂ©n khÆ¯"		
-LOC_MERIDIAN_MKZHENQI_NO_CAPACITY	"ChÂ©n khÆ¯ Â®Â· Â®Â¹t giÃ­i hÂ¹n, khÂ«ng thÃ“ tu luyÃ–n"		
-LOC_MERIDIAN_MKZHENQI_SELLING	HiÃ–n Â®ang bÂµy bÂ¸n khÂ«ng thÃ“ tu luyÃ–n		
-LOC_MERIDIAN_MKZHENQI_TRADE	HiÃ–n Â®ang giao dÌƒch khÂ«ng thÃ“ tu luyÃ–n		
-LOC_MERIDIAN_MKZHENQI_QUIT	HiÃ–n Â®ang rÃªi khÃ¡i trÃŸ chÂ¬i khÂ«ng thÃ“ tu luyÃ–n		
-LOC_MERIDIAN_MKZHENQI_PK	TrÂ¹ng thÂ¸i chiÆ n Â®ÃŠu khÂ«ng thÃ“ tu luyÃ–n		
-LOC_MERIDIAN_SYSTEM_CLOSE	HÃ– thÃ¨ng kinh mÂ¹ch vÃ‰n chÂ­a khai thÂ«ng		
-LOC_MERIDIAN_SYSTEM_NO_EFFECT	"HÃ– thÃ¨ng kinh mÂ¹ch vÃ‰n chÂ­a khai thÂ«ng, thuÃ©c tÆ¯nh huyÃ–t á¹?khÂ«ng cÄƒ hiÃ–u lÃ¹c"		
-LOC_MERIDIAN_SELECT_SKILL_OP	NhÃŠp chuÃ©t phÂ¶i lÂªn kÃ¼ nÂ¨ng lÃ¹a chÃ¤n HuyÃ–t á¹?		
-LOC_EQUIP_THEN_BIND	bÌƒ khÄƒa sau khi trang bÌƒ xong		
-LOC_CONFIRM_EQUIP_WILL_BIND	"VÃ‹t phÃˆm nÂµy Â®Â­Ã®c trang bÌƒ xong sÃ bÌƒ khÄƒa, XÂ¸c Â®Ìƒnh cÄƒ muÃ¨n trang bÌƒ khÂ«ng??"		
-LOC_G_DING10_STONE_EFFECT	Â§Â¹i Â§Ìƒnh HÃ¥n:+10		
-LOC_G_EMBROIDERY_TITLE	ThÂªu		
-LOC_G_EMBROIDERY_PART	á¹?trÆ¯ ngoÂ¹i trang:    %s		
-LOC_G_EMBROIDERY_EFFECT	HiÃ–u quÂ¶ thÂªu:      %s		
-LOC_G_EMBROIDERY_COST	ThÂªu:    %d vÂµng		
-LOC_G_EMBROIDERY_COMFIRM	"NgoÂ¹i trang Â®Â· Â®Â­Ã®c thÂªu, thÂªu lÃ‡n nÃ·a sÃ bÌƒ trÃ¯ng, cÄƒ muÃ¨n thÂªu nÃ·a khÂ«ng??"		
-LOC_G_EMBROIDERY_PUTIN	HÂ·y bÃ¡ ngoÂ¹i trang vÂµo		
-LOC_G_EMBROIDERY_SUCCESS	Thao tÂ¸c thÂµnh cÂ«ng		
-LOC_G_EMBROIDERY_FAIL	Thao tÂ¸c thÃŠt bÂ¹i		
-LOC_G_EMBROIDERY_PUTINWENSHI	HÂ·y bÃ¡ hoa vÂ¨n vÂµo		
-LOC_G_EMBROIDERY_CANSTART	BÂ¾t Â®Ã‡u thÂªu		
-LOC_G_EMBROIDERY_WILL_BIND	NgoÂ¹i trang sau khi thÂªu sÃ bÌƒ khÄƒa lÂ¹i		
-LOC_G_EQUIP_UNBIND	GiÂ¶i khÄƒa trang bÌƒ		
-LOC_G_PUTIN_STUFF	KhÂ«ng Â®Ã± nguyÂªn liÃ–u cÃ‡n thiÆ t		
-LOC_G_UNBINDEQUIP_DESC	GiÂ¶i khÄƒa giÃ³p trang bÌƒ bÌƒ khÄƒa cÄƒ thuÃ©c tÆ¯nh tÃ¹ khÄƒa sau khi Â®Â­Ã®c trang bÌƒ		
-LOC_G_UNBINDEQUIP_CAN_START	BÂ¾t Â®Ã‡u giÂ¶i khÄƒa		
-LOC_G_UNBINDEQUIP_CANNOT_START	Trang bÌƒ nÂµy khÂ«ng thÃ“ giÂ¶i khÄƒa		
-LOC_G_UNBINDEQUIP_PUTIN	HÂ·y cho trang bÌƒ khÄƒa vÂµo		
-LOC_ENHANCE_SAFE_DETAIL	Sau khi cÂ­Ãªng hÄƒa thÃŠt bÂ¹i sÃ khÂ«ng rÃ­t cÃŠp		
-LOC_ENHANCE_ITEM_DINGHUN	Â§Ìƒnh HÃ¥n +%d		
-LOC_ENHANCE_ITEM_MSG2PLAYER	Msg2Global(GetName()..'Â®Â· cÂ­Ãªng hÄƒa thÂµnh cÂ«ng %s Â®Æ n cÃŠp %d')		
-LOC_KNIFE_STONNE_ITEM_COST	MÂµi trang bÌƒ cÃ‡n tiÂªu hao nguyÂªn liÃ–u 		
-LOC_KNIFE_STONE_MONEY_COST	MÂµi trang bÌƒ cÃ‡n tiÂªu hao vÂµng		
-LOC_MSG_USE_DUMMY_REVIVAL_OTHER	"CÂ¸c hÂ¹ Â®Â· sÃ¶ dÃ´ng ThÆ  ThÂ©n PhÃ¯, cÄƒ muÃ¨n hÃ¥i sinh tÂ¹i chÃ§   %d  giÂ©y"		
-LOC_TRANSLIFE_LEVEL	      %d/%d¼¶ 	
-LOC_MERIDIAN_LEVEL_0	ChÂ­a		
-LOC_MERIDIAN_LEVEL_1	VÃ¢ Há»‰n		
-LOC_MERIDIAN_LEVEL_2	VÃ¢ TÂ­Ã­ng		
-LOC_MERIDIAN_LEVEL_3	VÃ¢ VÂ­Â¬ng		
-LOC_MERIDIAN_LEVEL_4	VÃ¢ TÂ«n		
-LOC_MERIDIAN_LEVEL_5	VÃ¢ HoÂµng		
-LOC_MERIDIAN_LEVEL_6	VÃ¢ ThÂ¸nh		
+LOC_REBORN_MENHUI_0	Ch­a
+LOC_REBORN_MENHUI_1	Long
+LOC_REBORN_MENHUI_2	H?
+LOC_REBORN_MENHUI_3	¦ng
+LOC_REBORN_MENHUI_4	Phông
+LOC_PET_BOOK_FINISH	B¹n ®ång h·nh ®· luyÖn mËt tÞch thµnh c«ng, hiÖn t¹i c?th?nhËn l¹i hoÆc tiÕp tôc luyÖn s¸ch
+LOC_PET_BOOK_NOT_FIT	ch?c?th?®­a vµo mËt tÞch c?th?luyÖn
+LOC_PET_BOOK_TO_MUCH_ITEM	VËt phÈm b?vµo ®· ®ñ nhiÒu råi, kh«ng th?b?thªm
+LOC_PET_BOOK_IN_READING	HiÖn ®ang luyÖn s¸ch, kh«ng th?lÊy l¹i mËt tÞch hoÆc thªm nguyªn liÖu vµo
+LOC_PET_BOOK_ITEM_ERROR	Ch?c?th?®Æt vµo §¹i Nh©n S©m hoÆc tiÓu Nh©n S©m
+LOC_PET_BOOK_NO_BOOK	VÉn ch­a ®Æt mËt tÞch hoÆc mËt tÝch ®· ®Çy, kh«ng th?luyÖn 
+LOC_PET_BOOK_NO_ITEM	VÉn ch­a ®Æt nguyªn liÖu, kh«ng th?luyÖn
+LOC_PET_BOOK_NO_FEED_SKILL	C¸c h?vÉn ch­a häc ®­îc ThuÇn Th?ThuËt, kh«ng th?luyÖn s¸ch
+LOC_PET_STATUS_RETIRE	ngh?ng¬i
+LOC_PET_STATUS_FIGHT	xuÊt chiÕn
+LOC_PET_COMPOSE_LACK_CONSUME	Ph?luyÖn yªu kh«ng ®ñ, luyÖn yªu thÊt b¹i
+LOC_PET_SEL_2_PET_COMPOSE	H·y chän 2 b¹n ®ång hµnh tiÕn hµnh LuyÖn Yªu.
+LOC_PET_SEL_PET_TO_OPERATE	H·y chän b¹n ®ång hµnh
+LOC_TEXT_FILT_NOPASS	Vui lßng kh«ng s?dông ng«n ng?bÊt hîp l?
+LOC_PET_NOT_ENOUGH_LINGLI	Linh lùc kh«ng ®ñ [%d], thao t¸c thÊt b¹i
+LOC_PET_FEED_SKILL_LV_TOO_LOW	CÊp ®é ThuÇn Th?ThËt kh«ng ®ñ ®Ó s?h÷u b¹n ®ång hµnh cÊp ®é nµy
+LOC_PET_ONLY_FIGHT_ONE_CAN_CALL_OUT	Ch?c?th?triÖu gäi b¹n ®ång hµnh ®· xuÊt chiÕn!
+LOC_PET_COMPOSE_NO_WORKING	B¹n ®ång hµnh trong tr¹ng th¸i xuÊt chiÕn kh«ng th?tham gia luyÖn yªu.
+LOC_PET_BOOK_NO_PET	C¸c h?vÉn ch­a c?b¹n ®ång hµnh, kh«ng th?luyÖn s¸ch.
+LOC_PET_NO_DEL_WORKING	B¹n ®ång hµnh ®ang xuÊt chiÕn, kh«ng th?gi¶i b?
+LOC_PET_NO_SET_WORKING_WHEN_READ	HiÖn ®ang luyÖn s¸ch, kh«ng th?thay ®æi tr¹ng th¸i xuÊt chiÕn cña b¹n ®ång hµnh
+LOC_PET_BOOK_NOBOOK_OR_FULL	VÉn ch­a ®Æt mËt tÞch cÇn luyÖn hoÆc mËt tÞch ®Æt vµo ®· ®Çy
+LOC_PET_BOOK_PETCH_ITEM_FIRST	H·y rót l¹i nguyªn vËt liÖu tr­íc míi c?th?nhËn l¹i mËt tÞch
+LOC_PET_LACK_OF_TIANZI	T?chÊt cßn l¹i kh«ng ®ñ
+LOC_PET_LEVEL_TO_LOW	CÊp ®é b¹n ®ång hµnh cña c¸c h?kh«ng ®ñ ®Ó luyÖn s¸ch k?n¨ng nµy!
+LOC_PET_EXISTS_UPLEVEL_SKILL	B¹n ®ång hµnh cña c¸c h?®· c?k?n¨ng cao cÊp h¬n råi!
+LOC_NEED_TIANZI	T?chÊt yªu cÇu:
+LOC_TAKE_WITH_SKILL	K?n¨ng ®· c?
+LOC_PET_LEVEL	CÊp ®é: %d
+LOC_PET_COMPOSE_NEWS	%s th«ng qua luyÖn yªu nhËn ®­îc b¹n ®ång hµnh cÊp %d-%s, qu?thËt may m¾n.
+LOC_HOLD_TIANZI	ChiÕm t?chÊt:
+LOC_TIANZI	T?chÊt
+LOC_MERIDIAN_SYSTEM_UPDATE	N©ng cÊp h?thèng kinh m¹ch, ®iÓm s?kÝnh m¹ch cña c¸c h?®· ®­îc ®Æt l¹i
+LOC_MERIDIAN_NODE_IS_MAX_LV	HuyÖt v?nµy ®· ®¹t tÇng cao nhÊt, ®iÓm huyÖt thÊt b¹i
+LOC_MERIDIAN_NODE_NOT_CONNECT	HuyÖt v?tiÒn ®Ò vÉn ch­a ®¶ th«ng, ®iÓm huyÖt thÊt b¹i
+LOC_MERIDIAN_LEVEL_NOT_ENOUGH	C¶nh giíi ban ®Çu cña c¸c h?kh«ng ®ñ, ®iÓm huyÖt thÊt b¹i
+LOC_MERIDIAN_QIHAI_NOT_ENOUGH	Ch©n kh?cßn l¹i trong Kh?H¶i kh«ng ®ñ
+LOC_MERIDIAN_LEVEL_NOT_OPEN	C¶nh giíi ch­a khai th«ng
+LOC_MERIDIAN_DANTIAN_FULL	Ch©n kh?t¹i §an §iÒn ®· ®¹t giíi h¹n, ®iÓm huyÖt thÊt b¹i
+LOC_MERIDIAN_QIHAI_FULL	Ch©n kh?t¹i Kh?H¶i ®· ®¹t giíi h¹n, ch©n kh?kh«ng th?nhËn thªm
+LOC_MERIDIAN_GAIN_ZHENQI	NhËn ®­îc %d ®iÓm ch©n kh?
+LOC_MERIDIAN_LOSE_ZHENQI	Tiªu hao %d ®iÓm ch©n kh?
+LOC_MERIDIAN_NODE_LEVEL	TÇng s?
+LOC_MERIDIAN_TYPE_ZHENQI	§· nhËp vµo ch©n kh?
+LOC_MERIDIAN_CUR_EFFECT	HiÖu qu?hiÖn t¹i
+LOC_MERIDIAN_WITH_SKILL	HiÖu qu?k?n¨ng
+LOC_MERIDIAN_NODE_NOT_ACTIVE	Ch­a kÝch ho¹t
+LOC_MERIDIAN_NODE_MAX_LEVEL	§· ®¹t tÇng cao nhÊt
+LOC_MERIDIAN_NODE_NEXT_LEVEL	TÇng k?tiÕp
+LOC_MERIDIAN_NODE_CONDITION	§iÒu kiÖn kÝch ho¹t
+LOC_MERIDIAN_NODE_NEED_ZHENQI	CÇn tiªu hao ch©n kh?
+LOC_MERIDIAN_NODE_NEED_JINGJIE	Yªu cÇu c¶nh giíi
+LOC_MERIDIAN_NODE_NEED_PRE_LEVEL	Yªu cÇu tÇng s?huyÖt v?tr­íc
+LOC_MERIDIAN_NODE_NEED_OTHER	Yªu cÇu kh¸c
+LOC_MERIDIAN_NODE_NEXT_EFFECT	KÝch ho¹t hiÖu qu?
+LOC_MERIDIAN_NODE_CAN_ACTIVE	C?th?kÝch ho¹t
+LOC_MERIDIAN_NODE_CANNOT_ACTIVE	Ch­a ®¹t ®­îc
+LOC_MERIDIAN_NODE_CUR_LEVEL	TÇng s?hiÖn t¹i
+LOC_MERIDIAN_NODE_NO_EFFECT	Kh«ng hiÖu qu?
+LOC_MERIDIAN_MAX_ZHENQI	Giíi h¹n ch©n kh?
+LOC_MERIDIAN_LEVEL_CONDITION	§iÒu kiÖn kÝch ho¹t
+LOC_MERIDIAN_LEVEL_OPENED	C¶nh giíi ®· kÝch ho¹t
+LOC_MERIDIAN_INPUT_EXCHG_CNT	NhËp s?lÇn luyÖn hãa
+LOC_MERIDIAN_NODE_UPDATED	Chóc mõng, c¸c h?thµnh c«ng ®¶ th«ng huyÖt v?[%s-%s] tÇng th?[%d]
+LOC_MERIDIAN_LEVEL_UPDATED	Chóc mõng, c¸c h?®· ®¹t ®Õn c¶nh giíi [%s]
+LOC_MERIDIAN_CALL_BACK_CANNOT_BREAK	§ang tu luyÖn kh«ng th?gi¸n ®o¹n
+LOC_MERIDIAN_CALL_BACK_CANNOT_START	HiÖn ®ang tu luyÖn kh«ng th?b¾t ®Çu l¹i
+LOC_MERIDIAN_CALL_BACK_NOT_PEACE_AREA	Khu vùc hiÖn t¹i kh«ng th?tiÕn hµnh tu luyÖn
+LOC_MERIDIAN_CALL_BACK_IN_INTERACTIVE	HiÖn kh«ng th?tu luyÖn
+LOC_MERIDIAN_CALL_BACK_DEAD	C¸c h?®· träng th­¬ng, kh«ng th?tu luyÖn
+LOC_MERIDIAN_CALL_BACK_FIGHT	HiÖn ®ang chiÕn ®Êu, kh«ng th?tu luyÖn
+LOC_MERIDIAN_NOT_OPEN_EXPCHG	C¶nh giíi hiÖn t¹i vÉn ch­a khai th«ng ch©n kh?luyÖn hãa
+LOC_MERIDIAN_EXPCHG_LEVEL_ERR	CÊp ®é ch­a ®¹t ®Õn 99, kh«ng th?luyÖn hãa ch©n kh?
+LOC_MERIDIAN_MKZHENQI_NO_CAPACITY	Ch©n kh?®· ®¹t giíi h¹n, kh«ng th?tu luyÖn
+LOC_MERIDIAN_MKZHENQI_SELLING	HiÖn ®ang bµy b¸n kh«ng th?tu luyÖn
+LOC_MERIDIAN_MKZHENQI_TRADE	HiÖn ®ang giao dÞch kh«ng th?tu luyÖn
+LOC_MERIDIAN_MKZHENQI_QUIT	HiÖn ®ang rêi khái tr?ch¬i kh«ng th?tu luyÖn
+LOC_MERIDIAN_MKZHENQI_PK	Tr¹ng th¸i chiÕn ®Êu kh«ng th?tu luyÖn
+LOC_MERIDIAN_SYSTEM_CLOSE	H?thèng kinh m¹ch vÉn ch­a khai th«ng
+LOC_MERIDIAN_SYSTEM_NO_EFFECT	H?thèng kinh m¹ch vÉn ch­a khai th«ng, thuéc tÝnh huyÖt v?kh«ng c?hiÖu lùc
+LOC_MERIDIAN_SELECT_SKILL_OP	NhÊp chuét ph¶i lªn k?n¨ng lùa chän HuyÖt V?
+LOC_EQUIP_THEN_BIND	b?khãa sau khi trang b?xong
+LOC_CONFIRM_EQUIP_WILL_BIND	VËt phÈm nµy ®­îc trang b?xong s?b?khãa, X¸c ®Þnh c?muèn trang b?kh«ng??
+LOC_G_DING10_STONE_EFFECT	§¹i §Þnh Hån:+10
+LOC_G_EMBROIDERY_TITLE	Thªu
+LOC_G_EMBROIDERY_PART	V?tr?ngo¹i trang:    %s
+LOC_G_EMBROIDERY_EFFECT	HiÖu qu?thªu:      %s
+LOC_G_EMBROIDERY_COST	Thªu:    %d vµng
+LOC_G_EMBROIDERY_COMFIRM	Ngo¹i trang ®· ®­îc thªu, thªu lÇn n÷a s?b?trïng, c?muèn thªu n÷a kh«ng??
+LOC_G_EMBROIDERY_PUTIN	H·y b?ngo¹i trang vµo
+LOC_G_EMBROIDERY_SUCCESS	Thao t¸c thµnh c«ng
+LOC_G_EMBROIDERY_FAIL	Thao t¸c thÊt b¹i
+LOC_G_EMBROIDERY_PUTINWENSHI	H·y b?hoa v¨n vµo
+LOC_G_EMBROIDERY_CANSTART	B¾t ®Çu thªu
+LOC_G_EMBROIDERY_WILL_BIND	Ngo¹i trang sau khi thªu s?b?khãa l¹i
+LOC_G_EQUIP_UNBIND	Gi¶i khãa trang b?
+LOC_G_PUTIN_STUFF	Kh«ng ®ñ nguyªn liÖu cÇn thiÕt
+LOC_G_UNBINDEQUIP_DESC	Gi¶i khãa gióp trang b?b?khãa c?thuéc tÝnh t?khãa sau khi ®­îc trang b?
+LOC_G_UNBINDEQUIP_CAN_START	B¾t ®Çu gi¶i khãa
+LOC_G_UNBINDEQUIP_CANNOT_START	Trang b?nµy kh«ng th?gi¶i khãa
+LOC_G_UNBINDEQUIP_PUTIN	H·y cho trang b?khãa vµo
+LOC_ENHANCE_SAFE_DETAIL	Sau khi c­êng hãa thÊt b¹i s?kh«ng rít cÊp
+LOC_ENHANCE_ITEM_DINGHUN	§Þnh Hån +%d
+LOC_ENHANCE_ITEM_MSG2PLAYER	Msg2Global(GetName()..'®· c­êng hãa thµnh c«ng %s ®Õn cÊp %d')
+LOC_KNIFE_STONNE_ITEM_COST	Mµi trang b?cÇn tiªu hao nguyªn liÖu 
+LOC_KNIFE_STONE_MONEY_COST	Mµi trang b?cÇn tiªu hao vµng
+LOC_MSG_USE_DUMMY_REVIVAL_OTHER	C¸c h?®· s?dông Th?Th©n Ph? c?muèn håi sinh t¹i ch?  %d  gi©y
+LOC_TRANSLIFE_LEVEL	      %d.%d¼¶ 	
+LOC_MERIDIAN_LEVEL_0	ÎÞ		
+LOC_MERIDIAN_LEVEL_1	³õ³öÃ©Â®
+LOC_MERIDIAN_LEVEL_2	ÔÝÂ¶Í·½Ç		
+LOC_MERIDIAN_LEVEL_3	ÃûÉùÈµÆð	
+LOC_MERIDIAN_LEVEL_4	¹¦¼¨×¿Öø		
+LOC_MERIDIAN_LEVEL_5	¾Ã¸ºÊ¢Ãû		
+LOC_MERIDIAN_LEVEL_6	ÍòÈË¾°Ñö		
 LOC_ARMY_LEVEL_0	ChÂ­a		
 LOC_ARMY_LEVEL_1	Binh sÃœ		
 LOC_ARMY_LEVEL_2	HiÃ–u Ã³y		
@@ -2625,7 +2625,7 @@ LOC_KNIFE_STONE_NOTICE	 Õ½³¡¿ªÆôÍ¨Öª
 LOC_KNIFE_STONE_WEAPON_ATK	Õ½³¡¹¥»÷¿ªÊ¼: <enter> ngoÂ¹i cÂ«ng: %d-%d<enter> nÃ©i cÂ«ng: %d-%d		
 LOC_KNIFE_STONE_NOTICE2	Õ½³¡¹Ø±Õ		
 LOC_3V3_MSG1	"»¶Ó­À´µ½½£ÏÀÇéÔµ2ÍøÂç°æ£¬½ö¹©µ¥»úÄÚ²¿²âÊÔ£¡"		
-LOC_3V3_MSG2	×£´ó¼ÒÓÎÏ·Óä¿ì£¬×£´ó¼Ò2020ÄêÐÂÄê¿ìÀÖ.		
+LOC_3V3_MSG2	×£´ó¼ÒÓÎÏ·Óä¿ì£¬Ð¡¿ÕÔÚÕâÀï×£´ó¼Ò2020ÄêÐÂÄê¿ìÀÖ.		
 LOC_3V3_UI_INFO1	%d Ê¤Àû		
 LOC_3V3_UI_INFO2	%d Ê§°Ü		
 LOC_3V3_UI_INFO3	%d Æ½¾Ö		
@@ -2720,7 +2720,7 @@ LOC_G_PLAYER_TRANS	´«ËÍ
 LOC_G_INSERT_GEM_WILL_BIND	²åÈë±¦Ê¯ºó½«°ó¶¨×°±¸		
 LOC_G_GEM_WILL_REPLACED	±¦Ê¯ÒÑ¾­Ìæ»»		
 LOC_G_ARE_YOU_SURE	ÄãÈ·¶¨Âï£¿		
-LOC_ITEM_TIPS_1	Âôµê		
+LOC_ITEM_TIPS_1	³öÊÛ		
 LOC_ITEM_TIPS_2	°ÚÌ¯		
 LOC_ITEM_TIPS_3	¶ªÆú		
 LOC_ITEM_TIPS_4	½»Ò×		
@@ -2743,4 +2743,4 @@ LOC_STR_ITEM_LOCK_PASS_SET_OK_PET	"ÇëÉèÖÃËø¶¨³èÎïµÄÃÜÂë"
 LOC_STR_ITEM_LOCK_PASS_ASK_OK_PET	"ÇëÉèÖÃ½âËø³èÎïµÄÎÊÌâ"		
 LOC_STR_PET_NO_DEL_LOCK	"Ä¿Ç°³èÎïÒÑËø¶¨²»ÄÜ×öÆäËû²Ù×÷"		
 LOC_STR_LOCK	Äú½»Ò×ÎïÆ·ÒÑ¾­Ëø¶¨		
-LOC_STR_UNLOCK	Äú½»Ò×ÎïÆ·½â³ýËø¶¨¡£		
+LOC_STR_UNLOCK	Äú½»Ò×ÎïÆ·½â³ýËø¶¨¡£

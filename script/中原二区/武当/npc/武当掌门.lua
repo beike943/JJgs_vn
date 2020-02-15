@@ -75,25 +75,25 @@ end;
 
 -- 师门任务相关
 function about_faction_task()
-	Say("T譵 B莕 o c?vi謈 g?",
+	Say("怎么回事?",
 		3,
-		"Ta mu鑞 c鑞g hi課 cho s?m玭 (nhi謒 v?s?m玭)/start_faction_tasklink",
-		"Ta mu鑞 tra xem  c鑞g hi課./check_query_faction_contri",
-		"Ta mu鑞 t譵 hi觰  c鑞g hi課 s?m玭./shimenshuoming")
+		"我想进行师门任务/start_faction_tasklink",
+		"我想查阅师门贡献度./check_query_faction_contri",
+		"师门任务说明./shimenshuoming")
 --		"我要修复师门任务无法完成的问题/repair_faction_bug")
 end;
 
 -- 修复杀怪任务无法完成的bug
 function repair_faction_bug()
-	Say("B鎛 m玭 g莕 y c?nhi襲 vi謈 khi課 ngi c騨g b薾 r閚 theo. Xem nh?ngi c?th猰 c?h閕  ta luy謓 v藋! B﹜ gi?ta s?gi髉 ngi h駓 nhi謒 v?tr猲, nh璶g ph秈 tr?5 甶觤 c鑞g hi課 s?m玭, ngi th蕐 th?n祇?", 
+	Say("最近很忙, 我忘记完成任务了. 这次我就帮你取消,但是你要扣除5点师门贡献度，你确定吗?", 
 		2,
-		"Л頲, ta ng ?confirm_repair_bug",
-		"в ta ngh?c竎h kh竎/no")
+		"是的，我同意/confirm_repair_bug",
+		"我再想想/no")
 end;
 
 function confirm_repair_bug()
 	RepairAllChainTask()
-	Say("Xong r錳, ta  h駓 gi髉 ngi!", 0)
+	Say("已经取消了!", 0)
 end;
 
 -- 开始新的任务，去找车夫
@@ -106,11 +106,11 @@ end;
 
 function interwudang()		--加入门派
 	if (GetTask(1001)>0) or (GetTask(1003)>0) or (GetTask(1004)>0) or (GetTask(1005)>0) or (GetTask(1031)>0) or (GetTask(1032)>0) or (GetTask(1033)>0) then
-		Say("您加入了另一个教派，请原谅唐蒙，我不方便接受！",0)
+		Say("您加入了另一个教派！",0)
 	elseif GetLevel() < 10 then	--等级检测
 		Say("想要成为武当弟子必须具备一定的素质。 等你达到<color=yellow>10级<color>再来!",0)
 	elseif GetPlayerFaction() == 2 then	--门派检测
-		Say("嗨！您加入了武当，为什么这么快就忘记了！",0)
+		Say("您加入了武当，为什么这么快就忘记了！",0)
 	elseif GetPlayerFaction() > 0 then	--门派检测
 		Say("什么啊,叛逆于其他教派还不足以要我们去武当谈什么？",0)
 	else
@@ -202,12 +202,12 @@ end;
 
 function practice()
     if GetPlayerFaction() ~= 2 then
-       Talk(1,"","Ngi kh玭g ph秈  t?V?ng, kh玭g th?v祇 b鎛 ph竔 luy謓 c玭g.");
+       Talk(1,"","你不是武当弟子, 这是我武当派的事，不要多管闲事");
     else
         if GetItemCount(2, 0, 206) >= 1 then  --师门令牌
-            Say("Mu鑞 v祇 y luy謓 c玭g?",2,"ng/practice_start","Sai/no");
+            Say("你想进行闭关修炼吗?",2,"是/practice_start","Sai/no");
         else
-            Talk(1,"","Ngi kh玭g c?<color=yellow>l謓h b礽 m玭 ph竔 V?ng<color>, kh玭g th?v祇 y b?quan luy謓 c玭g.");
+            Talk(1,"","你没有<color=yellow>武当令牌<color>, 无法进行修炼.");
         end;
     end;
 end;
@@ -215,9 +215,9 @@ end;
 -- 武当师门重复任务的入口
 function start_faction_tasklink()
 	if (GetPlayerFaction() ~= 2) then
-		Say("Ngi kh玭g ph秈 l? t?V?ng, th?l鏸 B莕 o kh玭g ti謓 giao ph?", 0);
+		Say("不是武当弟子, 武当的事你还是少打听为妙", 0);
 	elseif (GetPlayerRoute() == 13) then 
-		Say("Ngi h穣 ch鋘 m閠 trong hai h?ph竔 Чo gia ho芻 T鬰 gia r錳 n y ti誴 nh薾 nhi謒 v?c騨g ch璦 mu閚.", 0);
+		Say("你去拜师后再来找我!.", 0);
 	elseif (GetPlayerRoute() == 14) then
 		task_main_entrance(TASK_ID_WUDANG_DAOJIA);		-- 道家
 	else 
@@ -259,11 +259,11 @@ g_tbColorInfo =
 --新的入口
 function main_new()
 	local selTab = {
-				"门派起源/know_qiyuan",
-				"武功介绍/know_wugong",
+				"武当派起源/know_qiyuan",
+				"武当派武功介绍/know_wugong",
 				"入门条件/know_rumentiaojian",
 				"加入武当派/interwudang",
-				"帮派任务介绍/about_faction_task",
+				"师门任务介绍/about_faction_task",
 				"闭关修炼/practice",
 				"我打算成亲，我想出师/#faction_graduate(2)",
 				"打个招呼/task_xy",

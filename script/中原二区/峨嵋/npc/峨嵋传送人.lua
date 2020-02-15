@@ -1,14 +1,14 @@
 function main()
 	if	GetPlayerFaction() == 3 then
-		Say("S­ muéi muèn xuèng nói µ?",2,"PhiÒn ®¹i tû ®­a ta xuèng nói!/outemei","Ta ®Õn th¨m S­ tû th«i mµ!/no_emei")
+		Say("ÏëÏÂÉ½Âğ?",2,"àÅ£¬Âé·³Ê¦½ãÁË!/outemei","²»ÓÃ£¬ÎÒÀ´¿´¿´!/no_emei")
 	else
-		Say("<color=green>Nghi Hoµ<color>: ThiÕu hiÖp t×m bÇn ni cã viÖc g× kh«ng?",2,"Xin ®­a t¹i h¹ xuèng nói!/outemei","§Õn chiªm ng­ìng c¶nh PhËt/no_other")
+		Say("<color=green>Nghi Ho?<color>: ÏëÏÂÉ½Âğ?",2,"àÅ£¬Âé·³Ê¦½ãÁË!/outemei","²»ÓÃ£¬ÎÒÀ´¿´¿´/no_other")
 	end
 end;
 
 function outemei()
 	if(GetPKValue() >3 ) then
-		Msg2Player("Ng­êi lµm viÖc ¸c cÊm ra vµo th«n trÊn.")	
+		Msg2Player("Ng?¨ºi l?m vi?c ?c c?m ra v?o th?n tr?n.")	
 	else
     SetFightState(0)
 		i=random(1,4)
@@ -23,10 +23,10 @@ function outemei()
 end
 
 function no_emei()
-	Say("§a t¹ S­ muéi cã lßng!",0)
+	Say("¡ìa t? S? mu¨¦i c? l?ng!",0)
 end;
 
 
 function no_other()
-	Say("<color=green>Nghi Hoµ<color>: Mêi thiÕu hiÖp vµo trong.",0)
+	Say("<color=green>Nghi Ho?<color>: M¨ºi thi?u hi?p v?o trong.",0)
 end;

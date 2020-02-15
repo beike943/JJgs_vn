@@ -1,37 +1,37 @@
 function main()
-	Say("T×m ta cã viÖc g×?",
+	Say("´óÏÀ£¬ÓĞÊ²Ã´ÊÂ?",
 		2,
-		"Ta muèn mua vËt phÈm b¸i s­/baishibuy",
-		"Kh«ng cã viÖc g×/qita")
+		"ÎÒÏë¹ºÂòÊ¦ÃÅÎïÆ·/baishibuy",
+		"ÎÒ¹ä¹ä£¬Ã»ÊÂ/qita")
 end
 
 function baishibuy()
-		Say("HiÖp ThiÕu KiÕm vµ Thiªu töu bæn tiÖm lµ lo¹i th­îng h¹ng, gi¸ chØ cã 40 ®ång. Kh¸ch quan cã muèn mua kh«ng?",
+		Say("ÕâÀïÓĞÉÏµÈµÄ×°±¸ºÍÎïÆ·£¬¼Û¸ñ40Á½£¬ÄãÒªÂòÂğ?",
 		2,
-		"Mua/buyshimen",
-		"Kh«ng mua/meiqian")
+		"Âò/buyshimen",
+		"²»Âò/meiqian")
 end
 
 function buyshimen()
-		Say("§©y lµ HiÖp ThiÕu KiÕm vµ Thiªu töu!", 0);
+		Say("ÕâÊÇÄãÏëÒªµÄÎïÆ·!", 0);
 		Pay(40)	
 		AddItem(0,2,14,1)
 		AddItem(2,1,12,1)		
 end;
 
 function meiqian()
-		Say("Kh«ng tiÒn th× ®õng ®Õn b¸i s­! Chõng nµo cã tiÒn råi h·y quay l¹i.", 0);	
+		Say("´ø¹»Ç®ÔÙÀ´.", 0);	
 end;
 
 	
 function qita()
 	i=random(1,3)
 	if i == 1 then
-		Say("MÆc dï Minh NguyÖt ta chØ lµ mét tiÓu ®¹o ®ång nh­ng còng lµ ®Ö tö ph¸i Vâ §ang, ng­¬i xem th­êng ta µ?",0)
+		Say("M?c d? Minh Nguy?t ta ch? l¦Ì m¨¦t ti¨®u ?1o ??ng nh-ng c?ng l¦Ì ?? t? ph?i Va ¡ìang, ng-?i xem th-¨ºng ta ¦Ì?",0)
 	elseif	i == 2 then
-		Say("Minh nguyÖt c¬ thêi h÷u, b¶ töu vÊn thanh thiªn. H«m ®ã s­ phô nhÊt ®Şnh ®· uèng say nªn míi ®Æt cho ta tªn ®ã.",0)
+		Say("Minh nguy?t c? th¨ºi h¡Âu, b? t?u v¨ºn thanh thian. H?m ?? s- ph? nh¨ºt ??nh ?¡¤ u¨¨ng say nan m¨ªi ??t cho ta tan ??.",0)
 	else
-		Say("Kh«ng cã viÖc g× th× ®õng phiÒn ta thanh tu",0)
+		Say("Kh?ng c? vi?c g¡Á th¡Á ??ng phi?n ta thanh tu",0)
 	end
 end;
 
