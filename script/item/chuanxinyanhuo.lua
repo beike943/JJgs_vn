@@ -1,12 +1,12 @@
--- ====================== ÎÄ¼şĞÅÏ¢ ====================== 
+-- ====================== æ–‡ä»¶ä¿¡æ¯ ====================== 
                                                           
--- ½£ÏÀÇéÔµonlineII Í¨¼©ÈÎÎñ´«ĞÅÑÌ»ğÎÄ¼ş                 
+-- å‰‘ä¾ æƒ…ç¼˜onlineII é€šç¼‰ä»»åŠ¡ä¼ ä¿¡çƒŸç«æ–‡ä»¶                 
 -- Edited by starry night                                 
 -- 2005/11/28 PM 17:40                                    
                                                           
 -- ======================================================
 
---ÒıÓÃÍ¨¼©ÈÎÎñÍ·ÎÄ¼ş
+--å¼•ç”¨é€šç¼‰ä»»åŠ¡å¤´æ–‡ä»¶
 Include("\\script\\task\\killer\\killer_head.lua");
 
 function OnUse() 
@@ -14,28 +14,28 @@ function OnUse()
 	local nMapID = GetWorldPos();
 	
 	if GetPKEnmityState() > 0 then
-		Talk(1,"end_dialog"," ë tr¹ng th¸i so tµi kh«ng cho phĞp dïng vËt phÈm nµy!")
+		Talk(1,"end_dialog","åœ¨æ¯”è¾ƒçš„æƒ…å†µä¸‹ï¼Œä¸å…è®¸ä½¿ç”¨è¿™ä¸ªå¯¹è±¡.")
 		return
 	end	
 
 	if GetFightState() == 1 and nMapID < 700 then
-		Say("B¹n x¸c nhËn muèn gäi 1 NhÊt PhÈm §­êng s¸t thñ ra gióp søc cho b¹n?",
+		Say("ä½ ç¡®å®šè¦å«ä¸€ä¸ªæ€æ‰‹æ¥å¸®ä½ å—?",
 				2,
-				"§­îc/yes",
-				"Kh«ng cÇn/no")
+				"æ˜¯/yes",
+				"ä¸éœ€è¦/no")
 	else
-		Talk(1,"","B¹n chØ cã thÓ sö dông vËt phÈm nµy ë ngoµi thµnh!");
+		Talk(1,"","ä½ åªèƒ½åœ¨åŸå¤–ä½¿ç”¨è¿™ä¸ªç‰©å“");
 	
 	end;
 end;
 
 function yes()
 	if GetPKEnmityState() > 0 then
-		Talk(1,"end_dialog"," ë tr¹ng th¸i so tµi kh«ng cho phĞp dïng vËt phÈm nµy!")
+		Talk(1,"end_dialog","åœ¨æ¯”è¾ƒçš„æƒ…å†µä¸‹ï¼Œä¸å…è®¸ä½¿ç”¨è¿™ä¸ªå¯¹è±¡")
 		return
 	end	
 	if GetFightState() ~= 1 then
-		Talk(1,"","B¹n chØ cã thÓ sö dông vËt phÈm nµy ë ngoµi thµnh!");
+		Talk(1,"","ä½ åªèƒ½åœ¨åŸå¤–ä½¿ç”¨è¿™ä¸ªç‰©å“");
 		return
 	end
 
@@ -54,7 +54,7 @@ function yes()
 		strTime = TurnTime(nTime);
 		
 		if nRemainTime < 900 then
-			Say("Kh«ng thÓ liªn tôc sö dông vËt phÈm nµy trong <color=yellow>15<color> phót. (Thêi gian sö dông cßn"..strTime..")",0);
+			Say("ä¸èƒ½è¿ç»­ä½¿ç”¨è¿™ä¸ªç‰©å“ï¼Œé™åˆ¶<color=yellow>15<color>åˆ†é’Ÿ(å‰©ä½™æ—¶é—´"..strTime..")",0);
 			return
 		end;
 	
@@ -64,7 +64,7 @@ function yes()
 			return
 		end;
 		
-		DoFireworks(808,1);--ÑÌ»¨Ğ§¹û
+		DoFireworks(808,1);--çƒŸèŠ±æ•ˆæœ
 	
 	local nTopKillerName,nTopKillerMode = GetTopKillerData();
 	local nMapID,nWx,nWy = GetWorldPos(); 
@@ -72,13 +72,13 @@ function yes()
 	
 		SetTask(TASK_USEYANHUO_TIME,nNowTime);
 		
-		--ÉèÖÃÔÚ¸ÃµØÍ¼Éú³ÉÉ±ÊÖÉú´æÊ±¼äÎªÒ»Ğ¡Ê±	
+		--è®¾ç½®åœ¨è¯¥åœ°å›¾ç”Ÿæˆæ€æ‰‹ç”Ÿå­˜æ—¶é—´ä¸ºä¸€å°æ—¶	
 		SetNpcLifeTime(nTopKillerIndex,3600);  
 
-		--ÉèÖÃ¶¥¼¶É±ÊÖ½Å±¾
+		--è®¾ç½®é¡¶çº§æ€æ‰‹è„šæœ¬
 		SetNpcScript(nTopKillerIndex,"\\script\\task\\killer\\killer_talk_top.lua");
 		
-		TaskTip("Ph¶i h¹ gôc tªn s¸t thñ ®Çu môc nµy trong vßng 60 phót!"); 
+		TaskTip("å¿…é¡»åœ¨60åˆ†é’Ÿå†…å¹²æ‰è¿™ä¸ªé¡¶çº§æ€æ‰‹ã€‚"); 
 	
 end;
 
