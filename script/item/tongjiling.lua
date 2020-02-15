@@ -24,20 +24,20 @@ local nState = GetTask(TASK_KILLER_STATE_ID)
 			
 			if nTime < 0 then 
 				nTime = 0; 
-				Say("HiÖn b¹n ch­a nhËn bÊt cø nhiÖm vô truy s¸t nµo!",0);
+				Say("Ä¿Ç°ÄúÃ»ÓĞÍ¨¼©ÈÎÎñ!",0);
 				return
 			end;
 
 			nTime = TurnTime(nTime);
-			Say("§Õn <color=yellow>"..nMapName.."("..nMx..", "..nMy..")<color>: <color=yellow>"..nKillerName.."<color>! (Thêi gian cßn:"..nTime..")",0);
+			Say("µ½<color=yellow>"..nMapName.."("..nMx..", "..nMy..")<color>: <color=yellow>"..nKillerName.."<color>! (Ê£ÓàÊ±¼ä:"..nTime..")",0);
 			
 	elseif nState == 2 then
 		
-		Talk(1,"","Hoµn thµnh nhiÖm vô. Mau vÒ gÆp <color=yellow>Bé ®Çu<color> l·nh phÇn th­ëng!");
+		Talk(1,"","ÈÎÎñÍê³É¡£ ¿ìÈ¥ÕÒ <color=yellow>²¶Í·<color> ÁìÉÍ!");
 	
 	else
 		
-		Say("HiÖn b¹n ch­a nhËn bÊt cø nhiÖm vô truy s¸t nµo!",0);
+		Say("HÄ¿Ç°ÄúÃ»ÓĞÍ¨¼©ÈÎÎñ!",0);
 		
 	end;
 

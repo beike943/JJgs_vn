@@ -25,7 +25,7 @@ local nMapID,nWx,nWy = GetWorldPos();
 local nNum = random(3,5);--Éè¶¨¹ÖÎïÊıÁ¿Îª3¡«5¸ö
 local argMonsterID = {};
 local i = 0;
-Msg2Player("B¶o tµng xuÊt hiÖn yªu qu¸i, ng­êi ch¬i h·y cÈn thËn!");
+Msg2Player("³öÏÖ±¦²ØÑı¹Ö£¬´óÏÀĞ¡ĞÄ!");
 
 	nNum,argMonsterID = CreateNpc(nMonsterMode,nMonsterName,nMapID,nWx,nWy,-1,nNum,1,200);
 	nNum = nNum-1;
@@ -42,7 +42,7 @@ function CreateGas()
 local nlife = floor(GetLife()/2);
 
 	 ModifyLife(nlife);
-	 Msg2Player("B¶o tµng xuÊt hiÖn ®éc khİ, nguy hiÓm ®Õn tİnh m¹ng!");
+	 Msg2Player("±¦²ØµØµãÍ»È»Ã°³öÒ»¹É¶¾ÑÌ!");
 	 --¸³Ò»¸öÖĞ¶¾Ä§·¨¸øÍæ¼Ò£¨"Ä§·¨×Ö·û´®",ÉËº¦,³ÖĞøÊ±¼ä£©
 	 CastState("state_poison_damage",nlife/360,1080);
 

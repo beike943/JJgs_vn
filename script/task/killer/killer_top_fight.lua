@@ -28,7 +28,7 @@ function OnDeath(NpcIndex)
 		end;
 		lspf_AddLingShiInBottle(nLSLevel,1);
 		if nLSLevel ~= 0 then
-			Msg2Player("Bπn nhÀn Æ≠Óc 1 "..nLSLevel.." (c p) Linh thπch, Æ∑ nhÀp vµo TÙ Linh ßÿnh");		
+			Msg2Player("ƒ„ªÒµ√ 1∏ˆ "..nLSLevel.." (º∂) ¡È Ø, “—∑≈»Îæ€¡È∂¶");		
 		end;		
 	end;
 end;

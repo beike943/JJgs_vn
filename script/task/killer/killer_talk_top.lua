@@ -13,12 +13,12 @@ function main()
 
 local npcName = GetTargetNpcName();
 
-	if npcName==nil or npcName=="" then npcName = "S¸t thñ "; end;	
+	if npcName==nil or npcName=="" then npcName = "S¸t th?"; end;	
 
 	Say("<color=green>"..npcName.."<color>:……",
 		2,
-		"Cuèi cïng còng ®Ó ta b¾t ®­îc ng­¬i!/Killer_Fight",
-		"Kh«ng cã g×/Killer_Exit");
+		"É±Äã»ØÈ¥ÁìÉÍ/Killer_Fight",
+		"Ã»ÊÂ,ÎÒÖ»ÊÇÂ·¹ý/Killer_Exit");
 	
 end;
 
@@ -31,7 +31,7 @@ function Killer_Fight()
 			return
 		end
 
-		Say("<color=green>"..npcName.."<color>: Kh«ng ngê ng­¬i cã thÓ ®¸nh b¹i s¸t thñ cña NhÊt PhÈm §­êng ta, thËt kh«ng ®¬n gi¶n chót nµo!",0);
+		Say("<color=green>"..npcName.."<color>: ÐÖµÜÍ¦À÷º¦°¡!",0);
 		
 		SetNpcScript(npcID, "\\script\\task\\killer\\killer_top_fight.lua");
 		ChangeNpcToFight(npcID, 5);

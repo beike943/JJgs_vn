@@ -55,11 +55,11 @@ TASK_TRIGGER_TIME           = 500;  -- É±ÊÖ¼ÆÊ±Æ÷
 --²¶Í·ËùÔÚµÄµØÍ¼ĞÅÏ¢
 BuTouMapData = {
 	
-	[1]={100,"TuyÒn Ch©u"},
-	[2]={150,"D­¬ng Ch©u"},
-	[3]={200,"BiÖn Kinh"},
-	[4]={300,"Thµnh §«"},
-	[5]={350,"T­¬ng D­¬ng"},
+	[1]={100,"ÈªÖİ"},
+	[2]={150,"ÑïÖİ"},
+	[3]={200,"ãê¾©"},
+	[4]={300,"³É¶¼"},
+	[5]={350,"ÏåÑô"},
 	 
 }
 
@@ -281,7 +281,7 @@ function CreateKiller()
 local nSurnameID = GetTask(TASK_KILLER_SURNAME_ID);
 local	nFirstnameID = GetTask(TASK_KILLER_FIRSTNAME_ID);
 --»ñÈ¡É±ÊÖĞÕÃû
-local nKillerName = "S¸t thñ "..getKillerName(nSurnameID,nFirstnameID);	
+local nKillerName = "S¸t th?"..getKillerName(nSurnameID,nFirstnameID);	
 
 --»ñÈ¡É±ÊÖÄ£°åID
 local nKillerModeID = GetTask(TASK_KILLER_NPCMODE_ID);			
@@ -466,9 +466,9 @@ function GetTopKillerData()
 	local nTopKillerName = getKillerName(nSurnameID,nFirstnameID);
 	
 	if nTopKillerName ~= nil then
-		nTopKillerName = "S¸t thñ ®Çu môc"..nTopKillerName;
+		nTopKillerName = "S¸t th?®Çu môc"..nTopKillerName;
 	else
-		nTopKillerName = "S¸t thñ ®Çu môc"
+		nTopKillerName = "S¸t th?®Çu môc"
 	end
 
 	--»ñÈ¡Íæ¼ÒµÈ¼¶ÇøÓò
@@ -521,7 +521,7 @@ function TimeOut()
 	RemoveTrigger(GetTrigger(600));
 	RemoveTrigger(GetTrigger(500));
 	
-	TaskTip("B¹n ch­a hoµn thµnh nhiÖm vô trong thêi gian quy ®Şnh, nhiÖm vô truy n· thÊt b¹i!");
+	TaskTip("Ê±¼äµ½É±ÊÖÈÎÎñÊ§°Ü!");
 	TaskPunish();
 	
 	SetTask(TASK_KILLER_STATE_STAR,0);
@@ -546,8 +546,8 @@ local nReputation = GetReputation();
 		ModifyReputation(-2,0);
 	end
 
-	Msg2Player("B¹n kh«ng thÓ hoµn thµnh nhiÖm vô, bŞ trõ 2 ®iÓm danh väng!");
-	TaskTip("B¹n kh«ng thÓ hoµn thµnh nhiÖm vô, bŞ trõ 2 ®iÓm danh väng!");
+	Msg2Player("µ¨Ğ¡¹í£¬ÈÎÎñÈ¡ÏûÁË£¬ËùÒÔ¿ÛÄã2µãÉùÍû!");
+	TaskTip("µ¨Ğ¡¹í£¬ÈÎÎñÈ¡ÏûÁË£¬ËùÒÔ¿ÛÄã2µãÉùÍû!");
 
 end;
 
@@ -579,7 +579,7 @@ local nMinute = floor(mod(nSec,3600)/60);
 local nSecond = floor(mod((mod(nSec,3600)),60));
 local str = "";
 
-	str = " <color=yellow>"..nHour.."<color> giê <color=yellow>"..nMinute.."<color> phót <color=yellow>"..nSecond.."<color> gi©y ";
+	str = " <color=yellow>"..nHour.."<color> Ğ¡Ê±<color=yellow>"..nMinute.."<color> ·Ö <color=yellow>"..nSecond.."<color> Ãë ";
 	
 	return str
 
@@ -698,7 +698,7 @@ local mySex -- ÓÃÒÔÏÔÊ¾ÈËÎïĞÔ±ğµÄ×Ö·û
 	if (GetSex() == 1) then
 		mySex = "§¹i hiÖp"
 	elseif (GetSex() == 2) then
-		mySex = "N÷ hiÖp "
+		mySex = "N?hiÖp "
 	end
 	
 	return mySex

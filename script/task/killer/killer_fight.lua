@@ -14,7 +14,7 @@ function OnDeath(NpcIndex)
 
 local nSurnameID = GetTask(TASK_KILLER_SURNAME_ID);
 local nFirstnameID = GetTask(TASK_KILLER_FIRSTNAME_ID);
-local nKillerName = "S¸t thñ "..getKillerName(nSurnameID,nFirstnameID);
+local nKillerName = "S¸t th?"..getKillerName(nSurnameID,nFirstnameID);
 local nKillerParName = nKillerName.." ®ång hµnh ";
 local nNum = random(3,5);--Ëæ»ú³öÏÖ¸´³ğÍ¬°éÊıÁ¿£¨3¡«5¸ö£©
 local nKillerParModeID = getKillerParModeID();
@@ -35,20 +35,20 @@ local nState = GetTask(TASK_KILLER_STATE_ID);
 		
 		local nExp = GetLevel()*GetLevel()*12;
 		ModifyExp(nExp);
-		Msg2Player("B¹n nhËn ®­îc "..nExp.." ®iÓm kinh nghiÖm");
+		Msg2Player("Äã»ñµÃ "..nExp.." ¾­Ñé");
 		
-		TaskTip("NhiÖm vô hoµn thµnh! Xin ®Õn gÆp Bé ®Çu l·nh th­ëng!");
+		TaskTip("ÈÎÎñÍê³É£¡ ÇëÕÒ²¶Í·ÁìÈ¡½±Àø!");
 		
 		--ÒÆ³ıÊ±¼ä´¥·¢Æ÷
 		RemoveTrigger(GetTrigger(500));
 	
-		--30%´¥·¢ÌØÊâÊÂ¼ş
-		if random(1,100) <= 30 then
+		--36%´¥·¢ÌØÊâÊÂ¼ş
+		if random(1,100) <= 60 then
 		
-			--80%³öÏÖ¸´³ğÍ¬°éthen
-			if random(1,100) <= 80 then
+			--50%³öÏÖ¸´³ğÍ¬°éthen
+			if random(1,100) <= 50 then
 				
-				Talk(1,"","<color=green>"..nKillerName.."<color>: §ång hµnh cña ta sÏ kh«ng tha cho ng­¬i……");
+				Talk(1,"","<color=green>"..nKillerName.."<color>: ÎÒµÄÍ¬°é»áÎªÎÒ±¨³ğµÄ!");
 				
 				nNum,argKillerParIndex = CreateNpc(nKillerParMode,nKillerParName,nMapID,nWx,nWy,-1,nNum,1,200);
 				
@@ -63,14 +63,14 @@ local nState = GetTask(TASK_KILLER_STATE_ID);
 				end;
 				
 			else
-				Talk(2,"","<color=green>"..nKillerName.."<color>: Ta cã lµm ma còng sÏ kh«ng tha cho ng­¬i……","B¹n ®¸nh b¹i <color=yellow>"..nKillerName.."<color> lÊy ®­îc 1 <color=yellow>lÖnh bµi S¸t thñ<color>.");
+				Talk(2,"","<color=green>"..nKillerName.."<color>: ×ö¹íÒ²²»»á·Å¹ıÄãµÄ","ÄãÉ±ËÀ <color=yellow>"..nKillerName.."<color> µÃµ½Ò»¸ö <color=yellow>É±ÊÖÁî<color>.");
 				--µôÂäÉ±ÊÖÁî
 				AddItem(2,1,195,1,1);
 			end;
 			
 		else
 		
-			Talk(1,"","<color=green>"..nKillerName.."<color>: Ta cã lµm ma còng sÏ kh«ng tha cho ng­¬i……");
+			Talk(1,"","<color=green>"..nKillerName.."<color>: ×ö¹íÒ²²»»á·Å¹ıÄãµÄ");
 		
 		end;
 		local nLevel = GetLevel();
@@ -91,7 +91,7 @@ local nState = GetTask(TASK_KILLER_STATE_ID);
 			end;
 			lspf_AddLingShiInBottle(nLSLevel,1);
 			if nLSLevel ~= 0 then
-				Msg2Player("B¹n nhËn ®­îc 1 "..nLSLevel.." (cÊp) Linh th¹ch, ®· nhËp vµo Tô Linh §Ønh");		
+				Msg2Player("Äã»ñµÃ1¸ö"..nLSLevel.."  (¼¶) ÁéÊ¯, ÒÑ·ÅÈë¾ÛÁé¶¦");		
 			end;
 		end;
 	end;

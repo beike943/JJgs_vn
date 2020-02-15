@@ -16,20 +16,20 @@ function main()
 	
 		if nWeekDay == 1 or nWeekDay == 2 or nWeekDay == 3 or nWeekDay == 4 then
 			if nHour == 20  then
-				AddLocalNews("GÇn ®©y sè ng­êi ph¹m téi t¨ng nhiÒu, Bé ®Çu c¸c thµnh thŞ ®· ph¸t danh s¸ch truy n·, b¹n h·y ®Õn Nha m«n gióp hä ph¸ ¸n!");
-				Msg2SubWorld("GÇn ®©y sè ng­êi ph¹m téi t¨ng nhiÒu, Bé ®Çu c¸c thµnh thŞ ®· ph¸t danh s¸ch truy n·, b¹n h·y ®Õn Nha m«n gióp hä ph¸ ¸n!");
+				AddLocalNews("×î½ü£¬´õÍ½µÄÊıÁ¿´ó´óÔö¼Ó£¬¹Ù¸®ÒÑ·¢²¼ÁËÍ¨¼©Áî£¬ÇëÕÒ²¶Í·°ïÖúËûÃÇ½â¾ö!");
+				Msg2SubWorld("×î½ü£¬´õÍ½µÄÊıÁ¿´ó´óÔö¼Ó£¬¹Ù¸®ÒÑ·¢²¼ÁËÍ¨¼©Áî£¬ÇëÕÒ²¶Í·°ïÖúËûÃÇ½â¾ö!");
 				
 			elseif nHour == 22 then
-				AddLocalNews("Bé ®Çu c¸c thµnh thŞ ®· ph¸t danh s¸ch truy n·, b¹n h·y ®Õn Nha m«n gióp hä ph¸ ¸n!");
-				Msg2SubWorld("Bé ®Çu c¸c thµnh thŞ ®· ph¸t danh s¸ch truy n·, b¹n h·y ®Õn Nha m«n gióp hä ph¸ ¸n!");
+				AddLocalNews("¹Ù¸®ÒÑ·¢²¼ÁËÍ¨¼©Áî£¬ÇëÕÒ²¶Í·°ïÖúËûÃÇ½â¾ö!");
+				Msg2SubWorld("¹Ù¸®ÒÑ·¢²¼ÁËÍ¨¼©Áî£¬ÇëÕÒ²¶Í·°ïÖúËûÃÇ½â¾ö!");
 				
 			elseif nHour == 0 then
-				AddLocalNews("Danh s¸ch truy n· h«m nay ®· ph¸t xong, mong c¸c vŞ ®¹i hiÖp gióp b¾t chóng vÒ quy ¸n. Nha m«n sÏ ph¸t c«ng c¸o c¶m t¹ c¸c vŞ!");
-				Msg2SubWorld("Danh s¸ch truy n· h«m nay ®· ph¸t xong, mong c¸c vŞ ®¹i hiÖp gióp b¾t chóng vÒ quy ¸n. Nha m«n sÏ ph¸t c«ng c¸o c¶m t¹ c¸c vŞ!");
+				AddLocalNews("½ñÌìµÄÍ¨¼©Ãûµ¥ÒÑ¾­·¢²¼Íê³É£¬¸ĞĞ»ËùÓĞ´óÏÀµÄ°ïÖú!");
+				Msg2SubWorld("½ñÌìµÄÍ¨¼©Ãûµ¥ÒÑ¾­·¢²¼Íê³É£¬¸ĞĞ»ËùÓĞ´óÏÀµÄ°ïÖú!");
 				
 			else
-				AddLocalNews("Vµo lóc 20 h vµ 22 h, c¸c Bé ®Çu cña Nha m«n ë c¸c thµnh thŞ ra th«ng b¸o danh s¸ch truy b¾t téi ph¹m. Mong c¸c hiÖp kh¸ch ra tay trî gióp!");
-				Msg2SubWorld("Vµo lóc 20 h vµ 22 h, c¸c Bé ®Çu cña Nha m«n ë c¸c thµnh thŞ ra th«ng b¸o danh s¸ch truy b¾t téi ph¹m. Mong c¸c hiÖp kh¸ch ra tay trî gióp!"); 
+				AddLocalNews("Ã¿ÌìÔÚ20Ê±µ½22Ê±£¬¹Ù¸®»á·¢²¼Í¨¼©Áî¡£ ÆÚ´ı´óÏÀµÄ°ïÖú!");
+				Msg2SubWorld("Ã¿ÌìÔÚ20Ê±µ½22Ê±£¬¹Ù¸®»á·¢²¼Í¨¼©Áî¡£ ÆÚ´ı´óÏÀµÄ°ïÖú!"); 
 			end;
 		end;
 end;

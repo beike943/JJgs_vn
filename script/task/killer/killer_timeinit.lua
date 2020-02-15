@@ -18,7 +18,7 @@ function main()
 	
 		if nHour == 20 then
 			
-			print("TiÕn hµnh lÇn 1 nhiÖm vô truy n·! ! !")
+			print("µÚ1¸öÍ¨¼©ÈÎÎñ ! !")
 			
 			if SubWorldID2Idx(100) > 0 then
 				SetMapTaskTemp(100,1,0);
@@ -41,7 +41,7 @@ function main()
 	
 		if nHour == 22 then
 			
-			print("TiÕn hµnh lÇn 2 nhiÖm vô truy n·! ! !")
+			print("µÚ2¸öÍ¨¼©ÈÎÎñ ! !")
 			
 			if SubWorldID2Idx(100) > 0 then
 				SetMapTaskTemp(100,1,0);

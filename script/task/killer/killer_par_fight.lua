@@ -10,7 +10,7 @@ function OnDeath(NpcIndex)
 NpcIndex = tonumber(NpcIndex);
 	SetNpcLifeTime(NpcIndex,0);--使得尸体消失
 	SetNpcScript(NpcIndex,"");--撤销该Npc所挂脚本
-	if random(1,100) <= 4 then
+	if random(1,100) <= 50 then
 		--掉落杀手令
 		AddItem(2,1,195,1,1);
 	end;

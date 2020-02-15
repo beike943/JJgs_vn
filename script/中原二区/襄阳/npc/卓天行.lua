@@ -12,10 +12,10 @@ Include("\\script\\task\\killer\\cangbaotu_head.lua");
 
 function main()
 
-	Say("Khi cßn trÎ l·o phu còng tõng lµ mét ®¹i hiÖp, nh­ng b©y giê giµ råi s¸nh kh«ng b»ng víi tuæi trÎ b©y giê. Ng­¬i ®Õn t×m ta cã viÖc g× kh«ng?",
+	Say("ÓĞÊ²Ã´ĞèÒª°ïÃ¦µÄ?",
 			2,
-			"LÖnh bµi nµy v·n bèi xem kh«ng hiÓu, tiÒn bèi lµ ng­êi hiÓu s©u biÕt réng mong gi¶i thİch cho./Task_Check",
-			"Kh«ng cã g×/Task_Exit");
+			"Íí±²ÕâÀïÓĞ¸öÁîÅÆ,ÇëÇ°±²¸ø¿´¿´/Task_Check",
+			"Ã»Ê²Ã´ÊÂ/Task_Exit");
 			
 end;
 			
@@ -23,12 +23,12 @@ end;
 function Task_Check()
 
 	if GetItemCount(2,1,195) >= 1 then --ÅĞ¶ÏÉ±ÊÖÁîÊıÁ¿
-		Say("§©y lµ lÖnh bµi s¸t thñ nhÊt phÈm ®­êng T©y H¹, bªn trong cã chøa nhiÒu ®iÒu thÇn bİ trong chèc l¸t kh«ng thÓ gi¶i thİch hÕt ®­îc.",
+		Say("§©y l?lÖnh bµi s¸t th?nhÊt phÈm ®­êng T©y H? bªn trong c?chøa nhiÒu ®iÒu thÇn b?trong chèc l¸t kh«ng th?gi¶i thİch hÕt ®­îc.",
 				2,
-				"§­a cho Tr¸c Thiªn Hµnh 5000 l­îng/Task_Confirm",
-				"Th«i §­îc! §a t¹ tiÒn bèi/Task_Exit");
+				"5½ğ,ÇëÄú¼ø¶¨Ò»ÏÂ/Task_Confirm",
+				"ÏÈ²»ÁË/Task_Exit");
 	else
-		Say("LÖnh bµi cña ng­¬i ®©u?!",0);
+		Say("ÄãÉíÉÏÒ²Ã»ÓĞÁîÅÆ°¡,±ğ¶ºÎÒÁË!",0);
 	end;
 		
 end;
@@ -39,22 +39,22 @@ function Task_Confirm()
 local n = 0;
 local nLevel = GetLevel();
 
-local str1 = { "<color=green>Tr¸c Thiªn Hµnh<color>:…",
-						   "LÖnh bµi nµy xem ra ch¼ng cã g× ®Æc biÖt.",
-						   "Ta cã mét İt th¸nh d­îc ®i l¹i trong giang hå rÊt cÇn thiÕt, tÆng ng­¬i xem nh­ kh«ng uèng c«ng cña ng­¬i vËy.",
-						   "§a t¹ tiÒn bèi"}
+local str1 = { "<color=green>×¿ÌìĞĞ<color>:",
+						   "LÖnh bµi nµy xem ra ch¼ng c?g?®Æc biÖt.",
+						   "Ta c?mét İt th¸nh d­îc ®i l¹i trong giang h?rÊt cÇn thiÕt, tÆng ng­¬i xem nh?kh«ng uèng c«ng cña ng­¬i vËy.",
+						   "§a t?tiÒn bèi"}
 					
-local str2 = { "<color=green>Tr¸c Thiªn Hµnh<color>:…",
-						 	 "Bªn d­íi lÖnh bµi cã Èn chøa mét b¶n vÏ, bªn trªn míi chØ lµ nh÷ng kı hiÖu",
-               "Kı hiÖu?",
-               "<color=yellow>Tµng B¶o §å<color> do ng­¬i mang ®Õn ®­¬ng nhiªnlµ ph¶i tr¶ l¹i cho ng­¬i råi. Nãi thËt ta giµ råi còng kh«ng cßn ®ñ søc ®Ó ®i qu·ng ®­êng dµi nh­ vËy.",
-						   "§a t¹ tiÒn bèi chØ gi¸o!"}
+local str2 = { "<color=green>×¿ÌìĞĞ<color>:",
+						 	 "Bªn d­íi lÖnh bµi c?Èn chøa mét b¶n v? bªn trªn míi ch?l?nh÷ng k?hiÖu",
+               "K?hiÖu?",
+               "<color=yellow>Tµng B¶o §å<color> do ng­¬i mang ®Õn ®­¬ng nhiªnl?ph¶i tr?l¹i cho ng­¬i råi. Nãi thËt ta gi?råi còng kh«ng cßn ®ñ søc ®Ó ®i qu·ng ®­êng dµi nh?vËy.",
+						   "§a t?tiÒn bèi ch?gi¸o!"}
 						 
-local str3 = { "<color=green>Tr¸c Thiªn Hµnh<color>:…",
-							 "ë ®©y cßn cã <color=yellow>Ph¸o hoa truyÒn tin<color>……",
+local str3 = { "<color=green>×¿ÌìĞĞ<color>:",
+							 "?®©y cßn c?<color=yellow>Ph¸o hoa truyÒn tin<color>……",
 							 "Ph¸o hoa truyÒn tin?",
-							 "§©y lµ vËt phÈm mµ NhÊt PhÈm §­êng S¸t Thñ hay sö dông, chØ cÇn ra ngoµi thµnh ®èt lªn th× sÏ cã S¸t thñ ®Çu môc ®Õn tiÕp øng. Ng­¬i nh©n c¬ héi nµy trõ h¹i cho ®¹i Tèng.",
-							 "§a t¹ tiÒn bèi chØ gi¸o!"}
+							 "§©y l?vËt phÈm m?NhÊt PhÈm §­êng S¸t Th?hay s?dông, ch?cÇn ra ngoµi thµnh ®èt lªn th?s?c?S¸t th?®Çu môc ®Õn tiÕp øng. Ng­¬i nh©n c?héi nµy tr?h¹i cho ®¹i Tèng.",
+							 "§a t?tiÒn bèi ch?gi¸o!"}
 
 	if Pay(5000) == 1 then
 		local nDelItem = DelItem(2,1,195,1,1);

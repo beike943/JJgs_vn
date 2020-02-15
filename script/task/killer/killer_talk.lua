@@ -13,12 +13,12 @@ function main()
 
 local npcName = GetTargetNpcName();
 
-	if npcName==nil or npcName=="" then npcName = "S¸t thñ "; end;	
+	if npcName==nil or npcName=="" then npcName = "S¸t th?"; end;	
 
-	Say("<color=green>"..npcName.."<color>: Ng­¬i lµm g× vËy? Cø ®i qua ®i l¹i tr­íc mÆt ta, lì kinh ®éng ®Õn Mao ®¹i gia ng­¬i cã g¸nh næi kh«ng!",
+	Say("<color=green>"..npcName.."<color>: ÄãÒª¸ÉÊ²Ã´ÔÚÎÒÇ°ÃæÀ´»Ø×ªÓÆ....",
 		2,
-		"Ta trõ h¹i cho d©n/Killer_Fight",
-		"Xin lçi! Nh×n lÇm ng­êi./Killer_Exit");
+		"É±ÁËÄã£¬»ØÈ¥ÁìÉÍ/Killer_Fight",
+		"Ã»ÊÂ£¬¾ÍÊÇÂ·¹ı/Killer_Exit");
 	
 end;
 
@@ -35,10 +35,10 @@ local nPlayerName = GetPlayerSex();
 		
 		--10%¼¸ÂÊ²»Õ½¶øÊ¤
 		if random(1,100)>90 then
-			Say("<color=green>"..npcName.."<color>:"..nPlayerName.."Xin tha m¹ng! TiÓu nh©n xin theo ng­êi vÒ quy ¸n.",0);
+			Say("<color=green>"..npcName.."<color>:"..nPlayerName.."´óÏÀ±ğÉ±ÎÒ,ÎÒºÍÄã»ØÈ¥...",0);
 			
 			SetTask(TASK_KILLER_STATE_ID,2);--Íê³ÉÈÎÎñÉèÖÃ±äÁ¿ÖµÎª2
-			TaskTip("NhiÖm vô hoµn thµnh! Xin ®Õn gÆp Bé ®Çu l·nh th­ëng!");
+			TaskTip("ÈÎÎñÍê³É£¡ ÇëÕÒ²¶Í·½ÓÊÜ½±Àø!");
 			--ÒÆ³ıÊ±¼ä´¥·¢Æ÷
 			RemoveTrigger(GetTrigger(500));
 			SetNpcScript(npcID,"");--³·Ïú¸ÃNpcËù¹Ò½Å±¾
@@ -47,14 +47,14 @@ local nPlayerName = GetPlayerSex();
 					AddItem(2,1,195,1,1);
 				end;
 		else
-			Say("<color=green>"..npcName.."<color>: Hay l¾m!",0);
+			Say("<color=green>"..npcName.."<color>: ºÃ°¡!À´ÊÔÊÔÎÒÕâ°Ñµ¶!",0);
 		
 			SetNpcScript(npcID, "\\script\\task\\killer\\killer_fight.lua");
 			ChangeNpcToFight(npcID);
 		end;
 		
 	else
-		Say("<color=green>"..npcName.."<color>: Tªn tiÓu tö nµy tr¸nh sang mét bªn! §õng lµm phiÒn bæn ®¹i gia!",0);
+		Say("<color=green>"..npcName.."<color>: ¹ö¿ª,±ğµ²×ÅÀÏ×Ó!",0);
 	end;
 	
 end;

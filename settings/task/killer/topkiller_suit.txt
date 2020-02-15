@@ -1,9 +1,9 @@
 Index	Level	Genre	Detail	Particular	Text			
 Tra cøu vËt phÈm	§¼ng cÊp vËt phÈm	Lo¹i lín	Lo¹i phô	Lo¹i nhá	Tªn vËt phÈm			
-1000	50	0	101	251	Kim Cang D­¬ng Trang			
-1001	70	0	101	271	Kim Cang Dao Trang			
-1002	50	0	101	252	Kim Cang D­¬ng Trang			
-1003	70	0	101	272	Kim Cang Dao Trang			
+1000	50	0	101	251	½ğ¸ÕÖ®³¯Ñô×°			
+1001	70	0	101	271	½ğ¸ÕÖ®åĞÒ£×°			
+1002	50	0	101	252	½ğ¸ÕÖ®³¯Ñô×°			
+1003	70	0	101	272	½ğ¸ÕÖ®åĞÒ£×°			
 1004	50	0	103	251	Kim Cang D­¬ng Qu¸n			
 1005	70	0	103	271	Kim Cang Dao Qu¸n			
 1006	50	0	103	252	Kim Cang D­¬ng Qu¸n			
