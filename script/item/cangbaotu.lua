@@ -1,15 +1,15 @@
--- ====================== ÎÄ¼þÐÅÏ¢ ====================== 
+-- ====================== æ–‡ä»¶ä¿¡æ¯ ====================== 
                                                           
--- ½£ÏÀÇéÔµonlineII ²Ø±¦Í¼½Å±¾                  
+-- å‰‘ä¾ æƒ…ç¼˜onlineII è—å®å›¾è„šæœ¬                  
 -- Edited by starry night                                 
 -- 2005/10/15 PM 10:02                                    
                                                           
 -- ======================================================
 
---ÒýÓÃ²Ø±¦Í¼Í·ÎÄ¼þ
+--å¼•ç”¨è—å®å›¾å¤´æ–‡ä»¶
 Include("\\script\\task\\killer\\cangbaotu_head.lua");
 
---ÎåÒ»»î¶¯Ã±×Ó½±Àø
+--äº”ä¸€æ´»åŠ¨å¸½å­å¥–åŠ±
 LABOR_CAP = {
 	{0,103,17},	
 	{0,103,18},
@@ -27,7 +27,7 @@ function OnUse(nParticular)
 	local nRow = tabPos:selectRowNum("PosID",nParticular);
 	local nMapName = tabPos:getCell(nRow,"MapName");
 	local nMapID = tonumber(tabPos:getCell(nRow,"MapID"));
-	local nZone = 20;--¿ØÖÆ·¶Î§
+	local nZone = 20;--æŽ§åˆ¶èŒƒå›´
 	local nWx1 = tonumber(tabPos:getCell(nRow,"WorldX"))+nZone;
 	local nWx2 = tonumber(tabPos:getCell(nRow,"WorldX"))-nZone;
 	local nWy1 = tonumber(tabPos:getCell(nRow,"WorldY"))+nZone;
@@ -40,49 +40,49 @@ function OnUse(nParticular)
 	if nPosID == nMapID and nPx >= nWx2 and nPx <= nWx1 and nPy >= nWy2 and nPy <= nWy1 then
 		DelItem(2,14,nParticular,1,1);
 		local nLuck = random(1,100);
-		--15%ÍÚ³ö5½ð
+		--15%æŒ–å‡º5é‡‘
 		if nLuck <= 15 then
 			Earn(50000);
-		--60%ÍÚ³ö¹ÖÎï
+		--60%æŒ–å‡ºæ€ªç‰©
 		elseif nLuck > 15 and nLuck <= 75 then
 			CreateMonster();
-		--10%ÍÚ³ö¶¾Æø
+		--10%æŒ–å‡ºæ¯’æ°”
 		elseif nLuck > 75 and nLuck <= 85 then
 			CreateGas();
-		--14%ÍÚ³öËæ»ú3¸öÉñÃØÎïÆ·
+		--14%æŒ–å‡ºéšæœº3ä¸ªç¥žç§˜ç‰©å“
 		elseif nLuck > 85 and nLuck <= 99 then
 			for i=1,3 do
 				m = random(1,getn(SecretItem));
 				AddItem(SecretItem[m][1],SecretItem[m][2],SecretItem[m][3],1,1);
 			end
-		else--1%ÎåÒ»ÀÍ¶¯Ã±×Ó
+		else--1%äº”ä¸€åŠ³åŠ¨å¸½å­
 			i = random(1,getn(LABOR_CAP));
 			AddItem(LABOR_CAP[i][1],LABOR_CAP[i][2],LABOR_CAP[i][3],1,1,2,random(131,132),2,102,-1,-1);
 		end;
 		
-		--100%»ñµÃÎ÷±±¹Ø¿¨ÃÅÆ±
+		--100%èŽ·å¾—è¥¿åŒ—å…³å¡é—¨ç¥¨
 		local nNum = random(1,100);
 		if nNum <= 26 then
 			AddItem(2,0,1031,1);
-			Msg2Player("NhËn ®­îc 1 BÝch Dao Thanh T©m §¬n.");
+			Msg2Player("ç¢§ç‘¶æ¸…å¿ƒä¸¹");
 		elseif nNum <= 53 then
 			AddItem(2,0,1032,1);
-			Msg2Player("NhËn ®­îc 1 Håi Long S¸ch.");			
+			Msg2Player("å›žé¾™ç´¢");			
 		elseif nNum <= 80 then
 			AddItem(2,0,1034,1);
-			Msg2Player("NhËn ®­îc 1 TÝch D­¬ng Tinh Hoa.");
+			Msg2Player("çƒˆé˜³ç²¾åŽ");
 		elseif nNum <= 85 then
 			AddItem(2,0,1033,1);
-			Msg2Player("NhËn ®­îc 1 To¸i Th¹ch ChÊn.");
+			Msg2Player("ç¢ŽçŸ³éœ‡");
 		elseif nNum <= 90 then
 			AddItem(2,0,1035,1);
-			Msg2Player("NhËn ®­îc 1 Ngò Hµnh Kú Phiªn");
+			Msg2Player("äº”è¡Œæ——å¹¡");
 		elseif nNum <= 95 then
 			AddItem(2,0,1036,1);
-			Msg2Player("NhËn ®­îc 1 la bµn");
+			Msg2Player("ç£æ²™ç½—ç›˜");
 		else
 			AddItem(2,0,1037,1);
-			Msg2Player("NhËn ®­îc th­ mêi Long m«n tiÖc.");
+			Msg2Player("é¾™é—¨å®´è¯·æŸ¬");
 		end
 		
 	else
