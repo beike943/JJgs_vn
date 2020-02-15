@@ -1,7 +1,7 @@
---³ÈÉ«ÑÌ»¨
+--æ©™è‰²çƒŸèŠ±
 
 Include("\\script\\item\\yanhuo.lua");
 
 function OnUse()
-	use_yanhuo("Tranh S¾c Yªn Hoa");
+	use_yanhuo("æ©™è‰²çƒŸèŠ±");
 end;
