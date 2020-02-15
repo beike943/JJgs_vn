@@ -2,29 +2,29 @@
 function OnUse(nItemIdx)
 	local nDate = tonumber(date("%Y%m%d"));
 	if nDate <= 20080128 then
-		Talk(1,"","Ch×a khãa vµng chØ cã thÓ sö dông sau <color=yellow>29.01.2008<color>.");
+		Talk(1,"","é‡‘é’¥åŒ™åªèƒ½åœ¨è¿™ä¸ªæ—¥æœŸåä½¿ç”¨<color=yellow>29.01.2008<color>.");
 		return 0;
 	end;
 	if GetTask(1480) == 1 then
-		Talk(1,"","Mçi nh©n vËt chØ cã thÓ sö dông 1 lÇn ch×a khãa vµng.");
+		Talk(1,"","æ¯ä¸ªè§’è‰²åªèƒ½ä½¿ç”¨ä¸€æŠŠé‡‘é’¥åŒ™");
 		return 0;
 	end;
 	if GetFightState() == 1 then
-		Talk(1,"","D¹ng thøc chiÕn ®Êu kh«ng thÓ sö dông vËt phÈm nµy!");
+		Talk(1,"","æˆ˜æ–—çŠ¶æ€ä¸èƒ½ä½¿ç”¨");
 		return 0;
 	end;
 	local selTab = {
-				"§ång ı/#use("..nItemIdx..")",
-				"Hñy bá/nothing",
+				"æˆ‘åŒæ„/#use("..nItemIdx..")",
+				"å–æ¶ˆ/nothing",
 				}
-	Say("B¹n x¸c ®Şnh sö dông <color=yellow>Ch×a khãa vµng<color>?",getn(selTab),selTab);
+	Say("ä½ ç¡®å®šè¦ç”¨<color=yellow>é‡‘é’¥åŒ™å—<color>?",getn(selTab),selTab);
 end;
 
 function use(nItemIdx)
 	if DelItemByIndex(nItemIdx,1) == 1 then
 		local nPage = GetStoreBoxPageCount();
 		SetStoreBoxPageCount(nPage+1);
-		Msg2Player("R­¬ng cña b¹n ®· cã thªm 1 trang");
+		Msg2Player("ä½ çš„ç®±å­è¿˜æœ‰1é¡µ");
 		SetTask(1480,1);
 	end;	
 end;
