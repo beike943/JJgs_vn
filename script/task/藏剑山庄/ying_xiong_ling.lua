@@ -4,10 +4,10 @@ function yxl_killed()
     local Index,TemplateID,MonsterName = GetTriggeringUnit();
     --ÅĞ¶ÏÍæ¼ÒÊÇ·ñÊÇ30¼¶ÒÔÉÏÈÎÎñ£¬Èç¹ûÊÇµÄ»°£¬¾ÍÒª¿´ËûÊÇ·ñÔÚ´øĞÂÊÖ£¬´¥·¢µôÂäÓ¢ĞÛÁî
    if (GetLevel()>=30) then
-       if (MonsterName=="Thá rõng"   or MonsterName=="Thá x¸m" or MonsterName=="L­u Manh"   or MonsterName=="C«n ®å"   or MonsterName=="Sãi x¸m" or MonsterName=="ThiÕt Gi¸p Trïng"
-        or MonsterName=="Sãi xanh" or MonsterName=="Heo rõng" or MonsterName=="Ong vµng" or MonsterName=="B¸ch NhËt TiÔn" or MonsterName=="Trém vÆt"   or MonsterName=="D¬i"
-        or MonsterName=="KiÕm Kh¸ch"   or MonsterName=="M· HÇu" or MonsterName=="Phi tÆc"   or MonsterName=="§ao HiÖp"   or MonsterName=="M·nh hæ"   or MonsterName=="Hñ thi"
-        or MonsterName=="N÷ kiÕm kh¸ch" or MonsterName=="Hµnh Thi" or MonsterName=="Sãi ®iªn") then
+       if (MonsterName=="¼Ò¶¡"   or MonsterName=="¶ñÈ®" or MonsterName=="»¤Ôº"   or MonsterName=="ÄÚÔº»¤ÎÀ"   or MonsterName=="ÎåĞĞÊØÎÀ" or MonsterName=="×¯Ö÷Ç×ÎÀ"
+        or MonsterName=="ÍâÔº×Ü¹Ü" or MonsterName=="ÄÚÔº×Ü¹Ü" or MonsterName=="´óĞ¡½ã" or MonsterName=="´ó×¯Ö÷" or MonsterName=="´ó³¤ÀÏ"   or MonsterName=="½£Ä§"
+        or MonsterName=="Ó¢ĞÛÁë½£Õó"   or MonsterName=="Ó¢ĞÛÁë¸ßÊÖ" or MonsterName=="Ó¢ĞÛÁëÒşÊ¿"   or MonsterName=="ÍõÌìÔ¬"   or MonsterName=="Ììî¸´óÕó"   or MonsterName=="Ò®ÂÉĞ¡·ï"
+        or MonsterName=="¶ÎºêÓÀ" or MonsterName=="Ó¢ĞÛÁëÕÆÃÅ" or MonsterName=="¶À¹ÂÇó°Ü") then
             local TeamNum = GetTeamSize();
             --¼ÆËã¶ÓÎéÀïÃæÓĞ¶àÉÙ¸öĞÂÊÖ
             local myPlayerId = PlayerIndex;
