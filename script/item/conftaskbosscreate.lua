@@ -1,73 +1,73 @@
 Include("\\script\\lib\\writelog.lua")
 strLogCaption = "Nhiem vu Bang hoi"
---***********************************±äÁ¿¶¨ÒåÇø*****************************
---------------------------------------------°ï»áÈÎÎñËæ»úBOSSÊ¹ÓÃ¶¨Òå
-Zgc_conf_task_boss = {			--µÚÒ»µÈ¼¶BOSS
-	"C«n L«n N«",
-	"Bïi Hµng",
-	"LiÔu NghŞ",
-	"Hång TuyÕn",
-	"H¹ C¶nh Th¾ng",
-	"NhiÕp §¹i Chïy",
-	"Bé Phi Yªn",
+--***********************************å˜é‡å®šä¹‰åŒº*****************************
+--------------------------------------------å¸®ä¼šä»»åŠ¡éšæœºBOSSä½¿ç”¨å®šä¹‰
+Zgc_conf_task_boss = {			--ç¬¬ä¸€ç­‰çº§BOSS
+	"Cç­ Lç­ N?",
+	"Bé£… Hç¥…g",
+	"Liè©• Ngh?",
+	"HéŒ¸g Tuyèª²",
+	"H? Cç§h Thç·‰g",
+	"Nhièª´ Ğ§i Ché£",
+	"B? Phi YçŒ²",
 }
 Zgc_conf_task_box = {
-	"R­¬ng cña C«n L«n N« ®Ó l¹i",
-	"R­¬ng cña Bïi Hµng ®Ó l¹i",
-	"R­¬ng cña LiÔu NghŞ ®Ó l¹i",
-	"R­¬ng cña Hång TuyÕn ®Ó l¹i",
-	"R­¬ng s¾t cña H¹ C¶nh Th¾ng",
-	"R­¬ng s¾t cña NhiÕp §¹i Chïy",
-	"B¶o r­¬ng cña Bé Phi Yªn",
+	"Rî„¥ng cé¦» Cç­ Lç­ N? î†ª lç­°",
+	"Rî„¥ng cé¦» Bé£… Hç¥…g î†ª lç­°",
+	"Rî„¥ng cé¦» Liè©• Ngh? î†ª lç­°",
+	"Rî„¥ng cé¦» HéŒ¸g Tuyèª² î†ª lç­°",
+	"Rî„¥ng sç· cé¦» H? Cç§h Thç·‰g",
+	"Rî„¥ng sç· cé¦» Nhièª´ Ğ§i Ché£",
+	"Bç§“ rî„¥ng cé¦» B? Phi YçŒ²",
 }
 Zgc_cong_task_usemapid = {
-	{302,"Thanh Thµnh s¬n"},		
-	{327,"¤ M«ng Bé"},
-	{401,"§iÓm Th­¬ng s¬n"},
-	{306,"Giang T©n Th«n"},
-	{307,"Phong §«"},
-	{405,"Ch©n nói Vò L¨ng"},
-	{406,"Vò L¨ng s¬n"},
-	{326,"Mé TuyÕt s¬n trang"},
-	{310,"KiÕm M«n quan"},
-	{311,"Phôc Ng­u s¬n"},
-	{218,"Linh B¶o s¬n"},
-	{202,"H¹nh Hoa th«n"},
-	{151,"V©n Méng Tr¹ch"},			
-	{601,"§¹i Th¶o Nguyªn 1"},
-	{602,"§¹i Th¶o Nguyªn 2"},
-	{103,"§«ng H¶i H¶i T©n 1"},
-	{104,"§«ng H¶i H¶i T©n 2"},
-	{102,"§µo Hoa ®¶o"},
-	{207,"NhŞ Long s¬n"},
-	{217,"D· Tr­ l©m"},
-	{208,"L­¬ng S¬n B¹c"},
-	{604,"Nh¹n M«n quan"},
-	{106,"Long TuyÒn Th«n"},
-	{107,"Vò Di s¬n"},
-	{600,"Bé l¹c V­¬ng Kú"},
+	{302,"Thanh Thç¥…h sç»"},		
+	{327,"? Mç­g B?"},
+	{401,"îœ¯è§¤ Thî„¥ng sç»"},
+	{306,"Giang Tï¹ Thç­"},
+	{307,"Phong Ğ™"},
+	{405,"Chï¹ néª¾ V? Lâ•ªg"},
+	{406,"V? Lâ•ªg sç»"},
+	{326,"M? Tuyèª¸ sç» trang"},
+	{310,"Kièª± Mç­ quan"},
+	{311,"Phé¬° Ngç’¾ sç»"},
+	{218,"Linh Bç§“ sç»"},
+	{202,"Hç­ºh Hoa thç­"},
+	{151,"Vï¹ Mé–šg Trç­©h"},			
+	{601,"Ğ§i Thç§“ NguyçŒ² 1"},
+	{602,"Ğ§i Thç§“ NguyçŒ² 2"},
+	{103,"Ğ™ng Hç§ˆ Hç§ˆ Tï¹ 1"},
+	{104,"Ğ™ng Hç§ˆ Hç§ˆ Tï¹ 2"},
+	{102,"Ğ£o Hoa î†o"},
+	{207,"Nh? Long sç»"},
+	{217,"D? Tr? lï¹"},
+	{208,"Lî„¥ng Sç» Bç­©"},
+	{604,"Nhç­º Mç­ quan"},
+	{106,"Long Tuyè¥« Thç­"},
+	{107,"V? Di sç»"},
+	{600,"B? lç­© Vî„¥ng K?"},
 }
---======================================Ê¹ÓÃÉú³½¸ÙÕÙ»½BOSS==============================
+--======================================ä½¿ç”¨ç”Ÿè¾°çº²å¬å”¤BOSS==============================
 function OnUse(id)
 	SetItemUseLapse(id,90)
 	local mapID,X,Y = GetWorldPos()
 	local chk_flag = 0
-	for i = 1, getn(Zgc_cong_task_usemapid) do				--Ê¹ÓÃµØÍ¼ÅĞ¶Ï
+	for i = 1, getn(Zgc_cong_task_usemapid) do				--ä½¿ç”¨åœ°å›¾åˆ¤æ–­
 		if Zgc_cong_task_usemapid[i][1] == mapID then
 			chk_flag = 1
 			break
 		end
 	end
 	if chk_flag == 0 then
-		Say("N¬i ®©y quan binh canh gi÷ nghiªm ngÆt, ®¸m ng­êi Bé Phi Yªn to gan c¸ch mÊy còng kh«ng d¸m bĞn m·ng tíi, ng­¬i thö ®Õn chç kh¸c xem!",
+		Say("è¿™é‡Œæˆ’å¤‡æ£®ä¸¥,é‚£äº›èƒ†å¤§å¦„ä¸ºçš„é‡è›®äººæ˜¯ä¸ä¼šæ¥çš„,ä½ å»åˆ«çš„åœ°æ–¹è¯•è¯•å§ï¼",
 			2,
-			"Ta muèn biÕt hµnh tung cña Bé Phi Yªn/Zgc_bfy_actmap_inq",
-			"Ta biÕt råi/Zgc_end_dialog"
+			"æˆ‘æƒ³çŸ¥é“ï¼Ÿï¼Ÿï¼Ÿçš„ä¸‹è½/Zgc_bfy_actmap_inq",
+			"çŸ¥é“äº†/Zgc_end_dialog"
 		)		
-	else														--´´½¨BOSS	
+	else														--åˆ›å»ºBOSS	
 		local del_flag = DelItemByIndex(id,1)
 		if del_flag ~= 1 then
-			WriteLogEx(strLogCaption, "", "", "", "", GetTongName(),"xãa Sinh ThÇn Cang thÊt b¹i, ID thÊt b¹i:"..del_flag)
+			WriteLogEx(strLogCaption, "", "", "", "", GetTongName(),"ä½¿ç”¨ç”Ÿè¾°çº²å¤±è´¥,å¤±è´¥ID:"..del_flag)
 		else
 			local boss_step = random(1,100)
 			local npc_index = 0
@@ -75,25 +75,25 @@ function OnUse(id)
 			if boss_step == 37 then
 				boss_seq = 7
 				npc_index = CreateNpc(Zgc_conf_task_boss[7],Zgc_conf_task_boss[7],mapID,X,Y,-1,1,0,0)
-				SendTongMessage(GetName().."Sö dông Sinh ThÇn Cang gäi ra Bé Phi Yªn!")
-				AddGlobalNews(GetTongName().."Cã tin bän hä ®ang giao ®Êu víi Bé Phi Yªn!")
-				WriteLogEx(strLogCaption, "gäi ra", "1", "Bé Phi Yªn", "", GetTongName())
+				SendTongMessage(GetName().."S? dé¬¾g Sinh Thè• Cang gé‹“ ra B? Phi YçŒ²!")
+				AddGlobalNews(GetTongName().."C? tin bé‹˜ h? ç”¢ng giao î†¡u véŸ B? Phi YçŒ²!")
+				WriteLogEx(strLogCaption, "å¬å”¤", "1", "ä¸ªBOOS", "", GetTongName())
 			elseif boss_step <= 85 then
 				local boss_seq = random(5,6)
 				npc_index = CreateNpc(Zgc_conf_task_boss[boss_seq],Zgc_conf_task_boss[boss_seq],mapID,X,Y,-1,1,0,0)
-				SendTongMessage(GetName().."Sö dông Sinh ThÇn Cang gäi ra:"..Zgc_conf_task_boss[boss_seq].."!")
-				WriteLogEx(strLogCaption, "gäi ra", "1", Zgc_conf_task_boss[boss_seq], "", GetTongName())
+				SendTongMessage(GetName().."ä½¿ç”¨ç”Ÿè¾°çº²:"..Zgc_conf_task_boss[boss_seq].."!")
+				WriteLogEx(strLogCaption, "å¬å”¤", "1", Zgc_conf_task_boss[boss_seq], "", GetTongName())
 			else
 				boss_seq = random(1,4)
 				npc_index = CreateNpc(Zgc_conf_task_boss[boss_seq],Zgc_conf_task_boss[boss_seq],mapID,X,Y,-1,1,0,0)
-				SendTongMessage(GetName().."Sö dông Sinh ThÇn Cang gäi ra:"..Zgc_conf_task_boss[boss_seq].."!")
-				WriteLogEx(strLogCaption, "gäi ra", "1", Zgc_conf_task_boss[boss_seq], "", GetTongName())
+				SendTongMessage(GetName().."ä½¿ç”¨ç”Ÿè¾°çº²:"..Zgc_conf_task_boss[boss_seq].."!")
+				WriteLogEx(strLogCaption, "å¬å”¤", "1", Zgc_conf_task_boss[boss_seq], "", GetTongName())
 			end
 			SetNpcScript(npc_index,"\\script\\item\\conftaskbosscreate.lua")			
 		end
 	end
 end
---********************************Éú³½¸Ù¿ÉÊ¹ÓÃµØÍ¼²éÑ¯*****************************
+--********************************ç”Ÿè¾°çº²å¯ä½¿ç”¨åœ°å›¾æŸ¥è¯¢*****************************
 function Zgc_bfy_actmap_inq()
 	local dialog_string = "  "
 	for i = 1, getn(Zgc_cong_task_usemapid) do
@@ -106,25 +106,25 @@ function Zgc_bfy_actmap_inq()
 			end
 		end
 	end
-	Say("Bé Phi Yªn hµnh tung bÊt ®Şnh, ng­êi biÕt tung tİch h¾n ta chØ cã: \n"..dialog_string,
+	Say("ä»–æ˜¯å”¯ä¸€çŸ¥é“çœŸç›¸çš„äºº: \n"..dialog_string,
 		1,
-		"Ta biÕt råi/Zgc_end_dialog"
+		"æˆ‘çŸ¥é“/Zgc_end_dialog"
 	)
 end
---**********************************BOSSËÀÍö´¦Àí***********************************
+--**********************************BOSSæ­»äº¡å¤„ç†***********************************
 function OnDeath(index)
 	SetNpcLifeTime(index,0)
 	local npc_name = GetNpcName(index)
 	local npc_level = 0
 	local MapID,X,Y	= GetNpcWorldPos(index)
-	---------------------------------ÅĞ¶ÏÊÇÄÄ¸öBOSSËÀÍö------------------------------
+	---------------------------------åˆ¤æ–­æ˜¯å“ªä¸ªBOSSæ­»äº¡------------------------------
 	for i = 1, 7 do
 		if Zgc_conf_task_boss[i] == npc_name then
 			box_index = CreateNpc(Zgc_conf_task_box[i],Zgc_conf_task_box[i],MapID,X,Y,-1,1,0,0)
 			SetNpcScript(box_index,"\\script\\item\\zgcconftaskboxdialog.lua")
 			local num_save = GetUnitCurStates(box_index,2)
 			AddUnitStates(box_index,2,-num_save)
-			WriteLog("NhiÖm vô Bang Héi Bé Phi Yªn: BOSS ["..npc_name.."] CHÕT!")
+			WriteLog("å®Œæˆä»»åŠ¡: BOSS ["..npc_name.."]è¢«ä½ æ€æ­»äº†ã€‚")
 			break
 		end
 	end
