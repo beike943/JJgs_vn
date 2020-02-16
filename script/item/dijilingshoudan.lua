@@ -3,11 +3,11 @@ Include("\\script\\lib\\globalfunctions.lua");
 
 function OnUse(nItem)
 	if gf_CheckVeitPetTaskFinish() ~= 1 then
-		Say(format("%s ch­a hoµn thµnh nhiÖm vô phôc sinh ®ång hµnh, t¹m thêi kh«ng thÓ më!", gf_GetPlayerSexName()), 0);
+		Say(format("%sè¿˜æ²¡æœ‰å®ŒæˆåŠ³åŠ¨ä¹‰åŠ¡ï¼Œæš‚æ—¶æ— æ³•å¼€ä¸šï¼", gf_GetPlayerSexName()), 0);
 		return 0;
 	end
 	if GetPetCount() >= 5 then
-		Msg2Player("Sè l­îng b¹n ®ång hµnh hiÖn t¹i v­ît qu¸ 5");
+		Msg2Player("ç›®å‰åŒä¼´äººæ•°è¶…è¿‡5äºº");
 		return 0;
 	end
 	if DelItemByIndex(nItem, 1) == 1 then
