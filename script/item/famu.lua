@@ -1,4 +1,4 @@
---·¥Ä¾
+--ä¼æœ¨
 Include("\\script\\function\\zq_battles\\zq_head.lua")
 
 function OnUse(nItem)
@@ -6,6 +6,6 @@ function OnUse(nItem)
 	if n == 710 or n == 715 or n == 720 then
 		OpenNewGatherWindow()
 	else
-		Msg2Player("Kh«ng thÓ sö dông c«ng cô thu thËp nµy ë ®©y.")
+		Msg2Player("ä½ ä¸èƒ½åœ¨è¿™é‡Œä½¿ç”¨è¿™ä¸ªé‡‡é›†å·¥å…·")
 	end
 end
