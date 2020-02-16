@@ -1,15 +1,15 @@
 --******************************************************
---********************½ğÉ½Èí¼ş½£Íø2½Å±¾*****************
---¹¦ÄÜ£º2006ÖØÑô»î¶¯
---¿ª·¢ÈËÔ±£ºÕÔ¹ó´º
---¿ª·¢Ê±¼ä£º2006-10-12
+--********************é‡‘å±±è½¯ä»¶å‰‘ç½‘2è„šæœ¬*****************
+--åŠŸèƒ½ï¼š2006é‡é˜³æ´»åŠ¨
+--å¼€å‘äººå‘˜ï¼šèµµè´µæ˜¥
+--å¼€å‘æ—¶é—´ï¼š2006-10-12
 --******************************************************
 prize_table = {
-	{"Hoµng Cóc",546,"R­îu hoa cóc",549,"ñ r­îu","b×nh"},
-	{"Tö Cóc",547,"B¸nh hoa cóc",550," chÕ thµnh "," phÇn"},
-	{"Thï du",548,"Bã thï du",551," chÕ thµnh ","Thóc"},
+	{"é»„èŠ",546,"èŠèŠ±é…’",549,"é…¿é…’","å™¨"},
+	{"ç´«èŠ",547,"èŠèŠ±ç³•",550,"åˆ¶ä½œ","éƒ¨åˆ†"},
+	{"èŒ±è¸",548,"èŒ±è¸æŸ",551,"åˆ¶ä½œ","ç»“æŸ"},
 }
-change_num = 9			--¶Ò»»ĞèÒªµÄÔ­ÁÏÊıÁ¿
+change_num = 9			--å…‘æ¢éœ€è¦çš„åŸæ–™æ•°é‡
 map_id_min = 969
 map_id_max = 971
 use_att_Y = 2954
@@ -20,20 +20,20 @@ prize_use_start_time = 13447
 prize_use_end_time = 13463
 
 function main()
-	local palyer_sex = "§¹i hiÖp"
+	local palyer_sex = "å¤§ä¾ "
 	if GetSex() == 2 then
-		palyer_sex = "N÷ hiÖp "
+		palyer_sex = "å¥³ä¾ "
 	end
 	if GetLevel() < 11 then
-		Say("VŞ "..palyer_sex.."NÕu muèn x­ng b¸ vâ l©m th× cÇn ph¶i rÌn luyÖn thªm.",
+		Say("V? "..palyer_sex.."å¦‚æœä½ æƒ³æˆä¸ºå¤§ä¾ ï¼Œä½ éœ€è¦æ›´å¤šçš„è®­ç»ƒã€‚",
 		1,
-		"Ta biÕt råi/end_dialog")
+		"æˆ‘çŸ¥é“/end_dialog")
 		return
 	end
 	local plant_talble = {
-	{"Hoµng Cóc",546},
-	{"Tö Cóc",547},
-	{"Thï du",548},	
+	{"é»„èŠ",546},
+	{"ç´«èŠ",547},
+	{"èŒ±è¸",548},	
 	}
 	local npc_index = GetTargetNpc()
 	if npc_index == 0 then
@@ -47,7 +47,7 @@ function main()
 		AddUnitStates(npc_index,2,( - num_save))
 	end
 	if GetFreeItemRoom() < 1 or (GetMaxItemWeight() - GetCurItemWeight()) < 1 then
-		Msg2Player("Kho¶ng trèng trong hµnh trang hoÆc søc lùc cña b¹n kh«ng ®ñ, xin kiÓm tra l¹i!")
+		Msg2Player("èƒŒåŒ…ç©ºé—´ä¸è¶³æˆ–è´Ÿé‡ä¸è¶³ï¼Œè¯·é‡æ–°æ£€æŸ¥ï¼")
 		AddUnitStates(npc_index,2,1)
 		return
 	end
@@ -57,44 +57,44 @@ function main()
 			SetNpcLifeTime(npc_index,0)
 			local add_flag = AddItem(2,0,plant_talble[i][2],1)
 			if add_flag == 0 then
-				WriteLog("Ho¹t ®éng Trïng Cöu:"..npc_name.."Thªm thÊt b¹i, kı hiÖu:"..add_flag)
+				WriteLog("é‡é˜³æ´»åŠ¨:"..npc_name.."åˆå¤±è´¥äº†, å¢åŠ :"..add_flag)
 			end
 		end
 	end	
 end
 function OnUse(id)
-	local palyer_sex = "§¹i hiÖp"
+	local palyer_sex = "å¤§ä¾ "
 	if GetSex() == 2 then
-		palyer_sex = "N÷ hiÖp "
+		palyer_sex = "å¥³ä¾ "
 	end
 	if GetLevel() < 11 then
-		Say("VŞ "..palyer_sex.."NÕu muèn x­ng b¸ vâ l©m th× cÇn ph¶i rÌn luyÖn thªm.",
+		Say("V? "..palyer_sex.."å¦‚æœä½ æƒ³æˆä¸ºå¤§ä¾ ï¼Œä½ éœ€è¦æ›´å¤šçš„è®­ç»ƒ",
 		1,
-		"Ta biÕt råi/end_dialog")
+		"çŸ¥é“äº†/end_dialog")
 		return
 	end
 	if prze_use_date_chk() == 0 then
-		Say("Ho¹t ®éng ®· kÕt thóc! Xem chi tiÕt trªn trang chñ!",
+		Say("æ´»åŠ¨ç»“æŸäº†",
 		1,
-		"Ta biÕt råi/end_dialog")
+		"çŸ¥é“äº†/end_dialog")
 		return
 	end
-	--³õÊ¼±äÁ¿¶¨Òå
+	--åˆå§‹å˜é‡å®šä¹‰
 	local goods_ID = GetItemParticular(id)
-	--Ö÷Âß¼­
-	if goods_ID >= prize_table[1][2] and goods_ID <= prize_table[3][2] then					--ÅĞ¶ÏÍæ¼ÒÊ¹ÓÃµÄÊÇÊ²Ã´µÀ¾ß
+	--ä¸»é€»è¾‘
+	if goods_ID >= prize_table[1][2] and goods_ID <= prize_table[3][2] then					--åˆ¤æ–­ç©å®¶ä½¿ç”¨çš„æ˜¯ä»€ä¹ˆé“å…·
 		for i = 1, getn(prize_table) do
-			if goods_ID == prize_table[i][2] then			--ÕÒµ½¶ÔÓ¦µÀ¾ß£¬Ôö¼Ó¶ÔÓ¦ÎïÆ·
+			if goods_ID == prize_table[i][2] then			--æ‰¾åˆ°å¯¹åº”é“å…·ï¼Œå¢åŠ å¯¹åº”ç‰©å“
 				if GetItemCount(2,0,prize_table[i][2]) < change_num then
-					Say(change_num.."§ãa"..prize_table[i][1].." míi cã thÓ "..prize_table[i][5].."mét"..prize_table[i][6]..prize_table[i][3]..". Trªn ng­êi b¹n h×nh nh­ kh«ng ®ñ"..prize_table[i][1].." H×nh nh­ kh«ng ®ñ!",
+					Say(change_num.."Ña"..prize_table[i][1].." méŸ c? th? "..prize_table[i][5].."mé– "..prize_table[i][6]..prize_table[i][3]..". TrçŒ² ngî…£i bç­º hè­¶h nh? khç­g î‡ˆ"..prize_table[i][1].." Hè­¶h nh? khç­g î‡ˆ!",
 					1,
-					"Ta biÕt råi/end_dialog"
+					"çŸ¥é“äº†/end_dialog"
 					)
 				else
-					Say("B¹n ®ång ı dïng"..change_num.."§ãa"..prize_table[i][1]..prize_table[i][5].."mét"..prize_table[i][6]..prize_table[i][3].."?",
+					Say("ä½ åŒæ„ä½¿ç”¨"..change_num.."Ña"..prize_table[i][1]..prize_table[i][5].."æœµèŠèŠ±å—"..prize_table[i][6]..prize_table[i][3].."?",
 					2,
-					"ChÕ t¸c /#plant_use("..i..")",
-					"§Ó ta nghÜ l¹i/end_dialog"
+					"åˆ¶ä½œ/#plant_use("..i..")",
+					"çŸ¥é“äº†/end_dialog"
 					)
 				end
 			end
@@ -102,91 +102,91 @@ function OnUse(id)
 	elseif goods_ID >= prize_table[1][4] and goods_ID <= prize_table[3][4] then
 		local map_ID,att_X,att_Y = GetWorldPos()
 		if map_ID < map_id_min or map_ID > map_id_max then
-			Say("Trªn ®Ønh Hoa s¬n míi sö dông ®­îc vËt phÈm nµy. B¹n cã thÓ ®Õn gÆp Vâ L©m Minh truyÒn nh©n ®­a ®i!",
+			Say("TrçŒ² î†¯nh Hoa sç» méŸ s? dé¬¾g î†„é ² vè—… phè´ nç¥”. Bç­º c? th? î†¬n gè‹ V? Lï¹ Minh truyè¥« nhï¹ î†„a ç”¶!",
 			1,
-			"Ta biÕt råi/end_dialog")
+			"çŸ¥é“äº†/end_dialog")
 			return
 		elseif att_Y >= use_att_Y  then
-			Say("Lªn tíi ®Ønh míi sö dông vËt phÈm nµy!",
+			Say("LçŒ² téŸ î†¯nh méŸ s? dé¬¾g vè—… phè´ nç¥”!",
 			1,
-			"Ta biÕt råi/end_dialog")
+			"çŸ¥é“äº†/end_dialog")
 			return
 		end
 		if GetTask(962) >= 42 then
-			Say("Xin lçi! Tæng sè phÇn th­ëng b¹n nhËn ®­îc ®· qu¸ 42 lÇn, mêi b¹n tham gia ho¹t ®ång lÇn sau!",
+			Say("å¯¹ä¸èµ·ï¼ æ‚¨æ”¶åˆ°çš„å¥–åŠ±æ€»æ•°è¶…è¿‡42æ¬¡ï¼Œé‚€è¯·æ‚¨ä¸‹æ¬¡åŠ å…¥åˆä½œï¼",
 			    1,
-				"Ta biÕt råi/end_dialog")
+				"çŸ¥é“äº†/end_dialog")
 			return			
 		end	
 		if GetTask(960) >= 6 and GetTask(961) >= day_num_return() then
-			Say("Xin lçi! Sè phÇn th­ëng h«m nay ®· qu¸ 6 lÇn, ngµy mai h·y quay l¹i!",
+			Say("å¯¹ä¸èµ·!ä»Šå¤©çš„å¥–åŠ±å·²ç»è¶…è¿‡6æ¬¡äº†ï¼Œæ˜å¤©å†æ¥å§ï¼",
 			    1,
-				"Ta biÕt råi/end_dialog")
+				"çŸ¥é“äº†/end_dialog")
 			return			
 		end
 		for i = 1 ,getn(prize_table) do
-			if goods_ID == prize_table[i][4] then			--ÕÒµ½¶ÔÓ¦µÀ¾ß£¬Ôö¼Ó¶ÔÓ¦ÎïÆ·
-				Say(" B¹n ®ång ı dïng "..prize_table[i][3].."?",
+			if goods_ID == prize_table[i][4] then			--æ‰¾åˆ°å¯¹åº”é“å…·ï¼Œå¢åŠ å¯¹åº”ç‰©å“
+				Say("ä½ åŒæ„ä½¿ç”¨"..prize_table[i][3].."å—?",
 					2,
-					"§ång ı dïng/#Prize_use("..i..")",
-					"§Ó ta nghÜ l¹i/end_dialog"
+					"åŒæ„ä½¿ç”¨/#Prize_use("..i..")",
+					"è®©æˆ‘æƒ³æƒ³/end_dialog"
 				)
 			end
 		end
 	end
 end
---*******************************¶Ò»»½±Àøº¯Êı**********************************
+--*******************************å…‘æ¢å¥–åŠ±å‡½æ•°**********************************
 function plant_use(goods_seq)
 	if GetFreeItemRoom() < 1 then
-		Say("Kho¶ng trèng hµnh trang kh«ng ®ñ, xin xem l¹i!",
+		Say("èƒŒåŒ…ç©ºé—´ä¸å¤Ÿï¼Œè¯·æ£€æŸ¥!",
 		    1,
-			"Ta biÕt råi/end_dialog")
+			"çŸ¥é“äº†/end_dialog")
 		return		
 	end
 	if GetItemCount(2,0,prize_table[goods_seq][2]) < change_num then
-		Msg2Player("Xin x¸c nhËn hµnh trang ®ñ vËt phÈm ®Ó ®æi th­ëng!")
+		Msg2Player("è¯·ç¡®è®¤æºå¸¦è¶³å¤Ÿçš„ç‰©å“ä»¥æ¢å–å¥–èµ!")
 		return
 	end
 	local deal_flag = DelItem(2,0,prize_table[goods_seq][2],change_num)
 	if deal_flag == 0 then
-		Msg2Player("Xin x¸c nhËn hµnh trang ®ñ vËt phÈm ®Ó ®æi th­ëng!")
+		Msg2Player("è¯·ç¡®è®¤æºå¸¦è¶³å¤Ÿçš„ç‰©å“ä»¥æ¢å–å¥–èµ!")
 	else
 		local add_flag = AddItem(2,0,prize_table[goods_seq][4],1)
 		if add_flag ~= 0 then
-			Msg2Player("Chóc mõng b¹n dïng "..change_num.."§ãa"..prize_table[goods_seq][1]..prize_table[goods_seq][5].."®· dïng 1 "..prize_table[goods_seq][6]..prize_table[goods_seq][3].."!")
+			Msg2Player("æ­å–œä½ ä½¿ç”¨"..change_num.."Ña"..prize_table[goods_seq][1]..prize_table[goods_seq][5].."î† dé£Šg 1 "..prize_table[goods_seq][6]..prize_table[goods_seq][3].."!")
 		else
-			WriteLog ("Ng­êi ch¬i:"..GetName().."T¨ng"..prize_table[goods_seq][3].." thÊt b¹i, trŞ quay vÒ:"..add_flag..".")
+			WriteLog ("ç©å®¶:"..GetName().."å¢åŠ "..prize_table[goods_seq][3].."å¤±è´¥, è¿”å›:"..add_flag..".")
 		end
 	end
 end
---*******************************Ê¹ÓÃ½±Àøº¯Êı**********************************
+--*******************************ä½¿ç”¨å¥–åŠ±å‡½æ•°**********************************
 function Prize_use(goods_seq)
 	if goods_seq == 1 then
-		local healthy_exp = GetGoldenExp() 							--»ñÈ¡Íæ¼Ò½¡¿µ¾­Ñé
+		local healthy_exp = GetGoldenExp() 							--è·å–ç©å®¶å¥åº·ç»éªŒ
 		if healthy_exp == 0 then
-			Say("HiÖn b¹n kh«ng cã ®iÓm søc kháe kh«ng thÓ dïng r­îu hoa cóc!",
+			Say("ä½ æ²¡æœ‰å¥åº·ç‚¹",
 			1,
-			"Ta biÕt råi/end_dialog")
+			"çŸ¥é“äº†/end_dialog")
 		elseif healthy_exp < exp_num_1 then
-			Say("§iÓm søc kháe cña b¹n lµ:"..healthy_exp..", kh«ng ®ñ 50 v¹n, b¹n muèn ®æi ®iÓm søc kháe lÊy kinh nghiÖm kh«ng?",
+			Say("ä½ çš„å¥åº·ç‚¹:"..healthy_exp..",è¿˜ä¸åˆ°50,ç¡®å®šè¦æ¢å–ç»éªŒå—ï¼Ÿ",
 			2,
-			"Ta muèn ®æi ®iÓm søc kháe thµnh kinh nghiÖm/#exp_change(1)",
-			"§Ó khi kh¸c/end_dialog")
+			"æˆ‘æƒ³æŠŠå¥åº·åˆ†æ•°å˜æˆç»éªŒ/#exp_change(1)",
+			"æ”¹å¤©å§/end_dialog")
 		else
 			exp_change(1)
 		end
 	elseif goods_seq == 2 or goods_seq == 3 then
 		if goods_seq == 2 then
-			local healthy_exp = GetGoldenExp() 							--»ñÈ¡Íæ¼Ò½¡¿µ¾­Ñé
+			local healthy_exp = GetGoldenExp() 							--è·å–ç©å®¶å¥åº·ç»éªŒ
 			if healthy_exp == 0 then
-				Say("HiÖn b¹n kh«ng cã ®iÓm søc kháe kh«ng thÓ dïng b¸nh hoa cóc!",
+				Say("ä½ æ²¡æœ‰å¥åº·ç‚¹",
 				1,
-				"Ta biÕt råi/end_dialog")
+				"çŸ¥é“äº†/end_dialog")
 			elseif healthy_exp < exp_num_2 then
-				Say("§iÓm søc kháe cña b¹n lµ:"..healthy_exp..", kh«ng ®ñ 20 v¹n, b¹n muèn ®æi ®iÓm søc kháe lÊy kinh nghiÖm kh«ng?",
+				Say("ä½ çš„å¥åº·ç‚¹:"..healthy_exp..",è¿˜ä¸åˆ°20,ç¡®å®šè¦æ¢å–ç»éªŒå—ï¼Ÿ",
 				2,
-				"Ta muèn ®æi ®iÓm søc kháe thµnh kinh nghiÖm/#exp_change(2)",
-				"§Ó khi kh¸c/end_dialog")
+				"æˆ‘æƒ³æŠŠå¥åº·åˆ†æ•°å˜æˆç»éªŒ/#exp_change(2)",
+				"æ”¹å¤©å§/end_dialog")
 			else
 				exp_change(2)
 			end
@@ -194,28 +194,28 @@ function Prize_use(goods_seq)
 			local del_flag = DelItem(2,0,prize_table[3][4],1)
 			if del_flag == 1 then
 				ModifyGoldenExp(healthy_exp_need)
-				Msg2Player("B¹n ®· sö dông "..prize_table[goods_seq][3]..", nhËn ®­îc 50 v¹n ®iÓm søc kháe!")
+				Msg2Player("ä½ ä½¿ç”¨äº†"..prize_table[goods_seq][3]..",å¾—åˆ°50ä¸ªå¥åº·åˆ†æ•°!")
 				use_times_save()
 				prize_end_dialog()
 			else
-				Msg2Player("Xin x¸c nhËn hµnh trang cßn "..prize_table[goods_seq][4].."!")
+				Msg2Player("è¯·ç¡®è®¤ä¸€ä¸‹èƒŒåŒ…ç©ºé—´"..prize_table[goods_seq][4].."!")
 			end
 		end
 	end
 end
---****************************½¡¿µ¾­Ñé×ª»»Îª¾­Ñé***********************************
-function exp_change(change_flag)											--½¡¿µ¾­Ñé×ªÎª¾­Ñé
-	local healthy_exp = GetGoldenExp() 										--»ñÈ¡Íæ¼Ò½¡¿µ¾­Ñé
+--****************************å¥åº·ç»éªŒè½¬æ¢ä¸ºç»éªŒ***********************************
+function exp_change(change_flag)											--å¥åº·ç»éªŒè½¬ä¸ºç»éªŒ
+	local healthy_exp = GetGoldenExp() 										--è·å–ç©å®¶å¥åº·ç»éªŒ
 	local del_flag = DelItem(2,0,prize_table[change_flag][4],1)
 	if del_flag == 1 and change_flag == 1 then
 		if healthy_exp >= exp_num_1 then
 			ModifyGoldenExp(-exp_num_1)
 			ModifyExp(exp_num_1)
-			Msg2Player("B¹n sö dông "..prize_table[change_flag][3]..", ®em"..exp_num_1.."®iÓm søc kháe ®æi"..exp_num_1.." ®iÓm kinh nghiÖm!")
+			Msg2Player("ä½ ä½¿ç”¨"..prize_table[change_flag][3]..",æŠŠ"..exp_num_1.."å¥åº·ç‚¹"..exp_num_1.."å…‘æ¢æˆç»éªŒå€¼")
 		else
 			ModifyGoldenExp(-healthy_exp)
 			ModifyExp(healthy_exp)
-			Msg2Player("B¹n sö dông "..prize_table[change_flag][3]..", ®em"..healthy_exp.."®iÓm søc kháe ®æi"..healthy_exp.." ®iÓm kinh nghiÖm!")
+			Msg2Player("ä½ ä½¿ç”¨"..prize_table[change_flag][3]..",æŠŠ"..healthy_exp.."å¥åº·ç‚¹"..healthy_exp.."å…‘æ¢æˆç»éªŒå€¼")
 		end
 		use_times_save()
 		prize_end_dialog()
@@ -223,21 +223,21 @@ function exp_change(change_flag)											--½¡¿µ¾­Ñé×ªÎª¾­Ñé
 		if healthy_exp >= exp_num_2 then
 			ModifyGoldenExp(-exp_num_2)
 			ModifyExp(exp_num_2)
-			Msg2Player("B¹n sö dông "..prize_table[change_flag][3]..", ®em"..exp_num_2.."®iÓm søc kháe ®æi"..exp_num_2.." ®iÓm kinh nghiÖm!")
+			Msg2Player("ä½ ä½¿ç”¨"..prize_table[change_flag][3]..",æŠŠ"..exp_num_2.."å¥åº·ç‚¹"..exp_num_2.."å…‘æ¢æˆç»éªŒå€¼")
 		else
 			ModifyGoldenExp(-healthy_exp)
 			ModifyExp(healthy_exp)
-			Msg2Player("B¹n sö dông "..prize_table[change_flag][3]..", ®em"..healthy_exp.."®iÓm søc kháe ®æi"..healthy_exp.." ®iÓm kinh nghiÖm!")
+			Msg2Player("ä½ ä½¿ç”¨"..prize_table[change_flag][3]..",æŠŠ"..healthy_exp.."å¥åº·ç‚¹"..healthy_exp.."å…‘æ¢æˆç»éªŒå€¼")
 		end
 		ModifyReputation(10,0)
-		Msg2Player("B¹n sö dông "..prize_table[change_flag][3].."nhËn ®­îc 10 ®iÓm danh väng!")
+		Msg2Player("ä½ ä½¿ç”¨"..prize_table[change_flag][3].."è·å¾—10ä¸ªå¥åº·ç‚¹")
 		use_times_save()
 		prize_end_dialog()
 	else
-		Msg2Player("Xin x¸c nhËn hµnh trang cßn "..plant_talble[1][4].."!")
+		Msg2Player("è¯·ç¡®è®¤ä¸€ä¸‹èƒŒåŒ…ç©ºé—´"..plant_talble[1][4].."!")
 	end
 end
---**********************************Ê¹ÓÃÊ±¼äÅĞ¶Ï**********************************
+--**********************************ä½¿ç”¨æ—¶é—´åˆ¤æ–­**********************************
 function prze_use_date_chk()
 	if day_num_return() < prize_use_start_time or day_num_return() > prize_use_end_time then
 		return 0 
@@ -245,7 +245,7 @@ function prze_use_date_chk()
 		return 1
 	end
 end
---**********************************Ê¹ÓÃ´ÎÊı¼ÇÂ¼**********************************
+--**********************************ä½¿ç”¨æ¬¡æ•°è®°å½•**********************************
 function use_times_save()
 	local use_times = GetTask(960)
 	local use_date_seq = GetTask(961)
@@ -258,22 +258,22 @@ function use_times_save()
 	end
 	SetTask(962,use_time_total + 1)
 end
---*******************************Ê¹ÓÃ´ÎÊıÌáÊ¾************************************
+--*******************************ä½¿ç”¨æ¬¡æ•°æç¤º************************************
 function prize_end_dialog()
 	local use_times = GetTask(960)
 	local use_num_today = 6 - use_times
 	local use_num_total = GetTask(962)
 	if use_times < 6 and use_num_total < 42 then
-		Msg2Player("H«m nay lÇn thø "..use_times.."b¹n nhËn ®­îc phÇn th­ëng, cßn"..use_num_today.."lÇn c¬ héi nhËn th­ëng. §©y lµ lÇn tİch lòy thø"..use_num_total.." lÇn ®æi phÇn th­ëng, cßn ®æi ®­îc"..(42-use_num_total).." lÇn.")
+		Msg2Player("ä»Šå¤©"..use_times.."ä½ å¾—åˆ°å¥–åŠ±äº†,è¿˜æœ‰"..use_num_today.."æ¬¡è·å¾—å¥–åŠ±çš„æœºä¼šã€‚è¿™å°±æ˜¯ç§¯ç´¯"..use_num_total.."å…‘æ¢å¥–åŠ±ã€‚è¿˜å¯ä»¥æ¢"..(42-use_num_total).."æ¬¡")
 	elseif use_times == 6 and use_num_total < 42 then
-		Msg2Player("H«m nµy b¹n ®· nhËn th­ëng 6 lÇn cho phĞp, ngµy mai h·y quay l¹i! §©y lµ lÇn tİch lòy thø"..use_num_total.." lÇn ®æi phÇn th­ëng, cßn ®æi ®­îc"..(42-use_num_total).." lÇn.")
+		Msg2Player("ä½ ä»Šå¤©å¾—åˆ°äº†6æ¬¡å¥–åŠ±,æ˜å¤©å†æ¥æŠŠï¼è¿™å°±æ˜¯ç§¯ç´¯"..use_num_total.."å…‘æ¢å¥–åŠ±ã€‚è¿˜å¯ä»¥æ¢"..(42-use_num_total).."æ¬¡")
 	elseif use_num_total == 42 then
-		Msg2Player("B¹n ®· ®æi 42 phÇn th­ëng kh«ng thÓ tiÕp tôc ®æi, mêi tham gia ho¹t ®éng lÇn sau!")
+		Msg2Player("ä½ å·²ç»å…‘æ¢äº†42æ¬¡å¥–åŠ±ä¸èƒ½ç»§ç»­å…‘æ¢,è¯·å‚åŠ ä¸‹æ¬¡æ´»åŠ¨ï¼")
 	end
 end
 function end_dialog()
 end
---**************************ÂÖ´Î¼ÆËãº¯Êı******************************************
+--**************************è½®æ¬¡è®¡ç®—å‡½æ•°******************************************
 function day_num_return()
 	local times_return = floor((GetTime() - 57600)/(86400))
 	return times_return
