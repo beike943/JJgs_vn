@@ -1,4 +1,4 @@
---ÃèÊö£º×°±¸½Å±¾£¬ÓÒ¼üÊ¹ÓÃ×°±¸Ê±µ÷ÓÃÒ»¸ö¼¼ÄÜ£¬¿ÉÒÔÉèÖÃ¼¼ÄÜµÈ¼¶ºÍÀäÈ´Ê±¼ä
+--æè¿°ï¼šè£…å¤‡è„šæœ¬ï¼Œå³é”®ä½¿ç”¨è£…å¤‡æ—¶è°ƒç”¨ä¸€ä¸ªæŠ€èƒ½ï¼Œå¯ä»¥è®¾ç½®æŠ€èƒ½ç­‰çº§å’Œå†·å´æ—¶é—´
 g_tbWeapon = 
 {	--		ID1,ID2,ID3,SkillID,SkillLevel,CDTime
 	[1] = {	0,	102,	8013,		911,		5,		5*60},
@@ -58,22 +58,22 @@ function can_use_item(nItemIdx)
 		if IsTitleExist(51, 1) > 0 or IsTitleExist(51, 2) > 0 or IsTitleExist(51, 5) > 0 or IsTitleExist(51, 6) > 0 or IsTitleExist(51, 9) > 0 or IsTitleExist(51, 10) > 0 then
 			return 0
 		end
-		Msg2Player("B¹n ch­a cã x­ng hiÖu t­¬ng øng, kh«ng thÓ sö dông vËt nµy!")
+		Msg2Player("ä½ æ²¡æœ‰ç›¸åº”çš„ç§°å·ï¼Œä¸èƒ½ä½¿ç”¨è¿™ä¸ªè£…å¤‡ï¼")
 		return 1
 	elseif in_shiye_item(nDetail, nParticular) == 1 then
 		if IsTitleExist(51, 3) > 0 or IsTitleExist(51, 7) > 0 or IsTitleExist(51, 11) > 0 then
 			return 0
 		end
-		Msg2Player("B¹n ch­a cã x­ng hiÖu t­¬ng øng, kh«ng thÓ sö dông vËt nµy!")
+		Msg2Player("ä½ æ²¡æœ‰ç›¸åº”çš„ç§°å·ï¼Œä¸èƒ½ä½¿ç”¨è¿™ä¸ªè£…å¤‡ï¼")
 		return 1
 	elseif in_tixia_item(nDetail, nParticular) == 1 then
 		if IsTitleExist(51, 4) > 0 or IsTitleExist(51, 8) > 0 or IsTitleExist(51, 12) > 0 then
 			return 0
 		end
-		Msg2Player("B¹n ch­a cã x­ng hiÖu t­¬ng øng, kh«ng thÓ sö dông vËt nµy!")
+		Msg2Player("ä½ æ²¡æœ‰ç›¸åº”çš„ç§°å·ï¼Œä¸èƒ½ä½¿ç”¨è¿™ä¸ªè£…å¤‡ï¼")
 		return 1
 	end
-	return 0	--·µ»Ø·Ç1±íÊ¾ÄÜÓÒ¼ü×°±¸¡£·µ»Ø1±íÊ¾²»ÄÜ×°±¸
+	return 0	--è¿”å›é1è¡¨ç¤ºèƒ½å³é”®è£…å¤‡ã€‚è¿”å›1è¡¨ç¤ºä¸èƒ½è£…å¤‡
 end
 
 function CanEquip(nItemIdx)
@@ -85,22 +85,22 @@ function CanEquip(nItemIdx)
 		if IsTitleExist(51, 1) > 0 or IsTitleExist(51, 2) > 0 or IsTitleExist(51, 5) > 0 or IsTitleExist(51, 6) > 0 or IsTitleExist(51, 9) > 0 or IsTitleExist(51, 10) > 0 then
 			return 0
 		end
-		Msg2Player("B¹n ch­a cã x­ng hiÖu t­¬ng øng, kh«ng thÓ trang bŞ vËt nµy!")
+		Msg2Player("ä½ æ²¡æœ‰ç›¸åº”çš„ç§°å·ï¼Œä¸èƒ½ä½¿ç”¨è¿™ä¸ªè£…å¤‡ï¼")
 		return 1
 	elseif in_shiye_item(nDetail, nParticular) == 1 then
 		if IsTitleExist(51, 3) > 0 or IsTitleExist(51, 7) > 0 or IsTitleExist(51, 11) > 0 then
 			return 0
 		end
-		Msg2Player("B¹n ch­a cã x­ng hiÖu t­¬ng øng, kh«ng thÓ trang bŞ vËt nµy!")
+		Msg2Player("ä½ æ²¡æœ‰ç›¸åº”çš„ç§°å·ï¼Œä¸èƒ½ä½¿ç”¨è¿™ä¸ªè£…å¤‡ï¼")
 		return 1
 	elseif in_tixia_item(nDetail, nParticular) == 1 then
 		if IsTitleExist(51, 4) > 0 or IsTitleExist(51, 8) > 0 or IsTitleExist(51, 12) > 0 then
 			return 0
 		end
-		Msg2Player("B¹n ch­a cã x­ng hiÖu t­¬ng øng, kh«ng thÓ trang bŞ vËt nµy!")
+		Msg2Player("ä½ æ²¡æœ‰ç›¸åº”çš„ç§°å·ï¼Œä¸èƒ½ä½¿ç”¨è¿™ä¸ªè£…å¤‡ï¼")
 		return 1
 	end
-	return 0	--·µ»Ø·Ç1±íÊ¾ÄÜÓÒ¼ü×°±¸¡£·µ»Ø1±íÊ¾²»ÄÜ×°±¸
+	return 0	--è¿”å›é1è¡¨ç¤ºèƒ½å³é”®è£…å¤‡ã€‚è¿”å›1è¡¨ç¤ºä¸èƒ½è£…å¤‡
 end
 
 function in_taishou_item(nDetail, nParticular)
