@@ -1,118 +1,118 @@
--- ³öÊ¦µÀ¾ß
+-- å‡ºå¸ˆé“å…·
 
 Include("\\script\\online\\zgc_public_fun.lua")
 
-GRADUATE_TASK_ID = 1292	-- ´ËÈÎÎñ±äÁ¿ÔÚ \script\master_prentice\some_op.lua ÖÐÒ²¶¨Òå¹ý
+GRADUATE_TASK_ID = 1292	-- æ­¤ä»»åŠ¡å˜é‡åœ¨ \script\master_prentice\some_op.lua ä¸­ä¹Ÿå®šä¹‰è¿‡
 
 t_can_use_map = 
 {
-	101,	--½­ÄÏÇø\º£Íâ¹Âµº
-	102,	--½­ÄÏÇø\ÌÒ»¨µº
-	103,	--½­ÄÏÇø\¶«º£º£±õÒ»
-	104,	--½­ÄÏÇø\¶«º£º£±õ¶þ
-	105,	--½­ÄÏÇø\ÈªÖÝ¸®Î÷
-	106,	--½­ÄÏÇø\ÁúÈª´å
-	107,	--½­ÄÏÇø\ÎäÒÄÉ½
-	108,	--½­ÄÏÇø\ÈªÖÝ¸®±±
-	109,	--½­ÄÏÇø\ÇåÒô¶´Ò»²ã
-	110,	--½­ÄÏÇø\ÇåÒô¶´¶þ²ã
-	111,	--½­ÄÏÇø\ÇåÏª¶´
-	112,	--½­ÄÏÇø\Á½Ë®¶´Ò»²ã
-	113,	--½­ÄÏÇø\Á½Ë®¶´¶þ²ã
-	114,	--½­ÄÏÇø\ÍõÄ¸¶´Ò»²ã
-	115,	--½­ÄÏÇø\ÍõÄ¸¶´¶þ²ã
-	116,	--½­ÄÏÇø\ÍõÄ¸¶´Èý²ã
-	151,	--½­ÄÏÇø\ÔÆÃÎÔó
-	201,	--ÖÐÔ­Ò»Çø\ãê¾©¸®ÄÏ
-	202,	--ÖÐÔ­Ò»Çø\ÐÓ»¨´å
-	203,	--ÖÐÔ­Ò»Çø\ãê¾©¸®Î÷
-	205,	--ÖÐÔ­Ò»Çø\ãê¾©¸®¶«
-	206,	--ÖÐÔ­Ò»Çø\ÑãÃÅ¹Ø·Ï
-	207,	--ÖÐÔ­Ò»Çø\¶þÁúÉ½
-	208,	--ÖÐÔ­Ò»Çø\ÁºÉ½²´
-	210,	--ÖÐÔ­Ò»Çø\ÑôÖÐ¶´Ò»²ã
-	211,	--ÖÐÔ­Ò»Çø\ÑôÖÐ¶´¶þ²ã
-	212,	--ÖÐÔ­Ò»Çø\ÑôÖÐ¶´Èý²ã
-	213,	--ÖÐÔ­Ò»Çø\ÉÙÁÖÃÜÊÒÒ»²ã
-	214,	--ÖÐÔ­Ò»Çø\ÉÙÁÖÃÜÊÒ¶þ²ã
-	215,	--ÖÐÔ­Ò»Çø\ºÚ·ç¶´
-	216,	--ÖÐÔ­Ò»Çø\ÏéÔÆ¶´
-	217,	--ÖÐÔ­Ò»Çø\Ò°ÖíÁÖ
-	218,	--ÖÐÔ­Ò»Çø\Áé±¦É½
-	301,	--ÖÐÔ­¶þÇø\³É¶¼¸®Î÷
-	302,	--ÖÐÔ­¶þÇø\Çà³ÇÉ½
-	304,	--ÖÐÔ­¶þÇø\³É¶¼¸®ÄÏ
-	306,	--ÖÐÔ­¶þÇø\½­½ò´å
-	307,	--ÖÐÔ­¶þÇø\·á¶¼
-	308,	--ÖÐÔ­¶þÇø\³É¶¼¸®±±
-	309,	--ÖÐÔ­¶þÇø\½£¸óÊñµÀ
-	310,	--ÖÐÔ­¶þÇø\½£ÃÅ¹Ø
-	311,	--ÖÐÔ­¶þÇø\·üÅ£É½
-	313,	--ÖÐÔ­¶þÇø\ÌìÊ¦¶´Ò»²ã
-	314,	--ÖÐÔ­¶þÇø\ÌìÊ¦¶´¶þ²ã
-	315,	--ÖÐÔ­¶þÇø\±ùÐÄ¶´Ò»²ã
-	316,	--ÖÐÔ­¶þÇø\±ùÐÄ¶´¶þ²ã
-	317,	--ÖÐÔ­¶þÇø\ÖñË¿¶´Ò»²ã
-	318,	--ÖÐÔ­¶þÇø\ÖñË¿¶´¶þ²ã
-	319,	--ÖÐÔ­¶þÇø\·âÄ§¶´Ò»²ã
-	320,	--ÖÐÔ­¶þÇø\·âÄ§¶´¶þ²ã
-	321,	--ÖÐÔ­¶þÇø\½ð¹â¶´
-	322,	--ÖÐÔ­¶þÇø\Áú»¢¶´Ò»²ã
-	323,	--ÖÐÔ­¶þÇø\Áú»¢¶´¶þ²ã
-	324,	--ÖÐÔ­¶þÇø\ÆßÐÇ¶´Ò»²ã
-	325,	--ÖÐÔ­¶þÇø\ÆßÐÇ¶´¶þ²ã
-	326,	--ÖÐÔ­¶þÇø\ÄºÑ©É½×¯
-	327,	--ÖÐÔ­¶þÇø\ÎÚÃÉ²¿
-	328,	--ÖÐÔ­¶þÇø\¹íÃÅ»ØÀÈ
-	401,	--Î÷ÄÏÇø\µã²ÔÉ½
-	402,	--Î÷ÄÏÇø\Î÷Ë«°æÄÉ±±²¿
-	403,	--Î÷ÄÏÇø\Î÷Ë«°æÄÉÄÏ²¿
-	405,	--Î÷ÄÏÇø\ÎäÁêÉ½½Å
-	406,	--Î÷ÄÏÇø\ÎäÁêÉ½
-	407,	--Î÷ÄÏÇø\Îå¶¾½Ì
-	408,	--Î÷ÄÏÇø\ÃçÁë
-	409,	--Î÷ÄÏÇø\Ç§Ñ°ËþÒ»²ã
-	410,	--Î÷ÄÏÇø\Ç§Ñ°Ëþ¶þ²ã
-	411,	--Î÷ÄÏÇø\Ç§Ñ°ËþÈý²ã
-	412,	--Î÷ÄÏÇø\ÁúÑÛ¶´Ò»²ã
-	413,	--Î÷ÄÏÇø\ÁúÑÛ¶´¶þ²ã
-	414,	--Î÷ÄÏÇø\·ïÑÛ¶´
-	415,	--Î÷ÄÏÇø\·ïÑÛ¶´¶þ²ã
-	416,	--Î÷ÄÏÇø\°×Ë®¶´Ò»²ã
-	417,	--Î÷ÄÏÇø\°×Ë®¶´¶þ²ã
-	418,	--Î÷ÄÏÇø\ÈëÃÅÃÔ¹¬Ò»
-	419,	--Î÷ÄÏÇø\ÈëÃÅÃÔ¹¬¶þ
-	420,	--Î÷ÄÏÇø\Ñà×Ó¶´Ò»²ã
-	421,	--Î÷ÄÏÇø\Ñà×Ó¶´¶þ²ã
-	422,	--Î÷ÄÏÇø\Íò¶¾Õ¯
-	501,	--Î÷±±Çø\·ïÏè¸®ÄÏ
-	502,	--Î÷±±Çø\»ªÉ½
-	503,	--Î÷±±Çø\ÇØÊ¼»ÊÁê
-	504,	--Î÷±±Çø\·ïÏè¸®±±
-	505,	--Î÷±±Çø\Ò©Íõ¹È
-	506,	--Î÷±±Çø\É³Ä®ÃÔ¹¬
-	507,	--Î÷±±Çø\ÁúÃÅÕò
-	508,	--Î÷±±Çø\¹âÃ÷¶¥
-	510,	--Î÷±±Çø\Ò©Íõ¶´
-	511,	--Î÷±±Çø\¹ÅÑô¶´Ò»²ã
-	512,	--Î÷±±Çø\¹ÅÑô¶´¶þ²ã
-	513,	--Î÷±±Çø\»ÊÁêÄ¹ÊÒÒ»²ã
-	514,	--Î÷±±Çø\»ÊÁêÄ¹ÊÒ¶þ²ã
-	600,	--±±Çø\ÍõÆì²¿Âä
-	601,	--±±Çø\´ó²ÝÔ­Ò»
-	602,	--±±Çø\´ó²ÝÔ­¶þ
-	603,	--±±Çø\ÑãÃÅ¹ØÍâ·Ï
-	604,	--±±Çø\ÑãÃÅ¹Ø
+	101,	--æ±Ÿå—åŒº\æµ·å¤–å­¤å²›
+	102,	--æ±Ÿå—åŒº\æ¡ƒèŠ±å²›
+	103,	--æ±Ÿå—åŒº\ä¸œæµ·æµ·æ»¨ä¸€
+	104,	--æ±Ÿå—åŒº\ä¸œæµ·æµ·æ»¨äºŒ
+	105,	--æ±Ÿå—åŒº\æ³‰å·žåºœè¥¿
+	106,	--æ±Ÿå—åŒº\é¾™æ³‰æ‘
+	107,	--æ±Ÿå—åŒº\æ­¦å¤·å±±
+	108,	--æ±Ÿå—åŒº\æ³‰å·žåºœåŒ—
+	109,	--æ±Ÿå—åŒº\æ¸…éŸ³æ´žä¸€å±‚
+	110,	--æ±Ÿå—åŒº\æ¸…éŸ³æ´žäºŒå±‚
+	111,	--æ±Ÿå—åŒº\æ¸…æºªæ´ž
+	112,	--æ±Ÿå—åŒº\ä¸¤æ°´æ´žä¸€å±‚
+	113,	--æ±Ÿå—åŒº\ä¸¤æ°´æ´žäºŒå±‚
+	114,	--æ±Ÿå—åŒº\çŽ‹æ¯æ´žä¸€å±‚
+	115,	--æ±Ÿå—åŒº\çŽ‹æ¯æ´žäºŒå±‚
+	116,	--æ±Ÿå—åŒº\çŽ‹æ¯æ´žä¸‰å±‚
+	151,	--æ±Ÿå—åŒº\äº‘æ¢¦æ³½
+	201,	--ä¸­åŽŸä¸€åŒº\æ±´äº¬åºœå—
+	202,	--ä¸­åŽŸä¸€åŒº\æèŠ±æ‘
+	203,	--ä¸­åŽŸä¸€åŒº\æ±´äº¬åºœè¥¿
+	205,	--ä¸­åŽŸä¸€åŒº\æ±´äº¬åºœä¸œ
+	206,	--ä¸­åŽŸä¸€åŒº\é›é—¨å…³åºŸ
+	207,	--ä¸­åŽŸä¸€åŒº\äºŒé¾™å±±
+	208,	--ä¸­åŽŸä¸€åŒº\æ¢å±±æ³Š
+	210,	--ä¸­åŽŸä¸€åŒº\é˜³ä¸­æ´žä¸€å±‚
+	211,	--ä¸­åŽŸä¸€åŒº\é˜³ä¸­æ´žäºŒå±‚
+	212,	--ä¸­åŽŸä¸€åŒº\é˜³ä¸­æ´žä¸‰å±‚
+	213,	--ä¸­åŽŸä¸€åŒº\å°‘æž—å¯†å®¤ä¸€å±‚
+	214,	--ä¸­åŽŸä¸€åŒº\å°‘æž—å¯†å®¤äºŒå±‚
+	215,	--ä¸­åŽŸä¸€åŒº\é»‘é£Žæ´ž
+	216,	--ä¸­åŽŸä¸€åŒº\ç¥¥äº‘æ´ž
+	217,	--ä¸­åŽŸä¸€åŒº\é‡ŽçŒªæž—
+	218,	--ä¸­åŽŸä¸€åŒº\çµå®å±±
+	301,	--ä¸­åŽŸäºŒåŒº\æˆéƒ½åºœè¥¿
+	302,	--ä¸­åŽŸäºŒåŒº\é’åŸŽå±±
+	304,	--ä¸­åŽŸäºŒåŒº\æˆéƒ½åºœå—
+	306,	--ä¸­åŽŸäºŒåŒº\æ±Ÿæ´¥æ‘
+	307,	--ä¸­åŽŸäºŒåŒº\ä¸°éƒ½
+	308,	--ä¸­åŽŸäºŒåŒº\æˆéƒ½åºœåŒ—
+	309,	--ä¸­åŽŸäºŒåŒº\å‰‘é˜èœ€é“
+	310,	--ä¸­åŽŸäºŒåŒº\å‰‘é—¨å…³
+	311,	--ä¸­åŽŸäºŒåŒº\ä¼ç‰›å±±
+	313,	--ä¸­åŽŸäºŒåŒº\å¤©å¸ˆæ´žä¸€å±‚
+	314,	--ä¸­åŽŸäºŒåŒº\å¤©å¸ˆæ´žäºŒå±‚
+	315,	--ä¸­åŽŸäºŒåŒº\å†°å¿ƒæ´žä¸€å±‚
+	316,	--ä¸­åŽŸäºŒåŒº\å†°å¿ƒæ´žäºŒå±‚
+	317,	--ä¸­åŽŸäºŒåŒº\ç«¹ä¸æ´žä¸€å±‚
+	318,	--ä¸­åŽŸäºŒåŒº\ç«¹ä¸æ´žäºŒå±‚
+	319,	--ä¸­åŽŸäºŒåŒº\å°é­”æ´žä¸€å±‚
+	320,	--ä¸­åŽŸäºŒåŒº\å°é­”æ´žäºŒå±‚
+	321,	--ä¸­åŽŸäºŒåŒº\é‡‘å…‰æ´ž
+	322,	--ä¸­åŽŸäºŒåŒº\é¾™è™Žæ´žä¸€å±‚
+	323,	--ä¸­åŽŸäºŒåŒº\é¾™è™Žæ´žäºŒå±‚
+	324,	--ä¸­åŽŸäºŒåŒº\ä¸ƒæ˜Ÿæ´žä¸€å±‚
+	325,	--ä¸­åŽŸäºŒåŒº\ä¸ƒæ˜Ÿæ´žäºŒå±‚
+	326,	--ä¸­åŽŸäºŒåŒº\æš®é›ªå±±åº„
+	327,	--ä¸­åŽŸäºŒåŒº\ä¹Œè’™éƒ¨
+	328,	--ä¸­åŽŸäºŒåŒº\é¬¼é—¨å›žå»Š
+	401,	--è¥¿å—åŒº\ç‚¹è‹å±±
+	402,	--è¥¿å—åŒº\è¥¿åŒç‰ˆçº³åŒ—éƒ¨
+	403,	--è¥¿å—åŒº\è¥¿åŒç‰ˆçº³å—éƒ¨
+	405,	--è¥¿å—åŒº\æ­¦é™µå±±è„š
+	406,	--è¥¿å—åŒº\æ­¦é™µå±±
+	407,	--è¥¿å—åŒº\äº”æ¯’æ•™
+	408,	--è¥¿å—åŒº\è‹—å²­
+	409,	--è¥¿å—åŒº\åƒå¯»å¡”ä¸€å±‚
+	410,	--è¥¿å—åŒº\åƒå¯»å¡”äºŒå±‚
+	411,	--è¥¿å—åŒº\åƒå¯»å¡”ä¸‰å±‚
+	412,	--è¥¿å—åŒº\é¾™çœ¼æ´žä¸€å±‚
+	413,	--è¥¿å—åŒº\é¾™çœ¼æ´žäºŒå±‚
+	414,	--è¥¿å—åŒº\å‡¤çœ¼æ´ž
+	415,	--è¥¿å—åŒº\å‡¤çœ¼æ´žäºŒå±‚
+	416,	--è¥¿å—åŒº\ç™½æ°´æ´žä¸€å±‚
+	417,	--è¥¿å—åŒº\ç™½æ°´æ´žäºŒå±‚
+	418,	--è¥¿å—åŒº\å…¥é—¨è¿·å®«ä¸€
+	419,	--è¥¿å—åŒº\å…¥é—¨è¿·å®«äºŒ
+	420,	--è¥¿å—åŒº\ç‡•å­æ´žä¸€å±‚
+	421,	--è¥¿å—åŒº\ç‡•å­æ´žäºŒå±‚
+	422,	--è¥¿å—åŒº\ä¸‡æ¯’å¯¨
+	501,	--è¥¿åŒ—åŒº\å‡¤ç¿”åºœå—
+	502,	--è¥¿åŒ—åŒº\åŽå±±
+	503,	--è¥¿åŒ—åŒº\ç§¦å§‹çš‡é™µ
+	504,	--è¥¿åŒ—åŒº\å‡¤ç¿”åºœåŒ—
+	505,	--è¥¿åŒ—åŒº\è¯çŽ‹è°·
+	506,	--è¥¿åŒ—åŒº\æ²™æ¼ è¿·å®«
+	507,	--è¥¿åŒ—åŒº\é¾™é—¨é•‡
+	508,	--è¥¿åŒ—åŒº\å…‰æ˜Žé¡¶
+	510,	--è¥¿åŒ—åŒº\è¯çŽ‹æ´ž
+	511,	--è¥¿åŒ—åŒº\å¤é˜³æ´žä¸€å±‚
+	512,	--è¥¿åŒ—åŒº\å¤é˜³æ´žäºŒå±‚
+	513,	--è¥¿åŒ—åŒº\çš‡é™µå¢“å®¤ä¸€å±‚
+	514,	--è¥¿åŒ—åŒº\çš‡é™µå¢“å®¤äºŒå±‚
+	600,	--åŒ—åŒº\çŽ‹æ——éƒ¨è½
+	601,	--åŒ—åŒº\å¤§è‰åŽŸä¸€
+	602,	--åŒ—åŒº\å¤§è‰åŽŸäºŒ
+	603,	--åŒ—åŒº\é›é—¨å…³å¤–åºŸ
+	604,	--åŒ—åŒº\é›é—¨å…³
 }
 
 function OnUse(idx)
-	Say("Sö dông XuÊt S­ Tiªu ®Ó gäi ra s¸t h¹ch viªn cña Quèc Tö Gi¸m, S­ ®å hîp søc ®Ó tiªu diÖt. Chó ý ®å ®Ö ph¶i tÊn c«ng cuèi cïng. B¹n quyÕt ®Þnh dïng chø? \n<color=red>Xin x¸c nhËn b¹n ®· nhËn ®­îc toµn bé bæng léc, ®å ®Ö mét khi xuÊt s­, nh÷ng bæng léc ch­a nhËn th× kh«ng thÓ nhËn n÷a.<color>", 2, "§óng/yes_use", "Sai/no_say")
+	Say("S? dé¬¾g Xuè•‹ S? TiçŒ½ î†ª gé‹“ ra sç«§ hç­©h viçŒ² cé¦» Qué‘“ T? Giç«š, S? î†¼ hé ¿ sé´† î†ª tiçŒ½ diè¬™. Ch? ? î†¼ î†­ phç§ˆ tè• cçŽ­g cué‘™ cé£Šg. Bç­º quyèª¸ î†µnh dé£Šg ch?? \n<color=red>Xin xç«Ž nhè–¾ bç­º î†Ž nhè–¾ î†„é ² toç¥… b? béŽ›g lé–, î†¼ î†­ mé–  khi xuè•‹ s?, nhé±ªg béŽ›g lé– chç’¦ nhè–¾ th? khçŽ­g th? nhè–¾ né±.<color>", 2, "îž°ng/yes_use", "Sai/no_say")
 end
 
 function yes_use()
 	if use_check() > 0 and DelItem(2,1,590,1) == 1 then
 		local nMapID, nX, nY = GetWorldPos()
-		local n = CreateNpc("Quèc Tö Gi¸m tuÇn kh¶o","Quèc Tö Gi¸m tuÇn kh¶o",nMapID, nX + random(-5,5), nY + random(-5,5))
+		local n = CreateNpc("æœ¬å‘¨æœ€ä½³å¸ˆçˆ¶","æœ¬å‘¨æœ€ä½³å¸ˆçˆ¶",nMapID, nX + random(-5,5), nY + random(-5,5))
 		SetNpcScript(n, "\\script\\item\\chushidaoju.lua")
 		SetNpcLifeTime(n, 1800)
 	end
@@ -123,21 +123,21 @@ function OnDeath(idx)
 	SetNpcLifeTime(nNpcIdx, 0)
 	if death_check() > 0 then
 		SetTask(GRADUATE_TASK_ID, 1)
-		Say("Chóc mõng b¹n ®· hoµn thµnh nhiÖm vô! Mêi s­ phô b¹n ®øng ®èi diÖn råi thùc hiÖn ®éng t¸c \'B¸i\' lµ cã thÓ xuÊt s­",0)
+		Say("æ­å–œä½ å®Œæˆä»»åŠ¡ï¼è®©ä½ çš„å¸ˆçˆ¶ç«™åœ¨ä½ çš„å¯¹é¢ï¼Œåšä¸ªè‚¢ä½“åŠ¨ä½œã€‚\'æ‹œ\'å°±å¯ä»¥äº†ã€‚",0)
 	end
 end
 
-function use_check()		-- Ê¦¸µPlayerIndex
+function use_check()		-- å¸ˆå‚…PlayerIndex
 	local nTeamSize = GetTeamSize()
-	if nTeamSize ~= 2 then				-- ²»ÊÇÊ¦Í½2ÈË×é¶Ó
-		Say("Tæ ®éi chØ cã 2 s­ ®å míi cã thÓ sö dông vËt nµy",0)
+	if nTeamSize ~= 2 then				-- ä¸æ˜¯å¸ˆå¾’2äººç»„é˜Ÿ
+		Say("åªæœ‰å¸ˆçˆ¶å’Œå¾’å¼Ÿç»„é˜Ÿæ‰å¯ä»¥ä½¿ç”¨å“¦ï¼",0)
 		return 0
 	end
 	local nMMapID, nMX, nMY = GetWorldPos()
 	local szMasterName = GetName()
 	local tMasterInfo = GetMPBaseInfo()
-	if tMasterInfo["prentice"] == nil then			-- Ñ¾µÄ¸ù±¾Ã»ÓÐÍ½µÜ
-		Say("B¹n kh«ng cã ®Ö tö, kh«ng thÓ sö dông vËt phÈm nµy!", 0)
+	if tMasterInfo["prentice"] == nil then			-- ä¸«çš„æ ¹æœ¬æ²¡æœ‰å¾’å¼Ÿ
+		Say("ä½ æ²¡æœ‰å¾’å¼Ÿï¼Œä¸èƒ½ç”¨è¿™ä¸ªç‰©å“ã€‚", 0)
 		return 0
 	end
 	local nOldPlayer = PlayerIndex
@@ -151,9 +151,9 @@ function use_check()		-- Ê¦¸µPlayerIndex
 	local szName = GetName()
 	local tInfo = GetMPBaseInfo()
 	
-	if tInfo["master"] ~= szMasterName then	-- Ñ¾µÄ¸ù±¾²»ÊÇÕâ¸öÈËµÄÊ¦¸µ
+	if tInfo["master"] ~= szMasterName then	-- ä¸«çš„æ ¹æœ¬ä¸æ˜¯è¿™ä¸ªäººçš„å¸ˆå‚…
 		PlayerIndex = nOldPlayer
-		Say("Tæ ®éi chØ cã 2 s­ ®å míi cã thÓ sö dông vËt nµy", 0)
+		Say("è¿™ä¸ªäººä¸æ˜¯ä½ çš„å¸ˆçˆ¶å•Šï¼", 0)
 		return 0
 	end
 	local isExist = 0
@@ -163,33 +163,33 @@ function use_check()		-- Ê¦¸µPlayerIndex
 			break
 		end
 	end
-	if isExist == 0 then					-- ²»ÔÚÊ¦¸µµÄÍ½µÜÁÐ±íÀïÄó
+	if isExist == 0 then					-- ä¸åœ¨å¸ˆå‚…çš„å¾’å¼Ÿåˆ—è¡¨é‡Œæ
 		PlayerIndex = nOldPlayer
-		Say("Tæ ®éi chØ cã 2 s­ ®å míi cã thÓ sö dông vËt nµy", 0)
+		Say("åªæœ‰å¸ˆçˆ¶å’Œå¾’å¼Ÿåœ¨é˜Ÿä¼é‡Œæ‰å¯ä»¥ä½¿ç”¨è¿™ä¸ªç‰©å“", 0)
 		return 0
 	end
 	if GetLevel() < 73 then
 		PlayerIndex = nOldPlayer
-		Say("§Ö tö cña b¹n ch­a ®¹t cÊp 73, ch­a thÓ xuÊt s­", 0)
+		Say("ä½ çš„å¾’å¼Ÿè¿˜æ²¡æœ‰è¾¾åˆ°73çº§ï¼Œä¸èƒ½å‡ºå¸ˆã€‚", 0)
 		return 0
 	end
 	
-	if tInfo["istemp"] == 0 then			-- ÁÙÊ±µÜ×Ó
+	if tInfo["istemp"] == 0 then			-- ä¸´æ—¶å¼Ÿå­
 		PlayerIndex = nOldPlayer
-		Say("§Ö tö t¹m thêi kh«ng ®­îc xuÊt s­", 0)
+		Say("ä¸´æ—¶å¼Ÿå­ä¸èƒ½å‡ºå¸ˆ", 0)
 		return 0
 	end
 	
-	-- ¾àÀëÅÐ¶Ï
+	-- è·ç¦»åˆ¤æ–­
 	local nPMapID, nPX, nPY = GetWorldPos()
 	local fDistance = distance_between_points(nMMapID, nMX, nMY, nPMapID, nPX, nPY)
 	if fDistance > 10 or fDistance < 0 then
 		PlayerIndex = nOldPlayer
-		Say("§Ö tö cña b¹n c¸ch b¹n qu¸ xa, kh«ng thÓ sö dông vËt nµy.", 0)
+		Say("ä½ å¾’å¼Ÿç¦»ä½ å¤ªè¿œäº†ï¼Œä¸èƒ½ç”¨è¿™ä¸ªä¸œè¥¿ã€‚", 0)
 		return 0
 	end
 	
-	-- µØÅÌÅÐ¶Ï
+	-- åœ°ç›˜åˆ¤æ–­
 	local nMapID = GetWorldPos()
 	isExist = 0
 	for index, value in t_can_use_map do
@@ -200,15 +200,15 @@ function use_check()		-- Ê¦¸µPlayerIndex
 	end
 	PlayerIndex = nOldPlayer
 	if isExist == 0 then
-		Msg2Player("Khu vùc hiÖn t¹i kh«ng thÓ sö dông ®¹o cô xuÊt s­.")
+		Msg2Player("å½“å‰åŒºåŸŸä¸èƒ½ç”¨è¿™ä¸ªç‰©å“")
 		return 0
 	end
 	return 1
 end
 
-function death_check()		-- Ä¬ÈÏÎªÍ½µÜPlayerIndex
+function death_check()		-- é»˜è®¤ä¸ºå¾’å¼ŸPlayerIndex
 	local nTeamSize = GetTeamSize()
-	if nTeamSize ~= 2 then				-- ²»ÊÇÊ¦Í½2ÈË×é¶Ó
+	if nTeamSize ~= 2 then				-- ä¸æ˜¯å¸ˆå¾’2äººç»„é˜Ÿ
 		return 0
 	end
 	
@@ -226,14 +226,14 @@ function death_check()		-- Ä¬ÈÏÎªÍ½µÜPlayerIndex
 	local nMasterIndex = PlayerIndex
 	local szMasterName = GetName()
 	local tMasterInfo = GetMPBaseInfo()
-	if tMasterInfo["prentice"] == nil then			-- Ñ¾µÄ¸ù±¾Ã»ÓÐÍ½µÜ
+	if tMasterInfo["prentice"] == nil then			-- ä¸«çš„æ ¹æœ¬æ²¡æœ‰å¾’å¼Ÿ
 		return 0
 	end
 
 	PlayerIndex = nOldPlayer
 	local szName = GetName()
 	local tInfo = GetMPBaseInfo()
-	if tInfo["master"] ~= szMasterName then	-- Ñ¾µÄ¸ù±¾²»ÊÇÕâ¸öÈËµÄÊ¦¸µ
+	if tInfo["master"] ~= szMasterName then	-- ä¸«çš„æ ¹æœ¬ä¸æ˜¯è¿™ä¸ªäººçš„å¸ˆå‚…
 		return 0
 	end
 
@@ -244,10 +244,10 @@ function death_check()		-- Ä¬ÈÏÎªÍ½µÜPlayerIndex
 			break
 		end
 	end
-	if isExist == 0 then					-- ²»ÔÚÊ¦¸µµÄÍ½µÜÁÐ±íÀïÄó
+	if isExist == 0 then					-- ä¸åœ¨å¸ˆå‚…çš„å¾’å¼Ÿåˆ—è¡¨é‡Œæ
 		return 0
 	end
-	if tInfo["istemp"] == 0 then			-- ÁÙÊ±µÜ×Ó
+	if tInfo["istemp"] == 0 then			-- ä¸´æ—¶å¼Ÿå­
 		return 0
 	end
 	return 1
