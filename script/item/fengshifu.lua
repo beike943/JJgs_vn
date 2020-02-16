@@ -6,19 +6,19 @@ tabCorpseRevival = new(KTabFile, "\\settings\\skill\\corpse_revival.txt");
 function OnUse(nParticular)
 	local nMapID = GetWorldPos()
 	if nMapID == 887 or nMapID == 606 or (nMapID == 884 and GetFightState() == 0) then 
-		Talk(1,"","Khu vùc nµy kh«ng thÓ gäi Thi !!!");
+		Talk(1,"","è¿™ä¸ªåœ°æ–¹ä¸èƒ½å¬å”¤");
 		return 0;
 	end;
 
-	--Ëæ»úÊÍ·ÅÊ¬ÌåÅäÖÃ±í
-	--Ïî¸ñÊ½£º[particular] = {{lower = range_lower_1, upper = range_upper_1, probability = probability_1}, ..., {lower = range_lower_n, upper = range_upper_n, probability = probability_n}},
-	--ÆäÖĞ£¬particular£º·âÊ¬·ûµÄÏ¸Àà£»range_lower_n£ºµÚn¸öËæ»ú·¶Î§ÏÂÏŞ£»range_upper_n£ºµÚn¸öËæ»ú·¶Î§ÉÏÏŞ£»probability_n£ºµÚn¸öËæ»ú·¶Î§µÄ¸ÅÂÊ£¨·¶Î§ÖĞµÈËæ»ú£©£»
-	--Ëæ»ú·¶Î§ÖĞµÄÈ¡Öµ£¬¶ÔÓ¦ÓÚ"corpse_revival.txt"ÖĞ³ı±íÍ·ÍâµÄµÚ¼¸ĞĞ
-	--Èç£º[10000] = {{lower = 41, upper = 70, probability = 60}, {lower = 71, upper = 71, probability = 10}, {lower = 72, upper = 81, probability = 30}}
-	--Ï¸ÀàÎª10000µÄ·âÊ¬·û£¬
-	--ÕĞ³ö"corpse_revival.txt"ÖĞ³ı±íÍ·ÍâµÄµÚ41ĞĞµ½µÚ70ĞĞÊ¬ÌåµÄ¸ÅÂÊÎª60 / (60 + 10 + 30) * 100% = 60%£¬ÆäÖĞ[41, 70]ÖĞÃ¿¸öĞĞºÅµÄ¸ÅÂÊÎª60% / (70 - 41 + 1) = 2%
-	--ÕĞ³öµÚ71ĞĞÊ¬ÌåµÄ¸ÅÂÊÎª10 / (60 + 10 + 30) * 100% = 10%
-	--ÕĞ³öµÚ72ĞĞµ½µÚ81ĞĞÊ¬ÌåµÄ¸ÅÂÊÎª30 / (60 + 10 + 30) * 100% = 30%£¬ÆäÖĞ[72, 81]ÖĞÃ¿¸öĞĞºÅµÄ¸ÅÂÊÎª30% / (81 - 72 + 1) = 3%
+	--éšæœºé‡Šæ”¾å°¸ä½“é…ç½®è¡¨
+	--é¡¹æ ¼å¼ï¼š[particular] = {{lower = range_lower_1, upper = range_upper_1, probability = probability_1}, ..., {lower = range_lower_n, upper = range_upper_n, probability = probability_n}},
+	--å…¶ä¸­ï¼Œparticularï¼šå°å°¸ç¬¦çš„ç»†ç±»ï¼›range_lower_nï¼šç¬¬nä¸ªéšæœºèŒƒå›´ä¸‹é™ï¼›range_upper_nï¼šç¬¬nä¸ªéšæœºèŒƒå›´ä¸Šé™ï¼›probability_nï¼šç¬¬nä¸ªéšæœºèŒƒå›´çš„æ¦‚ç‡ï¼ˆèŒƒå›´ä¸­ç­‰éšæœºï¼‰ï¼›
+	--éšæœºèŒƒå›´ä¸­çš„å–å€¼ï¼Œå¯¹åº”äº"corpse_revival.txt"ä¸­é™¤è¡¨å¤´å¤–çš„ç¬¬å‡ è¡Œ
+	--å¦‚ï¼š[10000] = {{lower = 41, upper = 70, probability = 60}, {lower = 71, upper = 71, probability = 10}, {lower = 72, upper = 81, probability = 30}}
+	--ç»†ç±»ä¸º10000çš„å°å°¸ç¬¦ï¼Œ
+	--æ‹›å‡º"corpse_revival.txt"ä¸­é™¤è¡¨å¤´å¤–çš„ç¬¬41è¡Œåˆ°ç¬¬70è¡Œå°¸ä½“çš„æ¦‚ç‡ä¸º60 / (60 + 10 + 30) * 100% = 60%ï¼Œå…¶ä¸­[41, 70]ä¸­æ¯ä¸ªè¡Œå·çš„æ¦‚ç‡ä¸º60% / (70 - 41 + 1) = 2%
+	--æ‹›å‡ºç¬¬71è¡Œå°¸ä½“çš„æ¦‚ç‡ä¸º10 / (60 + 10 + 30) * 100% = 10%
+	--æ‹›å‡ºç¬¬72è¡Œåˆ°ç¬¬81è¡Œå°¸ä½“çš„æ¦‚ç‡ä¸º30 / (60 + 10 + 30) * 100% = 30%ï¼Œå…¶ä¸­[72, 81]ä¸­æ¯ä¸ªè¡Œå·çš„æ¦‚ç‡ä¸º30% / (81 - 72 + 1) = 3%
 	local tParticularRandom = {
 	[10000] = {{lower = 1, upper = 46, probability = 2730},{lower = 47, upper = 50, probability = 190},{lower = 51, upper = 145, probability = 5640},{lower = 146, upper = 148, probability = 9},{lower = 150, upper = 150, probability = 1},{lower = 152, upper = 175, probability = 1430}}
 	}
