@@ -1,109 +1,109 @@
 Include("\\script\\lib\\globalfunctions.lua");
 
-g_ItemName = "Tói Phong Yªn §·i Khëi ";
+g_ItemName = "çƒ½çƒŸå¾…èµ·åŒ…";
 g_NeedRoom = 16;
 g_NeedWeight = 300;
 TSK_COUNTER = 1798;
 function OnUse(nItemIdx)
 	local nCurCount = GetTask(TSK_COUNTER)+1;
 	local selTab = {
-				format("§­îc råi. B¾t ®Çu më th«i!/#open(%d)",nItemIdx),
-				"Xem bªn trong cã g× ®·!/see_item",
-				"T¹m thêi kh«ng më/nothing",
+				format("çŸ¥é“äº†ï¼Œæˆ‘ç°åœ¨è¦æ‰“å¼€ã€‚/#open(%d)",nItemIdx),
+				"è®©æˆ‘çœ‹çœ‹é‡Œé¢æœ‰ä»€ä¹ˆ/see_item",
+				"æš‚æ—¶æ‰“ä¸å¼€/nothing",
 				}
-	Say("§©y lµ lÇn thø <color=yellow>"..nCurCount.."<color> ng­¬i më <color=yellow>"..g_ItemName.."<color>. Xin b¹n l­u ı: më 2 tói nhËn ®ùoc 1 Qu©n C«ng, më 10 tói nhËn ®­îc 1 B¹ch Ngäc Th¹ch, më 20 tói nhËn ®­îc 1 TrÊn Ph¸i quyÓn - trung, më 80 tói nhËn ®­îc 1 Long HuyÕt hoµn, më 150 tói nhËn ®­îc 1 ChiÕn ThÇn hoµn, më 200 tói nhËn ®­îc 1 B«n Tiªu hoÆc 1 §»ng Vô, më 240 tói nhËn ®­îc 1 TrÊn Ph¸i quyÓn - h¹. B¹n x¸c nhËn më <color=yellow>"..g_ItemName.."<color> chø? <color=red>Chó ı <color>: B¹n cÇn ph¶i cã "..g_NeedRoom.." chç trèng vµ "..g_NeedWeight.."Søc lùc; ng­êi ch­a gia nhËp L­u Ph¸i sÏ ngÉu nhiªn nhËn ®­îc TrÊn Ph¸i quyÓn cña L­u Ph¸i.",getn(selTab),selTab);
+	Say("è¿™æ˜¯ä½ ç¬¬<color=yellow>"..nCurCount.."<color>æ¬¡æ‰“å¼€<color=yellow>"..g_ItemName.."ã€‚<color>è¯·æ³¨æ„:æ‰“å¼€ä¸¤ä¸ªè¢‹å­è·å¾—ä¸€ä¸ªå†›åŠŸç« ,æ‰“å¼€10ä¸ªè·å¾—1é¢—å®çŸ³,æ‰“å¼€20ä¸ªè·å¾—ä¸€æœ¬ä¸­å·æ®‹ç¯‡,æ‰“å¼€80ä¸ªå¯è·å¾—ä¸€é¢—é¾™è¡€ä¸¸,æ‰“å¼€150ä¸ªå¯è·å¾—ä¸€é¢—æˆ˜ç¥ä¸¸, æ‰“å¼€200ä¸ªå¯è·å¾—ä¸€åŒ¹å¥”å®µæˆ–è…¾é›¾é©¬,æ‰“å¼€240ä¸ªå¯è·å¾—ä¸€æœ¬é•‡æ´¾ç§˜ç±ï¼Œä½ ç¡®å®šæ‰“å¼€<color=yellow>"..g_ItemName.."<color>å—? <color=red>è¯·æ³¨æ„<color>:ä½ å¿…é¡»æ‹¥æœ‰è¶³å¤Ÿçš„"..g_NeedRoom.."æ ¼èƒŒåŒ…ç©ºé—´å’Œ"..g_NeedWeight.."çš„è´Ÿé‡åŠ›;å¦‚æœä½ è¿˜æ²¡æœ‰åŠ å…¥é—¨æ´¾ï¼Œä½ å°†éšæœºè·å¾—ä¸€ä¸ªé—¨æ´¾ã€‚",getn(selTab),selTab);
 end;
 
 function see_item()
-	local szItems = " 1 Bµn Long Bİch 1, Danh Väng ngÉu nhiªn 50-100 ®iÓm, 1 mÆt n¹ S¸t Thñ §­êng, 1 R­¬ng vò khİ B¹c, 3 Sinh ®å chøng th­, 3 Tó tµi chøng th­, 3 Cö nh©n chøng th­, Qu©n C«ng Ch­¬ng, b¹ch Ngäc th¹ch, ®èi chiÕu L­u Ph¸i ThÊn ph¸i quyÓn- trung, Long HuyÕt hoµn, ChiÕn ThÇn hoµn, 1 B«n Tiªu hoÆc §»ng Vô ngÉu nhiªn, víi L­u Ph¸i TrÊn Ph¸i quyÓn -h¹ t­¬ng øng l­u ph¸i";
-	Talk(1,"","Mçi '"..g_ItemName.." cã thÓ më ®­îc c¸c vËt phÈm: "..szItems..". Chóc b¹n may m¾n!");
+	local szItems = " 1ä¸ªç£é¾™ç’§,åäººå ‚éšæœº50-100åˆ†,1ä¸ªæ€æ‰‹å ‚é¢å…·, 1ä¸ªæ­¦å™¨é“¶å®ç®±,3æœ¬ç”Ÿå‘˜è¯ä¹¦,3æœ¬ç§€æ‰è¯ä¹¦,3æœ¬ä¸¾äººè¯ä¹¦,ä¸€ä¸ªå†›åŠŸç« ,ä¸€ä¸ªå¾¡ç”¨ç™½ç‰çŸ³,å¯¹åº”é—¨æ´¾çš„ä¸€æœ¬ç§˜ç±ä¸­å·æ®‹ç¯‡,ä¸€ä¸ªé¾™è¡€ä¸¸,ä¸€ä¸ªæˆ˜ç¥ä¸¸,éšæœºä¸€åŒ¹é©¬å’Œä¸€æœ¬é•‡æ´¾ç§˜ç±ã€‚";
+	Talk(1,"","æ¯ä¸ª'"..g_ItemName.."ç‰©å“åŒ…å«: "..szItems.."ç¥ä½ å¥½è¿ï¼");
 end;
 
 tZJCP = 
 {
-	[0]  = {{"DŞch C©n Kinh-trung",2,1,917},{"TÈy Tñy Kinh-trung",2,1,923},{"Nh­ Lai ThÇn Ch­ëng-trung",2,1,920},{"HÊp Tinh TrËn-trung",2,1,926},{"V¹n T­íng ThÇn C«ng-trung",2,1,929},{"Thiªn ¢m TrÊn Hån Khóc-trung",2,1,932},{"Gi¸ng Long ThËp B¸t Ch­ëng-trung",2,1,935},{"§¶ CÈu C«n TrËn-trung",2,1,938},{"V« Th­îng Th¸i Cùc KiÕm-trung",2,1,941},{"Th¸i Cùc ThÇn C«ng-trung",2,1,944},{"Liªn Hoµn Toµn Long Th­¬ng-trung",2,1,947},{"B¸ V­¬ng T­êng Phông TiÔn-trung",2,1,950},{"V« ¶nh Ma Cæ-trung",2,1,953},{"V« Thiªn Ma C«ng-trung",2,1,956}},
-	[1]  = {{"DŞch C©n Kinh-trung",2,1,917},{"TÈy Tñy Kinh-trung",2,1,923},{"Nh­ Lai ThÇn Ch­ëng-trung",2,1,920}},
-	[2]  = {{"DŞch C©n Kinh-trung",2,1,917}},
-	[3]  = {{"TÈy Tñy Kinh-trung",2,1,923}},
-	[4]  = {{"Nh­ Lai ThÇn Ch­ëng-trung",2,1,920}},
-	[5]  = {{"HÊp Tinh TrËn-trung",2,1,926}},
-	[6]  = {{"HÊp Tinh TrËn-trung",2,1,926}},
-	[7]  = {{"V¹n T­íng ThÇn C«ng-trung",2,1,929},{"Thiªn ¢m TrÊn Hån Khóc-trung",2,1,932}},
-	[8]  = {{"V¹n T­íng ThÇn C«ng-trung",2,1,929}},
-	[9]  = {{"Thiªn ¢m TrÊn Hån Khóc-trung",2,1,932}},
-	[10] = {{"Gi¸ng Long ThËp B¸t Ch­ëng-trung",2,1,935},{"§¶ CÈu C«n TrËn-trung",2,1,938}},
-	[11] = {{"Gi¸ng Long ThËp B¸t Ch­ëng-trung",2,1,935}},
-	[12] = {{"§¶ CÈu C«n TrËn-trung",2,1,938}},
-	[13] = {{"V« Th­îng Th¸i Cùc KiÕm-trung",2,1,941},{"Th¸i Cùc ThÇn C«ng-trung",2,1,944}},
-	[14] = {{"V« Th­îng Th¸i Cùc KiÕm-trung",2,1,941}},
-	[15] = {{"Th¸i Cùc ThÇn C«ng-trung",2,1,944}},
-	[16] = {{"Liªn Hoµn Toµn Long Th­¬ng-trung",2,1,947},{"B¸ V­¬ng T­êng Phông TiÔn-trung",2,1,950}},
-	[17] = {{"Liªn Hoµn Toµn Long Th­¬ng-trung",2,1,947}},
-	[18] = {{"B¸ V­¬ng T­êng Phông TiÔn-trung",2,1,950}},
-	[19] = {{"V« Thiªn Ma C«ng-trung",2,1,956},{"V« ¶nh Ma Cæ-trung",2,1,953}},
-	[20] = {{"V« Thiªn Ma C«ng-trung",2,1,956}},
-	[21] = {{"V« ¶nh Ma Cæ-trung",2,1,953}},
+	[0]  = {{"æ˜“ç­‹ç»ä¸­å·æ®‹ç¯‡",2,1,917},{"æ´—é«“ç»ä¸­å·æ®‹ç¯‡",2,1,923},{"å¦‚æ¥ç¥æŒä¸­å·æ®‹ç¯‡",2,1,920},{"å¸æ˜Ÿé˜µä¸­å·æ®‹ç¯‡",2,1,926},{"ä¸‡ç›¸ç¥åŠŸä¸­å·æ®‹ç¯‡",2,1,929},{"å¤©éŸ³é•‡é­‚æ›²ä¸­å·æ®‹ç¯‡",2,1,932},{"é™é¾™åå…«æŒä¸­å·æ®‹ç¯‡",2,1,935},{"æ‰“ç‹—æ£é˜µä¸­å·æ®‹ç¯‡",2,1,938},{"æ— ä¸Šå¤ªæå‰‘ä¸­å·æ®‹ç¯‡",2,1,941},{"å¤ªæç¥åŠŸä¸­å·æ®‹ç¯‡",2,1,944},{"è¿ç¯é’»é¾™æªä¸­å·æ®‹ç¯‡",2,1,947},{"éœ¸ç‹ç¿”å‡¤ç®­ä¸­å·æ®‹ç¯‡",2,1,950},{"æ— å½±é­”è›Šä¸­å·æ®‹ç¯‡",2,1,953},{"æ— å¤©é­”åŠŸä¸­å·æ®‹ç¯‡",2,1,956}},
+	[1]  = {{"æ˜“ç­‹ç»ä¸­å·æ®‹ç¯‡",2,1,917},{"æ´—é«“ç»ä¸­å·æ®‹ç¯‡",2,1,923},{"å¦‚æ¥ç¥æŒä¸­å·æ®‹ç¯‡",2,1,920}},
+	[2]  = {{"æ˜“ç­‹ç»ä¸­å·æ®‹ç¯‡",2,1,917}},
+	[3]  = {{"æ´—é«“ç»ä¸­å·æ®‹ç¯‡",2,1,923}},
+	[4]  = {{"å¦‚æ¥ç¥æŒä¸­å·æ®‹",2,1,920}},
+	[5]  = {{"å¸æ˜Ÿé˜µä¸­å·æ®‹ç¯‡",2,1,926}},
+	[6]  = {{"å¸æ˜Ÿé˜µä¸­å·æ®‹ç¯‡",2,1,926}},
+	[7]  = {{"ä¸‡ç›¸ç¥åŠŸä¸­å·æ®‹ç¯‡",2,1,929},{"å¤©éŸ³é•‡é­‚æ›²ä¸­å·æ®‹ç¯‡",2,1,932}},
+	[8]  = {{"ä¸‡ç›¸ç¥åŠŸä¸­å·æ®‹ç¯‡",2,1,929}},
+	[9]  = {{"å¤©éŸ³é•‡é­‚æ›²ä¸­å·æ®‹ç¯‡",2,1,932}},
+	[10] = {{"é™é¾™åå…«æŒä¸­å·æ®‹ç¯‡",2,1,935},{"æ‰“ç‹—æ£é˜µä¸­å·æ®‹ç¯‡",2,1,938}},
+	[11] = {{"é™é¾™åå…«æŒä¸­å·æ®‹ç¯‡",2,1,935}},
+	[12] = {{"Ğ¤ Cè¿ Cç­ Trè–¾-trung",2,1,938}},
+	[13] = {{"æ— ä¸Šå¤ªæå‰‘ä¸­å·æ®‹ç¯‡",2,1,941},{"å¤ªæç¥åŠŸä¸­å·æ®‹ç¯‡",2,1,944}},
+	[14] = {{"æ— ä¸Šå¤ªæå‰‘ä¸­å·æ®‹ç¯‡",2,1,941}},
+	[15] = {{"å¤ªæç¥åŠŸä¸­å·æ®‹ç¯‡",2,1,944}},
+	[16] = {{"è¿ç¯é’»é¾™æªä¸­å·æ®‹ç¯‡",2,1,947},{"éœ¸ç‹ç¿”å‡¤ç®­ä¸­å·æ®‹ç¯‡",2,1,950}},
+	[17] = {{"è¿ç¯é’»é¾™æªä¸­å·æ®‹ç¯‡",2,1,947}},
+	[18] = {{"éœ¸ç‹ç¿”å‡¤ç®­ä¸­å·æ®‹ç¯‡",2,1,950}},
+	[19] = {{"æ— å¤©é­”åŠŸä¸­å·æ®‹ç¯‡",2,1,956},{"æ— å½±é­”è›Šä¸­å·æ®‹ç¯‡",2,1,953}},
+	[20] = {{"æ— å¤©é­”åŠŸä¸­å·æ®‹ç¯‡",2,1,956}},
+	[21] = {{"æ— å½±é­”è›Šä¸­å·æ®‹ç¯‡",2,1,953}},
 }
 
 tXJCP = 
 {
-	[0]  = {{"DŞch C©n Kinh-h¹ ",2,1,918},{"TÈy Tñy Kinh-h¹ ",2,1,924},{"Nh­ Lai ThÇn Ch­ëng-h¹ ",2,1,921},{"HÊp Tinh TrËn-h¹ ",2,1,927},{"V¹n T­íng ThÇn C«ng-h¹ ",2,1,930},{"Thiªn ¢m TrÊn Hån Khóc-h¹ ",2,1,933},{"Gi¸ng Long ThËp B¸t Ch­ëng-h¹ ",2,1,936},{"§¶ CÈu C«n TrËn-h¹ ",2,1,939},{"V« Th­îng Th¸i Cùc KiÕm-h¹ ",2,1,942},{"Th¸i Cùc ThÇn C«ng-h¹ ",2,1,945},{"Liªn Hoµn Toµn Long Th­¬ng-h¹ ",2,1,948},{"B¸ V­¬ng T­êng Phông TiÔn-h¹ ",2,1,951},{"V« ¶nh Ma Cæ-h¹ ",2,1,954},{"V« Thiªn Ma C«ng-h¹ ",2,1,957}},
-	[1]  = {{"DŞch C©n Kinh-h¹ ",2,1,918},{"TÈy Tñy Kinh-h¹ ",2,1,924},{"Nh­ Lai ThÇn Ch­ëng-h¹ ",2,1,921}},
-	[2]  = {{"DŞch C©n Kinh-h¹ ",2,1,918}},
-	[3]  = {{"TÈy Tñy Kinh-h¹ ",2,1,924}},
-	[4]  = {{"Nh­ Lai ThÇn Ch­ëng-h¹ ",2,1,921}},
-	[5]  = {{"HÊp Tinh TrËn-h¹ ",2,1,927}},
-	[6]  = {{"HÊp Tinh TrËn-h¹ ",2,1,927}},
-	[7]  = {{"V¹n T­íng ThÇn C«ng-h¹ ",2,1,930},{"Thiªn ¢m TrÊn Hån Khóc-h¹ ",2,1,933}},
-	[8]  = {{"V¹n T­íng ThÇn C«ng-h¹ ",2,1,930}},
-	[9]  = {{"Thiªn ¢m TrÊn Hån Khóc-h¹ ",2,1,933}},
-	[10] = {{"Gi¸ng Long ThËp B¸t Ch­ëng-h¹ ",2,1,936},{"§¶ CÈu C«n TrËn-h¹ ",2,1,939}},
-	[11] = {{"Gi¸ng Long ThËp B¸t Ch­ëng-h¹ ",2,1,936}},
-	[12] = {{"§¶ CÈu C«n TrËn-h¹ ",2,1,939}},
-	[13] = {{"V« Th­îng Th¸i Cùc KiÕm-h¹ ",2,1,942},{"Th¸i Cùc ThÇn C«ng-h¹ ",2,1,945}},
-	[14] = {{"V« Th­îng Th¸i Cùc KiÕm-h¹ ",2,1,942}},
-	[15] = {{"Th¸i Cùc ThÇn C«ng-h¹ ",2,1,945}},
-	[16] = {{"Liªn Hoµn Toµn Long Th­¬ng-h¹ ",2,1,948},{"B¸ V­¬ng T­êng Phông TiÔn-h¹ ",2,1,951}},
-	[17] = {{"Liªn Hoµn Toµn Long Th­¬ng-h¹ ",2,1,948}},
-	[18] = {{"B¸ V­¬ng T­êng Phông TiÔn-h¹ ",2,1,951}},
-	[19] = {{"V« ¶nh Ma Cæ-h¹ ",2,1,954},{"V« Thiªn Ma C«ng-h¹ ",2,1,957}},
-	[20] = {{"V« Thiªn Ma C«ng-h¹ ",2,1,957}},
-	[21] = {{"V« ¶nh Ma Cæ-h¹ ",2,1,954}},
+	[0]  = {{"æ˜“ç­‹ç»ä¸‹å·æ®‹ç¯‡",2,1,918},{"æ´—é«“ç»ä¸‹å·æ®‹ç¯‡",2,1,924},{"å¦‚æ¥ç¥æŒä¸‹å·æ®‹ç¯‡",2,1,921},{"å¸æ˜Ÿé˜µä¸‹å·æ®‹ç¯‡",2,1,927},{"ä¸‡ç›¸ç¥åŠŸä¸‹å·æ®‹ç¯‡",2,1,930},{"å¤©éŸ³é•‡é­‚æ›²ä¸‹å·æ®‹ç¯‡",2,1,933},{"é™é¾™åå…«æŒä¸‹å·æ®‹ç¯‡",2,1,936},{"æ‰“ç‹—æ£é˜µä¸‹å·æ®‹ç¯‡",2,1,939},{"æ— ä¸Šå¤ªæå‰‘ä¸‹å·æ®‹ç¯‡",2,1,942},{"å¤ªæç¥åŠŸä¸‹å·æ®‹ç¯‡",2,1,945},{"è¿ç¯é’»é¾™æªä¸‹å·æ®‹ç¯‡",2,1,948},{"éœ¸ç‹ç¿”å‡¤ç®­ä¸‹å·æ®‹ç¯‡",2,1,951},{"æ— å½±é­”è›Šä¸‹å·æ®‹ç¯‡",2,1,954},{"æ— å¤©é­”åŠŸä¸‹å·æ®‹ç¯‡",2,1,957}},
+	[1]  = {{"æ˜“ç­‹ç»ä¸‹å·æ®‹ç¯‡",2,1,918},{"Tè‘ƒ Té§“ Kinh-h? ",2,1,924},{"Nh? Lai Thè• Chî…¤ng-h? ",2,1,921}},
+	[2]  = {{"æ˜“ç­‹ç»ä¸‹å·æ®‹ç¯‡",2,1,918}},
+	[3]  = {{"æ´—é«“ç»ä¸‹å·æ®‹ç¯‡",2,1,924}},
+	[4]  = {{"å¦‚æ¥ç¥æŒä¸‹å·æ®‹ç¯‡",2,1,921}},
+	[5]  = {{"å¸æ˜Ÿé˜µä¸‹å·æ®‹ç¯‡",2,1,927}},
+	[6]  = {{"å¸æ˜Ÿé˜µä¸‹å·æ®‹ç¯‡",2,1,927}},
+	[7]  = {{"ä¸‡ç›¸ç¥åŠŸä¸‹å·æ®‹ç¯‡",2,1,930},{"å¤©éŸ³é•‡é­‚æ›²ä¸‹å·æ®‹ç¯‡",2,1,933}},
+	[8]  = {{"ä¸‡ç›¸ç¥åŠŸä¸‹å·æ®‹ç¯‡",2,1,930}},
+	[9]  = {{"å¤©éŸ³é•‡é­‚æ›²ä¸‹å·æ®‹ç¯‡",2,1,933}},
+	[10] = {{"é™é¾™åå…«æŒä¸‹å·æ®‹ç¯‡",2,1,936},{"æ‰“ç‹—æ£é˜µä¸‹å·æ®‹ç¯‡",2,1,939}},
+	[11] = {{"é™é¾™åå…«æŒä¸‹å·æ®‹ç¯‡",2,1,936}},
+	[12] = {{"æ‰“ç‹—æ£é˜µä¸‹å·æ®‹ç¯‡",2,1,939}},
+	[13] = {{"æ— ä¸Šå¤ªæå‰‘ä¸‹å·æ®‹ç¯‡",2,1,942},{"å¤ªæç¥åŠŸä¸‹å·æ®‹ç¯‡",2,1,945}},
+	[14] = {{"æ— ä¸Šå¤ªæå‰‘ä¸‹å·æ®‹ç¯‡",2,1,942}},
+	[15] = {{"å¤ªæç¥åŠŸä¸‹å·æ®‹ç¯‡",2,1,945}},
+	[16] = {{"è¿ç¯é’»é¾™æªä¸‹å·æ®‹ç¯‡",2,1,948},{"éœ¸ç‹ç¿”å‡¤ç®­ä¸‹å·æ®‹ç¯‡",2,1,951}},
+	[17] = {{"è¿ç¯é’»é¾™æªä¸‹å·æ®‹ç¯‡",2,1,948}},
+	[18] = {{"éœ¸ç‹ç¿”å‡¤ç®­ä¸‹å·æ®‹ç¯‡",2,1,951}},
+	[19] = {{"æ— å½±é­”è›Šä¸‹å·æ®‹ç¯‡",2,1,954},{"æ— å¤©é­”åŠŸä¸‹å·æ®‹ç¯‡",2,1,957}},
+	[20] = {{"æ— å¤©é­”åŠŸä¸‹å·æ®‹ç¯‡",2,1,957}},
+	[21] = {{"æ— å½±é­”è›Šä¸‹å·æ®‹ç¯‡",2,1,954}},
 }
 
 function open(nItemIdx)
-	local nCurCount = GetTask(TSK_COUNTER)+1;	--µ±Ç°ÊÇµÚ¼¸´Î¿ªÆô
+	local nCurCount = GetTask(TSK_COUNTER)+1;	--å½“å‰æ˜¯ç¬¬å‡ æ¬¡å¼€å¯
 	local nRoute = GetPlayerRoute();
 	if gf_JudgeRoomWeight(g_NeedRoom,g_NeedWeight) == 1 then
 		if DelItemByIndex(nItemIdx,1) == 1 then
 			SetTask(TSK_COUNTER,nCurCount);
 			local nRand = 0;
 			local nRetCode,nItemIdx = 0,0;
-			nRetCode,nItemIdx = AddItem(2,1,1000,1);	--ÅÍÁúèµ1¸öÊ±ÏŞ7Ìì
+			nRetCode,nItemIdx = AddItem(2,1,1000,1);	--ç£é¾™ç’§1ä¸ªæ—¶é™7å¤©
 			SetItemExpireTime(nItemIdx,7*24*3600);
-			Msg2Player("B¹n nhËn ®­îc 1 Bµn Long Bİch");
+			Msg2Player("è·å¾—ç£é¾™ç’§1ä¸ª");
 			ModifyReputation(random(50,100),0);
-			nRetCode,nItemIdx = AddItem(2,1,1087,1);	--É±ÊÖÌÃÃæ¾ß1¸ö	
-			Msg2Player("B¹n nhËn ®­îc 1 MÆt n¹ S¸t Thñ §­êng ");
+			nRetCode,nItemIdx = AddItem(2,1,1087,1);	--æ€æ‰‹å ‚é¢å…·1ä¸ª	
+			Msg2Player("è·å¾—æ€æ‰‹å ‚é¢å…·1ä¸ª");
 			nRetCode,nItemIdx = AddItem(2,1,1147,1);
 			SetItemExpireTime(nItemIdx,7*24*3600);
-			Msg2Player("B¹n nhËn ®­îc 1 R­¬ng vò khİ B¹c");
+			Msg2Player("è·å¾—ä¸€ä¸ªæ­¦å™¨é“¶å®ç®±");
 			nRand = random(1,100);
 			if nRand <= 60 then
 				AddItem(2,0,597,3);
-				Msg2Player("B¹n ®¹t ®­îc 3 Sinh Viªn Chøng Th­");			
+				Msg2Player("è·å¾—3æœ¬ç”Ÿå‘˜è¯ä¹¦");			
 			elseif nRand <= 90 then
 				AddItem(2,0,598,3);
-				Msg2Player("B¹n ®¹t ®­îc 3 Tó Tµi Chøng Th­");			
+				Msg2Player("è·å¾—3æœ¬ç§€æ‰è¯ä¹¦");			
 			else
 				AddItem(2,0,599,3);
-				Msg2Player("B¹n ®¹t ®­îc 3 Cö Nh©n chøng th­");			
+				Msg2Player("è·å¾—3æœ¬ä¸¾äººè¯ä¹¦");			
 			end;
-			if mod(nCurCount,2) == 0 then	--¾ü¹¦ÕÂ
+			if mod(nCurCount,2) == 0 then	--å†›åŠŸç« 
 				nRetCode,nItemIdx = AddItem(2,1,9999,1);
-				Msg2Player("B¹n nhËn ®­îc 1 Qu©n C«ng Ch­¬ng");
+				Msg2Player("è·å¾—1ä¸ªå†›åŠŸç« ");
 			end;
-			give_item(2,1,1024,1,"1 B¹ch Ngäc th¹ch",50,10);
+			give_item(2,1,1024,1,"1å¾¡ç”¨ç™½ç‰çŸ³",50,10);
 			nRand = random(1,100);
 			if nRand <= 3 then
 				give_zpcp(tZJCP);
@@ -112,27 +112,27 @@ function open(nItemIdx)
 				give_zpcp(tZJCP);
 			end;
 			nRand = random(1,1000);
-			give_item(2,1,1002,1,"1 Long HuyÕt hoµn",5,80,7);
-			give_item(2,1,1005,1,"1 ChiÕn ThÇn hoµn",4,150,7);
+			give_item(2,1,1002,1,"è·å¾—1ä¸ªé¾™è¡€ä¸¸",5,80,7);
+			give_item(2,1,1005,1,"è·å¾—1ä¸ªæˆ˜ç¥ä¸¸",4,150,7);
 			nRand = random(1,1000);
-			if nRand <= 2 then 		--±¼Ïü»òÌÚÎíËæ»ú1Æ¥
+			if nRand <= 2 then 		--å¥”å®µæˆ–è…¾é›¾éšæœº1åŒ¹
 				if random(1,2) == 1 then
-					szItemName = "1 B«n tiªu";
+					szItemName = "è·å¾—1åŒ¹å¥”å®µ";
 					AddItem(0,105,16,1,1,-1,-1,-1,-1,-1,-1);
 					show_msg(szItemName,1)
 				else
-					szItemName = "1 §»ng Vô";
+					szItemName = "è·å¾—1åŒ¹è…¾é›¾";
 					AddItem(0,105,20,1,1,-1,-1,-1,-1,-1,-1);
 					show_msg(szItemName,1)
 				end;
 			end;
 			if mod(nCurCount,200) == 0 then
 				if random(1,2) == 1 then
-					szItemName = "1 B«n tiªu";
+					szItemName = "1å¥”å®µ";
 					AddItem(0,105,16,1,1,-1,-1,-1,-1,-1,-1);
 					show_msg(szItemName,1)
 				else
-					szItemName = "1 §»ng Vô";
+					szItemName = "è…¾é›¾";
 					AddItem(0,105,20,1,1,-1,-1,-1,-1,-1,-1);
 					show_msg(szItemName,1)
 				end;			
@@ -144,19 +144,19 @@ function open(nItemIdx)
 			if mod(nCurCount,240) == 0 then
 				give_zpcp(tXJCP);
 			end;
-			WriteLog("["..g_ItemName.."]:"..GetName().."thø"..nCurCount.." më "..g_ItemName);
+			WriteLog("["..g_ItemName.."]:"..GetName().."ç‰©å“"..nCurCount.."æ‰“å¼€"..g_ItemName);
 		end;
 	else
-		Talk(1,"","Kho¶ng trèng hoÆcsøc lùccña b¹n kh«ng ®ñ. Xin kiÓm tra l¹i hµnh trang tr­íc!"..g_ItemName.."!");
+		Talk(1,"","ä½ çš„èƒŒåŒ…ç©ºé—´æˆ–è´Ÿé‡åŠ›ä¸å¤Ÿï¼Œè¯·å…ˆæ£€æŸ¥ä¸€ä¸‹ã€‚"..g_ItemName.."!");
 	end;
 end;
 
 function show_msg(szItemName,bGlobalMsg)
-	Msg2Player("B¹n nhËn ®­îc "..szItemName);
+	Msg2Player("ä½ è·å¾—"..szItemName);
 	if bGlobalMsg == 1 then
-		Msg2Global(GetName().."Më '"..g_ItemName.." nhËn ®­îc "..szItemName);
+		Msg2Global(GetName().."æ‰“å¼€'"..g_ItemName.."è·å¾—"..szItemName);
 	end;
-	WriteLog("["..g_ItemName.."]:"..GetName().."NhËn ®­îc"..szItemName);	
+	WriteLog("["..g_ItemName.."]:"..GetName().."è·å¾—"..szItemName);	
 end;
 
 function give_zpcp(tbZPCP)
