@@ -4,25 +4,25 @@ Include("\\script\\lib\\globalfunctions.lua")
 --	local nDate = tonumber(date("%Y%m%d%H"));
 --	if (nDate > 2011022024) then
 --		DelItemByIndex(itemIndex, -1);
---		Talk(1,"","VËt phÈm ®· qu¸ h¹n sö dông!")
+--		Talk(1,"","Vè—… phè´ î† qu? hç­º s? dé¬¾g!")
 --		return
 --	end
 --	
 --	if (DelItemByIndex(itemIndex, 1) == 1) then
---		gf_EventGiveCustomAward(1, 200000, 1, "Hoat dong thang 1 nam 2011", "Sö dông bao l× x×");
---		gf_AddItemEx2({2, 1, 30277, 10}, "Hoa Mai", "Hoat dong thang 1 nam 2011", "Sö dông bao l× x×")
+--		gf_EventGiveCustomAward(1, 200000, 1, "Hoat dong thang 1 nam 2011", "S? dé¬¾g bao l? x?");
+--		gf_AddItemEx2({2, 1, 30277, 10}, "Hoa Mai", "Hoat dong thang 1 nam 2011", "S? dé¬¾g bao l? x?")
 --	end
 --end
 
-szLogTitle = "Hoat dong thang 1 nam 2011"
+szLogTitle = "2011å¹´1æœˆ1æ—¥èµ·"
 
 YANHUO_TABLE = {
---	{"Xİch M¹c Háa DiÖm", 801, 10, 2, 1, 191},
---	{"Tranh M¹c Háa DiÖm", 802, 10, 2, 1, 193},
---	{"Lam M¹c Háa DiÖm", 805, 10, 2, 1, 192},
-	{"Tranh S¾c Yªn Hoa", 820, 3, 2, 1, 189},
-	{"Lam S¾c Yªn Hoa", 823, 3, 2, 1, 190},
-	{""		   , 808, 5, 2, 1, 194},	--ÉñÃØÑÌ»¨
+--	{"Xè¼ˆh Mç­© Hé†“ Diè¬’", 801, 10, 2, 1, 191},
+--	{"Tranh Mç­© Hé†“ Diè¬’", 802, 10, 2, 1, 193},
+--	{"Lam Mç­© Hé†“ Diè¬’", 805, 10, 2, 1, 192},
+	{"Tranh Sç¶¾ YçŒ² Hoa", 820, 3, 2, 1, 189},
+	{"Lam Sç¶¾ YçŒ² Hoa", 823, 3, 2, 1, 190},
+	{""		   , 808, 5, 2, 1, 194},	--ç¥ç§˜çƒŸèŠ±
 	{""		   , 811, 5, 2, 1, 194},
 --	{""		   , 813, 10, 2, 1, 194},
 --	{""		   , 814, 10, 2, 1, 194},
@@ -37,73 +37,73 @@ function OnUse(itemIndex)
 	local nDate = tonumber( date( "%y%m%d" ) )
 	if nDate > 110421 then
 		DelItemByIndex(itemIndex, -1);
-		Talk(1,"","VËt phÈm ®· qu¸ h¹n sö dông!")
+		Talk(1,"","ç‰©å“è¿‡æœŸäº†ï¼")
 		return
 	end
 	
-	local nCurDate = floor ( GetTask( TSK_DAHONGBAO_201101 ) / 1000 ) -- lÊy 6 sè ®Çu tiªn	
-		-- thùc hiÖn reset sè lÇn sö dông trong ngµy vµ thêi gian gi·n c¸ch sö dông . nÕu kh«ng ph¶i lµ ngµy hiÖn t¹i
+	local nCurDate = floor ( GetTask( TSK_DAHONGBAO_201101 ) / 1000 ) -- lè• 6 s? î†u tiçŒ²	
+		-- théµ¦ hiè¬“ reset s? lè• s? dé¬¾g trong ngç¥” v? thé˜¨ gian giç©˜ cç«h s? dé¬¾g . nèª¹ khç­g phç§ˆ l? ngç¥” hiè¬“ tç­°
 	if nCurDate ~= nDate then
 		SetTask ( TSK_DAHONGBAO_201101, nDate * 1000 )
 		SetTask ( TSK_DAHONGBAO_201101_TIME, 0 )
 	end
 	
 	if GetLevel () < 77 then
-		Talk ( 1, "", "§¼ng cÊp 77 trë lªn míi cã thÓ nhËn bao l× x×!" )
+		Talk ( 1, "", "77çº§æˆ–ä»¥ä¸Šçš„äººå¯ä»¥å¾—åˆ°ä¸€ä¸ªçº¢åŒ…ã€‚" )
 		return
 	end
 	
-	-- kiÓm tra nh©n vËt cã gia nhËp m«n ph¸i ch­a
+	-- kiè§¤ tra nhï¹ vè—… c? gia nhè—€ mç­ phç«” chç’¦
 	if ( GetPlayerRoute() == 0 )  then
-		Talk ( 1, "" , "ThiÕu hiÖp ch­a vµo m«n ph¸i nªn kh«ng thÓ sö dông bao l× x×" )
+		Talk ( 1, "" , "å°‘ä¾ è¿˜æ²¡é˜µè¥ï¼Œæ‰€ä»¥ä¸èƒ½ç”¨è¿™ä¸ªçº¢åŒ…ã€‚" )
 		return
 	end
 	
 	--if check_skill_55() == 0 then
-	--	Talk(1, "", "Ch­a häc kü n¨ng cÊp 55 cña m«n ph¸i nªn kh«ng thÓ ®èt ph¸o hoa!")
+	--	Talk(1, "", "Chç’¦ hé‹ k? nâ•ªg cè•„ 55 cé¦» mç­ phç«” nçŒ² khç­g th? î†¿t phç«œ hoa!")
 	--	return
 	--end
 	
-	-- Vuît qu¸ sè lÇn sö dông --> tho¸t 	
+	-- Vué¡ƒ qu? s? lè• s? dé¬¾g --> thoç«§ 	
 	local nCount = mod ( GetTask(TSK_DAHONGBAO_201101), 100 ) 
 	if nCount >= 40 then
-		Talk(1, "", "H«m nay thiÕu hiÖp ®· dïng qu¸ nhiÒu bao l× x× råi. H·y quay l¹i vµo ngµy mai!")
+		Talk(1, "", "ä½ ä»Šå¤©ç”¨å¾—å¤ªå¤šäº†ï¼Œæ˜å¤©å†æ¥å§ï¼")
 		return
 	end
 	
-	-- Thêi gian gi·n c¸ch ®èt ph¸o hoa 30 gi©y
+	-- Thé˜¨ gian giç©˜ cç«h î†¿t phç«œ hoa 30 giï¹œ
 	local nDif = 30 - ( GetTime() - GetTask ( TSK_DAHONGBAO_201101_TIME ) )
 	
 	if nDif > 0 then
-		Talk(1, "", "ThiÕu hiÖp ph¶i chê "..nDif.." gi©y n÷a míi cã thÓ tiÕp tôc sö dông bao l× x×!")
+		Talk(1, "", "å°‘ä¾ å¿…é¡»ç­‰å¾…"..nDif.."ç§’é’Ÿåæ‰èƒ½ç»§ç»­ä½¿ç”¨çº¢åŒ…")
 		return
 	end
 	
 	if gf_JudgeRoomWeight(3, 50) == 0 then
-		Talk(1,"","Hµnh trang hoÆc søc lùc kh«ng ®ñ, xin kiÓm tra l¹i tr­íc!");
+		Talk(1,"","èƒŒåŒ…æˆ–è´Ÿé‡ä¸è¶³ï¼Œè¯·å…ˆæ£€æŸ¥!");
 		return 0
 	end
 	
 	local nHour = tonumber(date("%H%M"))
 	if nHour < 0800 or ( nHour > 1000 and nHour < 1530 ) or ( nHour > 1730  and nHour < 2000 ) or ( nHour > 2200 )  then
-		Talk ( 1, "", "Ho¹t ®éng sö dông bao l× x× diÔn ra ba ®ît trong ngµy: §ît mét tõ 8 giê ®Õn 10 giê, ®ît hai tõ 15 giê 30 ®Õn 17 giê 30 vµ ®ît ba tõ 20 giê ®Õn 22 giê!" )
+		Talk ( 1, "", "æ¯å¤©ä½¿ç”¨æ—¶é—´:ç¬¬ä¸€æ³¢8ç‚¹åˆ°10ç‚¹,ç¬¬äºŒæ³¢ä»15ç‚¹30åˆ†åˆ°17ç‚¹30åˆ†ï¼Œç¬¬ä¸‰æ³¢ä»20ç‚¹åˆ°22ç‚¹!" )
 		return
 	end
-	local nWeek = tonumber(date("%w")) -- tr¶ vÒ ngµy trong tuÇn
+	local nWeek = tonumber(date("%w")) -- tr? v? ngç¥” trong tuè•
 	if (DelItemByIndex(itemIndex, 1) == 1) then				
 		--if nHour < 0900 or (nHour > 1000 and nHour < 1530) or (nHour > 1630 and nHour < 2030) or nHour > 2130 then
 			
-		-- Giíi h¹n ph¸o hoa sö dông ë mét sè map
+		-- GiéŸ hç­º phç«œ hoa s? dé¬¾g ? mé–  s? map
 		-- local nPos = GetWorldPos()
 		-- if nPos ~= 100 and nPos ~= 150 and nPos ~= 606 and nPos ~= 885 and nPos ~= 884 then
-		--	Talk ( 1, "", "ChØ cã thÓ sö dông ph¸o hoa t¹i TuyÒn Ch©u, D­¬ng Ch©u, chiÕn tr­êng Nh¹n M«n Quan, S¸t Thñ §­êng vµ trong Tµi Nguyªn ChiÕn!" )
+		--	Talk ( 1, "", "Ch? c? th? s? dé¬¾g phç«œ hoa tç­° Tuyè¥« Chï¹—, Dî„¥ng Chï¹—, chièª² trî…£ng Nhç­º Mç­ Quan, Sç«§ Th? Ğ›é˜¯g v? trong Tç¤½ NguyçŒ² Chièª²!" )
 		--	return
 		-- end
 		
 		local nExp = 200000
 		
-		-- ChØ tÆng 400.000 exp khi vµo c¸c ngµy thø 6,7, CN
-		if nWeek == 0 or nWeek == 5 or nWeek == 6 then -- thø s¸u + thø b¶y + chñ nhËt
+		-- Ch? tè‹™g 400.000 exp khi vç¥‡ cç« ngç¥” th? 6,7, CN
+		if nWeek == 0 or nWeek == 5 or nWeek == 6 then -- th? sç«¨ + th? bç§  + ch? nhè—…
 			nExp = 400000
 		end
 		
@@ -112,8 +112,8 @@ function OnUse(itemIndex)
 		end
 		
 		ModifyExp(nExp)
-		Msg2Player("NhËn ®­îc "..nExp.." ®iÓm kinh nghiÖm")
-		WriteLogEx(szLogTitle, "Sö dông bao l× x× thµnh c«ng")
+		Msg2Player("è·å¾—"..nExp.."ç»éªŒå€¼")
+		WriteLogEx(szLogTitle, "ä½¿ç”¨çº¢åŒ…æˆåŠŸ")
 		AddMonthlyEventFireworkAward(10)
 		SetTask(TSK_DAHONGBAO_201101, GetTask(TSK_DAHONGBAO_201101) + 1)
 		
@@ -122,13 +122,13 @@ function OnUse(itemIndex)
 		local nIndex = random ( 1, getn(YANHUO_TABLE) )	
 		DoFireworks ( YANHUO_TABLE[nIndex][2], YANHUO_TABLE[nIndex][3] )
 		
-		StartTimeGuage ("Hång Bao", 30,0,1 )
+		StartTimeGuage ("HéŒ¸g Bao", 30,0,1 )
 	end
 end
 
 function AddMonthlyEventFireworkAward(nCount)
 	local nDate = tonumber(date("%y%m%d"))
 	if nDate >= 110225 and nDate <= 110327 then
-		gf_AddItemEx2({2, 1, 30287, nCount}, "Nguyªn liÖu ", "Hoat dong thang 3 nam 2011", "sö dông bao l× x×")
+		gf_AddItemEx2({2, 1, 30287, nCount}, "ææ–™åŒ…", "2011å¹´3æœˆ", "ä½¿ç”¨çº¢åŒ…")
 	end
 end
