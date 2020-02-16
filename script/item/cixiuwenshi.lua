@@ -1,4 +1,4 @@
---´ÌĞåÎÆÊÎ½Å±¾
+--åˆºç»£çº¹é¥°è„šæœ¬
 
 t_collect_consume = 
 {
@@ -8,31 +8,31 @@ t_collect_consume =
 	[2] = {
 		gold = 20,
 		t_item = {
-			{"Kh¾c b¶n",2, 1, 30373,2},
+			{"åˆºç»£çº¹é¥°",2, 1, 30373,2},
 		},
 	},
 	[3] = {
 		gold = 40,
 		t_item = {
-			{"Kh¾c b¶n",2, 1, 30373,4},
+			{"åˆºç»£çº¹é¥°",2, 1, 30373,4},
 		},
 	},
 	[4] = {
 		gold = 5,
 		t_item = {
-			{"Kh¾c b¶n",2, 1, 30373,10},
+			{"åˆºç»£çº¹é¥°",2, 1, 30373,10},
 		},
 	},
 	[5] = {
 		gold = 100,
 		t_item = {
-			{"Kh¾c b¶n",2, 1, 30373,20},
+			{"åˆºç»£çº¹é¥°",2, 1, 30373,20},
 		},
 	},
 	[6] = {
 		gold = 900,
 		t_item = {
-			{"Kh¾c b¶n",2, 1, 30373,40},
+			{"åˆºç»£çº¹é¥°",2, 1, 30373,40},
 		},
 	},
 }
@@ -44,10 +44,10 @@ end
 function OnUse_real(nItemIdx)
 	local tbSay = {}
 	local szTitle = ""
-	szTitle = format("C¸c h¹ cã thÓ uÈn linh trùc tiÕp ®Õn ngo¹i trang hoÆc mang uÈn linh lµm thµnh phèi ph­¬ng l­u tr÷ trong Tñ ¸o Thiªn BiÕn TiÕu. \nPhèi ph­¬ng sau khi ®­îc l­u tr÷ trong Tñ ¸o Thiªn BiÕn TiÕu, mçi lÇn rót ngo¹i trang tõ tñ ¸o ra sö dông ®Òu cã thÓ thªm uÈn linh lªn ngo¹i trang, v« cïng tiÖn lîi.")
-	tinsert(tbSay, format("Ta muèn g¾n linh tİnh/_OpenForCiXiu"))
-	tinsert(tbSay, format("Ta muèn l­u tr÷/#_Collect(%d)", nItemIdx))
-	tinsert(tbSay, "Ta chØ ghĞ ch¬i/no")
+	szTitle = format("ä½ å¯ä»¥ç›´æ¥æŠŠè£…åˆ°åˆ°ä½ çš„å¤–è£…ä¸Šï¼Œä¹Ÿå¯ä»¥æŠŠå®ƒæ”¾åˆ°åˆ°ä½ çš„è¡£æ©±é‡Œã€‚\né…è‰²åå‚¨å­˜åœ¨å°ç®±å­é‡Œ,æ¯æ¬¡ä½ ä»è¡£æ©±é‡Œæ‹¿å‡ºæ¥çš„æ—¶å€™ï¼Œä½ éƒ½å¯ä»¥åœ¨ä½ çš„è¡£æœä¸Šæ¶‚ä¸Šé¢œè‰²ï¼Œè¿™å¾ˆæ–¹ä¾¿ã€‚")
+	tinsert(tbSay, format("æˆ‘æƒ³è£…åˆ°å¤–è£…ä¸Š/_OpenForCiXiu"))
+	tinsert(tbSay, format("æˆ‘æƒ³å­˜æ”¾åˆ°è¡£æ©±é‡Œ/#_Collect(%d)", nItemIdx))
+	tinsert(tbSay, "åªæ˜¯çœ‹çœ‹/no")
 	Say(szTitle, getn(tbSay), tbSay)
 end
 
@@ -63,7 +63,7 @@ function _Collect(nItemIdx)
 	end
 	local nResult = GetPlayerCollectionData(2, nCollectIndex);
 	if nResult == 1 then
-		Talk(1,"","C¸c h¹ ®· cã uÈn linh nµy råi.");
+		Talk(1,"","ä½ å·²ç»æœ‰è¿™ç§ç±»å‹çš„äº†");
 		return 0;
 	elseif nResult == -1 then
 		return 0;
@@ -72,17 +72,17 @@ function _Collect(nItemIdx)
 	local tbSay = {}
 	local szTitle = ""
 	local nLevel = GetItemLevel(nItemIdx)
-	szTitle = format("L­u tr÷ %s cÇn tiªu hao <color=yellow>%s<color>, x¸c ®Şnh muèn l­u tr÷?", GetItemName(nItemIdx), _get_consume_desc(nLevel))
-	tinsert(tbSay, format("X¸c ®Şnh/#_do_collect(%d)", nItemIdx))
-	tinsert(tbSay, format("trë l¹i/#OnUse_real(%d)", nItemIdx))
-	tinsert(tbSay, "Tõ bá/no")
+	szTitle = format("å­˜å‚¨%séœ€è¦æ¶ˆè€—<color=yellow>%s<color>, ç¡®å®šè¦å¯„å­˜å—ï¼Ÿ", GetItemName(nItemIdx), _get_consume_desc(nLevel))
+	tinsert(tbSay, format("ç¡®å®š/#_do_collect(%d)", nItemIdx))
+	tinsert(tbSay, format("è¿”å›/#OnUse_real(%d)", nItemIdx))
+	tinsert(tbSay, "æ”¾å¼ƒ/no")
 	Say(szTitle, getn(tbSay), tbSay)
 end
 
 function _do_collect(nItemIdx)
 	local nLevel = GetItemLevel(nItemIdx)
 	if _check_consume(nLevel, 1, 1) ~= 1 then
-		Talk(1,"","L­u tr÷ UÈn Linh thÊt b¹i!");
+		Talk(1,"","å­˜å‚¨çº¹ç†å¤±è´¥");
 		return
 	end
 	local nID1,nID2,nID3 = GetItemInfoByIndex(nItemIdx);
@@ -90,19 +90,19 @@ function _do_collect(nItemIdx)
 	if DelItemByIndex(nItemIdx,-1) == 1 then
 		
 		SetPlayerCollectionData(2, nCollectIndex, 1);
-		Talk(1,"","C¸c h¹ ®· l­u tr÷ UÈn Linh nµy thµnh c«ng, tõ nay vÒ sau khi rót ngo¹i trang tõ <color=yellow>[Tñ ¸o Thiªn BiÕn Tiªu]<color> ®Òu cã thÓ ®İnh kÌm hiÖu øng uÈn linh nµy.");
+		Talk(1,"","æˆåŠŸä¿å­˜, ä»ç°åœ¨èµ·<color=yellow>[è¡£æŸœ]<color>ä½ ä¹Ÿå¯ä»¥ä½¿ç”¨è¿™ä¸ªæ•ˆæœ");
 	end
 end
 
---»ñÈ¡ÏûºÄÏêÏ¸ÄÚÈİÃèÊö
---·µ»ØszDesc
+--è·å–æ¶ˆè€—è¯¦ç»†å†…å®¹æè¿°
+--è¿”å›szDesc
 function _get_consume_desc(nLevel)
 	local szDesc = ""
 	
 	local t = t_collect_consume[nLevel]
 	if t then
 		if t.gold then
-			szDesc = format("Vµng %d", t.gold)
+			szDesc = format("é‡‘å·%d", t.gold)
 		end
 		if t.t_item then
     		for i = 1, getn(t.t_item) do
@@ -112,14 +112,14 @@ function _get_consume_desc(nLevel)
         	end
 		end
 	else
-		szDesc = "[kh«ng]"
+		szDesc = "[ä¸è¶³]"
 	end
 	return szDesc
 end
 
---IBĞŞÁ¶Ìõ¼ş¼ì²é»ò²Ù×÷
---0 ±íÊ¾Î´´ï³É
---1±íÊ¾ÒÑ´ï³É
+--IBä¿®ç‚¼æ¡ä»¶æ£€æŸ¥æˆ–æ“ä½œ
+--0 è¡¨ç¤ºæœªè¾¾æˆ
+--1è¡¨ç¤ºå·²è¾¾æˆ
 function _check_consume(nLevel, bDelete, bNotify)
 	if nLevel < 1 or nLevel > getn(t_collect_consume) then
 		return 0
@@ -130,7 +130,7 @@ function _check_consume(nLevel, bDelete, bNotify)
 		if t.gold then
 			if GetCash() < t.gold * 10000 then
 				if 1 == bNotify then
-					Msg2Player(format("Vµng kh«ng ®ñ %d!", t.gold))
+					Msg2Player(format("<font style="é‡‘å·ä¸è¶³", t.gold))
 				end
 				return 0
 			end
@@ -140,14 +140,14 @@ function _check_consume(nLevel, bDelete, bNotify)
         		local ti = t.t_item[i]
         		if GetItemCount(ti[2], ti[3], ti[4]) < ti[5] then
         			if 1 == bNotify then
-        				Msg2Player(format("%sx%d kh«ng ®ñ", ti[1], ti[5]))
+        				Msg2Player(format("%sx%dä¸è¶³", ti[1], ti[5]))
         			end
         			return 0
         		end
 			end
 		end
 		
-		if 1 == bDelete then --ËùÓĞ¶¼¼ì²éÍ¨¹ıÁË£¬Ö´ĞĞÉ¾³ı
+		if 1 == bDelete then --æ‰€æœ‰éƒ½æ£€æŸ¥é€šè¿‡äº†ï¼Œæ‰§è¡Œåˆ é™¤
     		if t.gold then
             	Pay(t.gold*10000)
     		end
