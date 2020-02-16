@@ -20,6 +20,9 @@ function main()
 				"不用了/no_box",
 				"了解储物箱的好处/intro_box");
 		return
+	elseif (GetTask(ID_ITEMBOX))==0 and  (nLevel<10)  then
+		Say("<color=yellow>储物箱<color>是我们加入江湖的必不可少的。你还没到<color=yellow>10级<color> h穣 n t譵 ta!",0)
+		return
 	elseif GetTask(ID_ITEMBOX)==1 then
 		check_box();
 		return
@@ -42,7 +45,7 @@ end;
 
 function check_box()
 	if GetItemCount(2,1,2)<10 then 
-		Say("你还没找到我需要的<color=yellow>10个灰兔兔尾<color> , 我帮不了你!",1,"我现在就去!/box_no")
+	        Say("你还没找到我需要的<color=yellow>10个灰兔兔尾<color> , 我帮不了你!",1,"我现在就去!/box_no")
 	else
 		DelItem(2,1,2,10)
 		SetTask(ID_ITEMBOX,2) --开放储物箱标记

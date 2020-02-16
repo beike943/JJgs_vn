@@ -36,13 +36,13 @@ end;
 function yes_box()
 
 	SetTask(ID_ITEMBOX,1);
-		Say("请找寻 <color=yellow>10个灰兔兔尾<color>带回来!",1,"我现在就去!/box_no");
+	Say("请找寻 <color=yellow>10个灰兔兔尾<color>带回来!",1,"我现在就去!/box_no");
 	TaskTip("出城收集10个灰色兔尾开启储物箱!")
 end;
 
 function check_box()
 	if GetItemCount(2,1,2)<10 then 
-		Say("你还没找到我需要的<color=yellow>10个灰兔兔尾<color> , 我帮不了你!",1,"我现在就去!/box_no")
+	        Say("你还没找到我需要的<color=yellow>10个灰兔兔尾<color> , 我帮不了你!",1,"我现在就去!/box_no")
 	else
 		DelItem(2,1,2,10)
 		SetTask(ID_ITEMBOX,2) --开放储物箱标记

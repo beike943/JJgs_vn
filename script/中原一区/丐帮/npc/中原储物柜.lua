@@ -21,7 +21,7 @@ function main()
 				"了解储物箱的好处/intro_box");
 		return
 	elseif (GetTask(ID_ITEMBOX))==0 and  (nLevel<10)  then
-		Say("<color=yellow>Rng ch鴄 <color> l? v藅 kh玭g th? thi誹 khi gia nh藀 giang h?. Ngi ch璦 t n c蕄 10, t筸 th阨 ch璦 d飊g 頲! дn <color=yellow>c蕄 10<color> h穣 n t譵 ta!",0)
+		Say("<color=yellow>储物箱<color>是我们加入江湖的必不可少的。你还没到<color=yellow>10级<color> h穣 n t譵 ta!",0)
 		return
 	elseif GetTask(ID_ITEMBOX)==1 then
 		check_box();
@@ -45,7 +45,7 @@ end;
 
 function check_box()
 	if GetItemCount(2,1,2)<10 then 
-		Say("你还没找到我需要的<color=yellow>10个灰兔兔尾<color> , 我帮不了你!",1,"我现在就去!/box_no")
+	        Say("你还没找到我需要的<color=yellow>10个灰兔兔尾<color> , 我帮不了你!",1,"我现在就去!/box_no")
 	else
 		DelItem(2,1,2,10)
 		SetTask(ID_ITEMBOX,2) --开放储物箱标记
@@ -59,8 +59,7 @@ end;
 
 function intro_box()
 
-        Say("可以扩大储物箱存放未使用的贵重物品. 当您在某个城市打开储物箱时,可以随时取出. 此外, 你需要花费<color=yellow>20两<color>使用<color=yellow>箱子锁定功能<color>确保您的储物箱安全.每当你下线时储物箱将 <color=yellow>自动锁定<color> .如果你需要<color=yellow>重置密码<color>,需要支付<color=yellow>额外<color> <color=yellow>2两<color> 金子!",1,"谢谢!/no_box");
+	Say("可以扩大储物箱存放未使用的贵重物品. 当您在某个城市打开储物箱时,可以随时取出. 此外, 你需要花费<color=yellow>20两<color>使用<color=yellow>箱子锁定功能<color>确保您的储物箱安全.每当你下线时储物箱将 <color=yellow>自动锁定<color> .如果你需要<color=yellow>重置密码<color>,需要支付<color=yellow>额外<color> <color=yellow>2两<color> 金子!",1,"谢谢!/no_box");
 end;
-
 
 
