@@ -27,84 +27,84 @@ KUN_FACTION_TASK_FINISH = 5
 
 function main()
 	local dia_sel = {
-		"Nguån gèc C«n L«n/say1_1",
-		"Vâ c«ng C«n L«n/say1_2",
-		"§iÒu kiÖn nhËp m«n/say1_3",
+		"À¥ÂØÆğÔ´/say1_1",
+		"À¥ÂØÎä¹¦/say1_2",
+		"ÈëÃÅÌõ¼ş/say1_3",
 		--"ÎÒÒª¼ÓÈëÀ¥ÂØ/say1_4",
-		"Ta muèn lµm nhiÖm vô S­ M«n/#ftask_repeat_main(8)",
+		"¿ªÊ¼Ê¦ÃÅÈÎÎñ/#ftask_repeat_main(8)",
 		--"±Õ¹ØĞŞÁ¶/#practice_main(8)",
-		"Ta dù ®Şnh thµnh th©n nªn muèn xuÊt s­ /#faction_graduate(8)",
-		"Chµo hái ch­ëng m«n/end_dialog",
+		"ÎÒ´òËã³ÉÇ×£¬ËùÒÔÎÒÏë³öÊ¦/#faction_graduate(8)",
+		"¸úÕÆÃÅ´ò¸öÕĞºô/end_dialog",
 	}
-	Say(NPC_NAME.."C«n L«n sõng s÷ng, tiªn khİ bao quanh, lµ th¸nh ®Şa tu t©m d­ìng tİnh.",
+	Say(NPC_NAME.."Î¡ÏîÀ¥ÂØ£¬ÓĞÑş³ØÓñĞé£¬ÆøÏóÀú¸É£¬ÏÉÆøÈÆçÔ£¬ÎªĞŞĞÄÑøĞÔÖ®Ê¤µØ¡£.",
 		getn(dia_sel),dia_sel
 	)
 end;
 --À¥ÂØÅÉÆğÔ´
 function say1_1()
 	Talk(3,"main",
-		NPC_NAME.."Ph¸i ta ë T©y Vùc xa x«i İt khi vµo Trung Nguyªn. Do ®ã nh÷ng ph¸i kh¸c kh«ng hiÓu vÒ bæn ph¸i. Cho ®Õn khi ta ph¸i mét kú tµi tíi Trung Nguyªn lËp ®­îc uy danh hiÓn h¸ch, ph¸i ta míi ®­îc c¸c ®¹i m«n ph¸i chó ı.",
-		NPC_NAME.."Tr­íc giê ph¸i ta lu«n Èn c­ chuyªn t©m tu hµnh, kh«ng tranh danh lîi thÕ tôc. Nh­ng mét khi xuÊt hiÖn yªu ma th× ph¶i hÕt søc diÖt trõ.",
-		NPC_NAME.."Trung Nguyªn gÇn ®©y yªu ma hoµnh hµnh, nªn ®Ö tö trong ph¸i ®i kh¾p n¬i gi¸ng ma phôc yªu. Nh­ng c¸c m«n ph¸i kh¸c l¹i nghi ngê hµnh ®éng cña ph¸i ta, nªn bæn kh¸i kh«ng cã ®ång minh trong vâ l©m."
+		NPC_NAME.."ÎÒÅÉÔ¶´¦Î÷Óò£¬ºÜÉÙÑ¡×ãÖĞÔ­£¬´´ÅÉ×æÊ¦ÒÑÎŞ´Ó¿¼Ö¤¡£ÓÉÓÚÓëÖĞÔ­Ïà¸ôÉõÔ¶£¬ÆäËûÃÅÅÉÌåÅÉ²¢²»ÁË½â£¬Ö±µ½ºóÀ´ÎÒÅÉ³öÁË¸ö°ÙÄê²»ÓöµÄÆæÈË£¬ÔÚÖĞÔ­ÎäÁÖ´ÊÏÂÁËºÕºÕÍşÃû£¬ÎÒÅÉ²Å¿ªÊ¼ÎÅÃû£¬ÒıÆğÖĞÔ­¸÷´óÃÅÅÉµÄ¹Ø×¢¡£.",
+		NPC_NAME.."µ«ÊÇ£¬ÎÒÅÉÒ»¹áÌá³«±ÜÊÀ£¬ÎŞÓûÎŞÎª£¬ÔÚ²»ÎªÈËÖªµÄµØ·½Ç±É«ĞŞĞĞ£¬±¾ÅÉµÜ×Ó¶¼²»ÎªÊÀË×ÃûÀûËùÈÅ£¬Æ®È»×ÅÏÉ¡£µ«ÊÇÒ»µ©³öÏÖÑıÄ§ÔòÒª¾¡Á¦ÆËÉ±£¬¶ÔÓÚ½ËÃğÄ§Îï·Ç³£Ö´×Å.",
+		NPC_NAME.."¶ø½ñÖĞÔ­¶¯µ´Ñ¡Éú£¬²»ÉÙµØ·½¶¼ÓĞÑıÄ§³öÏÖ£¬Òò´ËÅÉÁË²»ÉÙµÜ×ÓÔ¶¸°ÖĞÔ­¸÷µØ½µÑı³ıÄ§£¬µ«ÊÇ´Ë¾ÙÈ´ÒıÆğ²»ÉÙÃÅÅÉµÄ¾¯Ìè£¬ËûÃÇ¶ÔÎÒÅÉĞÄ´æ½æµÙ£¬ËùÒÔ±¾ÅÉÔÚÎäÁÖÖĞ²¢Ã»ÓĞÃËÓÑ¡£."
 	)
 end
 --À¥ÂØÅÉÎä¹¦
 function say1_2()
 	Talk(3,"main",
-		NPC_NAME.."Vâ häc bæn ph¸i cã 2 nh¸nh Thiªn S­ vµ KiÕm T«n. Thiªn S­ chia lµm 2 hÖ phong l«i. KiÕm T«n dïng khİ ngù kiÕm, theo ®uæi c¶nh giíi tèi cao nh©n kiÕm hîp nhÊt.",
-		NPC_NAME.."Thiªn S­ l«i quyÕt uy lùc v« cïng, dïng ®Ó trõ ma phôc yªu, ®èi thñ muèn chèng l¹i ®­îc uy lùc cña nã ph¶i tiªu hao thªm néi lùc. NÕu bŞ thiªn l«i ®¸nh tróng dï lµ cao thñ còng ph¶i h«n mª. Phong quyÕt linh ho¹t, cã thÓ che giÊu b¶n th©n, l­ít ®i nh­ giã. Vâ häc bæn m«n vèn biÕn hãa ®a d¹ng, l¹i dïng phong quyÕt ®Ó t¨ng tèc b¶n th©n, cã thÓ gäi cuång phong, bao v©y ®Ó ®èi thñ kh«ng thÓ hµnh ®éng. KiÕm T«n cã thÓ luyÖn hãa linh kiÕm, dïng khİ ngù kiÕm, kiÕm thuËt tù nhiªn, lÊy nhanh ®¸nh chËm, chiÕm thÕ th­îng phong, KiÕm T«n tu luyÖn ®Õn c¶nh giíi nh©n kiÕm hîp nhÊt th× kiÕm chiªu hãa thµnh v« h×nh.",
-		NPC_NAME.."Vâ c«ng <color=yellow>Thiªn S­<color> C«n L«n do <color=yellow>TÇn BÊt Trİ<color> truyÒn thô, cã thÓ häc ®­îc kü n¨ng trÊn ph¸i <color=yellow>V« Cùc Phong L«i QuyÕt<color>! Vâ c«ng <color=yellow>KiÕm T«n<color> C«n L«n do <color=yellow>V©n Hy Hßa<color> truyÒn thô, cã thÓ häc ®­îc kü n¨ng trÊn ph¸i <color=yellow>V¹n KiÕm Hãa Vò TrËn<color>!"
+		NPC_NAME.."±¾ÃÅÎäÑ§ÓĞÌìÊ¦ºÍ½£×ğÁ½Âö¡£ÌìÊ¦ÉÏÓ³ÌìÏó£¬·ÖÎª·ç£¬À×¶ş¾÷£¬½£×ğÒÔÆøÓù½££¬±ÏÉú×·ÇóÈË½£ºÏÒ»µÄÎäÑ§ÖÁ¸ßÖ®¾³¡£.",
+		NPC_NAME.."ÌìÊ¦À×¾÷ÍşÃÍ¾øÂ×£¬ÄË±¾ÃÅÕÛÑı³ıÄ§Ö®¾ö£¬ÓëÈËÏà¶·£¬¶ÔÊÖÎªÁËµÖ¿¹ÌìÀ×Ö®Íş£¬Ò²Òª¶îÍâµÄËğºÄÄÚÁ¦¡£Èô±»ÌìÀ×»÷ÖĞ£¬¼´±ãÊÇÎäÁÖ¸ßÊÖ£¬Ò²»áÉñÖÇ»èÊö¡£·ç¾÷ÔòÁé»î¶à±ä£¬¿ÉÒş²Ø×ÔÉí£¬Óù·ç¶øĞĞ¡£±¾ÃÅÎäÑ§±¾¾ÍÉí·¨»ú±ä¶àÑù£¬²æÒÔ·ç¾÷À´ÌáÉı×Ô¼ºµÄÉíĞĞËÙ¶È£¬¸üÊÇ²»¿É×ÁÄ¥¡£¸ü¿ÉÒÔ´µÆğ¿ñ·ç£¬½û¶ÔÊÖ£¬Ê¹ÆäÎŞ·¨ĞĞ¶¯¡£½£×ğ¿ÉÁ¶»¯Áé½££¬ÒÔÆøÓù½££¬¶ø±¾ÉíÒàĞŞĞĞ±¾ÃÅ½£Êõ£¬±¾ÃÅ½£ÊõÆ®Òİ£¬½«¾ÍÒÔ¿ì´òÂı£¬²½²½ÇÀÕ¼ÏÈ»ú£¬¶øÁé½£½£·¨¸ÕÃÍ£¬¶Ï½ğËéÓñÎŞÈË¿Éµ²£¬½£×ğĞŞÁ¶ÖÁÈË½£ºÏÒ»Ö®¾³£¬ÈçÁ½´ó¸ßÊÖºÏÒ»£¬¸÷×Ô½£ÕĞÖ®ÆÆÕÀ½«»¯ÎªÎŞĞÎ.",
+		NPC_NAME.."À¥ÂØ<color=yellow>ÌìÊ¦<color>Îä¹¦ÓÉ<color=yellow>ÇØ²»ÖÇ<color>´«ÊÚ£¬¿ÉÑ§µÃÕòÅÉ¼¼ÄÜ<color=yellow>ÎŞ¼«·çÀ×¾÷<color>!À¥ÂØ<color=yellow>½£×ğ<color>Îä¹¦ÓÉ<color=yellow>ÔÆôËºÍ<color>´«ÊÚ£¬¿ÉÑ§µÃÕòÅÉ¼¼ÄÜ<color=yellow>Íò½£»¯ÓêÕó<color>!"
 	)
 end
 --ÈëÃÅÌõ¼ş
 function say1_3()
-	Talk(1,"",NPC_NAME.."Vâ c«ng C«n L«n vèn <color=yellow>chØ truyÒn cho nam<color>, nªn bæn gi¸o chØ cho <color=yellow>nam<color> gia nhËp, nam nhi ch­a gia nhËp ph¸i kh¸c vµ kh«ng ph¶i ph¶n ®å ®Òu cã thÓ vµo.")
+	Talk(1,"",NPC_NAME.."À¥ÂØÅÉÎä¹¦ÀúÀ´<color=yellow>´«ÄĞ²»´«Å®<color>, ¹Ê±¾½ÌÖ»ÔÊĞí<color=yellow>ÄĞĞÔ<color>¼ÓÈë£¬Ö»ÒªÃ»¼ÓÈëÆäËûÃÅÔ´ÇÒ·Ç±¾ÅÉÅÑÍ½±ã¿É¼ÓÈë¡£.")
 end
 --ÎÒÒª¼ÓÈëÀ¥ÂØ
 function say1_4()
 	--µÈ¼¶ÅĞ¶Ï
 	if GetLevel() <10 then
-		Talk(1,"",NPC_NAME.."CÊp kh«ng ®ñ, ®¹t cÊp <color=yellow>10<color> råi quay l¹i.")
+		Talk(1,"",NPC_NAME.."ÄãµÈ¼¶²»×ã<color=yellow>10<color>¼¶.")
 		return
 	end
 	--ĞÔ±ğÅĞ¶Ï
 	if GetSex() == 2 then
-		Talk(1,"",NPC_NAME.."N÷ hiÖp thµnh t©m tíi C«n L«n häc ®¹o ph¸p, thËt ®¸ng khen, nh­ng vâ c«ng C«n L«n ta chØ truyÒn cho nam, ta kh«ng thÓ cho n÷ hiÖp gia nhËp ®­îc.")
+		Talk(1,"",NPC_NAME.."±¾ÃÅ²»ÊÕÅ®µÜ×Ó.")
 		return
 	end
 	--±¾ÃÅÅĞ¶Ï
 	if GetPlayerFaction() == KUN_FACTION_ID then
-		Talk(1,"",NPC_NAME.."Ng­¬i ®· lµ ®Ö tö ph¸i C«n L«n, mau ®i luyÖn c«ng.")
+		Talk(1,"",NPC_NAME.."ÄãÒÑ¾­ÊÇÀ¥ÂØµÜ×Ó£¬¿ìÈ¥Á·¹¦.")
 		return
 	end
 	--Á÷ÅÉÅĞ¶Ï
 	if GetPlayerFaction() > 0 then
-		Talk(1,"",NPC_NAME.."ThiÕu hiÖp ®· cã m«n ph¸i, ta kh«ng thÓ nhËn.")
+		Talk(1,"",NPC_NAME.."ÄãÒÑ¼ÓÈëÃÅÅÉ.")
 		return
 	end
 	--ÈëÃÅÈÎÎñÅĞ¶Ï
 	local faction_task_step = without_other_factask(KUN_FACTION_ID) 
 	if faction_task_step == -1 then
-		Talk(1,"",NPC_NAME.."§· nhËn nhiÖm vô cña ph¸i kh¸c, kh«ng thÓ gia nhËp bæn ph¸i.")
+		Talk(1,"",NPC_NAME.."ÄãÒÑ½ÓÊÜÁËÈëÃÅÉêÇë.")
 		return
 	elseif faction_task_step == KUN_FACTION_TASK_FINISH then
 		Talk(4,"",
-			NPC_NAME.."§Ö tö bæn m«n cÇn thanh t©m tŞnh khİ, tu th©n d­ìng ®øc, chuyªn t©m tu luyÖn.",
-			PLAYER_NAME.."§Ö tù ph¶i nhí s­ huÊn, ch¨m chØ tu luyÖn.",
-			NPC_NAME.."H·y t×m <color=green>TÇn BÊt Trİ<color> häc vâ c«ng, kü nghÖ <color=yellow>C«n L«n Thiªn S­<color> do «ng Êy truyÒn thô, sau ®ã lµm quen nh÷ng quy t¾c kh¸c.",
-			PLAYER_NAME.."§Ö tö tu©n mÖnh."
+			NPC_NAME.."µÜ×ÓÃÇĞëÇåĞÄ¾²£¬¾¡ĞÄĞŞµÂ£¬¾¡ĞÄĞŞÁ¶.",
+			PLAYER_NAME.."µÜ×Ó½÷¼Ç½Ì»å£¬Ò»¶¨ºÃºÃĞŞÁ¶.",
+			NPC_NAME.."ÇëÕÒ <color=green>ÇØ²»ÖÇ<color> Ñ§Ï°£¬<color=yellow>À¥ÂØÌìÊ¦<color> ÓÉËû´«ÊÚ.",
+			PLAYER_NAME.."Ğ»Ğ»ÕÆÃÅ."
 		)
-		TaskTip("§· gia nhËp C«n L«n Ph¸i")
+		TaskTip("ÒÑ¾­¼ÓÈëÁËÀ¥ÂØÅÉ")
 		SetPlayerFaction(8)
 		SetPlayerRoute(22)
 		SetTask(TB_FACTION_TASKID_LIST[KUN_FACTION_ID],6)
 	else
 		if faction_task_step == 0 then
 			SetTask(TB_FACTION_TASKID_LIST[KUN_FACTION_ID],1)
-			TaskTip("§i t×m M· BÊt TiÒn ®èi tho¹i")
-			Msg2Player("§i t×m M· BÊt TiÒn (197/203) ®èi tho¹i")
+			TaskTip("È¥ÕÒÂí²»Ç°½ÓÊÜ¿¼Ñé")
+			Msg2Player("È¥ÕÒÂí²»Ç°(197/203)½ÓÊÜ¿¼Ñé")
 		end
-		Talk(1,"",NPC_NAME.."C«n L«n sõng s÷ng, thanh tŞnh, lµ th¸nh ®Şa tu th©n d­ìng tİnh. Ai cã chİ ®Òu cã thÓ gia nhËp bæn ph¸i, chi tiÕt nhËp m«n do <color=yellow>M· BÊt TiÒn<color>(197/203) xö lı, chØ cÇn «ng Êy ®ång ı l·o phu sÏ cho ng­¬i gia nhËp.")
+		Talk(1,"",NPC_NAME.."À¥ÂØÉ½ÄËĞŞÉíÖ®Ê¥µØ£¬Ã¿¸öÈË¶¼Ïë¼ÓÈë±¾ÃÅ¡£<color=yellow>Âí²»Ç°<color>(197/203) ´ğÓ¦ÈÃÄã¼ÓÈë.")
 	end
 end
 --´¦Àíº¯Êı

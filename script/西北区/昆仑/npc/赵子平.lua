@@ -44,7 +44,7 @@ function main()
 	end
 	
 	--Ò»°ãÇé¿öÏÂµÄ¶Ô»°
-	Say("§¹i hiÖp muèn ®Õn TrÊn Yªu ThÊt kh«ng?", 2, "LËp tøc ®Õn ®ã/goto_zys", "T¹i h¹ chØ xem qua th«i/nothing");
+	Say("´óÏÀÒªÈ¥zys?", 2, "ÂíÉÏÈ¥ÄÇÀï/goto_zys", "ÔÚÏÂËæ±ã¿´¿´/nothing");
 	return
 	
 end;

@@ -27,7 +27,7 @@ function OnDeath(index)
         if GetTask(TASK_DL_LV10_ID) == 2 then
         	SetTask(TASK_DL_LV10_ID, 3);
         	Msg2Player("L蕐 頲 h鉧 n c馻 Tr辬h Qu竛 Chi.");
-        	TaskTip("L蕐 頲 h鉧 n c馻 Tr辬h Qu竛 Chi.");
+        	TaskTip("拿到了郑贯之的货单.");
         	AddItem(2,0,363,1,1);--拿到货单
         end;
     else
@@ -38,7 +38,7 @@ function OnDeath(index)
             if GetTask(TASK_DL_LV10_ID) == 2 and nDist >= 0 and nDist <= 50 then
             	SetTask(TASK_DL_LV10_ID, 3);
             	Msg2Player("L蕐 頲 h鉧 n c馻 Tr辬h Qu竛 Chi.");
-            	TaskTip("L蕐 頲 h鉧 n c馻 Tr辬h Qu竛 Chi.");
+            	TaskTip("拿到了郑贯之的货单.");
             	AddItem(2,0,363,1,1);--拿到货单
             end;
 		end;

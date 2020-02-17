@@ -176,9 +176,9 @@ local nStep_XBTask_02 = GetTask(TASK_XB_ID_02);
 	
 	--Ò»°ãÇé¿öÏÂµÄ¶Ô»°
 	strTalk = {
-		{"Ta thÒ chuyªn t©m tu ®¹o, tiªu diÖt yªu ma ®Ó thiªn h¹ th¸i b×nh."},
-		{"Ph¸i C«n L«n lÊy viÖc thu phôc ma quû lµm ®Çu. Nay Giang T©n th«n xuÊt hiÖn yªu ma h¹i ng­êi, ®Ö tö C«n L«n sao cã thÓ chóng lµm h¹i nh©n gian?"},
-		{"Trung nguyªn lu«n nghi kş víi m«n ph¸i ë xa nh­ng giang hå hiÓm ¸c ta kh«ng nªn tr¸ch hä, mäi viÖc cÈn thËn vÉn tèt h¬n."},
+		{"ÎÒ·¢ÊÄ, ×¨ĞÄĞŞµÀ£¬µ´¾¡ÌìÏÂÑıÄ§£¬»¹ÌìÏÂÌ«Æ½."},
+		{"À¥²ÖÒ»ÅÉ£¬×¨Ö¾½µÑı·üÄ§£¬ÃÅÅÉ¼¼ÒÕ½ÔÒÔ´ËÎª¾«¡£Ğ°Ä§¶à²ØÓÚÉîÉ½ÀÏÁÖ£¬²»ÁÏÖĞÔ­½­½ò´åÒ»µØÆµÆµ³öÏÖÉËÈËÄ§Îï£¬À¥ÂØµÚ×ÓÔõ¿ÉÈÃ¼éĞ°Îª»öÈË¼ä£¿"},
+		{"Trung nguyªn lu«n nghi k? víi m«n ph¸i ? xa nh­ng giang h? hiÓm ¸c ta kh«ng nªn tr¸ch h?, mäi viÖc cÈn thËn vÉn tèt h¬n."},
 		}
 	local i = random(1,getn(strTalk));
 

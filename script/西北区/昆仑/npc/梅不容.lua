@@ -10,7 +10,7 @@ Include("\\script\\faction\\npc\\buy_sell_main.lua")
 function main()
 	local sDiaHead,tDiaSel = faction_buysell_main(8)
 	if getn(tDiaSel) > 0 then
-		tinsert(tDiaSel, getn(tDiaSel), "Ta cÇn xö lı nh÷ng viÖc kh¸c/other_function");
+		tinsert(tDiaSel, getn(tDiaSel), "ÎÒĞèÒª´¦ÀíÆäËûÊÂÇé/other_function");
 	end
 	Say(sDiaHead,getn(tDiaSel),tDiaSel)
 end
@@ -25,8 +25,8 @@ function other_function()
 	
 	--Ò»°ãÇé¿öÏÂµÄ¶Ô»°
 	strTalk = {
-		{"Mäi vËt trªn ®êi ®Òu cã néi t©m, ng­êi hµnh y sao cã thÓ ®èi xö thiªn vŞ víi bÖnh nh©n kh¸c nhau?"},
-		{"b¹ch ngäc ®iªu lan kim ty sµng, c¬ kû th× kÕt m·n chu ty vâng, thuú tri ®ang niªn ca vò trµng"},
+		{"Mäi vËt trªn ®êi ®Òu c? néi t©m, ng­êi hµnh y sao c? th? ®èi x? thiªn v? víi bÖnh nh©n kh¸c nhau?"},
+		{"b¹ch ngäc ®iªu lan kim ty sµng, c? k? th? kÕt m·n chu ty vâng, thu? tri ®ang niªn ca v? trµng"},
 		}
 	local i = random(1,getn(strTalk));
 
@@ -39,9 +39,9 @@ end;
 function give_ticket_01()
 
 local strTalk = {
-	"Mai BÊt Dung: Xin chµo <sex>, ta ®o¸n ng­¬i còng biÕt chuyÖn Cæ D­¬ng Thó bŞ Phi th­êng ®¹o nh©n lîi dông. Tr­íc ®©y khi nã bŞ thu phôc ®em lªn C«n Lu©n, S­ huynh niÖm t×nh con thó nµy bŞ ng­êi kh¸c lîi dông nªn cho phĞp ta cøu nã ®Ó thay ®æi d­îc lùc cña Háa luyÖn kim ®an trong ng­êi nã.",
-	"Ng­êi ch¬i: Th× ra Cæ D­¬ng Thó sau khi bŞ thu phôc ®· ®­îc ®em lªn C«n Lu©n, C«n Lu©n ph¸i vèn lµ ®¹o gia luyÖn ®an, d­îc lùc trong ng­êi Cæ D­¬ng Thó cã thÓ hãa gi¶i?",
-	"Mai BÊt Dung: Ta ®· chuyÓn ®¹i bé phËn cña Cæ D­¬ng thó thµnh kim ®¬n nh­ng l¹i ph¸t hiÖn nã bŞ cho ¨n Kim ®¬n l©u råi, ®· nhËp vµo m¸u huyÕt. C«n L«n s¬n tiªn khİ m¹nh nhÊt, Cæ D­¬ng Thó ë ®©y ®Ó hÊp thô tinh khİ cña trêi ®Êt sÏ kh«ng bŞ nhiÔm tµ khİ, nh­ vËy cã thÓ gióp nã hãa gi¶i d­îc lùc. Ch¼ng ngê trêi ch¼ng chiÒu lßng ng­êi, Cæ D­¬ng Thó sau khi l¹c vµo {Táa Yªu Th¸p} hËu s¬n C«n Lu©n, Cæ D­¬ng Thó bçng nhiªn trë nªn hung ¸c.",
+	"Mai BÊt Dung: Xin chµo <sex>, ta ®o¸n ng­¬i còng biÕt chuyÖn C? D­¬ng Th? b? Phi th­êng ®¹o nh©n lîi dông. Tr­íc ®©y khi n? b? thu phôc ®em lªn C«n Lu©n, S? huynh niÖm t×nh con th? nµy b? ng­êi kh¸c lîi dông nªn cho phĞp ta cøu n? ®Ó thay ®æi d­îc lùc cña Háa luyÖn kim ®an trong ng­êi n?.",
+	"Ng­êi ch¬i: Th? ra C? D­¬ng Th? sau khi b? thu phôc ®· ®­îc ®em lªn C«n Lu©n, C«n Lu©n ph¸i vèn l? ®¹o gia luyÖn ®an, d­îc lùc trong ng­êi C? D­¬ng Th? c? th? hãa gi¶i?",
+	"Mai BÊt Dung: Ta ®· chuyÓn ®¹i b? phËn cña C? D­¬ng th? thµnh kim ®¬n nh­ng l¹i ph¸t hiÖn n? b? cho ¨n Kim ®¬n l©u råi, ®· nhËp vµo m¸u huyÕt. C«n L«n s¬n tiªn kh? m¹nh nhÊt, C? D­¬ng Th? ? ®©y ®Ó hÊp th? tinh kh? cña trêi ®Êt s? kh«ng b? nhiÔm t? kh?, nh? vËy c? th? gióp n? hãa gi¶i d­îc lùc. Ch¼ng ng? trêi ch¼ng chiÒu lßng ng­êi, C? D­¬ng Th? sau khi l¹c vµo {Táa Yªu Th¸p} hËu s¬n C«n Lu©n, C? D­¬ng Th? bçng nhiªn tr? nªn hung ¸c.",
 	}
 	
 	TalkEx("give_ticket_02",strTalk);
@@ -51,9 +51,9 @@ end
 function give_ticket_02()
 
 local strTalk = {
-	"Ng­êi ch¬i: µ? Cæ D­¬ng Thó d¸m ®Õn g©y rèi, lÏ nµo C«n Lu©n kh«ng muèn gÆp n¹n?",
-	"Mai BÊt Dung: Lóc ®ã c¸c ®Ö tö ®Òu nghÜ nh­ thÕ, cho dï cã thÓ t¸i thu phôc Cæ D­¬ng Thó, chØ sî tæn th­¬ng nghiªm träng, ta nghiªn cøu qua Háa luyÖn kim ®an cña Phi th­êng ®¹o nh©n, nã ®­îc chÕ tõ {m¸u huyÕt ma},  khi ph¸t t¸c nÕu kh«ng cã m¸u t­¬i ¸p chÕ, toµn th©n nh­ bŞ löa thiªu. Nh­ng ®Ö tö C«n L«n khi muèn ra tay kh¾c chÕ th× Cæ D­¬ng Thó vïng dËy trèn tho¸t còng kh«ng lµm bŞ th­¬ng mét ai.",
-	"Ng­êi ch¬i: Th× ra cßn x¶y ra nhiÒu chuyÖn nh­ vËy, xem ra Cæ D­¬ng Thó qu¶ nhiªn lµ linh thó, vËy nã ®· ch¹y ®i ®©u mÊt råi? Cã ph¶i cÇn t¹i h¹ {thu phôc lÇn n÷a}?",
+	"Ng­êi ch¬i: ?? C? D­¬ng Th? d¸m ®Õn g©y rèi, l? nµo C«n Lu©n kh«ng muèn gÆp n¹n?",
+	"Mai BÊt Dung: Lóc ®ã c¸c ®Ö t? ®Òu ngh? nh? th?, cho d? c? th? t¸i thu phôc C? D­¬ng Th?, ch? s? tæn th­¬ng nghiªm träng, ta nghiªn cøu qua Háa luyÖn kim ®an cña Phi th­êng ®¹o nh©n, n? ®­îc ch? t? {m¸u huyÕt ma},  khi ph¸t t¸c nÕu kh«ng c? m¸u t­¬i ¸p ch?, toµn th©n nh? b? löa thiªu. Nh­ng ®Ö t? C«n L«n khi muèn ra tay kh¾c ch? th? C? D­¬ng Th? vïng dËy trèn tho¸t còng kh«ng lµm b? th­¬ng mét ai.",
+	"Ng­êi ch¬i: Th? ra cßn x¶y ra nhiÒu chuyÖn nh? vËy, xem ra C? D­¬ng Th? qu? nhiªn l? linh th?, vËy n? ®· ch¹y ®i ®©u mÊt råi? C? ph¶i cÇn t¹i h? {thu phôc lÇn n÷a}?",
 	}
 	
 	TalkEx("give_ticket_03",strTalk);
@@ -63,8 +63,8 @@ end
 function give_ticket_03()
 
 local strTalk = {
-	"Mai BÊt Dung: Ta lu«n cho r»ng v¹n vËt trªn ®êi nµy ®Òu cã linh tİnh, nªn c¶m thÊy Cæ D­¬ng Thó lµ v× biÕt ¬n C«n Lu©n cho nªn r¸ng chŞu ®au khæ mµ trèn tho¸t, ta ®o¸n nã ®· vÒ Cæ D­¬ng ®éng råi. MÆc dï s­ huynh th­êng tr¸ch ta kh«ng biÕt ph©n biÖt chİnh tµ, cã lóc cßn cøu c¶ yªu ma, nh­ng sinh linh ®Òu b×nh ®¼ng, ng­êi häc ®¹o sao l¹i cã thÓ thÊy chÕt mµ kh«ng cøu? Cho nªn ta ®· chÕ {Bİch Diªu Thanh T©m §¬n}, ph¸t cho nh©n sü vâ l©m. NÕu <sex> cã duyªn nhËn ®­îc, hy väng cã thÓ ®em thuèc nµy ®Õn Cæ D­¬ng ®éng mét chuyÕn, cho Cæ D­¬ng thó uèng ®Ó gióp nã hãa gi¶i d­îc lùc trong ng­êi, ®em thuèc nµy giao cho §Ö tö C«n L«n ë trong ®éng cã thÓ ®i Cæ D­¬ng mËt ®éng. NÕu <sex> nhµn rçi sau nµy khi t×m ®­îc thuèc nµy cã thÓ ®em tiÕp cho nã uèng, uèng l©u ngµy nhÊt ®Şnh cã thÓ hãa gi¶i d­îc lùc trong ng­êi nã.",
-	"Ng­êi ch¬i: Th­îng ®Õ cã ®øc hiÕu sinh, c« n­¬ng cã tiÕng nh©n tõ khiÕn ng­êi c¶m kİch, t¹i h¹ sÏ hoµn thµnh t©m nguyÖn cña c« n­¬ng.",
+	"Mai BÊt Dung: Ta lu«n cho r»ng v¹n vËt trªn ®êi nµy ®Òu c? linh tİnh, nªn c¶m thÊy C? D­¬ng Th? l? v? biÕt ¬n C«n Lu©n cho nªn r¸ng chŞu ®au kh? m? trèn tho¸t, ta ®o¸n n? ®· v? C? D­¬ng ®éng råi. MÆc d? s? huynh th­êng tr¸ch ta kh«ng biÕt ph©n biÖt chİnh t?, c? lóc cßn cøu c? yªu ma, nh­ng sinh linh ®Òu b×nh ®¼ng, ng­êi häc ®¹o sao l¹i c? th? thÊy chÕt m? kh«ng cøu? Cho nªn ta ®· ch? {Bİch Diªu Thanh T©m §¬n}, ph¸t cho nh©n s? v? l©m. NÕu <sex> c? duyªn nhËn ®­îc, hy väng c? th? ®em thuèc nµy ®Õn C? D­¬ng ®éng mét chuyÕn, cho C? D­¬ng th? uèng ®Ó gióp n? hãa gi¶i d­îc lùc trong ng­êi, ®em thuèc nµy giao cho §Ö t? C«n L«n ? trong ®éng c? th? ®i C? D­¬ng mËt ®éng. NÕu <sex> nhµn rçi sau nµy khi t×m ®­îc thuèc nµy c? th? ®em tiÕp cho n? uèng, uèng l©u ngµy nhÊt ®Şnh c? th? hãa gi¶i d­îc lùc trong ng­êi n?.",
+	"Ng­êi ch¬i: Th­îng ®Õ c? ®øc hiÕu sinh, c? n­¬ng c? tiÕng nh©n t? khiÕn ng­êi c¶m kİch, t¹i h? s? hoµn thµnh t©m nguyÖn cña c? n­¬ng.",
 	}
 	
 	TalkEx("",strTalk);

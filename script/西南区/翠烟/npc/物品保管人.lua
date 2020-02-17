@@ -11,10 +11,10 @@
 ID_ITEMBOX = 805;
 
 function main()
-	nLevel = GetLevel()
-	if (GetTask(ID_ITEMBOX))==0 and  (nLevel>=10)  then
-	
-		Say("<color=yellow>储物箱<color>是加入江湖必不可少的. 去野外找<color=yellow>灰色的兔子<color> 带回 <color=yellow>10个兔尾<color>! 开启你的储物箱!",
+	local nLevel = GetLevel()
+	if nLevel >= 10 then
+		if GetTask(ID_ITEMBOX)==0 then
+			Say("<color=yellow>储物箱<color>是加入江湖必不可少的. 去野外找<color=yellow>灰色的兔子<color> 带回 <color=yellow>10个兔尾<color>! 开启你的储物箱!",
 				3,
 				"我想开启储物箱/yes_box",
 				"不用了/no_box",
@@ -28,7 +28,7 @@ function main()
 			EnableBoxLock(1)
 		end
 	else
-		Say("<color=yellow>储物箱<color>是我们加入江湖的必不可少的。你还没到<color=yellow>10级<color>暂时还不能用！10级来找我！",0)
+		Say("<color=yellow>Rng ch鴄 <color> l? v藅 kh玭g th? thi誹 khi gia nh藀 giang h?. Ngi ch璦 t n c蕄 10, t筸 th阨 ch璦 d飊g 頲! дn <color=yellow>c蕄 10<color> h穣 n t譵 ta!",0)
 	end
 
 end;
@@ -47,7 +47,7 @@ end;
 
 function check_box()
 	if GetItemCount(2,1,2)<10 then 
-	        Say("你还没找到我需要的<color=yellow>10个灰兔兔尾<color> , 我帮不了你!",1,"我现在就去!/box_no")
+		Say("你还没找到我需要的<color=yellow>10个灰兔兔尾<color> , 我帮不了你!",1,"我现在就去!/box_no")
 	else
 		DelItem(2,1,2,10)
 		SetTask(ID_ITEMBOX,2) --开放储物箱标记

@@ -15,8 +15,8 @@ function main(bTag)
 		end
 	
 		local t_dialog = {
-			"<color=green>Hé MÉn<color>: Thóy Yªn M«n võa vµo Trung Nguyªn ®· thu hót rÊt nhiÒu nh©n tµi gia nhËp, v« cïng n¸o nhiÖt.",
-			"<color=green>Hé MÉn<color>: Thóy Yªn M«n c¶nh s¾c mª ng­êi, lµ n¬i tèt ®Ó häc móa, nu«i TiÓu §iªu.",
+			"<color=green>ìèÃô<color>: ´äÑÌ¸Õ½øÈëÖĞÔ­£¬ÎüÒıÁËºÜ¶àÓĞ²Å»ªµÄÈËÊ¿¼ÓÈë£¬ÈÈÄÖ·Ç·².",
+			"<color=green>ìèÃô<color>: ´äÑÌÃÅ·ç¹âì½ÂÃ£¬¾°É«ÃÔÈË£¬ÊÇ¸öÁ·Ï°Îèµ¸£¬Î¹ÑøĞ¡õõµÄºÃµØ·½¡£.",
 			}
 		Talk(1,"",t_dialog[random(getn(t_dialog))])
 end;		

@@ -11,9 +11,9 @@ function main()
 	
 	--Ò»°ãÇé¿öÏÂµÄ¶Ô»°
 	strTalk = {
-		{"TrÇn BÊt Vi: LÇn tr­íc ta du ngo¹n B¸ch ViÖt ®óng lµ vui kh«ng t¶ næi."},
-		{"TrÇn BÊt Vi: Mçi lÇn du ngo¹n ta ®Òu tiÖn tay thu phôc yªu ma trªn ®­êng, mçi lÇn ta ®Òu bŞ th­¬ng nhÑ. Kh«ng ph¶i v× ta kĞm cái mµ khu«n mÆt cña Mai s­ muéi trong lóc trŞ th­¬ng lµm ta khã quªn. "},
-		{"V©n phiªu t¸n thÆng h¹ ca dao, tiªu diªu tø ph­¬ng…"},
+		{"³Â²»Îª: ÉÏ´ÎÎÒÃÇ³öº£ÕæÊÇÌ«ÓĞÈ¤ÁË."},
+		{"À¥ÂØÖ®µÀ£¬ÌìµØÖ®µÀ¡£Çå¾²×ÔÈ»£¬ÎŞÎª¶øĞŞ¡£Ì«Õæ·åÊÇÀ¥ÂØ×ÔÈ»ÏÉÆø×î¼¯ÖĞµÄµØ·½£¬¸÷Ç°±²¶¼Ï²»¶ÔÚÄÇÀï²ÎµÀĞŞÆø£¬¸ü¿ÉÒÔ¹ÛÔòÌìÎÄµØÀí£¬×ÏÎ¢¶·Êı£¬²ÎÎò·û·¨ÌìµÀ¡£µÜ×ÓÇ°È¥ÃØ¾³£¬¶¨ÒªÏòÇ°±²ÃÇĞéĞÄÇë½Ì£¬Ç§Íò²»ÒªÂ³Ã§ĞĞÊÂ°¡¡£. "},
+		{"V©n phiªu t¸n thÆng h? ca dao, tiªu diªu t? ph­¬ng?"},
 		}
 	local i = random(1,getn(strTalk));
 

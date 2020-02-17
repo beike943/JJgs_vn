@@ -1,7 +1,7 @@
 TB_FOX_DIALOG = {
-	"<color=green>Hå Yªu<color>: Lµ ai lµm, ta sÏ kh«ng tha!",
-	"<color=green>Hå Yªu<color>: TrËn ph¸p nµy ngµy cµng m¹nh, ta kh«ng thÓ cö ®éng!",
-	"<color=green>Hå Yªu<color>: Ai tíi cøu ta! Ta...kiÖt søc råi...",
+	"<color=green>Ñıºü<color>:ÊÇË­¸ÉµÄ, ÎÒÈÄ²»ÁËÄã!",
+	"<color=green>Ñıºü<color>: ·âÓ¡Ô½À´Ô½Ç¿,ÎÒ¶¯²»ÁËÁË!",
+	"<color=green>Ñıºü<color>: Ë­À´¾ÈÎÒ! ÎÒ...¾«Æ£Á¦¾¡ÁË...",
 }
 function main()
 	Talk(1,"",TB_FOX_DIALOG[random(getn(TB_FOX_DIALOG))])

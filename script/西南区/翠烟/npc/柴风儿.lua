@@ -5,8 +5,8 @@ function main()
 		return 0;
 	end
 	local t_dia_sel = {
-		"<color=green>Sµi Phong Nhi<color>: MÑ ta ®Æt tªn cho tû tû lµ Hoµng Nhi, cßn ta lµ Ph­îng Nhi, nh­ng ta kh«ng thİch tªn nµy nªn ®æi thµnh Phong Nhi.",
-		"<color=green>Sµi Phong Nhi<color>: Ta muèn lµm c¬n giã tù do tù t¹i, thæi nhÌ nhÑ, nhën nh¬ n¬i thÕ gian nµy."
+		"<color=green>²ñ·ç¶ù<color>: ÎÒÄ¸Ç×¸øÎÒ½ã½ãÈ¡Ãû²ñ»Ë¶ù£¬¸øÎÒÈ¡Ãû²ñ·ï¶ù£¬¿ÉÎÒ²»Ï²»¶Õâ¸öÃû×Ö£¬ËùÒÔÎÒ¸ÄÃûÎª²ñ·ç¶ù.",
+		"<color=green>²ñ·ç¶ù<color>: ÎÒÏë×ö×ÔÓÉ×ÔÔÚµÄ·ç£¬Ïñ·çÒ»ÑùÎŞÉùÎŞÏ¢µØ´µ¹ı£¬Ïñ·çÒ»ÑùÔÚÕâ¸öÊÀ½çÈÎÒâ´©Ëó."
 	}
 	Talk(1,"",t_dia_sel[random(getn(t_dia_sel))])
 end
