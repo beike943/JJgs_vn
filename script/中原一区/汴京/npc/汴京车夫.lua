@@ -1,7 +1,7 @@
 
--- ====================== æ–‡ä»¶ä¿¡æ¯ ======================
+-- ====================== ÎÄ¼şĞÅÏ¢ ======================
 
--- å‰‘ä¾ æƒ…ç¼˜onlineII æˆéƒ½è½¦å¤«è„šæœ¬
+-- ½£ÏÀÇéÔµonlineII ³É¶¼³µ·ò½Å±¾
 -- Edited by peres
 -- 2005/02/22 PM 18:03
 
@@ -34,21 +34,21 @@ function main()
 	end
 
 	if GetLevel() < 15 then
-		Say("æˆ‘ä»¬å…è´¹æ¥é€ç­‰çº§å°äº <color=yellow>15çº§<color>, çš„æ–°æ‰‹ç©å®¶",
+		Say("³µ·ò: <color=yellow>15¼¶<color>ÒÔÏÂµÄĞÂÊÖ£¬ÎÒ¿ÉÒÔÃâ·ÑËÍÄãµ½ÆäËüĞÂÊÖ³ÇÊĞ¡£ÇëÎÊÄãÒªÈ¥ÄÇÀï?",
 		3,
-		"æˆéƒ½/chengdu",
-		"æ³‰å·/quanzhou",
-		"å“¥åªæ˜¯çœ‹çœ‹ï¼Œå“ªå„¿ä¹Ÿä¸æƒ³å»ï¼/no")
+		"³É¶¼/chengdu",
+		"ÈªÖİ/quanzhou",
+		"ÎÒÄÄÀï¶¼²»È¥/no")
 	else
-		Say("åä¸€è¶Ÿè½¦è¦èŠ±è´¹ <color=yellow>"..szTransportPrice.."é‡‘å¸<color> ä½ ç¡®å®šè¦åå—ï¼Ÿ",
+		Say("³µ·ò:ÎÒ¿ÉÒÔ¿ìËÙËÍÄãµ½ÆäËü³ÇÊĞ£¬³µ·Ñ <color=yellow>"..szTransportPrice.."Òø<color>£¬ÇëÎÊÄãÒªÈ¥ÄÇÀï? ",
 		7,
-		"æˆéƒ½("..szTransportPrice.."é‡‘å¸)/chengdu",
-		"æ³‰å· ("..szTransportPrice.."é‡‘å¸)/quanzhou",
-		"è¥„é˜³("..szTransportPrice.."é‡‘å¸)/xiangyang",
-		"æ‰¬å·("..szTransportPrice.."é‡‘å¸)/yangzhou",
-		"å‡¤ç¿”("..szTransportPrice.."é‡‘å¸)/fengxiang",
-		"å¤§ç†("..szTransportPrice.."é‡‘å¸)/dali",
-		"å“¥åªæ˜¯çœ‹çœ‹ï¼Œå“ªå„¿ä¹Ÿä¸æƒ³å»ï¼/no")
+		"³É¶¼ ("..szTransportPrice.."Òø)/chengdu",
+		"ÈªÖİ ("..szTransportPrice.."Òø)/quanzhou",
+		"ÏåÑô ("..szTransportPrice.."Òø)/xiangyang",
+		"ÑïÖİ ("..szTransportPrice.."Òø)/yangzhou",
+		"·ïÏè ("..szTransportPrice.."Òø)/fengxiang",
+		"´óÀí("..szTransportPrice.."Òø)/dali",
+		"ÎÒÄÄÀï¶¼²»È¥/no")
 	return
 	end	
 end
@@ -81,9 +81,9 @@ end;
 function bianjing()
 	n=moneygo()
 	if n==0 then 
-		Talk(1,"","C? tiè¥« th? hç©£ ngéŒ³ xe!")
+		Talk(1,"","°ÑÇ®·ÅÔÚ³µÀï£¡")
 	else 
-		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
+		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
 		i=random(1,4)
 		if i==1 then
 			NewWorld(200, 1501 ,2978)
@@ -92,16 +92,16 @@ function bianjing()
 		else  
 			NewWorld(200, 1249 ,2732)
 		end
-		SetFightState(0); --æ¢åŸè®¾ç½®å…¶æˆ˜æ–—çŠ¶æ€ä¸ºå’Œå¹³æ¨¡å¼ added by vivi 2008-06-03
+		SetFightState(0); --»»³ÇÉèÖÃÆäÕ½¶·×´Ì¬ÎªºÍÆ½Ä£Ê½ added by vivi 2008-06-03
 	end
 end
 
 function chengdu()
 	n=moneygo()
 	if n==0 then 
-		Talk(1,"","C? tiè¥« th? hç©£ ngéŒ³ xe!")
+		Talk(1,"","°ÑÇ®·ÅÔÚ³µÀï£¡")
 	else 
-		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
+		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
 		i=random(1,3)
 --		if i==1 then
 --			NewWorld(300, 1896 ,3655)
@@ -112,7 +112,7 @@ function chengdu()
 		else 
 			NewWorld(300, 1911 ,3442)
 		end
-		SetFightState(0); --æ¢åŸè®¾ç½®å…¶æˆ˜æ–—çŠ¶æ€ä¸ºå’Œå¹³æ¨¡å¼ added by vivi 2008-06-03
+		SetFightState(0); --»»³ÇÉèÖÃÆäÕ½¶·×´Ì¬ÎªºÍÆ½Ä£Ê½ added by vivi 2008-06-03
 	end
 end
 
@@ -122,9 +122,9 @@ end
 function quanzhou()
 	n=moneygo()
 	if n==0 then 
-		Talk(1,"","C? tiè¥« th? hç©£ ngéŒ³ xe!")
+		Talk(1,"","°ÑÇ®·ÅÔÚ³µÀï£¡")
 	else 
-		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
+		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
 		i=random(1,3)
 		if i==1 then
 			NewWorld(100, 1521 ,2870)
@@ -133,7 +133,7 @@ function quanzhou()
 		else 
 			NewWorld(100, 1555 ,3080)
 		end
-		SetFightState(0); --æ¢åŸè®¾ç½®å…¶æˆ˜æ–—çŠ¶æ€ä¸ºå’Œå¹³æ¨¡å¼ added by vivi 2008-06-03
+		SetFightState(0); --»»³ÇÉèÖÃÆäÕ½¶·×´Ì¬ÎªºÍÆ½Ä£Ê½ added by vivi 2008-06-03
 	end
 end
 
@@ -141,9 +141,9 @@ end
 function xiangyang()
 	n=moneygo()
 	if n==0 then 
-		Talk(1,"","C? tiè¥« th? hç©£ ngéŒ³ xe!")
+		Talk(1,"","°ÑÇ®·ÅÔÚ³µÀï£¡")
 	else 
-		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
+		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
 		i=random(1,4)
 		if i==1 then
 			NewWorld(350, 1518 ,3050)
@@ -154,16 +154,16 @@ function xiangyang()
 		else 
 			NewWorld(350, 1542 ,2865)
 		end
-		SetFightState(0); --æ¢åŸè®¾ç½®å…¶æˆ˜æ–—çŠ¶æ€ä¸ºå’Œå¹³æ¨¡å¼ added by vivi 2008-06-03
+		SetFightState(0); --»»³ÇÉèÖÃÆäÕ½¶·×´Ì¬ÎªºÍÆ½Ä£Ê½ added by vivi 2008-06-03
 	end
 end
 
 function yangzhou()
 	n=moneygo()
 	if n==0 then 
-		Talk(1,"","C? tiè¥« th? hç©£ ngéŒ³ xe!")
+		Talk(1,"","°ÑÇ®·ÅÔÚ³µÀï£¡")
 	else 
-		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
+		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
 		i=random(1,4)
 		if i==1 then
 			NewWorld(150, 1724 ,3075)
@@ -174,7 +174,7 @@ function yangzhou()
 		else 
 			NewWorld(150, 1757 ,3179)
 		end
-		SetFightState(0); --æ¢åŸè®¾ç½®å…¶æˆ˜æ–—çŠ¶æ€ä¸ºå’Œå¹³æ¨¡å¼ added by vivi 2008-06-03
+		SetFightState(0); --»»³ÇÉèÖÃÆäÕ½¶·×´Ì¬ÎªºÍÆ½Ä£Ê½ added by vivi 2008-06-03
 	end
 end
 
@@ -182,9 +182,9 @@ end
 function fengxiang()
 	n=moneygo()
 	if n==0 then 
-		Talk(1,"","C? tiè¥« th? hç©£ ngéŒ³ xe!")
+		Talk(1,"","°ÑÇ®·ÅÔÚ³µÀï£¡")
 	else 
-		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
+		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
 		i=random(1,4)
 		if i==1 then
 			NewWorld(500, 1846 ,3043)
@@ -195,16 +195,16 @@ function fengxiang()
 		else
 			NewWorld(500, 1664 ,3226)
 		end
-		SetFightState(0); --æ¢åŸè®¾ç½®å…¶æˆ˜æ–—çŠ¶æ€ä¸ºå’Œå¹³æ¨¡å¼ added by vivi 2008-06-03
+		SetFightState(0); --»»³ÇÉèÖÃÆäÕ½¶·×´Ì¬ÎªºÍÆ½Ä£Ê½ added by vivi 2008-06-03
 	end
 end;
 
 function dali()
 	n=moneygo()
 	if n==0 then 
-		Talk(1,"","C? tiè¥« th? hç©£ ngéŒ³ xe!")
+		Talk(1,"","°ÑÇ®·ÅÔÚ³µÀï£¡")
 	else 
-		CleanInteractive();	--è§£é™¤ç©å®¶äº’åŠ¨åŠ¨ä½œ added by yanjun 2006-3-14
+		CleanInteractive();	--½â³ıÍæ¼Ò»¥¶¯¶¯×÷ added by yanjun 2006-3-14
 		i=random(1,3)
 		if i==1 then
 			NewWorld(400, 1567 ,3117)
@@ -213,7 +213,7 @@ function dali()
 		else
 			NewWorld(400, 1579 ,2883)
 		end
-		SetFightState(0); --æ¢åŸè®¾ç½®å…¶æˆ˜æ–—çŠ¶æ€ä¸ºå’Œå¹³æ¨¡å¼ added by vivi 2008-06-03
+		SetFightState(0); --»»³ÇÉèÖÃÆäÕ½¶·×´Ì¬ÎªºÍÆ½Ä£Ê½ added by vivi 2008-06-03
 	end
 end;
 
