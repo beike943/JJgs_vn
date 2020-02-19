@@ -11,8 +11,8 @@ function OnDeath(npcIndex)
 			Msg2Player("B¹n nhËn ®­îc mét tói lÔ vËt Gi¸ng Sinh");
 		end
 	end
-	if npcName == "B¾c Lôc L©m Minh Chñ" then
-		local npcIndex = CreateNpc("B¾c Lôc L©m lÖnh","B¾c Lôc L©m lÖnh",GetNpcWorldPos(npcIndex));
+	if npcName == "±±ÂÌÁÖÃËÖ÷" then
+		local npcIndex = CreateNpc("B¾c Lôc L©m lÖnh","±±ÂÌÁÖÁî",GetNpcWorldPos(npcIndex));
 		SetNpcScript(npcIndex,"\\script\\task\\tasklink\\taskitem.lua");
 		SetNpcLifeTime(npcIndex,5*60);	--Éú´æÊ±¼ä£º£µ·ÖÖÓ
 		-- µÃµ½µ±Ç°µÄnpc×ø±ê
@@ -26,13 +26,13 @@ function OnDeath(npcIndex)
 			nAddX = random(-30, 30)
 			nAddY = random(-30, 30)
 			
-			nTargetNpc = CreateNpc("Tói cao thñ", "Tói cña B¾c Lôc L©m Minh Chñ", nMapID, nWx + nAddX, nWy + nAddY)
+			nTargetNpc = CreateNpc("Tói cao thñ", "±±ÂÌÁÖÃËÖ÷µÄ°ü¹ü", nMapID, nWx + nAddX, nWy + nAddY)
 			AddUnitStates(nTargetNpc, 6, GetTime())
 			SetNpcLifeTime(nTargetNpc, 600)
 			SetNpcScript(nTargetNpc, "\\script\\task\\boss\\boss_baoguo.lua")
 		end		
-	elseif npcName == "Th­¬ng ThÇn Doanh Thiªn" then
-		local npcIndex = CreateNpc("Trôc ¶nh Th­¬ng","Trôc ¶nh Th­¬ng",GetNpcWorldPos(npcIndex));
+	elseif npcName == "Ç¹ÉñÓ®Ìì" then
+		local npcIndex = CreateNpc("Trôc ¶nh Th­¬ng","ÖðÓ°Ç¹",GetNpcWorldPos(npcIndex));
 		SetNpcScript(npcIndex,"\\script\\task\\tasklink\\taskitem.lua");
 		SetNpcLifeTime(npcIndex,5*60);	--Éú´æÊ±¼ä£º£µ·ÖÖÓ	
 		-- µÃµ½µ±Ç°µÄnpc×ø±ê
@@ -46,12 +46,12 @@ function OnDeath(npcIndex)
 			nAddX = random(-30, 30)
 			nAddY = random(-30, 30)
 			
-			nTargetNpc = CreateNpc("Tói cao thñ", "Tói cña Th­¬ng ThÇn Doanh Thiªn", nMapID, nWx + nAddX, nWy + nAddY)
+			nTargetNpc = CreateNpc("Tói cao thñ", "Ç¹ÉñÓ®ÌìµÄ°ü¹ü", nMapID, nWx + nAddX, nWy + nAddY)
 			AddUnitStates(nTargetNpc, 6, GetTime())
 			SetNpcLifeTime(nTargetNpc, 600)
 			SetNpcScript(nTargetNpc, "\\script\\task\\boss\\boss_baoguo.lua")
 		end		
-	elseif npcName == "L·nh H­¬ng L¨ng" then
+	elseif npcName == "ÀäÏãÁâ" then
 		---- NhiÖm vô chuyÓn sinh 5
 	local nTeamSize = GetTeamSize()
 	if nTeamSize >= 2 then
@@ -75,7 +75,7 @@ function OnDeath(npcIndex)
 		end
 	end
 		
-		local npcIndex = CreateNpc("TuyÖt T×nh Th¹ch","TuyÖt T×nh Th¹ch",GetNpcWorldPos(npcIndex));
+		local npcIndex = CreateNpc("TuyÖt T×nh Th¹ch","¾øÇéÊ¯",GetNpcWorldPos(npcIndex));
 		SetNpcScript(npcIndex,"\\script\\task\\tasklink\\taskitem.lua");
 		SetNpcLifeTime(npcIndex,5*60);	--Éú´æÊ±¼ä£º£µ·ÖÖÓ	
 		-- µÃµ½µ±Ç°µÄnpc×ø±ê
@@ -89,7 +89,7 @@ function OnDeath(npcIndex)
 			nAddX = random(-30, 30)
 			nAddY = random(-30, 30)
 			
-			nTargetNpc = CreateNpc("Tói cao thñ", "Tói cña L·nh H­¬ng L¨ng", nMapID, nWx + nAddX, nWy + nAddY)
+			nTargetNpc = CreateNpc("Tói cao thñ", "ÀäÏãÁâµÄ°ü¹ü", nMapID, nWx + nAddX, nWy + nAddY)
 			AddUnitStates(nTargetNpc, 6, GetTime())
 			SetNpcLifeTime(nTargetNpc, 600)
 			SetNpcScript(nTargetNpc, "\\script\\task\\boss\\boss_baoguo.lua")

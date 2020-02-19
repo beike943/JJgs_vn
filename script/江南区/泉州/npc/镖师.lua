@@ -21,9 +21,9 @@ function main()
 		task_013_00()
 		return
 	else
-		Say("M鋓 ngi h穣 mau n <color=yellow>Th祅h Й<color> t mua Sinh Th莕 Cang!",
+		Say("大家去 <color=yellow>成都<color>找镖师吧!",
 			1,	
-			"Ta bi誸 r錳/Zgc_end_dialog"
+			"我知道了/Zgc_end_dialog"
 		)
 	end
 	

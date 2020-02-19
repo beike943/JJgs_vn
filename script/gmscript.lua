@@ -182,15 +182,12 @@ function closeDataCall(nState)
 end;
 -------------------------ÕÙ»½BOSS---------------------------
 function createBoss(Random1,Random2,Random3)
-	if tonumber(date("%H")) == 23 then
-		return
-	end
 --ÕÙ»½±±ÂÌÁÖÃËÖ÷
 	x=random(1,Pos[Random1][1]) --Í¬Ò»µØÍ¼ÉÏ¶à¸öµãËæ»úÕÒÒ»¸öË¢
 	npcIndex = CreateNpc(Boss[1][1],Boss[1][2],Pos[Random1][2],Pos[Random1][x+2][1],Pos[Random1][x+2][2],-1,1,1,30)
-	msg="Nghe nãi minh chñ lôc l©m x­ng b¸ s¬n tr¹i phİa b¾c ®ang ë "..Pos[Random1][Pos[Random1][1]+3].." hiÖn th©n, ch¾c ®ang cã ©m m­u!"
+	msg="¾İËµ³Æ°Ô±±·½ÂÌÁÖµÄ±±ÂÌÁÖÃËÖ÷Í»È»ÔÚ"..Pos[Random1][Pos[Random1][1]+3].."³öÏÖ£¬ÏëÀ´±ØÓĞÒõÄ±£¡"
 		for i=1,3 do
-		AddGlobalNews(msg)
+		AddLocalNews(msg)
 		end
 	SetNpcLifeTime(npcIndex, 7200)
 	SetNpcScript(npcIndex, "\\script\\task\\boss\\boss_ondeath.lua")
@@ -198,25 +195,24 @@ function createBoss(Random1,Random2,Random3)
 --ÕÙ»½Ç¹ÉñÓ®Ìì
 	y=random(1,Pos[Random2][1]) --Í¬Ò»µØÍ¼ÉÏ¶à¸öµãËæ»úÕÒÒ»¸öË¢
 	npcIndex = CreateNpc(Boss[2][1],Boss[2][2],Pos[Random2][2],Pos[Random2][y+2][1],Pos[Random2][y+2][2],-1,1,1,30)
-	msg="Nghe nãi thŞ vÖ th©n tİn cña TÇn Thñy Hoµng lµ Th­¬ng ThÇn Doanh Thiªn ®· xuÊt hiÖn t¹i "..Pos[Random2][Pos[Random2][1]+3].." vâ l©m s¾p cã mét trËn hµo kiÕp!"
+	msg="´«ËµÇØÊ¼»ÊµÄÌùÉíÊÌÎÀÇ¹ÉñÓ®ÌìÒÑ¾­»¯Îª»ÃÓ°£¬²¢ÔÚ"..Pos[Random2][Pos[Random2][1]+3].."³öÏÖ£¬½­ºşÉÏÓÖ½«ÒıÆğÒ»ÕóÑªÓêĞÈ·ç£¡"
 		for i=1,3 do
-		AddGlobalNews(msg)
+		AddLocalNews(msg)
 		end
 	SetNpcLifeTime(npcIndex, 7200)
 	SetNpcScript(npcIndex, "\\script\\task\\boss\\boss_ondeath.lua")
 
 --ÕÙ»½ÀäÏãÄı
 	z=random(1,Pos[Random3][1]) --Í¬Ò»µØÍ¼ÉÏ¶à¸öµãËæ»úÕÒÒ»¸öË¢
-	date=tonumber(date("%w"))
-	if(date==5 or date==6) then
+
 	npcIndex = CreateNpc(Boss[3][1],Boss[3][2],Pos[Random3][2],Pos[Random3][z+2][1],Pos[Random3][z+2][2],-1,1,1,30)
-	msg="Nghe nãi hån ma L·nh H­¬ng L¨ng 10 n¨m tr­íc tõng lµ hoa kh«i Giang T©n Th«n nay xuÊt hiÖn t¹i"..Pos[Random3][Pos[Random3][1]+3].."mau ®Õn ®ã xem thö dung nhan kiÒu diÔm cña nµng!"
+	msg="Ïà´«ÊıÊ®ÄêÇ°½­½ò´å²âÍ·ÅÆÀäÏãÄı»êÆÇÍ»È»ÔÚ"..Pos[Random3][Pos[Random3][1]+3].."Ó°ÏÖ£¬´ó¼Ò¸Ï¿ìÈ¥Ò»¶Ã·¼Èİ£¡"
 		for i=1,3 do
-		AddGlobalNews(msg)
+		AddLocalNews(msg)
 		end
 	SetNpcLifeTime(npcIndex, 7200)
 	SetNpcScript(npcIndex, "\\script\\task\\boss\\boss_ondeath.lua")
-    	end
+
 end
 function createNewResBoss(nBossType,nPosType)
 	local tbMapID = 

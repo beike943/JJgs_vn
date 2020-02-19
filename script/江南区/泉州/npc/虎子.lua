@@ -14,15 +14,15 @@ function main()
 local nTaskValue = FN_GetTaskState(FN_EM);
 local strMain = {
 
-		"Muéi muéi ®¸ng yªu qu¸….Nµo! Tíi ®©y ca ca h«n c¸i coi!",
-		"Qu¶ nhiªn lµ ¸c ®å! §Ó ta cho ng­¬i biÕt lÔ ®é!"
+		"ÎÒºÃ¿É°®...ºÙ£¡ À´ÕâÀï!",
+		"ºÃ°¡!"
 
 	}
 	if (nTaskValue==3) then
 		TE_Talk(getn(strMain), "task_010", strMain);
 		return
 	else
-		Say("Kh«ng cã g× th× biÕn ®i!",0);
+		Say("Ã»ÊÂ×ß¿ª...!",0);
 	end
 
 end

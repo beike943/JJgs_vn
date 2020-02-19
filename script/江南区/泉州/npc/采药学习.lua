@@ -18,7 +18,7 @@ strTitle = "";
 --*****************************************MAINº¯Êı*****************************************
 function main()
 	 if GetAntiEnthrallmentStatus() > 1 then
-	 	Talk(1,"","§· qu¸ 5 giê ch¬i, h·y nghØ ng¬i ®Ó gi÷ g×n søc kháe!")
+	 	Talk(1,"","§· qu?5 gi?ch¬i, h·y ngh?ng¬i ®Ó gi?g×n søc kháe!")
 	 	return
 	 end
 	strName = GetTargetNpcName()
@@ -29,8 +29,8 @@ function main()
 	
 	-----------------------------------------ĞÂÊÖÈÎÎñ-----------------------------------------
     if (GetTask(ID_LEARNLIFESKILL) < 15) then
-        Say(strTitle.."§Õn <color=yellow>CÊp 10<color> cã thÓ ®Õn <color=yellow>Thµnh §«<color> gÆp <color=yellow>Du Ph­¬ng ®¹i phu<color> t×m hiÓu <color=yellow>kü n¨ng sèng<color>!", 0)
-        TaskTip("§Õn cÊp 10 cã thÓ ®Õn Thµnh §« t×m Du Ph­¬ng ®¹i phu.")       
+        Say(strTitle.."µÈ<color=yellow>10 ¼¶<color> ºóÈ¥<color=yellow>³É¶¼<color> ÕÒ <color=yellow>ÓÎ·½Ò½Éú<color> ¿ªÆô <color=yellow>Éú»î¼¼ÄÜÈÎÎñ<color>!", 0)
+        TaskTip("10¼¶ºóÈ¥³É¶¼ÕÒÓÎ·½Ò½Éú.")       
         return 
     end
     
@@ -46,15 +46,15 @@ function main()
 	end	
 
 ---------------------------------------------Ö÷¶Ô»°-------------------------------------------
-    Say(strTitle.."N¨m nay chiÕn lo¹n liªn miªn, giang hå hiÓm ¸c. BiÕt chót y thuËt cã thÓ tù lo cho m×nh vµ gióp ®ì ng­êi kh¸c! ThËt lµ nhÊt cö l­ìng tiÖn!",
+    Say(strTitle.."ÎÒÖ»»á²ÉÒ©£¬ÄãÏë¸É£¿!",
 		6,
-		"Häc kü n¨ng h¸i thuèc./luaLearnLifeSkill",
-		"§Õn Nam Hße cèc (s¬ cÊp)/GotoWorld_Confirm1",
-		"§Õn Hµm U cèc (trung cÊp)/GotoWorld_Confirm2",
-		"§Õn Hiªn Viªn cèc (cao cÊp)/GotoWorld_Confirm3",
-		--"ÒÅÍü²ÉÒ©¼¼ÄÜ/forget_life_skill",
-		"Ta muèn t×m hiÓu tin tøc vÒ h¸i thuèc./Info",
-		"Rêi khái/Main_Exit");
+		"Ñ§Ï°²É¼¯¼¼ÄÜ./luaLearnLifeSkill",
+		"È¥²É¼¯µØÍ¼1/GotoWorld_Confirm1",
+		"È¥²É¼¯µØÍ¼2/GotoWorld_Confirm2",
+		"È¥²É¼¯µØÍ¼3/GotoWorld_Confirm3",
+		"ÒÅÍü²ÉÒ©¼¼ÄÜ/forget_life_skill",
+		"½éÉÜÏà¹ØĞÅÏ¢/Info",
+		"Ã»ÊÂÁË/Main_Exit");
 end;
 
 -- ÒÅÍüÉú»î¼¼ÄÜ
@@ -70,12 +70,12 @@ function forget_life_skill()
 			nShouldPay = 500
 		end
 	
-		Say(strTitle.."§©y lµ lÇn thø "..(nForgetTimes + 1)..", ng­¬i hñy kü n¨ng thu thËp, ta ph¶i thu"..nShouldPay.." l­îng, ng­¬i suy nghÜ kü ch­a?",
+		Say(strTitle.."²»Ïë²É¼¯ÁË£¿"..(nForgetTimes + 1)..", ng­¬i hñy k?n¨ng thu thËp, ta ph¶i thu"..nShouldPay.." l­îng, ng­¬i suy ngh?k?ch­a?",
 			2,
-			"Ta ®· quyÕt ®Şnh råi!/forget_now",
-			"Khoan ®·! Chê ta suy nghÜ l¹i!/SayHello")
+			"²»Ïë¸ÉÁË£¬ÍüÁË°É/forget_now",
+			"ÔÙÏëÏë/SayHello")
 	else
-		Say(strTitle.."Ng­¬i ch­a häc kü n¨ng h¸i thuèc, ta kh«ng thÓ gióp ng­¬i!", 0)
+		Say(strTitle.."Äã±¾À´Ò²²»»á²É¼¯°¡£¬±ğÀ´ÎÒÕâµ·ÂÒ!", 0)
 	end
 end;
 function forget_now()
@@ -98,10 +98,10 @@ function forget_now()
 			else
 				SetTask(FORGETOHTER_NUM, nForgetTimes + 1)
 				SetTask(LEVELTASKID49, 0)
-				Msg2Player("Ng­¬i ®· hñy kü n¨ng h¸i thuèc.")				
+				Msg2Player("ÍüÁË²É¼¯¼¼ÄÜ")				
 			end
 		else
-			Say(strTitle.."Ng­¬i kh«ng mang theo ®ñ tiÒn! LÊy tiÒn råi h·y ®Õn nhĞ!", 0)
+			Say(strTitle.."ÍüÁË²É¼¯¼¼ÄÜ", 0)
 		end
 	end
 end;
@@ -112,61 +112,61 @@ end;
 -- Ñ§Ï°Éú»î¼¼ÄÜ
 function luaLearnLifeSkill()
     if (GetLevel() < 10) then
-        Say (strTitle.."Hõm… Th©n thñ cña ng­¬i cßn kĞm l¾m. H·y ra ngoµi thµnh tu luyÖn ®Õn cÊp 10 h·y ®Õn t×m ta!", 0)
+        Say (strTitle.."10¼¶ÒÔÏÂµÄÈËÎÒ²»½Ì£¡", 0)
 		return
 	end
 
 	-- ÅĞ¶ÏÊÇ·ñÒÑ¾­Ñ§»áÁË²É¼¯¼¼ÄÜ - ²ÉÒ©
 	if (GetLifeSkillLevel(0, 4) > 0) then
-        Say (strTitle.."B¹n trÎ! Ng­¬i ®· häc ®­îc tÊt c¶ kü n¨ng h¸i thuèc!", 0)
+        Say (strTitle.."ÄãÒÑ¾­Ñ§»áÁË°¡", 0)
 		return
 	end
 
 	if GetLifeSkillsNum(0)>=2 then
-        Say (strTitle.."B¹n ®· häc 2 Kü n¨ng thu thËp, kh«ng thÓ häc thªm n÷a!",0)
+        Say (strTitle.."ÄãÒÑ¾­Ñ§ÁËÁ½¸ö²É¼¯¼¼ÄÜÁË£¬ÔÙÑ§¶àÀÛ°¡",0)
 		return
 	end
 	
-	Say(strTitle.."<color=yellow>H¸i thuèc<color> sÏ lµ kü n¨ng thu thËp míi cña ng­¬i! Ng­¬i cã muèn häc kh«ng?",
+	Say(strTitle.."È·¶¨ÒªÑ§Ï°<color=yellow>²É¼¯<color>Âğ£¿",
     	2,
-    	"Ta muèn häc/LearnYes",
-    	"§Ó ta suy nghÜ l¹i/LearnNo")
+    	"ÎÒÒªÑ§Ï°/LearnYes",
+    	"°¡£¬²»Ñ§ÁË/LearnNo")
 end;
 --Ñ§Ï°¼¼ÄÜ
 function LearnYes()
 	if (GetLifeSkillLevel(0, 4) > 0) then
-		Say (strTitle.."Ng­¬i ®· häc ®­îc tÊt c¶ kü n¨ng h¸i thuèc!", 0)
+		Say (strTitle.."Ng­¬i ®· häc ®­îc tÊt c?k?n¨ng h¸i thuèc!", 0)
 	else
 		if (LearnLifeSkill(0, 4, 1, 79, 0)) then
 			AddItem(0, 200, 16, 1, 1)
-        	Msg2Player("B¹n häc ®­îc kü n¨ng thu thËp: H¸i thuèc vµ nhËn ®­îc cuèc thuèc.")
+        	Msg2Player("ÒÑ¾­Ñ§»áÀ²£¡")
     	end
 	end
 end;
 --È¡ÏûÑ§Ï°¼¼ÄÜ
 function LearnNo()
-    Say (strTitle.."NghÜ kü råi h·y ®Õn!", 0)
+    Say (strTitle.."²»Ñ§ÊÇ¶ÔµÄ", 0)
 end;
 
 
 
 -- È·ÈÏÈ¥ÏàÓ¦¹Ò»úµØµã=====================================================================
 function GotoWorld_Confirm1()
-	Say(strTitle.."Ng­¬i muèn ®Õn <color=yellow>Nam Hße cèc<color> h¸i thuèc kh«ng? N¬i ®ã cã nhiÒu <color=yellow>Ba ®Ëu<color>, <color=yellow>Tµng Hång Hoa<color>, <color=yellow>C¸t C¸nh<color> vµ <color=yellow>Hoµng liªn<color>. Nhí mang theo <color=yellow>Cuèc thuèc<color>!",
+	Say(strTitle.."È¥²É¼¯µØÍ¼1£¿ <color=yellow>Nam Hße cèc<color> ÕâÀïÓĞ <color=yellow>Ba ®Ëu<color>, <color=yellow>Tµng Hång Hoa<color>, <color=yellow>C¸t C¸nh<color> v?<color=yellow>Hoµng liªn<color>. Nh?mang theo <color=yellow>Cuèc thuèc<color>!",
 		2,
-		"Ta muèn ®i/#GotoWorld(714, 1511, 3004)",
-		"Kh«ng ®i ®©u/Main_Exit");
+		"ÏÖÔÚ¾ÍÈ¥/#GotoWorld(714, 1511, 3004)",
+		"ÏÈ²»È¥ÁË/Main_Exit");
 end;
 function GotoWorld_Confirm2()
-	Say(strTitle.."Ng­¬i muèn ®Õn <color=yellow>Hµm U cèc<color> h¸i thuèc kh«ng? N¬i ®ã cã nhiÒu <color=yellow>X¸c ve<color>, <color=yellow>§iÒn thÊt<color> vµ <color=yellow>Xuyªn s¬n gi¸p<color>. Nhí mang theo <color=yellow>Cuèc thuèc<color>!",
+	Say(strTitle.."È¥²É¼¯µØÍ¼2£¿ <color=yellow>Hµm U cèc<color> ÕâÀïÓĞ <color=yellow>X¸c ve<color>, <color=yellow>§iÒn thÊt<color> v?<color=yellow>Xuyªn s¬n gi¸p<color>. Nh?mang theo <color=yellow>Cuèc thuèc<color>!",
 		2,
-		"Ta muèn ®i/#GotoWorld(719, 1708, 3396)",
-		"Kh«ng ®i ®©u/Main_Exit");
+		"ÏÖÔÚ¾ÍÈ¥/#GotoWorld(719, 1708, 3396)",
+		"ÏÈ²»È¥ÁË/Main_Exit");
 end;
 function GotoWorld_Confirm3()
-	Say(strTitle.."Ng­¬i muèn ®Õn <color=yellow>Hiªn Viªn cèc<color> h¸i thuèc kh«ng? N¬i ®ã cã nhiÒu <color=yellow>X¹ h­¬ng<color>, <color=yellow>gan gÊu<color> vµ <color=yellow>Nh©n s©m<color>. Nhí lÊy <color=yellow>cuèc thuèc<color> míi cã thÓ h¸i thuèc!",	2,
-		"Ta muèn ®i/#GotoWorld(724, 1721, 3386)",
-		"Kh«ng ®i ®©u/Main_Exit");
+	Say(strTitle.."È¥²É¼¯µØÍ¼3£¿<color=yellow>Hiªn Viªn cèc<color> ÕâÀïÓĞ <color=yellow>X?h­¬ng<color>, <color=yellow>gan gÊu<color> v?<color=yellow>Nh©n s©m<color>. Nh?lÊy <color=yellow>cuèc thuèc<color> míi c?th?h¸i thuèc!",	2,
+		"ÏÖÔÚ¾ÍÈ¥/#GotoWorld(724, 1721, 3386)",
+		"ÏÈ²»È¥ÁË/Main_Exit");
 end;
 -- È¥ÏàÓ¦µÄ¹Ò»úµØµã
 function GotoWorld(MapID, x, y)
@@ -180,7 +180,9 @@ end;
 
 -- ½éÉÜÏà¹ØĞÅÏ¢
 function Info()
-	Say(strTitle.."<color=yellow>H¸i thuèc<color> lµ mét trong <color=yellow>6<color> kü n¨ng thu thËp trong hÖ thèng kü n¨ng sèng. Häc ®­îc kü n¨ng nµy cã thÓ nhËn ®­îc vËt liÖu <color=yellow>luyÖn ®¬n<color>. Ng­¬i cã thÓ ®Õn <color=yellow>tiÖm t¹p hãa<color> mua c«ng cô h¸i thuèc <color=yellow>s¬ cÊp<color> ®Ó lªn nói t×m thuèc!", 0);
+	--Say(strTitle.."<color=yellow>H¸i thuèc<color> l?mét trong <color=yellow>6<color> k?n¨ng thu thËp trong h?thèng k?n¨ng sèng. Häc ®­îc k?n¨ng nµy c?th?nhËn ®­îc vËt liÖu <color=yellow>luyÖn ®¬n<color>. Ng­¬i c?th?®Õn <color=yellow>tiÖm t¹p hãa<color> mua c«ng c?h¸i thuèc <color=yellow>s?cÊp<color> ®Ó lªn nói t×m thuèc!", 0);
+	Say(strTitle.."<color=yellow>²É¼¯ÊÇÃÅÒÕÊõ£¬±ğµÄÎÒ¾Í²»¶àËµÁË¡£<color>", 0);
+
 end;
 
 -- Ê²Ã´Ò²²»×öµÄ¿Õº¯Êı
