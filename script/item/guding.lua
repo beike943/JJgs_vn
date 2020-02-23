@@ -3,8 +3,8 @@ TB_GUINSECT_INFO =
 {
 	[1] = 
 	{
-		["name"] = "蛊鼎",
-		[1] = {"蛊",1},
+		["name"] = "虫蛊",
+		[1] = {"幼蛊",1},
 	},
 	[2] = 
 	{
@@ -63,7 +63,7 @@ TSK_TEMP_ID = 126;	--记录取出的蛊的ID，这个变量和麻将箱子的临
 
 MAX_SEL_PER_PAGE = 5;	--每页最大显示数量
 
-g_szInfoHeader = "<color=green>Th莕 m閏 vng nh<color>: ";
+g_szInfoHeader = "<color=green>泰光<color>: ";
 
 function OnUse()
 	local selTab = {
@@ -79,7 +79,7 @@ function get_guinsect()
 	local nGuInsectNum = 0;
 	for i=1,getn(TB_GUINSECT_INFO) do
 		nGuInsectNum = get_guinsect_num(i);
-		tinsert(selTab,TB_GUINSECT_INFO[i]["name"].."("..nGuInsectNum.." con)/#select_guinsect("..i..")");
+		tinsert(selTab,TB_GUINSECT_INFO[i]["name"].."("..nGuInsectNum.."只)/#select_guinsect("..i..")");
 	end;
 	tinsert(selTab,"\n暂时不取出/OnUse");
 	Say(g_szInfoHeader.."你想要取出蛊虫吗？",getn(selTab),selTab);
@@ -128,7 +128,7 @@ function get_select_list(nType)
 		nGuInsectID = TB_GUINSECT_INFO[nType][i][2];
 		nTaskID = TSK_BASE_ID+nGuInsectID-1;
 		nCurNum = GetTask(nTaskID);
-		szCmdStr = gf_FormatStringLength(TB_GUINSECT_INFO[nType][i][1],10).."("..nCurNum.." con)/#input_guinsect_num("..nType..","..i..","..nCurNum..")";
+		szCmdStr = gf_FormatStringLength(TB_GUINSECT_INFO[nType][i][1],10).."("..nCurNum.."只)/#input_guinsect_num("..nType..","..i..","..nCurNum..")";
 		tinsert(tbSelTab,szCmdStr);
 	end;
 	return tbSelTab;
@@ -159,12 +159,12 @@ function get_guinsect_callback(nNum)
 	end;
 	local szGuInsectName = TB_GUINSECT_INFO[nType][nDetailType][1];
 	if nCurGuInsectNum < nNum then
-		Talk(1,"get_guinsect",g_szInfoHeader.."蛊鼎里的数量"..szGuInsectName.."不足"..nNum.."con");
+		Talk(1,"get_guinsect",g_szInfoHeader.."蛊鼎里的数量"..szGuInsectName.."不足"..nNum.."只");
 		return 0;
 	end;
 	AddGuInsectIntoBottle(nGuInsectID,-nNum);
 	AddItem(GU_INSECT_ID1,GU_INSECT_ID2,nGuInsectID,nNum);
-	Msg2Player("你取出"..nNum.." con"..szGuInsectName);
+	Msg2Player("你取出"..nNum.."只"..szGuInsectName);
 	select_guinsect(nType);
 end;
 --根据蛊的ID获得蛊的信息索引
