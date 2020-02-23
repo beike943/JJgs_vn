@@ -5,6 +5,6 @@ function OnUse(nItemIdx)
 	end;
 	if DelItemByIndex(nItemIdx,1) == 1 then
 		AddItem(2,1,1201,10);
-		Msg2Player("B¹n nhËn ®­îc 10 Dòng SÜ LÖnh");
+		Msg2Player("ä½ èŽ·å¾—äº†10ä¸ªå‹‡å£«ä»¤");
 	end;
 end;
