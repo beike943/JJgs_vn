@@ -9,7 +9,7 @@ function OnUse(nItemIdx)
 	local selTab = {
 				format("知道了，我现在要打开。/#open(%d)",nItemIdx),
 				"让我看看里面有什么/see_item",
-				"暂时打不开/nothing",
+				"暂时不开/nothing",
 				}
 	Say("这是你第<color=yellow>"..nCurCount.."<color>次打开<color=yellow>"..g_ItemName.."。<color>请注意:打开两个袋子获得一个军功章,打开10个获得1颗宝石,打开20个获得一本中卷残篇,打开80个可获得一颗龙血丸,打开150个可获得一颗战神丸, 打开200个可获得一匹奔宵或腾雾马,打开240个可获得一本镇派秘籍，你确定打开<color=yellow>"..g_ItemName.."<color>吗? <color=red>请注意<color>:你必须拥有足够的"..g_NeedRoom.."格背包空间和"..g_NeedWeight.."的负重力;如果你还没有加入门派，你将随机获得一个门派。",getn(selTab),selTab);
 end;
