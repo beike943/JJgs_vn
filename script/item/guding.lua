@@ -3,77 +3,77 @@ TB_GUINSECT_INFO =
 {
 	[1] = 
 	{
-		["name"] = "cæ  ",
-		[1] = {"cæ",1},
+		["name"] = "è›Šé¼",
+		[1] = {"è›Š",1},
 	},
 	[2] = 
 	{
-		["name"] = "§éc hÖ",
-		[1] = {"§éc cæ",2},	
-		[2] = {"M·nh ®éc cæ",3},	
-		[3] = {"§éc yªu cæ",4},
-		[4] = {"Yªu cæ",14},
-		[5] = {"Thùc Yªu Cæ",15},	
-		[6] = {"Yªu Hoµng Cæ",16},
+		["name"] = "æ¯’è›Š",
+		[1] = {"æ¯’è›Š",2},	
+		[2] = {"çŒ›æ¯’è›Š",3},	
+		[3] = {"æ¯’å¦–è›Š",4},
+		[4] = {"å¦–è›Š",14},
+		[5] = {"é£Ÿå¦–è›Š",15},	
+		[6] = {"å¦–çš‡è›Š",16},
 	},
 	[3] = 
 	{
-		["name"] = "HuyÕt hÖ",
-		[1] = {"HuyÕt cæ",5},	
-		[2] = {"ThŞ huyÕt cæ",6},	
-		[3] = {"HuyÕt Tinh cæ",7},	
-		[4] = {"HuyÔn Cæ",20},	
-		[5] = {"B¨ng HuyÔn Cæ",21},	
-		[6] = {"Vong Tiªn cæ",22},	
+		["name"] = "è¡€è›Š",
+		[1] = {"è¡€è›Š",5},	
+		[2] = {"å—œè¡€è›Š",6},	
+		[3] = {"è¡€ç²¾è›Š",7},	
+		[4] = {"å¹»è›Š",20},	
+		[5] = {"å†°å¹»è›Š",21},	
+		[6] = {"å¿˜ä»™è›Š",22},	
 	},
 	[4] = 
 	{
-		["name"] = "Linh hÖ",
-		[1] = {"T©m cæ",17},	
-		[2] = {"Thùc T©m Cæ",18},	
-		[3] = {"T©m S¸t cæ",19},	
-		[4] = {"H­¬ng cæ",8},	
-		[5] = {"Mª h­¬ng cæ",9},	
-		[6] = {"§Ò Hå cæ",10},	
-		[7] = {"Linh cæ",26},	
-		[8] = {"Linh Lung cæ",27},	
-		[9] = {"ThÊt Th¸i TiÓu Tiªn Cæ",28},		
+		["name"] = "çµè›Š",
+		[1] = {"å¿ƒè›Š",17},	
+		[2] = {"èš€å¿ƒè›Š",18},	
+		[3] = {"å¿ƒç…è›Š",19},	
+		[4] = {"é¦™è›Š",8},	
+		[5] = {"è¿·é¦™è›Š",9},	
+		[6] = {"é†’é†è›Š",10},	
+		[7] = {"çµè›Š",26},	
+		[8] = {"ç²ç‘è›Š",27},	
+		[9] = {"ä¸ƒå½©å°ä»™è›Š",28},		
 	},
 	[5] = 
 	{
-		["name"] = "Ma hÖ",
-		[1] = {"Thi cæ",11},	
-		[2] = {"Tam thi cæ",12},	
-		[3] = {"Quú V­¬ng cæ",13},	
-		[4] = {"Tµm cæ",23},	
-		[5] = {"HuyÕt Tµm cæ",24},	
-		[6] = {"Kim Tµm cæ",25},	
-		[7] = {"Ma cæ",29},	
-		[8] = {"U ¶nh cæ",30},
-		[9] = {"V« ¶nh Ma Cæ",31},	
+		["name"] = "å°¸è›Š",
+		[1] = {"å°¸è›Š",11},	
+		[2] = {"ä¸‰å°¸è›Š",12},	
+		[3] = {"é¬¼ç‹è›Š",13},	
+		[4] = {"è ºè›Š",23},	
+		[5] = {"è¡€è ¶è›Š",24},	
+		[6] = {"é‡‘è ¶è›Š",25},	
+		[7] = {"é­”è›Š",29},	
+		[8] = {"å¹½å½±è›Š",30},
+		[9] = {"æ— å½±é­”è›Š",31},	
 	},
 }
 
-GU_INSECT_ID1 = 2;	--¹ÆµÄÎïÆ·ID1
-GU_INSECT_ID2 = 17;	--¹ÆµÄÎïÆ·ID2
+GU_INSECT_ID1 = 2;	--è›Šçš„ç‰©å“ID1
+GU_INSECT_ID2 = 17;	--è›Šçš„ç‰©å“ID2
 
-TSK_BASE_ID = 2201;	--2201ÖÁ2240¹²£´£°¸ö±äÁ¿
-TSK_BASE_ID_LAST = 2240;--ÓµÓĞµÄ×îºóÒ»¸öÈÎÎñ±äÁ¿
-TSK_TEMP_ID = 126;	--¼ÇÂ¼È¡³öµÄ¹ÆµÄID£¬Õâ¸ö±äÁ¿ºÍÂé½«Ïä×ÓµÄÁÙÊ±±äÁ¿ÊÇÒ»ÑùµÄ£¬²»¹ı¿ÉÒÔÖØÓÃ
+TSK_BASE_ID = 2201;	--2201è‡³2240å…±ï¼”ï¼ä¸ªå˜é‡
+TSK_BASE_ID_LAST = 2240;--æ‹¥æœ‰çš„æœ€åä¸€ä¸ªä»»åŠ¡å˜é‡
+TSK_TEMP_ID = 126;	--è®°å½•å–å‡ºçš„è›Šçš„IDï¼Œè¿™ä¸ªå˜é‡å’Œéº»å°†ç®±å­çš„ä¸´æ—¶å˜é‡æ˜¯ä¸€æ ·çš„ï¼Œä¸è¿‡å¯ä»¥é‡ç”¨
 
-MAX_SEL_PER_PAGE = 5;	--Ã¿Ò³×î´óÏÔÊ¾ÊıÁ¿
+MAX_SEL_PER_PAGE = 5;	--æ¯é¡µæœ€å¤§æ˜¾ç¤ºæ•°é‡
 
-g_szInfoHeader = "<color=green>ThÇn méc v­¬ng ®Ønh<color>: ";
+g_szInfoHeader = "<color=green>Thè• mé– vî„¥ng î†¯nh<color>: ";
 
 function OnUse()
 	local selTab = {
-				"B¾t s©u /get_guinsect",
-				"Bá s©u vµo trong ®Ønh/put_guinsect",
-				"ChØ xem ë d­íi ®Ønh/nothing",
+				"å–å‡ºè›Šè™«/get_guinsect",
+				"æŠŠè›Šè™«æ”¾å…¥é¼é‡Œ/put_guinsect",
+				"æŸ¥çœ‹é¼é‡Œçš„è›Šè™«æ•°é‡/nothing",
 				}
-	Say(g_szInfoHeader.."§Ønh nµy chøa c¸c lo¹i s©u trong thiªn h¹, ng­¬i muèn b¾t s©u hay th¶ s©u?",getn(selTab),selTab);
+	Say(g_szInfoHeader.."è¿™åº§å±±å³°ä¸‹è•´æ¶µç€å„ç§è›Šè™«,ä½ æ„¿æ„å¾€æ·±å±±é‡ŒæŠ“,è¿˜æ˜¯æƒ³æ·±æŒ–?",getn(selTab),selTab);
 end;
---È¡³ö¹Æ
+--å–å‡ºè›Š
 function get_guinsect()
 	local selTab = {};
 	local nGuInsectNum = 0;
@@ -81,18 +81,18 @@ function get_guinsect()
 		nGuInsectNum = get_guinsect_num(i);
 		tinsert(selTab,TB_GUINSECT_INFO[i]["name"].."("..nGuInsectNum.." con)/#select_guinsect("..i..")");
 	end;
-	tinsert(selTab,"\nT¹m thêi kh«ng b¾t/OnUse");
-	Say(g_szInfoHeader.."Ng­¬i muèn b¾t hÖ s©u nµo?",getn(selTab),selTab);
+	tinsert(selTab,"\næš‚æ—¶ä¸å–å‡º/OnUse");
+	Say(g_szInfoHeader.."ä½ æƒ³è¦å–å‡ºè›Šè™«å—ï¼Ÿ",getn(selTab),selTab);
 end;
---Ñ¡Ôñ¹Æ
+--é€‰æ‹©è›Š
 function select_guinsect(nType)
 	list_page(1,nType);
 end;
---ÁĞ³ö¿É¹©Ñ¡ÔñµÄ¹Æ
+--åˆ—å‡ºå¯ä¾›é€‰æ‹©çš„è›Š
 function list_page(nPageNum,nType)
 	local tbSelTab = get_select_list(nType);
 	local nRecordCount = getn(TB_GUINSECT_INFO[nType]);
-	local GetMaxItemCountPerPage = function(nPN,nRC)	--Õâ¸öº¯ÊıÊÇÓÃÀ´»ñµÃµ±Ç°Ò³ÊıµÄ×î´óÏÔÊ¾ÏîÄ¿ÊıµÄ
+	local GetMaxItemCountPerPage = function(nPN,nRC)	--è¿™ä¸ªå‡½æ•°æ˜¯ç”¨æ¥è·å¾—å½“å‰é¡µæ•°çš„æœ€å¤§æ˜¾ç¤ºé¡¹ç›®æ•°çš„
 		local nCount = nRC-(nPN-1)*MAX_SEL_PER_PAGE;
 		if nCount >= MAX_SEL_PER_PAGE then
 			return MAX_SEL_PER_PAGE
@@ -108,17 +108,17 @@ function list_page(nPageNum,nType)
 	end;
 	local szCmdStr = "";
 	if nPageNum ~= 1 then
-		szCmdStr = "Trang tr­íc/#list_page("..(nPageNum-1)..","..nType..")";
+		szCmdStr = "ä¸Šä¸€é¡µ/#list_page("..(nPageNum-1)..","..nType..")";
 		tinsert(selTab,szCmdStr);
 	end;
 	if nPageNum ~= ceil(nRecordCount/MAX_SEL_PER_PAGE) then
-		szCmdStr = "Trang kÕ/#list_page("..(nPageNum+1)..","..nType..")";
+		szCmdStr = "ä¸‹ä¸€é¡µ/#list_page("..(nPageNum+1)..","..nType..")";
 		tinsert(selTab,szCmdStr);	
 	end;
-	tinsert(selTab,"\nT¹m thêi kh«ng b¾t/get_guinsect");
-	Say(g_szInfoHeader.."Ng­¬i b¾t lo¹i s©u nµo?",getn(selTab),selTab);
+	tinsert(selTab,"\næš‚æ—¶ä¸å–å‡º/get_guinsect");
+	Say(g_szInfoHeader.."ä½ è¦å–ä»€ä¹ˆè™«å­ï¼Ÿ",getn(selTab),selTab);
 end;
---»ñµÃÑ¡ÏîÊı¾İ
+--è·å¾—é€‰é¡¹æ•°æ®
 function get_select_list(nType)
 	local tbSelTab = {};
 	local nCurNum = 0;
@@ -133,19 +133,19 @@ function get_select_list(nType)
 	end;
 	return tbSelTab;
 end;
---ÊäÈëÈ¡³öÊıÁ¿
+--è¾“å…¥å–å‡ºæ•°é‡
 function input_guinsect_num(nType,nDetailType,nCurNum)
 	local nGuInsectID = TB_GUINSECT_INFO[nType][nDetailType][2];
 	local szGuInsectName = TB_GUINSECT_INFO[nType][nDetailType][1];
 	if nCurNum <= 0 then
-		Talk(1,"get_guinsect",g_szInfoHeader.."Trong ®Ønh cña ng­¬i kh«ng cã lo¹i s©u <color=yellow>"..szGuInsectName.."<color>.");
+		Talk(1,"get_guinsect",g_szInfoHeader.."ä½ çš„è›Šé¼é‡Œæ²¡æœ‰è™«å­<color=yellow>"..szGuInsectName.."<color>.");
 		return 0;
 	end;
 	SetTaskTemp(TSK_TEMP_ID,nGuInsectID);
-	nCurNum = min(nCurNum,15000);	--×î¶àÒ»´ÎÈ¡£¹£°£°Ö»
-	AskClientForNumber("get_guinsect_callback",1,nCurNum,"NhËp sè l­îng b¾t:");
+	nCurNum = min(nCurNum,15000);	--æœ€å¤šä¸€æ¬¡å–ï¼™ï¼ï¼åª
+	AskClientForNumber("get_guinsect_callback",1,nCurNum,"è¾“å…¥å–å‡ºæ•°é‡:");
 end;
---»Øµ÷
+--å›è°ƒ
 function get_guinsect_callback(nNum)
 	local nGuInsectID = GetTaskTemp(TSK_TEMP_ID);
 	local nTaskID = TSK_BASE_ID+nGuInsectID-1;
@@ -159,15 +159,15 @@ function get_guinsect_callback(nNum)
 	end;
 	local szGuInsectName = TB_GUINSECT_INFO[nType][nDetailType][1];
 	if nCurGuInsectNum < nNum then
-		Talk(1,"get_guinsect",g_szInfoHeader.."Sè l­îng trong ®Ønh"..szGuInsectName.." kh«ng ®ñ "..nNum.." con.");
+		Talk(1,"get_guinsect",g_szInfoHeader.."è›Šé¼é‡Œçš„æ•°é‡"..szGuInsectName.."ä¸è¶³"..nNum.."con");
 		return 0;
 	end;
 	AddGuInsectIntoBottle(nGuInsectID,-nNum);
 	AddItem(GU_INSECT_ID1,GU_INSECT_ID2,nGuInsectID,nNum);
-	Msg2Player("B¹n lÊy ra "..nNum.." con"..szGuInsectName);
+	Msg2Player("ä½ å–å‡º"..nNum.." con"..szGuInsectName);
 	select_guinsect(nType);
 end;
---¸ù¾İ¹ÆµÄID»ñµÃ¹ÆµÄĞÅÏ¢Ë÷Òı
+--æ ¹æ®è›Šçš„IDè·å¾—è›Šçš„ä¿¡æ¯ç´¢å¼•
 function get_guinsect_info_idx(nID)
 	for i=1,getn(TB_GUINSECT_INFO) do
 		for j=1,getn(TB_GUINSECT_INFO[i]) do
@@ -178,7 +178,7 @@ function get_guinsect_info_idx(nID)
 	end;
 	return 0,0;
 end;
---»ñµÃÄ³Àà¹ÆµÄÊıÁ¿
+--è·å¾—æŸç±»è›Šçš„æ•°é‡
 function get_guinsect_num(nType)
 	local nTotalNum = 0;
 	local nGuInsectID = 0;
@@ -190,7 +190,7 @@ function get_guinsect_num(nType)
 	end;
 	return nTotalNum;
 end;
---´æÈëÉíÉÏËùÓĞµÄ¹Æ
+--å­˜å…¥èº«ä¸Šæ‰€æœ‰çš„è›Š
 function put_guinsect()
 	local nGuInsectNum = 0;
 	local nGuInsectID = 0;
@@ -205,12 +205,12 @@ function put_guinsect()
 			if nGuInsectNum > 0 then
 				if DelItem(GU_INSECT_ID1,GU_INSECT_ID2,nGuInsectID,nGuInsectNum) == 1 then
 					AddGuInsectIntoBottle(nGuInsectID,nGuInsectNum);
-					Msg2Player("B¹n ®em "..nGuInsectNum.."c¸i"..szGuInsectName.." bá vµo trong ®Ønh");
+					Msg2Player("æŠŠè¿™äº›"..nGuInsectNum.."æ”¾åˆ°"..szGuInsectName.."é¼é‡Œ");
 				end;
 			end;
 		end;
 	end;
-	Say("B¹n ®· ®em tÊt c¶ s©u cã trong tói bá vµo trong ®Ønh!",0);
+	Say("ä½ æŠŠæ‰€æœ‰çš„è™«å­éƒ½å­˜åˆ°è›Šé¼é‡Œäº†ï¼",0);
 end;
 
 function nothing()
@@ -218,9 +218,9 @@ function nothing()
 end;
 
 --=================================================================================
---ÒÔÏÂÁ½½Ó¿Ú¹©³ÌĞòµ÷ÓÃ
---¸Ä±ä¹Æ¶¦ÖĞÄ³ÖÖ¹ÆµÄÊıÁ¿
---nNumÎªÕıÊ±ÊÇÔö¼Ó£¬Îª¸ºÊ±ÊÇ¼õÉÙ
+--ä»¥ä¸‹ä¸¤æ¥å£ä¾›ç¨‹åºè°ƒç”¨
+--æ”¹å˜è›Šé¼ä¸­æŸç§è›Šçš„æ•°é‡
+--nNumä¸ºæ­£æ—¶æ˜¯å¢åŠ ï¼Œä¸ºè´Ÿæ—¶æ˜¯å‡å°‘
 function AddGuInsectIntoBottle(nID,nNum)
 	local nTaskID = TSK_BASE_ID+nID-1;
 	if nTaskID > TSK_BASE_ID_LAST then
@@ -233,17 +233,17 @@ function AddGuInsectIntoBottle(nID,nNum)
 	SyncGuInsectNumInGuDing(nID,nCurNum);
 	return 1;
 end;
---´Ó¹Æ¶¦ÖĞÉ¾³ıÄ³ÖÖ¹Æ
+--ä»è›Šé¼ä¸­åˆ é™¤æŸç§è›Š
 function RemoveGuInsectFromBottle(nID,nNum)
 	local nTaskID = TSK_BASE_ID+nID-1;
 	local nCurNum = GetTask(nTaskID);
-	if nCurNum >= nNum then	--Èç¹û¶¦ÀïÃæµÄÊıÁ¿×ã¹»ÁË
+	if nCurNum >= nNum then	--å¦‚æœé¼é‡Œé¢çš„æ•°é‡è¶³å¤Ÿäº†
 		SetTask(nTaskID,nCurNum-nNum);
 		SyncGuInsectNumInGuDing(nID,nCurNum-nNum);
 		return 1;
 	else
-		local nGuNumInBag = GetItemCount(GU_INSECT_ID1,GU_INSECT_ID2,nID);	--»ñµÃ°üÀïÃæµÄÊıÁ¿
-		if nCurNum + nGuNumInBag >= nNum then	--Èç¹û¶¦ÀïÃæ¼Ó°üÀïÃæµÄÊıÁ¿×ã¹»
+		local nGuNumInBag = GetItemCount(GU_INSECT_ID1,GU_INSECT_ID2,nID);	--è·å¾—åŒ…é‡Œé¢çš„æ•°é‡
+		if nCurNum + nGuNumInBag >= nNum then	--å¦‚æœé¼é‡Œé¢åŠ åŒ…é‡Œé¢çš„æ•°é‡è¶³å¤Ÿ
 			if DelItem(GU_INSECT_ID1,GU_INSECT_ID2,nID,nNum-nCurNum) == 1 then
 				SetTask(nTaskID,0);
 				SyncGuInsectNumInGuDing(nID,0);
@@ -257,7 +257,7 @@ function RemoveGuInsectFromBottle(nID,nNum)
 	end;
 	return 1;
 end;
---»ñµÃ¹Æ¶¦ÖĞºÍ±³°üÖĞ¿ÉÓÃµÄ¸ÃÀà¹Æ³æÊıÁ¿
+--è·å¾—è›Šé¼ä¸­å’ŒèƒŒåŒ…ä¸­å¯ç”¨çš„è¯¥ç±»è›Šè™«æ•°é‡
 function GetAvailableGuInsectNum(nID)
 	local nTaskID = TSK_BASE_ID+nID-1;
 	return GetItemCount(GU_INSECT_ID1,GU_INSECT_ID2,nID) + GetTask(nTaskID);
