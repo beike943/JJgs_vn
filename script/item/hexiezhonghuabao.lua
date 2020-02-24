@@ -1,64 +1,64 @@
 Include("\\script\\lib\\globalfunctions.lua");
 
-g_ItemName = "Tói Hßa Hµi Trung Hoa";
+g_ItemName = "å’Œè°ä¸­ååŒ…";
 TSK_COUNTER = 1797;
 function OnUse(nItemIdx)
 	local nCurCount = GetTask(TSK_COUNTER)+1;
 	local selTab = {
-				format("§­îc råi. B¾t ®Çu më th«i!/#open(%d)",nItemIdx),
-				"Xem bªn trong cã g× ®·!/see_item",
-				"T¹m thêi kh«ng më/nothing",
+				format("æˆ‘è¦æ‰“å¼€/#open(%d)",nItemIdx),
+				"çœ‹çœ‹é‡Œé¢æœ‰ä»€ä¹ˆ/see_item",
+				"æš‚æ—¶ä¸æ‰“å¼€/nothing",
 				}
-	Say("§©y lµ lÇn thø <color=yellow>"..nCurCount.."<color> ng­¬i më <color=yellow>"..g_ItemName.."<color>. L­u ı: më 2 tói sÏ nhËn ®­îc 1 Qu©n C«ng Ch­¬ng, më 2 tói sÏ nhËn ®­îc 1 R­¬ng vò khİ B¹c, më 8 tói sÏ nhËn ®­îc 1 tói Gi¸m ®Şnh phï cÊp 7, më 10 tói sÏ nhËn ®­îc 1 B¹ch Ngäc th¹ch, më 80 tói sÏ nhËn ®­îc 1 Long HuyÕt hoµn, më 150 tói sÏ nhËn ®­îc 1 ChiÕn ThÇn hoµn, më 200 tói sÏ nhËn ®­îc 1 B«n Tiªu hoÆc 1 §»ng Vô. B¹n x¸c nhËn më <color=yellow>"..g_ItemName.."<color> chø? CÇn ph¶i cã 17 chç trèng vµ 300 ®iÓm søc lùc.",getn(selTab),selTab);
+	Say("è¿™æ˜¯ä½ ç¬¬<color=yellow>"..nCurCount.."<color>æ¬¡æ‰“å¼€<color=yellow>"..g_ItemName.."<color>ã€‚è¯·æ³¨æ„:æ‰“å¼€2è¢‹å°†è·å¾—1ä¸ªå†›åŠŸç« å’Œ1ä¸ªæ­¦å™¨é“¶å®ç®±,æ‰“å¼€8è¢‹å°†è·å¾—1ä¸ªå¤§åŒ…7çº§é‰´å®šç¬¦,æ‰“å¼€10è¢‹å°†è·å¾—1ä¸ªå¾¡ç”¨ç™½ç‰çŸ³,æ‰“å¼€80è¢‹å°†è·å¾—1ä¸ªé¾™è¡€ä¸¸,æ‰“å¼€150è¢‹å°†è·å¾—1ä¸ªæˆ˜ç¥ä¸¸,æ‰“å¼€200è¢‹å°†è·å¾—å¥”å®µæˆ–è…¾é›¾é©¬éšæœº1åŒ¹ï¼Œæ‚¨ç¡®è®¤è¦æ‰“å¼€<color=yellow>"..g_ItemName.."<color>å—ï¼Ÿè¯·ç¡®ä¿ä½ æœ‰17æ ¼èƒŒåŒ…ç©ºé—´å’Œ300çš„è´Ÿé‡åŠ›ã€‚",getn(selTab),selTab);
 end;
 
 function see_item()
-	Talk(1,"","Mçi '"..g_ItemName..". Cã thÓ nhËn ®­îc nh÷ng vËt sau ®©y: 1 Bµn Long Bİch, Danh Väng ngÉu nhiªn 50-100 ®iÓm, ngÉu nhiªn 20-30 ®iÓm cèng hiÕn S­ M«n (CÇn ph¶i gia nhËp M«n Ph¸i), 1 MÆt n¹ S¸t Thñ §­êng, 3 Sinh ®å chøng th­, 3 Tó tµi chøng th­, 3 Cö nh©n chøng th­, Qu©n C«ng Ch­¬ng, 1 R­¬ng vò khİ B¹c, 1 tói Gi¸m ®Şnh phï cÊp 7, b¹ch Ngäc th¹ch, Long HuyÕt hoµn, ChiÕn ThÇn hoµn, ngÉu nhiªn 1 B«n Tiªu hoÆc §»ng Vô. Chóc b¹n may m¾n!");
+	Talk(1,"","æ¯ä¸ª"..g_ItemName.."å¯è·å¾—:ç£é¾™ç’§1ä¸ª, 50è‡³100éšæœºå£°æœ›,20è‡³30éšæœºå¸ˆé—¨è´¡çŒ®åº¦,æ€æ‰‹å ‚é¢å…·1ä¸ª,3æœ¬ç”Ÿå‘˜è¯ä¹¦,3æœ¬ç§€æ‰è¯ä¹¦,3æœ¬ä¸¾äººè¯ä¹¦,å†›åŠŸç« ,1ä¸ªæ­¦å™¨é“¶å®ç®±,1ä¸ªå¤§åŒ…7çº§é‰´å®šç¬¦,å¾¡ç”¨ç™½ç‰çŸ³,é¾™è¡€ä¸¸,æˆ˜ç¥ä¸¸,å¥”å®µæˆ–è…¾é›¾éšæœº1åŒ¹ï¼Œç¥ä½ å¥½è¿ï¼");
 end;
 
 function open(nItemIdx)
-	local nCurCount = GetTask(TSK_COUNTER)+1;	--µ±Ç°ÊÇµÚ¼¸´Î¿ªÆô
+	local nCurCount = GetTask(TSK_COUNTER)+1;	--å½“å‰æ˜¯ç¬¬å‡ æ¬¡å¼€å¯
 	local szItemName = "";
 	if gf_JudgeRoomWeight(17,300) == 1 then
 		if DelItemByIndex(nItemIdx,1) == 1 then
 			SetTask(TSK_COUNTER,nCurCount);
 			local nRand = 0;
 			local nRetCode,nItemIdx = 0,0;
-			nRetCode,nItemIdx = AddItem(2,1,1000,1);	--ÅÍÁúèµ1¸öÊ±ÏŞ7Ìì
+			nRetCode,nItemIdx = AddItem(2,1,1000,1);	--ç£é¾™ç’§1ä¸ªæ—¶é™7å¤©
 			SetItemExpireTime(nItemIdx,7*24*3600);
-			Msg2Player("B¹n nhËn ®­îc 1 Bµn Long Bİch");
-			ModifyReputation(random(50,100),0);	--50ÖÁ100Ëæ»úÉùÍû
+			Msg2Player("ä½ è·å¾—1ä¸ªç£é¾™ç’§");
+			ModifyReputation(random(50,100),0);	--50è‡³100éšæœºå£°æœ›
 			if GetPlayerRoute() ~= 0 then
 				nRand = random(20,30);
-				SetTask(336,GetTask(336)+nRand);	--25ÖÁ50Ëæ»úÊ¦ÃÅ¹±Ï×¶È
-				Msg2Player("B¹n nhËn ®­îc "..nRand.." ®iÓm cèng hiÕn S­ M«n ");
+				SetTask(336,GetTask(336)+nRand);	--20è‡³30éšæœºå¸ˆé—¨è´¡çŒ®åº¦
+				Msg2Player("ä½ è·å¾—"..nRand.."ç‚¹å¸ˆé—¨è´¡çŒ®åº¦");
 			end;
-			nRetCode,nItemIdx = AddItem(2,1,1087,1);	--É±ÊÖÌÃÃæ¾ß1¸ö	Ê±ÏŞ7Ìì
+			nRetCode,nItemIdx = AddItem(2,1,1087,1);	--æ€æ‰‹å ‚é¢å…·1ä¸ª	æ—¶é™7å¤©
 			--SetItemExpireTime(nItemIdx,7*24*3600);
-			Msg2Player("B¹n nhËn ®­îc 1 MÆt n¹ S¸t Thñ §­êng ");
+			Msg2Player("ä½ è·å¾—1ä¸ªæ€æ‰‹å ‚é¢å…·");
 			nRand = random(1,100);
 			if nRand <= 60 then
 				AddItem(2,0,597,3);
-				Msg2Player("B¹n ®¹t ®­îc 3 Sinh Viªn Chøng Th­");			
+				Msg2Player("ä½ è·å¾—3æœ¬ç”Ÿå‘˜è¯ä¹¦");			
 			elseif nRand <= 90 then
 				AddItem(2,0,598,3);
-				Msg2Player("B¹n ®¹t ®­îc 3 Tó Tµi Chøng Th­");			
+				Msg2Player("ä½ è·å¾—3æœ¬ç§€æ‰è¯ä¹¦");			
 			else
 				AddItem(2,0,599,3);
-				Msg2Player("B¹n ®¹t ®­îc 3 Cö Nh©n chøng th­");			
+				Msg2Player("ä½ è·å¾—3æœ¬ä¸¾äººè¯ä¹¦");			
 			end;
-			if mod(nCurCount,2) == 0 then	--¾ü¹¦ÕÂ,ÎäÆ÷Òø±¦Ïä,Ê±ÏŞ7Ìì
+			if mod(nCurCount,2) == 0 then	--å†›åŠŸç« ,æ­¦å™¨é“¶å®ç®±,æ—¶é™7å¤©
 				nRetCode,nItemIdx = AddItem(2,1,9999,1);
 				--SetItemExpireTime(nItemIdx,7*24*3600);
-				Msg2Player("B¹n nhËn ®­îc 1 Qu©n C«ng Ch­¬ng");
+				Msg2Player("ä½ è·å¾—1ä¸ªå†›åŠŸç« ");
 				nRetCode,nItemIdx = AddItem(2,1,1147,1);
 				SetItemExpireTime(nItemIdx,7*24*3600);
-				Msg2Player("B¹n nhËn ®­îc 1 R­¬ng vò khİ B¹c");
+				Msg2Player("ä½ è·å¾—1ä¸ªæ­¦å™¨é“¶å®ç®±");
 			end;
 			nRand = random(1,100);
-			szItemName = " 1 tói Gi¸m ®Şnh phï cÊp 7";
+			szItemName = "ä½ è·å¾—1ä¸ªå¤§åŒ…7çº§é‰´å®šç¬¦";
 			if nRand <= 5 then
-				nRetCode,nItemIdx = AddItem(2,1,1058,1);	--´ó°ü7¼¶¼ø¶¨·û	Ê±ÏŞ7Ìì
+				nRetCode,nItemIdx = AddItem(2,1,1058,1);	--å¤§åŒ…7çº§é‰´å®šç¬¦	æ—¶é™7å¤©
 				SetItemExpireTime(nItemIdx,7*24*3600);
 				show_msg(szItemName);
 			end;
@@ -68,21 +68,21 @@ function open(nItemIdx)
 				show_msg(szItemName);
 			end;
 			nRand = random(1,100);
-			szItemName = "1 B¹ch Ngäc th¹ch";
+			szItemName = "1ä¸ªå¾¡ç”¨ç™½ç‰çŸ³";
 			if nRand <= 5 then
-				nRetCode,nItemIdx = AddItem(2,1,1024,1);	--ÓùÓÃ°×ÓñÊ¯ Ê±ÏŞ7Ìì
+				nRetCode,nItemIdx = AddItem(2,1,1024,1);	--å¾¡ç”¨ç™½ç‰çŸ³ æ—¶é™7å¤©
 				--SetItemExpireTime(nItemIdx,7*24*3600);
 				show_msg(szItemName);
 			end;
 			if mod(nCurCount,10) == 0 then
-				nRetCode,nItemIdx = AddItem(2,1,1024,1);	--ÓùÓÃ°×ÓñÊ¯ Ê±ÏŞ7Ìì
+				nRetCode,nItemIdx = AddItem(2,1,1024,1);	--å¾¡ç”¨ç™½ç‰çŸ³ æ—¶é™7å¤©
 				--SetItemExpireTime(nItemIdx,7*24*3600);
 				show_msg(szItemName);
 			end;
 			nRand = random(1,1000);
-			szItemName = "1 Long HuyÕt hoµn";
+			szItemName = "1ä¸ªé¾™è¡€ä¸¸";
 			if nRand <= 5 then 
-				nRetCode,nItemIdx = AddItem(2,1,1002,1);	--ÁúÑªÍè Ê±ÏŞ7Ìì
+				nRetCode,nItemIdx = AddItem(2,1,1002,1);	--é¾™è¡€ä¸¸ æ—¶é™7å¤©
 				SetItemExpireTime(nItemIdx,7*24*3600);
 				show_msg(szItemName);
 			end;
@@ -92,9 +92,9 @@ function open(nItemIdx)
 				show_msg(szItemName);
 			end;		
 			nRand = random(1,1000);
-			szItemName = "1 ChiÕn ThÇn hoµn";
+			szItemName = "1ä¸ªæˆ˜ç¥ä¸¸";
 			if nRand <= 4 then 
-				nRetCode,nItemIdx = AddItem(2,1,1005,1);	--Õ½ÉñÍè Ê±ÏŞ7Ìì
+				nRetCode,nItemIdx = AddItem(2,1,1005,1);	--æˆ˜ç¥ä¸¸ æ—¶é™7å¤©
 				SetItemExpireTime(nItemIdx,7*24*3600);
 				show_msg(szItemName);
 			end;
@@ -104,39 +104,39 @@ function open(nItemIdx)
 				show_msg(szItemName);
 			end;
 			nRand = random(1,1000);
-			if nRand <= 2 then 		--±¼Ïü»òÌÚÎíËæ»ú1Æ¥
+			if nRand <= 2 then 		--å¥”å®µæˆ–è…¾é›¾éšæœº1åŒ¹
 				if random(1,2) == 1 then
-					szItemName = "1 B«n tiªu";
+					szItemName = "ä¸€åŒ¹å¥”å®µé©¬";
 					AddItem(0,105,16,1,1,-1,-1,-1,-1,-1,-1);
 					show_msg(szItemName)
 				else
-					szItemName = "1 §»ng Vô";
+					szItemName = "ä¸€åŒ¹è…¾é›¾é©¬";
 					AddItem(0,105,20,1,1,-1,-1,-1,-1,-1,-1);
 					show_msg(szItemName)
 				end;
 			end;
 			if mod(nCurCount,200) == 0 then
 				if random(1,2) == 1 then
-					szItemName = "1 B«n tiªu";
+					szItemName = "ä¸€åŒ¹å¥”å®µé©¬";
 					AddItem(0,105,16,1,1,-1,-1,-1,-1,-1,-1);
 					show_msg(szItemName)
 				else
-					szItemName = "1 §»ng Vô";
+					szItemName = "ä¸€åŒ¹è…¾é›¾é©¬";
 					AddItem(0,105,20,1,1,-1,-1,-1,-1,-1,-1);
 					show_msg(szItemName)
 				end;			
 			end;
-			WriteLog("["..g_ItemName.."]:"..GetName().."thø"..nCurCount.." më "..g_ItemName);
+			WriteLog("["..g_ItemName.."]:"..GetName().."th?"..nCurCount.." m? "..g_ItemName);
 		end;
 	else
-		Talk(1,"","Kho¶ng trèng hoÆcsøc lùccña b¹n kh«ng ®ñ. Xin kiÓm tra l¹i hµnh trang tr­íc!"..g_ItemName.."!");
+		Talk(1,"","ä½ çš„èƒŒåŒ…ç©ºé—´æˆ–è´Ÿé‡åŠ›ä¸å¤Ÿï¼Œè¯·å…ˆç¡®è®¤ä¸€ä¸‹èƒŒåŒ…ï¼"..g_ItemName.."!");
 	end;
 end;
 
 function show_msg(szItemName)
-	Msg2Player("B¹n nhËn ®­îc "..szItemName);
-	Msg2Global(GetName().."Më '"..g_ItemName.." nhËn ®­îc "..szItemName);
-	WriteLog("["..g_ItemName.."]:"..GetName().."NhËn ®­îc"..szItemName);	
+	Msg2Player("ä½ è·å¾—"..szItemName);
+	Msg2Global(GetName().."æ‰“å¼€'"..g_ItemName.."è·å¾—"..szItemName);
+	WriteLog("["..g_ItemName.."]:"..GetName().."è·å¾—"..szItemName);	
 end;
 
 function nothing()
