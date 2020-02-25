@@ -1,7 +1,7 @@
 
---¼ø¶¨¾íÖá
+--é‰´å®šå·è½´
 
 function OnUse(id)
-	sel=GetItemLevel(id) --»ñÈ¡ÎïÆ·µÈ¼¶
-	EnterIdentify(1,sel,id)--½øÈë¼ø¶¨×´Ì¬
+	sel=GetItemLevel(id) --è·å–ç‰©å“ç­‰çº§
+	EnterIdentify(1,sel,id)--è¿›å…¥é‰´å®šçŠ¶æ€
 end;
