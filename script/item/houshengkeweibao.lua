@@ -2,33 +2,33 @@ Include("\\script\\lib\\globalfunctions.lua");
 Include("\\script\\task\\faction\\faction_equipment.lua");
 
 --=========================================================================================
-MAX_SEL_PER_PAGE = 5;	--Ò»Ò³×î´óÏÔÊ¾ÊıÁ¿
-g_szPacketName = " tói HËu Sinh Kh¶ óy";	--°üµÄÃû×Ö
+MAX_SEL_PER_PAGE = 5;	--ä¸€é¡µæœ€å¤§æ˜¾ç¤ºæ•°é‡
+g_szPacketName = "åç”Ÿå¯ç•åŒ…";	--åŒ…çš„åå­—
 g_nNeedRoom = 4;
 g_nNeedWeight = 400;	
 g_tbItem = 
-{		--	ID1,ID2,ID3,Ãû×Ö,Ñ¡ÏîÃèÊö
-	[1]  = {0,2,2500,"Thanh §éc KiÕm ","Thanh §éc KiÕm (Ch­a nhËp L­u Ph¸i, Nga Mi PhËt Gia , Vâ §ang §¹o gia cã thÓ sö dông)"},
-	[2]  = {0,5,2500,"Thanh §éc C«n ","Thanh §éc C«n (Ch­a nhËp L­u Ph¸i, ThiÕu L©m Tôc Gia, C¸i Bang ¤ Y cã thÓ sö dông)"},
-	[3]  = {0,0,2500,"Thanh §éc Thñ ","Thanh §éc Thñ (Ch­a nhËp L­u Ph¸i, ThiÕu L©m Vâ T¨ng, C¸i Bang TŞnh Y cã thÓ sö dông)"},
-	[4]  = {0,1,2500,"Thanh §éc Kim","Thanh §éc Ch©m (Ch­a nhËp L­u Ph¸i, §­êng M«n cã thÓ sö dông)"},
-	[5]  = {0,3,2500,"Thanh §éc §ao","Thanh §éc §ao (ThiÕu L©m Tôc Gia cã thÓ sö dông)"},
-	[6]  = {0,8,2500,"Thanh §éc Tr­îng ","Thanh §éc Tr­îng (ThiÕu L©m ThiÒn T¨ng cã thÓ sö dông)"},
-	[7]  = {0,10,2500,"Thanh §éc CÇm ","Thanh §éc CÇm (Nga Mi Tôc Gia cã thÓ sö dông)"},
-	[8]  = {0,9,2500,"Thanh §éc Bót ","Thanh §éc Bót (Vâ §ang Tôc Gia cã thÓ sö dông)"},
-	[9]  = {0,6,2500,"Thanh §éc Th­¬ng ","Thanh §éc Th­¬ng (D­¬ng M«n Th­¬ng Kş cã thÓ sö dông)"},
-	[10]  = {0,4,2500,"Thanh §éc Cung","Thanh §éc Cung (D­¬ng M«n Cung Kş cã thÓ sö dông)"},
-	[11]  = {0,7,2500,"Thanh §éc NhÉn","Thanh §éc NhÉn (HiÖp §éccã thÓ sö dông)"},
-	[12]  = {0,11,2500,"Thanh §éc Tr¶o","Thanh §éc Tr¶o (Ngò ®éc cæ s­ cã thÓ sö dông)"},
+{		--	ID1,ID2,ID3,åå­—,é€‰é¡¹æè¿°
+	[1]  = {0,2,2500,"é’çŠŠå‰‘","é’çŠŠå‰‘(å³¨çœ‰ä½›å®¶ï¼Œæ­¦å½“é“å®¶)"},
+	[2]  = {0,5,2500,"é’çŠŠæ£","é’çŠŠæ£(ä¸å¸®æ±¡è¡£ï¼Œå°‘æ—ä¿—å®¶)"},
+	[3]  = {0,0,2500,"é’çŠŠæ‰‹","é’çŠŠæ‰‹(å°‘æ—æ­¦å®—ï¼Œä¸å¸®å‡€è¡£)"},
+	[4]  = {0,1,2500,"é’çŠŠé’ˆ","é’çŠŠé’ˆ(å”é—¨)"},
+	[5]  = {0,3,2500,"é’çŠŠåˆ€","é’çŠŠåˆ€(å°‘æ—ä¿—å®¶)"},
+	[6]  = {0,8,2500,"é’çŠŠæ–","é’çŠŠæ–(å°‘æ—ç¦…å®—)"},
+	[7]  = {0,10,2500,"é’çŠŠç´","é’çŠŠç´(å³¨çœ‰ä¿—å®¶)"},
+	[8]  = {0,9,2500,"é’çŠŠç¬”","é’çŠŠç¬”(æ­¦å½“ä¿—å®¶)"},
+	[9]  = {0,6,2500,"é’çŠŠæª","é’çŠŠæª(æ¨é—¨æªéª‘)"},
+	[10]  = {0,4,2500,"é’çŠŠå¼“","é’çŠŠå¼“(æ¨é—¨å¼“éª‘)"},
+	[11]  = {0,7,2500,"é’çŠŠåˆƒ","é’çŠŠåˆƒ(äº”æ¯’é‚ªä¾ )"},
+	[12]  = {0,11,2500,"é’çŠŠçˆª","é’çŠŠçˆª(äº”æ¯’è›Šå¸ˆ)"},
 }
---=========ÒÔÏÂ´úÂëÎŞĞë¸Ä¶¯================================================================
+--=========ä»¥ä¸‹ä»£ç æ— é¡»æ”¹åŠ¨================================================================
 function OnUse(nItemIdx)
 	list_item(1,getn(g_tbItem),nItemIdx);
 end;
 
 function list_item(nPageNum,nRecordCount,nItemIdx)
 	local tbItemTab = get_item_list(nItemIdx);
-	local GetMaxItemCountPerPage = function(nPN,nRC)	--Õâ¸öº¯ÊıÊÇÓÃÀ´»ñµÃµ±Ç°Ò³ÊıµÄ×î´óÏÔÊ¾ÏîÄ¿ÊıµÄ
+	local GetMaxItemCountPerPage = function(nPN,nRC)	--è¿™ä¸ªå‡½æ•°æ˜¯ç”¨æ¥è·å¾—å½“å‰é¡µæ•°çš„æœ€å¤§æ˜¾ç¤ºé¡¹ç›®æ•°çš„
 		local nCount = nRC-(nPN-1)*MAX_SEL_PER_PAGE;
 		if nCount >= MAX_SEL_PER_PAGE then
 			return MAX_SEL_PER_PAGE
@@ -43,13 +43,13 @@ function list_item(nPageNum,nRecordCount,nItemIdx)
 		tinsert(selTab,tbItemTab[i]);
 	end;
 	if nPageNum ~= 1 then
-		tinsert(selTab,format("\n Trang tr­íc/#list_item(%d,%d,%d)",nPageNum-1,nRecordCount,nItemIdx));
+		tinsert(selTab,format("\nä¸Šä¸€é¡µ/#list_item(%d,%d,%d)",nPageNum-1,nRecordCount,nItemIdx));
 	end;
 	if nPageNum ~= ceil(nRecordCount/MAX_SEL_PER_PAGE) then
-		tinsert(selTab,format("\n Trang sau/#list_item(%d,%d,%d)",nPageNum+1,nRecordCount,nItemIdx));	
+		tinsert(selTab,format("\nä¸‹ä¸€é¡µ/#list_item(%d,%d,%d)",nPageNum+1,nRecordCount,nItemIdx));	
 	end;
-	tinsert(selTab,"\n §ãng");
-	Say("B¹n muèn më <color=yellow>"..g_szPacketName.."<color> kh«ng? H·y lùa chän vò khİ b¹n cÇn theo m«n ph¸i",getn(selTab),selTab);
+	tinsert(selTab,"\nå…³é—­");
+	Say("æ‚¨æƒ³è¦æ‰“å¼€<color=yellow>"..g_szPacketName.."<color>å—?é€‰æ‹©æ‚¨éœ€è¦çš„æ­¦å™¨",getn(selTab),selTab);
 end
 
 function get_item_list(nItemIdx)
@@ -62,21 +62,21 @@ end;
 
 function add_item(nIdx,nItemIdx)
 	local selTab = {
-				format("§ång ı/#add_item_confirm(%d,%d)",nIdx,nItemIdx),
-				"nghÜ l¹i xem/nothing",
+				format("åŒæ„/#add_item_confirm(%d,%d)",nIdx,nItemIdx),
+				"å†æƒ³æƒ³/nothing",
 				}
-	Say("B¹n muèn chän <color=yellow>"..g_tbItem[nIdx][4].."<color> vò khİ nµy kh«ng?",getn(selTab),selTab);
+	Say("æ‚¨æƒ³è¦é€‰æ‹©<color=yellow>"..g_tbItem[nIdx][4].."<color>è¿™ä¸ªæ­¦å™¨å—ï¼Ÿ",getn(selTab),selTab);
 end;
 
 function add_item_confirm(nIdx,nItemIdx)
 	if gf_JudgeRoomWeight(g_nNeedRoom,g_nNeedWeight) == 0 then
-		Talk(1,"","Hµnh trang vµ søc lùc kh«ng ®ñ, ®iÒu chØnh l¹i hµnh trang råi më"..g_szPacketName.."!");
+		Talk(1,"","æ²¡æœ‰è¶³å¤Ÿçš„èƒŒåŒ…ç©ºé—´æˆ–è´Ÿé‡åŠ›ï¼Œè¯·è°ƒæ•´åå†ä»æ–°æ‰“å¼€"..g_szPacketName.."!");
 		return 0;
 	end;
 	local nRetCode = 0;
 	if DelItemByIndex(nItemIdx,1) == 1 then
 		give_equip(nIdx);
-		WriteLog("["..g_szPacketName.."]:"..GetName().."Më 1 tói ");
+		WriteLog("["..g_szPacketName.."]:"..GetName().."æ‰“å¼€1è¢‹");
 	end;
 end;
 
@@ -85,26 +85,26 @@ function give_equip(nIdx)
 	local nRetCode = 0;
 	nRetCode = AddItem(0,103,2500+nBody-1,1,1,-1,-1,-1,-1,-1,-1,0,6);
 	if nRetCode == 1 then
-		Msg2Player("B¹n nhËn ®­îc mét Thanh §éc M¹o");
+		Msg2Player("ä½ è·å¾—ä¸€ä»¶é’çŠŠå¸½");
 	else
-		WriteLog("["..g_szPacketName.."Lçi]:"..GetName().."NhËn Thanh §éc M¹o cã lçi, nRetCode:"..nRetCode)
+		WriteLog("["..g_szPacketName.."é”™è¯¯]:"..GetName().."Nhè–¾ Thanh Ñ‡c Mç­¼ c? lé¸, nRetCode:"..nRetCode)
 	end;
 	nRetCode = AddItem(0,100,2500+nBody-1,1,1,-1,-1,-1,-1,-1,-1,0,6);
 	if nRetCode == 1 then
-		Msg2Player("B¹n nhËn ®­îc Thanh §éc Y");
+		Msg2Player("ä½ è·å¾—ä¸€ä»¶é’çŠŠè¡£");
 	else
-		WriteLog("["..g_szPacketName.."Lçi]:"..GetName().."NhËn Thanh §éc Y cã lçi, nRetCode:"..nRetCode)
+		WriteLog("["..g_szPacketName.."é”™è¯¯]:"..GetName().."Nhè–¾ Thanh Ñ‡c Y c? lé¸, nRetCode:"..nRetCode)
 	end;
 	nRetCode = AddItem(0,101,2500+nBody-1,1,1,-1,-1,-1,-1,-1,-1,0,6);
 	if nRetCode == 1 then
-		Msg2Player("B¹n nhËn ®­îc Thanh §éc Trang");
+		Msg2Player("ä½ è·å¾—ä¸€ä»¶é’çŠŠè£…");
 	else
-		WriteLog("["..g_szPacketName.."Lçi]:"..GetName().."NhËn ®­îc Thanh §éc Trang cã lçi, nRetCode:"..nRetCode)
+		WriteLog("["..g_szPacketName.."é”™è¯¯]:"..GetName().."Nhè–¾ î†„é ² Thanh Ñ‡c Trang c? lé¸, nRetCode:"..nRetCode)
 	end;
 	nRetCode = AddItem(g_tbItem[nIdx][1],g_tbItem[nIdx][2],g_tbItem[nIdx][3],1,1,-1,-1,-1,-1,-1,-1,0,6)
 	if nRetCode == 1 then
-		Msg2Player("B¹n nhËn ®­îc "..g_tbItem[nIdx][4]);
+		Msg2Player("ä½ è·å¾—"..g_tbItem[nIdx][4]);
 	else
-		WriteLog("["..g_szPacketName.."Lçi]:"..GetName().."NhËn ®­îc"..g_tbItem[nIdx][4].."cã lçi, nRetCode:"..nRetCode)
+		WriteLog("["..g_szPacketName.."é”™è¯¯]:"..GetName().."è·å–"..g_tbItem[nIdx][4].."c? lé¸, nRetCode:"..nRetCode)
 	end;
 end;
