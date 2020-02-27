@@ -1,9 +1,9 @@
 
 t_item_cfg =
 {
-	[30557] = {145, 146, 147, "Ngo¹i trang vip ¶m hån kim"},
-	[30558] = {148, 149, 150, "Ngo¹i trang vip t­¬ng kiÕn hoan"},
-	[30559] = {151, 152, 153, "Ngo¹i trang vip thiÕu niªn du"},
+	[30557] = {145, 146, 147, "åƒå˜é‡‘å·"},
+	[30558] = {148, 149, 150, "åƒå˜é“¶å·"},
+	[30559] = {151, 152, 153, "åƒå˜é“œå·"},
 }
 ITEM_G=2
 ITEM_D=1
@@ -17,11 +17,11 @@ function OnUse(id)
 		local p = GetItemParticular(id)
 		local t = t_item_cfg[p]
 		if t then
-    		local szMsg = format("Ng­¬i x¸c nhËn muèn l­u tr÷ ngo¹i trang [%s] kh«ng?", t[4])
+    		local szMsg = format("ä½ ç¡®å®šè¦ä½¿ç”¨è¿™ä¸ªå¤–è§‚[%s]å—ï¼Ÿ", t[4])
     		local tSay = 
         	{
-        		format("§ång ı/#ye_use(%d)", p),
-        		"Rêi khái/no",
+        		format("åŒæ„/#ye_use(%d)", p),
+        		"ç¦»å¼€/no",
         	}
         	Say(szMsg, getn(tSay), tSay)
 		end
@@ -37,10 +37,10 @@ function ye_use(nItemP)
 				SetPlayerCollectionData(COLLECTION_TYPE, t[1], 1)
 				SetPlayerCollectionData(COLLECTION_TYPE, t[2], 1)
 				SetPlayerCollectionData(COLLECTION_TYPE, t[3], 1)
-				Msg2Player(format("Ng­¬i l­u tr÷ thµnh c«ng ngo¹i trang [%s]", t[4]))
+				Msg2Player(format("ä½ æˆåŠŸåœ°ä¿å­˜äº†æ—¶è£…å¤–è§‚[%s]", t[4]))
 			end
 		else
-			Say(format("§· l­u tr÷ thµnh c«ng ngo¹i trang [%s], kh«ng thÓ sö dông l¹i", t[4]), 0)
+			Say(format("è¯¥å¤–è§‚å·²ä¿å­˜æˆåŠŸ[%s],æ— æ³•å†æ¬¡ä½¿ç”¨ï¼", t[4]), 0)
 		end
 	end
 end
