@@ -1,4 +1,4 @@
---Ç§±äÈ¯½Å±¾
+--åƒå˜åˆ¸è„šæœ¬
 
 Include("\\script\\lib\\globalfunctions.lua")
 
@@ -11,9 +11,9 @@ t_item_index =
 t_itemconfig = 
 {
 	--g,d,p,szName,nAward,MaxUseNum
-	{2, 1, 30491, "VĞ TiÕu Y Vµng", 1000, 9999},
-	{2, 1, 30492,"VĞ TiÕu Y B¹c", 100, 9999},
-	{2, 1, 30493,"VĞ TiÕu Y §ång", 10, 9999},
+	{2, 1, 30491, "åƒå˜é‡‘å·", 1000, 9999},
+	{2, 1, 30492,"åƒå˜é“¶å·", 100, 9999},
+	{2, 1, 30493,"åƒå˜é“œå·", 10, 9999},
 }
 
 function OnUse(nItemIndex)
@@ -36,9 +36,9 @@ function _do_use_item(nType, nItemIndex)
 	local t = t_itemconfig[nType]
 	if t then
 		local n = GetItemCount(t[1],t[2],t[3])
-		AskClientForNumber(format("_use_item%d", nType), 1,n, format("Sö dông bao nhiªu %s?",t[4]))
+		AskClientForNumber(format("_use_item%d", nType), 1,n, format("ä½¿ç”¨å‡ ä¸ª%s?",t[4]))
 --		if t[6] > 1 then
---			AskClientForNumber(format("_use_item%d", nType), 1,t[6], format("Ê¹ÓÃ¶àÉÙ¸ö%s?",t[4]))
+--			AskClientForNumber(format("_use_item%d", nType), 1,t[6], format("ä½¿ç”¨å‡ ä¸ª%s?",t[4]))
 --		else
 --			_real_use(nType, nItemIndex, 1)
 --		end
@@ -71,7 +71,7 @@ function _real_use(nType, nItemIndex, nNum)
 		end
 		local nGain = nNum * t[5]
 		EarnCollectionCoin(nGain)
-		Msg2Player(format("C¸c h¹ sö dông %d %s nhËn ®­îc %d ®iÓm th­ëng TiÕu Y Ph­¬ng", nNum, t[4], nGain))
+		Msg2Player(format("ä½ ä½¿ç”¨äº†%dä¸ª%sï¼Œè·å¾—äº†%då¾¡çµåˆ†", nNum, t[4], nGain))
 		local item_para = format("%d,%d,%d,%d", t[1], t[2], t[3], nNum)
 		gf_WriteLogEx("", "use item qiaoyiquan", "", t[3], item_para);
 	end
