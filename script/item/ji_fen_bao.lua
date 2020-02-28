@@ -1,31 +1,31 @@
---½Å±¾Ãû³Æ£º³ş¹úÃÜÁîÊ¹ÓÃ½Å±¾
---½Å±¾¹¦ÄÜ£ºÊ¹ÓÃ´ËÎïÆ·£¬¸øÍæ¼ÒÔö¼õ1000¸öĞÅÎï
---½Å±¾²ß»®ÈË£ºĞ¡ÌìÌì
---´úÂë¿ª·¢ÈË£º´å³¤
---´úÂë¿ª·¢Ê±¼ä£º2007Äê6ÔÂ11ÈÕ
---´úÂëĞŞ¸Ä¼ÇÂ¼£º
+--è„šæœ¬åç§°ï¼šæ¥šå›½å¯†ä»¤ä½¿ç”¨è„šæœ¬
+--è„šæœ¬åŠŸèƒ½ï¼šä½¿ç”¨æ­¤ç‰©å“ï¼Œç»™ç©å®¶å¢å‡1000ä¸ªä¿¡ç‰©
+--è„šæœ¬ç­–åˆ’äººï¼šå°å¤©å¤©
+--ä»£ç å¼€å‘äººï¼šæ‘é•¿
+--ä»£ç å¼€å‘æ—¶é—´ï¼š2007å¹´6æœˆ11æ—¥
+--ä»£ç ä¿®æ”¹è®°å½•ï¼š
 
 	keepsake_num_TaskID = 1227
 
 function OnUse()
-	Say("<color=green>Chó ı<color>: sö dông vËt phÈm nµy cã thÓ t¨ng <color=yellow>1000<color> <color=yellow>tİn vËt<color>, b¹n cã thÓ <color=yellow>Tİn vËt<color> ë <color=green>Di téc Së quèc<color> bªn c¹nh <color=green>D· TÈu<color> ®Ó ®æi lÊy <color=yellow>nguyªn liÖu b¸nh İt<color>. Sö dông chø?",
+	Say("<color=green>æ³¨æ„<color>:ä½¿ç”¨è¿™ä¸ªç‰©å“å¯ä»¥å¢åŠ <color=yellow>1000<color>ä¸ª<color=yellow>ä¿¡ç‰©<color>,ä½ å¯ä»¥æ‹¿ç€è¿™ä¸ª<color=yellow>ä¿¡ç‰©<color>åˆ°<color=green>XXéƒ¨è½<color>æ—è¾¹çš„<color=green>é‡ç”Ÿç®¡<color>å…‘æ¢<color=yellow>æ¡‚èŠ±ç³•ææ–™<color>ã€‚ç¡®å®šè¦ä½¿ç”¨å—?",
 	2,
-	"§ång ı dïng/use_dtm",
-	"§Ó ta suy nghÜ l¹i/end_dialog"
+	"åŒæ„ä½¿ç”¨/use_dtm",
+	"è®©æˆ‘æƒ³æƒ³/end_dialog"
 	)
 end
 function use_dtm()
-	--Ğ¯´ø¼ì²â
+	--æºå¸¦æ£€æµ‹
 	if GetItemCount(2,1,1142) == 0 then
-		Talk(1,"","<color=green>Chó ı<color>: Xin x¸c nhËn cã mang theo <color=yellow>Së quèc MËt lÖnh<color>!")
+		Talk(1,"","<color=green>æ³¨æ„<color>:è¯·ç¡®è®¤ä½ æœ‰<color=yellow>ä¸ªæ¥šå›½å¯†ä»¤<color>!")
 		return
 	end
-	--É¾³ı¼ì²â
+	--åˆ é™¤æ£€æµ‹
 	if DelItem(2,1,1142,1) ~= 1 then
-		Talk(1,"","<color=green>Chó ı<color>: Xin x¸c nhËn cã mang theo <color=yellow>Së quèc MËt lÖnh<color>!")
+		Talk(1,"","<color=green>æ³¨æ„<color>:è¯·ç¡®è®¤ä½ æœ‰<color=yellow>ä¸ªæ¥šå›½å¯†ä»¤<color>!")
 		return
 	end
-	--ĞÅÎïÔö¼Ó
+	--ä¿¡ç‰©å¢åŠ 
 	SetTask(keepsake_num_TaskID,(GetTask(keepsake_num_TaskID)+1000))
-	Msg2Player("Chóc mõng b¹n ®· ®æi thµnh c«ng 1000 tİn vËt n­íc Së, b¹n cã thÓ ®Õn 'Di Téc Së Quèc' xem vµ sö dông!")
+	Msg2Player("æ­å–œä½ æˆåŠŸåœ°å¢åŠ äº†1000ä¸ªä¿¡ç‰©,ä½ å¯ä»¥åˆ°â€˜æ¥šå›½XXéƒ¨è½â€™é‚£çœ‹çœ‹,å¹¶ä½¿ç”¨å®ƒ!")
 end
