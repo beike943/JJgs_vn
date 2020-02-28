@@ -1,12 +1,12 @@
---Ä¥µ¶Ê¯
+--ç£¨åˆ€çŸ³
 
 function OnUse()
-	Say("Sö dông Ma §ao Th¹ch ngÉu nhiªn ®iÒu chØnh søc c«ng kİch trong ph¹m vi nhÊt ®Şnh.",2,"B¾t ®Çu/StartKnife","Kh«ng cÇn ®©u/do_nothing")
+	Say("ä½¿ç”¨ç£¨åˆ€çŸ³å¯ä»¥åœ¨ä¸€å®šèŒƒå›´å†…éšæœºè°ƒæ•´æ­¦å™¨çš„æ”»å‡»åŠ›.",2,"å¼€å§‹/StartKnife","ä¸éœ€è¦/do_nothing")
 end
 
 function StartKnife()
 	if GetFightState() ~= 0 then
-		Talk(1,"","HiÖn t¹i kh«ng thÓ sö dông ®¹o cô nµy");
+		Talk(1,"","ç°åœ¨ä¸èƒ½ä½¿ç”¨è¿™ä¸ªé“å…·");
 		return 0;
 	end
 	KnifeStone();
@@ -17,7 +17,7 @@ function do_nothing()
 --do nothing
 end
 
---Í³¼ÆµÀ¾ßµÄÊ¹ÓÃÇé¿ö
+--ç»Ÿè®¡é“å…·çš„ä½¿ç”¨æƒ…å†µ
 function Knife_Stone_Statistics(nG, nD, nP, nNum)
 	--print("Knife_Stone_Statistics",nG, nD, nP,nNum);
 	if nNum and nNum > 0 then
