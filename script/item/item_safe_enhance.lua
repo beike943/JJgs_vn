@@ -1,12 +1,12 @@
---°²È«Ç¿»¯
+--å®‰å…¨å¼ºåŒ–
 
 function OnUse()
-	Say("Sö dông tİnh n¨ng c­êng hãa an toµn tiÕn hµnh c­êng hãa vò khİ, c­êng hãa thÊt b¹i sÏ kh«ng lµm rít cÊp. <color=red> (CÊp 11 trë lªn míi cã thÓ tiÕn hµnh c­êng hãa an toµn) <color>",2,"B¾t ®Çu/StartEnhance","Kh«ng cÇn ®©u/do_nothing")
+	Say("ä½¿ç”¨å®‰å…¨å¼ºåŒ–åŠŸèƒ½æ¥å®æ–½æ­¦å™¨å¼ºåŒ–,ï¼Œå¼ºåŒ–å¤±è´¥ä¸ä¼šé™ä½çº§åˆ«ã€‚ <color=red> (11çº§åŠä»¥ä¸Šå¯è¿›è¡Œå®‰å…¨å¼ºåŒ–) <color>",2,"å¼€å§‹/StartEnhance","ä¸éœ€è¦/do_nothing")
 end
 
 function StartEnhance()
 	if GetFightState() ~= 0 then
-		Talk(1,"","HiÖn t¹i kh«ng thÓ sö dông ®¹o cô nµy");
+		Talk(1,"","ç°åœ¨ä¸èƒ½ä½¿ç”¨è¿™ä¸ªé“å…·");
 		return 0;
 	end
 	EnhanceItem(3);
