@@ -2,7 +2,7 @@
 --功能设计：村长
 --功能开发：村长
 --开发时间：2011-4-19
---修改记录：
+--修改记录：2020-02-28
 Include("\\script\\lib\\globalfunctions.lua")
 Include("\\script\\class\\ktabfile.lua")
 --数据读取
