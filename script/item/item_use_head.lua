@@ -1,11 +1,11 @@
---½Å±¾¹¦ÄÜ£º½£Íø2Ô½ÄÏ°æÎïÆ·Ê¹ÓÃ²¿·Ö¹¦ÄÜÍ³Ò»´¦Àí
---¹¦ÄÜÉè¼Æ£º´å³¤
---¹¦ÄÜ¿ª·¢£º´å³¤
---¿ª·¢Ê±¼ä£º2011-4-19
---ĞŞ¸Ä¼ÇÂ¼£º
+--è„šæœ¬åŠŸèƒ½ï¼šå‰‘ç½‘2è¶Šå—ç‰ˆç‰©å“ä½¿ç”¨éƒ¨åˆ†åŠŸèƒ½ç»Ÿä¸€å¤„ç†
+--åŠŸèƒ½è®¾è®¡ï¼šæ‘é•¿
+--åŠŸèƒ½å¼€å‘ï¼šæ‘é•¿
+--å¼€å‘æ—¶é—´ï¼š2011-4-19
+--ä¿®æ”¹è®°å½•ï¼š
 Include("\\script\\lib\\globalfunctions.lua")
 Include("\\script\\class\\ktabfile.lua")
---Êı¾İ¶ÁÈ¡
+--æ•°æ®è¯»å–
 SZ_INI_FILE_WAY="\\settings\\item\\item_use_add.ini"
 g_objItemUseRule = ff_GetIniFileObj(SZ_INI_FILE_WAY)
 if g_objItemUseRule:Open() ~= 1 then
@@ -14,16 +14,16 @@ end
 SkeyMain ="MainInfo"
 SkeyItemInfo ="tItemInfo"
 tPrizeName = g_objItemUseRule:GetTable(SkeyMain,"tPrizeName")
---ÁÙÊ±ÈÎÎñ±äÁ¿¶¨Òå
+--ä¸´æ—¶ä»»åŠ¡å˜é‡å®šä¹‰
 nTaskTempId_UseItem1 = 247
 nTaskTempId_UseItem2 = 248
---¹«¹²±äÁ¿¶¨Òå
-sClew = "<color=green>Nh¾c nhë<color>: sö dông 1 <color=green>%s<color> cã thÓ nhËn ®­îc"
-sUseDtmAsk = "X¸c ®Şnh sö dông %s?"
-sUseDtmSel = "Sö dông %s/use_dtm"
-sOutDiaSel = "§Ó ta nghÜ l¹i/no"
-sUseNumInput = "Sö dông bao nhiªu %s?"
---===¹«¹²Âß¼­
+--å…¬å…±å˜é‡å®šä¹‰
+sClew = "<color=green>æç¤º<color>:ä½¿ç”¨1ä¸ª<color=green>%s<color>å¯ä»¥å¾—åˆ°"
+sUseDtmAsk = "ç¡®å®šä½¿ç”¨%s?"
+sUseDtmSel = "ä½¿ç”¨%s/use_dtm"
+sOutDiaSel = "è®©æˆ‘æƒ³æƒ³/no"
+sUseNumInput = "ä½¿ç”¨å¤šå°‘ä¸ª%s?"
+--===å…¬å…±é€»è¾‘
 function OnUse(nItemIndex)
 	local nItemSeq,tItemInfo = 0,{}
 	local nGenre, nDetail, nParticular = GetItemInfoByIndex(nItemIndex)
@@ -55,7 +55,7 @@ function OnUse(nItemIndex)
 	}
 	Say(tUseItemSay[1]..tUseItemSay[2],2,tUseItemSay[3],tUseItemSay[4])
 end
---ÊıÁ¿ÊäÈë
+--æ•°é‡è¾“å…¥
 function use_dtm()
 	local tItemInfo = get_item_info()
 	local nItemCount = GetItemCount(tItemInfo[1][1],tItemInfo[1][2],tItemInfo[1][3])
@@ -64,23 +64,23 @@ function use_dtm()
 	elseif nItemCount == 1 then
 		use_deal(1)
 	else
-		AskClientForNumber("use_deal", 1,nItemCount, format("Sö dông bao nhiªu %s?",tItemInfo[1][4]))
+		AskClientForNumber("use_deal", 1,nItemCount, format("ä½¿ç”¨å¤šå°‘ä¸ª %s?",tItemInfo[1][4]))
 	end
 end
---Ê¹ÓÃ´¦Àí
+--ä½¿ç”¨å¤„ç†
 function use_deal(nItemNum)
 	local nItemSeq = GetTaskTemp(nTaskTempId_UseItem1)
 	local tItemInfo = get_item_info()
 	if nItemNum == 1 then
 		local nItemIndex = GetTaskTemp(nTaskTempId_UseItem2)
 		if DelItemByIndex(nItemIndex,1) == 1 then
-			gf_EventGiveCustomAward(tItemInfo[2][1],(tItemInfo[2][2]*nItemNum),1,"Sö dông vËt phÈm",tItemInfo[1][4].."x"..nItemNum)
+			gf_EventGiveCustomAward(tItemInfo[2][1],(tItemInfo[2][2]*nItemNum),1,"ä½¿ç”¨ç‰©å“",tItemInfo[1][4].."x"..nItemNum)
 		end
 	elseif DelItem(tItemInfo[1][1],tItemInfo[1][2],tItemInfo[1][3],nItemNum) == 1 then
-		gf_EventGiveCustomAward(tItemInfo[2][1],(tItemInfo[2][2]*nItemNum),1,"Sö dông vËt phÈm",tItemInfo[1][4].."x"..nItemNum)
+		gf_EventGiveCustomAward(tItemInfo[2][1],(tItemInfo[2][2]*nItemNum),1,"ä½¿ç”¨ç‰©å“",tItemInfo[1][4].."x"..nItemNum)
 	end
 end
---»ñÈ¡ÎïÆ·¶ÔÓ¦ĞÅÏ¢
+--è·å–ç‰©å“å¯¹åº”ä¿¡æ¯
 function get_item_info()
 	local nItemSeq = GetTaskTemp(nTaskTempId_UseItem1)
 	return g_objItemUseRule:GetMixTable(SkeyMain,SkeyItemInfo..tostring(nItemSeq))
