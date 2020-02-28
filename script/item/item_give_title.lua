@@ -1,9 +1,9 @@
 
 t_tile_cfg =
 {
-	[30560] = {65, 1, 30, "Du HiÖp"},
-	[30561] = {65, 2, 30, "¦ng D­¬ng"},
-	[30562] = {65, 3, 30, "ChiÕn Cuång"},
+	[30560] = {65, 1, 30, "è¶Šå—é“å…·30560"},
+	[30561] = {65, 2, 30, "è¶Šå—é“å…·30561"},
+	[30562] = {65, 3, 30, "è¶Šå—é“å…·30562"},
 }
 ITEM_G=2
 ITEM_D=1
@@ -15,11 +15,11 @@ function OnUse(id)
 		local p = GetItemParticular(id)
 		local t = t_tile_cfg[p]
 		if t then
-    		local szMsg = format("Ng­¬i x¸c nhËn muèn ®æi %d ngµy gia h¹n thêi gian [%s] danh hiÖu kh«ng?", t[3], t[4])
+    		local szMsg = format("æ‚¨ç¡®è®¤è¦è·å¾—%dæ—¥[%s]å—ï¼Ÿ", t[3], t[4])
     		local tSay = 
         	{
-        		format("§ång ı/#ye_use(%d)", p),
-        		"Rêi khái/no",
+        		format("åŒæ„/#ye_use(%d)", p),
+        		"ç¦»å¼€/no",
         	}
         	Say(szMsg, getn(tSay), tSay)
 		end
@@ -35,10 +35,10 @@ function ye_use(nItemP)
 				AddTitle(t[1], t[2])
 				SetTitleTime(t[1], t[2], GetTime() + t[3] * 24 * 60 * 60)
 				SetCurTitle(t[1], t[2])
-				Msg2Player(format("Ng­¬i nhËn ®­îc %d ngµy gia h¹n thêi gian [%s] danh hiÖu", t[3], t[4]))
+				Msg2Player(format("ä½ æˆåŠŸäº†å¢åŠ äº†%då¤´è¡”çš„æœ‰æ•ˆ[%s]æ—¥æœŸ", t[3], t[4]))
 			end
 		else
-			Say(format("§· cã [%s] danh hiÖu, kh«ng thÓ sö dông l¹i", t[4]), 0)
+			Say(format("ä¸èƒ½ç»§ç»­ä½¿ç”¨[%s]ï¼Œè¯¥é“å…·åªèƒ½ä½¿ç”¨ä¸€æ¬¡ã€‚", t[4]), 0)
 		end
 	end
 end
