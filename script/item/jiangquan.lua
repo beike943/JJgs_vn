@@ -1,4 +1,4 @@
---½±È¯:Ê¹ÓÃÓĞ¼¸ÂÊ»ñµÃ100¡¢500¡¢1000¡¢2000¡¢5000¡¢8000¡¢1W¡¢2W¡¢5W¡¢50W¾­ÑéÖµ¡£
+--å¥–åˆ¸:ä½¿ç”¨æœ‰å‡ ç‡è·å¾—100ã€500ã€1000ã€2000ã€5000ã€8000ã€1Wã€2Wã€5Wã€50Wç»éªŒå€¼ã€‚
 
 function OnUse()
 
@@ -12,65 +12,65 @@ local nNum = random(1,286505);
 
 	if nNum <= 5 then
 		ModifyExp(500000);
-		Talk(1,"","Chóc mõng b¹n t¨ng thªm <color=yellow>500000<color> ®iÓm kinh nghiÖm!");
-		Msg2Player("Chóc mõng b¹n t¨ng thªm 500000 ®iÓm kinh nghiÖm!");
-		--AddGlobalCountNews("¹§Ï²Íæ¼Ò"..GetName().."Í¨¹ı³éÈ¡½±È¯»ñµÃ500000¾­ÑéÖµ£¡",3);
+		Talk(1,"","æ­å–œä½ ä½¿ç”¨å¥–åˆ¸è·å¾—äº†<color=yellow>500000<color>ç‚¹ç»éªŒå€¼ï¼");
+		Msg2Player("ä½ è·å¾—äº†500000ç‚¹ç»éªŒå€¼ï¼");
+		--AddGlobalCountNews("æ­å–œç©å®¶"..GetName().."é€šè¿‡æŠ½å–å¥–åˆ¸è·å¾—500000ç»éªŒå€¼ï¼",3);
 	end;
 	
 	if nNum > 5 and nNum <= 505 then
 		ModifyExp(50000);
-		Talk(1,"","Chóc mõng b¹n t¨ng thªm <color=yellow>50000<color> ®iÓm kinh nghiÖm!");
-		Msg2Player("Chóc mõng b¹n t¨ng thªm 50000 ®iÓm kinh nghiÖm!");	
+		Talk(1,"","æ­å–œä½ ä½¿ç”¨å¥–åˆ¸è·å¾—äº†<color=yellow>50000<color>ç‚¹ç»éªŒå€¼ï¼");
+		Msg2Player("ä½ è·å¾—äº†50000ç‚¹ç»éªŒå€¼ï¼");	
 	end;
 	
 	if nNum > 505 and nNum <= 2505 then
 		ModifyExp(20000);
-		Talk(1,"","Chóc mõng b¹n t¨ng thªm <color=yellow>20000<color> ®iÓm kinh nghiÖm!");	
-		Msg2Player("Chóc mõng b¹n t¨ng thªm 20000 ®iÓm kinh nghiÖm!");
+		Talk(1,"","æ­å–œä½ ä½¿ç”¨å¥–åˆ¸è·å¾—äº†<color=yellow>20000<color>ç‚¹ç»éªŒå€¼ï¼");	
+		Msg2Player("ä½ è·å¾—äº†20000ç‚¹ç»éªŒå€¼ï¼");
 	end;
 	
 	if nNum > 2505 and nNum <= 8505 then
 		ModifyExp(10000);
-		Talk(1,"","Chóc mõng b¹n t¨ng thªm <color=yellow>10000<color> ®iÓm kinh nghiÖm!");
-		Msg2Player("Chóc mõng b¹n t¨ng thªm 10000 ®iÓm kinh nghiÖm!");
+		Talk(1,"","æ­å–œä½ ä½¿ç”¨å¥–åˆ¸è·å¾—äº†<color=yellow>10000<color>ç‚¹ç»éªŒå€¼ï¼");
+		Msg2Player("ä½ è·å¾—äº†10000ç‚¹ç»éªŒå€¼ï¼");
 	end;
 	
 	if nNum > 8505 and nNum <= 16505 then
 		ModifyExp(8000);
-		Talk(1,"","Chóc mõng b¹n t¨ng thªm <color=yellow>8000<color> ®iÓm kinh nghiÖm!");
-		Msg2Player("Chóc mõng b¹n t¨ng thªm 8000 ®iÓm kinh nghiÖm!");
+		Talk(1,"","æ­å–œä½ ä½¿ç”¨å¥–åˆ¸è·å¾—äº†<color=yellow>8000<color>ç‚¹ç»éªŒå€¼ï¼");
+		Msg2Player("ä½ è·å¾—äº†8000ç‚¹ç»éªŒå€¼ï¼");
 	end;
 	
 	if nNum > 16505 and nNum <= 26505 then
 		ModifyExp(5000);
-		Talk(1,"","Chóc mõng b¹n t¨ng thªm <color=yellow>5000<color> ®iÓm kinh nghiÖm!");
-		Msg2Player("Chóc mõng b¹n t¨ng thªm 5000 ®iÓm kinh nghiÖm!");
+		Talk(1,"","æ­å–œä½ ä½¿ç”¨å¥–åˆ¸è·å¾—äº†<color=yellow>5000<color>ç‚¹ç»éªŒå€¼ï¼");
+		Msg2Player("ä½ è·å¾—äº†5000ç‚¹ç»éªŒå€¼ï¼");
 	end;
 	
 	if nNum > 26505 and nNum <= 46505 then
 		ModifyExp(2000);
-		Talk(1,"","Chóc mõng b¹n t¨ng thªm <color=yellow>2000<color> ®iÓm kinh nghiÖm!");
-		Msg2Player("Chóc mõng b¹n t¨ng thªm 2000 ®iÓm kinh nghiÖm!");
+		Talk(1,"","æ­å–œä½ ä½¿ç”¨å¥–åˆ¸è·å¾—äº†<color=yellow>2000<color>ç‚¹ç»éªŒå€¼ï¼");
+		Msg2Player("ä½ è·å¾—äº†2000ç‚¹ç»éªŒå€¼ï¼");
 	end;
 	
 	if nNum > 46505 and nNum <= 96505 then
 		ModifyExp(1000);
-		Talk(1,"","Chóc mõng b¹n t¨ng thªm <color=yellow>1000<color> ®iÓm kinh nghiÖm!");
-		Msg2Player("Chóc mõng b¹n t¨ng thªm 1000 ®iÓm kinh nghiÖm!");
+		Talk(1,"","æ­å–œä½ ä½¿ç”¨å¥–åˆ¸è·å¾—äº†<color=yellow>1000<color>ç‚¹ç»éªŒå€¼ï¼");
+		Msg2Player("ä½ è·å¾—äº†1000ç‚¹ç»éªŒå€¼ï¼");
 	end;
 	
 	if nNum > 96505 and nNum <= 186505 then
 		ModifyExp(500);
-		Talk(1,"","Chóc mõng b¹n t¨ng thªm <color=yellow>500<color> ®iÓm kinh nghiÖm!");
-		Msg2Player("Chóc mõng b¹n t¨ng thªm 500 ®iÓm kinh nghiÖm!");
-		--AddGlobalCountNews("¹§Ï²Íæ¼Ò"..GetName().."Í¨¹ı³éÈ¡½±È¯»ñµÃ500¾­ÑéÖµ£¡",3);
+		Talk(1,"","æ­å–œä½ ä½¿ç”¨å¥–åˆ¸è·å¾—äº†<color=yellow>500<color>ç‚¹ç»éªŒå€¼ï¼");
+		Msg2Player("ä½ è·å¾—äº†500ç‚¹ç»éªŒå€¼ï¼");
+		--AddGlobalCountNews("æ­å–œç©å®¶"..GetName().."é€šè¿‡æŠ½å–å¥–åˆ¸è·å¾—500ç»éªŒå€¼ï¼",3);
 	end;
 	
 	if nNum > 186505 then
 		ModifyExp(100);
-		Talk(1,"","Chóc mõng b¹n t¨ng thªm <color=yellow>100<color> ®iÓm kinh nghiÖm!");
-		Msg2Player("Chóc mõng b¹n t¨ng thªm 100 ®iÓm kinh nghiÖm!");
-		--AddGlobalCountNews("¹§Ï²Íæ¼Ò"..GetName().."Í¨¹ı³éÈ¡½±È¯»ñµÃ100¾­ÑéÖµ£¡",3);
+		Talk(1,"","æ­å–œä½ ä½¿ç”¨å¥–åˆ¸è·å¾—äº†<color=yellow>100<color>ç‚¹ç»éªŒå€¼ï¼");
+		Msg2Player("ä½ è·å¾—äº†100ç‚¹ç»éªŒå€¼ï¼");
+		--AddGlobalCountNews("æ­å–œç©å®¶"..GetName().."é€šè¿‡æŠ½å–å¥–åˆ¸è·å¾—100ç»éªŒå€¼ï¼",3);
 	end;
 
 end;
