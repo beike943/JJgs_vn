@@ -10,15 +10,15 @@ JLMD_TABLE = {
 function OnUse(nItem)
 	local nLevel = gf_GetPetSkillLevel();
 	if nLevel < 1 then
-		Say("Ng­¬i vÉn ch­a häc Gi¸ng Linh ThuËt!", 0);
+		Say("ä½ è¿˜æ²¡æœ‰å­¦ä¼šé™çµæœ¯", 0);
 		return
 	end
 	if not JLMD_TABLE[nLevel + 1] then
-		Say("T¹m thêi ch­a më tİnh n¨ng lÜnh ngé Gi¸ng Linh ThuËt cÊp hiÖn t¹i!", 0);
+		Say("åŠŸèƒ½æš‚æœªå¼€æ”¾ï¼", 0);
 		return
 	end
 	local tCost = JLMD_TABLE[nLevel + 1][2];
-	Say(format("§ång ı tiªu hao <color=red>%s*%d, EXP %d, ®iÓm tu luyÖn %d<color> ®Ó lÜnh ngé Gi¸ng Linh ThuËt cÊp cao h¬n kh«ng?", "Gi¸ng Linh Bİ §iÓn", tCost[1], tCost[2], tCost[3]), 2, format("§ång ı/#try_update_jinglingshu(%d)", nLevel + 1), "Hñy bá/nothing");
+	Say(format("ä½ åŒæ„æ¶ˆè€—<color=red>%s*%d, EXP %d,é™çµç§˜å…¸%d<color>è·å¾—æ›´é«˜çš„é™çµæœ¯ç­‰çº§å—ï¼Ÿ", "é™çµæœ¯", tCost[1], tCost[2], tCost[3]), 2, format("åŒæ„/#try_update_jinglingshu(%d)", nLevel + 1), "å–æ¶ˆ/nothing");
 end
 
 function try_update_jinglingshu(nIndex)
@@ -27,23 +27,23 @@ function try_update_jinglingshu(nIndex)
 		return 
 	end
 	if GetItemCount(2, 1, 30725) < tCost[1] then
-		Say(format("Sè l­îng <color=gold>%s<color> kh«ng ®ñ <color=red>%d<color>", "Gi¸ng Linh Bİ §iÓn", tCost[1]), 0);
+		Say(format("æ•°é‡<color=gold>%s<color>ä¸è¶³<color=red>%d<color>", "é™çµç§˜å…¸", tCost[1]), 0);
 		return
 	end
 	if GetExp() < tCost[2] then
-		Say(format("Sè l­îng <color=gold>%s<color> kh«ng ®ñ <color=red>%d<color>", "Kinh nghiÖm", tCost[2]), 0);
+		Say(format("æ•°é‡<color=gold>%s<color>ä¸è¶³<color=red>%d<color>", "ç»éªŒ", tCost[2]), 0);
 		return
 	end
 	if GetPopur() < tCost[3] then
-		Say(format("Sè l­îng <color=gold>%s<color> kh«ng ®ñ <color=red>%d<color>", "LuyÖn", tCost[3]), 0);
+		Say(format("æ•°é‡<color=gold>%s<color>ä¸è¶³<color=red>%d<color>", "ç§¯åˆ†", tCost[3]), 0);
 		return
 	end
 	if DelItem(2, 1, 30725, tCost[1]) ~= 1 then
 		return
 	end
 	
-	AddRuntimeStat(28, 1, nIndex, 1);--³å»÷½µÁéÊõX¼¶µÄ´ÎÊı
-	AddRuntimeStat(28, 2, 0, tCost[1]); --ÏûºÄ½µÁéÃØµäÊıÁ¿
+	AddRuntimeStat(28, 1, nIndex, 1);--å†²å‡»é™çµæœ¯Xçº§çš„æ¬¡æ•°
+	AddRuntimeStat(28, 2, 0, tCost[1]); --æ¶ˆè€—é™çµç§˜å…¸æ•°é‡
 	
 	ModifyExp(-tCost[2]);
 	ModifyPopur(-tCost[3]);
@@ -51,11 +51,11 @@ function try_update_jinglingshu(nIndex)
 	if rand <= JLMD_TABLE[nIndex][1] then
 		gf_SetPetSkillLevel(nIndex);
 		if JLMD_TABLE[nIndex][3] == 1 then
-			Msg2Global(format("Chóc mõng [%s] sö dông Gi¸ng Linh MËt TŞch lÜnh ngé Gi¸ng Linh ThuËt cÊp %d", GetName(), nIndex));
+			Msg2Global(format("æ­å–œä½ [%s]ä½¿ç”¨é™çµç§˜å…¸æˆåŠŸçš„å‡çº§äº†é™çµæœ¯%d", GetName(), nIndex));
 		end
 		PlaySound("\\sound\\sound_i016.wav");
 		SetCurrentNpcSFX(PIdx2NpcIdx(),905,0,0)
 	else
-		Say("LÜnh ngé thÊt b¹i Gi¸ng Linh ThuËt cÊp cao h¬n!", 0);
+		Say("å‡çº§å¤±è´¥ï¼", 0);
 	end
 end
