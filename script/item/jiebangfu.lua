@@ -1,4 +1,4 @@
---½â°ó·ûÎïÆ·½Å±¾
+--è§£ç»‘ç¬¦ç‰©å“è„šæœ¬
 Include("\\script\\lib\\globalfunctions.lua")
 
 t_award = 
@@ -7,8 +7,8 @@ t_award =
 	n_room_need = 2,
 	n_weight_need = 50,
 	t_item = {
-		{2,1,30470,1,"Cµng Kh«n Phï"},
-		{2,1,1009,10,"Thiªn Th¹ch Tinh Th¹ch"},
+		{2,1,30470,1,"è§£ç»‘ç¬¦"},
+		{2,1,1009,10,"é™¨é“ç²¾çŸ³"},
 		},
 }
 
@@ -18,16 +18,16 @@ end
 
 function _OnUseReal(nItemIdx)
 	local tbSay = {}
-	local szTitle = format("%s: ®¹o cô nµy ®· kh«ng thÓ sö dông, nh­ng cã thÓ gióp c¸c h¹ ho¸n ®æi thµnh ®¹o cô <color=yellow>khãa<color> cã chøc n¨ng t­¬ng tù:\n%s",
+	local szTitle = format("%s:è¿™ä¸ªé“å…·å·²ç»ä¸èƒ½ä½¿ç”¨,ä½†å¯ä»¥å…‘æ¢æˆå…¶å®ƒé“å…·<color=yellow>ç»‘å®š<color>ç±»ä¼¼çš„åŠŸèƒ½:\n%s",
 		GetItemName(nItemIdx), _get_award_desc(t_award))
-	tinsert(tbSay, format("X¸c ®Şnh ®æi/#_OnUseReal_Confirm(%d)", nItemIdx))
-	tinsert(tbSay, "§Ó ta suy nghÜ l¹i/no")
+	tinsert(tbSay, format("ç¡®å®šå…‘æ¢/#_OnUseReal_Confirm(%d)", nItemIdx))
+	tinsert(tbSay, "è®©æˆ‘æƒ³æƒ³ç­°/no")
 	Say(szTitle, getn(tbSay), tbSay)
 end
 
 function _OnUseReal_Confirm(nItemIdx)
 	if gf_Judge_Room_Weight(t_award.n_room_need,t_award.n_weight_need,"") ~= 1 then
-		--Talk(1,"",format("±³°ü¿Õ¼ä²»×ã%d»òÒÑ´ï¸ºÖØÉÏÏŞ!", t_award.n_room_need))
+		--Talk(1,"",format("èƒŒåŒ…ç©ºé—´ä¸è¶³%dæˆ–å·²è¾¾è´Ÿé‡ä¸Šé™!", t_award.n_room_need))
 		return 0
 	end
 	local nDelResult = DelItemByIndex(nItemIdx, -1)
@@ -38,7 +38,7 @@ function _OnUseReal_Confirm(nItemIdx)
 		if t_award.t_item then
     		for i = 1, getn(t_award.t_item) do
     			local t = t_award.t_item[i]
-        		AddItem(t[1],t[2],t[3],t[4],4)--°ó¶¨µÄ
+        		AddItem(t[1],t[2],t[3],t[4],4)--ç»‘å®šçš„
         	end
 		end
 	end
@@ -49,7 +49,7 @@ function _get_award_desc(_t_award)
 	local t = _t_award
 	if t then
 		if t.n_gold then
-			szDesc = format("%d vµng", t.n_gold)
+			szDesc = format("%dé‡‘å¸", t.n_gold)
 		end
 		if t.t_item then
     		for i = 1, getn(t.t_item) do
