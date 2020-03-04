@@ -1,30 +1,30 @@
---ÖØÑô½Ú¾Õ»¨¸â
+--é‡é˜³èŠ‚èŠèŠ±ç³•
 --by vivi
 --2007/10/16
 
 Include("\\script\\lib\\globalfunctions.lua");
 
---ÈÎÎñ±äÁ¿
-TASK_JHG_NUM = 2318; --Ê¹ÓÃ´ÎÊı£¬×î¶à5´Î
+--ä»»åŠ¡å˜é‡
+TASK_JHG_NUM = 2318; --ä½¿ç”¨æ¬¡æ•°ï¼Œæœ€å¤š5æ¬¡
 
 IB_VERSION = 1;
 
 function OnUse()
 	if GetTask(TASK_JHG_NUM) == 5 then
-		Talk(1,"","Xin lçi, b¹n ®· sö dông 5 lÇn vËt phÈm, kh«ng thÓ sö dông ®­îc n÷a. ");
+		Talk(1,"","æŠ±æ­‰ï¼ä½ å·²ç»ä½¿ç”¨äº†5æ¬¡äº†ï¼Œä¸èƒ½å†ç”¨äº†ã€‚");
 		return
 	end
 	local szExp = "";
 	local nLevel = GetLevel();
 	if IB_VERSION == 1 then
-		szExp = "NhËn ®­îc <color=yellow>"..floor(1000000*(nLevel^3)/(80^3)).." kinh nghiÖm <color>. ";
+		szExp = "è·å¾—<color=yellow>"..floor(1000000*(nLevel^3)/(80^3)).."ç‚¹ç»éªŒ<color>. ";
 	else
-		szExp = "NhËn ®­îc <color=yellow>"..floor(1500000*(nLevel^3)/(80^3)).."Kinh nghiÖm kháe m¹nh <color>, ChuyÓn <color=yellow> "..floor(2500000*(nLevel^3)/(80^3)).." ®iÓm <color>. ";
+		szExp = "è·å¾—<color=yellow>"..floor(1500000*(nLevel^3)/(80^3)).."å¥åº·ç»éªŒ<color>,è½¬<color=yellow> "..floor(2500000*(nLevel^3)/(80^3)).."ç‚¹<color>. ";
 	end;	
-	Say("Sö dông Cóc Hoa Cao, b¹n cã thÓ "..szExp.."Sö dông chø?",
+	Say("ä½¿ç”¨èŠèŠ±ç³•,ä½ å¯ä»¥è·å¾—"..szExp.."ç¡®å®šä½¿ç”¨å—ï¼Ÿ",
 		2,
-		"§ång ı/give_exp",
-		"Hñy bá/nothing")
+		"ç¡®å®š/give_exp",
+		"ä¸ç”¨äº†/nothing")
 end
 
 function give_exp()
@@ -36,15 +36,15 @@ function give_exp()
 		if IB_VERSION == 1 then
 			nExp = floor(1000000*(nLevel^3)/(80^3));
 			ModifyExp(nExp);
-			Msg2Player("B¹n nhËn ®­îc "..nExp.." ®iÓm kinh nghiÖm");
+			Msg2Player("ä½ è·å¾—"..nExp.."ç‚¹ç»éªŒ");
 		else
 			nAddGoldenExp = floor(1500000*(nLevel^3)/(80^3));
 			ModifyGoldenExp(nAddGoldenExp);
-			Msg2Player("B¹n nhËn ®­îc "..nAddGoldenExp.." ®iÓm kinh nghiÖm søc kháe");
+			Msg2Player("ä½ è·å¾—"..nAddGoldenExp.."ç‚¹å¥åº·ç»éªŒ");
 			nGoldenExp = floor(2500000*(nLevel^3)/(80^3));
 			nExp = gf_GoldenExp2Exp(nGoldenExp);
 		end;
-		WriteLog("[Ho¹t ®éng mõng tiÕt Trïng D­¬ng]:"..GetName().."nhËn ®­îc 1 lÇn th­ëng:"..nExp.." ®iÓm kinh nghiÖm");
+		WriteLog("[é‡é˜³èŠ‚æ´»åŠ¨]:"..GetName().."è·å¾—1ä¸ªå¥–åŠ±:"..nExp.."ç‚¹ç»éªŒ");
 		SetTask(TASK_JHG_NUM,GetTask(TASK_JHG_NUM)+1);
 	end
 end
