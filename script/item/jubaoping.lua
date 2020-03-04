@@ -1,4 +1,4 @@
---¾ÛÁé¶¦½Å±¾
+--èšçµé¼è„šæœ¬
 --by vivi
 --09/14/2007
 
@@ -7,163 +7,163 @@ Include("\\script\\lib\\lingshipeifang_info.lua")
 Include("\\script\\class\\ktabfile.lua")
 
 lingshi_pf = new(KTabFile,"\\settings\\item\\lingshipeifang.txt")
---ÁÙÊ±±äÁ¿
-TT_LINGSHI_LV = 120; --¼ÇÂ¼Íæ¼ÒÑ¡ÔñÈ¡³öÁéÊ¯µÄµÈ¼¶
-TT_LINGSHI_PF_LV = 121; --¼ÇÂ¼Íæ¼ÒÑ¡ÔñÈ¡³öÁéÊ¯Åä·½µÄµÈ¼¶
-TT_LINGSHI_CHANGE_LV = 123; --¼ÇÂ¼Íæ¼ÒÑ¡Ôñ¶Ò»»¸ß¼¶ÁéÊ¯Ê±µÄÏûºÄµÄÁéÊ¯µÈ¼¶
-TT_LSPF_CHANGE_LV = 124; --¼ÇÂ¼Íæ¼ÒÑ¡Ôñ¶Ò»»¸ß¼¶ÁéÊ¯Åä·½Ê±µÄÏûºÄµÄÁéÊ¯Åä·½µÈ¼¶
+--ä¸´æ—¶å˜é‡
+TT_LINGSHI_LV = 120; --è®°å½•ç©å®¶é€‰æ‹©å–å‡ºçµçŸ³çš„ç­‰çº§
+TT_LINGSHI_PF_LV = 121; --è®°å½•ç©å®¶é€‰æ‹©å–å‡ºçµçŸ³é…æ–¹çš„ç­‰çº§
+TT_LINGSHI_CHANGE_LV = 123; --è®°å½•ç©å®¶é€‰æ‹©å…‘æ¢é«˜çº§çµçŸ³æ—¶çš„æ¶ˆè€—çš„çµçŸ³ç­‰çº§
+TT_LSPF_CHANGE_LV = 124; --è®°å½•ç©å®¶é€‰æ‹©å…‘æ¢é«˜çº§çµçŸ³é…æ–¹æ—¶çš„æ¶ˆè€—çš„çµçŸ³é…æ–¹ç­‰çº§
 
---ÈÎÎñ±äÁ¿
-TASK_LINGSHI_QINGLING = 2335; --¶ÔÁéÊ¯¸ºÊıÇå0´¦Àí£¬Ö´ĞĞÒ»´Î
-TASK_PF_QINGLING = 2336; --¶ÔÁéÊ¯Åä·½¸ºÊıÇå0´¦Àí£¬Ö´ĞĞÒ»´Î
---ÏûºÄËæ»ú´ÎÊıÈ¨Öµ±í
-tRandNum ={--ÊôĞÔÃû	id	Î»ÖÃ	×îµÍµÈ¼¶	ÊÇ·ñËæ»ú	ÏûºÄËæ»ú´ÎÊı	µÈ¼¶1-7È¨Öµ
-{"Tû lÖ mµi mßn vò khİ gi¶m",9,2,1,0,1,1,1,1,1,2,2,2},
-{"Søc lùc t¨ng",110,2,1,0,1,1,1,1,1,2,2,2},
-{"Søc lùc t¨ng",110,0,1,0,1,1,1,1,1,2,2,2},
-{"Søc lùc t¨ng",110,1,1,0,1,1,1,1,1,2,2,2},
-{"Søc lùc t¨ng",110,3,1,0,1,1,1,1,1,2,2,2},
-{"Sinh lùc +",11,0,1,0,3,1,1,1,1,2,2,2},
-{"Sinh lùc +",11,1,1,0,3,1,1,1,1,2,2,2},
-{"Sinh lùc +",11,3,1,0,3,1,1,1,1,2,2,2},
-{"H¹ gôc ®èi ph­¬ng sinh lùc håi phôc " ,333,2,1,0,2,1,1,1,1,2,2,2},
-{"600 gi©y ®é bÒn vò khİ håi phôc",43,2,1,1,2,1,1,1,1,2,2,2},
-{"600 gi©y ®é bÒn th­îng y håi phôc ",112,1,1,1,2,1,1,1,1,2,2,2},
-{"600 gi©y ®é bÒn nãn håi phôc ",113,0,1,1,2,1,1,1,1,2,2,2},
-{"600 gi©y ®é bÒn h¹ y håi phôc ",114,3,1,1,2,1,1,1,1,2,2,2},
-{"yªu cÇu ®¼ng cÊp gi¶m ",334,0,6,1,3,1,1,1,1,2,2,2},
-{"yªu cÇu ®¼ng cÊp gi¶m "	,334,1,6,1,3,1,1,1,1,2,2,2},
-{"yªu cÇu ®¼ng cÊp gi¶m "	,334,3,6,1,3,1,1,1,1,2,2,2},
-{"Tû lÖ ®¸nh ph¹m vi",335,2,1,0,3,1,1,1,1,2,2,2},
-{"Vò khİ ®¸nh ngo¹i lín nhÊt t¨ng ",65,2,1,0,3,1,1,1,1,2,2,2},
-{"Vò khİ ®¸nh ngo¹i thÊp nhÊt t¨ng "	,66,2,1,0,3,1,1,1,1,2,2,2},
-{"Vò khİ ®¸nh néi lín nhÊt t¨ng"	,67,2,1,0,3,1,1,1,1,2,2,2},
-{"Vò khİ ®¸nh néi thÊp nhÊt t¨ng "	,68,2,1,0,3,1,1,1,1,2,2,2},
-{"D­îc hiÖu kĞo dµi",39,0,1,0,2,1,1,2,2,3,3,4},
-{"ThÓ lùc tèi ®a t¨ng",336,1,1,0,4,1,1,2,2,3,3,4},
-{"TÊn c«ng t¨ng ",77,2,1,1,3,1,1,2,2,3,3,4},
-{"Chİnh x¸c t¨ng",337,2,1,0,4,1,1,2,2,3,3,4},
-{"NĞ tr¸nh t¨ng",338,3,1,0,5,1,1,2,2,3,3,4},
-{"Ph¶n ®ßn",339,1,1,0,5,1,1,2,2,3,3,4},
-{"Mçi 10 gi©y néi lùc håi phôc",340,0,5,1,5,1,1,2,2,3,3,4},
-{"Mçi 10 gi©y néi lùc håi phôc",340,1,5,1,5,1,1,2,2,3,3,4},
-{"Mçi 10 gi©y néi lùc håi phôc",340,3,5,1,5,1,1,2,2,3,3,4},
-{"Mçi 10 gi©y sinh lùc håi phôc",341,0,5,1,5,1,1,2,2,3,3,4},
-{"Mçi 10 gi©y sinh lùc håi phôc",341,1,5,1,5,1,1,2,2,3,3,4},
-{"Mçi 10 gi©y sinh lùc håi phôc",341,3,5,1,5,1,1,2,2,3,3,4},
-{"§¸nh tËp trung t¨ng",342,2,1,0,4,1,1,2,2,3,3,4},
-{"Néi phßng t¨ng ",343,0,1,0,4,1,1,2,2,3,3,4},
-{"Néi phßng t¨ng ",343,1,1,0,4,1,1,2,2,3,3,4},
-{"Néi phßng t¨ng ",343,3,1,0,4,1,1,2,2,3,3,4},
-{"Phßng thñ ngo¹i c«ng t¨ng",344,0,1,0,4,1,1,2,2,3,3,4},
-{"Phßng thñ ngo¹i c«ng t¨ng",344,1,1,0,4,1,1,2,2,3,3,4},
-{"Phßng thñ ngo¹i c«ng t¨ng",344,3,1,0,4,1,1,2,2,3,3,4},
-{"Vâ c«ng hao néi gi¶m",345,0,1,0,5,1,1,2,2,3,3,4},
-{"Ph¸t huy c«ng kİch lín nhÊt",346,2,1,0,5,1,1,2,2,3,3,4},
-{"Tû lÖ nhÊt ®Şnh lµm ®èi ph­¬ng khİ huyÕt hao tæn",53,2,4,0,5,1,1,2,2,3,3,4},
-{"Tû lÖ nhÊt ®Şnh lµm ®èi ph­¬ng ch©n nguyªn hao tæn",54,2,4,0,5,1,1,2,2,3,3,4},
-{"§éc s¸t gi¶m",347,0,1,0,4,1,1,2,2,3,3,4},
-{"§éc s¸t gi¶m",347,1,1,0,4,1,1,2,2,3,3,4},
-{"§éc s¸t gi¶m",347,3,1,0,4,1,1,2,2,3,3,4},
-{"TÊn c«ng lµm søc m¹nh ®èi ph­¬ng gi¶m",348,2,1,0,5,1,1,2,2,3,3,4},
-{"TÊn c«ng lµm g©n cèt ®èi ph­¬ng gi¶m",349,2,1,0,5,1,1,2,2,3,3,4},
-{"TÊn c«ng lµm néi c«ng ®èi ph­¬ng gi¶m",350,2,1,0,5,1,1,2,2,3,3,4},
-{"KhiÕn ®èi ph­¬ng gi¶m Linh ho¹t ",351,2,1,0,5,1,1,2,2,3,3,4},
-{"TÊn c«ng lµm th©n ph¸p ®èi ph­¬ng gi¶m",352,2,1,0,5,1,1,2,2,3,3,4},
-{"TÊn c«ng lµm phßng ngo¹i ®èi ph­¬ng gi¶m",353,2,1,0,5,1,1,2,2,3,3,4}, 
-{"TÊn c«ng lµm gi¶m néi phßng ®èi ph­¬ng",354,2,1,0,5,1,1,2,2,3,3,4},
-{"Gi¶m thêi gian tróng th­¬ng	",355,1,1,0,5,1,1,2,2,3,3,4},
-{"Tû lÖ ®¸nh chÆn xuÊt chiªu cña ®èi ph­¬ng	",356,1,3,0,6,1,1,2,2,3,3,4},
-{"G©n cèt t¨ng",357,2,1,0,5,1,1,2,2,3,3,4},
-{"G©n cèt t¨ng",357,0,1,0,5,1,1,2,2,3,3,4},
-{"G©n cèt t¨ng",357,1,1,0,5,1,1,2,2,3,3,4},
-{"G©n cèt t¨ng",357,3,1,0,5,1,1,2,2,3,3,4},
-{"Søc m¹ng t¨ng",358,2,1,0,5,1,1,2,2,3,3,4},
-{"Søc m¹ng t¨ng",358,0,1,0,5,1,1,2,2,3,3,4},
-{"Søc m¹ng t¨ng",358,1,1,0,5,1,1,2,2,3,3,4},
-{"Søc m¹ng t¨ng",358,3,1,0,5,1,1,2,2,3,3,4},
-{"Th©n ph¸p t¨ng",359,2,1,0,5,1,1,2,2,3,3,4},
-{"Th©n ph¸p t¨ng",359,0,1,0,5,1,1,2,2,3,3,4},
-{"Th©n ph¸p t¨ng",359,1,1,0,5,1,1,2,2,3,3,4},
-{"Th©n ph¸p t¨ng",359,3,1,0,5,1,1,2,2,3,3,4},
-{"Linh ho¹t t¨ng",360,2,1,0,5,1,1,2,2,3,3,4},
-{"Linh ho¹t t¨ng",360,0,1,0,5,1,1,2,2,3,3,4},
-{"Linh ho¹t t¨ng",360,1,1,0,5,1,1,2,2,3,3,4},
-{"Linh ho¹t t¨ng",360,3,1,0,5,1,1,2,2,3,3,4},
-{"Néi c«ng t¨ng ",361,2,1,0,5,1,1,2,2,3,3,4},
-{"Néi c«ng t¨ng ",361,0,1,0,5,1,1,2,2,3,3,4},
-{"Néi c«ng t¨ng ",361,1,1,0,5,1,1,2,2,3,3,4},
-{"Néi c«ng t¨ng ",361,3,1,0,5,1,1,2,2,3,3,4},
-{"Kh¸ng ®éc",100,0,1,0,6,1,1,2,2,3,3,4},
-{"Kh¸ng ®éc",100,1,1,0,6,1,1,2,2,3,3,4},
-{"Kh¸ng ®éc",100,3,1,0,6,1,1,2,2,3,3,4},
-{"ChuyÓn hãa s¸t th­¬ng thµnh néi lùc",46,0,5,1,6,1,1,2,2,3,3,4},
-{"ChuyÓn hãa s¸t th­¬ng thµnh néi lùc",46,1,5,1,6,1,1,2,2,3,3,4},
-{"TÊn c«ng lµm ®èi ph­¬ng hao tæn néi lùc",49,2,5,0,6,1,2,2,3,3,4,5},
-{"Ph¸ phßng thñ ®èi ph­¬ng",362,2,5,0,7,1,2,2,3,3,4,5},
-{"TÊn c«ng kÌm ®éc s¸t",363,2,1,0,7,1,2,2,3,3,4,5},
-{"Sinh lùc tèi ®a t¨ng-%",79,2,1,0,7,1,2,2,3,3,4,5},
-{"Sinh lùc tèi ®a t¨ng-%",79,0,1,0,7,1,2,2,3,3,4,5},
-{"Sinh lùc tèi ®a t¨ng-%",79,1,1,0,7,1,2,2,3,3,4,5},
-{"Sinh lùc tèi ®a t¨ng-%",79,3,1,0,7,1,2,2,3,3,4,5},
-{"Néi lùc tèi ®a t¨ng-%",80,2,1,0,6,1,2,2,3,3,4,5},
-{"Néi lùc tèi ®a t¨ng-%",80,0,1,0,6,1,2,2,3,3,4,5},
-{"Néi lùc tèi ®a t¨ng-%",80,1,1,0,6,1,2,2,3,3,4,5},
-{"Néi lùc tèi ®a t¨ng-%",80,3,1,0,6,1,2,2,3,3,4,5},
-{"Kh¾c nĞ",364,1,3,0,6,1,2,2,3,3,4,5},
-{"Hç trî tÊn c«ng  duy tr× ",41,0,1,0,7,1,2,2,3,3,4,5},
-{"Hç trî tÊn c«ng  duy tr× ",41,2,1,0,7,1,2,2,3,3,4,5},
-{"Hç trî tÊn c«ng  duy tr× ",41,1,1,0,7,1,2,2,3,3,4,5},
-{"Hç trî tÊn c«ng  duy tr× ",41,3,1,0,7,1,2,2,3,3,4,5},
-{"Hç trî phßng thñ duy tr× ",42,0,1,0,7,1,2,2,3,3,4,5},
-{"Hç trî phßng thñ duy tr× ",42,2,1,0,7,1,2,2,3,3,4,5},
-{"Hç trî phßng thñ duy tr× ",42,1,1,0,7,1,2,2,3,3,4,5},
-{"Hç trî phßng thñ duy tr× ",42,3,1,0,7,1,2,2,3,3,4,5},
-{"C«ng kİch khiÕn ngo¹i phßng cña ®èi ph­¬ng gi¶m",382,2,1,0,7,1,2,2,3,3,4,5},
-{"C«ng kİch khiÕn néi lùc cña ®èi ph­¬ng gi¶m ",383,2,1,0,7,1,2,2,3,3,4,5},
-{"Tû lÖ chŞu ®ßn gi¶m nöa	",365,0,5,0,7,1,2,2,3,3,4,5},
-{"Tû lÖ chŞu ®ßn gi¶m nöa	",365,1,5,0,7,1,2,2,3,3,4,5},
-{"Tû lÖ chŞu ®ßn gi¶m nöa	",365,3,5,0,7,1,2,2,3,3,4,5},
-{"Kinh nghiÖm nhËn ®­îc t¨ng",366,2,5,1,5,2,2,3,3,3,4,5},
-{"Kinh nghiÖm nhËn ®­îc t¨ng",366,0,5,1,5,2,2,3,3,3,4,5},
-{"Kinh nghiÖm nhËn ®­îc t¨ng",366,1,5,1,5,2,2,3,3,3,4,5},
-{"Kinh nghiÖm nhËn ®­îc t¨ng",366,3,5,1,5,2,2,3,3,3,4,5},
-{"Lµm gi¶m nĞ tr¸nh cña ®èi ph­¬ng",373,3,4,0,8,2,2,3,3,3,4,5},
-{"Lµm chËm nĞ tr¸nh cña ®èi ph­¬ng",374,3,4,0,8,2,2,3,3,3,4,5},
-{"Tû lÖ nĞ tr¸nh ®¸nh lui",375,3,4,0,8,2,2,3,3,3,4,5},
-{"Tû lÖ nĞ tr¸nh ®¸nh ng·",376,3,4,0,8,2,2,3,3,3,4,5},
-{"Bá qua nĞ tr¸nh ®èi ph­¬ng",377,0,4,0,8,2,2,3,3,3,4,5},
-{"G©y mª",378,0,4,0,8,2,2,3,3,3,4,5},
-{"G©y cho¸ng",379,0,4,0,8,2,2,3,3,3,4,5},
-{"G©y hçn lo¹n nĞ tr¸nh",380,1,4,0,8,2,2,3,3,3,4,5},
-{"G©y ngñ mª gi¶m nĞ tr¸nh",381,1,4,0,8,2,2,3,3,3,4,5},
-{"Ngo¹i phßng gi¶m, ngo¹i kİch t¨ng",18,1,1,0,8,2,2,3,3,3,4,5},
-{"Néi phßng gi¶m, Néi c«ng t¨ng",19,1,1,0,8,2,2,3,3,3,4,5},
-{"S¸t th­¬ng t¨ng ",372,2,3,0,7,2,2,3,3,3,4,5},
-{"TÊt c¶ thuéc tİnh t¨ng",367,2,3,0,8,2,2,3,3,3,4,5},
-{"TÊt c¶ thuéc tİnh t¨ng",367,0,3,0,8,2,2,3,3,3,4,5},
-{"TÊt c¶ thuéc tİnh t¨ng",367,1,3,0,8,2,2,3,3,3,4,5},
-{"TÊt c¶ thuéc tİnh t¨ng",367,3,3,0,8,2,2,3,3,3,4,5},
-{"Ngo¹i kİch + ",368,2,3,0,8,2,2,3,3,3,4,5},
-{"Néi kİch t¨ng ",369,2,3,0,8,2,2,3,3,3,4,5},
-{"Tû lÖ xuÊt chiªu t¨ng",370,2,4,0,8,2,2,3,3,3,4,5},
-{"Tèc ®é thi triÓn vâ c«ng t¨ng",371,0,3,0,8,2,2,3,3,4,5,6}
+--ä»»åŠ¡å˜é‡
+TASK_LINGSHI_QINGLING = 2335; --å¯¹çµçŸ³è´Ÿæ•°æ¸…0å¤„ç†ï¼Œæ‰§è¡Œä¸€æ¬¡
+TASK_PF_QINGLING = 2336; --å¯¹çµçŸ³é…æ–¹è´Ÿæ•°æ¸…0å¤„ç†ï¼Œæ‰§è¡Œä¸€æ¬¡
+--æ¶ˆè€—éšæœºæ¬¡æ•°æƒå€¼è¡¨
+tRandNum ={--å±æ€§å	id	ä½ç½®	æœ€ä½ç­‰çº§	æ˜¯å¦éšæœº	æ¶ˆè€—éšæœºæ¬¡æ•°	ç­‰çº§1-7æƒå€¼
+{"å‡å°‘æ­¦åŠŸæ–½å±•é€Ÿåº¦",9,2,1,0,1,1,1,1,1,2,2,2},
+{"åŠ›é‡å¢åŠ ",110,2,1,0,1,1,1,1,1,2,2,2},
+{"åŠ›é‡å¢åŠ ",110,0,1,0,1,1,1,1,1,2,2,2},
+{"åŠ›é‡å¢åŠ ",110,1,1,0,1,1,1,1,1,2,2,2},
+{"åŠ›é‡å¢åŠ ",110,3,1,0,1,1,1,1,1,2,2,2},
+{"ç”Ÿå‘½ä¸Šé™å¢åŠ ",11,0,1,0,3,1,1,1,1,2,2,2},
+{"ç”Ÿå‘½ä¸Šé™å¢åŠ ",11,1,1,0,3,1,1,1,1,2,2,2},
+{"ç”Ÿå‘½ä¸Šé™å¢åŠ ",11,3,1,0,3,1,1,1,1,2,2,2},
+{"æ€æ­»æ•Œäººç”Ÿå‘½å›å¤" ,333,2,1,0,2,1,1,1,1,2,2,2},
+{"600ç§’æ­¦å™¨è€ä¹…å›å¤",43,2,1,1,2,1,1,1,1,2,2,2},
+{"600ç§’ä¸Šè¡£è€ä¹…å›å¤",112,1,1,1,2,1,1,1,1,2,2,2},
+{"600ç§’å¸½å­è€ä¹…å›å¤",113,0,1,1,2,1,1,1,1,2,2,2},
+{"600ç§’ä¸‹è¡£è€ä¹…å›å¤",114,3,1,1,2,1,1,1,1,2,2,2},
+{"è£…å¤‡éœ€æ±‚ç­‰çº§å‡å°‘",334,0,6,1,3,1,1,1,1,2,2,2},
+{"è£…å¤‡éœ€æ±‚ç­‰çº§å‡å°‘",334,1,6,1,3,1,1,1,1,2,2,2},
+{"è£…å¤‡éœ€æ±‚ç­‰çº§å‡å°‘",334,3,6,1,3,1,1,1,1,2,2,2},
+{"èŒƒå›´æ”»å‡»æ¦‚ç‡",335,2,1,0,3,1,1,1,1,2,2,2},
+{"æ­¦å™¨å¤–æ”»ä¸Šé™å¢åŠ ",65,2,1,0,3,1,1,1,1,2,2,2},
+{"æ­¦å™¨å¤–æ”»ä¸‹é™å¢åŠ ",66,2,1,0,3,1,1,1,1,2,2,2},
+{"æ­¦å™¨å†…æ”»ä¸Šé™å¢åŠ ",67,2,1,0,3,1,1,1,1,2,2,2},
+{"æ­¦å™¨å†…æ”»ä¸‹é™å¢åŠ ",68,2,1,0,3,1,1,1,1,2,2,2},
+{"è¯æ•ˆæ—¶é—´å»¶é•¿",39,0,1,0,2,1,1,2,2,3,3,4},
+{"ä½“åŠ›ä¸Šé™æé«˜",336,1,1,0,4,1,1,2,2,3,3,4},
+{"æ”»é€Ÿæé«˜",77,2,1,1,3,1,1,2,2,3,3,4},
+{"å‘½ä¸­å€¼å¢åŠ ",337,2,1,0,4,1,1,2,2,3,3,4},
+{"é—ªé¿å€¼å¢åŠ ",338,3,1,0,5,1,1,2,2,3,3,4},
+{"åå¼¹ä¼¤å®³",339,1,1,0,5,1,1,2,2,3,3,4},
+{"æ¯10ç§’å†…åŠ›å›å¤",340,0,5,1,5,1,1,2,2,3,3,4},
+{"æ¯10ç§’å†…åŠ›å›å¤",340,1,5,1,5,1,1,2,2,3,3,4},
+{"æ¯10ç§’å†…åŠ›å›å¤",340,3,5,1,5,1,1,2,2,3,3,4},
+{"æ¯10ç§’ç”Ÿå‘½å›å¤",341,0,5,1,5,1,1,2,2,3,3,4},
+{"æ¯10ç§’ç”Ÿå‘½å›å¤",341,1,5,1,5,1,1,2,2,3,3,4},
+{"æ¯10ç§’ç”Ÿå‘½å›å¤",341,3,5,1,5,1,1,2,2,3,3,4},
+{"ä¼šå¿ƒæ¦‚ç‡æé«˜",342,2,1,0,4,1,1,2,2,3,3,4},
+{"å†…åŠŸé˜²å¾¡å¢åŠ ",343,0,1,0,4,1,1,2,2,3,3,4},
+{"å†…åŠŸé˜²å¾¡å¢åŠ ",343,1,1,0,4,1,1,2,2,3,3,4},
+{"å†…åŠŸé˜²å¾¡å¢åŠ ",343,3,1,0,4,1,1,2,2,3,3,4},
+{"å¤–åŠŸé˜²å¾¡å¢åŠ ",344,0,1,0,4,1,1,2,2,3,3,4},
+{"å¤–åŠŸé˜²å¾¡å¢åŠ ",344,1,1,0,4,1,1,2,2,3,3,4},
+{"å¤–åŠŸé˜²å¾¡å¢åŠ ",344,3,1,0,4,1,1,2,2,3,3,4},
+{"æ­¦åŠŸè€—å†…é™ä½",345,0,1,0,5,1,1,2,2,3,3,4},
+{"å‘æŒ¥æœ€å¤§æ”»å‡»æ¦‚ç‡",346,2,1,0,5,1,1,2,2,3,3,4},
+{"ä¸€å®šæ¦‚ç‡ä½¿æ•Œäººæ°”è¡€å—æŸ",53,2,4,0,5,1,1,2,2,3,3,4},
+{"ä¸€å®šæ¦‚ç‡ä½¿æ•ŒäººçœŸå…ƒå—æŸ",54,2,4,0,5,1,1,2,2,3,3,4},
+{"æ¯’ä¼¤å®³å‡å°‘",347,0,1,0,4,1,1,2,2,3,3,4},
+{"æ¯’ä¼¤å®³å‡å°‘",347,1,1,0,4,1,1,2,2,3,3,4},
+{"æ¯’ä¼¤å®³å‡å°‘",347,3,1,0,4,1,1,2,2,3,3,4},
+{"æ”»å‡»ä½¿æ•ŒäººåŠ›é‡å‡å°‘",348,2,1,0,5,1,1,2,2,3,3,4},
+{"æ”»å‡»ä½¿æ•Œäººæ ¹éª¨å‡å°‘",349,2,1,0,5,1,1,2,2,3,3,4},
+{"æ”»å‡»ä½¿æ•Œäººå†…åŠŸå‡å°‘",350,2,1,0,5,1,1,2,2,3,3,4},
+{"æ”»å‡»ä½¿æ•Œäººæ´å¯Ÿå‡å°‘",351,2,1,0,5,1,1,2,2,3,3,4},
+{"æ”»å‡»ä½¿æ•Œäººèº«æ³•å‡å°‘",352,2,1,0,5,1,1,2,2,3,3,4},
+{"æ”»å‡»ä½¿æ•Œäººå¤–é˜²å‡å°‘",353,2,1,0,5,1,1,2,2,3,3,4}, 
+{"æ”»å‡»ä½¿æ•Œäººå†…é˜²å‡å°‘",354,2,1,0,5,1,1,2,2,3,3,4},
+{"å—ä¼¤åŠ¨ä½œæ—¶é—´ç¼©çŸ­",355,1,1,0,5,1,1,2,2,3,3,4},
+{"æ­¦åŠŸæ‰“æ–­æ¦‚ç‡é™ä½",356,1,3,0,6,1,1,2,2,3,3,4},
+{"æ ¹éª¨å¢åŠ ",357,2,1,0,5,1,1,2,2,3,3,4},
+{"æ ¹éª¨å¢åŠ ",357,0,1,0,5,1,1,2,2,3,3,4},
+{"æ ¹éª¨å¢åŠ ",357,1,1,0,5,1,1,2,2,3,3,4},
+{"æ ¹éª¨å¢åŠ ",357,3,1,0,5,1,1,2,2,3,3,4},
+{"åŠ›é‡å¢åŠ ",358,2,1,0,5,1,1,2,2,3,3,4},
+{"åŠ›é‡å¢åŠ ",358,0,1,0,5,1,1,2,2,3,3,4},
+{"åŠ›é‡å¢åŠ ",358,1,1,0,5,1,1,2,2,3,3,4},
+{"åŠ›é‡å¢åŠ ",358,3,1,0,5,1,1,2,2,3,3,4},
+{"èº«æ³•å¢åŠ ",359,2,1,0,5,1,1,2,2,3,3,4},
+{"èº«æ³•å¢åŠ ",359,0,1,0,5,1,1,2,2,3,3,4},
+{"èº«æ³•å¢åŠ ",359,1,1,0,5,1,1,2,2,3,3,4},
+{"èº«æ³•å¢åŠ ",359,3,1,0,5,1,1,2,2,3,3,4},
+{"æ´å¯Ÿå¢åŠ ",360,2,1,0,5,1,1,2,2,3,3,4},
+{"æ´å¯Ÿå¢åŠ ",360,0,1,0,5,1,1,2,2,3,3,4},
+{"æ´å¯Ÿå¢åŠ ",360,1,1,0,5,1,1,2,2,3,3,4},
+{"æ´å¯Ÿå¢åŠ ",360,3,1,0,5,1,1,2,2,3,3,4},
+{"å†…åŠŸå¢åŠ ",361,2,1,0,5,1,1,2,2,3,3,4},
+{"å†…åŠŸå¢åŠ ",361,0,1,0,5,1,1,2,2,3,3,4},
+{"å†…åŠŸå¢åŠ ",361,1,1,0,5,1,1,2,2,3,3,4},
+{"å†…åŠŸå¢åŠ ",361,3,1,0,5,1,1,2,2,3,3,4},
+{"æŠ—ä¸­æ¯’æ¦‚ç‡",100,0,1,0,6,1,1,2,2,3,3,4},
+{"æŠ—ä¸­æ¯’æ¦‚ç‡",100,1,1,0,6,1,1,2,2,3,3,4},
+{"æŠ—ä¸­æ¯’æ¦‚ç‡",100,3,1,0,6,1,1,2,2,3,3,4},
+{"å—ä¼¤è½¬åŒ–å†…åŠ›",46,0,5,1,6,1,1,2,2,3,3,4},
+{"å—ä¼¤è½¬åŒ–å†…åŠ›",46,1,5,1,6,1,1,2,2,3,3,4},
+{"æ”»å‡»æŸè€—æ•Œäººå†…åŠ›",49,2,5,0,6,1,2,2,3,3,4,5},
+{"ç ´é˜²æ”»å‡»æ¦‚ç‡",362,2,5,0,7,1,2,2,3,3,4,5},
+{"æ”»å‡»é™„å¸¦æ¯’ä¼¤å®³",363,2,1,0,7,1,2,2,3,3,4,5},
+{"ç”Ÿå‘½ä¸Šé™æé«˜-%",79,2,1,0,7,1,2,2,3,3,4,5},
+{"ç”Ÿå‘½ä¸Šé™æé«˜-%",79,0,1,0,7,1,2,2,3,3,4,5},
+{"ç”Ÿå‘½ä¸Šé™æé«˜-%",79,1,1,0,7,1,2,2,3,3,4,5},
+{"ç”Ÿå‘½ä¸Šé™æé«˜-%",79,3,1,0,7,1,2,2,3,3,4,5},
+{"å†…åŠ›ä¸Šé™æé«˜-%",80,2,1,0,6,1,2,2,3,3,4,5},
+{"å†…åŠ›ä¸Šé™æé«˜-%",80,0,1,0,6,1,2,2,3,3,4,5},
+{"å†…åŠ›ä¸Šé™æé«˜-%",80,1,1,0,6,1,2,2,3,3,4,5},
+{"å†…åŠ›ä¸Šé™æé«˜-%",80,3,1,0,6,1,2,2,3,3,4,5},
+{"å¿…é—ª",364,1,3,0,6,1,2,2,3,3,4,5},
+{"æ”»å‡»è¾…åŠ©æŒç»­æ—¶é—´å»¶é•¿",41,0,1,0,7,1,2,2,3,3,4,5},
+{"æ”»å‡»è¾…åŠ©æŒç»­æ—¶é—´å»¶é•¿",41,2,1,0,7,1,2,2,3,3,4,5},
+{"æ”»å‡»è¾…åŠ©æŒç»­æ—¶é—´å»¶é•¿",41,1,1,0,7,1,2,2,3,3,4,5},
+{"æ”»å‡»è¾…åŠ©æŒç»­æ—¶é—´å»¶é•¿",41,3,1,0,7,1,2,2,3,3,4,5},
+{"é˜²å¾¡è¾…åŠ©æŒç»­æ—¶é—´å»¶é•¿",42,0,1,0,7,1,2,2,3,3,4,5},
+{"é˜²å¾¡è¾…åŠ©æŒç»­æ—¶é—´å»¶é•¿",42,2,1,0,7,1,2,2,3,3,4,5},
+{"é˜²å¾¡è¾…åŠ©æŒç»­æ—¶é—´å»¶é•¿",42,1,1,0,7,1,2,2,3,3,4,5},
+{"é˜²å¾¡è¾…åŠ©æŒç»­æ—¶é—´å»¶é•¿",42,3,1,0,7,1,2,2,3,3,4,5},
+{"æ”»å‡»ä½¿æ•Œäººå¤–é˜²å‰Šå‡",382,2,1,0,7,1,2,2,3,3,4,5},
+{"æ”»å‡»ä½¿æ•Œäººå†…é˜²å‰Šå‡",383,2,1,0,7,1,2,2,3,3,4,5},
+{"æ‰¿å—ä¼¤å®³å‡åŠæ¦‚ç‡",365,0,5,0,7,1,2,2,3,3,4,5},
+{"æ‰¿å—ä¼¤å®³å‡åŠæ¦‚ç‡",365,1,5,0,7,1,2,2,3,3,4,5},
+{"æ‰¿å—ä¼¤å®³å‡åŠæ¦‚ç‡",365,3,5,0,7,1,2,2,3,3,4,5},
+{"ç»éªŒè·å¾—æé«˜",366,2,5,1,5,2,2,3,3,3,4,5},
+{"ç»éªŒè·å¾—æé«˜",366,0,5,1,5,2,2,3,3,3,4,5},
+{"ç»éªŒè·å¾—æé«˜",366,1,5,1,5,2,2,3,3,3,4,5},
+{"ç»éªŒè·å¾—æé«˜",366,3,5,1,5,2,2,3,3,3,4,5},
+{"å‡é€Ÿå›é¿æ¦‚ç‡",373,3,4,0,8,2,2,3,3,3,4,5},
+{"è¿Ÿç¼“å›é¿æ¦‚ç‡",374,3,4,0,8,2,2,3,3,3,4,5},
+{"å‡»é€€å›é¿æ¦‚ç‡",375,3,4,0,8,2,2,3,3,3,4,5},
+{"å‡»å€’å›é¿æ¦‚ç‡",376,3,4,0,8,2,2,3,3,3,4,5},
+{"éº»ç—¹å›é¿æ¦‚ç‡",377,0,4,0,8,2,2,3,3,3,4,5},
+{"çœ©æ™•å›é¿æ¦‚ç‡",378,0,4,0,8,2,2,3,3,3,4,5},
+{"å®šèº«å›é¿æ¦‚ç‡",379,0,4,0,8,2,2,3,3,3,4,5},
+{"æ··ä¹±å›é¿æ¦‚ç‡",380,1,4,0,8,2,2,3,3,3,4,5},
+{"ç¡çœ å›é¿æ¦‚ç‡",381,1,4,0,8,2,2,3,3,3,4,5},
+{"å¤–é˜²é™ä½,å¤–æ”»æé«˜",18,1,1,0,8,2,2,3,3,3,4,5},
+{"å†…é˜²é™ä½,å†…æ”»æé«˜",19,1,1,0,8,2,2,3,3,3,4,5},
+{"å¢åŠ ä¼¤å®³",372,2,3,0,7,2,2,3,3,3,4,5},
+{"æ‰€æœ‰å±æ€§å¢åŠ ",367,2,3,0,8,2,2,3,3,3,4,5},
+{"æ‰€æœ‰å±æ€§å¢åŠ ",367,0,3,0,8,2,2,3,3,3,4,5},
+{"æ‰€æœ‰å±æ€§å¢åŠ ",367,1,3,0,8,2,2,3,3,3,4,5},
+{"æ‰€æœ‰å±æ€§å¢åŠ ",367,3,3,0,8,2,2,3,3,3,4,5},
+{"å¤–æ”»æé«˜+ ",368,2,3,0,8,2,2,3,3,3,4,5},
+{"å†…æ”»æé«˜",369,2,3,0,8,2,2,3,3,3,4,5},
+{"æ­¦åŠŸå‘æ‹›æ¦‚ç‡æé«˜",370,2,4,0,8,2,2,3,3,3,4,5},
+{"æ­¦åŠŸæ–½å±•é€Ÿåº¦æé«˜",371,0,3,0,8,2,2,3,3,4,5,6}
 }
 function OnUse()
 	local strtab = {
-		"T«i cã Linh th¹ch nµo /which_lingshi",
-		"T«i cã Linh th¹ch phèi ph­¬ng nµo/which_lingshi_pf",
-		"Chän Linh th¹ch phèi ph­¬ng ®Ó ®æi /zhiding_main",
-		"C¸ch ®æi nh­ thÕ nµo /how_change",
-		"Kh«ng cã g×/nothing"}
-	Say("VËt tiªn c¶nh nµy hÊp thô linh khİ trêi ®Êt, b¹n muèn biÕt ®iÒu g×? ",
+		"æå–çµçŸ³/which_lingshi",
+		"æå–çµçŸ³é…æ–¹/which_lingshi_pf",
+		"é€‰æ‹©åˆæˆæˆ–å…‘æ¢å±æ€§/zhiding_main",
+		"å¦‚ä½•å…‘æ¢å±æ€§/how_change",
+		"æ²¡ä»€ä¹ˆ/nothing"}
+	Say("è¿™é¼å¸æ”¶äº†å¤©åœ°çµæ°”,ä½ æƒ³æ‹¿æ¥åšä»€ä¹ˆå‘¢ï¼Ÿ",
 		getn(strtab),
 		strtab)
 end
 
 function which_lingshi()
 	if IsBoxLocking() ~= 0 then
-		Talk(1,"","Më khãa r­¬ng tr­íc.");
+		Talk(1,"","å…ˆæ‰“å¼€èƒŒåŒ…");
 		return 0;
 	end;
 	local strtab = {};
@@ -179,24 +179,24 @@ function which_lingshi()
 	end
 	for i=1,getn(tLingshiTask) do
 		if GetTask(tLingshiTask[i]) > 0 then
-			tinsert(strtab,i.." (cÊp) Linh th¹ch"..GetTask(tLingshiTask[i])..". /#quchu_lingshi("..i..")");
+			tinsert(strtab,i.."(çº§)çµçŸ³"..GetTask(tLingshiTask[i])..". /#quchu_lingshi("..i..")");
 		end
 	end
 	if getn(strtab) == 0 then
-		Talk(1,"","HiÖn t¹i ng­¬i kh«ng cã Linh th¹ch ®Ó ë chç ta. ");
+		Talk(1,"","ç›®å‰æ‚¨æ²¡æœ‰çµçŸ³");
 	else
-		tinsert(strtab,"trë l¹i/OnUse")
-		Say("Xin chän lo¹i Linh th¹ch b¹n muèn t¸ch ra",
+		tinsert(strtab,"è¿”å›/OnUse")
+		Say("è¯·é€‰æ‹©ä½ è¦æå–çš„çµçŸ³",
 			getn(strtab),
 			strtab)
 	end
 end
 
 function quchu_lingshi(nLv)	
-	Say("B¹n chÊp nhËn t¸ch linh th¹ch cÊp "..nLv.." ??",
+	Say("ä½ è¦æå–"..nLv.."çº§çµçŸ³å—ï¼Ÿ",
 		2,
-		"Ph¶i, ta muèn t¸ch /#lingshi_num("..nLv..")",
-		"Kh«ng, ta nhÇm!/which_lingshi")
+		"æ˜¯çš„ï¼Œæˆ‘æƒ³æå–/#lingshi_num("..nLv..")",
+		"ä¸ï¼Œæˆ‘ç‚¹é”™äº†/which_lingshi")
 end
 
 function lingshi_num(nLv)
@@ -204,7 +204,7 @@ function lingshi_num(nLv)
 												SYS_TSK_LINGSHI_FIVE,SYS_TSK_LINGSHI_SIX,SYS_TSK_LINGSHI_SEVEN}	
 	local nNum = GetTask(tLingshiTask[nLv]);
 	SetTaskTemp(TT_LINGSHI_LV,nLv);
-	AskClientForNumber("confirm_give_lingshi", 1, tonumber(nNum), "T¸ch ra bao nhiªu "..nLv.." Linh th¹ch?");
+	AskClientForNumber("confirm_give_lingshi", 1, tonumber(nNum), "æå–å‡ ä¸ª"..nLv.."çº§çµçŸ³ï¼Ÿ");
 end
 
 function confirm_give_lingshi(nCount)
@@ -220,9 +220,9 @@ function confirm_give_lingshi(nCount)
 		for i=1,nCount do
 			ls_AddRandomLingShi(SYS_TB_LINGSHI_MINLEVEL,nLv,nLv);
 		end
-		Msg2Player("B¹n lÊy ra "..nLv.." (cÊp) Linh Th¹ch"..nCount.." ");
+		Msg2Player("ä½ æå–äº†"..nLv.."(çº§)çµçŸ³"..nCount.."ä¸ª");
 		if nLv >= 6 then
-			WriteLog("Ng­êi ch¬i"..GetName().."LÊy"..nLv.." (cÊp) Linh Th¹ch"..nCount.." ");
+			WriteLog("ç©å®¶"..GetName().."å¾—åˆ°"..nLv.."(çº§)çµçŸ³"..nCount.."ä¸ª");
 		end
 		SetTask(tLingshiTask[nLv],GetTask(tLingshiTask[nLv])-nCount);
 		SetTaskTemp(TT_LINGSHI_LV,0);
@@ -231,7 +231,7 @@ end
 
 function which_lingshi_pf()
 	if IsBoxLocking() ~= 0 then
-		Talk(1,"","Më khãa r­¬ng tr­íc.");
+		Talk(1,"","å…ˆæ‰“å¼€èƒŒåŒ…");
 		return 0;
 	end;
 	local strtab = {};
@@ -241,7 +241,7 @@ function which_lingshi_pf()
 		for i=1,getn(tPeifangTask) do
 			if GetTask(tPeifangTask[i]) == -1 then
 				SetTask(tPeifangTask[i],1);
-				WriteLog("Tô Linh §Ünh bŞ lçi: Ng­êi ch¬i"..GetName().." -Sè l­îng 1"..i.." (cÊp) Linh th¹ch phèi ph­¬ng trë thµnh sè l­îng 1")
+				WriteLog("èšçµé¼é”™è¯¯æç¤º:ç©å®¶"..GetName().."-å‡å°‘1å¼ "..i.."(çº§)çµçŸ³é…æ–¹ï¼Œè¿”æ¢æ•°é‡1ã€‚")
 			end
 		end		
 		for j=1,getn(tPeifangTask) do
@@ -253,24 +253,24 @@ function which_lingshi_pf()
 	end 
 	for i=1,getn(tPeifangTask) do
 		if GetTask(tPeifangTask[i]) > 0 then
-			tinsert(strtab,i.."(cÊp) Linh th¹ch phèi ph­¬ng"..GetTask(tPeifangTask[i]).." ./#quchu_peifang("..i..")");
+			tinsert(strtab,i.."(çº§)çµçŸ³é…æ–¹"..GetTask(tPeifangTask[i]).." ./#quchu_peifang("..i..")");
 		end
 	end
 	if getn(strtab) == 0 then
-		Talk(1,"","<color=green>Tô Linh §Ønh<color>: HiÖn t¹i ng­¬i kh«ng cã Linh th¹ch ®Ó ë chç ta. ");
+		Talk(1,"","<color=green>èšçµé¼<color>:ç›®å‰æ‚¨æ²¡æœ‰çµçŸ³");
 	else
-		tinsert(strtab,"trë l¹i/OnUse")
-		Say("<color=green>Tô Linh §Ønh<color>: Xin chän lo¹i Linh th¹ch phèi ph­¬ng b¹n muèn t¸ch ra",
+		tinsert(strtab,"è¿”å›/OnUse")
+		Say("<color=green>èšçµé¼<color>:é€‰æ‹©ä½ è¦æå–çš„çµçŸ³é…æ–¹",
 			getn(strtab),
 			strtab)
 	end
 end
 
 function quchu_peifang(nLv)
-	Say("B¹n chÊp nhËn t¸ch linh th¹ch cÊp "..nLv.." (cÊp) Linh th¹ch phèi ph­¬ng?",
+	Say("ä½ ç¡®å®šè¦æå–"..nLv.."(çº§)çµçŸ³é…æ–¹å—ï¼Ÿ",
 		2,
-		"Ph¶i, ta muèn t¸ch /#peifang_num("..nLv..")",
-		"Kh«ng, ta nhÇm!/which_lingshi_pf")	
+		"æ˜¯çš„ï¼Œæˆ‘è¦æå–/#peifang_num("..nLv..")",
+		"ä¸ï¼Œæˆ‘ç‚¹é”™äº†/which_lingshi_pf")	
 end
 
 function peifang_num(nLv)
@@ -278,7 +278,7 @@ function peifang_num(nLv)
 												SYS_TSK_PEIFANG_FIVE,SYS_TSK_PEIFANG_SIX,SYS_TSK_PEIFANG_SEVEN}
 	local nNum = GetTask(tPeifangTask[nLv]);
 	SetTaskTemp(TT_LINGSHI_PF_LV,nLv);
-	AskClientForNumber("confirm_give_peifang", 1, tonumber(nNum), "T¸ch lÊy bao nhiªu "..nLv.." Linh th¹ch phèi ph­¬ng?");												
+	AskClientForNumber("confirm_give_peifang", 1, tonumber(nNum), "æå–å‡ å¼ "..nLv.."çº§çµçŸ³é…æ–¹ï¼Ÿ");												
 end
 
 function confirm_give_peifang(nCount)
@@ -294,9 +294,9 @@ function confirm_give_peifang(nCount)
 		for i=1,nCount do
 			lspf_AddRandomPeiFang(SYS_TB_LINGSHI_PF_LEVEL,nLv,nLv);
 		end
-		Msg2Player("B¹n lÊy ra "..nLv.." (cÊp)-linh th¹ch phèi ph­¬ng."..nCount.."Tr­¬ng");
+		Msg2Player("ä½ æå–äº†"..nLv.."(çº§)-çµçŸ³é…æ–¹"..nCount.."å¼ ");
 		if nLv >= 6 then
-			WriteLog("Ng­êi ch¬i"..GetName().."LÊy"..nLv.." (cÊp)-linh th¹ch phèi ph­¬ng."..nCount.." ");
+			WriteLog("ç©å®¶"..GetName().."å¾—åˆ°"..nLv.."(çº§)-çµçŸ³é…æ–¹"..nCount.."å¼ ");
 		end		
 		SetTask(tPeifangTask[nLv],GetTask(tPeifangTask[nLv])-nCount);
 		SetTaskTemp(TT_LINGSHI_PF_LV,0);															
@@ -304,53 +304,53 @@ function confirm_give_peifang(nCount)
 end
 function zhiding_main()
 	if IsBoxLocking() ~= 0 then
-		Talk(1,"","Më khãa r­¬ng tr­íc.");
+		Talk(1,"","å…ˆæ‰“å¼€èƒŒåŒ…");
 		return 0;
 	end;
 	local strtab = {
-		"Sè lÇn ngÉu nhiªn ta ph¶i tiªu hao ®Ó nhËn ®­îc Linh th¹ch chØ ®Şnh/zhiding_lingshi",
-		"Sè lÇn ngÉu nhiªn ta ph¶i tiªu hao ®Ó nhËn ®­îc Linh th¹ch phèi ph­¬ng chØ ®Şnh/zhiding_peifang",
-		"Sè lÇn ngÉu nhiªn ta ph¶i tiªu hao ®Ó nhËn ®­îc vËt phÈm quı hiÕm (nh­ NguyÖt Hoa)/zhiding_yuehua",
-		"Ta muèn ®æi sè lÇn ngÉu nhiªn cña phèi ph­¬ng vµ linh th¹ch cÊp thÊp thµnh cÊp cao. /zhiding_gaoji",
-		"trë l¹i/OnUse",
-		"T¹m thêi kh«ng thÓ ®æi ®­îc./nothing"
+		"æ¶ˆè€—éšæœºæ¬¡æ•°è·å–æŒ‡å®šçš„çµçŸ³/zhiding_lingshi",
+		"æ¶ˆè€—éšæœºæ¬¡æ•°è·å–æŒ‡å®šçš„çµçŸ³é…æ–¹/zhiding_peifang",
+		"æ¶ˆè€—éšæœºæ¬¡æ•°è·å–ç¨€æœ‰ç‰©å“ï¼ˆä¾‹å¦‚æœˆåï¼‰/zhiding_yuehua",
+		"æˆ‘æƒ³è¦åˆæˆçµçŸ³å’ŒçµçŸ³é…æ–¹/zhiding_gaoji",
+		"è¿”å›/OnUse",
+		"æš‚æ—¶ä¸è¦/nothing"
 		}
-	Say("B¹n bá qua nhiÒu c¬ héi nhËn linh th¹ch ®Ó lÊy Linh th¹ch chØ ®Şnh vµ Linh th¹ch phèi ph­¬ng víi 1 sè vËt phÈm quı kh¸c. ",
+	Say("æ‚¨ç¡®å®šä½¿ç”¨çµçŸ³æˆ–çµçŸ³é…æ–¹æ¥è·å¾—æŒ‡å®šçè´µç‰©å“çš„æœºä¼šå—ï¼Ÿ",
 		getn(strtab),
 		strtab)
 end
 
 function zhiding_lingshi()
 	local strtab = {
-		"Linh th¹ch cÊp 1 mang thuéc tİnh ®Æc biÖt/#lingshi_zhiding_lv(1)",
-		"Linh th¹ch cÊp 2 mang thuéc tİnh ®Æc biÖt/#lingshi_zhiding_lv(2)",
-		"Linh th¹ch cÊp 3 mang thuéc tİnh ®Æc biÖt/#lingshi_zhiding_lv(3)",
-		"Linh th¹ch cÊp 4 mang thuéc tİnh ®Æc biÖt/#lingshi_zhiding_lv(4)",
-		"Linh th¹ch cÊp 5 mang thuéc tİnh ®Æc biÖt/#lingshi_zhiding_lv(5)",
-		"trë l¹i/zhiding_main"
+		"1çº§çµçŸ³å±æ€§/#lingshi_zhiding_lv(1)",
+		"2çº§çµçŸ³å±æ€§/#lingshi_zhiding_lv(2)",
+		"3çº§çµçŸ³å±æ€§/#lingshi_zhiding_lv(3)",
+		"4çº§çµçŸ³å±æ€§/#lingshi_zhiding_lv(4)",
+		"5çº§çµçŸ³å±æ€§/#lingshi_zhiding_lv(5)",
+		"è¿”å›/zhiding_main"
 		}
-	Say("Xin chän ®¼ng cÊp linh th¹ch chØ ®Şnh",
+	Say("è¯·é€‰æ‹©çµçŸ³ç­‰çº§",
 		getn(strtab),
 		strtab)	
 end
 
 function lingshi_zhiding_lv(nLv)
 	local strtab = {
-		"M·o/#lingshi_zhiding_wz("..nLv..",0,0)",
-		"Y phôc/#lingshi_zhiding_wz("..nLv..",1,0)",
-		"Vò khİ/#lingshi_zhiding_wz("..nLv..",2,0)",
-		"QuÇn /#lingshi_zhiding_wz("..nLv..",3,0)",
-		"trë l¹i/zhiding_lingshi",
-		"T¹m thêi kh«ng ®æi. /nothing"
+		"å¸½å­/#lingshi_zhiding_wz("..nLv..",0,0)",
+		"è¡£æœ/#lingshi_zhiding_wz("..nLv..",1,0)",
+		"æ­¦å™¨/#lingshi_zhiding_wz("..nLv..",2,0)",
+		"è£¤å­/#lingshi_zhiding_wz("..nLv..",3,0)",
+		"è¿”å›/zhiding_lingshi",
+		"æš‚æ—¶ä¸è¦/nothing"
 		}
-	Say("Xin chän vŞ trİ kh¶m linh th¹ch chØ ®Şnh. ",
+	Say("è¯·é€‰æ‹©çµçŸ³é•¶åµŒçš„æŒ‡å®šä½ç½®",
 		getn(strtab),
 		strtab)
 end
 
 function lingshi_zhiding_wz(nLv,nWz,nPage)
 	local tAttri = {};
-	local tIdx = {}; --¶ÔÓ¦tRandNum±íµÄË÷Òı
+	local tIdx = {}; --å¯¹åº”tRandNumè¡¨çš„ç´¢å¼•
 	for i = 1,getn(tRandNum) do
 		if tRandNum[i][3] == nWz and tRandNum[i][4] <= nLv then
 			tinsert(tAttri,tRandNum[i]);
@@ -368,24 +368,24 @@ function lingshi_zhiding_wz(nLv,nWz,nPage)
 		tinsert(strtab,tAttri[nPage*nPageNum+i][1].."/#confirm_lingshi_zhiding("..tAttri[nPage*nPageNum+i][2]..","..nLv..","..nWz..","..tIdx[nPage*nPageNum+i]..")");
 	end
 	if nPage > 0 then
-		tinsert(strtab,"Trang tr­íc/#lingshi_zhiding_wz("..nLv..","..nWz..","..(nPage-1)..")");
+		tinsert(strtab,"ä¸Šä¸€é¡µ/#lingshi_zhiding_wz("..nLv..","..nWz..","..(nPage-1)..")");
 	end
 	if nRemaid > 6 then
-		tinsert(strtab,"Trang kÕ/#lingshi_zhiding_wz("..nLv..","..nWz..","..(nPage+1)..")");
+		tinsert(strtab,"ä¸‹ä¸€é¡µ/#lingshi_zhiding_wz("..nLv..","..nWz..","..(nPage+1)..")");
 	end
-	tinsert(strtab,"trë l¹i/#lingshi_zhiding_lv("..nLv..")");
-	tinsert(strtab,"T¹m thêi kh«ng ®æi. /nothing");
-	Say("Xin chän thuéc tİnh linh th¹ch muèn ®æi. ",
+	tinsert(strtab,"è¿”å›/#lingshi_zhiding_lv("..nLv..")");
+	tinsert(strtab,"æš‚æ—¶ä¸è¦/nothing");
+	Say("è¯·é€‰æ‹©è¦å…‘æ¢çš„å±æ€§",
 		getn(strtab),
 		strtab);	
 end
 
 function confirm_lingshi_zhiding(nId,nLv,nWz,nIdx)
-	local tWz = {"M·o","Y phôc","Vò khİ","QuÇn "};
-	Say("Sè lÇn b¹n tiªu hao <color=yellow>"..nLv*tRandNum[nIdx][nLv+6].."<color> lÇn"..nLv.." (cÊp) Linh th¹ch ngÉu nhiªn ®Ó ®æi thuéc tİnh Linh th¹ch lµ <color=yellow>"..tRandNum[nIdx][1].."<color>, vŞ trİ kh¶m lµ 1 <color=yellow> "..tWz[nWz+1].."<color> "..nLv.." (cÊp) Linh th¹ch, ®ång ı chø?",
+	local tWz = {"å¸½å­","è¡£æœ","æ­¦å™¨","è£¤å­"};
+	Say("æ¶ˆè€—<color=yellow>"..nLv*tRandNum[nIdx][nLv+6].."<color>æ¬¡"..nLv.."(çº§)çµçŸ³æ¥éšæœºè·å¾—å±æ€§<color=yellow>"..tRandNum[nIdx][1].."<color>,é•¶åµŒåœ¨<color=yellow> "..tWz[nWz+1].."<color> "..nLv.."çš„çµçŸ³,ä½ ç¡®å®šå—ï¼Ÿ",
 		2,
-		"õ, ta muèn ®æi./#give_lingshi_zhiding("..nId..","..nLv..","..nWz..","..nIdx..")",
-		"T¹m thêi kh«ng ®æi. /nothing")
+		"æ˜¯çš„ï¼Œå¼€å§‹å§/#give_lingshi_zhiding("..nId..","..nLv..","..nWz..","..nIdx..")",
+		"æš‚æ—¶ä¸è¦/nothing")
 end
 
 function give_lingshi_zhiding(nId,nLv,nWz,nIdx)
@@ -393,7 +393,7 @@ function give_lingshi_zhiding(nId,nLv,nWz,nIdx)
 	local tLingshiTask = {SYS_TSK_LINGSHI_ONE,SYS_TSK_LINGSHI_TWO,SYS_TSK_LINGSHI_THREE,SYS_TSK_LINGSHI_FOUR,
 												SYS_TSK_LINGSHI_FIVE,SYS_TSK_LINGSHI_SIX,SYS_TSK_LINGSHI_SEVEN}		
 	if GetTask(tLingshiTask[nLv]) < nNum then
-		Talk(1,"","B¹n kh«ng ®ñ sè lÇn ngÉu nhiªn ®Ó ®æi lÊy lo¹i ®¸ b¹n cÇn. ");
+		Talk(1,"","ä½ æ²¡æœ‰è¶³å¤Ÿçš„éšæœºæ¬¡æ•°æ¥åˆæˆä½ éœ€è¦çš„çµçŸ³");
 		return
 	end
 	if Zgc_pub_goods_add_chk(1,1) ~= 1 then
@@ -401,45 +401,45 @@ function give_lingshi_zhiding(nId,nLv,nWz,nIdx)
 	end
 	SetTask(tLingshiTask[nLv],GetTask(tLingshiTask[nLv])-nNum);
 	AddLingShi(nId,nWz,nLv);
-	Msg2Player("B¹n nhËn ®­îc "..nLv.."(cÊp) Linh Th¹ch!");
+	Msg2Player("ä½ è·å¾—"..nLv.."(çº§)çµçŸ³");
 	if nLv >= 6 then
-		WriteLog("Ng­êi ch¬i"..GetName().."Sè lÇn ngÉu nhiªn tiªu hao "..nNum.." lÇn nhËn ®­îc "..nLv.."(cÊp) Linh Th¹ch!");
+		WriteLog("ç©å®¶"..GetName().."æ¶ˆè€—"..nNum.."æ¬¡éšæœºæ¬¡æ•°ï¼Œè·å¾—1ä¸ª"..nLv.."(çº§)çµçŸ³");
 	end
 end
 
 function zhiding_peifang()
 	local strtab = {
-		"Linh th¹ch phèi ph­¬ng mang thuéc tİnh ®Æc biÖt cÊp 1/#lspf_zhiding_lv(1)",
-		"Linh th¹ch phèi ph­¬ng mang thuéc tİnh ®Æc biÖt cÊp 2/#lspf_zhiding_lv(2)",
-		"Linh th¹ch phèi ph­¬ng mang thuéc tİnh ®Æc biÖt cÊp 3/#lspf_zhiding_lv(3)",
-		"Linh th¹ch phèi ph­¬ng mang thuéc tİnh ®Æc biÖt cÊp 4/#lspf_zhiding_lv(4)",
-		"Linh th¹ch phèi ph­¬ng mang thuéc tİnh ®Æc biÖt cÊp 4/#lspf_zhiding_lv(5)",
-		"Linh th¹ch phèi ph­¬ng mang thuéc tİnh ®Æc biÖt cÊp 6/#lspf_zhiding_lv(6)",
-		"trë l¹i/zhiding_main"
+		"1çº§çµçŸ³é…æ–¹å±æ€§/#lspf_zhiding_lv(1)",
+		"2çº§çµçŸ³é…æ–¹å±æ€§/#lspf_zhiding_lv(2)",
+		"3çº§çµçŸ³é…æ–¹å±æ€§/#lspf_zhiding_lv(3)",
+		"4çº§çµçŸ³é…æ–¹å±æ€§/#lspf_zhiding_lv(4)",
+		"5çº§çµçŸ³é…æ–¹å±æ€§/#lspf_zhiding_lv(5)",
+		"6çº§çµçŸ³é…æ–¹å±æ€§/#lspf_zhiding_lv(6)",
+		"è¿”å›/zhiding_main"
 		}
-	Say("Xin chän cÊp thuéc tİnh Linh th¹ch phèi ph­¬ng chØ ®Şnh. ",
+	Say("è¯·é€‰æ‹©çµçŸ³é…æ–¹çš„ç­‰çº§",
 		getn(strtab),
 		strtab)		
 end
 
 function lspf_zhiding_lv(nLv)
 	local strtab = {
-		"M·o/#lspf_zhiding_wz("..nLv..",0,0)",
-		"Y phôc/#lspf_zhiding_wz("..nLv..",1,0)",
-		"Vò khİ/#lspf_zhiding_wz("..nLv..",2,0)",
-		"QuÇn /#lspf_zhiding_wz("..nLv..",3,0)",
-		"trë l¹i/zhiding_peifang",
-		"T¹m thêi kh«ng ®æi. /nothing"
+		"å¸½å­/#lspf_zhiding_wz("..nLv..",0,0)",
+		"è¡£æœ/#lspf_zhiding_wz("..nLv..",1,0)",
+		"æ­¦å™¨/#lspf_zhiding_wz("..nLv..",2,0)",
+		"è£¤å­/#lspf_zhiding_wz("..nLv..",3,0)",
+		"è¿”å›/zhiding_peifang",
+		"æš‚æ—¶ä¸è¦/nothing"
 		}
-	Say("Xin chän vŞ trİ kh¶m Linh th¹ch phèi ph­¬ng chØ ®Şnh. ",
+	Say("è¯·é€‰æ‹©ä½ è¦é•¶åµŒçš„ä½ç½®",
 		getn(strtab),
 		strtab)	
 end
 
 function lspf_zhiding_wz(nLv,nWz,nPage)
 	local tAttri = {};
-	local tIdx = {}; --¶ÔÓ¦tRandNum±íµÄË÷Òı
-	for i = 22,getn(tRandNum) do --×¢ÒâÕâÀï£¡tRandNum±íµÄÇ°21ÏîÊôĞÔÊÇÃ»ÓĞÅä·½µÄ£¡
+	local tIdx = {}; --å¯¹åº”tRandNumè¡¨çš„ç´¢å¼•
+	for i = 22,getn(tRandNum) do --æ³¨æ„è¿™é‡Œï¼tRandNumè¡¨çš„å‰21é¡¹å±æ€§æ˜¯æ²¡æœ‰é…æ–¹çš„ï¼
 		if tRandNum[i][3] == nWz and tRandNum[i][4] <= nLv then
 			tinsert(tAttri,tRandNum[i]);
 			tinsert(tIdx,i)
@@ -456,24 +456,24 @@ function lspf_zhiding_wz(nLv,nWz,nPage)
 		tinsert(strtab,tAttri[nPage*nPageNum+i][1].."/#confirm_lspf_zhiding("..tAttri[nPage*nPageNum+i][2]..","..nLv..","..nWz..","..tIdx[nPage*nPageNum+i]..")");
 	end
 	if nPage > 0 then
-		tinsert(strtab,"Trang tr­íc/#lspf_zhiding_wz("..nLv..","..nWz..","..(nPage-1)..")");
+		tinsert(strtab,"ä¸Šä¸€é¡µ/#lspf_zhiding_wz("..nLv..","..nWz..","..(nPage-1)..")");
 	end
 	if nRemaid > 6 then
-		tinsert(strtab,"Trang kÕ/#lspf_zhiding_wz("..nLv..","..nWz..","..(nPage+1)..")");
+		tinsert(strtab,"ä¸‹ä¸€é¡µ/#lspf_zhiding_wz("..nLv..","..nWz..","..(nPage+1)..")");
 	end
-	tinsert(strtab,"trë l¹i/#lspf_zhiding_lv("..nLv..")");
-	tinsert(strtab,"T¹m thêi kh«ng ®æi. /nothing");
-	Say("Xin chän thuéc tİnh Linh th¹ch phèi ph­¬ng muèn ®æi. ",
+	tinsert(strtab,"è¿”å›/#lspf_zhiding_lv("..nLv..")");
+	tinsert(strtab,"æš‚æ—¶ä¸è¦/nothing");
+	Say("è¯·é€‰æ‹©è¦å…‘æ¢çš„å±æ€§",
 		getn(strtab),
 		strtab);	
 end
 
 function confirm_lspf_zhiding(nId,nLv,nWz,nIdx)
-	local tWz = {"M·o","Y phôc","Vò khİ","QuÇn "};
-	Say("Sè lÇn b¹n tiªu hao <color=yellow>"..nLv*tRandNum[nIdx][nLv+6].."<color> lÇn"..nLv.." (cÊp) Linh th¹ch phèi ph­¬ng ngÉu nhiªn ®æi thµnh <color=yellow>1"..tRandNum[nIdx][1].."<color>, vŞ trİ kh¶m lµ 1 <color=yellow> "..tWz[nWz+1].."<color> "..nLv.." (cÊp) Linh th¹ch phèi ph­¬ng, b¹n chÊp nhËn?",
+	local tWz = {"å¸½å­","è¡£æœ","æ­¦å™¨","è£¤å­"};
+	Say("æ¶ˆè€—<color=yellow>"..nLv*tRandNum[nIdx][nLv+6].."<color>æ¬¡"..nLv.."(çº§)çµçŸ³é…æ–¹æ¥éšæœºè·å¾—å±æ€§<color=yellow>1"..tRandNum[nIdx][1].."<color>,é•¶åµŒåœ¨<color=yellow> "..tWz[nWz+1].."<color> "..nLv.."çš„çµçŸ³é…æ–¹,ä½ ç¡®å®šå—ï¼Ÿ",
 		2,
-		"õ, ta muèn ®æi./#give_lspf_zhiding("..nId..","..nLv..","..nWz..","..nIdx..")",
-		"T¹m thêi kh«ng ®æi. /nothing")	
+		"æ˜¯çš„ï¼Œå¼€å§‹å§/#give_lspf_zhiding("..nId..","..nLv..","..nWz..","..nIdx..")",
+		"æš‚æ—¶ä¸è¦/nothing")	
 end
 
 function give_lspf_zhiding(nId,nLv,nWz,nIdx)
@@ -481,7 +481,7 @@ function give_lspf_zhiding(nId,nLv,nWz,nIdx)
 	local tPeifangTask = {SYS_TSK_PEIFANG_ONE,SYS_TSK_PEIFANG_TWO,SYS_TSK_PEIFANG_THREE,SYS_TSK_PEIFANG_FOUR,
 												SYS_TSK_PEIFANG_FIVE,SYS_TSK_PEIFANG_SIX,SYS_TSK_PEIFANG_SEVEN}
 	if GetTask(tPeifangTask[nLv]) < nNum then
-		Talk(1,"","B¹n kh«ng ®ñ sè lÇn ngÉu nhiªn ®Ó ®æi thµnh th¹ch phèi ph­¬ng. ");
+		Talk(1,"","ä½ æ²¡æœ‰è¶³å¤Ÿçš„éšæœºæ¬¡æ•°æ¥åˆæˆä½ éœ€è¦çš„çµçŸ³é…æ–¹");
 		return
 	end
 	if Zgc_pub_goods_add_chk(1,1) ~= 1 then
@@ -500,37 +500,37 @@ function give_lspf_zhiding(nId,nLv,nWz,nIdx)
 	end
 	SetTask(tPeifangTask[nLv],GetTask(tPeifangTask[nLv])-nNum);
 	if AddItem(nPfid1,nPfid2,nPfid3,1) == 1 then
-		Msg2Player("B¹n nhËn ®­îc "..nLv.."(cÊp)thuéc tİnh Linh th¹ch phèi ph­¬ng");
+		Msg2Player("ä½ è·å¾—"..nLv.."(çº§)å±æ€§çµçŸ³é…æ–¹");
 		if nLv >= 6 then
-			WriteLog("Ng­êi ch¬i"..GetName().."tiªu hao "..nNum.." lÇn ngÉu nhiªn, nhËn ®­îc 1 "..nLv.." (cÊp)thuéc tİnh Linh th¹ch phèi ph­¬ng");
+			WriteLog("ç©å®¶"..GetName().."æ¶ˆè€—"..nNum.."æ¬¡éšæœºæ¬¡æ•°,è·å¾—1å¼ "..nLv.."(çº§)å±æ€§çµçŸ³é…æ–¹");
 		end
 	else
-		WriteLog("Ng­êi ch¬i"..GetName().."tiªu hao "..nNum.." lÇn ngÉu nhiªn, nhËn ®­îc 1 "..nLv.." (cÊp)thuéc tİnh Linh th¹ch phèi ph­¬ng ®· thÊt b¹i! ")
+		WriteLog("ç©å®¶"..GetName().."æ¶ˆè€—"..nNum.."æ¬¡éšæœºæ¬¡æ•°,è·å¾—1å¼ "..nLv.."(çº§)å±æ€§çµçŸ³é…æ–¹å¤±è´¥ï¼")
 	end
 end
 
 function zhiding_gaoji()
 	local strtab = {
-		"Ta muèn ®æi Linh th¹ch ngÉu nhiªn cÊp thÊp thµnh cÊp cao. /zhiding_lingshi_gaoji",
-		"Ta muèn ®æi Linh th¹ch phèi ph­¬ng ngÉu nhiªn cÊp thÊp thµnh cÊp cao. /zhiding_lspf_gaoji",
-		"trë l¹i/zhiding_main",
-		"T¹m thêi kh«ng ®æi. /nothing"
+		"æˆ‘æƒ³æŠŠä½çº§çµçŸ³æ¥åˆæˆé«˜çº§çš„/zhiding_lingshi_gaoji",
+		"æˆ‘æƒ³æŠŠä½çº§çµçŸ³é…æ–¹åˆæˆé«˜çº§çš„/zhiding_lspf_gaoji",
+		"è¿”å›/zhiding_main",
+		"æš‚æ—¶ä¸è¦/nothing"
 		}
-	Say("Ng­¬i muèn ®æi Linh th¹ch hay Linh th¹ch phèi ph­¬ng?",
+	Say("ä½ æƒ³åˆæˆçµçŸ³è¿˜æ˜¯é…æ–¹ï¼Ÿ",
 		getn(strtab),
 		strtab)	
 end
 
 function zhiding_lingshi_gaoji()
 	local strtab = {
-		"Ta muèn tiªu hao Linh th¹ch ngÉu nhiªn cÊp 1 ®æi thµnh linh th¹ch cÊp 2/#ls_change_high(1)",
-		"Ta muèn tiªu hao Linh th¹ch ngÉu nhiªn cÊp 2 ®æi lÊy Linh th¹ch cÊp 3/#ls_change_high(2)",
-		"Ta muèn tiªu hao Linh th¹ch ngÉu nhiªn cÊp 3 ®æi lÊy Linh th¹ch cÊp 4/#ls_change_high(3)",
-		"Ta muèn tiªu hao Linh th¹ch ngÉu nhiªn cÊp 4 ®æi lÊy Linh th¹ch cÊp 5/#ls_change_high(4)",
-		"trë l¹i/zhiding_gaoji",
-		"T¹m thêi kh«ng ®æi. /nothing"
+		"æˆ‘æƒ³æŠŠ1çº§çµçŸ³åˆæˆ2çº§çš„/#ls_change_high(1)",
+		"æˆ‘æƒ³æŠŠ2çº§çµçŸ³åˆæˆ3çº§çš„/#ls_change_high(2)",
+		"æˆ‘æƒ³æŠŠ3çº§çµçŸ³åˆæˆ4çº§çš„/#ls_change_high(3)",
+		"æˆ‘æƒ³æŠŠ4çº§çµçŸ³åˆæˆ5çº§çš„/#ls_change_high(4)",
+		"è¿”å›/zhiding_gaoji",
+		"æš‚æ—¶ä¸è¦/nothing"
 		}
-	Say("Xin chän cÊp linh th¹ch muèn ®æi. (sè l­îng ®æi sÏ x¸c nhËn ë b­íc sau)",
+	Say("è¯·é€‰æ‹©è¦åˆæˆçš„çµçŸ³ç­‰çº§. (æ›´æ”¹æ•°é‡å°†åœ¨æ¥ä¸‹æ¥çš„æ­¥éª¤ä¸­ç¡®è®¤)",
 		getn(strtab),
 		strtab)		
 end
@@ -540,48 +540,48 @@ function ls_change_high(nLv)
 												SYS_TSK_LINGSHI_FIVE,SYS_TSK_LINGSHI_SIX,SYS_TSK_LINGSHI_SEVEN}
 	local tNum = {3,3,5,5};
 	if GetTask(tLingshiTask[nLv]) < tNum[nLv] then
-		Talk(1,"","B¹n kh«ng ®ñ sè lÇn ngÉu nhiªn ®Ó ®æi");
+		Talk(1,"","ä½ æ²¡æœ‰è¶³å¤Ÿçš„éšæœºæ¬¡æ•°æ¥åˆæˆä½ éœ€è¦çµçŸ³");
 		return
 	end	
 	local nCount = floor(GetTask(tLingshiTask[nLv])/tNum[nLv]);
 	SetTaskTemp(TT_LINGSHI_CHANGE_LV,nLv);
-	AskClientForNumber("confirm_ls_change_high", 1, tonumber(nCount), "B¹n muèn ®æi bao nhiªu "..(nLv+1).." (cÊp) Linh th¹ch?");
+	AskClientForNumber("confirm_ls_change_high", 1, tonumber(nCount), "ä½ æƒ³å…‘æ¢å¤šå°‘ä¸ª"..(nLv+1).."(çº§)çµçŸ³");
 end
 
 function confirm_ls_change_high(nCount)
 	local nLv = GetTaskTemp(TT_LINGSHI_CHANGE_LV);
 	local tNum = {3,3,5,5};
 	local nNum = tNum[nLv]*nCount;
-	Say("B¹n chÊp nhËn tiªu hao "..nNum.." lÇn"..nLv.." (cÊp) Linh th¹ch ngÉu nhiªn ®Ó ®æi lÊy"..nCount.." "..(nLv+1).." (cÊp) Linh th¹ch?",
+	Say("ä½ ç¡®å®šæ¶ˆè€—"..nNum.."æ¬¡"..nLv.."(çº§)çµçŸ³éšæœºæ¬¡æ•°æ¥è·å¾—"..nCount.." "..(nLv+1).."(çº§)çµçŸ³å—ï¼Ÿ",
 		3,
-		"§ång ı/#give_ls_change_high("..nLv..","..nNum..","..nCount..")",
-		"Chän sai. Trë vÒ/zhiding_lingshi_gaoji",
-		"T¹m thêi kh«ng ®æi. /nothing")
+		"åŒæ„/#give_ls_change_high("..nLv..","..nNum..","..nCount..")",
+		"é€‰é”™äº†ï¼Œè¿”å›/zhiding_lingshi_gaoji",
+		"æš‚æ—¶ä¸è¦/nothing")
 end
 
-function give_ls_change_high(nLv,nNum,nCount)  --ÏûºÄµÄµÈ¼¶  ÏûºÄµÄµÈ¼¶´ÎÊı ¶Ò»»µÄµÈ¼¶¸öÊı
+function give_ls_change_high(nLv,nNum,nCount)  --æ¶ˆè€—çš„ç­‰çº§  æ¶ˆè€—çš„ç­‰çº§æ¬¡æ•° å…‘æ¢çš„ç­‰çº§ä¸ªæ•°
 	local tLingshiTask = {SYS_TSK_LINGSHI_ONE,SYS_TSK_LINGSHI_TWO,SYS_TSK_LINGSHI_THREE,SYS_TSK_LINGSHI_FOUR,
 												SYS_TSK_LINGSHI_FIVE,SYS_TSK_LINGSHI_SIX,SYS_TSK_LINGSHI_SEVEN}		
 	if GetTask(tLingshiTask[nLv]) < nNum then
-		Talk(1,"","B¹n kh«ng ®ñ sè lÇn ngÉu nhiªn ®Ó ®æi lÊy lo¹i ®¸ b¹n cÇn. ");
+		Talk(1,"","ä½ æ²¡æœ‰è¶³å¤Ÿçš„éšæœºæ¬¡æ•°æ¥åˆæˆä½ éœ€è¦çš„çµçŸ³");
 		return
 	end
 	SetTask(tLingshiTask[nLv],GetTask(tLingshiTask[nLv])-nNum);
 	SetTask(tLingshiTask[nLv+1],GetTask(tLingshiTask[nLv+1])+nCount);
-	Msg2Player("B¹n nhËn ®­îc "..(nLv+1).." (cÊp) Linh Th¹ch"..nCount.." , b¹n cã thÓ t¸ch lÊy nã tõ Tô Linh §Ünh. ");	
+	Msg2Player("ä½ è·å¾—"..(nLv+1).."(çº§)çµçŸ³"..nCount.." ,ä½ å¯ä»¥ä»èšçµé¼ä¸­æŠŠå®ƒæå–å‡ºæ¥ã€‚");	
 end
 
 function zhiding_lspf_gaoji()
 	local strtab = {
-		"Ta muèn tiªu hao Linh th¹ch phèi ph­¬ng cÊp 1 ngÉu nhiªn ®æi lÊy Linh th¹ch phèi ph­¬ng cÊp 2. /#lspf_change_high(1)",
-		"Ta muèn tiªu hao Linh th¹ch phèi ph­¬ng cÊp 2 ngÉu nhiªn ®æi lÊy Linh th¹ch phèi ph­¬ng cÊp 3./#lspf_change_high(2)",
-		"Ta muèn tiªu hao Linh th¹ch phèi ph­¬ng cÊp 3 ngÉu nhiªn ®æi lÊy Linh th¹ch phèi ph­¬ng cÊp 4. /#lspf_change_high(3)",
-		"Ta muèn tiªu hao Linh th¹ch phèi ph­¬ng cÊp 4 ngÉu nhiªn ®æi lÊy Linh th¹ch phèi ph­¬ng cÊp 5. /#lspf_change_high(4)",
-		"Ta muèn tiªu hao Linh th¹ch phèi ph­¬ng cÊp 5 ngÉu nhiªn ®æi lÊy Linh th¹ch phèi ph­¬ng cÊp 6./#lspf_change_high(5)",
-		"trë l¹i/zhiding_gaoji",
-		"T¹m thêi kh«ng ®æi. /nothing"
+		"æˆ‘æƒ³æŠŠ1çº§çµçŸ³é…æ–¹åˆæˆ2çº§/#lspf_change_high(1)",
+		"æˆ‘æƒ³æŠŠ2çº§çµçŸ³é…æ–¹åˆæˆ3çº§/#lspf_change_high(2)",
+		"æˆ‘æƒ³æŠŠ3çº§çµçŸ³é…æ–¹åˆæˆ4çº§/#lspf_change_high(3)",
+		"æˆ‘æƒ³æŠŠ4çº§çµçŸ³é…æ–¹åˆæˆ5çº§/#lspf_change_high(4)",
+		"æˆ‘æƒ³æŠŠ5çº§çµçŸ³é…æ–¹åˆæˆ6çº§/#lspf_change_high(5)",
+		"è¿”å›/zhiding_gaoji",
+		"æš‚æ—¶ä¸è¦/nothing"
 		}
-	Say("Xin chän ®¼ng cÊp Linh th¹ch phèi ph­¬ng muèn ®æi! (sè l­îng ®æi sÏ x¸c nhËn ë b­íc sau)",
+	Say("è¯·é€‰æ‹©çµçŸ³é…æ–¹ç­‰çº§(æ›´æ”¹æ•°é‡å°†åœ¨æ¥ä¸‹æ¥çš„æ­¥éª¤ä¸­ç¡®è®¤)",
 		getn(strtab),
 		strtab)		
 end
@@ -591,62 +591,62 @@ function lspf_change_high(nLv)
 												SYS_TSK_PEIFANG_FIVE,SYS_TSK_PEIFANG_SIX,SYS_TSK_PEIFANG_SEVEN}
 	local tNum = {3,3,5,5,5};
 	if GetTask(tPeifangTask[nLv]) < tNum[nLv] then
-		Talk(1,"","B¹n kh«ng ®ñ sè lÇn ngÉu nhiªn ®Ó ®èi lÊy Linh th¹ch phèi ph­¬ng.");
+		Talk(1,"","ä½ æ²¡æœ‰è¶³å¤Ÿçš„éšæœºæ¬¡æ•°æ¥åˆæˆä½ éœ€è¦çš„çµçŸ³é…æ–¹");
 		return
 	end
 	local nCount = floor(GetTask(tPeifangTask[nLv])/tNum[nLv]);
 	SetTaskTemp(TT_LSPF_CHANGE_LV,nLv);
-	AskClientForNumber("confirm_lspf_change_high", 1, tonumber(nCount), "B¹n muèn ®æi bao nhiªu "..(nLv+1).." (cÊp) Linh th¹ch phèi ph­¬ng? ");
+	AskClientForNumber("confirm_lspf_change_high", 1, tonumber(nCount), "ä½ æƒ³åˆæˆå¤šå°‘ä¸ª"..(nLv+1).."(çº§)çµçŸ³é…æ–¹ï¼Ÿ");
 end
 
 function confirm_lspf_change_high(nCount)
 	local nLv = GetTaskTemp(TT_LSPF_CHANGE_LV);
 	local tNum = {3,3,5,5,5};
 	local nNum = tNum[nLv]*nCount;
-	Say("B¹n chÊp nhËn tiªu hao "..nNum.." lÇn"..nLv.." (cÊp) Linh th¹ch phèi ph­¬ng ngÉu nhiªn ®æi lÊy "..nCount.."Tr­¬ng"..(nLv+1).." (cÊp) Linh th¹ch phèi ph­¬ng? ",
+	Say("ä½ ç¡®å®šæ¶ˆè€—"..nNum.."æ¬¡"..nLv.."(çº§)çµçŸ³é…æ–¹æ¥åˆæˆ "..nCount.."å¼ "..(nLv+1).."(çº§)çµçŸ³é…æ–¹ï¼Ÿ",
 		3,
-		"§ång ı/#give_lspf_change_high("..nLv..","..nNum..","..nCount..")",
-		"Chän sai. Trë vÒ/zhiding_lspf_gaoji",
-		"T¹m thêi kh«ng ®æi. /nothing")
+		"åŒæ„/#give_lspf_change_high("..nLv..","..nNum..","..nCount..")",
+		"é€‰é”™äº†ï¼Œè¿”å›/zhiding_lspf_gaoji",
+		"æš‚æ—¶ä¸è¦/nothing")
 end
 
 function give_lspf_change_high(nLv,nNum,nCount)
 	local tPeifangTask = {SYS_TSK_PEIFANG_ONE,SYS_TSK_PEIFANG_TWO,SYS_TSK_PEIFANG_THREE,SYS_TSK_PEIFANG_FOUR,
 												SYS_TSK_PEIFANG_FIVE,SYS_TSK_PEIFANG_SIX,SYS_TSK_PEIFANG_SEVEN}	
 	if GetTask(tPeifangTask[nLv]) < nNum then
-		Talk(1,"","B¹n kh«ng ®ñ sè lÇn ngÉu nhiªn ®Ó ®èi lÊy Linh th¹ch phèi ph­¬ng.");
+		Talk(1,"","ä½ æ²¡æœ‰è¶³å¤Ÿçš„éšæœºæ¬¡æ•°æ¥åˆæˆä½ éœ€è¦çš„çµçŸ³é…æ–¹");
 		return
 	end
 	SetTask(tPeifangTask[nLv],GetTask(tPeifangTask[nLv])-nNum);
 	SetTask(tPeifangTask[nLv+1],GetTask(tPeifangTask[nLv+1])+nCount);
-	Msg2Player("B¹n nhËn ®­îc "..(nLv+1).." (cÊp)-linh th¹ch phèi ph­¬ng."..nCount.." , b¹n cã thÓ t¸ch nã tõ Tô Linh §Ünh. ");	
+	Msg2Player("ä½ è·å¾—"..(nLv+1).."(çº§)-çµçŸ³é…æ–¹."..nCount.." ,ä½ å¯ä»¥ä»èšçµé¼ä¸­æŠŠå®ƒæå–å‡ºæ¥");	
 end
 
 function zhiding_yuehua()
 	local strtab = {
-		"Ta ph¶i tiªu hao 5 lÇn Linh th¹ch cÊp 5 ngÉu nhiªn ®æi lÊy NguyÖt Hoa. /lingshi_change_yuehua",
---		"ÎÒÒªÏûºÄ5´Î5¼¶ÁéÊ¯Åä·½Ëæ»ú´ÎÊı¶Ò»»1¸öÌìµØĞş»ÆÊ¯/lspf_change_stone",
-		"trë l¹i/zhiding_main",
-		"T¹m thêi kh«ng ®æi. /nothing"
+		"æˆ‘è¦æ¶ˆè€—5æ¬¡5çº§çµçŸ³é…æ–¹éšæœºæ¬¡æ•°å…‘æ¢1ä¸ªæœˆå/lingshi_change_yuehua",
+--		"æˆ‘è¦æ¶ˆè€—5æ¬¡5çº§çµçŸ³é…æ–¹éšæœºæ¬¡æ•°å…‘æ¢1ä¸ªå¤©åœ°ç„é»„çŸ³/lspf_change_stone",
+		"è¿”å›/zhiding_main",
+		"æš‚æ—¶ä¸è¦/nothing"
 		}
-	Say("Xin chän vËt phÈm b¹n muèn ®æi. ",
+	Say("è¯·é€‰æ‹©ä½ æƒ³è¦å…‘æ¢çš„é¡¹ç›®",
 		getn(strtab),
 		strtab)	
 end
 
 function lingshi_change_yuehua()
-	Say("B¹n chÊp nhËn tiªu hao 5 lÇn Linh th¹ch cÊp 5 ngÉu nhiªn ®æi lÊy NguyÖt Hoa?",
+	Say("ä½ ç¡®å®šæ¶ˆè€—5æ¬¡5çº§çµçŸ³é…æ–¹éšæœºæ¬¡æ•°æ¥å…‘æ¢1ä¸ªæœˆåå—ï¼Ÿ",
 		3,
-		"§ång ı/confirm_lingshi_yuehua",
-		"trë l¹i/zhiding_yuehua",
-		"T¹m thêi kh«ng ®æi. /nothing")
+		"åŒæ„/confirm_lingshi_yuehua",
+		"è¿”å›/zhiding_yuehua",
+		"æš‚æ—¶ä¸è¦/nothing")
 end
 
 function confirm_lingshi_yuehua()
 	local tLingshiTask = {SYS_TSK_LINGSHI_ONE,SYS_TSK_LINGSHI_TWO,SYS_TSK_LINGSHI_THREE,SYS_TSK_LINGSHI_FOUR,
 												SYS_TSK_LINGSHI_FIVE,SYS_TSK_LINGSHI_SIX,SYS_TSK_LINGSHI_SEVEN}		
 	if GetTask(tLingshiTask[5]) < 5 then
-		Talk(1,"","B¹n kh«ng ®ñ sè lÇn ngÉu nhiªn ®Ó ®æi lÊy lo¹i ®¸ b¹n cÇn. ");
+		Talk(1,"","ä½ æ²¡æœ‰è¶³å¤Ÿçš„éšæœºæ¬¡æ•°æ¥å…‘æ¢ä½ éœ€è¦çš„æœˆå");
 		return
 	end
 	if Zgc_pub_goods_add_chk(1,1) ~= 1 then
@@ -654,23 +654,23 @@ function confirm_lingshi_yuehua()
 	end
 	SetTask(tLingshiTask[5],GetTask(tLingshiTask[5])-5);
 	if AddItem(2,1,2002,1) == 1 then
-		Msg2Player(" B¹n nhËn ®­îc 1 NguyÖt Hoa ");
+		Msg2Player(" ä½ è·å¾—1ä¸ªæœˆå");
 	end		
 end
 
 function lspf_change_stone()
-	Say("B¹n chÊp nhËn tiªu hao 5 lÇn Linh th¹ch phèi ph­¬ng cÊp 5 ngÉu nhiªn ®æi lÊy 1 HuyÒn Hoµng Th¹ch? ",
+	Say("ä½ ç¡®å®šè¦æ¶ˆè€—5æ¬¡5çº§çµçŸ³é…æ–¹éšæœºæ¬¡æ•°æ¥å…‘æ¢1ä¸ªå¤©åœ°ç„é»„çŸ³å—ï¼Ÿ",
 		3,
-		"§ång ı/confirm_lspf_stone",
-		"trë l¹i/zhiding_yuehua",
-		"T¹m thêi kh«ng ®æi. /nothing")
+		"åŒæ„/confirm_lspf_stone",
+		"è¿”å›/zhiding_yuehua",
+		"æš‚æ—¶ä¸è¦/nothing")
 end
 
 function confirm_lspf_stone()
 	local tPeifangTask = {SYS_TSK_PEIFANG_ONE,SYS_TSK_PEIFANG_TWO,SYS_TSK_PEIFANG_THREE,SYS_TSK_PEIFANG_FOUR,
 												SYS_TSK_PEIFANG_FIVE,SYS_TSK_PEIFANG_SIX,SYS_TSK_PEIFANG_SEVEN}	
 	if GetTask(tPeifangTask[5]) < 5 then
-		Talk(1,"","B¹n kh«ng ®ñ sè lÇn ngÉu nhiªn ®Ó ®èi lÊy Linh th¹ch phèi ph­¬ng.");
+		Talk(1,"","ä½ æ²¡æœ‰è¶³å¤Ÿçš„éšæœºæ¬¡æ•°æ¥æå–ä½ éœ€è¦çš„å¤©åœ°ç„é»„çŸ³");
 		return
 	end
 	if Zgc_pub_goods_add_chk(1,1) ~= 1 then
@@ -678,35 +678,35 @@ function confirm_lspf_stone()
 	end
 	SetTask(tPeifangTask[5],GetTask(tPeifangTask[5])-5);
 	if AddItem(2,1,1151,1) == 1 then
-		Msg2Player("B¹n nhËn ®­îc 1 HuyÒn Hoµng Th¹ch ");
+		Msg2Player("ä½ è·å¾—1ä¸ªå¤©åœ°ç„é»„çŸ³");
 	end		
 end
 
 function how_change()
-	Talk(1,"how_change2","Linh th¹ch trong Tô Linh §Ünh ®· x¸c ®Şnh thuéc tİnh hay ch­a, t¸ch ra cã thÓ ®­îc 1 thuéc tİnh ngÉu nhiªn. B¹n cã thÓ th«ng qua sè l­îng linh th¹ch cïng cÊp ®· tiªu hao trong Tô Linh §Ünh ®Ó chØ ®Şnh nhËn ®­îc 1 thuéc tİnh linh th¹ch cïng cÊp. Phèi ph­¬ng chØ ®Şnh còng lµm nh­ vËy.")
+	Talk(1,"how_change2","çµçŸ³å·²ç»åœ¨èšçµé¼é‡Œé¢ï¼Œè¯·ç¡®è®¤æ˜¯å¦æœ‰æŒ‡å®šçš„å±æ€§è¿˜æ˜¯æ²¡æœ‰ï¼Œå¯ä»¥æå–1ä¸ªéšæœºå±æ€§ã€‚ä½ å¯ä»¥é€šè¿‡æ¶ˆè€—åŒçº§æ•°é‡çš„çµçŸ³æ¥æå–1ä¸ªç›¸åŒçµçŸ³çš„å±æ€§ï¼ŒæŒ‡å®šçš„æ•°é‡ä¹Ÿæ˜¯è¿™æ ·ã€‚")
 end
 
 function how_change2()
-	Talk(1,"how_change3","B¹n cã thÓ linh th¹ch cÊp thÊp trong Tô Linh §Ünh chuyÓn hãa thµnh Linh th¹ch cÊp cao. Vİ dô cho vµo Tô Linh §Ünh 10 Linh th¹ch cÊp 4 ®Ó chuyÓn hãa thµnh 2 Linh th¹ch cÊp 5. Sè l­îng linh th¹ch kh«ng cïng ®¼ng cÊp cÇn ®Ó chuyÓn hãa còng kh«ng gièng nhau. ")
+	Talk(1,"how_change3","ä½ å¯ä»¥åœ¨èšçµé¼ä¸­å°†ä½çº§çš„çµçŸ³åˆæˆé«˜çº§çš„ï¼Œä¾‹å¦‚èšçµé¼é‡Œæœ‰10ä¸ª4çº§çµçŸ³å¯ä»¥åˆæˆ2ä¸ª5çº§çµçŸ³ã€‚ä¸ä¸€æ ·çš„çµçŸ³ç­‰çº§éœ€è¦å…‘æ¢çš„æ•°é‡ä¹Ÿä¸ä¸€æ ·ã€‚")
 end
 
 function how_change3()
-	Talk(1,"OnUse","Linh th¹ch vµ Linh th¹ch phèi ph­¬ng trong Tô Linh §Ünh, ngoµi viÖc t¸ch lÊy vµ chuyÓn hãa ra, cßn cã thÓ chuyÓn hãa chóng thµnh NguyÖt Hoa vµ HuyÒn Hoµng Th¹ch cã hiÖu qu¶ ®Æc biÖt. ")
+	Talk(1,"OnUse","çµçŸ³ä»¥åŠçµçŸ³é…æ–¹åœ¨èšçµé¼ä¸­ï¼Œé™¤äº†å¯ä»¥æå–å’Œåˆæˆå¤–ï¼Œè¿˜å¯ä»¥å…‘æ¢æˆæœˆåæˆ–è€…å¤©åœ°ç„é»„çŸ³ã€‚")
 end
 
 function nothing()
 
 end
 
---º¯ÊıÃû³Æ£ºÎïÆ·Ìí¼Ó¼ì²éº¯Êı
---¹¦        ÄÜ£º¶Ôµ±Ç°Íæ¼Ò¿É·ñÕı³£Ìí¼ÓÎïÆ·½øĞĞ¼ì²â
---´å³¤ 
+--å‡½æ•°åç§°ï¼šç‰©å“æ·»åŠ æ£€æŸ¥å‡½æ•°
+--åŠŸ        èƒ½ï¼šå¯¹å½“å‰ç©å®¶å¯å¦æ­£å¸¸æ·»åŠ ç‰©å“è¿›è¡Œæ£€æµ‹
+--æ‘é•¿ 
 function Zgc_pub_goods_add_chk(goods_num,goods_weight)
 		if GetFreeItemRoom() < goods_num then
-			Talk (1,"","<color=red>kho¶ng trèng<color> trong hµnh trang kh«ng ®ñ!")
+			Talk (1,"","<color=red>ä½ çš„èƒŒåŒ…ç©ºé—´<color>ä¸è¶³ï¼")
 			return 0
-		elseif (GetMaxItemWeight() - GetCurItemWeight()) < goods_weight then			--ÅĞ¶ÏÍæ¼Ò¸ºÖØºÍ¿Õ¼ä
-			Talk (1,"","<color=red>Søc lùc<color> cña b¹n kh«ng ®ñ!")
+		elseif (GetMaxItemWeight() - GetCurItemWeight()) < goods_weight then			--åˆ¤æ–­ç©å®¶è´Ÿé‡å’Œç©ºé—´
+			Talk (1,"","<color=red>ä½ çš„è´Ÿé‡åŠ›<color>ä¸å¤Ÿ")
 			return 0
 		else 
 			return 1
